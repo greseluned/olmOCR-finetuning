@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:34:20.876+02:00</Created>
+        <LastChange>2026-06-02T23:19:00.853+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115571898" pageNr="1" tsid="290487142" status="DONE" userId="512533" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=FYKMLOYYRFOJEKOCFVOWJWWL" xmlUrl="https://files.transkribus.eu/Get?id=UVOVORBTSSWEOHZWPWVUJHQV" imageId="17057179"/>
+    </Metadata>
+    <Page imageFilename="0001_Semana-0001.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="136,387 2475,387 2475,3408 136,3408"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782324017983" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_3_1"/>
+                <RegionRefIndexed index="1" regionRef="r_1_1"/>
+                <RegionRefIndexed index="2" regionRef="r_4_1"/>
+                <RegionRefIndexed index="3" regionRef="r"/>
+                <RegionRefIndexed index="5" regionRef="r_5_1"/>
+                <RegionRefIndexed index="6" regionRef="r_6_1"/>
+                <RegionRefIndexed index="7" regionRef="r_7_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r_5_1"/>
+            </Relation>
+        </Relations>
+        <TextRegion orientation="0.0" type="paragraph" id="r_3_1" custom="readingOrder {index:0;} structure {type:Title-newspaper;}">
+            <Coords points="90,207 1261,219 1258,570 92,578"/>
+            <TextLine id="r_3_1l1" custom="readingOrder {index:0;}">
+                <Coords points="128,586 481,574 523,542 669,577 768,544 910,574 968,541 1050,570 1263,560 1263,460 1217,428 959,446 778,389 677,452 494,426 404,460 128,439"/>
+                <Baseline points="122,551 379,549 425,549 471,549 517,549 564,549 610,549 656,549 702,549 748,549 795,549 841,549 887,549 933,549 979,549 1026,549 1072,549 1118,549 1164,549 1210,548 1257,548"/>
+                <TextEquiv>
+                    <Unicode>SEMANA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>SEMANA</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:1;} structure {type:header;}">
+            <Coords points="1514,371 2105,387 2103,465 1514,462"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1878,452 1909,443 1920,454 1956,454 1976,468 2015,454 2024,460 2046,447 2102,456 2103,401 2076,398 2031,425 2008,404 1974,414 1956,409 1922,381 1879,385"/>
+                <Baseline points="1546,447 1910,446 1937,446 1963,447 1990,449 2016,450 2043,450 2069,449 2096,447"/>
+                <TextEquiv>
+                    <Unicode>Vol. 1 - Num. 8</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Num. 8</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:2;} structure {type:Subtitle-newspaper;}">
+            <Coords points="252,672 1138,672 1138,712 252,712"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;}">
+                <Coords points="249,726 1113,716 1113,673 976,657 249,673"/>
+                <Baseline points="255,704 297,704 340,704 382,704 425,704 468,704 510,704 553,704 595,704 638,704 681,704 723,704 766,704 808,704 851,704 894,704 936,705 979,705 1021,705 1064,705 1107,705"/>
+                <TextEquiv>
+                    <Unicode>REVISTA ILUSTRADA HISPANO- FILIPINA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>REVISTA ILUSTRADA HISPANO- FILIPINA</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:3;} structure {type:marginalia;}">
+            <Coords points="232,742 419,742 419,878 232,878"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="269,786 390,794 392,764 271,756"/>
+                <Baseline points="269,786 390,794"/>
+                <TextEquiv>
+                    <Unicode>AP61</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:1;}">
+                <Coords points="254,862 370,860 369,830 253,832"/>
+                <Baseline points="254,862 370,860"/>
+                <TextEquiv>
+                    <Unicode>S47</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_2" custom="readingOrder {index:4;} structure {type:photograph;}">
+            <Coords points="498,848 1924,867 1926,2831 500,2820"/>
+        </GraphicRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_5_1" custom="readingOrder {index:5;} structure {type:caption;}">
+            <Coords points="770,2862 1630,2862 1630,2970 770,2970"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;} person {offset:0; length:20;}">
+                <Coords points="955,2911 1452,2919 1452,2875 1427,2866 1377,2878 1292,2856 1247,2875 1184,2848 1154,2871 1099,2856 1060,2880 998,2857 955,2863"/>
+                <Baseline points="960,2900 985,2901 1011,2903 1036,2903 1062,2903 1087,2904 1113,2904 1139,2904 1164,2904 1190,2904 1215,2903 1241,2903 1266,2903 1292,2903 1318,2903 1343,2903 1369,2903 1394,2904 1420,2904 1446,2906"/>
+                <TextEquiv>
+                    <Unicode>Hon. José C. Zulueta</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l2" custom="readingOrder {index:1;}">
+                <Coords points="780,2984 910,2963 1203,2985 1248,2962 1367,2990 1494,2964 1603,2985 1595,2908 912,2937 780,2907"/>
+                <Baseline points="786,2954 826,2954 867,2955 907,2955 948,2955 989,2955 1029,2955 1070,2955 1110,2955 1151,2955 1192,2955 1232,2955 1273,2955 1313,2955 1354,2955 1395,2955 1435,2955 1476,2955 1516,2955 1557,2955 1598,2955"/>
+                <TextEquiv>
+                    <Unicode>Quien está poniendo el cascabel al gato"</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Hon. José C. ZuluetaQuien está poniendo el cascabel al gato"</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_6_1" custom="readingOrder {index:6;} structure {type:header;}">
+            <Coords points="217,3329 1010,3318 1010,3394 218,3391"/>
+            <TextLine id="line_1622644423489_328" custom="readingOrder {index:0;} place {offset:0; length:6;} date {offset:8; length:16;}">
+                <Coords points="516,3320 548,3315 930,3328 929,3406 636,3406 216,3388 216,3325"/>
+                <Baseline points="225,3379 471,3384 497,3386 523,3384 549,3384 575,3386 642,3380 667,3378 693,3377 718,3378 744,3379 770,3380 795,3382 821,3383 847,3383 872,3383 898,3382 924,3380"/>
+                <TextEquiv>
+                    <Unicode>Manila, 10 Febrero, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Manila, 10 Febrero, 1949</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_7_1" custom="readingOrder {index:7;} structure {type:header;}">
+            <Coords points="1717,3245 2182,3245 2198,3404 1729,3406"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="1776,3395 2185,3388 2184,3358 1775,3365"/>
+                <Baseline points="1776,3395 2185,3388"/>
+                <TextEquiv>
+                    <Unicode>30 Ctvos.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:8;}">
+            <Coords points="1537,475 2110,475 2110,487 1537,487"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:9;}">
+            <Coords points="296,619 1010,619 1010,634 296,634"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:10;}">
+            <Coords points="1658,857 1924,857 1924,860 1658,860"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:11;}">
+            <Coords points="448,3203 1300,3203 1300,3212 448,3212"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:12;}">
+            <Coords points="1300,3210 2112,3210 2112,3214 1300,3214"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:13;}">
+            <Coords points="2064,3394 2472,3394 2472,3405 2064,3405"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:14;}">
+            <Coords points="448,3399 1940,3399 1940,3405 448,3405"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:15;}">
+            <Coords points="1919,977 1923,977 1923,1321 1919,1321"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:16;}">
+            <Coords points="2469,3264 2472,3264 2472,3405 2469,3405"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:17;}">
+            <Coords points="1696,857 1817,857 1817,863 1696,863"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:35:29.874+02:00</Created>
+        <LastChange>2026-05-13T13:20:42.677+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572098" pageNr="95" tsid="287133393" status="DONE" userId="513448" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=VUDLKFNHFQYEUHZWGYFAGUZK" xmlUrl="https://files.transkribus.eu/Get?id=CFKOGXKJHXOLOQTIQNOOZMQL" imageId="17057607"/>
+    </Metadata>
+    <Page imageFilename="0095_Semana-0095.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="99,183 2402,183 2402,3290 99,3290"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782756324450" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="2" regionRef="r_3_1"/>
+                <RegionRefIndexed index="3" regionRef="r_4_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_1"/>
+                <RegionRef regionRef="r_3_1l6"/>
+                <RegionRef regionRef="r_4_1l7"/>
+            </Relation>
+        </Relations>
+        <GraphicRegion id="r_1" custom="readingOrder {index:0;} structure {type:photograph;}">
+            <Coords points="99,287 2402,287 2402,3038 99,3038"/>
+        </GraphicRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:heading;}">
+            <Coords points="388,183 2106,183 2106,265 388,265"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;} place {offset:8; length:6;}">
+                <Coords points="387,261 2094,261 2107,193 387,195"/>
+                <Baseline points="398,249 482,249 567,249 652,249 737,249 822,249 907,249 992,249 1077,249 1162,249 1247,249 1331,249 1416,249 1501,249 1586,249 1671,249 1756,249 1841,249 1926,249 2011,249 2096,249"/>
+                <TextEquiv>
+                    <Unicode>RUMBO A ESPAÑA EN VIAJE DE RECREO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>RUMBO A ESPAÑA EN VIAJE DE RECREO</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_3_1" custom="readingOrder {index:2;} structure {type:caption;}">
+            <Coords points="122,3035 1204,3035 1204,3290 122,3290"/>
+            <TextLine id="r_3_1l1" custom="readingOrder {index:0;}">
+                <Coords points="192,3078 1205,3073 1205,3029 192,3047"/>
+                <Baseline points="203,3068 252,3066 302,3066 351,3066 401,3066 450,3065 500,3065 549,3065 599,3065 648,3065 698,3063 748,3063 797,3063 847,3063 896,3063 946,3063 995,3063 1045,3062 1094,3062 1144,3062 1194,3062"/>
+                <TextEquiv>
+                    <Unicode>A bordo de uno de los Injosos aviones de la PAL, sale el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l2" custom="readingOrder {index:1;} place {offset:54; length:6;}">
+                <Coords points="115,3117 1162,3108 1208,3074 115,3081"/>
+                <Baseline points="125,3102 178,3101 232,3101 285,3099 339,3099 393,3099 446,3099 500,3098 553,3098 607,3098 661,3098 714,3098 768,3098 821,3098 875,3096 929,3096 982,3096 1036,3096 1089,3095 1143,3094 1197,3093"/>
+                <TextEquiv>
+                    <Unicode>prórimo sábado un grupo de distinguidos residentes de Manila</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l3" custom="readingOrder {index:2;} place {offset:23; length:6;}">
+                <Coords points="114,3147 1208,3140 1207,3103 1021,3098 114,3117"/>
+                <Baseline points="125,3137 178,3135 232,3135 285,3134 339,3134 392,3133 446,3132 499,3132 553,3132 606,3132 660,3132 714,3132 767,3131 821,3131 874,3131 928,3131 981,3130 1035,3129 1088,3129 1142,3128 1196,3128"/>
+                <TextEquiv>
+                    <Unicode>que van a disfrutar en España de un mes de vacación, durante</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l4" custom="readingOrder {index:3;} date {offset:35; length:12;} place {offset:51; length:7;}">
+                <Coords points="124,3181 1192,3185 1207,3142 124,3149"/>
+                <Baseline points="134,3170 187,3170 240,3169 293,3168 346,3168 399,3168 452,3168 505,3167 558,3167 611,3167 665,3167 718,3167 771,3165 824,3165 877,3165 930,3165 983,3165 1036,3165 1089,3165 1142,3167 1196,3167"/>
+                <TextEquiv>
+                    <Unicode>el cual asistiran a las fiestas de Semana Santa de Sevilla y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l5" custom="readingOrder {index:4;}">
+                <Coords points="118,3219 1170,3214 1208,3178 118,3183"/>
+                <Baseline points="129,3204 182,3204 235,3203 289,3203 342,3203 396,3201 449,3201 502,3201 556,3201 609,3201 663,3201 716,3201 769,3201 823,3201 876,3201 930,3201 983,3201 1036,3200 1090,3200 1143,3200 1197,3200"/>
+                <TextEquiv>
+                    <Unicode>visitarán otras importantes cindades españolas. Entre los via-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l6" custom="readingOrder {index:5;}">
+                <Coords points="114,3258 1191,3251 1206,3207 114,3219"/>
+                <Baseline points="125,3242 178,3240 232,3239 285,3237 339,3237 392,3237 446,3236 499,3236 553,3236 606,3236 660,3236 714,3236 767,3236 821,3236 874,3236 928,3237 981,3237 1035,3237 1088,3237 1142,3237 1196,3237"/>
+                <TextEquiv>
+                    <Unicode>jeros figuran los señores cuyas fotografías aparecen arriba y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l7" custom="readingOrder {index:6;} person {offset:11; length:12;} person {offset:47; length:10; continued:true;}">
+                <Coords points="122,3285 1152,3286 1213,3252 122,3255"/>
+                <Baseline points="132,3276 185,3275 239,3275 292,3273 346,3273 399,3273 453,3273 506,3273 560,3273 613,3273 667,3273 721,3273 774,3273 828,3273 881,3273 935,3273 988,3272 1042,3272 1095,3271 1149,3270 1203,3269"/>
+                <TextEquiv>
+                    <Unicode>son: No. 1—Manuel Tevés y su señora; No. 2—la Srta. Reme-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>A bordo de uno de los Injosos aviones de la PAL, sale elprórimo sábado un grupo de distinguidos residentes de Manilaque van a disfrutar en España de un mes de vacación, duranteel cual asistiran a las fiestas de Semana Santa de Sevilla yvisitarán otras importantes cindades españolas. Entre los via¬jeros figuran los señores cuyas fotografías aparecen arriba yson: No. 1—Manuel Tevés y su señora; No. 2—la Srta. Reme¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:3;} structure {type:caption;}">
+            <Coords points="1295,3034 2377,3034 2377,3290 1295,3290"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;} person {offset:0; length:10; continued:true;} person {offset:21; length:18;} person {offset:48; length:9; continued:true;}">
+                <Coords points="1297,3074 2344,3077 2379,3045 1298,3032"/>
+                <Baseline points="1308,3062 1363,3062 1419,3062 1475,3063 1530,3063 1586,3063 1642,3063 1698,3065 1753,3065 1809,3065 1865,3065 1921,3065 1976,3065 2032,3065 2088,3065 2144,3066 2199,3066 2255,3066 2311,3066 2367,3066"/>
+                <TextEquiv>
+                    <Unicode>dios Tevés; No. 3—la Srta. Carmón Camus; No.. 4—Dña. Con-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l2" custom="readingOrder {index:1;} person {offset:0; length:23; continued:true;} person {offset:33; length:21;}">
+                <Coords points="1293,3108 2379,3114 2379,3073 1293,3081"/>
+                <Baseline points="1304,3098 1357,3098 1410,3099 1463,3099 1517,3099 1570,3099 1623,3099 1676,3099 1730,3099 1783,3099 1836,3099 1889,3099 1943,3099 1996,3099 2049,3099 2102,3099 2156,3101 2209,3101 2262,3101 2315,3102 2369,3102"/>
+                <TextEquiv>
+                    <Unicode>cepción Montes de Longa; No. 5—el Dr. José Ma. Delgado y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l3" custom="readingOrder {index:2;} person {offset:20; length:22;}">
+                <Coords points="1291,3142 2374,3147 2374,3115 2314,3107 1291,3110"/>
+                <Baseline points="1301,3134 1354,3134 1407,3134 1460,3134 1513,3134 1566,3134 1619,3134 1672,3134 1725,3134 1778,3134 1832,3134 1885,3134 1938,3134 1991,3134 2044,3134 2097,3134 2150,3134 2203,3135 2256,3135 2309,3135 2363,3135"/>
+                <TextEquiv>
+                    <Unicode>su señora; No. 6—la Srta. Mercedes Pintado; No. 7—el jóven</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l4" custom="readingOrder {index:3;} person {offset:0; length:12;} person {offset:23; length:19;}">
+                <Coords points="1284,3171 2386,3174 2346,3140 1284,3148"/>
+                <Baseline points="1295,3167 1349,3167 1403,3168 1457,3168 1511,3168 1565,3168 1619,3168 1673,3168 1727,3168 1781,3168 1835,3168 1889,3168 1943,3168 1997,3168 2051,3168 2105,3168 2159,3168 2213,3168 2267,3168 2321,3168 2375,3168"/>
+                <TextEquiv>
+                    <Unicode>Tomás Syquia; No. 8—el Sr. Antonio González;  No. 9—la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l5" custom="readingOrder {index:4;} person {offset:10; length:20;} person {offset:53; length:5; continued:true;}">
+                <Coords points="1284,3213 2368,3215 2368,3181 2306,3174 1284,3179"/>
+                <Baseline points="1295,3201 1348,3201 1401,3203 1454,3203 1507,3203 1560,3204 1613,3204 1666,3204 1719,3204 1772,3204 1826,3204 1879,3204 1932,3204 1985,3204 2038,3204 2091,3203 2144,3203 2197,3204 2250,3204 2303,3204 2357,3204"/>
+                <TextEquiv>
+                    <Unicode>señora de D.. Antonio González, y su hijo; No. 10—la Srta.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l6" custom="readingOrder {index:5;} person {offset:0; length:14; continued:true;} person {offset:26; length:21;} person {offset:56; length:4; continued:true;}">
+                <Coords points="1284,3242 2373,3253 2374,3221 1284,3212"/>
+                <Baseline points="1295,3236 1348,3237 1401,3237 1455,3237 1508,3237 1562,3238 1615,3239 1668,3237 1722,3237 1775,3237 1829,3237 1882,3237 1935,3237 1989,3237 2042,3237 2096,3237 2149,3238 2202,3239 2256,3239 2309,3240 2363,3242"/>
+                <TextEquiv>
+                    <Unicode>Nellie Delgado; No. 11—la Srta. Consuelo Syquia; No. 12 Dña.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l7" custom="readingOrder {index:6;} person {offset:0; length:26; continued:true;} person {offset:39; length:21;}">
+                <Coords points="1292,3284 2383,3281 2279,3244 1292,3244"/>
+                <Baseline points="1302,3273 1355,3273 1409,3273 1462,3273 1516,3273 1569,3273 1623,3273 1676,3273 1730,3273 1783,3273 1837,3273 1890,3273 1944,3273 1997,3273 2051,3275 2104,3275 2158,3275 2211,3275 2265,3275 2318,3275 2372,3275"/>
+                <TextEquiv>
+                    <Unicode>Margarita Vda, de Preysler y No. 13—la Srta. Conchita Calero.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>dios Tevés; No. 3—la Srta. Carmón Camus; No.. 4—Dña. Con¬cepción Montes de Longa; No. 5—el Dr. José Ma. Delgado ysu señora; No. 6—la Srta. Mercedes Pintado; No. 7—el jóvenTomás Syquia; No. 8—el Sr. Antonio Gonzále:; No. 9—laseñora de D.. Antonio González, y su hijo; No. 10—la Srta.Nellie Delgado; No. 11—la Srta. Consuelo Syquia; No. 12 Diía.Margarita Vda, de Preysler y No. 13—la Srta. Conchita Calero.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

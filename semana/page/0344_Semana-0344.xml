@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:38:26.14+02:00</Created>
+        <LastChange>2026-06-24T20:18:12.026+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572464" pageNr="344" tsid="293817798" status="GT" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=XOJOOFEAPZKIGCANBEXHHYBA" xmlUrl="https://files.transkribus.eu/Get?id=EYGXMPIUMKLEVQHFEPQYPAGM" imageId="17058174"/>
+    </Metadata>
+    <Page imageFilename="0344_Semana-0344.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="92,271 2375,271 2375,3233 92,3233"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782403458990" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r"/>
+                <RegionRefIndexed index="2" regionRef="r_2_1"/>
+                <RegionRefIndexed index="4" regionRef="r_6_1"/>
+                <RegionRefIndexed index="5" regionRef="r_7_1"/>
+                <RegionRefIndexed index="7" regionRef="r_10_1"/>
+                <RegionRefIndexed index="9" regionRef="r_12_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_5"/>
+                <RegionRef regionRef="r_6_1l4"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_9"/>
+                <RegionRef regionRef="r_10_1l2"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_11"/>
+                <RegionRef regionRef="r_12_1l6"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_7_1"/>
+            </Relation>
+        </Relations>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="101,275 403,275 403,327 101,327"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;}">
+                <Coords points="107,323 337,313 351,323 393,322 392,273 353,274 335,292 313,292 293,274 106,274"/>
+                <Baseline points="113,317 140,315 167,315 194,315 222,314 249,314 276,314 304,314 331,313 358,312 386,311"/>
+                <TextEquiv>
+                    <Unicode>SEMANA—36</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>SEMANA—36</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:advertisement;}">
+            <Coords points="415,361 2117,361 2117,678 415,678"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="427,373 2064,638 2064,638 2064,608 2066,608 432,343"/>
+                <Baseline points="427,373 2064,638 2064,638"/>
+                <TextEquiv>
+                    <Unicode>Concurso De Belleza MISS AVIACIÓN 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:2;} structure {type:header;}">
+            <Coords points="1981,271 2373,271 2373,325 1981,325"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1989,315 2369,315 2369,272 2359,269 2281,269 2257,290 2240,277 2152,268 2076,277 1989,268"/>
+                <Baseline points="1995,311 2021,311 2047,311 2073,311 2100,311 2126,311 2152,311 2179,311 2205,312 2231,312 2257,312 2284,312 2310,311 2336,311 2363,309"/>
+                <TextEquiv>
+                    <Unicode>3 de Febrero, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>3 de Febrero, 1949</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_5" custom="readingOrder {index:3;} structure {type:photograph;}">
+            <Coords points="121,780 778,780 778,2978 121,2978"/>
+        </GraphicRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_6_1" custom="readingOrder {index:4;} structure {type:caption;}">
+            <Coords points="92,3013 802,3013 802,3230 92,3230"/>
+            <TextLine id="r_6_1l1" custom="readingOrder {index:0;}">
+                <Coords points="120,3058 433,3054 450,3037 504,3058 743,3058 792,3040 792,3024 728,3012 120,3013"/>
+                <Baseline points="126,3042 160,3044 195,3044 230,3044 264,3044 299,3044 334,3044 368,3044 403,3044 438,3044 472,3044 507,3044 542,3044 576,3044 611,3044 646,3044 680,3044 715,3045 750,3045 785,3045"/>
+                <TextEquiv>
+                    <Unicode>Señorita Consuelo Barreto' ganadora</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l2" custom="readingOrder {index:1;}">
+                <Coords points="93,3090 788,3086 788,3056 765,3052 508,3069 438,3050 93,3048"/>
+                <Baseline points="99,3077 133,3077 167,3078 201,3078 235,3078 269,3078 303,3078 338,3078 372,3078 406,3078 440,3078 474,3078 508,3078 542,3078 577,3078 611,3078 645,3080 679,3080 713,3080 747,3080 782,3081"/>
+                <TextEquiv>
+                    <Unicode>del concurso de belleza celebrado en la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l3" custom="readingOrder {index:2;}">
+                <Coords points="100,3122 792,3122 792,3092 684,3081 606,3102 100,3092"/>
+                <Baseline points="107,3113 140,3113 174,3113 208,3113 242,3113 276,3114 310,3114 344,3113 378,3113 412,3113 446,3113 479,3113 513,3113 547,3113 581,3113 615,3113 649,3113 683,3113 717,3113 751,3114 785,3114"/>
+                <TextEquiv>
+                    <Unicode>noche del s0 de Enero len el Manila</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l4" custom="readingOrder {index:3;}">
+                <Coords points="94,3151 783,3162 802,3122 94,3129"/>
+                <Baseline points="101,3147 135,3147 170,3147 205,3147 239,3147 274,3147 309,3147 343,3147 378,3147 413,3147 448,3147 482,3147 517,3147 552,3148 586,3149 621,3149 656,3149 690,3149 725,3149 760,3149 795,3150"/>
+                <TextEquiv>
+                    <Unicode>Hotel, en la que fué declarada MISS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l5" custom="readingOrder {index:4;}">
+                <Coords points="103,3194 790,3196 808,3156 103,3164"/>
+                <Baseline points="110,3183 144,3183 179,3183 213,3183 248,3183 282,3183 317,3183 351,3183 386,3183 420,3183 455,3183 490,3183 524,3183 559,3183 593,3183 628,3183 662,3183 697,3183 731,3183 766,3183 801,3183"/>
+                <TextEquiv>
+                    <Unicode>AVIACION 1949 y la cual irá a España</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l6" custom="readingOrder {index:5;}">
+                <Coords points="107,3228 744,3227 713,3190 107,3194"/>
+                <Baseline points="114,3219 145,3219 176,3219 207,3219 238,3219 270,3219 301,3219 332,3219 363,3219 394,3219 426,3219 457,3219 488,3219 519,3219 550,3219 582,3219 613,3219 644,3219 675,3219 706,3219 738,3219"/>
+                <TextEquiv>
+                    <Unicode>en breve en un avión de la P.A..L.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Señorita Consuelo Barreto' ganadoradel concurso de belleza celebrado en lanoche del s0 de Enero len el ManilaHotel, en la que fué declarada MISSAVIACION 1949 y la cual irá a Españaen breve en un avión de la P.A..L.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_7_1" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="876,850 1609,850 1609,2955 876,2955"/>
+            <TextLine id="r_7_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1185,884 1209,878 1215,883 1244,882 1253,886 1263,884 1275,874 1317,874 1316,852 1286,856 1257,851 1184,854"/>
+                <Baseline points="1191,876 1220,875 1250,876 1280,875 1310,869"/>
+                <TextEquiv>
+                    <Unicode>—</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l2" custom="readingOrder {index:1;}">
+                <Coords points="922,1026 1504,1038 1599,1022 1599,994 1521,980 1265,986 1244,1007 922,992"/>
+                <Baseline points="929,1020 962,1020 995,1020 1028,1019 1061,1019 1095,1019 1128,1019 1161,1019 1194,1019 1227,1019 1261,1019 1294,1019 1327,1019 1360,1019 1393,1019 1427,1020 1460,1020 1493,1020 1526,1021 1559,1022 1593,1022"/>
+                <TextEquiv>
+                    <Unicode>Este cencurso de belleza para</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l3" custom="readingOrder {index:2;}">
+                <Coords points="888,1091 1596,1083 1596,1049 1283,1033 1235,1050 1180,1028 887,1043"/>
+                <Baseline points="894,1074 928,1074 963,1074 998,1074 1033,1073 1068,1073 1102,1073 1137,1073 1172,1073 1207,1071 1242,1071 1276,1071 1311,1071 1346,1071 1381,1071 1416,1071 1450,1071 1485,1071 1520,1073 1555,1073 1590,1074"/>
+                <TextEquiv>
+                    <Unicode>proclamar MISS AVIACIÓN 1949,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l4" custom="readingOrder {index:3;}">
+                <Coords points="875,1135 1590,1147 1591,1108 1004,1095 943,1117 875,1096"/>
+                <Baseline points="882,1133 917,1133 952,1131 987,1131 1022,1131 1057,1131 1092,1131 1127,1131 1162,1131 1197,1131 1233,1131 1268,1131 1303,1131 1338,1131 1373,1131 1408,1131 1443,1133 1478,1133 1513,1133 1548,1133 1584,1133"/>
+                <TextEquiv>
+                    <Unicode>ha sido patrocinado por el Club de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l5" custom="readingOrder {index:4;}">
+                <Coords points="887,1195 1255,1203 1372,1185 1462,1204 1590,1195 1590,1156 1385,1155 1365,1175 1195,1141 1152,1163 887,1157"/>
+                <Baseline points="893,1182 927,1182 962,1182 996,1182 1031,1181 1065,1181 1100,1181 1134,1181 1169,1182 1203,1182 1238,1182 1272,1182 1307,1182 1341,1182 1376,1182 1410,1183 1445,1184 1479,1184 1514,1184 1548,1184 1583,1185"/>
+                <TextEquiv>
+                    <Unicode>Aviación de Filipinas, compuesto</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l6" custom="readingOrder {index:5;}">
+                <Coords points="886,1247 1588,1243 1588,1219 1494,1197 1466,1222 1435,1204 1174,1221 1038,1195 886,1203"/>
+                <Baseline points="893,1236 927,1235 961,1235 996,1233 1030,1233 1065,1233 1099,1233 1133,1233 1168,1235 1202,1235 1237,1235 1271,1236 1305,1236 1340,1236 1374,1238 1409,1238 1443,1238 1477,1238 1512,1238 1546,1238 1581,1238"/>
+                <TextEquiv>
+                    <Unicode>por todas, las compañías de Avia¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l7" custom="readingOrder {index:6;}">
+                <Coords points="880,1291 888,1291 894,1298 900,1299 983,1299 985,1270 978,1270 968,1260 953,1258 942,1249 912,1251 889,1264 882,1263"/>
+                <Baseline points="888,1283 918,1284 948,1286 978,1289"/>
+                <TextEquiv>
+                    <Unicode>ción.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l8" custom="readingOrder {index:7;}">
+                <Coords points="929,1347 1064,1339 1116,1362 1580,1347 1580,1319 1537,1301 1510,1317 1471,1299 1451,1316 929,1299"/>
+                <Baseline points="935,1335 968,1335 1002,1335 1035,1337 1069,1337 1103,1338 1136,1338 1170,1340 1204,1340 1237,1341 1271,1341 1304,1341 1338,1343 1372,1343 1405,1343 1439,1341 1473,1341 1506,1341 1540,1340 1574,1338"/>
+                <TextEquiv>
+                    <Unicode>Entre otros premios y galardo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l9" custom="readingOrder {index:8;}">
+                <Coords points="892,1397 1499,1404 1520,1387 1588,1403 1588,1364 1244,1371 1166,1347 1142,1364 1009,1355 972,1378 893,1356"/>
+                <Baseline points="899,1388 933,1388 967,1388 1001,1388 1035,1388 1069,1389 1103,1389 1137,1389 1171,1389 1205,1389 1240,1391 1274,1391 1308,1391 1342,1391 1376,1392 1410,1392 1444,1392 1478,1392 1512,1392 1546,1394 1581,1394"/>
+                <TextEquiv>
+                    <Unicode>nes, el principal consistía en un</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l10" custom="readingOrder {index:9;}">
+                <Coords points="880,1443 1412,1459 1445,1440 1590,1459 1590,1428 1534,1404 1443,1421 881,1403"/>
+                <Baseline points="887,1437 921,1437 956,1439 991,1439 1026,1439 1061,1439 1096,1440 1130,1440 1165,1440 1200,1440 1235,1440 1270,1442 1305,1442 1340,1442 1374,1442 1409,1442 1444,1443 1479,1443 1514,1445 1549,1445 1584,1446"/>
+                <TextEquiv>
+                    <Unicode>viaje gratuito a España y vuelta,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l11" custom="readingOrder {index:10;}">
+                <Coords points="886,1497 1486,1507 1486,1478 1420,1455 1301,1470 1031,1450 886,1462"/>
+                <Baseline points="893,1487 922,1487 951,1488 980,1489 1010,1490 1039,1490 1068,1491 1098,1491 1127,1491 1156,1491 1186,1491 1215,1491 1244,1491 1273,1491 1303,1491 1332,1491 1361,1493 1391,1493 1420,1493 1449,1493 1479,1494"/>
+                <TextEquiv>
+                    <Unicode>con todos los gastos págados.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l12" custom="readingOrder {index:11;}">
+                <Coords points="936,1554 1182,1555 1200,1539 1225,1563 1301,1540 1485,1566 1594,1553 1594,1519 1566,1508 1079,1504 1005,1532 936,1499"/>
+                <Baseline points="942,1541 974,1541 1006,1541 1038,1541 1071,1542 1103,1542 1135,1542 1167,1542 1200,1543 1232,1544 1264,1544 1296,1544 1329,1544 1361,1544 1393,1545 1425,1545 1458,1545 1490,1545 1522,1545 1554,1545 1587,1545"/>
+                <TextEquiv>
+                    <Unicode>La señorita que ha resultado</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l13" custom="readingOrder {index:12;}">
+                <Coords points="882,1594 986,1611 1589,1603 1571,1572 882,1564"/>
+                <Baseline points="888,1590 922,1590 957,1590 992,1592 1027,1592 1061,1592 1096,1592 1131,1592 1166,1593 1200,1593 1235,1593 1270,1593 1305,1594 1339,1595 1374,1595 1409,1595 1444,1596 1478,1596 1513,1596 1548,1597 1583,1598"/>
+                <TextEquiv>
+                    <Unicode>vencedora entre catorce concursan¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l14" custom="readingOrder {index:13;}">
+                <Coords points="893,1654 1588,1658 1588,1620 1562,1612 1416,1612 1395,1631 1216,1612 1187,1633 1141,1612 894,1607"/>
+                <Baseline points="900,1640 934,1641 968,1643 1002,1644 1036,1644 1070,1644 1104,1646 1138,1646 1172,1646 1206,1646 1240,1646 1274,1646 1308,1646 1342,1647 1376,1647 1410,1647 1444,1647 1478,1649 1512,1649 1546,1650 1581,1652"/>
+                <TextEquiv>
+                    <Unicode>tes ha sido la simpática Consuelo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l15" custom="readingOrder {index:14;}">
+                <Coords points="890,1706 1575,1715 1590,1685 1535,1660 1504,1677 1169,1660 1152,1677 1119,1659 890,1657"/>
+                <Baseline points="896,1692 930,1692 964,1694 999,1694 1033,1695 1067,1695 1102,1695 1136,1695 1170,1697 1205,1697 1239,1697 1273,1697 1308,1698 1342,1698 1376,1698 1411,1698 1445,1698 1479,1700 1514,1700 1548,1701 1583,1701"/>
+                <TextEquiv>
+                    <Unicode>Barreto, hija del Representante Sr.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l16" custom="readingOrder {index:15;}">
+                <Coords points="876,1752 1595,1758 1560,1723 876,1710"/>
+                <Baseline points="882,1745 917,1745 952,1745 988,1745 1023,1746 1058,1746 1094,1746 1129,1747 1164,1748 1200,1748 1235,1748 1270,1749 1306,1749 1341,1749 1376,1750 1412,1751 1447,1751 1482,1751 1518,1751 1553,1752 1589,1752"/>
+                <TextEquiv>
+                    <Unicode>Don Eduardo Barreto, de Laguna.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l17" custom="readingOrder {index:16;}">
+                <Coords points="886,1795 1596,1811 1596,1777 1525,1763 1251,1782 1208,1761 1191,1778 886,1763"/>
+                <Baseline points="893,1794 927,1794 962,1796 997,1796 1032,1796 1067,1797 1102,1797 1136,1797 1171,1799 1206,1799 1241,1800 1276,1800 1311,1800 1346,1802 1380,1802 1415,1802 1450,1803 1485,1803 1520,1803 1555,1803 1590,1802"/>
+                <TextEquiv>
+                    <Unicode>Tiene 21 años de edad; mide cinco</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l18" custom="readingOrder {index:17;}">
+                <Coords points="892,1875 1583,1875 1594,1840 893,1828"/>
+                <Baseline points="899,1857 933,1857 967,1857 1002,1857 1036,1857 1071,1857 1105,1857 1139,1857 1174,1859 1208,1859 1243,1859 1277,1860 1311,1860 1346,1862 1380,1862 1415,1862 1449,1862 1483,1863 1518,1863 1552,1863 1587,1863"/>
+                <TextEquiv>
+                    <Unicode>pies y cuatro y media pulgadas de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l19" custom="readingOrder {index:18;}">
+                <Coords points="890,1920 1085,1936 1212,1920 1384,1929 1427,1919 1428,1901 1314,1876 1215,1876 1192,1898 1110,1880 890,1882"/>
+                <Baseline points="897,1907 923,1909 949,1910 975,1911 1001,1913 1028,1913 1054,1913 1080,1913 1106,1913 1132,1913 1159,1913 1185,1913 1211,1913 1237,1913 1263,1913 1290,1913 1316,1913 1342,1913 1368,1914 1394,1916 1421,1917"/>
+                <TextEquiv>
+                    <Unicode>altura, y peso, 119 libras.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l20" custom="readingOrder {index:19;}">
+                <Coords points="923,1973 1536,1996 1588,1983 1589,1953 923,1937"/>
+                <Baseline points="929,1968 961,1968 994,1968 1026,1970 1059,1970 1092,1970 1124,1971 1157,1971 1189,1971 1222,1973 1255,1973 1287,1974 1320,1974 1352,1974 1385,1976 1418,1976 1450,1977 1483,1977 1515,1977 1548,1979 1581,1979"/>
+                <TextEquiv>
+                    <Unicode>En cuanto a su belleza y simpa¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l21" custom="readingOrder {index:20;}">
+                <Coords points="880,2019 1022,2042 1595,2034 1571,1991 1521,2011 1453,1988 880,1994"/>
+                <Baseline points="887,2022 922,2022 957,2022 992,2022 1027,2022 1062,2022 1097,2022 1132,2024 1167,2024 1202,2024 1238,2025 1273,2025 1308,2027 1343,2027 1378,2027 1413,2028 1448,2028 1483,2028 1518,2030 1553,2030 1589,2030"/>
+                <TextEquiv>
+                    <Unicode>tía se puede juzgar por la foto ad¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l22" custom="readingOrder {index:21;}">
+                <Coords points="894,2086 1596,2085 1596,2057 1527,2043 1497,2059 1041,2043 1020,2063 977,2036 894,2035"/>
+                <Baseline points="900,2073 934,2073 968,2073 1003,2073 1037,2073 1072,2073 1106,2073 1141,2074 1175,2075 1210,2075 1244,2075 1278,2076 1313,2076 1347,2076 1382,2078 1416,2078 1451,2078 1485,2078 1520,2079 1554,2079 1589,2079"/>
+                <TextEquiv>
+                    <Unicode>junta, aunque otros factores han</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l23" custom="readingOrder {index:22;}">
+                <Coords points="893,2130 1581,2144 1596,2095 1470,2115 1433,2092 893,2091"/>
+                <Baseline points="899,2123 933,2123 968,2123 1002,2123 1037,2124 1071,2124 1106,2124 1140,2126 1175,2126 1209,2126 1244,2127 1278,2127 1313,2129 1347,2129 1382,2129 1416,2129 1451,2130 1485,2130 1520,2130 1554,2130 1589,2130"/>
+                <TextEquiv>
+                    <Unicode>influído en su proclamación, tales</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l24" custom="readingOrder {index:23;}">
+                <Coords points="889,2187 1581,2187 1581,2162 1541,2143 1466,2160 1376,2140 1321,2157 1257,2140 890,2148"/>
+                <Baseline points="896,2174 929,2174 963,2175 997,2175 1031,2175 1065,2177 1099,2177 1133,2177 1167,2177 1201,2178 1235,2178 1268,2178 1302,2178 1336,2180 1370,2180 1404,2180 1438,2180 1472,2181 1506,2181 1540,2181 1574,2181"/>
+                <TextEquiv>
+                    <Unicode>como su personalidad, talento y dis¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l25" custom="readingOrder {index:24;}">
+                <Coords points="881,2228 904,2241 933,2234 1037,2239 1056,2233 1056,2221 1044,2220 1007,2187 968,2188 957,2198 934,2195 927,2188 909,2189 889,2202 881,2201"/>
+                <Baseline points="887,2226 914,2225 941,2225 968,2226 995,2226 1022,2228 1049,2229"/>
+                <TextEquiv>
+                    <Unicode>tinción.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l26" custom="readingOrder {index:25;}">
+                <Coords points="935,2291 1562,2297 1583,2291 1584,2248 1134,2243 1108,2264 1072,2244 935,2242"/>
+                <Baseline points="941,2277 972,2277 1004,2277 1036,2277 1068,2279 1100,2279 1131,2279 1163,2279 1195,2279 1227,2280 1259,2280 1290,2280 1322,2280 1354,2280 1386,2282 1418,2282 1449,2282 1481,2282 1513,2282 1545,2283 1577,2283"/>
+                <TextEquiv>
+                    <Unicode>La Srta. Barreto toca magnifi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l27" custom="readingOrder {index:26;}">
+                <Coords points="881,2331 1251,2347 1251,2320 1231,2306 1177,2307 1163,2292 1134,2306 1088,2292 1065,2312 1034,2292 882,2304"/>
+                <Baseline points="888,2327 913,2327 939,2328 964,2328 990,2328 1015,2328 1041,2328 1066,2328 1092,2328 1117,2329 1143,2330 1168,2330 1194,2332 1219,2334 1245,2336"/>
+                <TextEquiv>
+                    <Unicode>camente el piano.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l28" custom="readingOrder {index:27;}">
+                <Coords points="923,2387 1302,2404 1333,2387 1582,2390 1569,2348 923,2352"/>
+                <Baseline points="930,2379 962,2379 994,2379 1026,2379 1059,2379 1091,2379 1123,2380 1155,2381 1188,2381 1220,2381 1252,2382 1284,2382 1317,2382 1349,2384 1381,2384 1413,2384 1446,2384 1478,2384 1510,2384 1542,2384 1575,2384"/>
+                <TextEquiv>
+                    <Unicode>La felicitamos muy sinceramen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l29" custom="readingOrder {index:28;}">
+                <Coords points="892,2443 1587,2442 1567,2408 1450,2422 1238,2395 1174,2412 893,2396"/>
+                <Baseline points="899,2430 933,2430 967,2430 1001,2430 1035,2430 1069,2430 1103,2430 1137,2430 1171,2432 1205,2432 1239,2432 1273,2433 1307,2433 1341,2435 1375,2435 1409,2435 1443,2435 1477,2435 1511,2435 1545,2435 1580,2435"/>
+                <TextEquiv>
+                    <Unicode>te y hacemos votos porque su es¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l30" custom="readingOrder {index:29;}">
+                <Coords points="878,2483 1596,2494 1596,2465 1560,2452 878,2453"/>
+                <Baseline points="884,2480 919,2480 954,2480 989,2480 1025,2481 1060,2481 1095,2481 1130,2483 1166,2483 1201,2483 1236,2484 1271,2484 1307,2485 1342,2486 1377,2486 1412,2486 1448,2487 1483,2487 1518,2487 1553,2488 1589,2489"/>
+                <TextEquiv>
+                    <Unicode>tancia en la Capital de España le</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l31" custom="readingOrder {index:30;}">
+                <Coords points="886,2538 1356,2548 1357,2524 1318,2500 1135,2514 1110,2500 1073,2510 990,2495 959,2514 886,2508"/>
+                <Baseline points="893,2529 918,2531 943,2531 969,2531 994,2532 1019,2532 1045,2532 1070,2532 1096,2532 1121,2533 1146,2534 1172,2534 1197,2534 1223,2534 1248,2535 1273,2535 1299,2536 1324,2537 1350,2538"/>
+                <TextEquiv>
+                    <Unicode>sea del todo agradable.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l32" custom="readingOrder {index:31;}">
+                <Coords points="929,2595 1380,2590 1521,2611 1584,2595 1566,2554 1384,2572 1263,2548 929,2560"/>
+                <Baseline points="935,2585 967,2585 999,2585 1031,2585 1063,2585 1095,2585 1127,2585 1159,2586 1191,2586 1223,2586 1256,2586 1288,2588 1320,2588 1352,2588 1384,2589 1416,2589 1448,2591 1480,2591 1512,2591 1544,2591 1577,2591"/>
+                <TextEquiv>
+                    <Unicode>Asimismo felicitamos al simpá¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l33" custom="readingOrder {index:32;}">
+                <Coords points="881,2636 971,2640 994,2661 1026,2633 1045,2650 1578,2649 1578,2615 1467,2601 1435,2623 1279,2597 1252,2615 1102,2598 1035,2621 924,2595 881,2611"/>
+                <Baseline points="887,2633 921,2634 955,2635 989,2636 1023,2636 1058,2636 1092,2637 1126,2637 1160,2637 1194,2637 1229,2637 1263,2637 1297,2637 1331,2637 1365,2637 1400,2637 1434,2637 1468,2639 1502,2639 1536,2640 1571,2642"/>
+                <TextEquiv>
+                    <Unicode>tico y activisimo Serapio Cance¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l34" custom="readingOrder {index:33;}">
+                <Coords points="877,2696 1587,2706 1588,2671 878,2655"/>
+                <Baseline points="884,2684 918,2685 953,2687 988,2687 1023,2688 1058,2688 1093,2688 1127,2688 1162,2688 1197,2688 1232,2688 1267,2688 1302,2687 1337,2687 1371,2688 1406,2688 1441,2688 1476,2690 1511,2691 1546,2693 1581,2694"/>
+                <TextEquiv>
+                    <Unicode>ran; alma y vida de este concurso,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l35" custom="readingOrder {index:34;}">
+                <Coords points="890,2755 921,2736 993,2756 1107,2736 1126,2754 1584,2756 1584,2715 1392,2701 890,2708"/>
+                <Baseline points="896,2739 930,2739 964,2739 998,2739 1032,2738 1066,2738 1100,2738 1134,2738 1168,2738 1202,2739 1236,2739 1270,2739 1304,2739 1338,2739 1372,2740 1406,2741 1440,2741 1474,2741 1508,2741 1542,2741 1577,2741"/>
+                <TextEquiv>
+                    <Unicode>y a quien vimos multiplicarse en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l36" custom="readingOrder {index:35;}">
+                <Coords points="881,2798 1584,2796 1584,2769 1435,2755 881,2764"/>
+                <Baseline points="887,2789 921,2789 956,2789 990,2789 1025,2789 1059,2789 1094,2789 1128,2789 1163,2790 1197,2790 1232,2790 1266,2790 1301,2790 1335,2790 1370,2792 1404,2792 1439,2792 1473,2792 1508,2792 1542,2792 1577,2792"/>
+                <TextEquiv>
+                    <Unicode>el Manila Hotel la otra noche pro¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l37" custom="readingOrder {index:36;}">
+                <Coords points="887,2850 1590,2850 1590,2827 1534,2812 887,2813"/>
+                <Baseline points="893,2840 927,2840 962,2840 996,2840 1031,2840 1065,2840 1100,2840 1134,2841 1169,2841 1203,2841 1238,2841 1272,2841 1307,2841 1341,2841 1376,2841 1410,2841 1445,2841 1479,2842 1514,2843 1548,2843 1583,2843"/>
+                <TextEquiv>
+                    <Unicode>curando que no decayese un instan¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l38" custom="readingOrder {index:37;}">
+                <Coords points="881,2896 1470,2915 1587,2907 1588,2867 1415,2860 1373,2883 1335,2858 1308,2880 1275,2860 1233,2880 1075,2858 1006,2882 967,2853 938,2874 882,2863"/>
+                <Baseline points="888,2891 922,2891 957,2892 991,2892 1026,2892 1061,2892 1095,2892 1130,2893 1165,2894 1199,2894 1234,2894 1269,2894 1303,2894 1338,2894 1373,2895 1407,2895 1442,2895 1477,2895 1511,2895 1546,2894 1581,2894"/>
+                <TextEquiv>
+                    <Unicode>te la animación de la simpática</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l39" custom="readingOrder {index:38;}">
+                <Coords points="884,2954 1024,2954 1024,2929 1016,2929 1009,2921 986,2915 976,2907 967,2907 955,2916 935,2916 928,2908 884,2910"/>
+                <Baseline points="890,2940 915,2943 940,2943 966,2942 991,2942 1017,2945"/>
+                <TextEquiv>
+                    <Unicode>fiesta.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>—Este cencurso de belleza paraproclamar MISS AVIACIÓN 1949,ha sido patrocinado por el Club deAviación de Filipinas, compuestopor todas, las compañías de Avia¬ción.Entre otros premios y galardo¬nes, el principal consistía en unviaje gratuito a España y vuelta,con todos los gastos págados.La señorita que ha resultadovencedora entre catorce concursan¬tes ha sido la simpática ConsueloBarreto, hija del Representante Sr.Don Eduardo Barreto, de Laguna.Tiene 21 años de edad; mide cincopies y cuatro y media pulgadas dealtura, y peso, 119 libras.En cuanto a su belleza y simpa¬tía se puede juzgar por la foto ad¬junta, aunque otros factores haninfluído en su proclamación, talescomo su personalidad, talento y dis¬tinción.La Srta. Barreto toca magnifi¬camente el piano.La felicitamos muy sinceramen¬te y hacemos votos porque su es¬tancia en la Capital de España lesea del todo agradable.Asimismo felicitamos al simpá¬tico y activisimo Serapio Cance¬ran; alma y vida de este concurso,y a quien vimos multiplicarse enel Manila Hotel la otra noche pro¬curando que no decayese un instan¬te la animación de la simpáticafiesta.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_9" custom="readingOrder {index:6;} structure {type:photograph;}">
+            <Coords points="1702,779 2368,779 2368,1504 1702,1504"/>
+        </GraphicRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_10_1" custom="readingOrder {index:7;} structure {type:caption;}">
+            <Coords points="1674,1517 2375,1517 2375,1640 1674,1640"/>
+            <TextLine id="r_10_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1706,1560 2367,1556 2367,1523 2284,1515 2194,1536 2154,1518 1706,1518"/>
+                <Baseline points="1712,1547 1744,1547 1776,1547 1809,1547 1841,1547 1874,1547 1906,1547 1939,1548 1971,1548 2004,1550 2036,1550 2068,1550 2101,1550 2133,1550 2166,1551 2198,1551 2231,1550 2263,1550 2296,1550 2328,1548 2361,1547"/>
+                <TextEquiv>
+                    <Unicode>Señorita Consuelo Barrcto, en el mo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1672,1594 1797,1577 1895,1603 1960,1578 1985,1596 2023,1579 2046,1603 2372,1595 2358,1553 2254,1573 2217,1554 1877,1574 1831,1555 1673,1560"/>
+                <Baseline points="1679,1581 1713,1581 1747,1581 1782,1583 1816,1583 1850,1583 1885,1583 1919,1583 1953,1583 1988,1584 2022,1584 2056,1584 2091,1584 2125,1584 2159,1584 2194,1586 2228,1586 2262,1586 2297,1586 2331,1587 2366,1587"/>
+                <TextEquiv>
+                    <Unicode>mento en que es proclamada MISS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1666,1627 1850,1628 1883,1617 2028,1640 2028,1615 1996,1613 1971,1588 1907,1592 1894,1603 1877,1587 1696,1588 1666,1601"/>
+                <Baseline points="1673,1617 1699,1617 1726,1617 1753,1617 1780,1617 1807,1616 1834,1616 1860,1616 1887,1616 1914,1617 1941,1619 1968,1622 1995,1625 2022,1629"/>
+                <TextEquiv>
+                    <Unicode>AVIACIÓN 1919..</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Señorita Consuelo Barrcto, en el mo¬mento en que es proclamada MISSAVIACIÓN 1919..</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_11" custom="readingOrder {index:8;} structure {type:photograph;}">
+            <Coords points="1708,2010 2347,2004 2350,2883 1699,2883"/>
+        </GraphicRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_12_1" custom="readingOrder {index:9;} structure {type:caption;}">
+            <Coords points="1663,2912 2370,2912 2370,3233 1663,3233"/>
+            <TextLine id="r_12_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1691,2954 2364,2947 2351,2916 2235,2927 2212,2908 1691,2918"/>
+                <Baseline points="1698,2946 1731,2945 1764,2944 1797,2943 1830,2943 1863,2942 1896,2942 1929,2942 1962,2942 1995,2943 2028,2943 2061,2943 2094,2943 2127,2943 2160,2943 2193,2943 2226,2942 2259,2942 2292,2940 2325,2939 2358,2939"/>
+                <TextEquiv>
+                    <Unicode>La Señora de Thomas Lockett, esposa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_12_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1659,2989 2321,2987 2361,2979 2361,2955 1659,2958"/>
+                <Baseline points="1665,2979 1699,2979 1734,2978 1768,2978 1803,2978 1837,2978 1872,2978 1906,2978 1941,2978 1975,2978 2010,2978 2044,2978 2079,2978 2113,2978 2148,2977 2182,2976 2217,2976 2251,2976 2286,2975 2320,2974 2355,2973"/>
+                <TextEquiv>
+                    <Unicode>del Encargado de Negocios de los Esta¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_12_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1668,3027 2357,3020 2370,2988 1668,2992"/>
+                <Baseline points="1674,3015 1708,3014 1743,3014 1777,3014 1812,3014 1846,3013 1881,3012 1915,3012 1950,3012 1984,3012 2019,3012 2053,3012 2088,3012 2122,3011 2157,3011 2191,3011 2226,3011 2260,3011 2295,3011 2329,3010 2364,3009"/>
+                <TextEquiv>
+                    <Unicode>dos Unidos, colocando en la cabeza de la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_12_1l4" custom="readingOrder {index:3;}">
+                <Coords points="1670,3059 2365,3049 2364,3024 2319,3012 2263,3029 1670,3026"/>
+                <Baseline points="1677,3048 1711,3048 1745,3047 1779,3047 1813,3047 1847,3047 1881,3047 1915,3047 1949,3047 1983,3047 2017,3047 2051,3047 2085,3045 2119,3045 2153,3045 2187,3045 2221,3045 2255,3044 2289,3044 2323,3044 2358,3042"/>
+                <TextEquiv>
+                    <Unicode>nueva reina la diadema de flores mien¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_12_1l5" custom="readingOrder {index:4;}">
+                <Coords points="1679,3089 2367,3091 2367,3051 2173,3051 2154,3069 2100,3052 1679,3056"/>
+                <Baseline points="1686,3081 1719,3081 1753,3081 1787,3081 1820,3081 1854,3081 1888,3081 1921,3081 1955,3081 1989,3081 2023,3081 2056,3081 2090,3080 2124,3080 2157,3080 2191,3080 2225,3080 2258,3080 2292,3078 2326,3078 2360,3077"/>
+                <TextEquiv>
+                    <Unicode>tras que el Major Meiader, Director de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_12_1l6" custom="readingOrder {index:5;}">
+                <Coords points="1672,3124 2365,3120 2365,3091 2339,3085 2085,3103 2068,3086 1672,3089"/>
+                <Baseline points="1679,3116 1714,3117 1750,3117 1786,3117 1821,3117 1857,3116 1893,3116 1929,3116 1964,3116 2000,3116 2036,3116 2072,3116 2107,3116 2143,3115 2179,3114 2215,3114 2250,3114 2286,3113 2322,3113 2358,3111"/>
+                <TextEquiv>
+                    <Unicode>la Feati Flying School, ciñe a su pecho</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_12_1l7" custom="readingOrder {index:6;}">
+                <Coords points="1673,3163 2057,3164 2115,3144 2274,3164 2365,3155 2365,3120 1673,3125"/>
+                <Baseline points="1680,3150 1713,3150 1747,3152 1781,3152 1815,3152 1849,3152 1883,3150 1917,3150 1951,3150 1985,3150 2019,3150 2052,3150 2086,3149 2120,3149 2154,3149 2188,3148 2222,3147 2256,3147 2290,3147 2324,3147 2358,3147"/>
+                <TextEquiv>
+                    <Unicode>la banda que la procama vencedora del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_12_1l8" custom="readingOrder {index:7;}">
+                <Coords points="1664,3194 2357,3194 2357,3156 2106,3156 2081,3174 1859,3157 1831,3178 1664,3164"/>
+                <Baseline points="1671,3186 1705,3186 1739,3186 1773,3185 1807,3185 1841,3185 1875,3185 1909,3185 1943,3185 1977,3185 2011,3185 2045,3185 2079,3185 2113,3185 2147,3185 2181,3185 2215,3184 2249,3183 2283,3183 2317,3183 2351,3182"/>
+                <TextEquiv>
+                    <Unicode>concurso. Al fondo Don Andrés O. Cruz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_12_1l9" custom="readingOrder {index:8;}">
+                <Coords points="1668,3235 2213,3227 2178,3190 2157,3205 2084,3188 2025,3205 1999,3191 1668,3199"/>
+                <Baseline points="1674,3222 1700,3222 1727,3221 1753,3221 1780,3221 1807,3221 1833,3221 1860,3220 1887,3219 1913,3219 1940,3219 1967,3219 1993,3219 2020,3219 2047,3219 2073,3219 2100,3219 2127,3221 2153,3221 2180,3221 2207,3222"/>
+                <TextEquiv>
+                    <Unicode>Administrador de la P.I.A.A.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>La Señora de Thomas Lockett, esposadel Encargado de Negocios de los Esta¬dos Unidos, colocando en la cabeza de lanueva reina la diadema de flores mien¬tras que el Major Meiader, Director dela Feati Flying School, ciñe a su pechola banda que la procama vencedora delconcurso. Al fondo Don Andrés O. CruzAdministrador de la P.I.A.A.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:10;}">
+            <Coords points="109,321 2363,321 2363,335 109,335"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:11;}">
+            <Coords points="1265,866 1355,866 1355,871 1265,871"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:12;}">
+            <Coords points="1726,2086 1904,2086 1904,2097 1726,2097"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:13;}">
+            <Coords points="2039,2869 2281,2869 2281,2877 2039,2877"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:14;}">
+            <Coords points="1129,3105 1219,3105 1219,3110 1129,3110"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:15;}">
+            <Coords points="1264,3106 1355,3106 1355,3111 1264,3111"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:16;}">
+            <Coords points="471,2369 489,2369 489,2593 471,2593"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:17;}">
+            <Coords points="497,2225 510,2225 510,2406 497,2406"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_21" custom="readingOrder {index:18;}">
+            <Coords points="617,1646 622,1646 622,1687 617,1687"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

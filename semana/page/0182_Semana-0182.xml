@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.42.0:model_id=53551:lm=none:date=22_04_2026_20:43</Creator>
+        <Created>2021-06-01T19:36:30.968+02:00</Created>
+        <LastChange>2026-06-30T20:12:15.976+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572241" pageNr="182" tsid="294514052" status="DONE" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=RNCFUXFGNWUMOTZDNSNHOQBO" xmlUrl="https://files.transkribus.eu/Get?id=UUNYNALKSUICIALBQAHUFPCB" imageId="17057694"/>
+    </Metadata>
+    <Page imageFilename="0182_Semana-0182.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="0,292 2371,292 2371,3218 0,3218"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782931684169" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_1"/>
+                <RegionRefIndexed index="2" regionRef="r_8"/>
+                <RegionRefIndexed index="3" regionRef="r_9"/>
+                <RegionRefIndexed index="4" regionRef="r_3"/>
+                <RegionRefIndexed index="5" regionRef="r_4"/>
+                <RegionRefIndexed index="6" regionRef="r_5"/>
+                <RegionRefIndexed index="7" regionRef="r_6"/>
+                <RegionRefIndexed index="8" regionRef="r_7"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_3"/>
+                <RegionRef regionRef="r_4"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_5"/>
+                <RegionRef regionRef="r_6"/>
+                <RegionRef regionRef="r_7"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="64,282 401,282 401,345 64,345"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="74,326 121,344 303,344 321,333 380,344 377,287 359,287 344,303 295,280 200,292 172,277 159,290 139,282 100,305 74,305"/>
+                <Baseline points="89,328 384,337"/>
+                <TextEquiv>
+                    <Unicode>SEMANA—6</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:1;} structure {type:header;}">
+            <Coords points="1988,286 2383,286 2383,355 1988,355"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;} date {offset:0; length:16;}">
+                <Coords points="1983,331 2193,349 2357,341 2357,285 2275,287 2262,300 2183,295 2167,280 2129,295 2039,285 1983,310"/>
+                <Baseline points="1997,336 2364,336"/>
+                <TextEquiv>
+                    <Unicode>12 de Mayo, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_8" custom="readingOrder {index:2;} structure {type:heading;}">
+            <Coords points="182,576 182,386 2283,386 2283,576"/>
+            <TextLine id="l_2" custom="readingOrder {index:0;} place {offset:29; length:6;}">
+                <Coords points="190,510 2252,526 2252,441 2216,439 1849,475 1503,441 1459,485 1403,441 1165,441 1108,498 1036,441 964,485 911,441 190,469"/>
+                <Baseline points="204,513 2255,515"/>
+                <TextEquiv>
+                    <Unicode>Rememorando el vuelo Madria- Manila</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_9" custom="readingOrder {index:3;} structure {type:heading;}">
+            <Coords points="2283,576 2283,705 182,705 182,576"/>
+            <TextLine id="l_3" custom="readingOrder {index:0;} person {offset:0; length:6;} person {offset:9; length:8;} place {offset:21; length:6;}">
+                <Coords points="657,634 1803,654 1803,593 1760,582 1426,595 1395,626 1126,580 959,618 839,582 657,595"/>
+                <Baseline points="670,639 1809,645"/>
+                <TextEquiv>
+                    <Unicode>Loriga y Gallarza en Manila</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:4;} structure {type:photograph;}">
+            <Coords points="171,724 1570,724 1570,2626 171,2626"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:5;} structure {type:caption;}">
+            <Coords points="148,2648 1555,2648 1555,2888 148,2888"/>
+            <TextLine id="l_4" custom="readingOrder {index:0;} person {offset:38; length:19;} person {offset:59; length:5; continued:true;}">
+                <Coords points="174,2688 1549,2696 1549,2652 174,2650"/>
+                <Baseline points="189,2685 1559,2700"/>
+                <TextEquiv>
+                    <Unicode>DE IZQUIERDA A DERECHA, primera fila: Srtas. Carmen Gómez, Pilar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:1;} person {offset:0; length:6; continued:true;} person {offset:8; length:20;} person {offset:31; length:20;}">
+                <Coords points="144,2732 1565,2737 1565,2698 1480,2691 144,2686"/>
+                <Baseline points="157,2730 1569,2737"/>
+                <TextEquiv>
+                    <Unicode>Gárriz, Don Florencio Gárriz y Srta. Rosario Gárriz; segunda fila: el doctor</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_6" custom="readingOrder {index:2;} person {offset:0; length:18;}">
+                <Coords points="141,2763 1565,2768 1539,2734 139,2727"/>
+                <Baseline points="154,2755 1571,2765"/>
+                <TextEquiv>
+                    <Unicode>Catalino B. Boncán, presidente del Círculo Recreativo (hispanofilipino). el sena¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_7" custom="readingOrder {index:3;} person {offset:4; length:14;} person {offset:58; length:6;} person {offset:67; length:8;}">
+                <Coords points="144,2796 1565,2806 1524,2765 144,2763"/>
+                <Baseline points="159,2787 1569,2799"/>
+                <TextEquiv>
+                    <Unicode>dor Juan B. Alegre, vicepresidente honorario del Círculo, Loriga y Gallarza; tercera</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_8" custom="readingOrder {index:4;} person {offset:6; length:17;} person {offset:36; length:9;} person {offset:69; length:10; continued:true;}">
+                <Coords points="141,2829 1562,2839 1542,2798 141,2793"/>
+                <Baseline points="155,2826 1566,2831"/>
+                <TextEquiv>
+                    <Unicode>fila: Don Enrique Zóbel, el gerente José Páez, el cónsul de España y Don Carlos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_9" custom="readingOrder {index:5;} person {offset:0; length:9; continued:true;}">
+                <Coords points="139,2860 162,2860 172,2870 195,2870 208,2857 215,2863 254,2860 269,2868 298,2860 333,2863 333,2829 218,2824 205,2832 172,2824 164,2832 139,2827"/>
+                <Baseline points="152,2858 340,2854"/>
+                <TextEquiv>
+                    <Unicode>de Oteyza.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:6;} structure {type:paragraph;}">
+            <Coords points="98,2900 791,2900 791,3201 98,3201"/>
+            <TextLine id="l_10" custom="readingOrder {index:0;}">
+                <Coords points="131,2939 782,2945 782,2896 554,2911 439,2888 131,2891"/>
+                <Baseline points="144,2941 788,2938"/>
+                <TextEquiv>
+                    <Unicode>Parece que fué ayer. Tan vívido</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_11" custom="readingOrder {index:1;}">
+                <Coords points="100,3001 780,3004 780,2952 675,2942 528,2960 505,2942 472,2960 423,2939 100,2942"/>
+                <Baseline points="114,2988 786,2989"/>
+                <TextEquiv>
+                    <Unicode>y tan inclvidable el recuerdo que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_12" custom="readingOrder {index:2;}">
+                <Coords points="105,3045 787,3047 787,3001 105,3001"/>
+                <Baseline points="119,3036 793,3039"/>
+                <TextEquiv>
+                    <Unicode>nos parece ver aún revolotear el in¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_13" custom="readingOrder {index:3;}">
+                <Coords points="100,3096 772,3099 772,3050 100,3047"/>
+                <Baseline points="113,3085 778,3094"/>
+                <TextEquiv>
+                    <Unicode>menso pájaro argentino guiado por</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_14" custom="readingOrder {index:4;} person {offset:21; length:8;}">
+                <Coords points="92,3142 782,3145 782,3101 92,3093"/>
+                <Baseline points="107,3142 785,3144"/>
+                <TextEquiv>
+                    <Unicode>las manos hábiles de Gallarza sobre</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_15" custom="readingOrder {index:5;} place {offset:33; length:3; continued:true;}">
+                <Coords points="105,3196 782,3196 782,3145 105,3147"/>
+                <Baseline points="118,3188 787,3192"/>
+                <TextEquiv>
+                    <Unicode>el cielo de Pasay, hoy ciudad de Ri¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_6" custom="readingOrder {index:7;} structure {type:paragraph;}">
+            <Coords points="871,2919 1584,2919 1584,3201 871,3201"/>
+            <TextLine id="l_16" custom="readingOrder {index:0;} place {offset:0; length:3; continued:true;}">
+                <Coords points="872,2947 1575,2957 1575,2898 1339,2919 1103,2888 962,2919 934,2891 872,2904"/>
+                <Baseline points="887,2948 1582,2956"/>
+                <TextEquiv>
+                    <Unicode>zai, precedido por los aviones del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_17" custom="readingOrder {index:1;}">
+                <Coords points="872,2996 1570,3004 1570,2957 1511,2952 1444,2970 1072,2952 1047,2978 1003,2952 872,2952"/>
+                <Baseline points="887,2994 1575,2998"/>
+                <TextEquiv>
+                    <Unicode>ejército, dar tres vueltas en derre¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_18" custom="readingOrder {index:2;}">
+                <Coords points="880,3052 1570,3052 1567,3004 1544,3001 1383,2998 1349,3022 1306,3001 1282,3022 1180,3001 1057,3022 877,3004"/>
+                <Baseline points="894,3049 1577,3053"/>
+                <TextEquiv>
+                    <Unicode>dor del aeródromo de Camp Ni¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_19" custom="readingOrder {index:3;}">
+                <Coords points="875,3104 1570,3109 1570,3057 875,3057"/>
+                <Baseline points="889,3099 1575,3102"/>
+                <TextEquiv>
+                    <Unicode>chols y descender, finalmente, con</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_20" custom="readingOrder {index:4;}">
+                <Coords points="872,3155 1567,3155 1567,3111 872,3111"/>
+                <Baseline points="885,3149 1573,3149"/>
+                <TextEquiv>
+                    <Unicode>gracia y garbo y al desgaire de una</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_21" custom="readingOrder {index:5;}">
+                <Coords points="872,3196 1575,3209 1575,3160 1549,3155 1467,3170 1436,3152 1406,3175 1321,3150 1072,3175 1011,3150 872,3158"/>
+                <Baseline points="886,3193 1579,3198"/>
+                <TextEquiv>
+                    <Unicode>verónica española sobre el suelo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_7" custom="readingOrder {index:8;} structure {type:paragraph;}">
+            <Coords points="1664,714 2394,714 2394,3237 1664,3237"/>
+            <TextLine id="l_22" custom="readingOrder {index:0;}">
+                <Coords points="1662,772 2352,762 2352,711 1880,711 1847,739 1662,713"/>
+                <Baseline points="1677,774 2358,764"/>
+                <TextEquiv>
+                    <Unicode>filipino. Era el airón de España,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_23" custom="readingOrder {index:1;}">
+                <Coords points="1672,826 2355,818 2355,772 2326,764 2206,785 2142,764 1965,785 1878,767 1847,793 1801,770 1672,775"/>
+                <Baseline points="1686,824 2362,817"/>
+                <TextEquiv>
+                    <Unicode>espíritu, alma y tradición españo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_24" custom="readingOrder {index:2;}">
+                <Coords points="1662,875 2355,867 2355,816 1737,839 1662,823"/>
+                <Baseline points="1677,863 2360,865"/>
+                <TextEquiv>
+                    <Unicode>les que en viaje de buena voluntad,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_25" custom="readingOrder {index:3;}">
+                <Coords points="1662,923 2352,921 2352,867 2216,867 2185,890 2073,870 1662,885"/>
+                <Baseline points="1675,922 2358,916"/>
+                <TextEquiv>
+                    <Unicode>volvía a buscar y besar, ahita de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_26" custom="readingOrder {index:4;}">
+                <Coords points="1662,975 2367,972 2367,929 2342,921 1662,929"/>
+                <Baseline points="1675,973 2373,966"/>
+                <TextEquiv>
+                    <Unicode>añoranzas, a la que antaño fué la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_27" custom="readingOrder {index:5;}">
+                <Coords points="1675,1029 1819,1023 1844,1039 1860,1023 2090,1021 2093,982 2049,970 1906,993 1793,975 1760,995 1734,972 1678,975"/>
+                <Baseline points="1688,1023 2097,1020"/>
+                <TextEquiv>
+                    <Unicode>hija de sus entrañas.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_28" custom="readingOrder {index:6;}">
+                <Coords points="1713,1077 2355,1075 2355,1021 1862,1021 1842,1041 1713,1026"/>
+                <Baseline points="1727,1071 2360,1076"/>
+                <TextEquiv>
+                    <Unicode>Hasta “La Mujer”, ya en su se¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_29" custom="readingOrder {index:7;}">
+                <Coords points="1670,1129 2360,1126 2360,1077 2306,1072 1962,1077 1942,1098 1903,1077 1670,1077"/>
+                <Baseline points="1683,1126 2364,1124"/>
+                <TextEquiv>
+                    <Unicode>gunda época, revista por mí fun¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_30" custom="readingOrder {index:8;}">
+                <Coords points="1654,1177 2360,1175 2342,1123 1654,1131"/>
+                <Baseline points="1668,1178 2366,1174"/>
+                <TextEquiv>
+                    <Unicode>dada, en un coche no muy cómodo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_31" custom="readingOrder {index:9;}">
+                <Coords points="1667,1231 2357,1229 2357,1182 2324,1172 1916,1198 1888,1177 1667,1182"/>
+                <Baseline points="1681,1229 2360,1222"/>
+                <TextEquiv>
+                    <Unicode>ni eficiente, pues que tenía la vir¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_32" custom="readingOrder {index:10;}">
+                <Coords points="1662,1282 2347,1277 2347,1231 2288,1224 2088,1241 1662,1229"/>
+                <Baseline points="1675,1281 2353,1277"/>
+                <TextEquiv>
+                    <Unicode>tud de estacionarse en el camino,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_33" custom="readingOrder {index:11;} person {offset:4; length:18;} person {offset:24; length:8; continued:true;}">
+                <Coords points="1665,1329 2355,1329 2355,1275 1665,1288"/>
+                <Baseline points="1680,1326 2362,1328"/>
+                <TextEquiv>
+                    <Unicode>con Francisco Zaragoza, Pepe Fi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_34" custom="readingOrder {index:12;} person {offset:0; length:6; continued:true;} person {offset:7; length:13;}">
+                <Coords points="1660,1385 2362,1383 2362,1336 2211,1326 2162,1344 1660,1339"/>
+                <Baseline points="1673,1384 2366,1382"/>
+                <TextEquiv>
+                    <Unicode>gueroa, Miguel Roxas y este cura.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_35" custom="readingOrder {index:13;}">
+                <Coords points="1660,1431 2350,1436 2350,1385 2332,1383 1660,1395"/>
+                <Baseline points="1673,1429 2355,1429"/>
+                <TextEquiv>
+                    <Unicode>estaba presente para rendir un dig¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_36" custom="readingOrder {index:14;}">
+                <Coords points="1657,1485 2367,1477 2367,1442 2326,1431 1657,1442"/>
+                <Baseline points="1670,1485 2375,1477"/>
+                <TextEquiv>
+                    <Unicode>no homenaje a los intrépidos avia¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_37" custom="readingOrder {index:15;} place {offset:22; length:6;}">
+                <Coords points="1665,1531 2357,1531 2357,1480 1665,1490"/>
+                <Baseline points="1678,1526 2364,1522"/>
+                <TextEquiv>
+                    <Unicode>dores españoles. Todo Manila desde</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_38" custom="readingOrder {index:16;}">
+                <Coords points="1662,1585 2365,1580 2365,1544 2329,1531 2090,1552 2057,1529 1939,1552 1857,1531 1801,1554 1662,1531"/>
+                <Baseline points="1675,1584 2372,1580"/>
+                <TextEquiv>
+                    <Unicode>luego, estaba alli, la espiritual fe¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_39" custom="readingOrder {index:17;}">
+                <Coords points="1665,1636 2360,1636 2357,1590 2301,1583 1665,1590"/>
+                <Baseline points="1680,1632 2364,1635"/>
+                <TextEquiv>
+                    <Unicode>minidad española e hispanofilipina,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_40" custom="readingOrder {index:18;}">
+                <Coords points="1660,1688 2357,1685 2357,1636 2326,1631 2185,1649 1660,1636"/>
+                <Baseline points="1673,1686 2364,1685"/>
+                <TextEquiv>
+                    <Unicode>toda la prensa, la colonia española</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_41" custom="readingOrder {index:19;}">
+                <Coords points="1657,1742 2350,1737 2350,1693 1657,1695"/>
+                <Baseline points="1671,1731 2357,1727"/>
+                <TextEquiv>
+                    <Unicode>y los periodistas y escritores espa¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_42" custom="readingOrder {index:20;}">
+                <Coords points="1660,1790 2357,1790 2357,1747 2298,1737 1660,1742"/>
+                <Baseline points="1674,1785 2364,1782"/>
+                <TextEquiv>
+                    <Unicode>ñoles y filipines de todas las ha¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_43" custom="readingOrder {index:21;}">
+                <Coords points="1660,1844 1708,1844 1719,1839 1734,1842 1737,1839 1754,1839 1752,1798 1719,1798 1713,1801 1701,1790 1695,1790 1688,1798 1680,1790 1657,1790"/>
+                <Baseline points="1673,1833 1760,1836"/>
+                <TextEquiv>
+                    <Unicode>blas.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_44" custom="readingOrder {index:22;}">
+                <Coords points="1695,1896 2355,1893 2355,1837 2257,1852 2034,1826 2019,1842 1860,1834 1803,1860 1695,1839"/>
+                <Baseline points="1709,1894 2361,1886"/>
+                <TextEquiv>
+                    <Unicode>Las relaciones hispanofilipinas,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_45" custom="readingOrder {index:23;}">
+                <Coords points="1657,1942 2360,1942 2360,1896 2316,1893 1657,1898"/>
+                <Baseline points="1672,1940 2363,1937"/>
+                <TextEquiv>
+                    <Unicode>coidialísimas, estaban en su apogeo.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_46" custom="readingOrder {index:24;}">
+                <Coords points="1665,1998 2334,1998 2352,1942 1665,1944"/>
+                <Baseline points="1679,1994 2356,1988"/>
+                <TextEquiv>
+                    <Unicode>Cantos al Rey y cantos a España</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_47" custom="readingOrder {index:25;}">
+                <Coords points="1654,2047 2352,2044 2352,1998 2319,1993 1654,2011"/>
+                <Baseline points="1668,2046 2358,2042"/>
+                <TextEquiv>
+                    <Unicode>en los actos sociales por todos los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_48" custom="readingOrder {index:26;}">
+                <Coords points="1665,2093 2344,2093 2344,2047 2114,2044 2080,2065 2057,2047 1665,2044"/>
+                <Baseline points="1680,2093 2352,2093"/>
+                <TextEquiv>
+                    <Unicode>ámbitos de Filipinas. Dos años an¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_49" custom="readingOrder {index:27;}">
+                <Coords points="1657,2147 2355,2142 2355,2103 2311,2093 1747,2111 1657,2093"/>
+                <Baseline points="1672,2138 2361,2135"/>
+                <TextEquiv>
+                    <Unicode>tes, desde las columnas de “El Co¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_50" custom="readingOrder {index:28;}">
+                <Coords points="1652,2198 2344,2196 2344,2147 2280,2157 2216,2134 2088,2157 1652,2149"/>
+                <Baseline points="1667,2191 2350,2193"/>
+                <TextEquiv>
+                    <Unicode>mercio”, diario de la tarde de que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_51" custom="readingOrder {index:29;}">
+                <Coords points="1652,2250 2344,2244 2344,2201 2319,2196 1652,2214"/>
+                <Baseline points="1666,2247 2352,2244"/>
+                <TextEquiv>
+                    <Unicode>era director, “el periódico más vie</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_52" custom="readingOrder {index:30;}">
+                <Coords points="1652,2303 2350,2301 2350,2250 2326,2244 2147,2267 2108,2244 1652,2255"/>
+                <Baseline points="1666,2297 2355,2293"/>
+                <TextEquiv>
+                    <Unicode>jo de Filipinas dirigido por el di¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_53" custom="readingOrder {index:31;}">
+                <Coords points="1657,2347 2352,2350 2352,2303 1657,2308"/>
+                <Baseline points="1670,2342 2358,2348"/>
+                <TextEquiv>
+                    <Unicode>rector más joven”, según frase ca¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_54" custom="readingOrder {index:32;}">
+                <Coords points="1657,2398 2355,2398 2355,2360 2288,2344 2265,2367 2175,2344 1821,2347 1801,2367 1657,2352"/>
+                <Baseline points="1672,2392 2361,2393"/>
+                <TextEquiv>
+                    <Unicode>riñosa del maestro don Pepe Ro¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_55" custom="readingOrder {index:33;}">
+                <Coords points="1649,2450 2352,2452 2352,2396 1649,2411"/>
+                <Baseline points="1664,2444 2357,2447"/>
+                <TextEquiv>
+                    <Unicode>mero Salas, quien entonces dirigía</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_56" custom="readingOrder {index:34;}">
+                <Coords points="1654,2501 2344,2501 2344,2455 2252,2473 2219,2447 1654,2455"/>
+                <Baseline points="1668,2497 2347,2497"/>
+                <TextEquiv>
+                    <Unicode>su periódico “El Mercantil”, cuya</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_57" custom="readingOrder {index:35;}">
+                <Coords points="1649,2550 2357,2550 2357,2501 2283,2521 2198,2498 2014,2524 1970,2498 1867,2524 1821,2498 1649,2511"/>
+                <Baseline points="1663,2538 2364,2548"/>
+                <TextEquiv>
+                    <Unicode>redacción estaba a la subida del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_58" custom="readingOrder {index:36;}">
+                <Coords points="1654,2606 2344,2606 2344,2557 2321,2550 2201,2568 2170,2550 1654,2557"/>
+                <Baseline points="1669,2601 2351,2601"/>
+                <TextEquiv>
+                    <Unicode>puente de Sta. Cruz, frente al “Me¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_59" custom="readingOrder {index:37;}">
+                <Coords points="1660,2655 2350,2657 2350,2606 1660,2606"/>
+                <Baseline points="1674,2654 2355,2656"/>
+                <TextEquiv>
+                    <Unicode>tropole Hotel”, hoy Feati Building,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_60" custom="readingOrder {index:38;}">
+                <Coords points="1657,2709 2355,2704 2355,2657 2337,2655 1657,2660"/>
+                <Baseline points="1671,2701 2360,2704"/>
+                <TextEquiv>
+                    <Unicode>y a tiro de fusil de la calle del P.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_61" custom="readingOrder {index:39;}">
+                <Coords points="1652,2755 2342,2757 2339,2704 2088,2719 2006,2701 1957,2721 1649,2706"/>
+                <Baseline points="1667,2753 2347,2758"/>
+                <TextEquiv>
+                    <Unicode>Gómez, donde estaba “El Comer¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_62" custom="readingOrder {index:40;}">
+                <Coords points="1662,2806 2339,2804 2339,2757 1662,2755"/>
+                <Baseline points="1676,2803 2346,2806"/>
+                <TextEquiv>
+                    <Unicode>cio”, abogaba por la vuelta al ho¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_63" custom="readingOrder {index:41;}">
+                <Coords points="1652,2860 2344,2860 2326,2804 1652,2814"/>
+                <Baseline points="1667,2861 2351,2851"/>
+                <TextEquiv>
+                    <Unicode>gar común de la patria filipina, la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_64" custom="readingOrder {index:42;}">
+                <Coords points="1657,2906 2242,2916 2339,2909 2337,2865 1654,2865"/>
+                <Baseline points="1670,2901 2346,2908"/>
+                <TextEquiv>
+                    <Unicode>vuelta de la vieja cultura, superior</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_65" custom="readingOrder {index:43;}">
+                <Coords points="1657,2965 2347,2960 2347,2906 2291,2924 1996,2909 1970,2932 1849,2901 1713,2924 1657,2906"/>
+                <Baseline points="1672,2960 2351,2961"/>
+                <TextEquiv>
+                    <Unicode>y elevadísima, comparada con la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_66" custom="readingOrder {index:44;}">
+                <Coords points="1657,3006 2126,3022 2155,3004 2347,3006 2347,2965 2273,2957 2160,2975 1657,2965"/>
+                <Baseline points="1672,3002 2351,3003"/>
+                <TextEquiv>
+                    <Unicode>nueva y, finalmente, por el culto a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_67" custom="readingOrder {index:45;}">
+                <Coords points="1652,3060 2332,3060 2332,3011 1813,3006 1729,3027 1652,3006"/>
+                <Baseline points="1665,3052 2338,3052"/>
+                <TextEquiv>
+                    <Unicode>las antiguas tradiciones filipinas.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_68" custom="readingOrder {index:46;}">
+                <Coords points="1701,3109 2352,3109 2337,3060 2049,3057 2029,3078 1965,3055 1701,3057"/>
+                <Baseline points="1714,3103 2357,3105"/>
+                <TextEquiv>
+                    <Unicode>En una palabra, la labor de “El</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_69" custom="readingOrder {index:47;}">
+                <Coords points="1660,3158 2342,3163 2342,3119 2216,3106 2044,3122 1660,3104"/>
+                <Baseline points="1673,3154 2348,3157"/>
+                <TextEquiv>
+                    <Unicode>Comercio” antes de convertirse en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_70" custom="readingOrder {index:48;}">
+                <Coords points="1662,3206 2342,3214 2342,3163 2288,3158 1662,3160"/>
+                <Baseline points="1677,3204 2347,3210"/>
+                <TextEquiv>
+                    <Unicode>“La Opinión” por razones políticas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:9;}">
+            <Coords points="514,355 2358,355 2358,363 514,363"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:10;}">
+            <Coords points="172,356 393,356 393,361 172,361"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:11;}">
+            <Coords points="1091,561 1388,561 1388,571 1091,571"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:12;}">
+            <Coords points="1093,685 1389,685 1389,696 1093,696"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:13;}">
+            <Coords points="1207,2615 1547,2615 1547,2634 1207,2634"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:14;}">
+            <Coords points="169,856 174,856 174,1019 169,1019"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:15;}">
+            <Coords points="938,1943 945,1943 945,2167 938,2167"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:16;}">
+            <Coords points="709,1476 713,1476 713,1524 709,1524"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:17;}">
+            <Coords points="1356,1978 1365,1978 1365,2051 1356,2051"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

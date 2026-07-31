@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.42.0:model_id=53551:lm=none:date=14_04_2026_14:30</Creator>
+        <Created>2021-06-01T19:34:34.214+02:00</Created>
+        <LastChange>2026-04-14T14:39:21.712+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115571901" pageNr="19" tsid="283627183" status="DONE" userId="513448" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=OAOFNCUYUSVPVQCFHHLVYMPY" xmlUrl="https://files.transkribus.eu/Get?id=LUOKTNGYBXGVGSZVVVVMTPNB" imageId="17057298"/>
+    </Metadata>
+    <Page imageFilename="0019_Semana-0019.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="464,762 2040,762 2040,2721 464,2721"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782324021742" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="3" regionRef="r"/>
+                <RegionRefIndexed index="4" regionRef="r_2"/>
+                <RegionRefIndexed index="6" regionRef="r_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r_3"/>
+            </Relation>
+        </Relations>
+        <GraphicRegion id="r_1" custom="readingOrder {index:0;} structure {type:cartoon;}">
+            <Coords points="464,762 1990,762 1990,1289 464,1289"/>
+        </GraphicRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:serial-fiction;}">
+            <Coords points="524,1833 2040,1833 2040,2721 524,2721"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_4" custom="readingOrder {index:2;}">
+            <Coords points="477,794 1964,794 1964,803 477,803"/>
+        </SeparatorRegion>
+        <TextRegion id="r" custom="readingOrder {index:3;} structure {type:heading;}">
+            <Coords points="1079,1828 1556,1828 1556,1906 1079,1906"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1076,1885 1320,1900 1391,1893 1419,1864 1453,1894 1529,1893 1529,1840 1289,1844 1216,1825 1197,1844 1076,1844"/>
+                <Baseline points="1086,1881 1112,1880 1138,1880 1164,1880 1191,1878 1217,1878 1243,1877 1270,1877 1296,1877 1322,1877 1348,1877 1375,1877 1401,1877 1427,1877 1454,1877 1480,1877 1506,1878 1533,1878"/>
+                <TextEquiv>
+                    <Unicode>CAPITULO VI</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:4;} structure {type:heading;}">
+            <Coords points="510,1916 2045,1916 2045,2008 510,2008"/>
+            <TextLine id="r_2_1l2" custom="readingOrder {index:0;}">
+                <Coords points="516,1977 2032,1979 2032,1928 516,1928"/>
+                <Baseline points="527,1964 602,1964 677,1964 753,1964 828,1964 903,1964 979,1964 1054,1964 1129,1964 1205,1964 1280,1964 1355,1964 1431,1964 1506,1964 1581,1964 1657,1964 1732,1964 1807,1965 1883,1965 1958,1965 2034,1965"/>
+                <TextEquiv>
+                    <Unicode>DE LOS NO ESPERADOS SUCESOS QUE PUSO EN MEMORIA UN EXTRANO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l3" custom="readingOrder {index:1;}">
+                <Coords points="986,2023 1561,2019 1561,1979 1534,1975 986,1979"/>
+                <Baseline points="996,2009 1024,2010 1053,2010 1081,2010 1110,2010 1138,2010 1167,2009 1195,2009 1224,2009 1252,2009 1281,2007 1309,2007 1338,2007 1366,2007 1395,2007 1423,2007 1452,2007 1480,2007 1509,2009 1537,2009 1566,2010"/>
+                <TextEquiv>
+                    <Unicode>Y CENTENARIO PERSONAJE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_5" custom="readingOrder {index:5;}">
+            <Coords points="1018,804 1953,804 1953,813 1018,813"/>
+        </SeparatorRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:6;} structure {type:story;}">
+            <Coords points="516,2020 2050,2020 2050,2721 516,2721"/>
+            <TextLine id="r_2_1l4" custom="readingOrder {index:0;}">
+                <Coords points="607,2107 2023,2107 2023,2057 607,2057"/>
+                <Baseline points="618,2097 688,2097 759,2096 829,2096 900,2096 970,2096 1041,2096 1111,2096 1182,2097 1252,2097 1323,2097 1393,2097 1464,2097 1534,2097 1605,2097 1675,2097 1746,2096 1816,2096 1887,2096 1957,2096 2028,2096"/>
+                <TextEquiv>
+                    <Unicode>Enzarzados en esta conversación estaban, cuando llegó a sus oídos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l5" custom="readingOrder {index:1;}">
+                <Coords points="516,2149 1666,2155 1642,2107 516,2111"/>
+                <Baseline points="527,2139 584,2141 641,2141 698,2141 755,2141 813,2141 870,2141 927,2141 984,2141 1041,2141 1099,2141 1156,2141 1213,2141 1270,2141 1327,2141 1385,2141 1442,2141 1499,2141 1556,2142 1613,2142 1671,2142"/>
+                <TextEquiv>
+                    <Unicode>una atiplada voz ilamando estridentemente desde lejos:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l6" custom="readingOrder {index:2;} person {offset:2; length:7;} person {offset:11; length:7;}">
+                <Coords points="639,2185 1357,2194 1357,2153 1323,2151 639,2162"/>
+                <Baseline points="650,2184 685,2184 721,2183 756,2183 792,2183 828,2183 863,2183 899,2184 934,2184 970,2184 1006,2184 1041,2184 1077,2184 1112,2184 1148,2184 1184,2184 1219,2184 1255,2184 1290,2184 1326,2184 1362,2184"/>
+                <TextEquiv>
+                    <Unicode>—¡Rutenio, Rutenio! ¿Dónde estás?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l7" custom="readingOrder {index:3;}">
+                <Coords points="618,2226 1789,2239 1789,2194 1740,2185 618,2205"/>
+                <Baseline points="629,2223 687,2225 745,2226 803,2226 862,2228 920,2228 978,2228 1036,2228 1095,2228 1153,2226 1211,2226 1269,2226 1328,2225 1386,2225 1444,2225 1502,2225 1561,2225 1619,2225 1677,2225 1735,2226 1794,2228"/>
+                <TextEquiv>
+                    <Unicode>—Aquí, a la orilla del riachuelo! —respondió el pastor.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l8" custom="readingOrder {index:4;}">
+                <Coords points="613,2275 1753,2283 1753,2243 1653,2230 613,2249"/>
+                <Baseline points="623,2267 679,2267 736,2268 793,2268 849,2268 906,2270 963,2270 1019,2270 1076,2270 1133,2270 1190,2270 1246,2270 1303,2270 1360,2270 1416,2270 1473,2270 1530,2271 1586,2271 1643,2271 1700,2271 1757,2271"/>
+                <TextEquiv>
+                    <Unicode>—¿De quién se trata? —interrogó el doncel vandálico.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l9" custom="readingOrder {index:5;} person {offset:57; length:5;}">
+                <Coords points="607,2315 2030,2320 1983,2273 607,2292"/>
+                <Baseline points="617,2309 687,2310 758,2312 829,2312 900,2313 971,2313 1042,2313 1112,2313 1183,2313 1254,2313 1325,2313 1396,2313 1467,2313 1538,2313 1608,2313 1679,2313 1750,2313 1821,2313 1892,2313 1963,2313 2034,2313"/>
+                <TextEquiv>
+                    <Unicode>—Es el brujo del lugar —contestó el cabrero—. El anciano Litio:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l10" custom="readingOrder {index:6;}">
+                <Coords points="524,2364 2023,2364 2023,2322 524,2313"/>
+                <Baseline points="534,2352 608,2354 683,2354 758,2355 832,2355 907,2357 982,2357 1056,2357 1131,2357 1206,2357 1281,2357 1355,2357 1430,2357 1505,2357 1579,2357 1654,2355 1729,2355 1803,2355 1878,2355 1953,2354 2028,2354"/>
+                <TextEquiv>
+                    <Unicode>bonazo manso hecho a la buena boya, quien sin embargo de que está con</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l11" custom="readingOrder {index:7;}">
+                <Coords points="526,2407 2032,2405 2032,2364 526,2369"/>
+                <Baseline points="536,2396 610,2397 685,2397 760,2397 835,2399 910,2399 985,2399 1060,2399 1135,2399 1210,2399 1285,2399 1359,2399 1434,2399 1509,2399 1584,2399 1659,2399 1734,2399 1809,2399 1884,2399 1959,2399 2034,2399"/>
+                <TextEquiv>
+                    <Unicode>un pie en la huesa por los muchos años que tiene, dicen que no pasa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l12" custom="readingOrder {index:8;}">
+                <Coords points="520,2454 2023,2452 2023,2405 520,2409"/>
+                <Baseline points="531,2438 605,2439 680,2439 755,2441 830,2441 905,2441 980,2441 1054,2442 1129,2442 1204,2442 1279,2442 1354,2442 1429,2442 1504,2442 1578,2442 1653,2441 1728,2441 1803,2441 1878,2441 1953,2441 2028,2441"/>
+                <TextEquiv>
+                    <Unicode>día por él y dicen bien, pues cualquiera se echaría a discurrir que está</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l13" custom="readingOrder {index:9;}">
+                <Coords points="516,2492 2023,2492 2023,2452 1974,2449 516,2454"/>
+                <Baseline points="527,2481 601,2483 676,2483 751,2484 826,2484 901,2484 976,2486 1051,2486 1126,2486 1201,2486 1276,2486 1350,2486 1425,2486 1500,2486 1575,2486 1650,2486 1725,2486 1800,2484 1875,2484 1950,2484 2025,2483"/>
+                <TextEquiv>
+                    <Unicode>cortado en buena luna con ser así que los desmanes del tiempo tragador</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l14" custom="readingOrder {index:10;}">
+                <Coords points="524,2545 2021,2539 2021,2492 524,2501"/>
+                <Baseline points="534,2525 608,2526 683,2526 757,2528 832,2528 906,2528 981,2529 1055,2529 1130,2529 1204,2528 1279,2528 1354,2528 1428,2528 1503,2528 1577,2528 1652,2528 1726,2528 1801,2528 1875,2528 1950,2528 2025,2529"/>
+                <TextEquiv>
+                    <Unicode>y de la arañadora vejez no parecen haber hecho mella en su cuerpo, tal</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l15" custom="readingOrder {index:11;}">
+                <Coords points="528,2579 2030,2581 2017,2535 528,2543"/>
+                <Baseline points="539,2567 613,2568 688,2568 763,2570 838,2570 912,2570 987,2571 1062,2571 1137,2571 1211,2571 1286,2571 1361,2571 1436,2571 1510,2571 1585,2571 1660,2571 1735,2570 1809,2570 1884,2570 1959,2568 2034,2568"/>
+                <TextEquiv>
+                    <Unicode>es su salud y agilidad. Es carta vieja que sabe al dedillo todos los rincones</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l16" custom="readingOrder {index:12;}">
+                <Coords points="524,2620 2017,2628 2017,2586 1923,2577 524,2582"/>
+                <Baseline points="534,2609 608,2610 682,2612 757,2613 831,2615 906,2615 980,2615 1054,2615 1129,2615 1203,2615 1278,2615 1352,2615 1426,2615 1501,2615 1575,2613 1650,2613 1724,2613 1798,2613 1873,2613 1947,2614 2022,2615"/>
+                <TextEquiv>
+                    <Unicode>del lugar y linajes, y, aunque tiene sesos de cascabel por su poco asiento,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l17" custom="readingOrder {index:13;}">
+                <Coords points="526,2667 2026,2667 2006,2626 526,2620"/>
+                <Baseline points="537,2652 611,2654 686,2655 761,2655 835,2657 910,2657 985,2657 1059,2658 1134,2658 1209,2658 1284,2658 1358,2658 1433,2658 1508,2658 1582,2658 1657,2658 1732,2658 1806,2657 1881,2657 1956,2657 2031,2657"/>
+                <TextEquiv>
+                    <Unicode>liviano y ligero de cascos, sería cargo de conciencia hacerle mal alguno a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l18" custom="readingOrder {index:14;}">
+                <Coords points="524,2709 1615,2718 1585,2669 524,2671"/>
+                <Baseline points="534,2699 588,2699 642,2699 696,2700 751,2700 805,2700 859,2702 914,2702 968,2702 1022,2703 1077,2703 1131,2703 1185,2705 1239,2705 1294,2705 1348,2705 1402,2705 1457,2704 1511,2703 1565,2703 1620,2702"/>
+                <TextEquiv>
+                    <Unicode>este inocente que no es ni para dar migas a un gato.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_6" custom="readingOrder {index:7;}">
+            <Coords points="488,807 965,807 965,820 488,820"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:8;}">
+            <Coords points="1153,935 1290,935 1290,943 1153,943"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:9;}">
+            <Coords points="1153,952 1291,952 1291,961 1153,961"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:10;}">
+            <Coords points="1013,1042 1495,1042 1495,1052 1013,1052"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:11;}">
+            <Coords points="1013,1069 1427,1069 1427,1079 1013,1079"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:12;}">
+            <Coords points="1050,1084 1196,1084 1196,1092 1050,1092"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:13;}">
+            <Coords points="1263,1086 1391,1086 1391,1093 1263,1093"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:14;}">
+            <Coords points="1099,1206 1343,1206 1343,1215 1099,1215"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:15;}">
+            <Coords points="1103,1222 1340,1222 1340,1230 1103,1230"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:16;}">
+            <Coords points="489,1245 819,1245 819,1254 489,1254"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:17;}">
+            <Coords points="847,1248 1950,1248 1950,1258 847,1258"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:18;}">
+            <Coords points="477,799 484,799 484,1264 477,1264"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:19;}">
+            <Coords points="488,809 495,809 495,1253 488,1253"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:20;}">
+            <Coords points="1940,805 1953,805 1953,1258 1940,1258"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:21;}">
+            <Coords points="1956,794 1964,794 1964,1269 1956,1269"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:34:55.059+02:00</Created>
+        <LastChange>2026-06-24T18:53:32.216+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115571988" pageNr="48" tsid="293809450" status="GT" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=LROSDQPYNLBCJRLKVQVCHHRL" xmlUrl="https://files.transkribus.eu/Get?id=SNNRRHSJNZETLQPLKNJSQZSG" imageId="17057457"/>
+    </Metadata>
+    <Page imageFilename="0048_Semana-0048.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="66,267 2397,267 2397,3255 66,3255"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782494549190" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="2" regionRef="r_5_1"/>
+                <RegionRefIndexed index="3" regionRef="r_6_1"/>
+                <RegionRefIndexed index="4" regionRef="r_7_1"/>
+                <RegionRefIndexed index="6" regionRef="r"/>
+                <RegionRefIndexed index="7" regionRef="r_9_1"/>
+                <RegionRefIndexed index="8" regionRef="r_10_1"/>
+                <RegionRefIndexed index="9" regionRef="r_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_7_1"/>
+                <RegionRef regionRef="r_8"/>
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_9_1l3"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_5_1"/>
+                <RegionRef regionRef="r_6_1"/>
+                <RegionRef regionRef="r_9_1"/>
+                <RegionRef regionRef="r_10_1l25"/>
+            </Relation>
+        </Relations>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="93,270 376,270 376,324 93,324"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;}">
+                <Coords points="97,320 373,315 373,273 352,277 333,296 313,295 268,260 251,274 97,277"/>
+                <Baseline points="102,312 128,311 155,311 181,312 208,312 235,312 261,312 288,311 314,311 341,311 368,311"/>
+                <TextEquiv>
+                    <Unicode>SEMANA—4</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>SEMANA—4</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:header;}">
+            <Coords points="2009,267 2389,267 2389,322 2009,322"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;} date {offset:0; length:17; continued:true;}">
+                <Coords points="2017,314 2393,310 2393,271 2379,269 2295,269 2276,288 2183,269 2127,278 2088,269 2075,281 2017,269"/>
+                <Baseline points="2022,305 2048,306 2074,306 2100,308 2126,308 2152,308 2178,308 2205,306 2231,306 2257,306 2283,306 2309,306 2335,306 2361,307 2388,308"/>
+                <TextEquiv>
+                    <Unicode>10 de Marzo, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>10 de Marzo, 1949</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_5_1" custom="readingOrder {index:2;} structure {type:heading;}">
+            <Coords points="466,366 1957,378 1957,564 476,557"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;} organization {offset:3; length:18;}">
+                <Coords points="1498,530 1674,521 1712,556 1770,523 1950,530 1958,457 1702,456 1663,490 1618,460 1569,509 1517,485 1498,498"/>
+                <Baseline points="508,523 1528,515 1553,516 1578,516 1603,516 1628,516 1653,516 1678,516 1703,515 1728,515 1753,515 1778,516 1803,516 1828,516 1853,516 1878,516 1903,518 1928,518 1953,518"/>
+                <TextEquiv>
+                    <Unicode>La Cruz Roja Filipina</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>n iipina</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_6_1" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="66,613 812,613 812,3236 66,3236"/>
+            <TextLine id="r_6_1l1" custom="readingOrder {index:0;} date {offset:6; length:4;}">
+                <Coords points="123,659 765,666 803,647 740,612 603,639 552,621 123,626"/>
+                <Baseline points="128,657 161,657 195,657 228,656 262,656 295,656 329,656 362,656 396,656 429,656 463,656 496,656 530,656 563,656 597,656 630,654 664,654 697,653 731,653 764,651 798,648"/>
+                <TextEquiv>
+                    <Unicode>Desde 1905 datan las activida-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l2" custom="readingOrder {index:1;} organization {offset:9; length:23;}">
+                <Coords points="81,711 800,720 779,679 706,668 81,693"/>
+                <Baseline points="86,710 121,710 156,710 192,710 227,710 263,708 298,708 334,708 369,708 405,707 440,707 475,707 511,705 546,705 582,705 617,705 653,705 688,705 724,707 759,708 795,708"/>
+                <TextEquiv>
+                    <Unicode>des de la Cruz Roja en Filipinas,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l3" custom="readingOrder {index:2;} organization {offset:10; length:23; continued:true;}">
+                <Coords points="90,771 773,769 793,737 725,717 697,734 90,741"/>
+                <Baseline points="95,764 129,762 164,762 198,761 233,761 268,761 302,759 337,759 372,759 406,759 441,758 476,758 510,758 545,758 580,758 614,758 649,758 684,758 718,758 753,759 788,759"/>
+                <TextEquiv>
+                    <Unicode>cuando la Cruz Roja norteamerica-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l4" custom="readingOrder {index:3;} organization {offset:0; length:2; continued:true;}">
+                <Coords points="87,824 793,814 733,773 494,795 461,776 433,796 403,775 87,787"/>
+                <Baseline points="92,815 126,815 161,813 196,813 231,813 266,813 300,812 335,812 370,812 405,812 440,812 474,812 509,810 544,810 579,810 614,810 648,811 683,812 718,812 753,812 788,813"/>
+                <TextEquiv>
+                    <Unicode>na, poco después de su reorganiza-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l5" custom="readingOrder {index:4;}">
+                <Coords points="88,874 791,874 800,839 88,844"/>
+                <Baseline points="93,867 128,866 163,866 198,864 233,864 268,864 303,864 338,863 373,863 408,863 444,863 479,863 514,863 549,863 584,863 619,863 654,863 689,864 724,864 759,864 795,864"/>
+                <TextEquiv>
+                    <Unicode>ción decidió establecer en las Islas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l6" custom="readingOrder {index:5;}">
+                <Coords points="91,930 790,919 770,882 91,893"/>
+                <Baseline points="96,918 130,918 164,918 199,918 233,918 268,917 302,917 337,917 371,917 406,917 440,917 474,917 509,917 543,917 578,917 612,917 647,917 681,916 716,915 750,915 785,914"/>
+                <TextEquiv>
+                    <Unicode>una rama para atender las necesi-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l7" custom="readingOrder {index:6;} place {offset:10; length:15;}">
+                <Coords points="88,981 800,973 800,951 753,932 720,949 628,933 599,962 527,933 88,944"/>
+                <Baseline points="93,972 128,972 163,972 198,971 233,971 268,971 303,971 338,971 373,971 408,969 444,969 479,969 514,969 549,969 584,969 619,969 654,969 689,969 724,970 759,971 795,972"/>
+                <TextEquiv>
+                    <Unicode>dades del pueblo filipino. Fué, sin</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l8" custom="readingOrder {index:7;} date {offset:12; length:4;}">
+                <Coords points="79,1033 797,1023 797,1003 744,982 665,1013 624,989 383,989 289,1015 158,989 79,1000"/>
+                <Baseline points="84,1023 119,1023 154,1023 190,1023 225,1023 261,1023 296,1023 331,1023 367,1023 402,1023 438,1022 473,1022 508,1022 544,1022 579,1022 615,1020 650,1020 685,1020 721,1020 756,1020 792,1022"/>
+                <TextEquiv>
+                    <Unicode>embargo, en 1917 cuando dicha</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l9" custom="readingOrder {index:8;}">
+                <Coords points="84,1086 494,1086 522,1064 558,1086 783,1084 793,1047 468,1036 441,1053 415,1036 214,1068 84,1053"/>
+                <Baseline points="89,1076 125,1076 162,1076 199,1076 236,1075 272,1074 309,1074 346,1074 383,1074 420,1074 456,1074 493,1074 530,1074 567,1074 604,1074 640,1074 677,1074 714,1075 751,1076 788,1076"/>
+                <TextEquiv>
+                    <Unicode>rama se estableció oficialmente</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l10" custom="readingOrder {index:9;}">
+                <Coords points="84,1138 794,1130 794,1106 758,1093 728,1114 694,1093 658,1114 591,1093 84,1101"/>
+                <Baseline points="89,1127 124,1128 159,1128 194,1128 229,1128 264,1128 299,1128 334,1128 369,1128 404,1128 439,1127 474,1127 509,1127 544,1127 579,1127 614,1127 649,1127 684,1127 719,1127 754,1127 789,1127"/>
+                <TextEquiv>
+                    <Unicode>como un capítulo insular de la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l11" custom="readingOrder {index:10;} organization {offset:0; length:25; continued:true;}">
+                <Coords points="78,1183 635,1195 635,1163 528,1141 497,1157 385,1148 303,1163 222,1141 78,1153"/>
+                <Baseline points="83,1179 110,1180 137,1181 165,1181 192,1181 219,1181 247,1181 274,1179 301,1179 329,1179 356,1179 383,1178 411,1178 438,1178 465,1178 493,1178 520,1178 547,1178 575,1179 602,1180 630,1182"/>
+                <TextEquiv>
+                    <Unicode>Cruz Roja norteamericana.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l12" custom="readingOrder {index:11;}">
+                <Coords points="124,1237 787,1241 787,1204 761,1197 729,1218 693,1196 660,1218 556,1196 482,1220 443,1197 255,1197 224,1221 124,1202"/>
+                <Baseline points="129,1232 161,1233 194,1233 226,1233 259,1233 292,1233 324,1233 357,1232 390,1232 422,1232 455,1232 488,1232 520,1232 553,1232 586,1232 618,1233 651,1233 684,1233 716,1233 749,1233 782,1235"/>
+                <TextEquiv>
+                    <Unicode>Con el conocido espíritu de la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l13" custom="readingOrder {index:12;}">
+                <Coords points="84,1293 791,1287 791,1262 735,1252 448,1245 361,1276 312,1253 84,1257"/>
+                <Baseline points="89,1284 123,1284 158,1284 193,1284 228,1284 263,1284 298,1284 332,1283 367,1283 402,1283 437,1283 472,1283 507,1283 542,1284 576,1284 611,1284 646,1284 681,1284 716,1285 751,1286 786,1286"/>
+                <TextEquiv>
+                    <Unicode>organización, el Capítulo filipino</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l14" custom="readingOrder {index:13;}">
+                <Coords points="75,1345 778,1350 778,1308 75,1315"/>
+                <Baseline points="80,1337 114,1337 149,1337 183,1337 218,1337 253,1337 287,1337 322,1337 357,1337 391,1337 426,1337 461,1337 495,1336 530,1335 565,1335 599,1337 634,1337 669,1337 703,1337 738,1338 773,1338"/>
+                <TextEquiv>
+                    <Unicode>de la Cruz Roja reunió sus escasas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l15" custom="readingOrder {index:14;}">
+                <Coords points="67,1385 104,1402 785,1402 785,1368 731,1352 67,1364"/>
+                <Baseline points="72,1388 107,1388 142,1389 178,1389 213,1389 249,1389 284,1389 319,1389 355,1388 390,1388 426,1388 461,1388 496,1388 532,1388 567,1388 603,1389 638,1389 673,1389 709,1389 744,1391 780,1391"/>
+                <TextEquiv>
+                    <Unicode>fuerzas o inició un provechoso plan</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l16" custom="readingOrder {index:15;}">
+                <Coords points="82,1450 791,1449 791,1423 744,1404 637,1428 609,1410 571,1433 537,1405 433,1405 408,1428 83,1405"/>
+                <Baseline points="87,1439 123,1439 160,1440 197,1440 234,1440 270,1440 307,1440 344,1441 381,1442 418,1442 454,1442 491,1442 528,1443 565,1443 602,1443 638,1443 675,1443 712,1443 749,1442 786,1442"/>
+                <TextEquiv>
+                    <Unicode>de servicio que incluía el auxilio</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l17" custom="readingOrder {index:16;}">
+                <Coords points="78,1502 684,1515 784,1499 767,1467 717,1460 692,1480 633,1460 78,1469"/>
+                <Baseline points="83,1493 117,1493 152,1493 187,1493 222,1493 257,1493 291,1493 326,1493 361,1493 396,1493 431,1494 465,1494 500,1494 535,1494 570,1494 605,1494 639,1494 674,1494 709,1494 744,1494 779,1493"/>
+                <TextEquiv>
+                    <Unicode>en casos de calamidad pública, ins-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l18" custom="readingOrder {index:17;}">
+                <Coords points="79,1551 510,1562 531,1541 586,1563 764,1563 788,1547 788,1520 664,1509 79,1512"/>
+                <Baseline points="84,1545 120,1544 157,1544 194,1544 231,1544 267,1544 304,1544 341,1545 378,1545 415,1545 451,1545 488,1547 525,1547 562,1547 599,1547 635,1547 672,1547 709,1547 746,1547 783,1547"/>
+                <TextEquiv>
+                    <Unicode>trucción de higiene y seguridad y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l19" custom="readingOrder {index:18;}">
+                <Coords points="81,1604 230,1610 252,1591 278,1610 672,1602 697,1620 779,1609 780,1563 670,1580 624,1565 596,1592 496,1563 400,1581 371,1562 81,1572"/>
+                <Baseline points="86,1595 120,1595 154,1595 189,1596 223,1596 258,1596 292,1596 326,1597 361,1598 395,1598 430,1598 464,1598 498,1599 533,1599 567,1599 602,1599 636,1599 670,1600 705,1601 739,1601 774,1601"/>
+                <TextEquiv>
+                    <Unicode>servicio dental escolar. Al igual</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l20" custom="readingOrder {index:19;} organization {offset:25; length:10; continued:true;}">
+                <Coords points="81,1659 788,1658 788,1625 743,1613 570,1634 452,1616 431,1636 373,1613 81,1620"/>
+                <Baseline points="86,1650 120,1650 155,1649 190,1649 225,1649 260,1649 295,1649 329,1649 364,1649 399,1649 434,1650 469,1650 504,1650 539,1651 573,1652 608,1652 643,1652 678,1652 713,1652 748,1652 783,1652"/>
+                <TextEquiv>
+                    <Unicode>que los servicios de las sociedades</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l21" custom="readingOrder {index:20;} organization {offset:0; length:15; continued:true;}">
+                <Coords points="85,1714 519,1700 671,1722 785,1715 786,1682 86,1672"/>
+                <Baseline points="90,1700 124,1701 159,1701 193,1701 228,1701 262,1701 297,1701 331,1701 366,1701 400,1703 435,1703 469,1703 504,1703 538,1703 573,1703 607,1704 642,1704 676,1704 711,1704 745,1706 780,1706"/>
+                <TextEquiv>
+                    <Unicode>de la Cruz Roja en otros países,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l22" custom="readingOrder {index:21;}">
+                <Coords points="73,1761 784,1762 766,1723 623,1740 503,1718 167,1717 146,1735 73,1717"/>
+                <Baseline points="78,1751 113,1752 148,1752 183,1752 218,1752 253,1752 288,1752 323,1752 358,1754 393,1754 428,1754 463,1754 498,1754 533,1755 568,1755 603,1755 638,1755 673,1757 708,1757 743,1757 779,1757"/>
+                <TextEquiv>
+                    <Unicode>los del Capítulo filipino se encami-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l23" custom="readingOrder {index:22;}">
+                <Coords points="78,1818 782,1813 766,1781 694,1773 633,1794 567,1773 529,1791 495,1773 78,1781"/>
+                <Baseline points="83,1808 117,1807 152,1806 187,1806 221,1805 256,1805 291,1805 325,1805 360,1806 395,1806 430,1806 464,1808 499,1808 534,1809 568,1809 603,1809 638,1809 672,1811 707,1811 742,1811 777,1809"/>
+                <TextEquiv>
+                    <Unicode>nan a suplementar la obra del go-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l24" custom="readingOrder {index:23;}">
+                <Coords points="78,1864 767,1874 781,1827 78,1821"/>
+                <Baseline points="83,1856 117,1857 152,1857 186,1857 221,1857 256,1857 290,1857 325,1859 360,1859 394,1859 429,1859 464,1860 498,1860 533,1860 568,1860 602,1860 637,1862 672,1862 706,1862 741,1862 776,1863"/>
+                <TextEquiv>
+                    <Unicode>bierno en interés del bienestar del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l25" custom="readingOrder {index:24;}">
+                <Coords points="85,1923 233,1919 233,1903 225,1903 192,1877 169,1880 152,1876 139,1885 85,1885"/>
+                <Baseline points="90,1913 117,1910 145,1908 172,1910 200,1911 228,1913"/>
+                <TextEquiv>
+                    <Unicode>pueblo.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l26" custom="readingOrder {index:25;}">
+                <Coords points="187,2027 689,2021 689,1994 602,1981 382,1993 188,1983"/>
+                <Baseline points="192,2015 217,2015 243,2015 269,2015 295,2015 321,2015 347,2015 373,2015 399,2015 425,2016 450,2016 476,2016 502,2018 528,2018 554,2018 580,2018 606,2018 632,2018 658,2018 684,2018"/>
+                <TextEquiv>
+                    <Unicode>Primeros pasos hacia su</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l27" custom="readingOrder {index:26;}">
+                <Coords points="282,2068 377,2087 421,2077 555,2083 583,2072 583,2048 548,2033 530,2045 483,2045 471,2033 440,2047 369,2044 358,2033 330,2046 303,2035 282,2045"/>
+                <Baseline points="287,2063 313,2065 339,2068 366,2069 392,2069 419,2069 445,2068 472,2067 498,2067 525,2067 551,2069 578,2070"/>
+                <TextEquiv>
+                    <Unicode>independencia</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l28" custom="readingOrder {index:27;} date {offset:6; length:4;}">
+                <Coords points="120,2168 648,2194 790,2177 790,2141 429,2155 120,2133"/>
+                <Baseline points="125,2171 158,2169 191,2169 224,2169 257,2169 290,2169 323,2171 356,2171 389,2172 422,2172 455,2172 488,2174 521,2174 554,2175 587,2175 620,2175 653,2175 686,2175 719,2175 752,2175 785,2174"/>
+                <TextEquiv>
+                    <Unicode>Ya en 1934 se realizó el primer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l29" custom="readingOrder {index:28;} organization {offset:26; length:4; continued:true;}">
+                <Coords points="72,2219 794,2232 794,2203 719,2189 587,2197 561,2219 455,2189 72,2197"/>
+                <Baseline points="77,2220 112,2220 148,2222 183,2222 219,2222 255,2222 290,2223 326,2223 361,2223 397,2223 433,2225 468,2225 504,2225 539,2226 575,2226 611,2226 646,2227 682,2228 717,2228 753,2229 789,2229"/>
+                <TextEquiv>
+                    <Unicode>intento de establecer una Cruz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l30" custom="readingOrder {index:29;} organization {offset:0; length:12; continued:true;}">
+                <Coords points="81,2282 472,2299 787,2282 787,2260 727,2243 701,2262 434,2240 365,2260 81,2237"/>
+                <Baseline points="86,2274 120,2274 155,2274 190,2274 225,2276 260,2276 294,2276 329,2276 364,2276 399,2277 434,2277 468,2278 503,2279 538,2279 573,2279 608,2279 642,2279 677,2280 712,2280 747,2280 782,2280"/>
+                <TextEquiv>
+                    <Unicode>Roja Filipina independiente a ini-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l31" custom="readingOrder {index:30;} person {offset:19; length:14; continued:true;}">
+                <Coords points="87,2338 787,2337 787,2317 723,2296 692,2313 599,2293 87,2301"/>
+                <Baseline points="92,2325 126,2325 161,2325 195,2326 230,2327 264,2327 299,2327 333,2328 368,2328 402,2329 437,2330 471,2330 506,2330 540,2331 575,2331 609,2331 644,2331 678,2331 713,2331 747,2331 782,2331"/>
+                <TextEquiv>
+                    <Unicode>ciativa del finado Presidente Ma-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l32" custom="readingOrder {index:31;} person {offset:0; length:14; continued:true;}">
+                <Coords points="90,2389 567,2402 774,2394 786,2363 574,2349 407,2374 269,2343 234,2368 205,2341 91,2349"/>
+                <Baseline points="95,2378 129,2378 163,2378 197,2379 232,2379 266,2381 300,2381 334,2381 369,2382 403,2382 437,2384 471,2384 506,2384 540,2385 574,2385 608,2385 643,2385 677,2384 711,2384 745,2384 780,2382"/>
+                <TextEquiv>
+                    <Unicode>nuel L. Quezon, que aspiraba a es-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l33" custom="readingOrder {index:32;}">
+                <Coords points="97,2442 788,2443 776,2414 696,2402 97,2397"/>
+                <Baseline points="102,2429 136,2429 170,2430 204,2430 238,2431 272,2432 306,2432 340,2433 374,2433 408,2435 442,2435 476,2435 510,2436 544,2436 578,2436 612,2436 646,2438 680,2438 714,2438 748,2438 783,2438"/>
+                <TextEquiv>
+                    <Unicode>tablecer tal Cruz Roja simultánea-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l34" custom="readingOrder {index:33;}">
+                <Coords points="89,2494 790,2492 774,2461 688,2453 90,2453"/>
+                <Baseline points="95,2481 129,2481 164,2481 198,2483 233,2483 267,2483 302,2484 336,2484 371,2486 405,2486 440,2487 474,2487 509,2487 543,2489 578,2489 612,2489 647,2490 681,2490 716,2490 750,2490 785,2490"/>
+                <TextEquiv>
+                    <Unicode>mente con el cambio del estado po-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l35" custom="readingOrder {index:34;}">
+                <Coords points="97,2546 728,2562 790,2546 776,2517 690,2508 654,2526 597,2503 449,2520 98,2497"/>
+                <Baseline points="102,2534 136,2534 170,2534 204,2534 238,2534 272,2535 306,2535 341,2537 375,2537 409,2538 443,2538 477,2540 511,2540 545,2541 580,2542 614,2543 648,2543 682,2544 716,2544 750,2544 785,2544"/>
+                <TextEquiv>
+                    <Unicode>lítico de Filipinas que había de pa-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l36" custom="readingOrder {index:35;}">
+                <Coords points="96,2594 790,2602 790,2574 741,2553 713,2579 692,2557 96,2565"/>
+                <Baseline points="101,2586 135,2586 169,2586 203,2586 237,2588 272,2588 306,2589 340,2589 374,2590 408,2591 443,2591 477,2592 511,2592 545,2594 579,2594 614,2594 648,2594 682,2594 716,2594 750,2594 785,2594"/>
+                <TextEquiv>
+                    <Unicode>sar a ser una Mancomunidad. Se-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l37" custom="readingOrder {index:36;} organization {offset:21; length:11; continued:true;}">
+                <Coords points="84,2647 784,2659 797,2620 85,2617"/>
+                <Baseline points="90,2640 125,2640 160,2640 195,2639 230,2639 265,2639 300,2639 335,2640 370,2640 405,2640 441,2642 476,2642 511,2643 546,2643 581,2643 616,2645 651,2645 686,2646 721,2646 756,2646 792,2646"/>
+                <TextEquiv>
+                    <Unicode>gún los términos del Convenio de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l38" custom="readingOrder {index:37;} organization {offset:0; length:7; continued:true;}">
+                <Coords points="102,2697 518,2706 544,2689 568,2710 651,2710 673,2688 699,2710 796,2706 796,2671 742,2666 659,2680 469,2660 269,2683 198,2653 102,2658"/>
+                <Baseline points="107,2690 141,2690 175,2688 209,2690 243,2690 278,2690 312,2691 346,2692 380,2693 414,2693 449,2694 483,2696 517,2696 551,2697 585,2697 620,2699 654,2699 688,2697 722,2697 756,2696 791,2694"/>
+                <TextEquiv>
+                    <Unicode>Ginebra, una nación tiene antes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l39" custom="readingOrder {index:38;} organization {offset:24; length:10; continued:true;}">
+                <Coords points="94,2752 758,2763 800,2760 801,2728 95,2717"/>
+                <Baseline points="99,2741 133,2741 168,2742 203,2742 238,2742 273,2743 307,2744 342,2744 377,2745 412,2745 447,2745 481,2747 516,2747 551,2748 586,2748 621,2749 655,2750 690,2750 725,2751 760,2751 795,2751"/>
+                <TextEquiv>
+                    <Unicode>que haberse adherido al Tratado de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l40" custom="readingOrder {index:39;} organization {offset:0; length:12; continued:true;}">
+                <Coords points="97,2802 797,2805 797,2774 710,2765 358,2781 283,2760 97,2762"/>
+                <Baseline points="102,2792 136,2792 171,2793 205,2793 240,2795 274,2796 309,2796 343,2797 378,2798 412,2798 447,2799 481,2799 516,2799 550,2801 585,2801 619,2801 654,2801 688,2801 723,2801 757,2801 792,2801"/>
+                <TextEquiv>
+                    <Unicode>la Cruz Roja para poder establecer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l41" custom="readingOrder {index:40;} organization {offset:4; length:28; continued:true;}">
+                <Coords points="93,2851 806,2857 792,2829 730,2821 94,2820"/>
+                <Baseline points="98,2844 133,2844 168,2846 203,2846 238,2846 273,2847 308,2847 344,2848 379,2849 414,2849 449,2850 484,2850 519,2852 554,2852 590,2853 625,2853 660,2855 695,2855 730,2856 765,2856 801,2856"/>
+                <TextEquiv>
+                    <Unicode>una Sociedad nacional de la Cruz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l42" custom="readingOrder {index:41;} organization {offset:0; length:4; continued:true;}">
+                <Coords points="90,2906 790,2914 790,2889 671,2869 527,2868 498,2889 463,2869 220,2866 197,2884 165,2861 90,2861"/>
+                <Baseline points="95,2897 129,2897 164,2897 198,2898 233,2898 267,2898 302,2900 336,2900 371,2900 405,2901 440,2901 474,2901 509,2903 543,2903 578,2903 612,2904 647,2904 681,2905 716,2906 750,2906 785,2907"/>
+                <TextEquiv>
+                    <Unicode>Roja independiente. Evidentemen-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l43" custom="readingOrder {index:42;}">
+                <Coords points="84,2948 774,2970 785,2936 85,2919"/>
+                <Baseline points="89,2948 123,2948 158,2948 192,2949 227,2949 261,2949 296,2951 330,2951 365,2952 399,2952 434,2954 468,2954 503,2954 537,2955 572,2955 606,2955 641,2957 675,2957 710,2957 744,2957 779,2957"/>
+                <TextEquiv>
+                    <Unicode>te, como el Gobierno de la Manco-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l44" custom="readingOrder {index:43;}">
+                <Coords points="87,3009 284,2998 337,3018 362,2996 398,3018 790,3018 790,2988 671,2973 513,2973 486,2996 442,2972 87,2972"/>
+                <Baseline points="92,2999 126,2999 161,3000 195,3000 230,3000 265,3002 299,3002 334,3003 369,3003 403,3003 438,3005 473,3005 507,3005 542,3006 577,3006 611,3007 646,3008 681,3008 715,3009 750,3009 785,3009"/>
+                <TextEquiv>
+                    <Unicode>munidad no tenía facultad para</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l45" custom="readingOrder {index:44;}">
+                <Coords points="93,3063 276,3066 300,3047 318,3066 488,3075 519,3053 614,3078 726,3053 795,3074 796,3036 530,3021 500,3050 438,3021 93,3029"/>
+                <Baseline points="98,3051 132,3051 167,3052 201,3053 236,3053 271,3053 305,3054 340,3054 375,3055 409,3056 444,3056 479,3057 513,3057 548,3059 583,3059 617,3059 652,3059 687,3060 721,3060 756,3060 791,3060"/>
+                <TextEquiv>
+                    <Unicode>concertar tratados, Filipinas no</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l46" custom="readingOrder {index:45;}">
+                <Coords points="84,3120 751,3126 786,3120 787,3093 464,3073 435,3096 233,3073 208,3095 183,3069 85,3084"/>
+                <Baseline points="90,3107 124,3105 159,3105 193,3105 228,3105 263,3105 297,3105 332,3106 366,3107 401,3108 436,3108 470,3110 505,3110 539,3111 574,3112 609,3113 643,3113 678,3113 712,3113 747,3113 782,3113"/>
+                <TextEquiv>
+                    <Unicode>podía tener una Cruz Roja inde-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l47" custom="readingOrder {index:46;}">
+                <Coords points="93,3173 294,3170 310,3162 310,3154 300,3154 260,3124 242,3132 207,3133 199,3125 177,3125 158,3133 93,3133"/>
+                <Baseline points="98,3161 123,3160 149,3159 175,3158 201,3158 227,3158 253,3159 279,3159 305,3161"/>
+                <TextEquiv>
+                    <Unicode>pendiente.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l48" custom="readingOrder {index:47;}">
+                <Coords points="126,3214 568,3235 811,3219 728,3181 684,3200 655,3181 549,3198 301,3173 126,3183"/>
+                <Baseline points="131,3210 164,3210 198,3210 232,3211 266,3212 299,3212 333,3212 367,3213 401,3213 434,3213 468,3215 502,3215 536,3215 569,3216 603,3216 637,3216 671,3218 704,3218 738,3219 772,3219 806,3219"/>
+                <TextEquiv>
+                    <Unicode>Se convino entonces que la Cruz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Desde 1905 datan las activida¬des de la Cruz Roja en Filipinas,cuando la Cruz Roja norteamerica¬na, poco después de su reorganiza¬ción decidió establecer en las Islasuna rama para atender las necesi¬dades del pueblo filipino. Fué, sinembargo, en 1917 cuando dicharama se estableció oficialmentecomo un capítulo insular de laCruz Roja norteamericana.Con el conocido espíritu de laorganización, el Capítulo filipinode la Cruz Roja reunió sus escasasfuerzas o inició un provechoso plande servicio que incluía el auxilicen casos de calamidad pública, ins¬trucción de higiene y seguridad yservicio dental escolar. Al igualque los servicios de las sociedadesde la Cruz Roja en otros países,los del Capítulo filipino se encami¬nan a suplementar la obra del go¬bierno en interés del bienestar delpueblo.Primeros pasos hacia suindependenciaYa en 1934 se realizó el primerintento de establecer una CruzRoja Filipina independiente a ini¬ciativa del finado Presidente Ma¬nuel L. Quezon, que aspiraba a es¬tablecer tal Cruz Roja simultánea¬mente con el cambio del estado po¬lítico de Filipinas que había de pa¬sar a ser una Mancomunidad. Se¬gún los términos del Convenio deGinebra, una nación tiene antesque haberse adherido al Tratado dela Cruz Roja para poder estableceruna Sociedad nacional de la CruzRoja independiente. Evidentemen¬te, como el Gobierno de la Manco¬munidad no tenía facultad paraconcertar tratados, Filipinas nopodía tener una Cruz Roja inde¬pendiente.Se convino entonces que la Cruz</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_7_1" custom="readingOrder {index:4;} structure {type:heading;}">
+            <Coords points="930,614 1584,614 1584,725 930,725"/>
+            <TextLine id="r_7_1l1" custom="readingOrder {index:0;}">
+                <Coords points="927,670 1567,670 1583,614 1448,613 1417,642 1384,616 1311,638 1280,617 1248,646 1215,613 927,619"/>
+                <Baseline points="932,660 964,660 996,660 1028,660 1061,660 1093,660 1125,659 1158,659 1190,659 1222,659 1255,659 1287,659 1319,659 1351,659 1384,659 1416,659 1448,659 1481,659 1513,659 1545,659 1578,659"/>
+                <TextEquiv>
+                    <Unicode>ENCABEZA A LA CRUZ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1170,719 1328,722 1339,716 1340,690 1309,669 1294,677 1280,670 1262,676 1251,668 1226,674 1188,669 1171,678"/>
+                <Baseline points="1175,713 1201,712 1228,711 1254,713 1281,713 1307,714 1334,716"/>
+                <TextEquiv>
+                    <Unicode>ROJA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ENCABEZA A LA CRUZROJA</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_8" custom="readingOrder {index:5;} structure {type:photograph;}">
+            <Coords points="903,768 1573,768 1573,2356 903,2356"/>
+        </GraphicRegion>
+        <TextRegion id="r" custom="readingOrder {index:6;} structure {type:caption;}">
+            <Coords points="881,2392 1613,2392 1613,2604 881,2604"/>
+            <TextLine id="r_9_1l1" custom="readingOrder {index:0;} person {offset:3; length:31; continued:true;}">
+                <Coords points="913,2433 1502,2435 1591,2426 1591,2396 1560,2389 1536,2412 1506,2389 1478,2408 1355,2388 1333,2407 1231,2389 1190,2406 1127,2389 913,2399"/>
+                <Baseline points="918,2423 951,2423 984,2424 1018,2424 1051,2424 1085,2424 1118,2424 1151,2424 1185,2424 1218,2424 1252,2424 1285,2423 1318,2423 1352,2423 1385,2423 1419,2422 1452,2421 1485,2421 1519,2421 1552,2421 1586,2421"/>
+                <TextEquiv>
+                    <Unicode>La llustrísima Señora Aurora A. de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l2" custom="readingOrder {index:1;} person {offset:0; length:6; continued:true;} organization {offset:34; length:5; continued:true;}">
+                <Coords points="881,2466 1586,2462 1585,2429 1532,2426 1398,2446 880,2431"/>
+                <Baseline points="885,2459 919,2457 954,2457 989,2457 1024,2457 1058,2457 1093,2457 1128,2457 1163,2457 1197,2457 1232,2457 1267,2457 1302,2457 1336,2457 1371,2457 1406,2456 1441,2456 1475,2456 1510,2454 1545,2454 1580,2453"/>
+                <TextEquiv>
+                    <Unicode>Quezon, dignísima presidenta de la Cruz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l3" custom="readingOrder {index:2;} organization {offset:0; length:13; continued:true;}">
+                <Coords points="880,2503 1511,2502 1574,2498 1592,2469 880,2473"/>
+                <Baseline points="885,2493 920,2492 955,2492 990,2493 1025,2493 1060,2493 1095,2493 1130,2493 1165,2493 1200,2492 1236,2492 1271,2492 1306,2492 1341,2492 1376,2492 1411,2490 1446,2490 1481,2489 1516,2489 1551,2488 1587,2487"/>
+                <TextEquiv>
+                    <Unicode>Roja Filipina, que ha dirigido un llama-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l4" custom="readingOrder {index:3;}">
+                <Coords points="892,2535 1589,2530 1588,2501 1564,2496 1513,2515 891,2509"/>
+                <Baseline points="897,2526 931,2526 965,2527 1000,2528 1034,2528 1068,2528 1103,2528 1137,2528 1171,2528 1206,2528 1240,2528 1274,2526 1309,2526 1343,2526 1377,2526 1412,2525 1446,2525 1480,2525 1515,2525 1549,2523 1584,2523"/>
+                <TextEquiv>
+                    <Unicode>miento al público para que aporte a esta</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l5" custom="readingOrder {index:4;}">
+                <Coords points="889,2570 1424,2568 1424,2552 1383,2534 1299,2550 889,2537"/>
+                <Baseline points="894,2561 920,2561 946,2562 972,2562 999,2562 1025,2562 1051,2562 1077,2562 1104,2562 1130,2562 1156,2562 1182,2562 1209,2562 1235,2562 1261,2562 1287,2562 1314,2562 1340,2562 1366,2562 1392,2562 1419,2562"/>
+                <TextEquiv>
+                    <Unicode>institución su generosa ayuda.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_9_1" custom="readingOrder {index:7;} structure {type:paragraph;}">
+            <Coords points="877,2638 1610,2630 1598,3236 878,3236"/>
+            <TextLine id="r_9_1l6" custom="readingOrder {index:0;}">
+                <Coords points="877,2710 1588,2714 1587,2663 1544,2687 1438,2665 1181,2689 1117,2669 876,2673"/>
+                <Baseline points="882,2706 917,2706 952,2706 987,2706 1022,2705 1057,2705 1092,2705 1127,2705 1162,2703 1197,2703 1232,2703 1267,2703 1302,2703 1337,2702 1372,2702 1407,2702 1442,2702 1477,2702 1512,2702 1547,2702 1583,2702"/>
+                <TextEquiv>
+                    <Unicode>Roja Filipina se independizara el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l7" custom="readingOrder {index:1;} date {offset:0; length:18;}">
+                <Coords points="880,2762 1586,2758 1567,2725 1415,2717 1264,2742 1236,2717 880,2735"/>
+                <Baseline points="885,2756 919,2756 954,2756 989,2756 1024,2756 1059,2756 1093,2756 1128,2756 1163,2756 1198,2756 1233,2755 1267,2754 1302,2754 1337,2754 1372,2754 1407,2754 1441,2753 1476,2753 1511,2753 1546,2753 1581,2753"/>
+                <TextEquiv>
+                    <Unicode>4 de julio de 1946, simultáneamen-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l8" custom="readingOrder {index:2;}">
+                <Coords points="877,2811 1573,2818 1583,2783 877,2788"/>
+                <Baseline points="882,2808 916,2808 951,2807 986,2807 1021,2807 1056,2807 1090,2807 1125,2807 1160,2807 1195,2807 1230,2807 1264,2807 1299,2807 1334,2807 1369,2807 1404,2807 1438,2807 1473,2807 1508,2806 1543,2805 1578,2805"/>
+                <TextEquiv>
+                    <Unicode>te con la concesión de la indepen-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l9" custom="readingOrder {index:3;} place {offset:9; length:9;} place {offset:27; length:7; continued:true;}">
+                <Coords points="888,2874 1595,2866 1594,2835 1543,2821 1265,2845 1182,2821 1026,2845 887,2831"/>
+                <Baseline points="893,2861 927,2859 962,2859 997,2859 1032,2859 1067,2859 1102,2859 1136,2859 1171,2859 1206,2859 1241,2859 1276,2859 1311,2859 1346,2859 1380,2859 1415,2858 1450,2858 1485,2858 1520,2858 1555,2856 1590,2856"/>
+                <TextEquiv>
+                    <Unicode>dencia a Filipinas por los Estados</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l10" custom="readingOrder {index:4;} place {offset:0; length:7; continued:true;}">
+                <Coords points="889,2922 1046,2922 1046,2901 1037,2901 1020,2885 993,2883 980,2876 949,2876 940,2885 927,2876 889,2877"/>
+                <Baseline points="894,2913 923,2912 952,2910 982,2910 1011,2912 1041,2913"/>
+                <TextEquiv>
+                    <Unicode>Unidos.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l11" custom="readingOrder {index:5;}">
+                <Coords points="924,2968 1585,2970 1585,2938 1542,2925 1385,2925 1298,2953 1197,2925 1059,2954 992,2925 924,2932"/>
+                <Baseline points="929,2963 961,2963 994,2963 1026,2963 1059,2963 1091,2963 1124,2963 1156,2963 1189,2963 1221,2963 1254,2963 1287,2963 1319,2963 1352,2963 1384,2962 1417,2961 1449,2961 1482,2961 1514,2961 1547,2961 1580,2961"/>
+                <TextEquiv>
+                    <Unicode>Sobre esta base, se dieron los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l12" custom="readingOrder {index:6;}">
+                <Coords points="885,3033 1416,3034 1586,3014 1586,2992 1487,2979 1381,3000 1198,2979 885,2987"/>
+                <Baseline points="890,3015 924,3015 959,3015 993,3014 1028,3014 1062,3014 1097,3014 1131,3014 1166,3014 1200,3014 1235,3014 1270,3015 1304,3015 1339,3015 1373,3015 1408,3015 1442,3015 1477,3016 1511,3017 1546,3017 1581,3017"/>
+                <TextEquiv>
+                    <Unicode>pasos preparativos para que la or-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l13" custom="readingOrder {index:7;}">
+                <Coords points="882,3081 1595,3069 1542,3029 1518,3047 1348,3030 1108,3056 1070,3029 882,3038"/>
+                <Baseline points="887,3068 922,3066 957,3066 992,3066 1027,3065 1062,3065 1097,3065 1133,3065 1168,3066 1203,3066 1238,3066 1273,3066 1308,3068 1343,3068 1379,3068 1414,3068 1449,3068 1484,3068 1519,3068 1554,3068 1590,3068"/>
+                <TextEquiv>
+                    <Unicode>ganización asumiera el estado in-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l14" custom="readingOrder {index:8;}">
+                <Coords points="882,3122 1598,3128 1598,3093 1480,3085 1174,3086 1147,3111 1102,3085 882,3091"/>
+                <Baseline points="887,3116 922,3116 957,3116 992,3116 1028,3116 1063,3116 1098,3116 1134,3117 1169,3117 1204,3117 1240,3117 1275,3119 1310,3119 1345,3119 1381,3119 1416,3119 1451,3120 1487,3120 1522,3120 1557,3120 1593,3119"/>
+                <TextEquiv>
+                    <Unicode>dependiente. En el entretanto sus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l15" custom="readingOrder {index:9;}">
+                <Coords points="890,3178 1398,3187 1584,3169 1584,3148 1519,3133 1263,3149 1199,3133 1145,3154 891,3141"/>
+                <Baseline points="896,3165 930,3165 964,3167 998,3167 1032,3167 1066,3168 1100,3168 1134,3168 1168,3170 1202,3170 1237,3170 1271,3170 1305,3171 1339,3171 1373,3171 1407,3171 1441,3171 1475,3171 1509,3171 1543,3171 1578,3171"/>
+                <TextEquiv>
+                    <Unicode>servicios se extendieron, particu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l16" custom="readingOrder {index:10;}">
+                <Coords points="888,3226 1594,3226 1594,3195 1535,3189 1406,3207 1360,3189 1300,3210 1267,3189 888,3188"/>
+                <Baseline points="893,3219 927,3218 962,3218 997,3218 1032,3219 1067,3219 1101,3219 1136,3221 1171,3221 1206,3222 1241,3222 1275,3224 1310,3224 1345,3224 1380,3225 1415,3224 1449,3224 1484,3224 1519,3222 1554,3221 1589,3219"/>
+                <TextEquiv>
+                    <Unicode>larmente en cuanto a la distribu-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>La llustrísima Señora Aurora A. deQuezon, dignísima presidenta de la CruzRoja Filipina, que ha dirigido un llama¬miento al público para que aporte a estainstitución su generosa ayuda.Roja Filipina se independizara el4 de julio de 1946, simultáneamen¬te con la concesión de la indepen¬dencia a Filipinas por los EstadosUnidos.Sobre esta base, se dieron lospasos preparativos para que la or¬ganización asumiera el estado in¬dependiente. En el entretanto susservicios se extendieron, particu¬larmente en cuanto a la distribu¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_10_1" custom="readingOrder {index:8;} structure {type:paragraph;}">
+            <Coords points="1670,610 2397,610 2402,3197 1680,3203"/>
+            <TextLine id="r_10_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1687,658 2396,658 2396,622 2347,613 1687,622"/>
+                <Baseline points="1692,650 1728,650 1765,650 1802,650 1839,650 1875,650 1912,650 1949,650 1986,650 2023,650 2059,650 2096,650 2133,650 2170,650 2207,650 2243,650 2280,650 2317,650 2354,650 2391,650"/>
+                <TextEquiv>
+                    <Unicode>ción de socorros a los damnificados</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1683,714 2072,711 2072,688 2055,676 2007,670 1947,679 1898,668 1876,690 1841,669 1812,678 1784,667 1744,694 1711,669 1683,677"/>
+                <Baseline points="1688,702 1713,704 1738,705 1763,705 1789,705 1814,705 1839,705 1864,704 1890,704 1915,702 1940,702 1965,702 1991,702 2016,702 2041,703 2067,704"/>
+                <TextEquiv>
+                    <Unicode>de algún desastre.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1725,757 2395,762 2395,730 2362,717 2333,735 2295,717 2270,741 2231,717 2085,735 2058,717 2018,747 1990,725 1880,717 1810,744 1772,717 1725,722"/>
+                <Baseline points="1730,755 1763,755 1796,755 1829,755 1862,755 1895,756 1928,756 1961,756 1994,756 2027,756 2060,756 2093,756 2126,755 2159,755 2192,755 2225,755 2258,755 2291,755 2324,755 2357,756 2390,756"/>
+                <TextEquiv>
+                    <Unicode>Sin embargo, el estallido de la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l4" custom="readingOrder {index:3;} date {offset:10; length:4;}">
+                <Coords points="1686,826 1836,806 2395,810 2394,784 2262,769 2047,773 2026,792 2005,773 1685,781"/>
+                <Baseline points="1691,812 1727,810 1764,809 1801,808 1838,807 1874,807 1911,806 1948,806 1985,806 2022,806 2058,806 2095,806 2132,806 2169,807 2206,807 2242,807 2279,807 2316,807 2353,807 2390,807"/>
+                <TextEquiv>
+                    <Unicode>guerra en 1941 deshizo todos los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l5" custom="readingOrder {index:4;}">
+                <Coords points="1687,875 2396,865 2396,837 2358,821 2336,837 1687,836"/>
+                <Baseline points="1692,861 1728,861 1765,861 1802,861 1839,861 1875,861 1912,860 1949,860 1986,860 2023,860 2059,860 2096,860 2133,860 2170,860 2207,861 2243,861 2280,861 2317,861 2354,861 2391,861"/>
+                <TextEquiv>
+                    <Unicode>planos encaminados al desarrollo de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l6" custom="readingOrder {index:5;} organization {offset:3; length:18;}">
+                <Coords points="1683,922 2383,915 2383,887 2350,877 2143,899 2087,877 1761,876 1730,903 1683,879"/>
+                <Baseline points="1688,914 1722,914 1757,914 1791,914 1826,914 1860,914 1895,914 1929,914 1964,914 1998,914 2033,914 2067,914 2102,914 2136,914 2171,914 2205,914 2240,914 2274,914 2309,912 2343,911 2378,911"/>
+                <TextEquiv>
+                    <Unicode>la Cruz Roja Filipina como socie-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l7" custom="readingOrder {index:6;}">
+                <Coords points="1674,968 1689,978 1768,971 1864,982 2068,977 2068,946 2023,929 1990,939 1944,930 1919,942 1744,929 1674,948"/>
+                <Baseline points="1679,965 1704,966 1730,966 1755,966 1781,966 1807,966 1832,966 1858,966 1883,966 1909,965 1935,965 1960,965 1986,965 2011,965 2037,965 2063,966"/>
+                <TextEquiv>
+                    <Unicode>dad independiente.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l8" custom="readingOrder {index:7;}">
+                <Coords points="1711,1073 2162,1061 2232,1078 2375,1055 2375,1032 2352,1029 2214,1042 2180,1021 2161,1037 1897,1021 1798,1042 1711,1021"/>
+                <Baseline points="1716,1059 1748,1059 1781,1059 1814,1058 1846,1058 1879,1058 1912,1058 1944,1059 1977,1059 2010,1059 2043,1059 2075,1059 2108,1059 2141,1059 2173,1059 2206,1059 2239,1059 2271,1059 2304,1059 2337,1058 2370,1058"/>
+                <TextEquiv>
+                    <Unicode>Los servicios durante la guerra</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l9" custom="readingOrder {index:8;}">
+                <Coords points="1726,1154 2079,1144 2164,1163 2395,1142 2395,1124 2315,1128 2288,1109 2253,1128 2221,1109 1726,1109"/>
+                <Baseline points="1731,1146 1765,1145 1800,1144 1835,1143 1869,1143 1904,1143 1939,1143 1973,1143 2008,1145 2043,1145 2077,1145 2112,1145 2147,1146 2181,1146 2216,1146 2251,1145 2285,1145 2320,1143 2355,1142 2390,1139"/>
+                <TextEquiv>
+                    <Unicode>Immediatamente después de co-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l10" custom="readingOrder {index:9;} place {offset:15; length:8;}">
+                <Coords points="1684,1209 2387,1202 2367,1165 1684,1173"/>
+                <Baseline points="1689,1200 1723,1200 1758,1199 1792,1199 1827,1199 1862,1197 1896,1197 1931,1197 1966,1197 2000,1197 2035,1197 2070,1197 2104,1197 2139,1197 2174,1197 2208,1197 2243,1197 2278,1196 2312,1196 2347,1196 2382,1196"/>
+                <TextEquiv>
+                    <Unicode>menzada la del Pacífico, los servi-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l11" custom="readingOrder {index:10;} organization {offset:31; length:4; continued:true;}">
+                <Coords points="1680,1258 2389,1258 2389,1221 2171,1229 2066,1206 2008,1228 1680,1228"/>
+                <Baseline points="1685,1251 1721,1251 1758,1250 1795,1250 1832,1250 1868,1250 1905,1250 1942,1250 1979,1250 2016,1250 2052,1250 2089,1250 2126,1250 2163,1250 2200,1250 2236,1250 2273,1250 2310,1251 2347,1251 2384,1251"/>
+                <TextEquiv>
+                    <Unicode>cios normales anteriores de la Cruz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l12" custom="readingOrder {index:11;} organization {offset:0; length:14; continued:true;}">
+                <Coords points="1684,1314 2387,1306 2387,1285 2310,1269 2015,1285 1684,1268"/>
+                <Baseline points="1689,1304 1723,1302 1758,1302 1792,1302 1827,1302 1862,1302 1896,1301 1931,1301 1966,1302 2000,1302 2035,1302 2070,1302 2104,1302 2139,1302 2174,1302 2208,1302 2243,1302 2278,1302 2312,1302 2347,1302 2382,1301"/>
+                <TextEquiv>
+                    <Unicode>Roja Filipina se suspendieron tem-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l13" custom="readingOrder {index:12;}">
+                <Coords points="1674,1370 2351,1364 2393,1357 2393,1332 2123,1317 2038,1339 2000,1317 1971,1344 1949,1325 1777,1317 1674,1333"/>
+                <Baseline points="1679,1358 1714,1356 1749,1355 1785,1355 1820,1355 1856,1353 1891,1353 1927,1353 1962,1353 1998,1355 2033,1355 2068,1355 2104,1355 2139,1355 2175,1355 2210,1356 2246,1356 2281,1356 2317,1355 2352,1355 2388,1355"/>
+                <TextEquiv>
+                    <Unicode>poralmente y, de conformidad con</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l14" custom="readingOrder {index:13;}">
+                <Coords points="1674,1412 2321,1426 2398,1408 2358,1371 2330,1390 2293,1372 1674,1381"/>
+                <Baseline points="1679,1407 1714,1407 1750,1407 1786,1407 1821,1407 1857,1406 1893,1406 1928,1406 1964,1406 2000,1406 2036,1406 2071,1406 2107,1407 2143,1407 2178,1407 2214,1407 2250,1407 2285,1407 2321,1407 2357,1407 2393,1407"/>
+                <TextEquiv>
+                    <Unicode>un plan previamente preparado, la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l15" custom="readingOrder {index:14;}">
+                <Coords points="1675,1467 2393,1468 2377,1434 2305,1424 2281,1445 2121,1427 2060,1445 2040,1425 1675,1435"/>
+                <Baseline points="1680,1457 1715,1458 1750,1458 1786,1458 1821,1458 1857,1458 1892,1460 1927,1460 1963,1460 1998,1460 2034,1460 2069,1460 2104,1460 2140,1460 2175,1460 2211,1460 2246,1460 2281,1460 2317,1461 2352,1461 2388,1463"/>
+                <TextEquiv>
+                    <Unicode>sociedad funcionó sobre una base</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l16" custom="readingOrder {index:15;}">
+                <Coords points="1684,1522 2387,1514 2374,1485 2286,1476 1684,1480"/>
+                <Baseline points="1689,1511 1723,1512 1758,1512 1792,1512 1827,1512 1862,1511 1896,1511 1931,1511 1966,1511 2000,1511 2035,1511 2070,1511 2104,1511 2139,1511 2174,1511 2208,1511 2243,1512 2278,1512 2312,1512 2347,1512 2382,1512"/>
+                <TextEquiv>
+                    <Unicode>de tiempo de guerra y quedó incor-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l17" custom="readingOrder {index:16;} organization {offset:12; length:20; continued:true;}">
+                <Coords points="1680,1581 2260,1578 2278,1560 2368,1578 2389,1573 2389,1525 2281,1543 2002,1525 1946,1555 1911,1529 1878,1548 1680,1540"/>
+                <Baseline points="1685,1566 1721,1565 1758,1565 1795,1565 1832,1563 1868,1563 1905,1563 1942,1563 1979,1565 2016,1565 2052,1565 2089,1565 2126,1565 2163,1565 2200,1565 2236,1565 2273,1565 2310,1565 2347,1563 2384,1563"/>
+                <TextEquiv>
+                    <Unicode>porada a la Administración Civil</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l18" custom="readingOrder {index:17;} organization {offset:0; length:11; continued:true;}">
+                <Coords points="1687,1626 2280,1634 2341,1614 2369,1632 2390,1625 2390,1581 2115,1600 2006,1581 1944,1604 1903,1581 1687,1583"/>
+                <Baseline points="1692,1616 1726,1616 1761,1616 1795,1616 1830,1616 1865,1616 1899,1616 1934,1616 1969,1616 2003,1616 2038,1616 2073,1616 2107,1616 2142,1617 2177,1617 2211,1617 2246,1617 2281,1619 2315,1619 2350,1620 2385,1620"/>
+                <TextEquiv>
+                    <Unicode>de Urgencia, entidad creada por el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l19" custom="readingOrder {index:18;} organization {offset:0; length:17;}">
+                <Coords points="1675,1671 1966,1686 2050,1668 2071,1690 2175,1667 2207,1690 2399,1672 2376,1645 2123,1647 2087,1629 2059,1649 1749,1629 1675,1644"/>
+                <Baseline points="1680,1667 1715,1667 1751,1667 1787,1668 1822,1668 1858,1668 1894,1668 1929,1668 1965,1668 2001,1670 2037,1670 2072,1670 2108,1670 2144,1670 2179,1671 2215,1671 2251,1671 2286,1671 2322,1671 2358,1671 2394,1671"/>
+                <TextEquiv>
+                    <Unicode>Gobierno filipino para ayudar a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l20" custom="readingOrder {index:19;}">
+                <Coords points="1675,1730 2393,1727 2393,1700 2253,1690 2005,1707 1911,1685 1747,1702 1675,1685"/>
+                <Baseline points="1680,1722 1715,1722 1750,1721 1786,1721 1821,1721 1857,1721 1892,1721 1927,1721 1963,1722 1998,1722 2034,1722 2069,1724 2104,1724 2140,1724 2175,1725 2211,1725 2246,1725 2281,1724 2317,1724 2352,1723 2388,1721"/>
+                <TextEquiv>
+                    <Unicode>los particulares en tiempo de gue-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l21" custom="readingOrder {index:20;}">
+                <Coords points="1675,1784 1694,1783 1697,1786 1705,1786 1725,1782 1729,1786 1741,1787 1763,1785 1764,1762 1758,1762 1745,1749 1735,1745 1676,1747"/>
+                <Baseline points="1680,1772 1706,1772 1732,1772 1758,1775"/>
+                <TextEquiv>
+                    <Unicode>rra.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l22" custom="readingOrder {index:21;} date {offset:22; length:8; continued:true;}">
+                <Coords points="1723,1829 2387,1834 2387,1804 2327,1792 2109,1818 2066,1793 1723,1792"/>
+                <Baseline points="1728,1824 1760,1824 1793,1824 1826,1824 1858,1824 1891,1824 1924,1824 1956,1826 1989,1826 2022,1826 2055,1827 2087,1827 2120,1827 2153,1827 2185,1829 2218,1829 2251,1829 2283,1829 2316,1829 2349,1827 2382,1827"/>
+                <TextEquiv>
+                    <Unicode>Consecuentemente, en diciembre</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l23" custom="readingOrder {index:22;} date {offset:0; length:6; continued:true;} organization {offset:32; length:4; continued:true;}">
+                <Coords points="1675,1881 2351,1892 2386,1890 2387,1854 1675,1851"/>
+                <Baseline points="1680,1877 1715,1877 1750,1877 1785,1877 1820,1877 1855,1877 1890,1877 1925,1877 1960,1878 1995,1878 2031,1878 2066,1878 2101,1880 2136,1880 2171,1880 2206,1880 2241,1880 2276,1881 2311,1881 2346,1881 2382,1880"/>
+                <TextEquiv>
+                    <Unicode>de 1941, todo el personal de la Cruz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l24" custom="readingOrder {index:23;} organization {offset:0; length:13; continued:true;}">
+                <Coords points="1675,1938 2380,1939 2356,1895 2052,1922 1902,1893 1789,1912 1675,1893"/>
+                <Baseline points="1680,1928 1714,1928 1749,1929 1784,1929 1819,1929 1853,1929 1888,1930 1923,1931 1958,1931 1992,1931 2027,1932 2062,1932 2097,1933 2131,1934 2166,1934 2201,1934 2236,1934 2270,1934 2305,1934 2340,1934 2375,1934"/>
+                <TextEquiv>
+                    <Unicode>Roja filipina que sumaba aproxi-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l25" custom="readingOrder {index:24;}">
+                <Coords points="1687,1994 2259,1999 2275,1983 2347,2002 2390,1993 2391,1965 1688,1957"/>
+                <Baseline points="1692,1983 1726,1983 1761,1982 1795,1982 1830,1982 1865,1982 1899,1982 1934,1982 1969,1982 2003,1982 2038,1983 2073,1983 2107,1983 2142,1985 2177,1985 2211,1985 2246,1985 2281,1986 2315,1986 2350,1986 2385,1986"/>
+                <TextEquiv>
+                    <Unicode>madamente unos setecientos hom-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l26" custom="readingOrder {index:25;}">
+                <Coords points="1675,2038 2348,2051 2393,2038 2394,2017 2096,2001 2005,2024 1911,1997 1758,2013 1676,1996"/>
+                <Baseline points="1680,2033 1715,2034 1750,2034 1786,2034 1821,2036 1857,2036 1892,2036 1927,2036 1963,2036 1998,2036 2034,2036 2069,2036 2104,2036 2140,2037 2175,2037 2211,2037 2246,2037 2281,2037 2317,2038 2352,2039 2388,2039"/>
+                <TextEquiv>
+                    <Unicode>bres y mujeres, se dedicó a traba-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l27" custom="readingOrder {index:26;}">
+                <Coords points="1680,2101 2393,2093 2393,2068 2359,2053 2143,2073 1680,2053"/>
+                <Baseline points="1685,2088 1720,2087 1755,2087 1790,2087 1825,2087 1860,2087 1895,2087 1931,2087 1966,2088 2001,2088 2036,2088 2071,2089 2106,2090 2141,2090 2177,2090 2212,2091 2247,2091 2282,2091 2317,2091 2352,2090 2388,2090"/>
+                <TextEquiv>
+                    <Unicode>jos relacionados con la urgencia de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l28" custom="readingOrder {index:27;} organization {offset:30; length:3; continued:true;}">
+                <Coords points="1680,2146 2384,2146 2367,2109 2297,2126 1921,2101 1884,2131 1842,2108 1728,2126 1680,2101"/>
+                <Baseline points="1685,2139 1719,2139 1754,2138 1789,2138 1823,2138 1858,2138 1893,2138 1927,2138 1962,2138 1997,2139 2032,2139 2066,2139 2101,2140 2136,2141 2170,2141 2205,2141 2240,2142 2274,2142 2309,2142 2344,2144 2379,2144"/>
+                <TextEquiv>
+                    <Unicode>la guerra. Como agencia de la Ad-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l29" custom="readingOrder {index:28;} organization {offset:0; length:30; continued:true;}">
+                <Coords points="1677,2201 2392,2200 2392,2175 2354,2161 2322,2182 2167,2157 1677,2164"/>
+                <Baseline points="1682,2189 1717,2189 1752,2189 1787,2190 1823,2190 1858,2190 1893,2190 1928,2192 1964,2192 1999,2192 2034,2192 2069,2192 2105,2193 2140,2193 2175,2193 2210,2193 2246,2194 2281,2195 2316,2195 2351,2195 2387,2196"/>
+                <TextEquiv>
+                    <Unicode>ministración Civil de Urgencia, la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l30" custom="readingOrder {index:29;} organization {offset:0; length:18;}">
+                <Coords points="1683,2251 2389,2250 2389,2223 2343,2213 2217,2229 2128,2212 2075,2233 1968,2205 1683,2204"/>
+                <Baseline points="1688,2241 1722,2241 1757,2241 1792,2241 1827,2243 1862,2243 1896,2243 1931,2244 1966,2244 2001,2244 2036,2244 2070,2246 2105,2246 2140,2246 2175,2246 2210,2246 2244,2246 2279,2246 2314,2244 2349,2244 2384,2244"/>
+                <TextEquiv>
+                    <Unicode>Cruz Roja Filipina estaba directa-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l31" custom="readingOrder {index:30;}">
+                <Coords points="1686,2306 2399,2300 2349,2257 2310,2277 1687,2269"/>
+                <Baseline points="1691,2295 1726,2294 1761,2294 1796,2294 1831,2295 1866,2295 1901,2295 1937,2295 1972,2295 2007,2297 2042,2297 2077,2297 2112,2297 2147,2298 2183,2298 2218,2298 2253,2299 2288,2300 2323,2300 2358,2300 2394,2300"/>
+                <TextEquiv>
+                    <Unicode>mente encargada de la evacuación</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l32" custom="readingOrder {index:31;}">
+                <Coords points="1684,2353 2389,2361 2389,2317 1684,2311"/>
+                <Baseline points="1689,2345 1723,2345 1758,2346 1793,2346 1828,2346 1862,2346 1897,2346 1932,2346 1967,2346 2001,2348 2036,2348 2071,2348 2106,2348 2140,2349 2175,2349 2210,2349 2245,2349 2279,2351 2314,2351 2349,2351 2384,2352"/>
+                <TextEquiv>
+                    <Unicode>del elemento civil y de mantener el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l33" custom="readingOrder {index:32;}">
+                <Coords points="1683,2410 2386,2410 2386,2373 2365,2366 2297,2383 2023,2365 1986,2393 1928,2365 1684,2365"/>
+                <Baseline points="1688,2397 1722,2397 1757,2399 1791,2399 1826,2399 1861,2399 1895,2399 1930,2400 1965,2400 1999,2400 2034,2400 2069,2400 2103,2400 2138,2400 2173,2402 2207,2402 2242,2402 2277,2402 2311,2403 2346,2403 2381,2403"/>
+                <TextEquiv>
+                    <Unicode>ánimo público. Unos noventa mil</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l34" custom="readingOrder {index:33;}">
+                <Coords points="1680,2467 1918,2464 1938,2446 1960,2466 2011,2447 2032,2466 2182,2466 2202,2448 2223,2466 2375,2465 2375,2430 2290,2420 1680,2422"/>
+                <Baseline points="1685,2451 1719,2451 1753,2451 1787,2450 1822,2450 1856,2450 1890,2450 1924,2451 1959,2451 1993,2451 2027,2451 2061,2453 2096,2453 2130,2453 2164,2454 2198,2454 2233,2454 2267,2456 2301,2456 2335,2456 2370,2456"/>
+                <TextEquiv>
+                    <Unicode>particulares de diversas naciona-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l35" custom="readingOrder {index:34;}">
+                <Coords points="1687,2514 2040,2522 2064,2498 2136,2522 2250,2507 2276,2523 2303,2496 2392,2511 2392,2485 2358,2475 1865,2469 1835,2489 1688,2469"/>
+                <Baseline points="1692,2501 1726,2501 1761,2501 1796,2502 1831,2502 1865,2502 1900,2504 1935,2504 1970,2504 2004,2504 2039,2505 2074,2505 2109,2505 2143,2507 2178,2507 2213,2507 2248,2507 2282,2507 2317,2507 2352,2508 2387,2508"/>
+                <TextEquiv>
+                    <Unicode>lidades—hombres, mujeres y ni-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l36" custom="readingOrder {index:35;} place {offset:24; length:5; continued:true;}">
+                <Coords points="1678,2563 2387,2562 2367,2523 1832,2533 1802,2516 1760,2542 1679,2519"/>
+                <Baseline points="1683,2552 1719,2553 1756,2553 1793,2554 1830,2555 1866,2555 1903,2556 1940,2556 1977,2556 2014,2556 2050,2558 2087,2558 2124,2558 2161,2558 2198,2558 2234,2558 2271,2558 2308,2558 2345,2558 2382,2558"/>
+                <TextEquiv>
+                    <Unicode>ños—fueron evacuados de Mani-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l37" custom="readingOrder {index:36;} place {offset:0; length:2; continued:true;}">
+                <Coords points="1681,2618 2384,2625 2384,2589 2348,2578 2123,2578 2103,2595 2054,2573 1759,2588 1681,2572"/>
+                <Baseline points="1686,2606 1720,2607 1755,2607 1789,2607 1824,2607 1859,2607 1893,2607 1928,2607 1963,2609 1997,2609 2032,2609 2067,2609 2101,2609 2136,2610 2171,2610 2205,2610 2240,2611 2275,2612 2309,2612 2344,2613 2379,2613"/>
+                <TextEquiv>
+                    <Unicode>la a cuarenta pueblos de evacuación</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l38" custom="readingOrder {index:37;}">
+                <Coords points="1674,2665 1884,2663 1904,2682 2389,2665 2367,2629 2079,2628 2059,2648 2040,2629 1800,2629 1768,2653 1674,2636"/>
+                <Baseline points="1679,2658 1714,2658 1749,2660 1784,2660 1820,2661 1855,2661 1890,2661 1925,2661 1961,2661 1996,2661 2031,2661 2066,2661 2102,2660 2137,2660 2172,2660 2207,2660 2243,2661 2278,2661 2313,2661 2348,2662 2384,2663"/>
+                <TextEquiv>
+                    <Unicode>una obra general de socorro que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l39" custom="readingOrder {index:38;}">
+                <Coords points="1669,2715 1735,2732 1846,2714 2390,2721 2390,2695 2280,2677 2201,2677 2175,2702 2117,2676 1937,2677 1913,2699 1875,2676 1844,2697 1816,2677 1669,2690"/>
+                <Baseline points="1674,2711 1709,2712 1745,2712 1780,2712 1816,2712 1851,2712 1887,2712 1922,2712 1958,2712 1993,2712 2029,2712 2065,2712 2100,2712 2136,2712 2171,2712 2207,2714 2242,2714 2278,2714 2313,2715 2349,2715 2385,2717"/>
+                <TextEquiv>
+                    <Unicode>suponía la distribución diaria de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l40" custom="readingOrder {index:39;}">
+                <Coords points="1678,2770 2393,2765 2366,2733 2216,2733 2198,2751 2102,2733 1678,2740"/>
+                <Baseline points="1683,2763 1718,2762 1753,2762 1788,2763 1824,2763 1859,2763 1894,2763 1929,2765 1965,2765 2000,2765 2035,2766 2070,2766 2106,2766 2141,2766 2176,2768 2211,2768 2247,2768 2282,2766 2317,2766 2352,2766 2388,2765"/>
+                <TextEquiv>
+                    <Unicode>alimentos entre millares de fami-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l41" custom="readingOrder {index:40;} place {offset:27; length:6;}">
+                <Coords points="1686,2826 2384,2832 2342,2781 2165,2800 1976,2781 1951,2805 1904,2780 1687,2781"/>
+                <Baseline points="1691,2814 1725,2816 1759,2816 1794,2816 1828,2816 1863,2816 1897,2817 1931,2817 1966,2817 2000,2817 2035,2817 2069,2817 2103,2817 2138,2817 2172,2819 2207,2819 2241,2819 2275,2820 2310,2820 2344,2821 2379,2822"/>
+                <TextEquiv>
+                    <Unicode>lias abocadas al hambre en Manila.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l42" custom="readingOrder {index:41;}">
+                <Coords points="1677,2874 2367,2890 2384,2848 2347,2835 2318,2860 2288,2836 2169,2834 2027,2855 1677,2829"/>
+                <Baseline points="1682,2865 1716,2867 1751,2868 1786,2869 1821,2870 1856,2870 1891,2870 1925,2870 1960,2871 1995,2871 2030,2871 2065,2871 2100,2870 2135,2870 2169,2870 2204,2870 2239,2870 2274,2871 2309,2871 2344,2871 2379,2871"/>
+                <TextEquiv>
+                    <Unicode>Por primera vez en su historia, la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l43" custom="readingOrder {index:42;} organization {offset:0; length:19;}">
+                <Coords points="1684,2929 2374,2930 2374,2902 2344,2888 2311,2908 2248,2885 2051,2906 1997,2885 1684,2883"/>
+                <Baseline points="1689,2918 1723,2918 1757,2919 1791,2919 1825,2920 1859,2921 1893,2921 1927,2921 1961,2921 1995,2921 2029,2922 2063,2922 2097,2922 2131,2922 2165,2922 2199,2922 2233,2922 2267,2922 2301,2922 2335,2922 2369,2922"/>
+                <TextEquiv>
+                    <Unicode>Cruz Roja filipina estableció un de-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l44" custom="readingOrder {index:43;}">
+                <Coords points="1683,2985 2393,2982 2374,2949 2299,2961 2247,2939 2144,2956 2110,2936 1683,2945"/>
+                <Baseline points="1688,2973 1723,2973 1758,2973 1793,2972 1828,2972 1863,2972 1898,2972 1933,2972 1968,2972 2003,2972 2038,2973 2073,2973 2108,2973 2143,2973 2178,2975 2213,2975 2248,2975 2283,2975 2318,2975 2353,2975 2388,2975"/>
+                <TextEquiv>
+                    <Unicode>partamento de servicio médico, que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l45" custom="readingOrder {index:44;}">
+                <Coords points="1681,3033 2384,3026 2384,3001 2359,2997 2233,3017 2190,2994 2164,3017 2102,2989 1961,2989 1941,3009 1895,2989 1835,3009 1808,2986 1681,2990"/>
+                <Baseline points="1686,3024 1720,3023 1755,3023 1789,3023 1824,3023 1859,3023 1893,3023 1928,3023 1963,3024 1997,3024 2032,3024 2067,3024 2101,3026 2136,3026 2171,3026 2205,3026 2240,3026 2275,3026 2309,3026 2344,3026 2379,3024"/>
+                <TextEquiv>
+                    <Unicode>instaló ocho hospitales de urgen-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l46" custom="readingOrder {index:45;}">
+                <Coords points="1681,3083 2387,3084 2387,3053 2319,3044 1681,3052"/>
+                <Baseline points="1686,3075 1720,3075 1755,3074 1790,3074 1825,3074 1860,3074 1894,3074 1929,3074 1964,3074 1999,3075 2034,3075 2068,3075 2103,3075 2138,3075 2173,3077 2208,3077 2242,3077 2277,3077 2312,3077 2347,3077 2382,3077"/>
+                <TextEquiv>
+                    <Unicode>cia en varios lugares estrategicos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l47" custom="readingOrder {index:46;} place {offset:3; length:6;}">
+                <Coords points="1683,3138 1913,3145 1944,3121 1961,3138 2239,3147 2267,3126 2383,3130 2383,3105 2360,3101 2222,3116 2164,3092 2036,3112 1683,3099"/>
+                <Baseline points="1688,3128 1722,3128 1757,3128 1791,3128 1826,3128 1860,3128 1895,3128 1929,3128 1964,3128 1998,3129 2033,3129 2067,3129 2102,3129 2136,3129 2171,3129 2205,3129 2240,3131 2274,3131 2309,3131 2343,3131 2378,3129"/>
+                <TextEquiv>
+                    <Unicode>de Manila y sus aledaños y man-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_1l48" custom="readingOrder {index:47;}">
+                <Coords points="1680,3185 2387,3186 2387,3156 2357,3149 1680,3150"/>
+                <Baseline points="1685,3180 1719,3180 1754,3179 1789,3179 1824,3179 1859,3179 1894,3179 1928,3180 1963,3180 1998,3180 2033,3181 2068,3182 2103,3182 2138,3182 2172,3182 2207,3182 2242,3182 2277,3182 2312,3181 2347,3180 2382,3179"/>
+                <TextEquiv>
+                    <Unicode>tuvo funcionando centenares de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ción de socorros a los damnificadosde algún desastre.Sin embargo, el estallido de laguerra en 1941 deshizo todos losplanos encaminados al desarrollo dela Cruz Roja Filipina como socie¬dad independiente.Los servicios durante la guerraImmediatamente después de co¬menzada la del Pacífico, los servi¬cios normales anteriores de la CruzRoja Filipina se suspendieron tem¬poralmente y, de conformidad conun plan previamente preparado, lasociedad funcionó sobre una basede tiempo de guerra y quedó incor¬porada a la Administración Civilde Urgencia, entidad creada por elGobierno filipino para ayudar alos particulares en tiempo de gue¬rra.Consecuentemente, en diciembrede 1941, todo el personal de la CruzRoja filipina que sumaba aproxi¬madamente unos setecientos hom¬bres y mujeres, se dedicó a traba¬jos relacionados con la urgencia dela guerra. Como agencia de la Ad¬ministración Civil de Urgencia, laCruz Roja Filipina estaba directa¬mente encargada de la evacuacióndel elemento civil y de mantener elánimo público. Unos noventa milparticulares de diversas naciona¬lidades—hombres, mujeres y ni¬ños—fueron evacuados de Mani¬la a cuarenta pueblos de evacuaciónuna obra general de socorro quesuponía la distribución diaria dealimentos entre millares de fami¬lias abocadas al hambre en Manila.Por primera vez en su historia, laCruz Roja filipina estableció un de¬partamento de servicio médico, queinstaló ocho hospitales de urgen¬cia en varios lugares estrategicosde Manila y sus aledaños y man¬tuvo funcionando centenares de(Términa en la página 6)</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:9;} structure {type:marginalia;}">
+            <Coords points="1799,3203 2274,3203 2274,3252 1799,3252"/>
+            <TextLine id="r_10_1l49" custom="readingOrder {index:0;}">
+                <Coords points="1817,3250 2236,3250 2243,3208 2208,3205 2193,3219 2159,3204 2075,3216 2040,3205 2025,3219 1818,3204"/>
+                <Baseline points="1823,3236 1848,3236 1874,3236 1900,3236 1926,3237 1952,3237 1978,3237 2004,3237 2030,3237 2056,3237 2082,3237 2108,3239 2134,3239 2160,3239 2186,3239 2212,3239 2238,3240"/>
+                <TextEquiv>
+                    <Unicode>(Términa en la página 6)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:10;}">
+            <Coords points="363,320 2380,320 2380,332 363,332"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:11;}">
+            <Coords points="103,327 363,327 363,334 103,334"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:12;}">
+            <Coords points="989,2323 1506,2323 1506,2352 989,2352"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

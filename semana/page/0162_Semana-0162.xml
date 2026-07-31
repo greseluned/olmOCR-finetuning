@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:36:16.93+02:00</Created>
+        <LastChange>2026-06-30T15:55:19.160+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572208" pageNr="162" tsid="294474624" status="DONE" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=VNDZJWQJXFFFENVLJNQQGBKC" xmlUrl="https://files.transkribus.eu/Get?id=JOMGSCDUYXXBRUOPUYBLYTYX" imageId="17057674"/>
+    </Metadata>
+    <Page imageFilename="0162_Semana-0162.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="93,288 2350,288 2350,3221 93,3221"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782831100206" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="3" regionRef="r_4_1"/>
+                <RegionRefIndexed index="4" regionRef="r_5_1"/>
+                <RegionRefIndexed index="5" regionRef="r_6_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_4_1"/>
+                <RegionRef regionRef="r_5_1l13"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_3"/>
+                <RegionRef regionRef="r_6_1"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_7"/>
+                <RegionRef regionRef="r_6_1"/>
+            </Relation>
+        </Relations>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="93,292 392,292 392,338 93,338"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;} organization {offset:3; length:6;}">
+                <Coords points="97,338 143,338 154,329 185,338 386,338 386,293 186,292 154,310 137,293 97,292"/>
+                <Baseline points="102,329 127,327 152,327 178,327 203,327 228,329 254,329 279,330 304,330 330,330 355,330 381,329"/>
+                <TextEquiv>
+                    <Unicode>30—SEMANA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>30—SEMANA</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:header;}">
+            <Coords points="2020,288 2350,288 2350,342 2020,342"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;} date {offset:0; length:15; continued:true;}">
+                <Coords points="2023,338 2053,328 2086,338 2351,337 2351,293 2264,285 2238,307 2167,293 2102,300 2087,285 2023,287"/>
+                <Baseline points="2028,326 2054,327 2081,327 2107,327 2134,327 2160,326 2187,326 2213,326 2240,326 2266,326 2293,327 2319,327 2346,329"/>
+                <TextEquiv>
+                    <Unicode>5 de Mayo, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>5 de Mayo, 1949</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_3" custom="readingOrder {index:2;} structure {type:photograph;}">
+            <Coords points="141,397 1530,397 1530,2314 141,2314"/>
+        </GraphicRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:3;} structure {type:heading;}">
+            <Coords points="1652,427 2345,427 2345,643 1652,643"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1650,517 2336,516 2336,452 2301,429 2228,453 2065,445 2028,481 1991,445 1785,430 1745,467 1707,429 1651,429"/>
+                <Baseline points="1655,504 1688,504 1722,504 1756,506 1790,506 1824,506 1857,506 1891,506 1925,506 1959,506 1993,506 2026,506 2060,506 2094,506 2128,506 2161,506 2195,506 2229,506 2263,507 2297,507 2331,509"/>
+                <TextEquiv>
+                    <Unicode>El famoso campeón</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l2" custom="readingOrder {index:1;} person {offset:0; length:9;} place {offset:13; length:6;}">
+                <Coords points="1660,642 1770,625 1832,650 1978,626 2087,642 2105,624 2130,642 2341,642 2341,574 2302,557 2219,577 2133,557 2102,588 2023,573 1988,605 1927,553 1832,579 1800,557 1771,584 1660,549"/>
+                <Baseline points="1665,630 1698,630 1732,630 1765,629 1799,629 1832,629 1866,629 1899,629 1933,629 1966,629 2000,629 2034,629 2067,629 2101,630 2134,630 2168,630 2201,630 2235,632 2268,632 2302,633 2336,635"/>
+                <TextEquiv>
+                    <Unicode>Joe Louis en Manila</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>El famoso campeónJoe Louis en Manila</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_5_1" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="1643,786 2345,786 2345,2292 1643,2292"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;} place {offset:17; length:6;}">
+                <Coords points="1692,841 2344,842 2344,811 2247,803 2167,821 2114,797 2085,812 1693,796"/>
+                <Baseline points="1697,831 1729,831 1761,831 1793,831 1825,833 1857,833 1889,833 1921,834 1953,834 1985,834 2018,836 2050,836 2082,836 2114,836 2146,837 2178,837 2210,837 2242,837 2274,837 2306,836 2339,836"/>
+                <TextEquiv>
+                    <Unicode>El lunes llegó a Manila el famo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1650,891 2344,897 2344,864 2309,860 1650,861"/>
+                <Baseline points="1655,884 1689,884 1723,884 1757,884 1791,884 1826,885 1860,885 1894,885 1928,885 1962,887 1997,887 2031,887 2065,887 2099,887 2133,888 2168,888 2202,887 2236,887 2270,887 2304,887 2339,885"/>
+                <TextEquiv>
+                    <Unicode>so campeón mundial de peso com¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l3" custom="readingOrder {index:2;} person {offset:7; length:9;}">
+                <Coords points="1650,954 1769,937 2326,947 2339,901 2265,932 2141,901 2056,926 2007,901 1921,901 1893,929 1832,901 1786,928 1713,900 1650,907"/>
+                <Baseline points="1655,938 1690,936 1726,936 1762,935 1797,935 1833,935 1869,935 1905,936 1940,936 1976,936 2012,936 2048,938 2083,938 2119,938 2155,939 2191,939 2226,939 2262,939 2298,939 2334,939"/>
+                <TextEquiv>
+                    <Unicode>pleto, Joe Louis,—retirado dei</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l4" custom="readingOrder {index:3;}">
+                <Coords points="1644,993 1786,986 1815,1010 1927,986 1968,1002 2259,991 2284,1010 2338,994 2310,960 2258,976 2182,954 1644,964"/>
+                <Baseline points="1649,987 1683,986 1717,986 1751,986 1785,986 1820,986 1854,986 1888,987 1922,987 1956,987 1991,987 2025,989 2059,989 2093,989 2127,990 2162,990 2196,990 2230,990 2264,990 2298,990 2333,990"/>
+                <TextEquiv>
+                    <Unicode>ruedo—¡para dos encuentros pa¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l5" custom="readingOrder {index:4;}">
+                <Coords points="1639,1040 1872,1059 2344,1048 2344,1029 2283,1009 1639,1016"/>
+                <Baseline points="1644,1037 1678,1037 1713,1037 1748,1037 1783,1037 1817,1038 1852,1038 1887,1038 1922,1040 1956,1040 1991,1041 2026,1041 2061,1043 2095,1043 2130,1043 2165,1043 2200,1043 2234,1043 2269,1043 2304,1042 2339,1041"/>
+                <TextEquiv>
+                    <Unicode>trecinados por la San Miguel Bre¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l6" custom="readingOrder {index:5;}">
+                <Coords points="1649,1098 2324,1106 2342,1076 2210,1061 2170,1086 2058,1054 1650,1060"/>
+                <Baseline points="1655,1088 1689,1088 1723,1088 1757,1088 1791,1089 1825,1089 1859,1089 1893,1089 1927,1091 1961,1091 1995,1092 2029,1092 2063,1092 2097,1093 2131,1094 2165,1094 2199,1094 2233,1094 2267,1094 2301,1094 2336,1094"/>
+                <TextEquiv>
+                    <Unicode>wery con fines benéficos. La au¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l7" custom="readingOrder {index:6;}">
+                <Coords points="1639,1141 2335,1154 2335,1116 2275,1109 2042,1129 2008,1109 1947,1129 1911,1109 1639,1116"/>
+                <Baseline points="1644,1139 1678,1140 1712,1140 1746,1140 1781,1140 1815,1142 1849,1142 1884,1142 1918,1142 1952,1143 1987,1143 2021,1143 2055,1143 2089,1144 2124,1145 2158,1145 2192,1145 2227,1145 2261,1145 2295,1146 2330,1146"/>
+                <TextEquiv>
+                    <Unicode>tobiografía de este campeón viene</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l8" custom="readingOrder {index:7;}">
+                <Coords points="1644,1203 1893,1202 1929,1180 2031,1210 2335,1210 2322,1169 2260,1191 2223,1165 1644,1164"/>
+                <Baseline points="1649,1194 1683,1193 1717,1191 1751,1190 1785,1190 1819,1190 1853,1190 1887,1191 1921,1191 1955,1192 1989,1193 2023,1194 2057,1196 2091,1196 2125,1197 2159,1197 2193,1199 2227,1199 2261,1199 2295,1199 2330,1199"/>
+                <TextEquiv>
+                    <Unicode>publicándose exclusivamente en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l9" custom="readingOrder {index:8;} organization {offset:0; length:6;}">
+                <Coords points="1645,1249 2341,1258 2341,1225 2302,1211 2201,1228 1920,1213 1858,1232 1835,1210 1646,1210"/>
+                <Baseline points="1650,1239 1684,1241 1718,1241 1752,1241 1787,1242 1821,1242 1855,1243 1890,1244 1924,1244 1958,1244 1993,1245 2027,1245 2061,1245 2095,1247 2130,1247 2164,1247 2198,1247 2233,1248 2267,1248 2301,1248 2336,1248"/>
+                <TextEquiv>
+                    <Unicode>SEMANA, y ha despertado mucho</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l10" custom="readingOrder {index:9;}">
+                <Coords points="1644,1306 2338,1305 2319,1275 2208,1261 2173,1278 1645,1260"/>
+                <Baseline points="1650,1292 1684,1293 1718,1293 1752,1293 1786,1293 1820,1293 1854,1295 1889,1295 1923,1295 1957,1295 1991,1296 2025,1296 2059,1298 2093,1298 2128,1298 2162,1299 2196,1299 2230,1299 2264,1300 2298,1301 2333,1301"/>
+                <TextEquiv>
+                    <Unicode>interés entre los lectores aficiona¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l11" custom="readingOrder {index:10;}">
+                <Coords points="1648,1354 1715,1354 1723,1346 1772,1354 1781,1345 1807,1355 1922,1350 1901,1325 1874,1316 1840,1324 1793,1309 1778,1322 1765,1308 1753,1309 1723,1333 1672,1309 1648,1309"/>
+                <Baseline points="1653,1343 1679,1344 1705,1344 1732,1344 1758,1343 1785,1343 1811,1343 1837,1343 1864,1344 1890,1345 1917,1349"/>
+                <TextEquiv>
+                    <Unicode>dos al boxeo.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l12" custom="readingOrder {index:11;}">
+                <Coords points="1686,1403 2324,1416 2346,1379 1871,1363 1759,1389 1736,1364 1687,1370"/>
+                <Baseline points="1691,1395 1723,1395 1755,1397 1788,1397 1820,1397 1853,1397 1885,1397 1918,1398 1950,1398 1983,1398 2015,1400 2047,1400 2080,1400 2112,1401 2145,1401 2177,1401 2210,1401 2242,1403 2275,1403 2307,1403 2340,1403"/>
+                <TextEquiv>
+                    <Unicode>Al medio día del martes, don</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l13" custom="readingOrder {index:12;} person {offset:0; length:14;}">
+                <Coords points="1638,1454 2336,1458 2336,1429 2163,1416 1638,1426"/>
+                <Baseline points="1643,1446 1677,1445 1711,1445 1746,1445 1780,1445 1815,1446 1849,1446 1883,1446 1918,1448 1952,1448 1987,1449 2021,1449 2055,1451 2090,1451 2124,1452 2159,1452 2193,1452 2227,1454 2262,1454 2296,1454 2331,1454"/>
+                <TextEquiv>
+                    <Unicode>Andrés Soriano le ofreció una co¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l14" custom="readingOrder {index:13;}">
+                <Coords points="1638,1503 2341,1507 2341,1483 2263,1469 2176,1469 2154,1489 2064,1468 1639,1471"/>
+                <Baseline points="1643,1499 1677,1497 1712,1497 1746,1497 1781,1497 1816,1499 1850,1499 1885,1499 1920,1500 1954,1500 1989,1502 2024,1502 2058,1503 2093,1503 2128,1504 2162,1505 2197,1505 2232,1505 2266,1505 2301,1505 2336,1505"/>
+                <TextEquiv>
+                    <Unicode>mida en las instalaciones de Coca¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l15" custom="readingOrder {index:14;} person {offset:26; length:9; continued:true;}">
+                <Coords points="1641,1554 2327,1570 2337,1535 2166,1521 2135,1541 2116,1522 2029,1539 1880,1516 1767,1518 1743,1540 1642,1516"/>
+                <Baseline points="1646,1550 1680,1550 1714,1550 1748,1550 1783,1550 1817,1550 1851,1550 1885,1551 1920,1551 1954,1552 1988,1553 2022,1554 2057,1554 2091,1555 2125,1556 2159,1556 2194,1556 2228,1557 2262,1557 2296,1557 2331,1556"/>
+                <TextEquiv>
+                    <Unicode>Cola, después de la cual, don Beni¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l16" custom="readingOrder {index:15;} person {offset:0; length:10; continued:true;} organization {offset:29; length:4; continued:true;}">
+                <Coords points="1641,1608 2311,1618 2334,1582 1642,1574"/>
+                <Baseline points="1646,1601 1680,1601 1714,1601 1748,1601 1782,1601 1816,1602 1850,1602 1884,1604 1918,1604 1952,1604 1987,1605 2021,1605 2055,1605 2089,1607 2123,1607 2157,1607 2191,1607 2225,1607 2259,1607 2293,1607 2328,1607"/>
+                <TextEquiv>
+                    <Unicode>to Legarda, presidente de la Phi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l17" custom="readingOrder {index:16;} organization {offset:0; length:25; continued:true;}">
+                <Coords points="1644,1658 2341,1663 2309,1633 2264,1645 2223,1625 2196,1650 2129,1620 1969,1619 1942,1645 1879,1619 1644,1613"/>
+                <Baseline points="1649,1653 1683,1653 1717,1652 1752,1652 1786,1652 1820,1652 1855,1652 1889,1653 1923,1653 1958,1655 1992,1655 2026,1656 2061,1656 2095,1658 2129,1658 2164,1658 2198,1659 2232,1659 2267,1658 2301,1658 2336,1658"/>
+                <TextEquiv>
+                    <Unicode>lippine Motor Association, le ro¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l18" custom="readingOrder {index:17;}">
+                <Coords points="1639,1719 2327,1722 2337,1686 1640,1678"/>
+                <Baseline points="1644,1706 1678,1704 1712,1704 1747,1703 1781,1703 1815,1703 1850,1704 1884,1704 1918,1704 1953,1706 1987,1706 2021,1707 2056,1708 2090,1709 2124,1709 2159,1710 2193,1710 2227,1710 2262,1710 2296,1709 2331,1709"/>
+                <TextEquiv>
+                    <Unicode>gó que prendiera las medallas ofre¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l19" custom="readingOrder {index:18;}">
+                <Coords points="1645,1762 2123,1779 2325,1770 2343,1740 1895,1723 1757,1738 1678,1717 1646,1732"/>
+                <Baseline points="1650,1754 1684,1754 1718,1754 1753,1754 1787,1755 1821,1755 1856,1755 1890,1756 1924,1757 1959,1757 1993,1758 2027,1758 2062,1760 2096,1760 2130,1760 2165,1761 2199,1761 2233,1761 2268,1763 2302,1763 2337,1763"/>
+                <TextEquiv>
+                    <Unicode>cidas por ésta a varios policías re¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l20" custom="readingOrder {index:19;}">
+                <Coords points="1644,1820 2336,1817 2320,1789 2109,1804 2054,1773 1645,1782"/>
+                <Baseline points="1649,1808 1683,1806 1717,1805 1751,1805 1785,1805 1819,1805 1853,1806 1887,1806 1921,1808 1955,1808 1990,1809 2024,1811 2058,1811 2092,1812 2126,1813 2160,1814 2194,1814 2228,1814 2262,1814 2296,1814 2331,1812"/>
+                <TextEquiv>
+                    <Unicode>guladores del tránsito, en recono¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l21" custom="readingOrder {index:20;}">
+                <Coords points="1642,1866 2303,1878 2336,1866 2337,1842 1643,1834"/>
+                <Baseline points="1647,1856 1681,1856 1715,1856 1749,1856 1783,1856 1818,1857 1852,1857 1886,1859 1920,1859 1954,1860 1989,1860 2023,1862 2057,1863 2091,1863 2125,1864 2160,1865 2194,1865 2228,1865 2262,1865 2296,1865 2331,1865"/>
+                <TextEquiv>
+                    <Unicode>cimiento de sus excelentes servi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l22" custom="readingOrder {index:21;}">
+                <Coords points="1650,1921 1678,1922 1684,1918 1689,1922 1700,1919 1742,1923 1743,1903 1735,1901 1720,1885 1689,1885 1678,1873 1673,1873 1660,1885 1652,1885"/>
+                <Baseline points="1656,1907 1683,1911 1710,1910 1737,1913"/>
+                <TextEquiv>
+                    <Unicode>cios.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l23" custom="readingOrder {index:22;}">
+                <Coords points="1693,1970 2285,1986 2344,1974 2345,1942 1779,1942 1694,1924"/>
+                <Baseline points="1698,1958 1730,1959 1762,1959 1794,1961 1826,1961 1858,1962 1890,1962 1922,1962 1954,1964 1986,1964 2018,1964 2050,1965 2082,1965 2114,1965 2146,1967 2178,1967 2210,1967 2242,1967 2274,1968 2306,1968 2339,1968"/>
+                <TextEquiv>
+                    <Unicode>Hay una enorme espectación por</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l24" custom="readingOrder {index:23;}">
+                <Coords points="1639,2016 2341,2018 2341,1995 2308,1988 1639,1985"/>
+                <Baseline points="1644,2009 1678,2009 1713,2010 1747,2010 1782,2010 1817,2012 1851,2012 1886,2013 1920,2013 1955,2015 1990,2015 2024,2016 2059,2016 2093,2016 2128,2018 2163,2018 2197,2018 2232,2018 2266,2018 2301,2018 2336,2018"/>
+                <TextEquiv>
+                    <Unicode>los encuentros que tendrá esta no¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l25" custom="readingOrder {index:24;} place {offset:10; length:22;}">
+                <Coords points="1645,2074 2339,2082 2318,2045 2262,2033 1645,2038"/>
+                <Baseline points="1650,2060 1684,2061 1718,2063 1752,2063 1786,2063 1821,2064 1855,2064 1889,2065 1923,2066 1957,2066 1992,2066 2026,2066 2060,2067 2094,2067 2128,2067 2163,2068 2197,2069 2231,2069 2265,2070 2299,2070 2334,2072"/>
+                <TextEquiv>
+                    <Unicode>che en el Rizal Memorial Stadiun.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l26" custom="readingOrder {index:25;} person {offset:15; length:11;}">
+                <Coords points="1650,2130 2342,2122 2342,2104 2278,2084 2242,2109 2117,2084 1962,2101 1650,2085"/>
+                <Baseline points="1655,2114 1689,2114 1723,2114 1757,2114 1791,2114 1825,2114 1859,2115 1893,2115 1927,2116 1961,2117 1996,2118 2030,2118 2064,2118 2098,2120 2132,2120 2166,2120 2200,2121 2234,2121 2268,2120 2302,2120 2337,2120"/>
+                <TextEquiv>
+                    <Unicode>primero contra Ray Stevens, lue¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l27" custom="readingOrder {index:26;} person {offset:10; length:11;}">
+                <Coords points="1651,2178 2342,2181 2231,2139 2151,2164 2080,2134 1977,2131 1954,2152 1896,2131 1858,2153 1791,2133 1712,2155 1651,2139"/>
+                <Baseline points="1656,2165 1690,2165 1724,2165 1758,2165 1792,2166 1826,2166 1860,2167 1894,2168 1928,2168 1962,2168 1996,2169 2030,2169 2064,2170 2098,2171 2132,2171 2166,2172 2200,2172 2234,2172 2268,2172 2302,2172 2337,2172"/>
+                <TextEquiv>
+                    <Unicode>go contra Jim Wilkins, ambes .</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l28" custom="readingOrder {index:27;} person {offset:14; length:5;}">
+                <Coords points="1645,2226 2341,2225 2320,2197 2239,2189 2047,2205 1935,2184 1897,2213 1817,2180 1645,2181"/>
+                <Baseline points="1650,2216 1684,2216 1718,2216 1752,2216 1787,2216 1821,2217 1855,2217 1890,2219 1924,2219 1958,2220 1993,2221 2027,2222 2061,2222 2095,2223 2130,2223 2164,2223 2198,2223 2233,2223 2267,2223 2301,2222 2336,2220"/>
+                <TextEquiv>
+                    <Unicode>tres asaltos. Louis subirá al rue¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l29" custom="readingOrder {index:28;}">
+                <Coords points="1641,2275 2278,2288 2262,2253 2142,2237 2072,2253 2024,2237 1963,2254 1924,2236 1641,2244"/>
+                <Baseline points="1646,2268 1677,2268 1708,2268 1740,2268 1771,2270 1802,2270 1834,2270 1865,2271 1896,2271 1928,2271 1959,2271 1990,2273 2022,2273 2053,2273 2084,2274 2116,2274 2147,2274 2178,2276 2210,2276 2241,2277 2273,2277"/>
+                <TextEquiv>
+                    <Unicode>do exactamente a las 9:30 p.m.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>El lunes llegó a Manila el famo¬so campeón mundial de peso com¬pleto, Joe Louis,—retirado deiruedo—¡para dos encuentros pa¬trecinados por la San Miguel Bre¬wery con fines benéficos. La au¬tobiografía de este campeón vienepublicándose exclusivamente enSEMANA, y ha despertado muchointerés entre los lectores aficiona¬dos al boxeo.Al medio día del martes, donAndrés Soriano le ofreció una co¬mida en las instalaciones de Coca¬Cola, después de la cual, don Beni¬to Legarda, presidente de la Phi¬lippine Motor Association, le ro¬gó que prendiera las medallas ofre¬cidas por ésta a varios policías re¬guladores del tránsito, en recono¬cimiento de sus excelentes servi¬cios.Hay una enorme espectación porlos encuentros que tendrá esta no¬che en el Rizal Memorial Stadiun.primero contra Ray Stevens, lue¬go contra Jim Wilkins, ambes .tres asaltos. Louis subirá al rue¬do exactamente a las 9:30 p.m.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_6_1" custom="readingOrder {index:5;} structure {type:caption;}">
+            <Coords points="109,2439 811,2439 811,3189 109,3189"/>
+            <TextLine id="r_6_1l1" custom="readingOrder {index:0;}">
+                <Coords points="150,2482 517,2483 601,2465 750,2481 806,2464 806,2445 755,2437 392,2436 340,2458 150,2444"/>
+                <Baseline points="155,2472 187,2472 219,2471 251,2471 284,2471 316,2471 348,2469 381,2469 413,2469 445,2469 478,2469 510,2469 542,2469 574,2468 607,2468 639,2468 671,2468 704,2468 736,2468 768,2468 801,2468"/>
+                <TextEquiv>
+                    <Unicode>ARRICA: El presidente de la Sar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l2" custom="readingOrder {index:1;} person {offset:20; length:14;}">
+                <Coords points="111,2532 806,2529 806,2503 731,2488 644,2508 532,2486 506,2511 446,2489 419,2511 111,2498"/>
+                <Baseline points="116,2520 150,2520 184,2520 218,2520 253,2520 287,2520 321,2520 355,2520 390,2519 424,2519 458,2519 492,2519 527,2518 561,2517 595,2517 629,2517 664,2517 698,2517 732,2517 766,2519 801,2519"/>
+                <TextEquiv>
+                    <Unicode>Miguel Brewery, don Andrés Soriano,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l3" custom="readingOrder {index:2;}">
+                <Coords points="115,2579 815,2568 769,2541 115,2542"/>
+                <Baseline points="120,2571 154,2571 189,2570 223,2570 258,2570 292,2570 327,2570 361,2570 396,2570 430,2570 465,2570 499,2570 534,2570 568,2570 603,2570 637,2570 672,2570 706,2569 741,2568 775,2568 810,2567"/>
+                <TextEquiv>
+                    <Unicode>hablando con el campeón mundial Joc</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l4" custom="readingOrder {index:3;}">
+                <Coords points="109,2627 812,2617 812,2598 735,2589 486,2605 351,2589 226,2610 189,2588 109,2595"/>
+                <Baseline points="114,2621 148,2621 183,2619 217,2619 252,2619 287,2619 321,2619 356,2619 391,2619 425,2619 460,2619 495,2619 529,2619 564,2619 599,2618 633,2618 668,2618 703,2618 737,2618 772,2618 807,2618"/>
+                <TextEquiv>
+                    <Unicode>Louis, poco después de llagar éste a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l5" custom="readingOrder {index:4;} place {offset:0; length:6;}">
+                <Coords points="115,2683 812,2667 735,2637 672,2659 642,2637 567,2659 533,2639 240,2659 115,2641"/>
+                <Baseline points="120,2670 154,2670 188,2670 223,2670 257,2669 291,2669 326,2669 360,2669 394,2669 429,2670 463,2670 497,2670 532,2670 566,2670 600,2670 635,2669 669,2669 703,2669 738,2669 772,2667 807,2667"/>
+                <TextEquiv>
+                    <Unicode>Manila en un avión de la PAL. Nues¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l6" custom="readingOrder {index:5;}">
+                <Coords points="120,2732 806,2721 787,2688 598,2709 120,2693"/>
+                <Baseline points="125,2720 158,2720 192,2720 226,2720 260,2720 294,2720 327,2720 361,2720 395,2720 429,2720 463,2720 496,2720 530,2720 564,2720 598,2720 631,2720 665,2720 699,2718 733,2718 767,2718 801,2718"/>
+                <TextEquiv>
+                    <Unicode>tros lectores ya conocen la vida de di¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l7" custom="readingOrder {index:6;}">
+                <Coords points="109,2781 806,2770 775,2741 109,2752"/>
+                <Baseline points="114,2769 148,2769 182,2771 217,2771 251,2771 285,2771 320,2771 354,2771 388,2771 423,2771 457,2771 491,2771 526,2771 560,2771 594,2769 629,2769 663,2769 697,2769 732,2768 766,2766 801,2766"/>
+                <TextEquiv>
+                    <Unicode>cho campeón, pues su autobiografía vie¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l8" custom="readingOrder {index:7;} organization {offset:34; length:2; continued:true;}">
+                <Coords points="112,2834 750,2833 790,2826 790,2786 670,2813 523,2789 398,2813 295,2789 112,2802"/>
+                <Baseline points="117,2822 150,2820 183,2820 217,2820 250,2820 284,2820 317,2820 350,2820 384,2820 417,2820 451,2820 484,2820 517,2820 551,2820 584,2820 618,2820 651,2820 684,2820 718,2820 751,2820 785,2819"/>
+                <TextEquiv>
+                    <Unicode>ne publicándose exclusivamente en SE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l9" custom="readingOrder {index:8;} organization {offset:0; length:4; continued:true;}">
+                <Coords points="105,2882 251,2882 251,2860 243,2860 224,2841 190,2845 168,2842 159,2846 119,2843 105,2850"/>
+                <Baseline points="110,2871 137,2871 164,2871 191,2871 218,2871 246,2873"/>
+                <TextEquiv>
+                    <Unicode>MANA.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l10" custom="readingOrder {index:9;}">
+                <Coords points="151,2929 809,2925 775,2889 511,2893 491,2913 427,2892 151,2901"/>
+                <Baseline points="156,2925 188,2924 220,2924 253,2922 285,2922 318,2922 350,2922 382,2922 415,2922 447,2922 480,2922 512,2922 544,2922 577,2922 609,2922 642,2922 674,2922 706,2922 739,2921 771,2921 804,2919"/>
+                <TextEquiv>
+                    <Unicode>A LA DERECHA: El alcalde de Ma¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l11" custom="readingOrder {index:10;} person {offset:6; length:3;} person {offset:11; length:19;}">
+                <Coords points="115,2986 695,2986 795,2978 803,2953 115,2954"/>
+                <Baseline points="120,2973 153,2973 187,2973 221,2972 255,2972 289,2972 323,2972 357,2973 391,2973 425,2973 459,2973 492,2973 526,2973 560,2973 594,2973 628,2973 662,2972 696,2972 730,2970 764,2970 798,2969"/>
+                <TextEquiv>
+                    <Unicode>nila. Hon. Manuel de la Fuente, acom¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l12" custom="readingOrder {index:11;} person {offset:10; length:9;}">
+                <Coords points="117,3042 784,3034 814,3025 814,3002 117,3004"/>
+                <Baseline points="122,3024 156,3024 190,3024 225,3023 259,3023 293,3023 328,3023 362,3023 396,3021 431,3021 465,3021 499,3021 534,3021 568,3021 602,3021 637,3021 671,3021 705,3021 740,3020 774,3020 809,3020"/>
+                <TextEquiv>
+                    <Unicode>pañando a Joe Louis, en un auto abier¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l13" custom="readingOrder {index:12;}">
+                <Coords points="112,3082 527,3067 724,3089 803,3082 803,3051 112,3052"/>
+                <Baseline points="117,3075 151,3074 185,3074 219,3074 253,3072 287,3072 321,3072 355,3072 389,3072 423,3072 457,3072 491,3072 525,3072 559,3072 593,3071 627,3071 661,3071 695,3071 729,3071 763,3069 798,3069"/>
+                <TextEquiv>
+                    <Unicode>to, mientras recorría las principales</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l14" custom="readingOrder {index:13;}">
+                <Coords points="121,3135 809,3126 809,3100 784,3093 121,3100"/>
+                <Baseline points="126,3123 159,3123 193,3122 227,3122 261,3122 295,3122 329,3122 363,3122 397,3123 431,3123 465,3123 498,3123 532,3123 566,3123 600,3123 634,3123 668,3122 702,3122 736,3122 770,3120 804,3120"/>
+                <TextEquiv>
+                    <Unicode>avenidas de la ciudad, inmediatamente</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l15" custom="readingOrder {index:14;}">
+                <Coords points="121,3188 815,3174 780,3140 698,3159 591,3141 495,3159 471,3141 330,3142 308,3160 276,3140 255,3162 230,3141 121,3150"/>
+                <Baseline points="126,3174 160,3174 194,3174 228,3174 262,3174 297,3174 331,3174 365,3174 399,3174 433,3174 468,3174 502,3174 536,3174 570,3174 604,3174 639,3174 673,3173 707,3173 741,3173 775,3173 810,3171"/>
+                <TextEquiv>
+                    <Unicode>después de la llegada del famoso púgii.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ARRICA: El presidente de la SarMiguel Brewery, don Andrés Soriano,hablando con el campeón mundial JocLouis, poco después de llagar éste aManila en un avión de la PAL. Nues¬tros lectores ya conocen la vida de di¬cho campeón, pues su autobiografía vie¬ne publicándose exclusivamente en SEMANA.A LA DERECHA: El alculde de Ma¬nila. Hon. Manuel de la Fuente, acom¬pañando a Joe Louis, en un auto abier¬to, mientras recorría las principalesavenidas de la ciudad, inmediatamentedespués de la llegada del famoso púgii.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_7" custom="readingOrder {index:6;} structure {type:photograph;}">
+            <Coords points="894,2371 2302,2371 2302,3221 894,3221"/>
+        </GraphicRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:7;}">
+            <Coords points="104,351 2343,351 2343,364 104,364"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:8;}">
+            <Coords points="1933,732 2067,732 2067,736 1933,736"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:9;}">
+            <Coords points="2192,2675 2197,2675 2197,2711 2192,2711"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

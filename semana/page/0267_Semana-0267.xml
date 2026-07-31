@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:37:32.335+02:00</Created>
+        <LastChange>2026-06-24T18:18:45.229+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572359" pageNr="267" tsid="293806242" status="DONE" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=LATZGEFZAMNCSNTXTJHZIIOA" xmlUrl="https://files.transkribus.eu/Get?id=HJFMXXBJOOHRGYXBAHMYXEQC" imageId="17057845"/>
+    </Metadata>
+    <Page imageFilename="0267_Semana-0267.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="99,169 2383,169 2383,3339 99,3339"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782319775345" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r"/>
+                <RegionRefIndexed index="2" regionRef="r_4"/>
+                <RegionRefIndexed index="3" regionRef="r_5"/>
+                <RegionRefIndexed index="5" regionRef="r_4_1"/>
+                <RegionRefIndexed index="6" regionRef="r_5_1"/>
+                <RegionRefIndexed index="7" regionRef="r_7_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:advertisement;} id {value:rel;}">
+                <RegionRef regionRef="r_1"/>
+                <RegionRef regionRef="r_5"/>
+                <RegionRef regionRef="r_3"/>
+                <RegionRef regionRef="r_4_1l1"/>
+                <RegionRef regionRef="r_5_1"/>
+                <RegionRef regionRef="r_7_1l3"/>
+                <RegionRef regionRef="r_8"/>
+            </Relation>
+        </Relations>
+        <GraphicRegion id="r_1" custom="readingOrder {index:0;} structure {type:advertisement;}">
+            <Coords points="99,169 2383,169 2383,2531 99,2531"/>
+        </GraphicRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:header;}">
+            <Coords points="94,180 503,180 503,263 94,263"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="101,229 465,232 465,202 101,199"/>
+                <Baseline points="101,229 465,232"/>
+                <TextEquiv>
+                    <Unicode>6 de Enero. 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:2;} structure {type:page-number;}">
+            <Coords points="2022,183 2408,183 2408,266 2022,266"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="2057,246 2368,246 2368,216 2057,216"/>
+                <Baseline points="2057,246 2368,246"/>
+                <TextEquiv>
+                    <Unicode>SEMANA -- 3</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:3;} structure {type:cartoon;}">
+            <Coords points="247,261 2365,261 2365,2498 247,2498"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_3" custom="readingOrder {index:4;} structure {type:brand;}">
+            <Coords points="992,2550 1502,2550 1502,2776 992,2776"/>
+        </GraphicRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="40,2748 1514,2786 1514,2944 66,2930"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;}">
+                <Coords points="284,2872 493,2907 869,2888 953,2937 1004,2890 1449,2916 1491,2865 1401,2812 1333,2860 1270,2807 1205,2853 1135,2804 1054,2860 937,2835 898,2873 597,2846 523,2788 461,2829 285,2833"/>
+                <Baseline points="87,2882 350,2877 410,2877 469,2877 529,2879 588,2880 648,2882 707,2883 767,2885 826,2886 886,2889 946,2891 1005,2893 1065,2894 1124,2896 1184,2898 1243,2899 1303,2900 1362,2901 1422,2901 1482,2901"/>
+                <TextEquiv>
+                    <Unicode>el perfume "prohibido"</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ADU o¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_5_1" custom="readingOrder {index:6;} structure {type:brand;}">
+            <Coords points="568,2968 1506,2992 1492,3148 568,3136"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;}">
+                <Coords points="578,3099 585,3099 616,3130 754,3130 756,3096 736,3094 670,3036 644,3041 632,3035 602,3064 579,3066"/>
+                <Baseline points="585,3119 612,3117 639,3117 666,3119 693,3120 720,3122 1433,3132"/>
+                <TextEquiv>
+                    <Unicode>de Dana</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Ea¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_7_1" custom="readingOrder {index:7;} structure {type:paragraph;}">
+            <Coords points="841,3165 1542,3165 1542,3339 841,3339"/>
+            <TextLine id="r_7_1l1" custom="readingOrder {index:0;}">
+                <Coords points="911,3211 1337,3218 1348,3172 912,3161"/>
+                <Baseline points="918,3197 944,3198 970,3198 997,3198 1023,3199 1049,3200 1076,3200 1102,3200 1129,3201 1155,3201 1181,3202 1208,3203 1234,3203 1260,3203 1287,3203 1313,3204 1340,3204"/>
+                <TextEquiv>
+                    <Unicode>LUIS P. PELLICER</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l2" custom="readingOrder {index:1;}">
+                <Coords points="837,3246 1313,3261 1361,3243 1523,3268 1538,3228 838,3203"/>
+                <Baseline points="845,3234 879,3236 913,3236 947,3237 981,3237 1016,3239 1050,3239 1084,3240 1118,3240 1152,3242 1187,3243 1221,3243 1255,3244 1289,3245 1323,3246 1358,3247 1392,3248 1426,3249 1460,3251 1494,3252 1529,3252"/>
+                <TextEquiv>
+                    <Unicode>Representante y Distribuidor Exclusivo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l3" custom="readingOrder {index:2;}">
+                <Coords points="911,3292 1029,3282 1042,3293 1350,3301 1351,3266 1232,3252 1209,3271 1191,3251 1155,3250 1108,3264 1040,3251 1023,3267 975,3244 912,3248"/>
+                <Baseline points="918,3281 943,3281 968,3281 993,3281 1018,3281 1043,3281 1068,3282 1093,3282 1118,3282 1143,3284 1168,3284 1193,3285 1218,3285 1243,3287 1268,3287 1293,3288 1318,3288 1344,3288"/>
+                <TextEquiv>
+                    <Unicode>P. 'O. Box 2583, Manila</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l4" custom="readingOrder {index:3;}">
+                <Coords points="1012,3322 1031,3335 1077,3340 1230,3340 1239,3339 1241,3299 1174,3300 1158,3293 1144,3299 1137,3292 1113,3292 1099,3304 1082,3290 1013,3293"/>
+                <Baseline points="1020,3323 1046,3324 1073,3324 1099,3326 1126,3326 1153,3326 1179,3327 1206,3329 1233,3332"/>
+                <TextEquiv>
+                    <Unicode>Tol. 5-11-01</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>LUIS P. PELLICERRepresentante y Distribuidor ExclusivoP. 'O. Box 2583, ManilaTol. 5-11-01</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:8;}">
+            <Coords points="99,239 321,239 321,245 99,245"/>
+        </SeparatorRegion>
+        <GraphicRegion id="r_8" custom="readingOrder {index:9;} structure {type:cartoon;}">
+            <Coords points="1613,2576 2085,2576 2085,3250 1613,3250"/>
+        </GraphicRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:10;}">
+            <Coords points="321,242 1087,242 1087,263 321,263"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:11;}">
+            <Coords points="1442,251 2271,251 2271,264 1442,264"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:12;}">
+            <Coords points="657,357 841,357 841,367 657,367"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:13;}">
+            <Coords points="727,407 926,407 926,421 727,421"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:14;}">
+            <Coords points="1584,407 1737,407 1737,417 1584,417"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:15;}">
+            <Coords points="676,425 929,425 929,442 676,442"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:16;}">
+            <Coords points="562,562 799,562 799,580 562,580"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:17;}">
+            <Coords points="560,589 1992,589 1992,601 560,601"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:18;}">
+            <Coords points="483,602 495,602 495,1026 483,1026"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:19;}">
+            <Coords points="490,1026 499,1026 499,2213 490,2213"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:20;}">
+            <Coords points="510,792 530,792 530,1065 510,1065"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_21" custom="readingOrder {index:21;}">
+            <Coords points="530,706 549,706 549,1211 530,1211"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_22" custom="readingOrder {index:22;}">
+            <Coords points="552,635 569,635 569,1427 552,1427"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_23" custom="readingOrder {index:23;}">
+            <Coords points="552,1443 567,1443 567,2212 552,2212"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_24" custom="readingOrder {index:24;}">
+            <Coords points="1972,2725 1981,2725 1981,2863 1972,2863"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_25" custom="readingOrder {index:25;}">
+            <Coords points="2063,567 2068,567 2068,987 2063,987"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_26" custom="readingOrder {index:26;}">
+            <Coords points="2175,1795 2188,1795 2188,2051 2175,2051"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_27" custom="readingOrder {index:27;}">
+            <Coords points="2198,985 2202,985 2202,1040 2198,1040"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

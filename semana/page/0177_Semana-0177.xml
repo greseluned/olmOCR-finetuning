@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.42.0:model_id=53551:lm=none:date=27_04_2026_13:17</Creator>
+        <Created>2021-06-01T19:36:27.479+02:00</Created>
+        <LastChange>2026-06-30T20:05:05.671+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572216" pageNr="177" tsid="294513217" status="DONE" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=VJMTAQMVOHIBQHWSICDSZOQE" xmlUrl="https://files.transkribus.eu/Get?id=XVQSAUIRMMCIHVSORURHAICD" imageId="17057689"/>
+    </Metadata>
+    <Page imageFilename="0177_Semana-0177.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="58,106 2444,106 2444,3340 58,3340"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782931681918" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+                <RegionRefIndexed index="2" regionRef="r"/>
+                <RegionRefIndexed index="3" regionRef="r_3"/>
+                <RegionRefIndexed index="4" regionRef="r_6"/>
+                <RegionRefIndexed index="5" regionRef="r_7"/>
+                <RegionRefIndexed index="6" regionRef="r_8"/>
+                <RegionRefIndexed index="7" regionRef="r_12"/>
+                <RegionRefIndexed index="8" regionRef="r_9"/>
+                <RegionRefIndexed index="9" regionRef="r_10"/>
+                <RegionRefIndexed index="10" regionRef="r_11"/>
+                <RegionRefIndexed index="11" regionRef="r_4"/>
+                <RegionRefIndexed index="12" regionRef="r_5"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_6"/>
+                <RegionRef regionRef="r_10"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_7"/>
+                <RegionRef regionRef="r_9"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_8"/>
+                <RegionRef regionRef="r_11"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r_1" custom="readingOrder {index:0;} structure {type:Title-newspaper;}">
+            <Coords points="28,406 28,100 1543,100 1543,406"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="53,402 1465,374 1463,145 1405,111 878,116 832,162 770,130 649,176 286,130 53,284"/>
+                <Baseline points="62,373 1469,387"/>
+                <TextEquiv>
+                    <Unicode>SEMANA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;} structure {type:Subtitle-newspaper;}">
+            <Coords points="1543,406 1543,524 28,524 28,406"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="51,513 582,546 705,501 790,538 827,501 1170,499 1239,553 1295,499 1465,504 1465,425 1377,405 1161,442 878,407 776,444 430,402 340,490 51,479"/>
+                <Baseline points="60,503 1469,498"/>
+                <TextEquiv>
+                    <Unicode>REVISTA ILUSTRADA HISPANO-FILIPINA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:2;} structure {type:header;}">
+            <Coords points="1727,120 2469,120 2469,393 1727,393"/>
+            <TextLine id="l_3" custom="readingOrder {index:0;}">
+                <Coords points="2113,293 2261,289 2364,201 2390,212 2427,203 2425,111 2104,111"/>
+                <Baseline points="2115,178 2434,194"/>
+                <TextEquiv>
+                    <Unicode>MAY 16 194.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:1;}">
+                <Coords points="1791,377 1852,352 2134,423 2203,398 2270,421 2268,231 2186,257 2092,203 1789,220"/>
+                <Baseline points="1800,295 2275,300"/>
+                <TextEquiv>
+                    <Unicode>Vol. I Num. 21</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:3;} structure {type:heading;}">
+            <Coords points="1711,984 2457,984 2457,1359 1711,1359"/>
+            <TextLine id="l_5" custom="readingOrder {index:0;} place {offset:0; length:6;} place {offset:9; length:6;}">
+                <Coords points="1766,1352 1895,1391 2036,1343 2111,1375 2334,1332 2429,1369 2432,1234 2355,1211 2148,1214 2071,1248 1865,1202 1770,1221"/>
+                <Baseline points="1777,1329 2435,1318"/>
+                <TextEquiv>
+                    <Unicode>MADRID - MANILA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_4" custom="readingOrder {index:1;}">
+                <Coords points="1762,1158 1902,1093 1986,1119 2156,1107 2230,1149 2355,1105 2422,1114 2423,1005 2272,998 2196,1028 2103,985 1889,1005 1849,968 1805,999 1764,991"/>
+                <Baseline points="1773,1102 2425,1099"/>
+                <TextEquiv>
+                    <Unicode>HÉROES DEL VUELO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_6" custom="readingOrder {index:4;} structure {type:photograph;}">
+            <Coords points="668,1447 654,1175 756,911 999,801 1288,885 1412,1218 1235,1611 1000,1690 752,1660"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_7" custom="readingOrder {index:5;} structure {type:photograph;}">
+            <Coords points="422,2548 333,2376 280,2151 342,1872 524,1807 746,1807 955,2123 1099,2440 971,2674 562,2713"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_8" custom="readingOrder {index:6;} structure {type:photograph;}">
+            <Coords points="1420,2710 1337,2555 1307,2411 1374,2313 1485,2050 1691,1865 1904,1824 2102,2073 2085,2339 1888,2688 1539,2744"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_12" custom="readingOrder {index:7;} structure {type:cartoon;}">
+            <Coords points="187,730 1384,648 1646,1025 1654,1401 1663,1566 2419,1856 2440,2955 87,2955"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_9" custom="readingOrder {index:8;} structure {type:caption;}">
+            <Coords points="560,3031 796,3031 796,3117 560,3117"/>
+            <TextLine id="l_8" custom="readingOrder {index:0;}">
+                <Coords points="562,3118 597,3128 613,3116 643,3139 677,3116 705,3111 784,3139 786,3053 705,3049 689,3058 675,3046 652,3060 605,3042 564,3058"/>
+                <Baseline points="573,3095 790,3091"/>
+                <TextEquiv>
+                    <Unicode>LORIGA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_10" custom="readingOrder {index:9;} structure {type:caption;}">
+            <Coords points="1055,2971 1342,2971 1342,3044 1055,3044"/>
+            <TextLine id="l_9" custom="readingOrder {index:0;}">
+                <Coords points="1068,3037 1103,3033 1144,3058 1165,3044 1190,3047 1271,3076 1290,3058 1322,3060 1320,2966 1258,2968 1225,2954 1179,2980 1161,2973 1112,2987 1091,2968 1066,2979"/>
+                <Baseline points="1077,3034 1326,3036"/>
+                <TextEquiv>
+                    <Unicode>ESTÉVEZ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_11" custom="readingOrder {index:10;} structure {type:caption;}">
+            <Coords points="1654,3039 1959,3039 1959,3108 1654,3108"/>
+            <TextLine id="l_10" custom="readingOrder {index:0;}">
+                <Coords points="1666,3106 1785,3106 1826,3121 1882,3102 1912,3114 1946,3106 1946,3049 1926,3051 1916,3040 1881,3051 1849,3035 1833,3051 1801,3054 1770,3035 1736,3044 1727,3033 1699,3051 1666,3053"/>
+                <Baseline points="1676,3099 1948,3097"/>
+                <TextEquiv>
+                    <Unicode>GALLARZA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:11;} structure {type:header;}">
+            <Coords points="95,3241 802,3241 802,3368 95,3368"/>
+            <TextLine id="l_6" custom="readingOrder {index:0;} place {offset:0; length:6;} date {offset:8; length:13;}">
+                <Coords points="109,3410 768,3410 768,3252 684,3264 656,3245 569,3276 379,3224 340,3257 273,3232 213,3268 109,3234"/>
+                <Baseline points="119,3328 772,3328"/>
+                <TextEquiv>
+                    <Unicode>Manila, 12 Mayo, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:12;} structure {type:marginalia;}">
+            <Coords points="1888,3189 2451,3189 2451,3372 1888,3372"/>
+            <TextLine id="l_7" custom="readingOrder {index:0;}">
+                <Coords points="1970,3407 2409,3409 2413,3241 2386,3255 2288,3248 2140,3169 2074,3195 1976,3194"/>
+                <Baseline points="1982,3326 2416,3315"/>
+                <TextEquiv>
+                    <Unicode>30 Ctvos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

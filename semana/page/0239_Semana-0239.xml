@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:37:12.666+02:00</Created>
+        <LastChange>2026-07-03T19:01:20.938+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572110" pageNr="239" tsid="294890796" status="DONE" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=MGBAASGCVRMGCDBQJSAMMRIC" xmlUrl="https://files.transkribus.eu/Get?id=VPUMGLFXHBHUIUUFYVLFCJOI" imageId="17057779"/>
+    </Metadata>
+    <Page imageFilename="0239_Semana-0239.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="66,219 2415,219 2415,3270 66,3270"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1783352593281" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_1_1"/>
+                <RegionRefIndexed index="2" regionRef="r_2_1"/>
+                <RegionRefIndexed index="3" regionRef="r_1"/>
+                <RegionRefIndexed index="4" regionRef="r_3_1"/>
+                <RegionRefIndexed index="5" regionRef="r_4_1"/>
+                <RegionRefIndexed index="6" regionRef="r_5_1"/>
+                <RegionRefIndexed index="7" regionRef="r_6_1"/>
+                <RegionRefIndexed index="11" regionRef="r_8_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_2_1"/>
+                <RegionRef regionRef="r_4_1l1"/>
+                <RegionRef regionRef="r_3_1l12"/>
+                <RegionRef regionRef="r_4_1"/>
+                <RegionRef regionRef="r_5_1"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_7"/>
+                <RegionRef regionRef="r_8_1l3"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:header;}">
+            <Coords points="57,204 457,204 457,288 57,288"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;} date {offset:0; length:16;}">
+                <Coords points="70,272 157,271 179,257 199,270 311,275 336,258 350,269 423,271 457,265 457,220 114,226 69,215"/>
+                <Baseline points="83,260 108,259 134,258 160,258 185,258 211,257 237,257 263,257 288,257 314,257 340,257 365,257 391,257 417,255 443,255"/>
+                <TextEquiv>
+                    <Unicode>2 de Junio, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:1;} structure {type:page-number;}">
+            <Coords points="2106,219 2415,219 2415,265 2106,265"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;}">
+                <Coords points="2075,254 2165,269 2420,268 2420,215 2333,228 2274,214 2074,220"/>
+                <Baseline points="2090,260 2116,260 2142,258 2168,258 2195,257 2221,257 2247,257 2273,257 2300,257 2326,257 2352,255 2378,255 2405,255"/>
+                <TextEquiv>
+                    <Unicode>SEMANA—19</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>SEMANA—19</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:2;} structure {type:heading;}">
+            <Coords points="78,307 2366,307 2361,487 78,487"/>
+            <TextLine id="r_2_1l3" custom="readingOrder {index:0;}">
+                <Coords points="101,452 2372,453 2371,361 2116,327 556,328 284,393 101,337"/>
+                <Baseline points="114,438 226,437 338,437 450,437 562,437 675,435 787,435 899,435 1011,434 1123,434 1236,434 1348,434 1460,434 1572,434 1684,434 1797,434 1909,435 2021,435 2133,437 2245,437 2358,438"/>
+                <TextEquiv>
+                    <Unicode>El sentido místico de la poesia moderna</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>2 de Junio, 19492-El sentido místico de la poesia moderna</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:3;} structure {type:credit;}">
+            <Coords points="919,523 1585,523 1585,593 919,593"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;} person {offset:4; length:9;} person {offset:16; length:4;}">
+                <Coords points="918,591 1532,591 1574,579 1574,534 917,532"/>
+                <Baseline points="932,575 963,576 994,578 1026,578 1057,578 1089,579 1120,579 1151,579 1183,579 1214,578 1246,578 1277,578 1308,578 1340,576 1371,576 1403,576 1434,576 1465,575 1497,575 1528,575 1560,576"/>
+                <TextEquiv>
+                    <Unicode>Por JOSE SANZ y DIAZ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_3_1" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="66,639 797,639 797,1965 66,1965"/>
+            <TextLine id="r_3_1l1" custom="readingOrder {index:0;}">
+                <Coords points="107,690 551,679 584,696 806,675 806,644 736,631 626,648 107,639"/>
+                <Baseline points="120,678 153,677 187,677 220,675 254,675 288,675 321,675 355,675 388,675 422,675 456,675 489,675 523,675 556,675 590,675 624,675 657,674 691,674 724,674 758,672 792,672"/>
+                <TextEquiv>
+                    <Unicode>Empecemos diciendo que la Teo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l2" custom="readingOrder {index:1;}">
+                <Coords points="53,740 777,741 802,732 802,684 491,704 53,687"/>
+                <Baseline points="68,731 104,731 140,731 176,731 212,731 248,731 284,731 320,731 356,731 392,731 428,729 464,729 500,729 536,729 572,729 608,729 644,728 680,728 716,727 752,726 789,725"/>
+                <TextEquiv>
+                    <Unicode>logía ha empleado la palabra "mis¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l3" custom="readingOrder {index:2;}">
+                <Coords points="58,794 801,784 801,756 681,742 386,760 58,744"/>
+                <Baseline points="71,783 106,783 142,783 178,783 214,783 249,783 285,783 321,783 357,782 392,782 428,782 464,782 500,782 535,782 571,782 607,782 643,782 678,782 714,782 750,782 786,782"/>
+                <TextEquiv>
+                    <Unicode>ticismo" en su sentido estricto pa¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l4" custom="readingOrder {index:3;}">
+                <Coords points="58,862 355,834 807,846 807,812 712,798 58,808"/>
+                <Baseline points="71,834 107,834 143,836 179,836 215,836 251,836 287,836 324,836 360,836 396,836 432,836 468,836 504,836 540,836 577,836 613,836 649,836 685,836 721,836 757,836 794,837"/>
+                <TextEquiv>
+                    <Unicode>ra designar el estado amoroso.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l5" custom="readingOrder {index:4;}">
+                <Coords points="70,901 752,909 808,892 808,859 777,847 70,859"/>
+                <Baseline points="84,888 119,888 155,888 190,888 226,888 261,888 297,888 332,888 368,888 403,888 439,888 475,888 510,888 546,888 581,888 617,888 652,888 688,888 723,888 759,888 795,888"/>
+                <TextEquiv>
+                    <Unicode>contemplativo o extático del espí¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l6" custom="readingOrder {index:5;}">
+                <Coords points="68,955 113,958 119,952 125,952 130,956 136,953 139,956 167,957 169,912 143,914 113,901 96,901 87,909 71,908"/>
+                <Baseline points="83,942 117,944 152,945"/>
+                <TextEquiv>
+                    <Unicode>ritu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l7" custom="readingOrder {index:6;}">
+                <Coords points="106,1007 431,994 470,1011 512,994 684,1016 796,1004 796,951 105,954"/>
+                <Baseline points="119,995 152,995 185,995 218,995 251,995 284,995 317,995 351,995 384,995 417,994 450,993 483,993 516,993 549,993 583,993 616,993 649,993 682,993 715,993 748,993 782,993"/>
+                <TextEquiv>
+                    <Unicode>El misticismo en este aspecto</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l8" custom="readingOrder {index:7;}">
+                <Coords points="68,1061 790,1060 806,1015 68,1016"/>
+                <Baseline points="83,1047 118,1047 153,1047 189,1047 224,1047 260,1047 295,1047 330,1047 366,1047 401,1047 437,1047 472,1047 507,1047 543,1047 578,1047 614,1047 649,1047 684,1047 720,1046 755,1046 791,1046"/>
+                <TextEquiv>
+                    <Unicode>comprende tres jalones, indicadores</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l9" custom="readingOrder {index:8;}">
+                <Coords points="70,1114 796,1112 796,1075 751,1067 70,1058"/>
+                <Baseline points="83,1098 119,1100 156,1100 193,1100 230,1100 266,1101 303,1101 340,1101 377,1101 414,1101 450,1101 487,1101 524,1100 561,1100 598,1100 634,1100 671,1100 708,1100 745,1101 782,1101"/>
+                <TextEquiv>
+                    <Unicode>de otras tantas etapas por las cua¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l10" custom="readingOrder {index:9;}">
+                <Coords points="69,1165 796,1163 796,1116 70,1112"/>
+                <Baseline points="83,1151 118,1151 153,1151 188,1151 223,1152 258,1152 293,1152 328,1152 363,1152 398,1152 433,1152 468,1152 503,1152 538,1152 573,1154 608,1154 643,1154 678,1154 713,1154 748,1155 783,1155"/>
+                <TextEquiv>
+                    <Unicode>les pasa en su desarrollo el alma</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l11" custom="readingOrder {index:10;}">
+                <Coords points="70,1222 123,1223 143,1209 163,1229 205,1219 284,1220 303,1215 304,1189 276,1189 237,1166 220,1174 71,1166"/>
+                <Baseline points="84,1205 109,1206 135,1206 160,1206 186,1206 211,1206 237,1206 262,1208 288,1211"/>
+                <TextEquiv>
+                    <Unicode>del poeta.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l12" custom="readingOrder {index:11;}">
+                <Coords points="109,1266 796,1269 796,1227 754,1221 109,1224"/>
+                <Baseline points="122,1259 155,1259 188,1259 221,1259 254,1259 287,1259 320,1259 353,1259 386,1259 419,1259 452,1259 485,1259 518,1259 551,1259 584,1259 617,1259 650,1259 683,1259 716,1259 749,1260 782,1260"/>
+                <TextEquiv>
+                    <Unicode>Como puede observarse, esta ele¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l13" custom="readingOrder {index:12;}">
+                <Coords points="65,1325 733,1326 795,1320 795,1270 65,1277"/>
+                <Baseline points="78,1310 113,1311 148,1311 183,1311 218,1311 253,1311 288,1311 323,1311 358,1311 393,1311 429,1311 464,1311 499,1311 534,1311 569,1311 604,1311 639,1311 674,1311 709,1312 744,1313 780,1313"/>
+                <TextEquiv>
+                    <Unicode>vación misteriosa y evolutiva de!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l14" custom="readingOrder {index:13;}">
+                <Coords points="57,1375 801,1375 801,1333 734,1327 57,1333"/>
+                <Baseline points="71,1364 106,1364 142,1364 178,1364 214,1364 249,1364 285,1365 321,1365 357,1365 392,1365 428,1365 464,1365 500,1365 535,1365 571,1365 607,1365 643,1365 678,1365 714,1366 750,1367 786,1367"/>
+                <TextEquiv>
+                    <Unicode>alma hacia la Divinidad puede in¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l15" custom="readingOrder {index:14;}">
+                <Coords points="53,1426 794,1425 794,1394 772,1391 53,1381"/>
+                <Baseline points="66,1416 101,1416 137,1416 173,1415 208,1415 244,1415 280,1416 315,1416 351,1416 387,1416 423,1418 458,1418 494,1418 530,1418 565,1419 601,1419 637,1419 672,1419 708,1419 744,1418 780,1418"/>
+                <TextEquiv>
+                    <Unicode>terpretarse de tantas maneras co¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l16" custom="readingOrder {index:15;}">
+                <Coords points="52,1482 742,1494 807,1480 807,1438 52,1443"/>
+                <Baseline points="65,1467 101,1469 137,1469 174,1469 210,1469 246,1469 283,1469 319,1469 355,1469 392,1470 428,1470 464,1470 501,1470 537,1470 573,1472 610,1472 646,1472 682,1473 719,1473 755,1475 792,1475"/>
+                <TextEquiv>
+                    <Unicode>mo sean los idearios filosóficos que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l17" custom="readingOrder {index:16;}">
+                <Coords points="65,1533 727,1546 783,1535 784,1487 65,1488"/>
+                <Baseline points="80,1521 114,1521 149,1523 183,1523 218,1523 252,1523 287,1523 321,1523 356,1523 390,1523 425,1523 459,1523 494,1524 528,1524 563,1524 597,1524 632,1526 666,1526 701,1526 735,1527 770,1527"/>
+                <TextEquiv>
+                    <Unicode>el poeta tenga acerca de Dios; por</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l18" custom="readingOrder {index:17;}">
+                <Coords points="57,1586 798,1584 798,1547 627,1537 58,1541"/>
+                <Baseline points="72,1574 107,1574 143,1574 178,1574 214,1574 250,1574 285,1575 321,1575 357,1575 392,1576 428,1577 464,1577 499,1578 535,1578 571,1578 606,1580 642,1580 678,1580 713,1580 749,1581 785,1581"/>
+                <TextEquiv>
+                    <Unicode>estas razones, hay misticismo ca¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l19" custom="readingOrder {index:18;}">
+                <Coords points="69,1637 484,1641 503,1661 582,1636 804,1644 804,1602 771,1598 69,1586"/>
+                <Baseline points="83,1626 118,1626 153,1628 188,1628 224,1628 259,1628 294,1628 330,1629 365,1629 400,1629 436,1629 471,1629 506,1629 541,1631 577,1631 612,1631 647,1631 683,1632 718,1632 753,1634 789,1634"/>
+                <TextEquiv>
+                    <Unicode>tólico y misticismo que no lo es.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l20" custom="readingOrder {index:19;}">
+                <Coords points="70,1690 514,1685 657,1709 797,1690 798,1648 393,1659 357,1639 177,1640 146,1660 71,1639"/>
+                <Baseline points="84,1679 118,1680 153,1680 188,1680 223,1680 258,1680 293,1682 328,1682 363,1682 398,1682 433,1682 467,1682 502,1683 537,1683 572,1683 607,1683 642,1683 677,1685 712,1685 747,1685 782,1685"/>
+                <TextEquiv>
+                    <Unicode>En el segundo caso habrá misti¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l21" custom="readingOrder {index:20;}">
+                <Coords points="65,1744 800,1752 801,1701 65,1699"/>
+                <Baseline points="78,1730 113,1730 148,1731 184,1731 219,1731 255,1733 290,1733 325,1733 361,1734 396,1734 432,1734 467,1734 502,1736 538,1736 573,1736 609,1736 644,1737 679,1737 715,1737 750,1737 786,1737"/>
+                <TextEquiv>
+                    <Unicode>cismo en toda composición poética</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l22" custom="readingOrder {index:21;}">
+                <Coords points="50,1791 109,1808 805,1800 805,1769 757,1760 202,1742 50,1760"/>
+                <Baseline points="65,1787 101,1786 137,1785 174,1785 210,1785 246,1785 283,1785 319,1785 355,1785 392,1786 428,1787 464,1787 501,1787 537,1788 573,1788 610,1788 646,1790 682,1790 719,1790 755,1790 792,1790"/>
+                <TextEquiv>
+                    <Unicode>que afirme y reconozca las cosas n.-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l23" custom="readingOrder {index:22;}">
+                <Coords points="70,1853 783,1861 808,1853 809,1811 71,1803"/>
+                <Baseline points="83,1836 118,1836 154,1836 189,1836 225,1838 260,1838 296,1839 331,1839 367,1839 402,1841 438,1841 474,1842 509,1842 545,1842 580,1844 616,1844 651,1844 687,1845 722,1845 758,1845 794,1845"/>
+                <TextEquiv>
+                    <Unicode>turales y las que no lo son. De aqui</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l24" custom="readingOrder {index:23;}">
+                <Coords points="68,1909 761,1913 806,1902 807,1869 69,1853"/>
+                <Baseline points="83,1890 118,1890 153,1890 189,1892 224,1892 260,1892 295,1892 331,1893 366,1893 402,1893 437,1893 472,1893 508,1893 543,1893 579,1895 614,1895 650,1895 685,1896 721,1896 756,1898 792,1898"/>
+                <TextEquiv>
+                    <Unicode>que la mística poética no es fruto</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l25" custom="readingOrder {index:24;}">
+                <Coords points="63,1959 796,1955 796,1918 614,1903 64,1909"/>
+                <Baseline points="78,1943 113,1943 148,1944 183,1944 218,1944 254,1946 289,1946 324,1946 359,1946 394,1946 430,1947 465,1947 500,1947 535,1947 570,1947 606,1947 641,1949 676,1949 711,1949 746,1950 782,1950"/>
+                <TextEquiv>
+                    <Unicode>ni del deísmo vago ni del fragmen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Empecemos diciendo que la Teo¬logía ha empleado la palabra "mis¬ticismo" en su sentido estricto pa¬ra designar el estado amoroso.contemplativo o extático del espí¬ritu.El misticismo en este aspectocomprende tres jalones, indicadoresde otras tantas etapas por las cua¬les pasa en su desarrollo el almadel poeta.Como puede observarse, esta ele¬vación misteriosa y evolutiva de!alma hacia la Divinidad puede in¬terpretarse de tantas maneras co¬mo sean los idearios filosóficos queel poeta tenga acerca de Dios; porestas razones, hay misticismo ca¬tólico y misticismo que no lo es.En el segundo caso habrá misti¬cismo en toda composición poéticaque afirme y reconozca las cosas n.-turales y las que no lo son. De aquique la mística poética no es frutoni del deísmo vago ni del fragmen¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="879,614 1612,609 1605,1964 877,1964"/>
+            <TextLine id="r_4_1l2" custom="readingOrder {index:0;}">
+                <Coords points="868,683 1491,694 1510,677 1544,694 1617,668 1617,629 868,635"/>
+                <Baseline points="881,674 917,675 953,675 989,675 1025,675 1061,675 1097,675 1133,674 1169,674 1205,674 1241,674 1277,674 1313,674 1349,674 1385,674 1421,674 1457,672 1493,672 1529,672 1565,671 1602,671"/>
+                <TextEquiv>
+                    <Unicode>tario e inconexo politeísmo; por</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l3" custom="readingOrder {index:1;}">
+                <Coords points="866,741 1197,728 1458,748 1531,723 1607,733 1607,689 866,690"/>
+                <Baseline points="881,728 916,728 952,729 987,729 1023,729 1058,729 1094,729 1129,729 1165,729 1200,728 1236,728 1272,728 1307,728 1343,728 1378,727 1414,726 1449,726 1485,726 1520,725 1556,725 1592,723"/>
+                <TextEquiv>
+                    <Unicode>esta causa los líricos griegos no</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l4" custom="readingOrder {index:2;}">
+                <Coords points="874,793 1595,790 1597,736 1409,737 1381,757 1353,735 873,745"/>
+                <Baseline points="887,780 921,780 956,782 991,782 1026,782 1061,782 1095,782 1130,782 1165,782 1200,780 1235,780 1269,780 1304,780 1339,780 1374,779 1409,779 1443,779 1478,779 1513,779 1548,779 1583,780"/>
+                <TextEquiv>
+                    <Unicode>tuvieron "misticismo", sino "mi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l5" custom="readingOrder {index:3;}">
+                <Coords points="875,846 1018,845 1034,836 1051,847 1079,844 1079,797 1023,791 1001,800 958,800 950,792 933,792 922,800 874,792"/>
+                <Baseline points="888,833 913,836 938,836 963,836 989,834 1014,834 1039,834 1065,836"/>
+                <TextEquiv>
+                    <Unicode>ticismo".</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l6" custom="readingOrder {index:4;}">
+                <Coords points="903,901 1540,903 1610,892 1610,841 1186,863 903,848"/>
+                <Baseline points="917,887 950,887 984,888 1018,888 1052,888 1086,888 1120,888 1154,888 1188,888 1222,887 1256,887 1289,887 1323,887 1357,887 1391,887 1425,885 1459,885 1493,885 1527,885 1561,884 1595,884"/>
+                <TextEquiv>
+                    <Unicode>En la hora actual, el concepto</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l7" custom="readingOrder {index:5;}">
+                <Coords points="873,957 1600,950 1616,894 873,910"/>
+                <Baseline points="887,942 922,942 958,942 994,942 1030,942 1065,942 1101,942 1137,942 1173,941 1208,941 1244,941 1280,941 1316,940 1351,939 1387,939 1423,939 1459,939 1494,939 1530,939 1566,939 1602,939"/>
+                <TextEquiv>
+                    <Unicode>que los poetas jóvenes tienen del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l8" custom="readingOrder {index:6;}">
+                <Coords points="874,1006 1610,1005 1609,957 874,961"/>
+                <Baseline points="888,995 923,995 958,994 994,993 1029,993 1065,993 1100,993 1135,993 1171,993 1206,993 1242,993 1277,993 1312,993 1348,993 1383,993 1419,993 1454,993 1489,993 1525,993 1560,993 1596,993"/>
+                <TextEquiv>
+                    <Unicode>misticismo no significa otra cosa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l9" custom="readingOrder {index:7;}">
+                <Coords points="869,1057 1553,1063 1607,1054 1607,1021 868,1012"/>
+                <Baseline points="884,1052 919,1050 954,1049 990,1047 1025,1047 1061,1047 1096,1046 1132,1046 1167,1046 1203,1046 1238,1047 1273,1047 1309,1047 1344,1047 1380,1047 1415,1047 1451,1047 1486,1046 1522,1046 1557,1046 1593,1044"/>
+                <TextEquiv>
+                    <Unicode>que "misteriosismo", porque la pa¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l10" custom="readingOrder {index:8;}">
+                <Coords points="870,1118 1605,1105 1605,1063 1529,1057 870,1061"/>
+                <Baseline points="885,1101 920,1101 955,1100 991,1100 1026,1100 1061,1100 1097,1100 1132,1100 1167,1100 1203,1100 1238,1101 1273,1101 1309,1101 1344,1101 1379,1100 1415,1100 1450,1100 1485,1100 1521,1098 1556,1098 1592,1097"/>
+                <TextEquiv>
+                    <Unicode>labra, místico—como todos sabe¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l11" custom="readingOrder {index:9;}">
+                <Coords points="874,1162 1556,1173 1615,1157 1615,1115 874,1117"/>
+                <Baseline points="888,1152 923,1152 959,1151 995,1151 1030,1152 1066,1152 1102,1152 1137,1152 1173,1152 1209,1154 1245,1154 1280,1154 1316,1154 1352,1155 1387,1155 1423,1155 1459,1154 1494,1154 1530,1154 1566,1152 1602,1151"/>
+                <TextEquiv>
+                    <Unicode>mos—proviene del término griego</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l12" custom="readingOrder {index:10;}">
+                <Coords points="873,1221 1614,1211 1614,1180 1583,1163 1493,1183 1443,1166 873,1171"/>
+                <Baseline points="888,1206 923,1206 959,1206 994,1206 1030,1206 1066,1206 1101,1206 1137,1206 1173,1206 1208,1206 1244,1206 1280,1206 1315,1206 1351,1206 1387,1206 1422,1206 1458,1206 1494,1205 1529,1205 1565,1203 1601,1202"/>
+                <TextEquiv>
+                    <Unicode>misticós: misterioso, secreto, ocul¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l13" custom="readingOrder {index:11;}">
+                <Coords points="881,1271 901,1271 906,1266 915,1266 918,1263 923,1266 946,1266 946,1212 932,1212 929,1215 923,1212 904,1212 901,1215 895,1209 881,1209"/>
+                <Baseline points="894,1259 933,1259"/>
+                <TextEquiv>
+                    <Unicode>to.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l14" custom="readingOrder {index:12;}">
+                <Coords points="911,1326 1613,1324 1613,1276 1551,1270 1470,1287 1425,1270 911,1273"/>
+                <Baseline points="924,1310 957,1310 991,1311 1025,1311 1059,1311 1092,1313 1126,1313 1160,1313 1194,1313 1227,1313 1261,1313 1295,1314 1329,1314 1362,1314 1396,1314 1430,1314 1464,1314 1497,1314 1531,1313 1565,1313 1599,1313"/>
+                <TextEquiv>
+                    <Unicode>Poesía mística, por tanto, según</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l15" custom="readingOrder {index:13;} date {offset:28; length:4;}">
+                <Coords points="868,1374 1606,1380 1606,1324 868,1329"/>
+                <Baseline points="881,1365 916,1365 952,1364 987,1364 1023,1364 1059,1364 1094,1364 1130,1364 1165,1364 1201,1365 1237,1365 1272,1365 1308,1365 1343,1365 1379,1365 1415,1365 1450,1365 1486,1365 1521,1365 1557,1365 1593,1365"/>
+                <TextEquiv>
+                    <Unicode>entendemos los muchachos de 1934.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l16" custom="readingOrder {index:14;}">
+                <Coords points="879,1435 1558,1433 1609,1428 1609,1380 879,1385"/>
+                <Baseline points="893,1418 928,1418 963,1418 998,1418 1033,1418 1068,1418 1103,1418 1138,1418 1173,1418 1208,1418 1244,1418 1279,1418 1314,1418 1349,1419 1384,1419 1419,1419 1454,1419 1489,1419 1524,1419 1559,1418 1595,1418"/>
+                <TextEquiv>
+                    <Unicode>no es otra cosa que aquella poesía</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l17" custom="readingOrder {index:15;}">
+                <Coords points="870,1483 1614,1488 1614,1446 1555,1429 870,1441"/>
+                <Baseline points="884,1470 919,1469 955,1469 991,1469 1027,1469 1062,1469 1098,1469 1134,1469 1170,1470 1205,1470 1241,1470 1277,1471 1313,1472 1348,1472 1384,1472 1420,1473 1456,1473 1491,1473 1527,1473 1563,1473 1599,1473"/>
+                <TextEquiv>
+                    <Unicode>que evoca el misterio, el presagio,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l18" custom="readingOrder {index:16;}">
+                <Coords points="871,1535 1606,1540 1607,1487 871,1493"/>
+                <Baseline points="884,1523 919,1523 954,1523 990,1523 1025,1524 1061,1524 1096,1524 1132,1524 1167,1524 1203,1524 1238,1524 1273,1526 1309,1526 1344,1526 1380,1526 1415,1526 1451,1526 1486,1527 1522,1527 1557,1527 1593,1527"/>
+                <TextEquiv>
+                    <Unicode>el presentimiento, lo que el poeta.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l19" custom="readingOrder {index:17;}">
+                <Coords points="866,1586 1610,1592 1610,1536 866,1541"/>
+                <Baseline points="881,1577 916,1577 952,1577 988,1577 1023,1577 1059,1577 1095,1577 1130,1577 1166,1577 1202,1577 1238,1577 1273,1577 1309,1577 1345,1577 1380,1577 1416,1577 1452,1577 1487,1577 1523,1577 1559,1578 1595,1578"/>
+                <TextEquiv>
+                    <Unicode>en fin, no puede comprender ni</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l20" custom="readingOrder {index:18;}">
+                <Coords points="873,1643 1606,1644 1606,1593 1084,1611 873,1590"/>
+                <Baseline points="888,1628 923,1628 958,1629 993,1629 1028,1629 1064,1629 1099,1631 1134,1631 1169,1631 1204,1631 1240,1631 1275,1631 1310,1631 1345,1631 1380,1631 1416,1631 1451,1631 1486,1631 1521,1632 1556,1632 1592,1632"/>
+                <TextEquiv>
+                    <Unicode>descifrar, aunque sienta el aleteo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l21" custom="readingOrder {index:19;}">
+                <Coords points="879,1694 1532,1702 1620,1683 1620,1658 1488,1643 1420,1660 879,1640"/>
+                <Baseline points="894,1683 929,1682 965,1682 1000,1682 1036,1682 1071,1682 1107,1682 1142,1682 1178,1683 1213,1683 1249,1683 1285,1685 1320,1685 1356,1685 1391,1685 1427,1685 1462,1685 1498,1685 1533,1685 1569,1683 1605,1683"/>
+                <TextEquiv>
+                    <Unicode>de sus vibraciores en los pliegues</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l22" custom="readingOrder {index:20;}">
+                <Coords points="880,1747 1613,1746 1613,1704 1577,1695 1523,1715 1422,1695 881,1700"/>
+                <Baseline points="894,1736 929,1736 964,1736 999,1736 1035,1736 1070,1736 1105,1736 1140,1736 1176,1736 1211,1736 1246,1736 1281,1736 1317,1736 1352,1737 1387,1737 1422,1737 1458,1737 1493,1737 1528,1737 1563,1737 1599,1737"/>
+                <TextEquiv>
+                    <Unicode>más recónditos de su espíritu. Es</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l23" custom="readingOrder {index:21;}">
+                <Coords points="878,1805 1604,1799 1604,1768 1565,1751 1167,1767 878,1749"/>
+                <Baseline points="893,1787 927,1788 962,1788 997,1788 1032,1790 1067,1790 1102,1790 1136,1790 1171,1790 1206,1790 1241,1791 1276,1791 1311,1791 1346,1791 1380,1791 1415,1791 1450,1791 1485,1790 1520,1790 1555,1790 1590,1790"/>
+                <TextEquiv>
+                    <Unicode>decir, que la excelencia del misti¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l24" custom="readingOrder {index:22;}">
+                <Coords points="870,1854 1614,1850 1614,1808 871,1807"/>
+                <Baseline points="885,1841 920,1841 956,1842 992,1842 1027,1842 1063,1842 1099,1842 1134,1842 1170,1842 1206,1844 1242,1844 1277,1844 1313,1844 1349,1844 1384,1844 1420,1845 1456,1845 1491,1845 1527,1845 1563,1844 1599,1844"/>
+                <TextEquiv>
+                    <Unicode>cismo en la poesía moderna con¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l25" custom="readingOrder {index:23;}">
+                <Coords points="870,1904 1608,1912 1608,1865 1552,1853 1398,1875 870,1859"/>
+                <Baseline points="884,1893 919,1893 955,1895 990,1895 1026,1895 1061,1895 1097,1895 1132,1895 1168,1895 1203,1895 1239,1895 1275,1895 1310,1895 1346,1895 1381,1895 1417,1896 1452,1896 1488,1896 1523,1896 1559,1898 1595,1899"/>
+                <TextEquiv>
+                    <Unicode>siste en darnos una vaga sensación</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l26" custom="readingOrder {index:24;}">
+                <Coords points="873,1958 1617,1958 1617,1916 1131,1929 1081,1906 873,1907"/>
+                <Baseline points="888,1946 923,1946 959,1947 995,1947 1030,1947 1066,1947 1102,1947 1137,1949 1173,1949 1209,1949 1245,1949 1280,1949 1316,1950 1352,1950 1387,1950 1423,1950 1459,1950 1494,1951 1530,1952 1566,1952 1602,1952"/>
+                <TextEquiv>
+                    <Unicode>del infinito, aun cuando ese sabor</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Por JOSE SANZ y DIAZtario e inconexo politeísmo; poresta causa los líricos griegos notuvieron "misticismo", sino "mi¬ticismo".En la hora actual, el conceptoque los poetas jóvenes tienen delmisticismo no significa otra cosaque "misteriosismo", porque la pa¬labra, místico—como todos sabe¬mos—proviene del término griegomisticós: misterioso, secreto, ocul¬to.Poesía mística, por tanto, segúnentendemos los muchachos de 1934.no es otra cosa que aquella poesíaque evoca el misterio, el presagio,el presentimiento, lo que el poeta.en fin, no puede comprender nidescifrar, aunque sienta el aleteode sus vibraciores en los plieguesmás recónditos de su espíritu. Esdecir, que la excelencia del misti¬cismo en la poesía moderna con¬siste en darnos una vaga sensacióndel infinito, aun cuando ese sabor</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_5_1" custom="readingOrder {index:6;} structure {type:paragraph;}">
+            <Coords points="1685,636 2414,636 2414,3268 1685,3268"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1672,681 2382,687 2418,678 2418,631 1672,644"/>
+                <Baseline points="1685,674 1720,674 1756,674 1792,674 1828,674 1864,674 1900,674 1936,674 1972,674 2008,674 2044,675 2079,675 2115,675 2151,675 2187,675 2223,675 2259,675 2295,674 2331,674 2367,674 2403,674"/>
+                <TextEquiv>
+                    <Unicode>a divinidad vaya envuelto en metá¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1680,737 2415,733 2415,696 1680,687"/>
+                <Baseline points="1694,725 1729,726 1764,726 1799,726 1835,728 1870,728 1905,728 1941,728 1976,728 2011,729 2047,729 2082,729 2117,729 2152,729 2188,728 2223,728 2258,728 2294,728 2329,727 2364,726 2400,726"/>
+                <TextEquiv>
+                    <Unicode>foras raras y alegorías ultraterres¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1675,789 1801,790 1802,757 1779,756 1766,744 1718,746 1710,737 1676,739"/>
+                <Baseline points="1689,773 1722,776 1755,777 1788,776"/>
+                <TextEquiv>
+                    <Unicode>tres.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l4" custom="readingOrder {index:3;}">
+                <Coords points="1726,850 2419,846 2419,812 2389,807 1726,799"/>
+                <Baseline points="1740,837 1773,837 1806,837 1839,837 1873,838 1906,839 1939,839 1973,839 2006,839 2039,839 2073,839 2106,839 2139,839 2172,839 2206,839 2239,839 2272,839 2306,839 2339,839 2372,839 2406,839"/>
+                <TextEquiv>
+                    <Unicode>De lo dicho se desprende con su¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l5" custom="readingOrder {index:4;}">
+                <Coords points="1679,902 2055,913 2184,888 2217,908 2391,906 2419,901 2420,856 2195,849 2072,874 2046,848 1861,870 1679,846"/>
+                <Baseline points="1694,891 1729,891 1765,890 1800,890 1836,890 1872,890 1907,891 1943,891 1978,891 2014,891 2050,893 2085,893 2121,893 2156,893 2192,894 2228,894 2263,894 2299,894 2334,893 2370,893 2406,891"/>
+                <TextEquiv>
+                    <Unicode>ficiente claridad, que la poesía</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l6" custom="readingOrder {index:5;}">
+                <Coords points="1683,957 2424,954 2424,903 1684,906"/>
+                <Baseline points="1697,944 1732,944 1768,943 1803,942 1839,942 1875,942 1910,942 1946,942 1981,942 2017,942 2053,942 2088,942 2124,942 2159,944 2195,944 2231,944 2266,944 2302,944 2337,945 2373,945 2409,945"/>
+                <TextEquiv>
+                    <Unicode>mística moderna es distinta de la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l7" custom="readingOrder {index:6;}">
+                <Coords points="1684,1018 1827,1004 1906,1018 2018,1004 2228,1013 2228,976 2133,959 2023,971 1875,959 1827,976 1779,957 1684,965"/>
+                <Baseline points="1698,999 1723,999 1749,999 1775,999 1801,999 1827,999 1852,999 1878,999 1904,999 1930,999 1956,998 1981,998 2007,998 2033,999 2059,999 2085,999 2110,999 2136,999 2162,999 2188,999 2214,999"/>
+                <TextEquiv>
+                    <Unicode>poesía religioso-cristiana.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l8" custom="readingOrder {index:7;}">
+                <Coords points="1713,1071 2221,1078 2426,1059 2426,1034 2345,1014 1713,1023"/>
+                <Baseline points="1727,1061 1761,1059 1795,1059 1829,1058 1864,1058 1898,1058 1932,1059 1966,1059 2001,1059 2035,1061 2069,1061 2103,1062 2138,1062 2172,1062 2206,1062 2240,1062 2275,1062 2309,1061 2343,1061 2377,1059 2412,1058"/>
+                <TextEquiv>
+                    <Unicode>Poetas místicos hay y los ha ha¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l9" custom="readingOrder {index:8;}">
+                <Coords points="1678,1126 2315,1135 2404,1124 2405,1082 1678,1076"/>
+                <Baseline points="1692,1116 1728,1115 1765,1115 1802,1115 1839,1115 1875,1116 1912,1116 1949,1116 1986,1116 2023,1116 2059,1116 2096,1117 2133,1118 2170,1118 2207,1118 2243,1118 2280,1118 2317,1118 2354,1118 2391,1118"/>
+                <TextEquiv>
+                    <Unicode>bido en todas las partes del mundo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l10" custom="readingOrder {index:9;}">
+                <Coords points="1670,1179 2391,1184 2416,1176 2416,1137 1670,1145"/>
+                <Baseline points="1685,1170 1720,1172 1756,1172 1792,1172 1828,1172 1864,1173 1900,1173 1936,1173 1972,1173 2008,1173 2044,1173 2079,1173 2115,1173 2151,1173 2187,1172 2223,1172 2259,1172 2295,1172 2331,1172 2367,1172 2403,1172"/>
+                <TextEquiv>
+                    <Unicode>aun en aquellas en que no se cono¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l11" custom="readingOrder {index:10;}">
+                <Coords points="1672,1238 2398,1248 2424,1236 2424,1194 1672,1199"/>
+                <Baseline points="1686,1227 1722,1227 1758,1227 1794,1227 1831,1227 1867,1227 1903,1227 1939,1227 1976,1227 2012,1227 2048,1229 2084,1229 2121,1229 2157,1229 2193,1229 2229,1229 2266,1229 2302,1230 2338,1230 2374,1230 2411,1230"/>
+                <TextEquiv>
+                    <Unicode>cía el Evangelic. En cambio hay</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l12" custom="readingOrder {index:11;}">
+                <Coords points="1683,1296 2426,1290 2426,1256 2393,1248 1952,1260 1924,1241 1683,1240"/>
+                <Baseline points="1698,1283 1733,1283 1769,1283 1805,1283 1840,1283 1876,1283 1912,1283 1947,1283 1983,1283 2019,1283 2055,1283 2090,1283 2126,1283 2162,1283 2197,1284 2233,1284 2269,1284 2304,1284 2340,1284 2376,1286 2412,1286"/>
+                <TextEquiv>
+                    <Unicode>infinidad de poetas cristianos que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l13" custom="readingOrder {index:12;}">
+                <Coords points="1683,1351 2415,1346 2415,1318 2359,1306 1683,1309"/>
+                <Baseline points="1698,1340 1733,1340 1768,1340 1803,1340 1838,1340 1874,1340 1909,1340 1944,1341 1979,1341 2014,1341 2050,1341 2085,1341 2120,1341 2155,1341 2190,1340 2226,1340 2261,1340 2296,1340 2331,1340 2366,1341 2402,1341"/>
+                <TextEquiv>
+                    <Unicode>no son místicos, ya que sus com¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l14" custom="readingOrder {index:13;}">
+                <Coords points="1672,1412 2371,1414 2407,1409 2408,1361 1672,1359"/>
+                <Baseline points="1685,1397 1720,1397 1755,1395 1791,1395 1826,1395 1862,1395 1897,1395 1933,1395 1968,1395 2004,1395 2039,1396 2074,1397 2110,1397 2145,1397 2181,1397 2216,1397 2252,1397 2287,1397 2323,1397 2358,1396 2394,1395"/>
+                <TextEquiv>
+                    <Unicode>posiciones no nos dan sabor de in</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l15" custom="readingOrder {index:14;}">
+                <Coords points="1684,1462 2366,1461 2366,1425 2296,1410 2110,1413 2094,1430 2026,1407 1906,1424 1684,1412"/>
+                <Baseline points="1698,1451 1730,1451 1763,1452 1796,1452 1828,1452 1861,1454 1894,1454 1926,1454 1959,1454 1992,1454 2025,1452 2057,1452 2090,1452 2123,1452 2155,1452 2188,1452 2221,1452 2253,1454 2286,1454 2319,1454 2352,1454"/>
+                <TextEquiv>
+                    <Unicode>finito, ni evocación de misterio.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l16" custom="readingOrder {index:15;}">
+                <Coords points="1731,1510 1885,1529 2421,1517 2421,1489 2390,1472 2079,1486 1731,1468"/>
+                <Baseline points="1745,1500 1778,1503 1811,1506 1844,1509 1877,1510 1910,1511 1943,1512 1977,1512 2010,1514 2043,1514 2076,1514 2109,1512 2142,1512 2175,1512 2209,1512 2242,1512 2275,1512 2308,1512 2341,1512 2374,1512 2408,1512"/>
+                <TextEquiv>
+                    <Unicode>“Para tener una auténtica inspi¬¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l17" custom="readingOrder {index:16;}">
+                <Coords points="1680,1584 2413,1578 2413,1536 2385,1528 1680,1533"/>
+                <Baseline points="1694,1566 1729,1566 1764,1568 1799,1568 1835,1569 1870,1569 1905,1569 1940,1569 1976,1569 2011,1569 2046,1568 2081,1568 2117,1568 2152,1568 2187,1568 2222,1568 2258,1568 2293,1568 2328,1568 2363,1568 2399,1569"/>
+                <TextEquiv>
+                    <Unicode>ración mística no basta—escribía</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l18" custom="readingOrder {index:17;} person {offset:8; length:8;} person {offset:19; length:6;}">
+                <Coords points="1684,1635 2417,1633 2416,1588 1684,1588"/>
+                <Baseline points="1697,1622 1732,1622 1767,1622 1802,1623 1838,1623 1873,1623 1908,1622 1944,1622 1979,1622 2014,1622 2050,1622 2085,1622 2120,1620 2155,1620 2191,1620 2226,1620 2261,1620 2297,1620 2332,1620 2367,1622 2403,1622"/>
+                <TextEquiv>
+                    <Unicode>el gran Menéndez y Pelayo - ser</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l19" custom="readingOrder {index:18;}">
+                <Coords points="1678,1692 2422,1683 2422,1646 2371,1643 1678,1642"/>
+                <Baseline points="1691,1677 1726,1677 1762,1677 1798,1677 1834,1676 1870,1676 1906,1676 1942,1676 1978,1676 2014,1677 2050,1677 2085,1677 2121,1677 2157,1677 2193,1677 2229,1676 2265,1676 2301,1676 2337,1676 2373,1675 2409,1674"/>
+                <TextEquiv>
+                    <Unicode>cristíano, ni devoto, ni santo; se re¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l20" custom="readingOrder {index:19;}">
+                <Coords points="1681,1749 2382,1752 2416,1743 2416,1693 1681,1695"/>
+                <Baseline points="1695,1733 1730,1731 1765,1731 1801,1731 1836,1730 1872,1730 1907,1730 1942,1730 1978,1730 2013,1730 2049,1730 2084,1730 2119,1730 2155,1730 2190,1731 2226,1731 2261,1731 2296,1731 2332,1731 2367,1731 2403,1731"/>
+                <TextEquiv>
+                    <Unicode>quiere un estado psicológico muy</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l21" custom="readingOrder {index:20;}">
+                <Coords points="1673,1793 2417,1797 2416,1747 1673,1757"/>
+                <Baseline points="1686,1787 1721,1787 1757,1787 1793,1787 1829,1787 1865,1787 1901,1787 1936,1787 1972,1785 2008,1785 2044,1785 2080,1785 2116,1785 2152,1785 2187,1785 2223,1785 2259,1785 2295,1786 2331,1787 2367,1787 2403,1787"/>
+                <TextEquiv>
+                    <Unicode>especial, una actividad del deseo y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l22" custom="readingOrder {index:21;}">
+                <Coords points="1687,1855 2380,1857 2416,1854 2416,1809 1686,1799"/>
+                <Baseline points="1700,1842 1735,1842 1770,1842 1805,1842 1840,1842 1875,1842 1910,1842 1945,1842 1980,1842 2015,1842 2051,1842 2086,1841 2121,1841 2156,1841 2191,1841 2226,1841 2261,1841 2296,1841 2331,1841 2366,1842 2402,1842"/>
+                <TextEquiv>
+                    <Unicode>del pensamiento que contempla las</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l23" custom="readingOrder {index:22;}">
+                <Coords points="1689,1911 2371,1917 2419,1911 2419,1861 1689,1866"/>
+                <Baseline points="1703,1898 1738,1898 1773,1898 1808,1898 1843,1898 1878,1898 1913,1898 1949,1898 1984,1898 2019,1898 2054,1898 2089,1898 2124,1898 2159,1898 2195,1898 2230,1898 2265,1898 2300,1898 2335,1898 2370,1898 2406,1898"/>
+                <TextEquiv>
+                    <Unicode>cosas divinas, una metafísica que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l24" custom="readingOrder {index:23;}">
+                <Coords points="1685,1966 2420,1966 2420,1918 2344,1912 2255,1929 1685,1910"/>
+                <Baseline points="1700,1953 1735,1953 1770,1953 1805,1953 1841,1953 1876,1953 1911,1953 1947,1953 1982,1953 2017,1953 2053,1953 2088,1953 2123,1953 2158,1953 2194,1953 2229,1953 2264,1953 2300,1953 2335,1953 2370,1952 2406,1952"/>
+                <TextEquiv>
+                    <Unicode>llega hasta Dios ¡pero por camino</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l25" custom="readingOrder {index:24;}">
+                <Coords points="1677,2022 2375,2028 2426,2022 2426,1977 1676,1975"/>
+                <Baseline points="1691,2009 1727,2009 1763,2009 1799,2010 1835,2010 1871,2010 1907,2010 1943,2010 1979,2010 2015,2010 2051,2010 2087,2009 2123,2009 2159,2009 2195,2009 2231,2009 2267,2009 2303,2009 2339,2009 2375,2010 2411,2010"/>
+                <TextEquiv>
+                    <Unicode>diverso al que muestra el raciocinio</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l26" custom="readingOrder {index:25;}">
+                <Coords points="1682,2080 1868,2078 1890,2058 1955,2083 2420,2076 2420,2028 2148,2045 2078,2022 1682,2024"/>
+                <Baseline points="1697,2066 1732,2066 1767,2066 1803,2065 1838,2064 1874,2064 1909,2064 1945,2064 1980,2064 2016,2065 2051,2066 2086,2066 2122,2066 2157,2066 2193,2066 2228,2066 2264,2066 2299,2066 2335,2066 2370,2066 2406,2066"/>
+                <TextEquiv>
+                    <Unicode>teológico dogmático, aunque no</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l27" custom="readingOrder {index:26;}">
+                <Coords points="1675,2125 2213,2142 2427,2122 2427,2100 2371,2080 2152,2100 2107,2080 1675,2086"/>
+                <Baseline points="1689,2120 1725,2120 1761,2120 1797,2120 1833,2120 1869,2120 1905,2120 1942,2121 1978,2121 2014,2121 2050,2121 2086,2121 2122,2121 2158,2121 2195,2121 2231,2121 2267,2120 2303,2120 2339,2120 2375,2120 2412,2120"/>
+                <TextEquiv>
+                    <Unicode>opuesto; al contrario, suponiéndo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l28" custom="readingOrder {index:27;}">
+                <Coords points="1682,2188 2420,2180 2420,2143 1682,2134"/>
+                <Baseline points="1695,2177 1730,2175 1766,2175 1801,2175 1837,2174 1872,2175 1908,2175 1943,2175 1979,2175 2014,2175 2050,2177 2086,2177 2121,2177 2157,2177 2192,2177 2228,2177 2263,2177 2299,2176 2334,2175 2370,2174 2406,2172"/>
+                <TextEquiv>
+                    <Unicode>lo como fundamento de sus especu¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l29" custom="readingOrder {index:28;}">
+                <Coords points="1683,2245 1815,2262 1894,2223 1941,2245 2424,2243 2424,2195 1683,2194"/>
+                <Baseline points="1698,2231 1733,2231 1769,2231 1804,2231 1840,2231 1875,2232 1911,2232 1946,2232 1982,2232 2017,2232 2053,2232 2089,2232 2124,2232 2160,2232 2195,2232 2231,2232 2266,2232 2302,2232 2337,2232 2373,2232 2409,2232"/>
+                <TextEquiv>
+                    <Unicode>laciones.” Este es el misticismo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l30" custom="readingOrder {index:29;}">
+                <Coords points="1684,2302 2416,2298 2416,2262 2366,2248 1684,2252"/>
+                <Baseline points="1697,2289 1732,2288 1767,2288 1802,2286 1838,2286 1873,2286 1908,2286 1943,2286 1979,2287 2014,2288 2049,2288 2084,2288 2120,2288 2155,2289 2190,2289 2225,2289 2261,2289 2296,2288 2331,2288 2366,2288 2402,2286"/>
+                <TextEquiv>
+                    <Unicode>como estado de alma en el poeta.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l31" custom="readingOrder {index:30;}">
+                <Coords points="1733,2362 2039,2373 2421,2350 2421,2325 2272,2305 2160,2330 2134,2311 2031,2314 2014,2331 1986,2311 1946,2328 1733,2308"/>
+                <Baseline points="1748,2348 1780,2348 1813,2348 1846,2348 1879,2348 1912,2348 1945,2348 1978,2348 2011,2349 2044,2349 2077,2349 2109,2349 2142,2349 2175,2349 2208,2349 2241,2349 2274,2348 2307,2348 2340,2348 2373,2346 2406,2346"/>
+                <TextEquiv>
+                    <Unicode>Por tanto, la poesía mística, re¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l32" custom="readingOrder {index:31;}">
+                <Coords points="1681,2423 2427,2416 2427,2380 2262,2363 2076,2386 1681,2367"/>
+                <Baseline points="1694,2403 1729,2404 1765,2405 1801,2405 1837,2405 1873,2405 1909,2405 1945,2405 1981,2405 2017,2405 2053,2405 2088,2405 2124,2405 2160,2405 2196,2403 2232,2403 2268,2403 2304,2403 2340,2405 2376,2405 2412,2405"/>
+                <TextEquiv>
+                    <Unicode>ligiosa o profana, no es sino una</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l33" custom="readingOrder {index:32;}">
+                <Coords points="1683,2476 2371,2479 2427,2459 2427,2431 2343,2422 1683,2422"/>
+                <Baseline points="1698,2460 1733,2459 1769,2459 1805,2459 1840,2459 1876,2459 1912,2459 1947,2459 1983,2459 2019,2459 2055,2460 2090,2460 2126,2460 2162,2460 2197,2460 2233,2460 2269,2460 2304,2459 2340,2459 2376,2459 2412,2457"/>
+                <TextEquiv>
+                    <Unicode>interpretación artística de la teo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l34" custom="readingOrder {index:33;}">
+                <Coords points="1679,2532 2397,2536 2425,2530 2426,2483 1679,2475"/>
+                <Baseline points="1694,2516 1729,2516 1765,2516 1801,2516 1837,2516 1873,2516 1909,2516 1945,2516 1981,2516 2017,2516 2053,2516 2088,2516 2124,2516 2160,2516 2196,2516 2232,2516 2268,2517 2304,2517 2340,2517 2376,2517 2412,2519"/>
+                <TextEquiv>
+                    <Unicode>logía y la filosofía puras, místicas,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l35" custom="readingOrder {index:34;}">
+                <Coords points="1685,2590 2400,2592 2417,2536 1685,2540"/>
+                <Baseline points="1698,2570 1733,2570 1768,2571 1803,2571 1839,2571 1874,2571 1909,2571 1944,2571 1980,2570 2015,2570 2050,2570 2085,2570 2121,2570 2156,2570 2191,2570 2226,2570 2262,2571 2297,2571 2332,2572 2367,2573 2403,2574"/>
+                <TextEquiv>
+                    <Unicode>animadas por la vibración íntima y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l36" custom="readingOrder {index:35;}">
+                <Coords points="1684,2647 2394,2646 2416,2640 2416,2590 1684,2597"/>
+                <Baseline points="1697,2628 1732,2627 1767,2627 1802,2625 1838,2625 1873,2625 1908,2625 1944,2625 1979,2625 2014,2625 2050,2625 2085,2627 2120,2627 2155,2627 2191,2627 2226,2627 2261,2627 2297,2627 2332,2627 2367,2627 2403,2627"/>
+                <TextEquiv>
+                    <Unicode>personal del poeta que siente, sim¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l37" custom="readingOrder {index:36;}">
+                <Coords points="1682,2702 1957,2686 2288,2703 2412,2692 2412,2645 1682,2649"/>
+                <Baseline points="1697,2685 1732,2684 1767,2684 1802,2682 1837,2682 1872,2682 1907,2682 1942,2682 1977,2682 2012,2682 2048,2682 2083,2682 2118,2682 2153,2682 2188,2684 2223,2684 2258,2684 2293,2684 2328,2684 2363,2684 2399,2684"/>
+                <TextEquiv>
+                    <Unicode>plemente, lo sobrenatural, de una</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l38" custom="readingOrder {index:37;}">
+                <Coords points="1683,2749 1851,2744 1943,2755 2056,2741 2056,2719 2025,2719 1963,2693 1927,2704 1907,2696 1893,2710 1683,2704"/>
+                <Baseline points="1697,2738 1723,2736 1750,2736 1776,2736 1803,2736 1829,2735 1856,2735 1882,2735 1909,2735 1935,2735 1962,2736 1988,2736 2015,2738 2042,2739"/>
+                <TextEquiv>
+                    <Unicode>manera estética.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l39" custom="readingOrder {index:38;}">
+                <Coords points="1713,2812 2188,2804 2230,2821 2356,2802 2415,2819 2415,2766 2381,2760 1714,2759"/>
+                <Baseline points="1728,2795 1761,2796 1795,2796 1828,2796 1862,2798 1896,2798 1929,2798 1963,2798 1996,2798 2030,2798 2064,2798 2097,2798 2131,2798 2164,2799 2198,2799 2232,2799 2265,2799 2299,2799 2332,2800 2366,2801 2400,2801"/>
+                <TextEquiv>
+                    <Unicode>De todo esto resulta que en la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l40" custom="readingOrder {index:39;} date {offset:11; length:8;}">
+                <Coords points="1684,2867 2422,2863 2422,2833 2361,2821 1684,2811"/>
+                <Baseline points="1698,2852 1733,2853 1769,2853 1804,2853 1840,2855 1875,2855 1911,2855 1946,2855 1982,2855 2017,2855 2053,2855 2089,2856 2124,2856 2160,2855 2195,2855 2231,2855 2266,2855 2302,2855 2337,2855 2373,2855 2409,2855"/>
+                <TextEquiv>
+                    <Unicode>lírica del siglo XX, como en ios an¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l41" custom="readingOrder {index:40;}">
+                <Coords points="1684,2927 2425,2923 2425,2892 2321,2867 1979,2891 1684,2871"/>
+                <Baseline points="1698,2910 1733,2910 1769,2910 1805,2912 1840,2912 1876,2912 1912,2912 1947,2912 1983,2912 2019,2912 2055,2912 2090,2912 2126,2912 2162,2912 2197,2912 2233,2912 2269,2912 2304,2912 2340,2912 2376,2912 2412,2912"/>
+                <TextEquiv>
+                    <Unicode>teriores, hay misticismo católico,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l42" custom="readingOrder {index:41;}">
+                <Coords points="1680,2989 2165,2987 2193,2964 2412,2990 2412,2933 1680,2936"/>
+                <Baseline points="1694,2967 1729,2967 1764,2967 1799,2967 1835,2967 1870,2967 1905,2967 1940,2967 1976,2967 2011,2966 2046,2966 2081,2966 2117,2966 2152,2967 2187,2967 2222,2967 2258,2967 2293,2967 2328,2967 2363,2967 2399,2969"/>
+                <TextEquiv>
+                    <Unicode>panteista, sentimental, teosófico;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l43" custom="readingOrder {index:42;}">
+                <Coords points="1684,3043 2080,3036 2111,3053 2178,3030 2425,3030 2425,2993 2310,2979 1684,2990"/>
+                <Baseline points="1697,3024 1732,3024 1768,3023 1804,3023 1840,3023 1875,3023 1911,3023 1947,3023 1983,3023 2018,3024 2054,3024 2090,3024 2126,3024 2161,3024 2197,3024 2233,3024 2269,3023 2304,3023 2340,3021 2376,3020 2412,3018"/>
+                <TextEquiv>
+                    <Unicode>pero siempre como una manifesta¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l44" custom="readingOrder {index:43;}">
+                <Coords points="1675,3087 2169,3091 2208,3111 2362,3086 2362,3064 2292,3038 1675,3048"/>
+                <Baseline points="1688,3078 1721,3078 1754,3078 1787,3080 1820,3080 1853,3080 1886,3080 1919,3080 1952,3080 1985,3080 2018,3080 2051,3080 2084,3080 2117,3080 2150,3080 2183,3080 2216,3080 2249,3080 2282,3080 2315,3080 2349,3080"/>
+                <TextEquiv>
+                    <Unicode>ción estética del alma del poeta.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l45" custom="readingOrder {index:44;}">
+                <Coords points="1718,3151 2419,3148 2419,3112 2335,3095 1841,3098 1821,3118 1718,3098"/>
+                <Baseline points="1733,3140 1766,3140 1800,3140 1833,3140 1867,3140 1901,3140 1934,3140 1968,3140 2002,3140 2035,3140 2069,3140 2103,3140 2136,3141 2170,3141 2204,3141 2237,3140 2271,3140 2305,3140 2338,3140 2372,3140 2406,3138"/>
+                <TextEquiv>
+                    <Unicode>Las diversas tendencias místicas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l46" custom="readingOrder {index:45;}">
+                <Coords points="1681,3213 2307,3214 2414,3206 2414,3161 1681,3162"/>
+                <Baseline points="1695,3195 1730,3195 1765,3195 1800,3195 1836,3195 1871,3195 1906,3195 1941,3195 1977,3195 2012,3195 2047,3195 2082,3195 2118,3195 2153,3195 2188,3195 2223,3195 2259,3194 2294,3194 2329,3194 2364,3194 2400,3192"/>
+                <TextEquiv>
+                    <Unicode>de nuestros días tienen su punto</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l47" custom="readingOrder {index:46;}">
+                <Coords points="1672,3265 2328,3269 2413,3261 2413,3213 1672,3218"/>
+                <Baseline points="1686,3252 1721,3252 1757,3251 1792,3251 1828,3251 1864,3251 1899,3251 1935,3251 1971,3252 2006,3252 2042,3252 2078,3252 2113,3252 2149,3252 2185,3252 2220,3251 2256,3251 2292,3251 2327,3249 2363,3249 2399,3248"/>
+                <TextEquiv>
+                    <Unicode>de arranque en la ante-guerra y en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>a divinidad vaya envuelto en metá¬foras raras y alegorías ultraterres¬tres.De lo dicho se desprende con su¬ficiente claridad, que la poesíamística moderna es distinta de lapoesía religioso-cristiana.Poetas místicos hay y los ha ha¬bido en todas las partes del mundoaun en aquellas en que no se cono¬cía el Evangelic. En cambio hayinfinidad de poetas cristianos queno son místicos, ya que sus com¬posiciones no nos dan sabor de infinito, ni evocación de misterio.“Para tener una auténtica inspi¬¬ración mística no basta—escribíael gran Menéndez y Pelayo - sercristíano, ni devoto, ni santo; se re¬quiere un estado psicológico muyespecial, una actividad del deseo ydel pensamiento que contempla lascosas divinas, una metafísica quellega hasta Dios ¡pero por caminodiverso al que muestra el raciocinioteológico dogmático, aunque noopuesto; al contrario, suponiéndo¬lo como fundamento de sus especu¬laciones.” Este es el misticismocomo estado de alma en el poeta.Por tanto, la poesía mística, re¬ligiosa o profana, no es sino unainterpretación artística de la teo¬logía y la filosofía puras, místicas,animadas por la vibración íntima ypersonal del poeta que siente, sim¬plemente, lo sobrenatural, de unamanera estética.De todo esto resulta que en lalírica del siglo XX, como en ios an¬teriores, hay misticismo católico,panteista, sentimental, teosófico;pero siempre como una manifesta¬ción estética del alma del poeta.Las diversas tendencias místicasde nuestros días tienen su puntode arranque en la ante-guerra y en</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_6_1" custom="readingOrder {index:7;} structure {type:heading;}">
+            <Coords points="402,2052 1283,2052 1283,2108 402,2108"/>
+            <TextLine id="r_6_1l1" custom="readingOrder {index:0;}">
+                <Coords points="391,2104 1289,2111 1267,2049 391,2048"/>
+                <Baseline points="405,2094 448,2094 491,2094 535,2093 578,2093 622,2093 665,2094 709,2094 752,2094 796,2094 839,2094 882,2094 926,2096 969,2096 1013,2096 1056,2096 1100,2096 1143,2097 1187,2097 1230,2097 1274,2096"/>
+                <TextEquiv>
+                    <Unicode>ACTUALIDAD INTERNACIONAL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ACTUALIDAD INTERNACIONAL</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:8;}">
+            <Coords points="247,278 2407,278 2407,287 247,287"/>
+        </SeparatorRegion>
+        <GraphicRegion id="r_7" custom="readingOrder {index:9;} structure {type:photograph;}">
+            <Coords points="106,2131 1555,2131 1555,3065 106,3065"/>
+        </GraphicRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:10;}">
+            <Coords points="79,1993 515,1993 515,2002 79,2002"/>
+        </SeparatorRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_8_1" custom="readingOrder {index:11;} structure {type:caption;}">
+            <Coords points="106,3085 1559,3085 1559,3270 106,3270"/>
+            <TextLine id="r_8_1l1" custom="readingOrder {index:0;} person {offset:0; length:18;}">
+                <Coords points="216,3128 1462,3128 1462,3081 216,3074"/>
+                <Baseline points="231,3113 291,3113 352,3113 413,3113 474,3113 535,3113 596,3114 657,3114 718,3114 779,3115 840,3116 900,3116 961,3117 1022,3117 1083,3118 1144,3119 1205,3119 1266,3119 1327,3120 1388,3120 1449,3120"/>
+                <TextEquiv>
+                    <Unicode>HUMBERTO DE SABOYA EN EL MUSEO DE BEBIDAS DEL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l2" custom="readingOrder {index:1;} person {offset:17; length:14;}">
+                <Coords points="393,3157 1252,3168 1252,3125 1129,3111 393,3129"/>
+                <Baseline points="408,3149 449,3149 491,3149 532,3150 574,3149 615,3150 657,3150 698,3150 740,3150 781,3150 823,3150 865,3150 906,3150 948,3150 989,3151 1031,3152 1072,3152 1114,3153 1155,3153 1197,3155 1239,3155"/>
+                <TextEquiv>
+                    <Unicode>BARMAN MADRILEÑO PERICO CHICOTE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l3" custom="readingOrder {index:2;} place {offset:0; length:6;} person {offset:18; length:18;}">
+                <Coords points="94,3194 1570,3194 1478,3154 94,3149"/>
+                <Baseline points="108,3182 180,3183 252,3183 325,3183 397,3183 470,3183 542,3185 615,3185 687,3185 760,3186 832,3186 904,3187 977,3188 1049,3188 1122,3189 1194,3189 1267,3189 1339,3189 1412,3189 1484,3189 1557,3189"/>
+                <TextEquiv>
+                    <Unicode>MADRID.—El ex Rey Humberto de Italia, visitó el famoso museo de bebidas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l4" custom="readingOrder {index:3;} person {offset:21; length:14;}">
+                <Coords points="99,3228 1564,3236 1564,3197 99,3191"/>
+                <Baseline points="113,3219 184,3218 256,3218 328,3218 400,3219 472,3219 544,3219 615,3219 687,3219 759,3221 831,3221 903,3221 975,3222 1047,3222 1118,3223 1190,3224 1262,3224 1334,3224 1406,3225 1478,3225 1550,3225"/>
+                <TextEquiv>
+                    <Unicode>del barman madrileño Perico Chicote, durante su breve estancia en Madria</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l5" custom="readingOrder {index:4;} place {offset:37; length:9;} organization {offset:53; length:13;}">
+                <Coords points="100,3267 1366,3277 1366,3230 101,3222"/>
+                <Baseline points="114,3251 175,3252 237,3252 299,3252 361,3252 423,3254 485,3254 547,3254 609,3254 671,3255 733,3255 794,3255 856,3255 918,3257 980,3257 1042,3258 1104,3258 1166,3260 1228,3260 1290,3261 1352,3261"/>
+                <TextEquiv>
+                    <Unicode>después de reunirse con su esposa en Barcelona.—Foto CIFRA GRAFICA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>HUMBERTO DE SABOYA EN EL MUSEO DE BEBIDAS DELBARMAN MADRILEÑO PERICO CHICOTEMADRID.—El ex Rey Humberto de Italia, visitó el famoso museo de bebidasdel barman madrileño Perico Chicote, durante su breve estancia en Madriadespués de reunirse con su esposa en Barcelona.—Foto CIFRA GRAFICA</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:12;}">
+            <Coords points="599,1998 1594,1998 1594,2007 599,2007"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:13;}">
+            <Coords points="79,2003 580,2003 580,2012 79,2012"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:14;}">
+            <Coords points="1043,2008 1160,2008 1160,2012 1043,2012"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:15;}">
+            <Coords points="1195,2009 1488,2009 1488,2017 1195,2017"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:16;}">
+            <Coords points="596,2011 706,2011 706,2014 596,2014"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:17;}">
+            <Coords points="1237,2141 1338,2141 1338,2144 1237,2144"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:18;}">
+            <Coords points="1258,2765 1262,2765 1262,2807 1258,2807"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:19;}">
+            <Coords points="1550,2405 1552,2405 1552,2442 1550,2442"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

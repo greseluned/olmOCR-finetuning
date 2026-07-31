@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.42.0:model_id=53551:lm=none:date=10_04_2026_11:01</Creator>
+        <Created>2021-06-01T19:35:56.081+02:00</Created>
+        <LastChange>2026-06-29T20:15:03.510+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572148" pageNr="134" tsid="294332598" status="DONE" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=LJSCTFBORUKPQJHTORSCCKAE" xmlUrl="https://files.transkribus.eu/Get?id=BIVOJXFOROZIRQSZVCOPSYZT" imageId="17057646"/>
+    </Metadata>
+    <Page imageFilename="0134_Semana-0134.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="121,281 2393,281 2393,3210 121,3210"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782831094682" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_12"/>
+                <RegionRefIndexed index="2" regionRef="r_13"/>
+                <RegionRefIndexed index="3" regionRef="r_6"/>
+                <RegionRefIndexed index="4" regionRef="r_7"/>
+                <RegionRefIndexed index="5" regionRef="r_1"/>
+                <RegionRefIndexed index="6" regionRef="r_8"/>
+                <RegionRefIndexed index="7" regionRef="r_4"/>
+                <RegionRefIndexed index="8" regionRef="r_9"/>
+                <RegionRefIndexed index="9" regionRef="r_5"/>
+                <RegionRefIndexed index="10" regionRef="r_10"/>
+                <RegionRefIndexed index="11" regionRef="r_11"/>
+                <RegionRefIndexed index="13" regionRef="r_2"/>
+                <RegionRefIndexed index="14" regionRef="r_3"/>
+                <RegionRefIndexed index="15" regionRef="r_34"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r_3"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_6"/>
+                <RegionRef regionRef="r_7"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_1"/>
+                <RegionRef regionRef="r_8"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_4"/>
+                <RegionRef regionRef="r_9"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:advertisement;} id {value:rel;}">
+                <RegionRef regionRef="r_12"/>
+                <RegionRef regionRef="r_13"/>
+                <RegionRef regionRef="r_5"/>
+                <RegionRef regionRef="r_10"/>
+                <RegionRef regionRef="r_11"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_3"/>
+                <RegionRef regionRef="r_34"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:advertisement;}">
+            <Coords points="144,303 2379,303 2379,2038 144,2038"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_12" custom="readingOrder {index:1;} structure {type:slogan;}">
+            <Coords points="205,345 2311,345 2311,766 205,766"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="217,482 776,472 967,510 1138,449 1176,485 1648,487 1725,441 1791,485 2268,485 2268,388 1982,388 1936,347 1653,388 918,388 799,347 748,398 651,347 574,416 452,347 393,385 276,324 217,362"/>
+                <Baseline points="231,472 2271,480"/>
+                <TextEquiv>
+                    <Unicode>Acaba de llegar un nuevo embarque</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:1;}">
+                <Coords points="263,730 1049,686 1130,753 1199,704 1495,676 1579,717 1890,707 1982,755 2105,702 2253,717 2253,620 2156,620 2105,671 2051,620 1873,653 1643,620 1462,674 1153,617 1077,668 773,633 714,671 518,615 263,658"/>
+                <Baseline points="277,710 2258,705"/>
+                <TextEquiv>
+                    <Unicode>Moscatel para Consagrar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_13" custom="readingOrder {index:2;} structure {type:brand;}">
+            <Coords points="854,768 1748,768 1748,1157 854,1157"/>
+            <TextLine id="l_2" custom="readingOrder {index:0;}">
+                <Coords points="934,1061 1120,1074 1148,1046 1209,1072 1242,1046 1286,1077 1380,1074 1475,1069 1521,1033 1556,1069 1620,1054 1620,985 1587,977 1447,1043 1273,998 1235,1018 1184,980 1151,1013 1112,980 1015,1041 982,1018 934,1043"/>
+                <Baseline points="949,1063 1623,1061"/>
+                <TextEquiv>
+                    <Unicode>MOMPÓ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:1;}">
+                <Coords points="870,1148 1699,1156 1699,1059 1398,1084 870,1069"/>
+                <Baseline points="885,1143 1705,1145"/>
+                <TextEquiv>
+                    <Unicode>(IMPORTADO DE ESPAÑA)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_6" custom="readingOrder {index:3;} structure {type:cartoon;}">
+            <Coords points="163,1300 163,805 797,805 797,1300"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_7" custom="readingOrder {index:4;} structure {type:caption;}">
+            <Coords points="797,1300 797,1421 163,1421 163,1300"/>
+            <TextLine id="l_4" custom="readingOrder {index:0;}">
+                <Coords points="186,1345 217,1357 600,1350 600,1293 561,1293 541,1309 526,1293 398,1296 380,1283 355,1304 217,1296 186,1311"/>
+                <Baseline points="200,1343 605,1343"/>
+                <TextEquiv>
+                    <Unicode>EN BARRILES DE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:1;}">
+                <Coords points="278,1396 324,1403 388,1396 398,1406 426,1406 436,1396 549,1398 549,1352 401,1350 388,1362 372,1350 278,1352"/>
+                <Baseline points="293,1393 556,1395"/>
+                <TextEquiv>
+                    <Unicode>100 LITROS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:5;} structure {type:cartoon;}">
+            <Coords points="1027,1510 1027,1177 1827,1177 1827,1510"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_8" custom="readingOrder {index:6;} structure {type:caption;}">
+            <Coords points="1827,1510 1827,1603 1027,1603 1027,1510"/>
+            <TextLine id="l_6" custom="readingOrder {index:0;}">
+                <Coords points="1069,1546 1633,1556 1633,1500 1607,1492 1485,1513 1362,1498 1069,1508"/>
+                <Baseline points="1084,1547 1640,1551"/>
+                <TextEquiv>
+                    <Unicode>EN CAJAS DE 12 BOTS.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_7" custom="readingOrder {index:1;}">
+                <Coords points="1174,1602 1250,1605 1260,1595 1288,1620 1360,1597 1515,1605 1515,1554 1487,1549 1352,1556 1322,1544 1260,1561 1174,1554"/>
+                <Baseline points="1188,1594 1520,1594"/>
+                <TextEquiv>
+                    <Unicode>DE 3/4 LITRO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:7;} structure {type:cartoon;}">
+            <Coords points="2048,1688 2048,940 2334,940 2334,1688"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_9" custom="readingOrder {index:8;} structure {type:caption;}">
+            <Coords points="2334,1688 2334,1819 2048,1819 2048,1688"/>
+            <TextLine id="l_8" custom="readingOrder {index:0;}">
+                <Coords points="2059,1735 2311,1740 2311,1684 2153,1686 2146,1694 2135,1686 2059,1689"/>
+                <Baseline points="2072,1736 2316,1738"/>
+                <TextEquiv>
+                    <Unicode>EN BOT. DE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_9" custom="readingOrder {index:1;}">
+                <Coords points="2059,1783 2072,1781 2102,1806 2118,1806 2130,1788 2314,1796 2311,1740 2186,1737 2174,1745 2143,1732 2118,1740 2059,1737"/>
+                <Baseline points="2072,1779 2314,1789"/>
+                <TextEquiv>
+                    <Unicode>3/4 LITRO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:9;} structure {type:paragraph;}">
+            <Coords points="553,1611 1868,1611 1868,1814 553,1814"/>
+            <TextLine id="l_10" custom="readingOrder {index:0;}">
+                <Coords points="801,1671 1607,1676 1607,1615 1566,1610 1531,1640 1480,1607 1260,1640 1225,1612 1184,1638 1151,1615 1013,1610 918,1640 801,1617"/>
+                <Baseline points="815,1669 1614,1672"/>
+                <TextEquiv>
+                    <Unicode>Con certificado de aprobación del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_11" custom="readingOrder {index:1;}">
+                <Coords points="559,1725 1839,1735 1839,1663 559,1661"/>
+                <Baseline points="573,1713 1846,1728"/>
+                <TextEquiv>
+                    <Unicode>Excmº. e Iltmº. Señor Arzobispo de Valencia (España)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_12" custom="readingOrder {index:2;}">
+                <Coords points="985,1791 1418,1791 1416,1748 1153,1732 1128,1755 1087,1753 1061,1732 982,1740"/>
+                <Baseline points="998,1782 1426,1791"/>
+                <TextEquiv>
+                    <Unicode>énicos importadores:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_10" custom="readingOrder {index:10;} structure {type:brand;}">
+            <Coords points="553,1833 1889,1833 1889,1973 553,1973"/>
+            <TextLine id="l_13" custom="readingOrder {index:0;}">
+                <Coords points="582,1959 1862,1964 1862,1862 1602,1924 1439,1924 1311,1862 1204,1921 1092,1865 890,1919 755,1865 648,1913 582,1893"/>
+                <Baseline points="595,1950 1868,1954"/>
+                <TextEquiv>
+                    <Unicode>TABACALERA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_11" custom="readingOrder {index:11;} structure {type:paragraph;}">
+            <Coords points="472,1975 1961,1975 1961,2028 472,2028"/>
+            <TextLine id="l_14" custom="readingOrder {index:0;}">
+                <Coords points="462,2056 1000,2059 1000,1980 954,1972 839,1970 814,1987 778,1970 760,1990 462,1975"/>
+                <Baseline points="476,2014 1007,2022"/>
+                <TextEquiv>
+                    <Unicode>212 Marqués de Comillas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_15" custom="readingOrder {index:1;}">
+                <Coords points="1689,2061 1944,2061 1944,1977 1847,1972 1806,1977 1796,1987 1722,1970 1689,1977"/>
+                <Baseline points="1703,2021 1950,2021"/>
+                <TextEquiv>
+                    <Unicode>Tel: 3-22-91</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:12;}">
+            <Coords points="134,296 2369,296 2369,305 134,305"/>
+        </SeparatorRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:13;} structure {type:heading;}">
+            <Coords points="155,2385 155,2183 2338,2183 2338,2385"/>
+            <TextLine id="l_16" custom="readingOrder {index:0;}">
+                <Coords points="240,2345 597,2380 1010,2342 2243,2368 2243,2271 1936,2304 1898,2268 1602,2301 1566,2266 1260,2268 1222,2306 1163,2266 1115,2301 240,2286"/>
+                <Baseline points="255,2344 2250,2351"/>
+                <TextEquiv>
+                    <Unicode>El Sr. Miguel Zamora en la EDITORIAL HISPANO -FILIPINA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:14;} structure {type:paragraph;}">
+            <Coords points="2338,2385 2338,3161 155,3161 155,2385"/>
+            <TextLine id="l_17" custom="readingOrder {index:0;}">
+                <Coords points="393,2490 2243,2495 2197,2429 393,2429"/>
+                <Baseline points="408,2483 2248,2494"/>
+                <TextEquiv>
+                    <Unicode>Nos complace anunciar a nuestros favorecedores que desde el día 20 de este mes, el Sr.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_18" custom="readingOrder {index:1;}">
+                <Coords points="255,2538 2258,2544 2258,2500 2110,2490 255,2493"/>
+                <Baseline points="270,2534 2248,2538 2240,2547 2263,2538 2255,2538 2252,2541"/>
+                <TextEquiv>
+                    <Unicode>MIGUEL ZAMORA, ha asumido el cargo de Encargado del departamento de Imprenta de esta</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_19" custom="readingOrder {index:2;}">
+                <Coords points="255,2600 452,2597 452,2544 431,2551 416,2541 398,2551 365,2551 355,2541 304,2544 298,2538 255,2544"/>
+                <Baseline points="268,2598 459,2596"/>
+                <TextEquiv>
+                    <Unicode>Editorial.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_20" custom="readingOrder {index:3;}">
+                <Coords points="388,2643 2240,2653 2240,2600 2192,2590 388,2597"/>
+                <Baseline points="401,2638 2246,2649"/>
+                <TextEquiv>
+                    <Unicode>Por muchos años antes de la guerra, el Sr. Zamora estuvo desempeñando el cargo de Se¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_21" custom="readingOrder {index:4;}">
+                <Coords points="263,2699 2230,2702 2194,2648 263,2651"/>
+                <Baseline points="277,2698 2235,2698"/>
+                <TextEquiv>
+                    <Unicode>cretario y Gerente Auxiliar de la Benipayo Press &amp; Photo-Engraving, y en estos dos últimos años</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_22" custom="readingOrder {index:5;}">
+                <Coords points="260,2750 2235,2750 2199,2699 260,2697"/>
+                <Baseline points="275,2741 2241,2747"/>
+                <TextEquiv>
+                    <Unicode>ha venido ejerciendo igual cargo en la “Nueva Era Press”. Cuenta, por tanto, con largos años</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_23" custom="readingOrder {index:6;}">
+                <Coords points="268,2806 2059,2799 2028,2750 268,2758"/>
+                <Baseline points="283,2795 2066,2795"/>
+                <TextEquiv>
+                    <Unicode>de experiencia que garantizan su pericia en todo lo que concierne a la moderna imprenta.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_24" custom="readingOrder {index:7;}">
+                <Coords points="395,2850 2243,2850 2243,2809 2077,2796 395,2804"/>
+                <Baseline points="410,2843 2249,2850"/>
+                <TextEquiv>
+                    <Unicode>Esperamos, pues, que el Sr. Zamora podrá satisfacer a los más exigentes de los favorece¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_25" custom="readingOrder {index:8;}">
+                <Coords points="270,2911 816,2908 816,2863 773,2852 612,2865 408,2852 350,2870 270,2855"/>
+                <Baseline points="285,2910 824,2904"/>
+                <TextEquiv>
+                    <Unicode>dores de nuestra imprenta.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_26" custom="readingOrder {index:9;}">
+                <Coords points="403,2957 2230,2957 2174,2898 403,2908"/>
+                <Baseline points="416,2950 2237,2958"/>
+                <TextEquiv>
+                    <Unicode>Nos compiace también anunciar que dentro de unos días instalaremos una de las máquinas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_27" custom="readingOrder {index:10;}">
+                <Coords points="268,3013 2235,3005 2235,2957 268,2957"/>
+                <Baseline points="281,3004 2242,3005"/>
+                <TextEquiv>
+                    <Unicode>de impresión automáticas y más modernas, con el objeto de mejorar nuestro servicio y dejar entre¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_28" custom="readingOrder {index:11;}">
+                <Coords points="265,3064 2235,3059 2235,3005 265,3021"/>
+                <Baseline points="280,3059 2242,3049"/>
+                <TextEquiv>
+                    <Unicode>ramente complacidos a nuestros distinguidos parroquianos. Nuestro lema es: “ESMERO. SERVICIO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_29" custom="readingOrder {index:12;}">
+                <Coords points="250,3113 707,3113 707,3062 327,3059 250,3084"/>
+                <Baseline points="263,3112 711,3111"/>
+                <TextEquiv>
+                    <Unicode>Y PUNTUALIDAD."</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_34" custom="readingOrder {index:15;} structure {type:credit;}">
+            <Coords points="1426,3094 2165,3094 2165,3157 1426,3157"/>
+            <TextLine id="l_30" custom="readingOrder {index:0;} organization {offset:0; length:26;}">
+                <Coords points="1413,3153 2153,3158 2153,3105 1413,3102"/>
+                <Baseline points="1427,3153 2159,3153"/>
+                <TextEquiv>
+                    <Unicode>EDITORIAL HISPANO-FILIPINA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:16;}">
+            <Coords points="1242,1195 1672,1195 1672,1220 1242,1220"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:17;}">
+            <Coords points="1470,1222 1631,1222 1631,1234 1470,1234"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:18;}">
+            <Coords points="126,2043 2387,2043 2387,2055 126,2055"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:19;}">
+            <Coords points="127,2151 2392,2151 2392,2169 127,2169"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:20;}">
+            <Coords points="140,2165 2379,2165 2379,2183 140,2183"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:21;}">
+            <Coords points="1130,2407 1216,2407 1216,2410 1130,2410"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_21" custom="readingOrder {index:22;}">
+            <Coords points="147,3184 2365,3184 2365,3197 147,3197"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_22" custom="readingOrder {index:23;}">
+            <Coords points="132,3198 2382,3198 2382,3210 132,3210"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_23" custom="readingOrder {index:24;}">
+            <Coords points="127,2155 143,2155 143,3208 127,3208"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_24" custom="readingOrder {index:25;}">
+            <Coords points="136,307 147,307 147,2026 136,2026"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_25" custom="readingOrder {index:26;}">
+            <Coords points="143,2278 157,2278 157,3195 143,3195"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_26" custom="readingOrder {index:27;}">
+            <Coords points="1040,1236 1050,1236 1050,1447 1040,1447"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_27" custom="readingOrder {index:28;}">
+            <Coords points="1661,1270 1670,1270 1670,1407 1661,1407"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_28" custom="readingOrder {index:29;}">
+            <Coords points="2086,1319 2098,1319 2098,1609 2086,1609"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_29" custom="readingOrder {index:30;}">
+            <Coords points="2272,1286 2291,1286 2291,1618 2272,1618"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_30" custom="readingOrder {index:31;}">
+            <Coords points="2362,304 2374,304 2374,2032 2362,2032"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_31" custom="readingOrder {index:32;}">
+            <Coords points="2366,2213 2376,2213 2376,3190 2366,3190"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_32" custom="readingOrder {index:33;}">
+            <Coords points="2380,2155 2393,2155 2393,3203 2380,3203"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_33" custom="readingOrder {index:34;}">
+            <Coords points="1475,1221 1490,1221 1490,1492 1475,1492"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

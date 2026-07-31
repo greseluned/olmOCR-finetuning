@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.42.0:model_id=53551:lm=none:date=24_03_2026_11:06</Creator>
+        <Created>2021-06-01T19:35:07.352+02:00</Created>
+        <LastChange>2026-06-24T18:58:40.052+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115571915" pageNr="63" tsid="293810097" status="GT" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=DZYLCTCJQBDNJFKBSAVKDDCV" xmlUrl="https://files.transkribus.eu/Get?id=GCGENOSQWBYAZWXSQTWUTKBM" imageId="17057535"/>
+    </Metadata>
+    <Page imageFilename="0063_Semana-0063.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="85,270 2406,270 2406,3255 85,3255"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782494552405" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="2" regionRef="r_2"/>
+                <RegionRefIndexed index="3" regionRef="r_3"/>
+                <RegionRefIndexed index="4" regionRef="r_4"/>
+                <RegionRefIndexed index="5" regionRef="r"/>
+                <RegionRefIndexed index="6" regionRef="r_6"/>
+                <RegionRefIndexed index="7" regionRef="r_5"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r_3"/>
+                <RegionRef regionRef="r_4"/>
+            </Relation>
+        </Relations>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:header;}">
+            <Coords points="85,270 464,270 464,323 85,323"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;} date {offset:0; length:17;}">
+                <Coords points="91,315 143,307 188,318 206,308 336,320 359,306 374,317 451,315 451,266 382,262 350,284 311,269 275,279 219,264 194,285 172,264 147,275 91,263"/>
+                <Baseline points="96,306 121,307 147,308 172,308 198,308 223,308 249,308 274,309 300,309 325,309 351,309 376,309 402,308 427,308 453,308"/>
+                <TextEquiv>
+                    <Unicode>10 de Marzo, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:page-number;}">
+            <Coords points="2077,278 2380,278 2380,327 2077,327"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;}">
+                <Coords points="2085,326 2247,329 2307,319 2370,329 2370,277 2350,286 2335,277 2298,303 2261,280 2113,274 2103,283 2085,274"/>
+                <Baseline points="2091,320 2116,320 2142,320 2167,320 2193,318 2218,318 2244,318 2269,319 2295,320 2320,320 2346,320 2372,321"/>
+                <TextEquiv>
+                    <Unicode>SEMANA—19</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:2;} structure {type:heading;}">
+            <Coords points="1535,561 2269,561 2269,655 1535,655"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="1562,621 2253,631 2234,567 1948,584 1630,562 1562,587"/>
+                <Baseline points="1567,620 2255,620"/>
+                <TextEquiv>
+                    <Unicode>ACTUALIDAD ESPAÑOLA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:3;} structure {type:heading;}">
+            <Coords points="1494,789 2274,789 2274,1123 1494,1123"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="1530,878 2216,894 2227,855 2177,834 2132,855 1958,848 1924,824 1883,868 1818,815 1675,852 1580,810 1529,851"/>
+                <Baseline points="1536,891 2231,898"/>
+                <TextEquiv>
+                    <Unicode>Atentado terrorista</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:1;}">
+                <Coords points="1528,977 2250,982 2250,953 2194,912 2142,952 1868,936 1835,903 1770,963 1670,921 1528,947"/>
+                <Baseline points="1534,976 2252,983"/>
+                <TextEquiv>
+                    <Unicode>contra el expreso de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:2;} place {offset:0; length:9;}">
+                <Coords points="1705,1067 2062,1073 2062,1040 2040,1028 2019,1040 1964,1033 1932,1002 1915,1001 1885,1033 1807,1033 1754,993 1705,1013"/>
+                <Baseline points="1711,1066 2065,1069"/>
+                <TextEquiv>
+                    <Unicode>Barcelona</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="1474,1158 2314,1158 2314,2234 1474,2234"/>
+            <TextLine id="l_4" custom="readingOrder {index:0;} place {offset:16; length:9;} place {offset:26; length:6;}">
+                <Coords points="1517,1209 2281,1226 2280,1166 1938,1170 1912,1196 1517,1173"/>
+                <Baseline points="1523,1213 2283,1221"/>
+                <TextEquiv>
+                    <Unicode>El tren expreso Barcelona-Madrid</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:1;} place {offset:34; length:4; continued:true;}">
+                <Coords points="1486,1284 2275,1291 2274,1256 2223,1244 1485,1246"/>
+                <Baseline points="1492,1280 2276,1291"/>
+                <TextEquiv>
+                    <Unicode>descarriló en las proximidades de Mora</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_6" custom="readingOrder {index:2;} place {offset:0; length:20; continued:true;}">
+                <Coords points="1486,1359 2278,1366 2260,1314 1926,1332 1908,1313 1486,1310"/>
+                <Baseline points="1492,1358 2280,1367"/>
+                <TextEquiv>
+                    <Unicode>de Ebro (Tarragona) a consecuencia de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_7" custom="readingOrder {index:3;}">
+                <Coords points="1477,1424 2254,1443 2267,1395 1476,1392"/>
+                <Baseline points="1483,1424 2270,1434"/>
+                <TextEquiv>
+                    <Unicode>un atentado terrorista que se atribuye</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_8" custom="readingOrder {index:4;}">
+                <Coords points="1471,1499 2288,1502 2288,1462 2246,1451 1471,1469"/>
+                <Baseline points="1477,1498 2291,1502"/>
+                <TextEquiv>
+                    <Unicode>a los comunistas españoles aleccionados</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_9" custom="readingOrder {index:5;} place {offset:31; length:8;}">
+                <Coords points="1481,1566 2280,1571 2280,1528 2187,1520 1481,1530"/>
+                <Baseline points="1487,1565 2282,1570"/>
+                <TextEquiv>
+                    <Unicode>en las escuclas de sabotage de Toulousc.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_10" custom="readingOrder {index:6;}">
+                <Coords points="1522,1634 2285,1643 2268,1600 2108,1590 1985,1620 1853,1587 1817,1615 1756,1586 1649,1586 1623,1613 1522,1597"/>
+                <Baseline points="1528,1633 2287,1637"/>
+                <TextEquiv>
+                    <Unicode>Los muertos fueron veintinueve y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_11" custom="readingOrder {index:7;}">
+                <Coords points="1486,1706 2280,1706 2280,1667 2144,1661 2105,1690 2065,1661 1918,1684 1801,1658 1733,1683 1678,1658 1486,1656"/>
+                <Baseline points="1492,1702 2283,1707"/>
+                <TextEquiv>
+                    <Unicode>los heridos más de ochenta. Algunos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_12" custom="readingOrder {index:8;}">
+                <Coords points="1487,1782 2283,1784 2156,1736 1938,1757 1914,1734 1793,1733 1737,1775 1684,1773 1646,1739 1487,1744"/>
+                <Baseline points="1493,1781 2286,1784"/>
+                <TextEquiv>
+                    <Unicode>ragones del expreso cayeron por un</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_13" custom="readingOrder {index:9;}">
+                <Coords points="1491,1848 2283,1851 2282,1808 2227,1795 1737,1819 1702,1792 1681,1811 1490,1798"/>
+                <Baseline points="1497,1848 2286,1852"/>
+                <TextEquiv>
+                    <Unicode>barranco de cuarenta metros de profun¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_14" custom="readingOrder {index:10;}">
+                <Coords points="1490,1917 2287,1917 2275,1864 2203,1889 2078,1866 2033,1889 1490,1874"/>
+                <Baseline points="1496,1917 2290,1918"/>
+                <TextEquiv>
+                    <Unicode>didad. Las fotos muestran algunas uni¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_15" custom="readingOrder {index:11;}">
+                <Coords points="1490,1987 2287,1987 2272,1940 2191,1940 2163,1966 1984,1940 1818,1966 1736,1940 1628,1961 1565,1935 1490,1945"/>
+                <Baseline points="1496,1985 2290,1986"/>
+                <TextEquiv>
+                    <Unicode>dades del tren en el barranco donde</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_16" custom="readingOrder {index:12;}">
+                <Coords points="1488,2056 2287,2058 2287,2020 2256,2009 1488,2021"/>
+                <Baseline points="1494,2055 2289,2054"/>
+                <TextEquiv>
+                    <Unicode>cayeron y vistas del lugar del accidente.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_17" custom="readingOrder {index:13;}">
+                <Coords points="1497,2127 2290,2126 2269,2083 2167,2099 2003,2074 1944,2099 1891,2075 1829,2099 1610,2074 1551,2099 1497,2075"/>
+                <Baseline points="1502,2127 2293,2126"/>
+                <TextEquiv>
+                    <Unicode>La policía busca a los criminales terro¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_18" custom="readingOrder {index:14;} organization {offset:14; length:13;}">
+                <Coords points="1491,2194 2012,2194 2012,2155 1760,2165 1669,2144 1616,2165 1526,2144 1491,2160"/>
+                <Baseline points="1497,2194 2015,2195"/>
+                <TextEquiv>
+                    <Unicode>ristas.—Fotos CIFRA CRAFICA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:5;} structure {type:photograph;}">
+            <Coords points="102,366 1396,366 1396,2451 102,2451"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_6" custom="readingOrder {index:6;} structure {type:photograph;}">
+            <Coords points="1195,3272 104,3272 104,2485 1195,2485"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:7;} structure {type:photograph;}">
+            <Coords points="1195,2485 2420,2485 2420,3272 1195,3272"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:8;}">
+            <Coords points="317,320 1624,320 1624,332 317,332"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:9;}">
+            <Coords points="104,323 305,323 305,328 104,328"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:10;}">
+            <Coords points="1631,329 2370,329 2370,339 1631,339"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:11;}">
+            <Coords points="1814,698 1997,698 1997,705 1814,705"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:12;}">
+            <Coords points="915,2085 1063,2085 1063,2097 915,2097"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_21" custom="readingOrder {index:13;}">
+            <Coords points="993,2156 1169,2156 1169,2165 993,2165"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

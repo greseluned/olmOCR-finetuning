@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:34:59.948+02:00</Created>
+        <LastChange>2026-06-24T18:57:09.201+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115571996" pageNr="55" tsid="293810014" status="GT" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=IVPDCNHTMAGYJRLPUWKSIGOJ" xmlUrl="https://files.transkribus.eu/Get?id=DPIUJYKZCQDANRMNGGPMVHRE" imageId="17057492"/>
+    </Metadata>
+    <Page imageFilename="0055_Semana-0055.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="55,263 2410,263 2410,3232 55,3232"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782494550632" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="2" regionRef="r_3_1"/>
+                <RegionRefIndexed index="4" regionRef="r_5_1"/>
+                <RegionRefIndexed index="5" regionRef="r_6_1"/>
+                <RegionRefIndexed index="6" regionRef="r_7_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_3_1"/>
+                <RegionRef regionRef="r_4"/>
+                <RegionRef regionRef="r_5_1"/>
+                <RegionRef regionRef="r_6_1"/>
+                <RegionRef regionRef="r_7_1"/>
+            </Relation>
+        </Relations>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:header;}">
+            <Coords points="112,263 492,263 492,312 112,312"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;} date {offset:0; length:17;}">
+                <Coords points="112,329 498,325 498,251 427,251 381,268 284,254 181,254 169,266 158,254 112,254"/>
+                <Baseline points="125,302 150,301 176,300 202,300 227,299 253,299 279,299 305,299 330,300 356,300 382,300 407,300 433,300 459,300 485,299"/>
+                <TextEquiv>
+                    <Unicode>10 de Marzo, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>10 de Marzo, 1949</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:page-number;}">
+            <Coords points="2108,266 2410,266 2410,311 2108,311"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;}">
+                <Coords points="2100,330 2289,330 2323,345 2423,324 2424,270 2390,260 2310,268 2233,255 2178,263 2170,254 2101,253"/>
+                <Baseline points="2115,302 2141,303 2168,303 2194,302 2221,302 2248,302 2274,303 2301,303 2328,304 2354,305 2381,306 2408,309"/>
+                <TextEquiv>
+                    <Unicode>SEMANA—11</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>SEMANA—11</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_3_1" custom="readingOrder {index:2;} structure {type:heading;}">
+            <Coords points="100,342 2398,342 2398,520 100,520"/>
+            <TextLine id="r_3_1l1" custom="readingOrder {index:0;} place {offset:34; length:6;}">
+                <Coords points="88,492 691,501 763,442 949,525 1235,439 1352,525 1827,440 1887,500 2402,498 2402,401 2285,364 2013,418 483,370 320,449 88,369"/>
+                <Baseline points="101,483 215,483 329,483 444,483 558,483 672,485 787,485 901,485 1015,485 1130,485 1244,485 1358,485 1473,485 1587,485 1701,485 1816,485 1930,485 2044,486 2159,486 2273,486 2388,488"/>
+                <TextEquiv>
+                    <Unicode>Los catorce mejores aprendices de España</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Los catorce mejores aprendices de España</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_4" custom="readingOrder {index:3;} structure {type:photograph;}">
+            <Coords points="102,564 2371,564 2371,1563 102,1563"/>
+        </GraphicRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_5_1" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="55,1591 808,1591 808,3224 55,3224"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;}">
+                <Coords points="168,1633 569,1646 797,1629 797,1586 760,1583 426,1605 168,1585"/>
+                <Baseline points="182,1622 212,1623 242,1625 272,1625 302,1626 332,1626 362,1628 392,1628 422,1628 452,1629 482,1629 512,1629 542,1629 572,1629 602,1628 632,1628 662,1627 692,1626 722,1625 752,1624 782,1623"/>
+                <TextEquiv>
+                    <Unicode>“Bastaría a un régimen polí¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l2" custom="readingOrder {index:1;}">
+                <Coords points="63,1684 472,1695 738,1675 801,1694 801,1637 604,1658 432,1638 63,1647"/>
+                <Baseline points="78,1679 113,1680 148,1680 184,1680 219,1680 255,1680 290,1680 325,1680 361,1680 396,1680 432,1680 467,1679 502,1679 538,1679 573,1679 609,1679 644,1679 679,1679 715,1679 750,1679 786,1679"/>
+                <TextEquiv>
+                    <Unicode>tico para revalorizarlo ante el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l3" custom="readingOrder {index:2;}">
+                <Coords points="76,1750 805,1743 805,1708 751,1694 519,1695 499,1715 376,1689 76,1696"/>
+                <Baseline points="89,1736 124,1736 159,1734 194,1733 229,1733 264,1733 299,1733 335,1733 370,1733 405,1733 440,1733 475,1734 510,1734 545,1734 581,1734 616,1734 651,1734 686,1733 721,1733 756,1731 792,1731"/>
+                <TextEquiv>
+                    <Unicode>mundo un concurso de los mejo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l4" custom="readingOrder {index:3;}">
+                <Coords points="71,1802 791,1803 791,1755 71,1753"/>
+                <Baseline points="86,1787 120,1787 155,1787 189,1787 224,1787 258,1787 293,1787 327,1787 362,1787 396,1787 431,1787 465,1787 500,1788 534,1788 569,1788 603,1788 638,1788 672,1788 707,1788 741,1788 776,1788"/>
+                <TextEquiv>
+                    <Unicode>res aprendices, como el que aca¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l5" custom="readingOrder {index:4;} place {offset:20; length:6;}">
+                <Coords points="71,1853 795,1853 795,1796 649,1819 612,1799 206,1819 71,1802"/>
+                <Baseline points="86,1841 120,1841 155,1841 190,1841 225,1841 260,1842 294,1842 329,1842 364,1842 399,1842 434,1842 468,1842 503,1841 538,1841 573,1841 608,1841 642,1841 677,1841 712,1841 747,1842 782,1842"/>
+                <TextEquiv>
+                    <Unicode>ba de celebrarse en España con el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l6" custom="readingOrder {index:5;}">
+                <Coords points="72,1910 727,1914 807,1905 807,1862 72,1865"/>
+                <Baseline points="86,1893 121,1895 156,1895 191,1895 227,1895 262,1896 297,1896 333,1896 368,1896 403,1896 439,1896 474,1895 509,1895 544,1895 580,1895 615,1895 650,1894 686,1893 721,1893 756,1893 792,1892"/>
+                <TextEquiv>
+                    <Unicode>sentido noble y práctico de lo que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l7" custom="readingOrder {index:6;}">
+                <Coords points="72,1962 761,1967 801,1961 801,1906 72,1913"/>
+                <Baseline points="87,1950 123,1950 160,1950 197,1950 234,1950 270,1949 307,1949 344,1949 381,1949 418,1949 454,1949 491,1949 528,1949 565,1949 602,1949 638,1949 675,1949 712,1949 749,1949 786,1949"/>
+                <TextEquiv>
+                    <Unicode>significa y representa la juventud</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l8" custom="readingOrder {index:7;}">
+                <Coords points="74,2019 772,2022 798,2019 798,1973 412,1982 246,1959 214,1982 74,1976"/>
+                <Baseline points="90,2004 124,2004 159,2004 193,2004 228,2004 263,2004 297,2004 332,2004 367,2004 401,2004 436,2004 471,2004 505,2004 540,2004 575,2004 609,2004 644,2004 679,2004 713,2004 748,2004 783,2004"/>
+                <TextEquiv>
+                    <Unicode>en un país que camina hacia su</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l9" custom="readingOrder {index:8;}">
+                <Coords points="69,2085 195,2067 461,2071 460,2019 220,2029 177,2012 69,2025"/>
+                <Baseline points="83,2061 109,2059 135,2058 161,2057 187,2057 213,2057 239,2057 265,2057 291,2058 317,2058 343,2058 369,2058 395,2057 421,2056 447,2055"/>
+                <TextEquiv>
+                    <Unicode>perfeccionamiento"</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l10" custom="readingOrder {index:9;}">
+                <Coords points="167,2122 799,2114 799,2083 167,2071"/>
+                <Baseline points="182,2109 212,2109 242,2111 272,2111 302,2111 332,2111 362,2111 393,2111 423,2111 453,2111 483,2111 513,2112 543,2112 573,2111 604,2111 634,2111 664,2111 694,2111 724,2111 754,2111 785,2109"/>
+                <TextEquiv>
+                    <Unicode>Esta frase pronunció un ca¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l11" custom="readingOrder {index:10;}">
+                <Coords points="80,2183 469,2164 783,2183 801,2125 303,2126 269,2143 80,2125"/>
+                <Baseline points="93,2165 127,2165 162,2163 196,2163 231,2163 266,2163 300,2163 335,2163 370,2163 404,2163 439,2163 474,2163 508,2163 543,2165 578,2165 612,2165 647,2165 682,2166 716,2166 751,2166 786,2166"/>
+                <TextEquiv>
+                    <Unicode>lificado visitante extranjero al</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l12" custom="readingOrder {index:11;}">
+                <Coords points="75,2231 804,2233 804,2184 75,2185"/>
+                <Baseline points="89,2219 124,2219 159,2217 194,2217 229,2217 264,2216 299,2216 334,2216 369,2216 404,2216 439,2217 474,2217 509,2217 544,2217 579,2217 614,2217 649,2219 684,2219 719,2219 754,2219 789,2219"/>
+                <TextEquiv>
+                    <Unicode>conocer los pormenores del torneo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l13" custom="readingOrder {index:12;}">
+                <Coords points="79,2285 525,2286 582,2266 620,2286 794,2281 794,2246 731,2232 79,2237"/>
+                <Baseline points="92,2270 126,2270 160,2270 195,2270 229,2270 264,2270 298,2270 332,2271 367,2271 401,2271 436,2271 470,2271 504,2271 539,2271 573,2271 608,2271 642,2271 676,2271 711,2271 745,2271 780,2270"/>
+                <TextEquiv>
+                    <Unicode>nacional brillantemente finaliza¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l14" custom="readingOrder {index:13;}">
+                <Coords points="74,2339 102,2342 108,2339 162,2345 166,2308 149,2306 138,2296 124,2298 116,2288 79,2285"/>
+                <Baseline points="89,2322 119,2325 149,2328"/>
+                <TextEquiv>
+                    <Unicode>do.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l15" custom="readingOrder {index:14;}">
+                <Coords points="162,2389 591,2397 614,2380 640,2397 771,2398 800,2389 800,2344 162,2346"/>
+                <Baseline points="177,2375 207,2376 237,2376 268,2376 298,2378 329,2378 359,2378 390,2378 420,2379 451,2379 481,2379 511,2379 542,2379 572,2379 603,2379 633,2379 664,2379 694,2379 725,2379 755,2379 786,2378"/>
+                <TextEquiv>
+                    <Unicode>Ocho mil aprendices de toda</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l16" custom="readingOrder {index:15;} place {offset:0; length:6;}">
+                <Coords points="77,2445 521,2455 669,2444 695,2418 727,2444 804,2439 804,2396 738,2390 598,2409 78,2388"/>
+                <Baseline points="92,2429 128,2429 165,2429 202,2430 239,2430 275,2430 312,2430 349,2430 386,2430 423,2430 459,2430 496,2430 533,2430 570,2430 607,2430 643,2430 680,2430 717,2430 754,2432 791,2432"/>
+                <TextEquiv>
+                    <Unicode>España han participado en las</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l17" custom="readingOrder {index:16;}">
+                <Coords points="68,2500 543,2499 574,2473 614,2502 777,2502 797,2499 797,2456 68,2457"/>
+                <Baseline points="83,2487 119,2486 156,2484 193,2484 230,2483 266,2483 303,2483 340,2483 377,2483 414,2483 450,2483 487,2483 524,2483 561,2484 598,2484 634,2484 671,2484 708,2484 745,2484 782,2484"/>
+                <TextEquiv>
+                    <Unicode>pruebas eliminatorias. Para la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l18" custom="readingOrder {index:17;}">
+                <Coords points="81,2551 793,2553 793,2507 738,2493 684,2515 81,2500"/>
+                <Baseline points="95,2540 129,2538 163,2537 197,2537 231,2535 266,2535 300,2535 334,2535 368,2537 402,2537 437,2537 471,2537 505,2538 539,2538 573,2538 608,2538 642,2538 676,2538 710,2538 744,2537 779,2537"/>
+                <TextEquiv>
+                    <Unicode>final quedaron noventa y ocho</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l19" custom="readingOrder {index:18;}">
+                <Coords points="68,2602 360,2616 800,2595 800,2567 671,2550 331,2568 68,2551"/>
+                <Baseline points="83,2591 118,2591 153,2591 188,2589 223,2589 258,2589 293,2589 329,2589 364,2589 399,2589 434,2589 469,2589 504,2589 539,2589 575,2589 610,2589 645,2589 680,2589 715,2589 750,2589 786,2589"/>
+                <TextEquiv>
+                    <Unicode>triunfantes, después de una impro¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l20" custom="readingOrder {index:19;}">
+                <Coords points="70,2660 799,2658 799,2613 768,2607 70,2608"/>
+                <Baseline points="83,2645 118,2645 153,2645 188,2645 223,2643 258,2643 293,2643 328,2643 363,2643 398,2642 434,2642 469,2642 504,2642 539,2642 574,2642 609,2643 644,2643 679,2643 714,2643 749,2645 785,2645"/>
+                <TextEquiv>
+                    <Unicode>ba y ardua tarea de selección. Y de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l21" custom="readingOrder {index:20;}">
+                <Coords points="81,2711 796,2713 795,2659 80,2660"/>
+                <Baseline points="95,2696 129,2696 163,2696 197,2696 232,2696 266,2696 300,2696 334,2696 369,2696 403,2694 437,2694 471,2694 506,2694 540,2694 574,2694 608,2694 643,2696 677,2696 711,2696 745,2696 780,2696"/>
+                <TextEquiv>
+                    <Unicode>estos noventa y ocho, recogieron el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l22" custom="readingOrder {index:21;}">
+                <Coords points="83,2766 806,2762 806,2716 83,2714"/>
+                <Baseline points="98,2748 132,2748 167,2748 202,2748 236,2748 271,2748 306,2747 340,2747 375,2747 410,2747 445,2747 479,2747 514,2747 549,2747 583,2747 618,2748 653,2748 687,2748 722,2750 757,2750 792,2751"/>
+                <TextEquiv>
+                    <Unicode>premio definitivo, a su esfuerzo,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l23" custom="readingOrder {index:22;}">
+                <Coords points="86,2814 807,2810 807,2767 750,2758 487,2761 469,2778 404,2758 86,2766"/>
+                <Baseline points="101,2799 135,2799 170,2799 204,2799 239,2799 273,2799 308,2799 342,2799 377,2799 411,2799 446,2799 481,2799 515,2799 550,2799 584,2799 619,2799 653,2799 688,2799 722,2801 757,2801 792,2801"/>
+                <TextEquiv>
+                    <Unicode>catorce muchachos, bien templados</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l24" custom="readingOrder {index:23;}">
+                <Coords points="87,2866 625,2870 648,2867 648,2821 87,2823"/>
+                <Baseline points="102,2849 128,2850 155,2850 181,2852 208,2852 234,2852 261,2852 287,2852 314,2852 340,2850 367,2850 394,2850 420,2850 447,2850 473,2850 500,2850 526,2850 553,2851 579,2852 606,2853 633,2855"/>
+                <TextEquiv>
+                    <Unicode>en sus respectivos oficios.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l25" custom="readingOrder {index:24;}">
+                <Coords points="164,3064 802,3059 802,3016 165,3015"/>
+                <Baseline points="179,3051 209,3051 240,3051 270,3051 301,3051 331,3051 362,3051 392,3051 423,3051 453,3051 484,3051 514,3051 545,3051 575,3052 606,3053 636,3053 667,3053 697,3053 728,3053 758,3054 789,3054"/>
+                <TextEquiv>
+                    <Unicode>El concurso atravesó dos eta¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l26" custom="readingOrder {index:25;}">
+                <Coords points="80,3126 795,3117 795,3060 721,3083 80,3072"/>
+                <Baseline points="95,3104 129,3104 163,3104 198,3104 232,3104 266,3104 301,3104 335,3104 369,3104 404,3104 438,3104 472,3104 507,3104 541,3104 575,3104 610,3104 644,3104 678,3104 713,3104 747,3104 782,3104"/>
+                <TextEquiv>
+                    <Unicode>pas preliminares en lo que va del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l27" custom="readingOrder {index:26;} date {offset:4; length:4;}">
+                <Coords points="77,3169 800,3161 775,3127 663,3115 308,3133 77,3118"/>
+                <Baseline points="90,3152 124,3153 159,3153 194,3153 229,3155 263,3155 298,3155 333,3155 368,3156 402,3156 437,3156 472,3156 507,3156 541,3156 576,3156 611,3156 646,3156 680,3156 715,3156 750,3156 785,3156"/>
+                <TextEquiv>
+                    <Unicode>año 1948. De tipo provincial, re¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l28" custom="readingOrder {index:27;}">
+                <Coords points="82,3223 445,3224 505,3204 534,3224 803,3218 803,3176 688,3167 82,3172"/>
+                <Baseline points="96,3207 130,3207 165,3207 199,3207 234,3207 269,3207 303,3207 338,3207 373,3207 407,3207 442,3207 477,3207 511,3207 546,3207 581,3207 615,3207 650,3207 685,3207 719,3207 754,3209 789,3209"/>
+                <TextEquiv>
+                    <Unicode>gional y de sector. Cuarenta y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>“Bastaría a un régimen polí¬tico para revalorizarlo ante elmundo un concurso de los mejo¬res aprendices, como el que aca¬ba de celebrarse en España con elsentido noble y práctico de lo quesignifica y representa la juventuden un país que camina hacia superfeccionamiento"Esta frase pronunció un ca¬lificado visitante extranjero alconocer los pormenores del torneonacional brillantemente finaliza¬do.Ocho mil aprendices de todaEspaña han participado en laspruebas eliminatorias. Para lafinal quedaron noventa y ochotriunfantes, después de una impro¬ba y ardua tarea de selección. Y deestos noventa y ocho, recogieron elpremio definitivo, a su esfuerzo,catorce muchachos, bien templadosen sus respectivos oficios.El concurso atravesó dos eta¬pas preliminares en lo que va delaño 1948. De tipo provincial, re¬gional y de sector. Cuarenta y</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_6_1" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="878,1595 1589,1595 1589,3229 878,3229"/>
+            <TextLine id="r_6_1l1" custom="readingOrder {index:0;}">
+                <Coords points="864,1636 1591,1638 1591,1598 1459,1589 864,1593"/>
+                <Baseline points="878,1626 913,1628 948,1629 983,1629 1018,1631 1053,1631 1088,1632 1123,1632 1158,1632 1193,1632 1228,1632 1263,1632 1298,1631 1333,1631 1368,1631 1403,1631 1438,1629 1473,1629 1508,1629 1543,1628 1578,1628"/>
+                <TextEquiv>
+                    <Unicode>cuatro provincias, de las cincuen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l2" custom="readingOrder {index:1;}">
+                <Coords points="867,1694 1362,1696 1393,1673 1413,1693 1591,1699 1590,1656 1459,1639 867,1646"/>
+                <Baseline points="881,1683 915,1683 950,1683 985,1683 1020,1683 1055,1683 1089,1683 1124,1683 1159,1683 1194,1683 1229,1682 1263,1682 1298,1682 1333,1682 1368,1682 1403,1682 1437,1682 1472,1682 1507,1682 1542,1682 1577,1683"/>
+                <TextEquiv>
+                    <Unicode>ta que integran el solar hispano,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l3" custom="readingOrder {index:2;}">
+                <Coords points="870,1748 1174,1731 1228,1756 1508,1750 1597,1741 1597,1698 870,1700"/>
+                <Baseline points="885,1733 921,1733 958,1733 995,1733 1032,1733 1068,1733 1105,1733 1142,1733 1179,1733 1216,1733 1252,1734 1289,1734 1326,1734 1363,1734 1400,1733 1436,1733 1473,1733 1510,1731 1547,1730 1584,1730"/>
+                <TextEquiv>
+                    <Unicode>celebraron 84 exposiciones de or¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l4" custom="readingOrder {index:3;}">
+                <Coords points="868,1800 1589,1800 1589,1749 868,1751"/>
+                <Baseline points="882,1785 916,1785 951,1784 985,1784 1020,1784 1055,1784 1089,1784 1124,1785 1159,1785 1193,1785 1228,1785 1263,1785 1297,1785 1332,1785 1367,1785 1401,1785 1436,1785 1471,1785 1505,1785 1540,1784 1575,1784"/>
+                <TextEquiv>
+                    <Unicode>den provincial y comercial, en las</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l5" custom="readingOrder {index:4;}">
+                <Coords points="872,1845 1598,1840 1598,1811 1541,1794 872,1805"/>
+                <Baseline points="887,1838 921,1836 956,1836 991,1836 1026,1836 1061,1836 1096,1836 1130,1836 1165,1836 1200,1836 1235,1838 1270,1838 1305,1838 1340,1838 1374,1838 1409,1838 1444,1838 1479,1836 1514,1836 1549,1835 1584,1833"/>
+                <TextEquiv>
+                    <Unicode>que se han expuesto más de 15.-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l6" custom="readingOrder {index:5;}">
+                <Coords points="872,1902 1590,1902 1590,1853 1542,1848 1464,1868 1410,1850 872,1850"/>
+                <Baseline points="887,1886 921,1886 956,1887 990,1887 1025,1887 1059,1887 1094,1887 1128,1887 1163,1887 1197,1887 1232,1887 1266,1887 1301,1887 1335,1887 1370,1887 1404,1887 1439,1887 1473,1887 1508,1887 1542,1886 1577,1886"/>
+                <TextEquiv>
+                    <Unicode>000 trabajos pertenecientes a los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l7" custom="readingOrder {index:6;}">
+                <Coords points="872,1954 1547,1952 1592,1944 1592,1906 871,1908"/>
+                <Baseline points="887,1940 921,1940 956,1940 990,1940 1025,1940 1059,1941 1094,1941 1128,1941 1163,1941 1197,1941 1232,1941 1267,1940 1301,1940 1336,1940 1370,1940 1405,1940 1439,1940 1474,1940 1508,1938 1543,1938 1578,1938"/>
+                <TextEquiv>
+                    <Unicode>ocho mil aprendices españoles en¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l8" custom="readingOrder {index:7;}">
+                <Coords points="880,2003 1569,2004 1592,1999 1592,1958 879,1957"/>
+                <Baseline points="894,1992 928,1992 962,1991 996,1991 1030,1991 1065,1991 1099,1991 1133,1991 1167,1991 1201,1991 1236,1991 1270,1991 1304,1991 1338,1991 1372,1991 1407,1991 1441,1991 1475,1991 1509,1990 1543,1989 1578,1989"/>
+                <TextEquiv>
+                    <Unicode>cuadrados en la Sección de Cen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l9" custom="readingOrder {index:8;} organization {offset:19; length:10; continued:true;}">
+                <Coords points="870,2055 1445,2055 1505,2030 1599,2053 1599,2004 1559,2001 870,2003"/>
+                <Baseline points="884,2040 919,2040 954,2042 989,2042 1024,2042 1059,2042 1094,2042 1129,2042 1164,2042 1199,2042 1234,2042 1269,2042 1304,2042 1339,2042 1374,2042 1409,2042 1444,2042 1479,2042 1514,2042 1549,2042 1584,2042"/>
+                <TextEquiv>
+                    <Unicode>tros de Trabajo del Frente de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l10" custom="readingOrder {index:9;} organization {offset:0; length:10; continued:true;} organization {offset:29; length:4; continued:true;}">
+                <Coords points="879,2110 1585,2100 1585,2063 1543,2051 1371,2068 879,2056"/>
+                <Baseline points="893,2093 928,2091 964,2091 1000,2091 1035,2091 1071,2091 1107,2093 1143,2093 1178,2093 1214,2093 1250,2093 1286,2093 1321,2093 1357,2093 1393,2093 1429,2093 1464,2093 1500,2093 1536,2092 1572,2091"/>
+                <TextEquiv>
+                    <Unicode>Juventudes procedentes de las Es¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l11" custom="readingOrder {index:10;} organization {offset:0; length:31; continued:true;}">
+                <Coords points="871,2160 1329,2146 1592,2166 1592,2109 871,2117"/>
+                <Baseline points="884,2145 918,2147 953,2147 987,2147 1022,2147 1057,2147 1091,2147 1126,2147 1161,2147 1195,2147 1230,2147 1265,2147 1299,2147 1334,2147 1369,2147 1403,2147 1438,2147 1473,2147 1507,2147 1542,2147 1577,2148"/>
+                <TextEquiv>
+                    <Unicode>cuelas de Formación Profesional,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l12" custom="readingOrder {index:11;} organization {offset:7; length:23; continued:true;}">
+                <Coords points="872,2215 1595,2207 1595,2167 1561,2161 1238,2159 1215,2177 1037,2160 1017,2177 872,2160"/>
+                <Baseline points="887,2199 921,2200 956,2201 990,2201 1025,2201 1060,2202 1094,2201 1129,2201 1164,2201 1198,2201 1233,2200 1268,2199 1302,2199 1337,2199 1372,2199 1406,2199 1441,2199 1476,2199 1510,2199 1545,2201 1580,2202"/>
+                <TextEquiv>
+                    <Unicode>de las Escuelas Elementales de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l13" custom="readingOrder {index:12;} organization {offset:0; length:7; continued:true;}">
+                <Coords points="868,2268 1102,2270 1128,2245 1162,2270 1388,2272 1425,2244 1514,2278 1594,2263 1594,2220 867,2214"/>
+                <Baseline points="881,2255 916,2255 951,2255 986,2255 1021,2255 1056,2255 1091,2255 1126,2255 1161,2255 1196,2255 1231,2255 1266,2255 1301,2255 1336,2255 1371,2255 1406,2255 1441,2253 1476,2253 1511,2253 1546,2253 1581,2253"/>
+                <TextEquiv>
+                    <Unicode>Trabajo, o simplemente depen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l14" custom="readingOrder {index:13;}">
+                <Coords points="879,2319 1592,2310 1592,2276 1531,2267 879,2270"/>
+                <Baseline points="894,2307 928,2307 962,2306 996,2306 1030,2306 1065,2306 1099,2306 1133,2306 1167,2306 1201,2306 1236,2306 1270,2306 1304,2306 1338,2306 1372,2306 1407,2306 1441,2306 1475,2306 1509,2306 1543,2306 1578,2306"/>
+                <TextEquiv>
+                    <Unicode>dientes de diversas empresas in¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l15" custom="readingOrder {index:14;}">
+                <Coords points="874,2376 1272,2373 1272,2327 1229,2318 1195,2330 1155,2318 1095,2330 874,2319"/>
+                <Baseline points="888,2360 914,2361 940,2361 967,2361 993,2361 1019,2361 1046,2360 1072,2360 1098,2360 1125,2360 1151,2360 1177,2360 1204,2361 1230,2361 1257,2361"/>
+                <TextEquiv>
+                    <Unicode>dustriales del país.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l16" custom="readingOrder {index:15;}">
+                <Coords points="950,2425 1585,2425 1585,2376 950,2379"/>
+                <Baseline points="966,2411 996,2412 1026,2412 1056,2414 1087,2414 1117,2414 1147,2414 1178,2415 1208,2415 1238,2415 1269,2415 1299,2415 1329,2415 1359,2415 1390,2414 1420,2414 1450,2414 1481,2413 1511,2412 1541,2412 1572,2411"/>
+                <TextEquiv>
+                    <Unicode>De las pruebas eliminatorias</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l17" custom="readingOrder {index:16;}">
+                <Coords points="876,2485 1374,2487 1420,2461 1586,2479 1586,2436 1546,2424 877,2431"/>
+                <Baseline points="890,2466 924,2466 958,2466 992,2466 1026,2466 1060,2466 1094,2468 1128,2468 1162,2468 1196,2468 1231,2468 1265,2469 1299,2469 1333,2469 1367,2469 1401,2469 1435,2469 1469,2468 1503,2468 1537,2466 1572,2465"/>
+                <TextEquiv>
+                    <Unicode>para este gran Concurso Nacio¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l18" custom="readingOrder {index:17;}">
+                <Coords points="869,2535 1596,2525 1596,2490 1521,2482 869,2489"/>
+                <Baseline points="884,2519 918,2519 953,2519 988,2519 1023,2519 1058,2519 1093,2519 1127,2519 1162,2519 1197,2519 1232,2519 1267,2519 1302,2519 1337,2519 1371,2519 1406,2519 1441,2519 1476,2520 1511,2520 1546,2520 1581,2520"/>
+                <TextEquiv>
+                    <Unicode>nal quedaron vencedores setecien¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l19" custom="readingOrder {index:18;}">
+                <Coords points="879,2587 1594,2585 1594,2540 1145,2536 1091,2553 991,2536 957,2553 879,2535"/>
+                <Baseline points="894,2573 928,2573 962,2573 997,2573 1031,2573 1065,2573 1100,2573 1134,2573 1168,2573 1203,2573 1237,2573 1271,2573 1306,2573 1340,2573 1374,2573 1409,2574 1443,2574 1477,2574 1512,2574 1546,2574 1581,2574"/>
+                <TextEquiv>
+                    <Unicode>tos. Para esta competición última</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l20" custom="readingOrder {index:19;}">
+                <Coords points="868,2639 1014,2640 1046,2617 1114,2646 1334,2646 1357,2626 1566,2641 1600,2633 1601,2601 868,2585"/>
+                <Baseline points="882,2624 917,2624 952,2625 987,2625 1022,2625 1058,2625 1093,2626 1128,2627 1163,2627 1198,2627 1234,2627 1269,2627 1304,2627 1339,2627 1374,2627 1410,2627 1445,2627 1480,2627 1515,2626 1550,2625 1586,2625"/>
+                <TextEquiv>
+                    <Unicode>fueron elegidas siete capitales:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l21" custom="readingOrder {index:20;} place {offset:0; length:6;} place {offset:8; length:9;} place {offset:19; length:7;} place {offset:28; length:6;}">
+                <Coords points="865,2693 1591,2700 1591,2651 1511,2640 1425,2659 1317,2639 865,2638"/>
+                <Baseline points="878,2678 914,2678 951,2678 988,2678 1025,2678 1061,2678 1098,2679 1135,2679 1172,2679 1209,2679 1245,2679 1282,2679 1319,2679 1356,2679 1393,2679 1429,2679 1466,2679 1503,2679 1540,2679 1577,2679"/>
+                <TextEquiv>
+                    <Unicode>Madrid, Barcelona, Sevilla, Bilbao,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l22" custom="readingOrder {index:21;} place {offset:0; length:8;} place {offset:10; length:6;} place {offset:19; length:10;}">
+                <Coords points="875,2747 1276,2737 1296,2754 1364,2734 1599,2760 1599,2700 1542,2692 1256,2711 1124,2691 1098,2714 875,2693"/>
+                <Baseline points="890,2730 924,2730 959,2732 994,2732 1028,2732 1063,2733 1098,2733 1132,2733 1167,2733 1202,2733 1237,2733 1271,2733 1306,2733 1341,2733 1375,2733 1410,2733 1445,2733 1479,2733 1514,2733 1549,2732 1584,2732"/>
+                <TextEquiv>
+                    <Unicode>Valencia, Oviedo y Valladolid.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l23" custom="readingOrder {index:22;}">
+                <Coords points="879,2800 1594,2791 1594,2748 1574,2742 1434,2760 1116,2745 1088,2765 879,2745"/>
+                <Baseline points="893,2786 927,2786 961,2786 996,2786 1030,2786 1064,2786 1099,2786 1133,2787 1167,2787 1202,2787 1236,2786 1270,2786 1305,2786 1339,2786 1373,2786 1408,2786 1442,2786 1476,2786 1511,2786 1545,2786 1580,2786"/>
+                <TextEquiv>
+                    <Unicode>Estas han sido las cabezas de gru¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l24" custom="readingOrder {index:23;}">
+                <Coords points="873,2860 1594,2854 1594,2808 1560,2799 1483,2817 873,2808"/>
+                <Baseline points="887,2841 921,2841 956,2840 990,2840 1025,2840 1060,2840 1094,2840 1129,2840 1164,2840 1198,2840 1233,2840 1268,2840 1302,2840 1337,2840 1372,2840 1406,2841 1441,2840 1476,2840 1510,2840 1545,2840 1580,2840"/>
+                <TextEquiv>
+                    <Unicode>po de provincias, a las que a cada</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l25" custom="readingOrder {index:24;}">
+                <Coords points="876,2907 1253,2908 1288,2888 1327,2914 1599,2903 1599,2866 1579,2863 876,2862"/>
+                <Baseline points="891,2892 925,2892 960,2892 994,2892 1029,2892 1064,2892 1098,2892 1133,2892 1168,2892 1202,2892 1237,2892 1272,2892 1306,2892 1341,2892 1376,2892 1410,2892 1445,2894 1480,2894 1514,2894 1549,2892 1584,2892"/>
+                <TextEquiv>
+                    <Unicode>una correspondió enviar sus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l26" custom="readingOrder {index:25;}">
+                <Coords points="864,2959 1599,2955 1599,2918 1539,2910 1502,2927 864,2911"/>
+                <Baseline points="878,2945 913,2946 948,2946 984,2946 1019,2948 1055,2948 1090,2948 1125,2948 1161,2948 1196,2948 1232,2946 1267,2946 1302,2946 1338,2946 1373,2946 1409,2946 1444,2946 1479,2946 1515,2946 1550,2946 1586,2948"/>
+                <TextEquiv>
+                    <Unicode>aprendices participantes en las</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l27" custom="readingOrder {index:26;}">
+                <Coords points="873,3013 1462,3013 1462,2970 873,2962"/>
+                <Baseline points="888,3000 916,3000 944,3000 972,3000 1000,3001 1028,3000 1056,3000 1084,3000 1112,3000 1140,3000 1168,2999 1196,2999 1224,2999 1252,2999 1280,2999 1308,2999 1336,2999 1364,2999 1392,3000 1420,3000 1449,3002"/>
+                <TextEquiv>
+                    <Unicode>llamadas pruebas de sector.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l28" custom="readingOrder {index:27;}">
+                <Coords points="959,3070 1591,3063 1591,3028 1534,3014 959,3025"/>
+                <Baseline points="972,3057 1002,3055 1032,3054 1062,3053 1093,3053 1123,3053 1153,3053 1184,3053 1214,3054 1244,3054 1275,3055 1305,3056 1335,3056 1365,3056 1396,3056 1426,3056 1456,3056 1487,3056 1517,3054 1547,3053 1578,3051"/>
+                <TextEquiv>
+                    <Unicode>—¿Y cuál es la norma de traba¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l29" custom="readingOrder {index:28;}">
+                <Coords points="877,3124 902,3126 920,3116 937,3121 940,3118 955,3119 960,3059 931,3060 916,3073 908,3063 882,3061"/>
+                <Baseline points="894,3107 941,3111"/>
+                <TextEquiv>
+                    <Unicode>jo?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l30" custom="readingOrder {index:29;}">
+                <Coords points="924,3165 1516,3184 1594,3164 1594,3127 925,3119"/>
+                <Baseline points="938,3152 970,3153 1002,3155 1034,3156 1066,3156 1098,3158 1130,3158 1162,3158 1194,3159 1226,3159 1259,3159 1291,3159 1323,3159 1355,3159 1387,3159 1419,3159 1451,3159 1483,3159 1515,3159 1547,3159 1580,3159"/>
+                <TextEquiv>
+                    <Unicode>—Presentar unos ejercicios pre¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l31" custom="readingOrder {index:30;}">
+                <Coords points="872,3223 1596,3216 1596,3182 1539,3170 872,3174"/>
+                <Baseline points="887,3207 921,3207 956,3209 991,3209 1025,3210 1060,3210 1095,3210 1129,3211 1164,3212 1199,3212 1234,3212 1268,3212 1303,3212 1338,3212 1372,3212 1407,3212 1442,3212 1476,3212 1511,3212 1546,3212 1581,3212"/>
+                <TextEquiv>
+                    <Unicode>viamente marcados, pudiendo, ade¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>cuatro provincias, de las cincuen¬ta que integran el solar hispanc,celebraron 84 exposiciones de or¬den provincial y comercial, en lasque se han expuesto más de 15.-000 trabajos pertenecientes a losocho mil aprendices españoles en¬cuadrados en la Sección de Cen¬tros de Trabajo del Frente deJuventudes procedentes de las Es¬cuelas de Formación Profesional,de las Escuelas Elementales deTrabajo, o simplemente depen¬dientes de diversas empresas in¬dustriales del país.De las pruebas eliminatoriaspara este gran Concurso Nacio¬nal quedaron vencedores setecien¬tos. Para esta competición últimafueron elegidas siete capitales:Madrid, Barcelona, Sevilla, Bilbao,Valencia, Oviedo y Valladolid.Estas han sido las cabezas de gru¬po de provincias, a las que a cadauna correspondió enviar susaprendices participantes en lasliamadas pruebas de sector.—¿Y cuál es la norma de traba¬jo?—Presentar unos ejercicios pre¬viamente marcados, pudiendo, ade¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_7_1" custom="readingOrder {index:6;} structure {type:paragraph;}">
+            <Coords points="1671,1592 2385,1592 2385,3232 1671,3232"/>
+            <TextLine id="r_7_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1665,1644 2389,1634 2388,1594 2331,1583 1665,1595"/>
+                <Baseline points="1680,1629 1714,1629 1749,1630 1783,1631 1818,1631 1853,1631 1887,1631 1922,1631 1957,1631 1991,1631 2026,1631 2061,1629 2095,1629 2130,1629 2165,1629 2199,1629 2234,1628 2269,1628 2303,1628 2338,1626 2373,1626"/>
+                <TextEquiv>
+                    <Unicode>más, aportar otros de carác¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1659,1690 2360,1694 2389,1683 2389,1634 1659,1647"/>
+                <Baseline points="1674,1680 1710,1680 1747,1680 1784,1680 1821,1680 1857,1680 1894,1680 1931,1680 1968,1680 2005,1680 2041,1680 2078,1680 2115,1680 2152,1680 2189,1680 2225,1679 2262,1679 2299,1679 2336,1679 2373,1677"/>
+                <TextEquiv>
+                    <Unicode>ter libre. También se les ha exi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1666,1749 2361,1744 2381,1741 2381,1698 1666,1704"/>
+                <Baseline points="1679,1736 1713,1736 1747,1734 1782,1734 1816,1733 1850,1733 1885,1733 1919,1732 1953,1731 1988,1731 2022,1731 2056,1731 2091,1731 2125,1731 2159,1731 2194,1731 2228,1731 2262,1731 2297,1730 2331,1730 2366,1730"/>
+                <TextEquiv>
+                    <Unicode>gido, como parte técnica, unos co¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l4" custom="readingOrder {index:3;}">
+                <Coords points="1675,1794 2135,1798 2181,1775 2236,1804 2393,1793 2393,1750 2367,1744 2061,1743 2007,1763 1970,1743 1675,1748"/>
+                <Baseline points="1688,1781 1722,1781 1757,1781 1791,1782 1826,1782 1860,1782 1895,1782 1929,1782 1964,1782 1998,1783 2033,1784 2067,1784 2102,1784 2136,1784 2171,1784 2205,1784 2240,1784 2274,1782 2309,1782 2343,1781 2378,1781"/>
+                <TextEquiv>
+                    <Unicode>nocimientos de cultura general.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l5" custom="readingOrder {index:4;}">
+                <Coords points="1665,1847 2400,1837 2400,1797 2346,1792 1665,1796"/>
+                <Baseline points="1680,1833 1715,1833 1750,1833 1785,1833 1821,1833 1856,1833 1891,1833 1926,1833 1962,1833 1997,1833 2032,1833 2067,1833 2103,1833 2138,1833 2173,1833 2208,1833 2244,1832 2279,1832 2314,1832 2349,1832 2385,1830"/>
+                <TextEquiv>
+                    <Unicode>En las pruebas de carácter nacio¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l6" custom="readingOrder {index:5;}">
+                <Coords points="1669,1901 2353,1901 2399,1884 2399,1846 2210,1864 1669,1849"/>
+                <Baseline points="1683,1887 1718,1887 1753,1886 1788,1886 1823,1886 1858,1886 1893,1886 1928,1886 1963,1886 1998,1886 2034,1886 2069,1886 2104,1886 2139,1886 2174,1886 2209,1886 2244,1886 2279,1884 2314,1884 2349,1883 2385,1881"/>
+                <TextEquiv>
+                    <Unicode>nal han sido elegidos los mejores</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l7" custom="readingOrder {index:6;}">
+                <Coords points="1662,1950 2105,1959 2134,1930 2157,1953 2377,1956 2397,1950 2397,1901 1662,1902"/>
+                <Baseline points="1676,1940 1711,1940 1746,1940 1782,1940 1817,1941 1853,1941 1888,1941 1923,1941 1959,1941 1994,1941 2030,1941 2065,1941 2100,1941 2136,1940 2171,1940 2207,1940 2242,1940 2277,1940 2313,1940 2348,1941 2384,1941"/>
+                <TextEquiv>
+                    <Unicode>aprendices de torno, fresadoras,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l8" custom="readingOrder {index:7;}">
+                <Coords points="1668,2008 1813,2014 1845,1982 1888,2008 2094,2010 2117,1987 2205,2013 2377,2007 2394,1961 1667,1965"/>
+                <Baseline points="1683,1994 1717,1994 1752,1995 1787,1995 1822,1995 1857,1995 1891,1995 1926,1995 1961,1995 1996,1994 2031,1994 2065,1994 2100,1994 2135,1994 2170,1994 2205,1994 2239,1994 2274,1994 2309,1994 2344,1994 2379,1994"/>
+                <TextEquiv>
+                    <Unicode>ajuste, cerrajería, carpintería,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l9" custom="readingOrder {index:8;}">
+                <Coords points="1671,2062 2386,2062 2386,2019 2344,2008 1920,2020 1829,1997 1672,2014"/>
+                <Baseline points="1685,2046 1719,2046 1753,2046 1788,2046 1822,2046 1857,2046 1891,2047 1925,2048 1960,2048 1994,2048 2029,2048 2063,2048 2097,2048 2132,2048 2166,2048 2201,2048 2235,2048 2269,2048 2304,2048 2338,2048 2373,2048"/>
+                <TextEquiv>
+                    <Unicode>electricidad, moldeado de escayola,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l10" custom="readingOrder {index:9;}">
+                <Coords points="1666,2119 2063,2112 2063,2075 1977,2061 1952,2070 1840,2062 1823,2079 1791,2062 1666,2068"/>
+                <Baseline points="1680,2102 1706,2103 1732,2103 1759,2103 1785,2103 1811,2103 1838,2102 1864,2102 1890,2102 1917,2102 1943,2102 1969,2102 1996,2102 2022,2102 2049,2102"/>
+                <TextEquiv>
+                    <Unicode>y talla de madera.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l12" custom="readingOrder {index:10;}">
+                <Coords points="1757,2316 2089,2308 2135,2325 2395,2307 2395,2267 1757,2261"/>
+                <Baseline points="1772,2301 1802,2302 1832,2303 1863,2303 1893,2303 1924,2304 1954,2304 1985,2304 2015,2304 2046,2304 2076,2304 2106,2303 2137,2303 2167,2303 2198,2303 2228,2301 2259,2301 2289,2301 2320,2300 2350,2300 2381,2298"/>
+                <TextEquiv>
+                    <Unicode>De los mejores aprendices de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l13" custom="readingOrder {index:11;} place {offset:5; length:6;}">
+                <Coords points="1663,2367 2387,2358 2387,2332 2275,2313 2081,2311 2058,2331 1663,2319"/>
+                <Baseline points="1679,2357 1713,2357 1748,2357 1782,2357 1817,2357 1852,2357 1886,2357 1921,2357 1956,2357 1990,2356 2025,2355 2060,2355 2094,2355 2129,2355 2164,2354 2198,2354 2233,2354 2268,2354 2302,2354 2337,2355 2372,2355"/>
+                <TextEquiv>
+                    <Unicode>toda España han sido definitiva¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l14" custom="readingOrder {index:12;}">
+                <Coords points="1664,2422 2290,2429 2381,2415 2381,2383 2330,2366 2190,2370 2170,2390 2050,2370 1663,2376"/>
+                <Baseline points="1679,2409 1713,2409 1747,2409 1782,2409 1816,2409 1851,2409 1885,2409 1919,2409 1954,2409 1988,2409 2023,2409 2057,2409 2091,2409 2126,2409 2160,2409 2195,2409 2229,2408 2263,2408 2298,2408 2332,2408 2367,2406"/>
+                <TextEquiv>
+                    <Unicode>mente elegidos catorce, designán¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l15" custom="readingOrder {index:13;}">
+                <Coords points="1661,2474 2393,2469 2393,2429 1661,2428"/>
+                <Baseline points="1676,2462 1711,2462 1746,2462 1781,2462 1816,2462 1851,2463 1886,2463 1922,2463 1957,2463 1992,2463 2027,2463 2062,2462 2097,2462 2132,2462 2168,2462 2203,2462 2238,2462 2273,2460 2308,2460 2343,2460 2379,2459"/>
+                <TextEquiv>
+                    <Unicode>dose ocho plazas para las Escue¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l16" custom="readingOrder {index:14;}">
+                <Coords points="1668,2526 2389,2525 2389,2476 1834,2471 1740,2491 1668,2474"/>
+                <Baseline points="1683,2514 1717,2514 1752,2514 1786,2515 1821,2516 1856,2516 1890,2516 1925,2516 1959,2516 1994,2516 2029,2516 2063,2516 2098,2516 2132,2516 2167,2516 2202,2516 2236,2514 2271,2514 2305,2514 2340,2513 2375,2513"/>
+                <TextEquiv>
+                    <Unicode>las de Formación y seis para las</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l17" custom="readingOrder {index:15;}">
+                <Coords points="1670,2582 2388,2580 2388,2534 2342,2531 1670,2534"/>
+                <Baseline points="1686,2567 1720,2567 1754,2567 1789,2567 1823,2567 1857,2567 1892,2567 1926,2567 1960,2567 1995,2568 2029,2568 2063,2568 2098,2568 2132,2568 2166,2568 2201,2567 2235,2567 2269,2567 2304,2567 2338,2567 2373,2565"/>
+                <TextEquiv>
+                    <Unicode>empresas particulares. Cada uno</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l18" custom="readingOrder {index:16;}">
+                <Coords points="1661,2635 2350,2636 2390,2630 2390,2582 1660,2589"/>
+                <Baseline points="1676,2622 1711,2621 1746,2621 1781,2621 1816,2619 1851,2619 1886,2619 1921,2619 1956,2618 1991,2618 2026,2618 2061,2618 2096,2618 2131,2618 2166,2619 2201,2619 2236,2619 2271,2619 2306,2619 2341,2619 2376,2619"/>
+                <TextEquiv>
+                    <Unicode>de los vencedores recibió, con el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l19" custom="readingOrder {index:17;}">
+                <Coords points="1665,2692 2374,2686 2391,2634 1665,2647"/>
+                <Baseline points="1679,2675 1715,2673 1752,2673 1789,2673 1826,2673 1862,2673 1899,2673 1936,2673 1973,2673 2010,2673 2046,2673 2083,2673 2120,2673 2157,2673 2194,2673 2230,2673 2267,2673 2304,2673 2341,2672 2378,2672"/>
+                <TextEquiv>
+                    <Unicode>premio de dos mil pesetas, el trofeo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l20" custom="readingOrder {index:18;}">
+                <Coords points="1669,2744 2387,2736 2387,2696 1669,2692"/>
+                <Baseline points="1683,2730 1717,2729 1752,2728 1786,2727 1821,2727 1855,2727 1890,2727 1924,2727 1959,2727 1993,2727 2028,2727 2062,2727 2097,2727 2131,2727 2166,2727 2200,2727 2235,2727 2269,2727 2304,2727 2338,2726 2373,2724"/>
+                <TextEquiv>
+                    <Unicode>y el diploma de “El Mejor Apren¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l21" custom="readingOrder {index:19;} place {offset:7; length:6;}">
+                <Coords points="1665,2793 2006,2793 2006,2744 1911,2741 1857,2753 1837,2741 1783,2750 1760,2738 1742,2756 1705,2741 1665,2744"/>
+                <Baseline points="1680,2780 1706,2781 1732,2781 1758,2781 1784,2781 1810,2781 1836,2781 1862,2781 1888,2781 1914,2781 1940,2781 1966,2781 1992,2781"/>
+                <TextEquiv>
+                    <Unicode>diz de España".</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l22" custom="readingOrder {index:20;}">
+                <Coords points="1700,2845 2237,2857 2374,2845 2394,2811 2329,2794 1699,2794"/>
+                <Baseline points="1715,2832 1748,2834 1781,2834 1814,2834 1847,2834 1881,2835 1914,2835 1947,2835 1980,2835 2013,2835 2047,2835 2080,2834 2113,2834 2146,2834 2179,2834 2213,2834 2246,2834 2279,2834 2312,2834 2345,2834 2379,2834"/>
+                <TextEquiv>
+                    <Unicode>Más de medio millón de pesetas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l23" custom="readingOrder {index:21;}">
+                <Coords points="1661,2904 2396,2889 2396,2863 2256,2849 1661,2849"/>
+                <Baseline points="1674,2889 1709,2889 1744,2888 1780,2888 1815,2888 1850,2888 1886,2888 1921,2888 1956,2889 1992,2889 2027,2889 2062,2889 2098,2889 2133,2889 2168,2889 2204,2888 2239,2888 2274,2886 2310,2885 2345,2884 2381,2882"/>
+                <TextEquiv>
+                    <Unicode>fueron distribuídas en premios en¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l24" custom="readingOrder {index:22;}">
+                <Coords points="1659,2954 2394,2950 2393,2910 2351,2901 1990,2902 1959,2922 1907,2902 1827,2920 1658,2903"/>
+                <Baseline points="1674,2942 1709,2942 1744,2942 1779,2942 1815,2943 1850,2943 1885,2943 1920,2943 1956,2943 1991,2943 2026,2943 2061,2943 2097,2943 2132,2943 2167,2942 2202,2942 2238,2942 2273,2942 2308,2942 2343,2940 2379,2940"/>
+                <TextEquiv>
+                    <Unicode>tre los miles de participantes de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l25" custom="readingOrder {index:23;}">
+                <Coords points="1670,3014 2299,3016 2391,2999 2391,2967 1670,2968"/>
+                <Baseline points="1683,2996 1717,2996 1752,2997 1786,2997 1821,2997 1856,2997 1890,2997 1925,2997 1960,2997 1994,2997 2029,2997 2064,2997 2098,2997 2133,2997 2168,2997 2202,2997 2237,2997 2272,2996 2306,2996 2341,2994 2376,2994"/>
+                <TextEquiv>
+                    <Unicode>este concurso, premios que consis¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l26" custom="readingOrder {index:24;}">
+                <Coords points="1662,3067 2386,3052 2386,3018 2343,3006 2308,3023 1662,3016"/>
+                <Baseline points="1677,3051 1711,3051 1746,3050 1780,3050 1815,3050 1850,3050 1884,3050 1919,3051 1954,3051 1988,3051 2023,3051 2058,3051 2092,3051 2127,3051 2162,3051 2196,3051 2231,3050 2266,3050 2300,3050 2335,3049 2370,3048"/>
+                <TextEquiv>
+                    <Unicode>ten en cantidades en efectivo, di¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l27" custom="readingOrder {index:25;}">
+                <Coords points="1669,3124 1821,3124 1835,3112 1881,3124 2064,3117 2064,3071 1990,3072 1961,3086 1947,3072 1858,3066 1827,3084 1807,3072 1669,3070"/>
+                <Baseline points="1683,3105 1709,3105 1735,3107 1761,3107 1787,3107 1813,3106 1839,3105 1866,3105 1892,3105 1918,3105 1944,3105 1970,3105 1996,3105 2022,3105 2049,3105"/>
+                <TextEquiv>
+                    <Unicode>plomas, becas, etc.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l28" custom="readingOrder {index:26;}">
+                <Coords points="1705,3171 2389,3165 2389,3134 2335,3120 1705,3125"/>
+                <Baseline points="1719,3158 1751,3158 1784,3158 1817,3158 1850,3158 1883,3158 1916,3158 1948,3159 1981,3159 2014,3159 2047,3159 2080,3159 2113,3159 2146,3159 2178,3159 2211,3158 2244,3158 2277,3158 2310,3158 2343,3158 2376,3156"/>
+                <TextEquiv>
+                    <Unicode>Conviene advertir: Esta lauda¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_7_1l29" custom="readingOrder {index:27;}">
+                <Coords points="1670,3231 2396,3217 2396,3186 2351,3174 1670,3176"/>
+                <Baseline points="1685,3213 1719,3213 1754,3213 1789,3213 1824,3213 1859,3213 1894,3213 1928,3213 1963,3213 1998,3213 2033,3213 2068,3213 2103,3215 2138,3215 2172,3215 2207,3215 2242,3213 2277,3213 2312,3213 2347,3213 2382,3212"/>
+                <TextEquiv>
+                    <Unicode>ble competencia se ha celebrado</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>más, aportar otros de carác¬ter libre. También se les ha exi¬gido, como parte técnica, unos co¬nocimientos de cultura general.En las pruebas de carácter nacio¬nal han sido elegidos los mejoresaprendices de torno, fresadoras,ajuste, cerrajería, carpintería,electricidad, moldeado de escayola,y talla de madera.* *De los mejores aprendices detoda España han sido definitiva¬mente elegides catorce, designán¬dose ocho plazas para las Escue¬las de Formación y seis para lasempresas particulares. Cada unode los vencedores recibió, con elpremio de dos mil pesetas, el trofeoy el diploma de “El Mejor Apren¬diz de España".Más de medio millón de pesctasfueron distribuídas en premios en¬tre los miles de participantes deeste concurso, premios que consis¬ten en cantidades en efectivo, di¬plomas, becas, etc.Conviene advertir: Esta lauda¬ble competencia se ha celebrado</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:7;}">
+            <Coords points="339,312 2398,312 2398,323 339,323"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:8;}">
+            <Coords points="137,568 308,568 308,580 137,580"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:9;}">
+            <Coords points="753,568 886,568 886,573 753,573"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:10;}">
+            <Coords points="320,777 332,777 332,1116 320,1116"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:11;}">
+            <Coords points="1726,671 1729,671 1729,756 1726,756"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:12;}">
+            <Coords points="1515,1552 1536,1552 1536,1553 1515,1553"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:13;}">
+            <Coords points="2032,1552 2053,1552 2053,1555 2032,1555"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:14;}">
+            <Coords points="2113,1554 2135,1554 2135,1555 2113,1555"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:15;}">
+            <Coords points="273,963 281,963 281,1066 273,1066"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:16;}">
+            <Coords points="1142,608 1146,608 1146,654 1142,654"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:17;}">
+            <Coords points="1279,624 1284,624 1284,678 1279,678"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:18;}">
+            <Coords points="1724,670 1726,670 1726,702 1724,702"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:19;}">
+            <Coords points="1729,722 1731,722 1731,754 1729,754"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

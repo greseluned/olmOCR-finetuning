@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.42.0:model_id=53551:lm=none:date=24_03_2026_12:54</Creator>
+        <Created>2021-06-01T19:34:58.574+02:00</Created>
+        <LastChange>2026-06-26T19:21:19.994+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115571994" pageNr="53" tsid="294052849" status="GT" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=DJCTUHYCJLPEXECDAFYVMRMA" xmlUrl="https://files.transkribus.eu/Get?id=ZTBVGGSMGCJDVMFWLEKLPYIN" imageId="17057482"/>
+    </Metadata>
+    <Page imageFilename="0053_Semana-0053.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="9,282 2451,282 2451,3232 9,3232"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782494550155" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_22"/>
+                <RegionRefIndexed index="2" regionRef="r_1"/>
+                <RegionRefIndexed index="3" regionRef="r_23"/>
+                <RegionRefIndexed index="5" regionRef="r_4"/>
+                <RegionRefIndexed index="6" regionRef="r_2"/>
+                <RegionRefIndexed index="7" regionRef="r_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_22"/>
+                <RegionRef regionRef="r_1"/>
+                <RegionRef regionRef="r_2"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_23"/>
+                <RegionRef regionRef="r_4"/>
+                <RegionRef regionRef="r_3"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:heading;}">
+            <Coords points="0,3033 0,476 85,476 85,3033"/>
+            <TextLine id="l" custom="readingOrder {index:0;} place {offset:54; length:6;} place {offset:63; length:9;}">
+                <Coords points="68,3014 74,525 12,525 3,937 28,3014"/>
+                <Baseline points="69,3000 64,523 59,526"/>
+                <TextEquiv>
+                    <Unicode>LA FIRMA DE LOS TRATADOS CULTURAL Y EDUCACIONAL ENTRE ESPAÑA Y FILIPINAS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_22" custom="readingOrder {index:1;} structure {type:photograph;}">
+            <Coords points="1176,1974 1176,3241 105,3241 105,1974"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:2;} structure {type:photograph;}">
+            <Coords points="105,1974 105,302 1176,302 1176,1974"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_23" custom="readingOrder {index:3;} structure {type:photograph;}">
+            <Coords points="2243,1556 2243,3241 1176,3241 1176,1556"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_5" custom="readingOrder {index:4;}">
+            <Coords points="600,295 662,295 662,298 600,298"/>
+        </SeparatorRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:5;} structure {type:photograph;}">
+            <Coords points="1176,1556 1176,302 2243,302 2243,1556"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:6;} structure {type:caption;}">
+            <Coords points="2291,3145 2291,1810 2462,1810 2462,3145"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;} place {offset:46; length:9;}">
+                <Coords points="2337,3067 2337,1828 2284,1828 2309,3067"/>
+                <Baseline points="2337,3054 2328,1828 2326,1820"/>
+                <TextEquiv>
+                    <Unicode>Arriba a la izquierda: S. E. el Presidente de Filipinas estrechando</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:1;} person {offset:15; length:9;} organization {offset:41; length:14;}">
+                <Coords points="2371,3122 2371,1837 2331,1856 2325,3122"/>
+                <Baseline points="2365,3108 2362,1835"/>
+                <TextEquiv>
+                    <Unicode>la mano al Sr. Picornell, presidente del Casino Español, mientras escucha</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:2;} place {offset:39; length:6;} person {offset:51; length:7;}">
+                <Coords points="2409,3135 2402,1828 2365,1872 2362,3135"/>
+                <Baseline points="2401,3122 2400,1823"/>
+                <TextEquiv>
+                    <Unicode>lo que le está diciendo el Ministro de España, Sr. Aguilar. A la derecha:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_4" custom="readingOrder {index:3;} person {offset:20; length:7;} person {offset:46; length:20;}">
+                <Coords points="2446,3129 2443,1834 2399,1872 2405,3129"/>
+                <Baseline points="2438,3116 2445,1830"/>
+                <TextEquiv>
+                    <Unicode>S. E. el Presidente Quirino y el Ministro, D. Teodomiro de Aguilar,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:7;} structure {type:caption;}">
+            <Coords points="2294,1705 2294,337 2459,337 2459,1705"/>
+            <TextLine id="l_5" custom="readingOrder {index:0;}">
+                <Coords points="2334,1695 2322,379 2269,379 2291,1695"/>
+                <Baseline points="2326,1681 2321,373"/>
+                <TextEquiv>
+                    <Unicode>estrechándose las manos, después de firmar los tratados. Abajo, a la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_6" custom="readingOrder {index:1;}">
+                <Coords points="2374,1688 2362,444 2319,382 2334,1688"/>
+                <Baseline points="2368,1675 2355,381"/>
+                <TextEquiv>
+                    <Unicode>izquierda: S. E. el Presidente y el Excmo. Sr. Ministro brindando después</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_7" custom="readingOrder {index:2;} person {offset:47; length:7;}">
+                <Coords points="2409,1692 2399,391 2356,388 2353,515 2374,1688"/>
+                <Baseline points="2395,1674 2389,386"/>
+                <TextEquiv>
+                    <Unicode>de firmados los tratados. A la derecha: El Sr. Aguilar contestando al </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_8" custom="readingOrder {index:3;} person {offset:32; length:7;}">
+                <Coords points="2443,1692 2440,940 2396,940 2409,1692"/>
+                <Baseline points="2428,1678 2434,937"/>
+                <TextEquiv>
+                    <Unicode>discurso de S. E. el Presidente Quirino.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_6" custom="readingOrder {index:8;}">
+            <Coords points="742,295 826,295 826,298 742,298"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:9;}">
+            <Coords points="451,3221 608,3221 608,3226 451,3226"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:10;}">
+            <Coords points="903,1161 916,1161 916,1315 903,1315"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:11;}">
+            <Coords points="913,1336 917,1336 917,1408 913,1408"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:12;}">
+            <Coords points="1177,2878 1181,2878 1181,2972 1177,2972"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:13;}">
+            <Coords points="1178,2569 1186,2569 1186,2729 1178,2729"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:14;}">
+            <Coords points="1755,1106 1763,1106 1763,1243 1755,1243"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:15;}">
+            <Coords points="2175,848 2182,848 2182,954 2175,954"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:16;}">
+            <Coords points="2186,1036 2189,1036 2189,1102 2186,1102"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:17;}">
+            <Coords points="117,296 201,296 201,300 117,300"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:18;}">
+            <Coords points="944,1628 978,1628 978,1631 944,1631"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:19;}">
+            <Coords points="912,2351 942,2351 942,2353 912,2353"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:20;}">
+            <Coords points="309,2131 312,2131 312,2171 309,2171"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:21;}">
+            <Coords points="912,1347 913,1347 913,1375 912,1375"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:22;}">
+            <Coords points="2229,2745 2232,2745 2232,2805 2229,2805"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

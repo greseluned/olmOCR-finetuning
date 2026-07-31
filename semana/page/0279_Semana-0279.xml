@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:37:40.644+02:00</Created>
+        <LastChange>2026-06-24T18:40:42.885+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572400" pageNr="279" tsid="293808332" status="DONE" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=MOYIJVNPNWJLALOXIZHDBJLP" xmlUrl="https://files.transkribus.eu/Get?id=NFAEVXZCAGYRUIFHWIYWMXNV" imageId="17057899"/>
+    </Metadata>
+    <Page imageFilename="0279_Semana-0279.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="102,269 2391,269 2391,3197 102,3197"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782319777700" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="2" regionRef="r"/>
+                <RegionRefIndexed index="3" regionRef="r_1"/>
+                <RegionRefIndexed index="4" regionRef="r_5"/>
+                <RegionRefIndexed index="6" regionRef="r_9"/>
+                <RegionRefIndexed index="7" regionRef="r_4_1"/>
+                <RegionRefIndexed index="8" regionRef="r_2"/>
+                <RegionRefIndexed index="9" regionRef="r_3"/>
+                <RegionRefIndexed index="10" regionRef="r_8"/>
+                <RegionRefIndexed index="11" regionRef="r_5_1"/>
+                <RegionRefIndexed index="12" regionRef="r_7"/>
+                <RegionRefIndexed index="13" regionRef="r_4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_4_1"/>
+                <RegionRef regionRef="r_5"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_5_1"/>
+                <RegionRef regionRef="r_7"/>
+            </Relation>
+        </Relations>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:header;}">
+            <Coords points="107,287 459,287 459,346 107,346"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;} date {offset:0; length:16;}">
+                <Coords points="115,336 204,326 334,338 352,327 455,332 455,290 373,286 343,308 327,297 258,300 232,285 189,301 175,289 152,297 115,289"/>
+                <Baseline points="120,326 145,327 170,327 196,327 221,327 246,327 272,327 297,327 323,327 348,327 373,327 399,327 424,327 450,326"/>
+                <TextEquiv>
+                    <Unicode>6 de Enero, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>6 de Enero, 1949</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:page-number;}">
+            <Coords points="2049,269 2379,269 2379,340 2049,340"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;}">
+                <Coords points="2053,336 2377,330 2377,293 2367,289 2270,309 2246,288 2053,289"/>
+                <Baseline points="2058,327 2084,327 2110,327 2136,327 2162,326 2188,326 2215,326 2241,326 2267,326 2293,324 2319,324 2345,324 2372,324"/>
+                <TextEquiv>
+                    <Unicode>SEMANA—15</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>SEMANA—15</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:2;} structure {type:marginalia;}">
+            <Coords points="167,557 457,557 457,724 167,724"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="331,715 329,566 299,566 301,715"/>
+                <Baseline points="331,715 329,566"/>
+                <TextEquiv>
+                    <Unicode>F</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:3;} structure {type:marginalia;}">
+            <Coords points="611,483 799,483 799,660 611,660"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="628,491 622,638 652,639 658,492"/>
+                <Baseline points="628,491 622,638"/>
+                <TextEquiv>
+                    <Unicode>F</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:4;} structure {type:photograph;}">
+            <Coords points="129,855 1775,414 2101,1412 396,1881"/>
+            <TextLine id="r_4_1l9" custom="readingOrder {index:0;} place {offset:12; length:6;}">
+                <Coords points="1974,954 2340,954 2391,932 2343,905 2268,916 2224,907 2208,920 2191,909 2086,917 2071,905 2047,916 1973,913"/>
+                <Baseline points="1979,944 2004,944 2030,945 2055,945 2081,945 2106,945 2132,945 2157,944 2183,944 2208,944 2234,944 2259,944 2285,943 2310,942 2336,942 2361,942 2387,944"/>
+                <TextEquiv>
+                    <Unicode>Ministro de España.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_6" custom="readingOrder {index:5;}">
+            <Coords points="109,338 2367,338 2367,351 109,351"/>
+        </SeparatorRegion>
+        <TextRegion id="r_9" custom="readingOrder {index:6;} structure {type:heading;}">
+            <Coords points="1974,468 2397,468 2397,532 1974,532"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;} organization {offset:9; length:9;}">
+                <Coords points="1962,513 2247,530 2377,517 2377,504 2329,477 2160,476 2148,488 2111,477 2095,490 1962,477"/>
+                <Baseline points="1967,510 1992,511 2017,512 2042,513 2068,513 2093,513 2118,512 2144,512 2169,512 2194,510 2220,510 2245,510 2270,510 2296,510 2321,510 2346,512 2372,513"/>
+                <TextEquiv>
+                    <Unicode>Linea de Recepción.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:7;} structure {type:caption;}">
+            <Coords points="1911,473 2391,473 2391,975 1911,975"/>
+            <TextLine id="r_4_1l2" custom="readingOrder {index:0;} person {offset:10; length:5; continued:true;}">
+                <Coords points="2029,581 2231,590 2264,579 2334,594 2390,561 2352,537 2334,550 2317,537 2261,552 2048,541 2028,554"/>
+                <Baseline points="2034,579 2059,578 2084,577 2109,576 2134,576 2159,575 2184,575 2209,575 2234,576 2259,576 2284,576 2309,575 2334,575 2359,574 2385,573"/>
+                <TextEquiv>
+                    <Unicode>Presidente Elpi-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l3" custom="readingOrder {index:1;} person {offset:0; length:11; continued:true;} person {offset:12; length:6; continued:true;}">
+                <Coords points="1968,642 2028,642 2055,619 2088,645 2383,632 2383,613 2359,597 2315,601 2303,589 2243,622 2180,590 2163,601 2136,589 2120,605 2081,597 2065,612 2018,597 1968,607"/>
+                <Baseline points="1973,632 1998,632 2023,632 2048,632 2074,632 2099,631 2124,630 2150,630 2175,630 2200,629 2226,629 2251,629 2276,629 2302,628 2327,627 2352,628 2378,629"/>
+                <TextEquiv>
+                    <Unicode>dio Quirino, Srta.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l4" custom="readingOrder {index:2;} person {offset:0; length:16; continued:true;}">
+                <Coords points="1962,681 1984,698 2143,690 2154,679 2197,680 2218,698 2377,693 2377,664 2320,645 2217,644 2190,671 2151,671 2120,645 1962,652"/>
+                <Baseline points="1967,681 1992,681 2017,681 2042,681 2068,681 2093,681 2118,681 2144,681 2169,681 2194,681 2220,681 2245,681 2270,681 2296,681 2321,683 2346,683 2372,683"/>
+                <TextEquiv>
+                    <Unicode>Victoria Quirino,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l5" custom="readingOrder {index:3;} person {offset:0; length:17; continued:true;}">
+                <Coords points="1972,746 2142,746 2154,735 2224,746 2250,734 2273,747 2392,728 2375,708 2302,693 2264,701 2240,725 2210,701 2190,701 2165,726 2142,707 2077,693 2047,707 1972,704"/>
+                <Baseline points="1977,735 2002,735 2028,735 2053,734 2079,734 2105,734 2130,734 2156,734 2182,734 2207,734 2233,734 2258,734 2284,734 2310,734 2335,734 2361,734 2387,734"/>
+                <TextEquiv>
+                    <Unicode>Ministro de China</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l6" custom="readingOrder {index:4;} person {offset:0; length:17; continued:true;}">
+                <Coords points="1973,794 2316,802 2375,786 2375,751 2285,748 2258,771 2223,749 2200,765 2120,749 2056,749 2036,770 1996,749 1972,759"/>
+                <Baseline points="1977,788 2003,788 2029,788 2055,788 2081,789 2108,789 2134,789 2160,789 2186,789 2212,789 2239,788 2265,788 2291,787 2317,786 2343,785 2370,783"/>
+                <TextEquiv>
+                    <Unicode>La Señora de Agui-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l7" custom="readingOrder {index:5;} person {offset:0; length:3; continued:true;} person {offset:8; length:10; continued:true;}">
+                <Coords points="1962,841 2024,850 2037,840 2077,858 2094,841 2214,851 2233,835 2259,850 2353,850 2386,836 2386,819 2328,800 2295,813 2247,801 2215,821 2191,801 2153,813 2120,805 2097,821 1962,813"/>
+                <Baseline points="1967,839 1992,840 2018,840 2044,840 2070,841 2096,842 2122,842 2148,841 2174,840 2199,840 2225,840 2251,839 2277,839 2303,838 2329,837 2355,836 2381,834"/>
+                <TextEquiv>
+                    <Unicode>lar y el Sr. Teodo-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l8" custom="readingOrder {index:6;} person {offset:0; length:15; continued:true;}">
+                <Coords points="1962,892 2070,898 2103,878 2123,898 2198,892 2255,906 2347,898 2381,866 2226,853 2196,883 2140,852 2112,869 2042,867 2027,852 1962,867"/>
+                <Baseline points="1967,891 1992,891 2018,891 2043,891 2069,891 2094,891 2120,891 2145,891 2171,891 2197,891 2222,891 2248,891 2273,891 2299,891 2324,891 2350,890 2376,890"/>
+                <TextEquiv>
+                    <Unicode>miro de Aguilar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Linea de Recepción.Presidente Elpi¬dio Quirino, Srta.Victoria Quirino,Ministro de ChinaLa Señora de Agui¬lar y el Sr. Teodo¬miro de AguilarMinistro de España.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:8;} structure {type:marginalia;}">
+            <Coords points="407,2064 579,2064 579,2268 407,2268"/>
+            <TextLine id="l_2" custom="readingOrder {index:0;}">
+                <Coords points="435,2101 551,2099 550,2069 434,2071"/>
+                <Baseline points="435,2101 551,2099"/>
+                <TextEquiv>
+                    <Unicode>F</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:9;} structure {type:marginalia;}">
+            <Coords points="228,2588 413,2588 413,2740 228,2740"/>
+            <TextLine id="l_3" custom="readingOrder {index:0;}">
+                <Coords points="234,2711 380,2720 370,2717 413,2717 376,2723 381,2753 461,2713 323,2710 324,2710 236,2681"/>
+                <Baseline points="234,2711 380,2720 370,2717 413,2717 376,2723"/>
+                <TextEquiv>
+                    <Unicode>F</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_8" custom="readingOrder {index:10;} structure {type:heading;}">
+            <Coords points="162,2943 805,2943 805,3017 162,3017"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;}">
+                <Coords points="187,3001 778,3001 759,2965 671,2956 386,2970 187,2957"/>
+                <Baseline points="192,2988 221,2989 250,2990 279,2990 308,2990 337,2990 366,2990 395,2990 424,2990 453,2990 482,2990 511,2990 540,2990 569,2990 598,2990 627,2990 656,2990 685,2990 714,2991 743,2991 773,2991"/>
+                <TextEquiv>
+                    <Unicode>Invitados distinguidos llegan.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_5_1" custom="readingOrder {index:11;} structure {type:caption;}">
+            <Coords points="102,2952 853,2952 853,3196 102,3196"/>
+            <TextLine id="r_5_1l2" custom="readingOrder {index:0;} person {offset:3; length:28; continued:true;}">
+                <Coords points="139,3078 797,3090 845,3076 845,3047 139,3048"/>
+                <Baseline points="144,3071 178,3071 213,3072 248,3072 283,3072 318,3072 352,3072 387,3074 422,3074 457,3074 492,3074 526,3074 561,3074 596,3075 631,3074 666,3074 700,3074 735,3074 770,3073 805,3072 840,3071"/>
+                <TextEquiv>
+                    <Unicode>El Encargado de Negocios Ameri-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l3" custom="readingOrder {index:1;} person {offset:0; length:4; continued:true;} person {offset:9; length:5;}">
+                <Coords points="108,3130 854,3127 839,3093 695,3085 663,3104 108,3097"/>
+                <Baseline points="113,3123 149,3123 186,3123 223,3123 260,3123 297,3123 333,3123 370,3123 407,3123 444,3123 481,3123 517,3123 554,3123 591,3123 628,3123 665,3123 701,3123 738,3123 775,3123 812,3123 849,3123"/>
+                <TextEquiv>
+                    <Unicode>cano y su Sra estrechando la mano</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l4" custom="readingOrder {index:2;} person {offset:4; length:10;} person {offset:23; length:14;}">
+                <Coords points="102,3183 848,3186 848,3149 759,3137 670,3159 581,3139 102,3150"/>
+                <Baseline points="107,3174 143,3174 180,3174 217,3174 254,3174 291,3174 327,3174 364,3176 401,3176 438,3176 475,3176 511,3176 548,3177 585,3177 622,3176 659,3176 695,3176 732,3174 769,3174 806,3173 843,3171"/>
+                <TextEquiv>
+                    <Unicode>del Presidente y de la Srta. Quirino.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Invitados distinguidos llegan.El Encargado de Negocios Ameri¬cano y su Sra estrechando la manodel Presidente y de la Srta. Quirino.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_7" custom="readingOrder {index:12;} structure {type:photograph;}">
+            <Coords points="620,2014 2009,1628 2380,2796 1016,3250"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:13;} structure {type:marginalia;}">
+            <Coords points="2113,2947 2357,2947 2357,3107 2113,3107"/>
+            <TextLine id="l_4" custom="readingOrder {index:0;}">
+                <Coords points="2304,2985 2322,3098 2352,3093 2334,2980"/>
+                <Baseline points="2304,2985 2322,3098"/>
+                <TextEquiv>
+                    <Unicode>F</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

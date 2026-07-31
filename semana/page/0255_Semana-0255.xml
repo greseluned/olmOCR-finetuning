@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:37:24.133+02:00</Created>
+        <LastChange>2026-07-06T16:58:55.840+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115571192" pageNr="255" tsid="295142055" status="IN_PROGRESS" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=LQIYPTBSIHWOOKKBGMOSVGGN" xmlUrl="https://files.transkribus.eu/Get?id=KGILVDIVGJIOYWOUJIGCEIQL" imageId="17057815"/>
+    </Metadata>
+    <Page imageFilename="0255_Semana-0255.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="61,181 2422,181 2422,3321 61,3321"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1783352599336" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="2" regionRef="r_1"/>
+                <RegionRefIndexed index="3" regionRef="r_3_1"/>
+                <RegionRefIndexed index="4" regionRef="r_4_1"/>
+                <RegionRefIndexed index="5" regionRef="r_5_1"/>
+                <RegionRefIndexed index="6" regionRef="r"/>
+                <RegionRefIndexed index="11" regionRef="r_8_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_3_1"/>
+                <RegionRef regionRef="r_4_1"/>
+                <RegionRef regionRef="r_5_1"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_7"/>
+                <RegionRef regionRef="r_8_1"/>
+            </Relation>
+        </Relations>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:header;}">
+            <Coords points="61,181 419,181 419,233 61,233"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;} date {offset:0; length:16;}">
+                <Coords points="66,235 109,222 282,234 427,229 427,179 325,177 299,190 269,173 109,185 66,177"/>
+                <Baseline points="78,222 104,221 130,219 156,219 182,219 208,219 234,219 260,219 286,219 312,219 338,219 364,219 390,218 416,218"/>
+                <TextEquiv>
+                    <Unicode>2 de Junio, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>:2 de Junio, 1949</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:page-number;}">
+            <Coords points="2106,183 2414,183 2414,229 2106,229"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;}">
+                <Coords points="2106,229 2320,229 2339,220 2411,229 2411,173 2372,173 2350,195 2320,195 2303,177 2106,177"/>
+                <Baseline points="2118,219 2143,219 2169,219 2194,219 2220,219 2246,219 2271,219 2297,219 2323,218 2348,219 2374,219 2400,219"/>
+                <TextEquiv>
+                    <Unicode>SEMANA—35</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>SEMANA—35</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:2;} structure {type:heading;}">
+            <Coords points="75,270 692,270 692,355 75,355"/>
+            <TextLine id="r_3_1l1" custom="readingOrder {index:0;}">
+                <Coords points="61,341 661,347 661,321 607,321 575,289 288,280 61,304"/>
+                <Baseline points="72,341 100,341 129,341 158,341 187,339 216,339 245,339 274,339 303,338 332,338 361,338 389,338 418,338 447,338 476,338 505,339 534,339 563,339 592,340 621,341 650,342"/>
+                <TextEquiv>
+                    <Unicode>LA UNIVERSIDAD...</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_3_1" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="66,359 805,359 800,1192 71,1192"/>
+            <TextLine id="r_3_1l2" custom="readingOrder {index:0;}">
+                <Coords points="222,404 265,393 352,404 367,391 494,404 598,392 654,405 654,346 611,348 591,368 550,346 486,361 462,346 432,361 391,348 369,363 222,346"/>
+                <Baseline points="233,387 258,387 284,387 310,387 335,387 361,386 387,386 412,386 438,386 464,386 489,386 515,386 541,387 566,387 592,387 618,387 644,389"/>
+                <TextEquiv>
+                    <Unicode>(Viene de la pág. 5)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l3" custom="readingOrder {index:1;}">
+                <Coords points="73,453 797,442 796,418 723,395 678,416 503,402 449,422 248,399 213,427 138,401 73,408"/>
+                <Baseline points="84,441 119,441 154,441 189,441 224,441 259,440 294,440 329,440 364,440 399,440 435,438 470,438 505,438 540,438 575,438 610,438 645,438 680,438 715,440 750,440 786,440"/>
+                <TextEquiv>
+                    <Unicode>neta. Citaremos solamente algu¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l4" custom="readingOrder {index:2;}">
+                <Coords points="70,507 796,501 796,449 582,450 546,476 409,448 362,468 183,449 161,470 70,469"/>
+                <Baseline points="81,494 116,494 151,492 186,492 222,492 257,492 292,491 327,491 363,491 398,491 433,491 468,492 504,492 539,492 574,492 609,492 645,491 680,491 715,491 750,491 786,489"/>
+                <TextEquiv>
+                    <Unicode>nos de estos últimos, elegidos al</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l5" custom="readingOrder {index:3;}">
+                <Coords points="60,553 793,557 805,513 60,523"/>
+                <Baseline points="71,546 107,545 143,545 179,545 215,543 252,543 288,543 324,543 360,543 396,543 433,543 469,543 505,543 541,543 577,543 614,543 650,543 686,543 722,542 758,542 795,542"/>
+                <TextEquiv>
+                    <Unicode>azar: “Unitas", revista científica</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l6" custom="readingOrder {index:4;}">
+                <Coords points="73,607 764,608 798,601 798,573 669,552 422,576 386,552 165,572 72,557"/>
+                <Baseline points="83,599 118,599 153,598 188,597 224,597 259,597 294,597 329,597 365,597 400,597 435,597 470,597 506,597 541,597 576,597 611,597 647,597 682,597 717,597 752,596 788,596"/>
+                <TextEquiv>
+                    <Unicode>bilingue editada por el profesora¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l7" custom="readingOrder {index:5;}">
+                <Coords points="68,661 223,645 241,662 606,662 668,632 705,660 792,655 791,616 709,608 68,613"/>
+                <Baseline points="78,651 113,651 148,650 183,650 218,649 253,648 288,648 323,648 358,648 393,648 429,648 464,647 499,647 534,647 569,647 604,647 639,647 674,647 709,647 744,648 780,648"/>
+                <TextEquiv>
+                    <Unicode>do; el “Boletín Eclesiástico" tam¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l8" custom="readingOrder {index:6;}">
+                <Coords points="73,717 350,716 373,692 408,716 805,715 805,681 762,659 390,675 187,658 168,678 73,661"/>
+                <Baseline points="84,701 119,702 155,702 190,704 226,704 261,704 297,703 332,702 368,702 403,702 439,701 475,701 510,701 546,700 581,699 617,699 652,701 688,701 723,702 759,703 795,705"/>
+                <TextEquiv>
+                    <Unicode>bién bilingue (castellano-inglés),</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l9" custom="readingOrder {index:7;}">
+                <Coords points="69,766 793,766 793,721 371,711 227,735 69,719"/>
+                <Baseline points="80,756 115,756 150,756 185,756 220,756 255,755 290,755 326,755 361,753 396,753 431,753 466,753 501,752 536,752 572,752 607,752 642,752 677,753 712,753 747,753 783,755"/>
+                <TextEquiv>
+                    <Unicode>órgano oficial del Clero filipino y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l10" custom="readingOrder {index:8;}">
+                <Coords points="72,806 806,820 806,771 753,762 521,765 487,793 446,762 72,769"/>
+                <Baseline points="83,798 118,801 154,803 189,804 225,806 261,807 296,807 332,807 367,807 403,807 439,807 474,807 510,807 545,806 581,806 617,806 652,806 688,806 723,806 759,806 795,806"/>
+                <TextEquiv>
+                    <Unicode>“Voz Estudiantil", única revista</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l11" custom="readingOrder {index:9;}">
+                <Coords points="76,872 802,859 802,834 746,817 555,818 519,844 456,818 76,827"/>
+                <Baseline points="87,860 122,860 157,860 192,860 228,860 263,860 298,860 333,860 369,860 404,860 439,860 474,859 510,858 545,858 580,858 615,858 651,857 686,857 721,857 756,857 792,857"/>
+                <TextEquiv>
+                    <Unicode>en lengua española, de los estu¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l12" custom="readingOrder {index:10;}">
+                <Coords points="67,924 334,934 583,907 779,926 805,915 805,882 66,881"/>
+                <Baseline points="77,912 112,912 148,912 184,914 220,912 256,912 292,912 327,912 363,912 399,911 435,911 471,911 507,911 543,909 578,909 614,909 650,909 686,910 722,911 758,911 794,912"/>
+                <TextEquiv>
+                    <Unicode>diantes filipinos. He de hacer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l13" custom="readingOrder {index:11;}">
+                <Coords points="72,976 750,977 800,964 800,936 72,937"/>
+                <Baseline points="83,963 118,965 153,965 188,965 224,965 259,965 294,965 329,965 365,965 400,963 435,963 470,963 506,963 541,963 576,963 611,963 647,963 682,962 717,962 752,962 788,962"/>
+                <TextEquiv>
+                    <Unicode>constar que en la imprenta de San¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l14" custom="readingOrder {index:12;}">
+                <Coords points="60,1026 805,1019 805,987 740,976 60,980"/>
+                <Baseline points="71,1017 107,1017 143,1017 179,1017 215,1017 251,1017 287,1017 324,1017 360,1017 396,1016 432,1016 468,1016 504,1016 540,1016 577,1016 613,1014 649,1014 685,1014 721,1014 757,1013 794,1013"/>
+                <TextEquiv>
+                    <Unicode>to Tomás se llevan a cabo confec¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l15" custom="readingOrder {index:13;}">
+                <Coords points="76,1084 809,1076 808,1037 718,1025 76,1043"/>
+                <Baseline points="87,1071 122,1071 158,1071 193,1070 229,1070 264,1070 300,1070 335,1070 371,1070 406,1070 442,1070 478,1070 513,1070 549,1069 584,1068 620,1068 655,1068 691,1068 726,1068 762,1068 798,1068"/>
+                <TextEquiv>
+                    <Unicode>ciones en todas las lenguas vivas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l16" custom="readingOrder {index:14;}">
+                <Coords points="73,1140 112,1123 200,1140 805,1126 775,1081 73,1093"/>
+                <Baseline points="83,1127 118,1126 154,1125 189,1124 225,1124 261,1124 296,1124 332,1124 367,1124 403,1124 439,1124 474,1124 510,1124 545,1124 581,1124 617,1124 652,1125 688,1124 723,1124 759,1124 795,1124"/>
+                <TextEquiv>
+                    <Unicode>y no pocas muertas. ¿Se imagi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l17" custom="readingOrder {index:15;}">
+                <Coords points="74,1188 551,1180 657,1198 776,1189 806,1178 806,1152 773,1133 73,1145"/>
+                <Baseline points="84,1176 119,1176 155,1176 190,1176 226,1176 261,1175 297,1175 332,1175 368,1175 403,1175 439,1175 475,1175 510,1175 546,1175 581,1175 617,1175 652,1175 688,1175 723,1175 759,1175 795,1173"/>
+                <TextEquiv>
+                    <Unicode>nan ustedes el cuadro eompetentí¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>LA UNIVERSIDAD...(Viene de la pág. 5)neta. Citaremos solamente algu¬nos de estos últimos, elegidos alazar: “Unitas", revista científicabilingue editada por el profesora¬do; el “Boletín Eclesiástico" tam¬bién bilingue (castellano-inglés),órgano oficial del Clero filipino y“Voz Estudiantil", única revistaen lengua española, de los estu¬diantes filipinos. He de hacerconstar que en la imprenta de San¬to Tomás se llevan a cabo confec¬ciones en todas las lenguas vivasy no pocas muertas. ¿Se imagi¬nan ustedes el cuadro eompetentí¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="883,292 1639,292 1639,609 883,609"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;}">
+                <Coords points="879,339 1618,339 1618,296 1583,287 1547,307 1497,289 1380,307 879,296"/>
+                <Baseline points="891,330 926,330 962,330 998,330 1034,330 1070,330 1106,330 1141,330 1177,330 1213,330 1249,330 1285,330 1321,330 1357,330 1392,330 1428,330 1464,330 1500,330 1536,330 1572,330 1608,330"/>
+                <TextEquiv>
+                    <Unicode>simo de colaboradores que ha de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l2" custom="readingOrder {index:1;}">
+                <Coords points="881,397 987,397 1009,375 1039,397 1607,388 1607,362 1542,336 1411,356 881,345"/>
+                <Baseline points="893,383 928,383 963,383 998,383 1033,383 1068,383 1103,383 1139,383 1174,383 1209,383 1244,383 1279,383 1314,383 1349,383 1385,383 1420,383 1455,383 1490,383 1525,383 1560,383 1596,381"/>
+                <TextEquiv>
+                    <Unicode>tener esta formidable organiza¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l3" custom="readingOrder {index:2;}">
+                <Coords points="877,448 931,448 948,441 980,445 1006,439 1006,392 950,402 931,391 922,398 913,391 888,409 877,409"/>
+                <Baseline points="888,435 914,434 941,434 968,435 995,434"/>
+                <TextEquiv>
+                    <Unicode>ción?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l4" custom="readingOrder {index:3;}">
+                <Coords points="937,502 1622,491 1622,461 1581,443 1047,465 937,448"/>
+                <Baseline points="948,488 981,488 1014,488 1047,488 1080,488 1113,488 1146,488 1180,488 1213,488 1246,488 1279,488 1312,488 1345,488 1378,488 1412,488 1445,488 1478,488 1511,486 1544,486 1577,485 1611,483"/>
+                <TextEquiv>
+                    <Unicode>Y es que en Santo Tomás todo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l5" custom="readingOrder {index:4;}">
+                <Coords points="885,551 1613,550 1600,504 1460,500 1402,524 1384,506 885,497"/>
+                <Baseline points="897,540 932,539 967,539 1002,539 1038,539 1073,539 1108,539 1143,540 1179,540 1214,540 1249,540 1284,540 1320,540 1355,540 1390,540 1425,540 1461,540 1496,540 1531,540 1566,539 1602,537"/>
+                <TextEquiv>
+                    <Unicode>tiene aspecto milagroso. Incluso</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l6" custom="readingOrder {index:5;}">
+                <Coords points="883,604 1596,604 1624,594 1624,559 883,563"/>
+                <Baseline points="894,591 931,591 969,590 1007,590 1045,590 1083,591 1121,591 1158,591 1196,591 1234,593 1272,593 1310,593 1348,593 1385,593 1423,593 1461,593 1499,593 1537,593 1575,591 1613,591"/>
+                <TextEquiv>
+                    <Unicode>el fervor cristiano que preside to</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>simo de colaboradores que ha detener esta formidable organiza¬ción?Y es que en Santo Tomás todotiene aspecto milagroso. Inclusoel fervor cristiano que preside to</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_5_1" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="1698,293 2422,293 2422,608 1698,608"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1692,342 2405,341 2428,339 2429,296 1692,295"/>
+                <Baseline points="1703,329 1738,329 1774,330 1810,330 1846,330 1881,330 1917,332 1953,332 1989,332 2024,332 2060,332 2096,332 2132,332 2167,332 2203,333 2239,333 2275,333 2310,332 2346,332 2382,332 2418,332"/>
+                <TextEquiv>
+                    <Unicode>das las actividades de la Univer¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1691,391 2406,397 2424,354 1691,350"/>
+                <Baseline points="1703,381 1738,381 1773,382 1809,383 1844,383 1880,383 1915,384 1951,384 1986,384 2022,384 2057,384 2092,384 2128,384 2163,384 2199,384 2234,384 2270,386 2305,386 2341,386 2376,386 2412,386"/>
+                <TextEquiv>
+                    <Unicode>sidad más universal de la Historia</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1700,445 2423,448 2423,409 2344,396 2240,394 2205,415 2069,396 1987,419 1700,396"/>
+                <Baseline points="1710,434 1745,435 1780,435 1815,435 1850,435 1885,435 1920,435 1955,435 1990,435 2025,435 2061,435 2096,435 2131,435 2166,435 2201,435 2236,435 2271,435 2306,435 2341,435 2376,435 2412,435"/>
+                <TextEquiv>
+                    <Unicode>Moderna, en contraste victorioso</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l4" custom="readingOrder {index:3;}">
+                <Coords points="1697,501 2427,493 2427,464 2399,458 1697,459"/>
+                <Baseline points="1709,489 1744,489 1779,489 1815,488 1850,488 1886,488 1921,488 1956,489 1992,489 2027,489 2063,489 2098,489 2133,489 2169,489 2204,489 2240,489 2275,489 2310,489 2346,489 2381,489 2417,489"/>
+                <TextEquiv>
+                    <Unicode>con las pugnas materiales que en¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l5" custom="readingOrder {index:4;}">
+                <Coords points="1690,549 2422,549 2422,517 2302,505 1690,508"/>
+                <Baseline points="1700,540 1735,540 1771,539 1806,539 1842,539 1877,539 1913,539 1948,540 1984,540 2019,540 2055,542 2091,542 2126,542 2162,543 2197,543 2233,543 2268,543 2304,543 2339,543 2375,542 2411,540"/>
+                <TextEquiv>
+                    <Unicode>sombrecen el horizonte de la ge¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l6" custom="readingOrder {index:5;}">
+                <Coords points="1695,604 1904,614 2099,595 2099,578 2077,578 2039,552 2000,565 1952,554 1695,561"/>
+                <Baseline points="1706,591 1731,593 1756,594 1782,594 1807,594 1833,594 1858,594 1883,594 1909,594 1934,593 1960,593 1985,593 2010,594 2036,594 2061,596 2087,597"/>
+                <TextEquiv>
+                    <Unicode>neración presente.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>das las actividades de la Univer¬sidad más universal de la HistoriaModerna, en contraste victoriosocon las pugnas materiales que en¬sombrecen el horizonte de la ge¬neración presente.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:6;}">
+            <Coords points="762,1288 1723,1288 1723,1384 762,1384"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="823,1357 1705,1357 1705,1327 823,1327"/>
+                <Baseline points="823,1357 1705,1357"/>
+                <TextEquiv>
+                    <Unicode>ACTUALIDAD INTERNACIONAL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_25" custom="readingOrder {index:7;} structure {type:advertisement;}">
+            <Coords points="1032,748 2276,748 2276,1201 1032,1201"/>
+        </GraphicRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:8;}">
+            <Coords points="83,241 826,241 826,247 83,247"/>
+        </SeparatorRegion>
+        <GraphicRegion id="r_7" custom="readingOrder {index:9;} structure {type:photograph;}">
+            <Coords points="360,1424 2121,1414 2132,2931 363,2920"/>
+        </GraphicRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:10;}">
+            <Coords points="888,241 1379,241 1379,246 888,246"/>
+        </SeparatorRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_8_1" custom="readingOrder {index:11;} structure {type:caption;}">
+            <Coords points="384,2948 2119,2948 2119,3321 384,3321"/>
+            <TextLine id="r_8_1l1" custom="readingOrder {index:0;} person {offset:3; length:17;}">
+                <Coords points="442,2985 1908,2997 2120,2989 2120,2946 441,2957"/>
+                <Baseline points="452,2982 534,2984 617,2985 700,2985 783,2985 866,2985 948,2985 1031,2985 1114,2985 1197,2984 1280,2984 1362,2982 1445,2981 1528,2981 1611,2979 1694,2979 1776,2978 1859,2978 1942,2978 2025,2978 2108,2978"/>
+                <TextEquiv>
+                    <Unicode>El Presidente Truman, (de pie, a la izquierda), mirando una exhibición fotográfica del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l2" custom="readingOrder {index:1;} organization {offset:22; length:48;}">
+                <Coords points="384,3031 2065,3027 2127,2988 384,2996"/>
+                <Baseline points="396,3021 482,3021 568,3020 654,3020 740,3020 826,3018 912,3018 998,3018 1084,3018 1170,3018 1256,3017 1342,3017 1428,3017 1514,3017 1600,3015 1686,3015 1772,3015 1858,3014 1944,3014 2030,3012 2117,3011"/>
+                <TextEquiv>
+                    <Unicode>cuidado médico que la Administración de Veteranos del Gobierno Federal presta a los vete¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l3" custom="readingOrder {index:2;} place {offset:13; length:14;}">
+                <Coords points="371,3061 2119,3053 371,3033"/>
+                <Baseline points="383,3057 469,3057 555,3056 641,3056 728,3056 814,3056 900,3054 986,3054 1073,3054 1159,3054 1245,3053 1331,3053 1418,3053 1504,3052 1590,3051 1676,3051 1763,3050 1849,3050 1935,3048 2021,3048 2108,3047"/>
+                <TextEquiv>
+                    <Unicode>ranos de los Estados Unidos, en 126 hospitales distribuidos por el pais. Las fotografías se</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l4" custom="readingOrder {index:3;} organization {offset:17; length:34;} place {offset:34; length:17;}">
+                <Coords points="372,3094 2117,3063 372,3070"/>
+                <Baseline points="384,3090 470,3090 556,3090 642,3090 728,3090 814,3090 900,3090 986,3090 1072,3090 1158,3090 1245,3089 1331,3089 1417,3089 1503,3089 1589,3088 1675,3087 1761,3087 1847,3086 1933,3086 2019,3086 2106,3084"/>
+                <TextEquiv>
+                    <Unicode>exhibieron en la Union Station de Washington. D. C. y mostraban todos los aspectos del cui¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l5" custom="readingOrder {index:4;}">
+                <Coords points="386,3137 2120,3096 385,3100"/>
+                <Baseline points="396,3126 481,3126 567,3126 652,3126 738,3126 824,3125 909,3125 995,3125 1081,3125 1166,3125 1252,3125 1338,3125 1423,3123 1509,3123 1595,3123 1680,3123 1766,3122 1852,3122 1937,3120 2023,3120 2109,3119"/>
+                <TextEquiv>
+                    <Unicode>dado de los veteranos, inclusive los trabajos de investigación científica, preparación y trata¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l6" custom="readingOrder {index:5;}">
+                <Coords points="376,3172 2041,3172 2125,3131 376,3135"/>
+                <Baseline points="387,3162 473,3162 559,3161 646,3161 732,3161 818,3161 905,3161 991,3161 1077,3161 1164,3161 1250,3161 1336,3161 1423,3161 1509,3161 1595,3161 1682,3159 1768,3159 1854,3158 1941,3158 2027,3156 2114,3155"/>
+                <TextEquiv>
+                    <Unicode>miento para rehabilitar a los heridos durante la guerre. Entre los casos descritos pictórica¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l7" custom="readingOrder {index:6;}">
+                <Coords points="371,3202 2117,3202 2116,3163 371,3174"/>
+                <Baseline points="383,3197 469,3197 555,3197 641,3197 727,3197 813,3197 899,3197 986,3197 1072,3197 1158,3197 1244,3197 1330,3197 1416,3197 1502,3195 1589,3195 1675,3195 1761,3195 1847,3194 1933,3194 2019,3192 2106,3192"/>
+                <TextEquiv>
+                    <Unicode>mente se contaban los de veteranos atacados de tuberculosis y parálisis con cada fase del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l8" custom="readingOrder {index:7;}">
+                <Coords points="390,3242 2120,3244 2040,3195 390,3205"/>
+                <Baseline points="401,3231 486,3231 571,3231 657,3231 742,3231 828,3231 913,3231 998,3231 1084,3231 1169,3231 1255,3231 1340,3231 1425,3231 1511,3231 1596,3231 1682,3231 1767,3230 1852,3230 1938,3230 2023,3228 2109,3228"/>
+                <TextEquiv>
+                    <Unicode>tratamiento. También se exhibieron los trabajos de producción de extremidades artificiales.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l9" custom="readingOrder {index:8;}">
+                <Coords points="390,3276 2126,3265 390,3241"/>
+                <Baseline points="401,3269 486,3269 572,3269 658,3269 743,3269 829,3270 915,3270 1000,3270 1086,3270 1172,3270 1258,3270 1343,3270 1429,3270 1515,3270 1600,3269 1686,3269 1772,3267 1857,3267 1943,3266 2029,3264 2115,3264"/>
+                <TextEquiv>
+                    <Unicode>el tratamiento de la epilepsia, el de las enfermedades mentales y nueros instrumentos que uti¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_8_1l10" custom="readingOrder {index:9;}">
+                <Coords points="379,3320 521,3318 536,3309 547,3320 668,3315 694,3325 746,3314 746,3288 631,3276 553,3285 378,3277"/>
+                <Baseline points="390,3305 416,3308 443,3309 469,3309 496,3309 522,3308 549,3307 575,3306 602,3305 628,3305 655,3305 681,3306 708,3308 735,3311"/>
+                <TextEquiv>
+                    <Unicode>lizan el radióstopo.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>El Presidente Truman, (de pie, a la izquierda), mirando una exhibición fotográfica delcuidado médico que la Administración de Veteranos del Gobierno Federal presta a los vete¬ranos de los Estados Unidos, en 126 hospitales distribuidos por el pais. Las fotografías seexhibieron en la Union Station de Washington. D. C. y mostraban todos los aspectos del cui¬dado de los veteranos, inclusive los trabajos de investigación científica, preparación y trata¬miento para rehabilitar a los heridos durante la guerre. Entre los casos descritos pictórica¬mente se contaban los de veteranos atacados de tuberculosis y parálisis con cada fase deltratamiento. También se exhibieron los trabajos de producción de extremidades artificiales.el tratamiento de la epilepsia, el de las enfermedades mentales y nueros instrumentos que uti¬lizan el radióstopo.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:12;}">
+            <Coords points="1462,240 1647,240 1647,245 1462,245"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:13;}">
+            <Coords points="1741,241 1818,241 1818,244 1741,244"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:14;}">
+            <Coords points="2043,242 2405,242 2405,249 2043,249"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:15;}">
+            <Coords points="890,672 2336,672 2336,684 890,684"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:16;}">
+            <Coords points="896,681 2414,681 2414,695 896,695"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:17;}">
+            <Coords points="90,1247 2403,1247 2403,1259 90,1259"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:18;}">
+            <Coords points="92,1259 1149,1259 1149,1271 92,1271"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:19;}">
+            <Coords points="1164,1258 2404,1258 2404,1266 1164,1266"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:20;}">
+            <Coords points="642,2367 653,2367 653,2523 642,2523"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:21;}">
+            <Coords points="1104,2436 1118,2436 1118,2626 1104,2626"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_21" custom="readingOrder {index:22;}">
+            <Coords points="1537,1720 1544,1720 1544,1833 1537,1833"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_22" custom="readingOrder {index:23;}">
+            <Coords points="1541,1492 1549,1492 1549,1650 1541,1650"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_23" custom="readingOrder {index:24;}">
+            <Coords points="602,253 657,253 657,256 602,256"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

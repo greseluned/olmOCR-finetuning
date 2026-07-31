@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:37:11.255+02:00</Created>
+        <LastChange>2026-07-03T18:56:21.262+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572338" pageNr="237" tsid="294889696" status="IN_PROGRESS" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=KAMLMHCCRTNRNITGWCTNFTMB" xmlUrl="https://files.transkribus.eu/Get?id=VDYRNCECXHRHDAANWGBHYAOV" imageId="17057774"/>
+    </Metadata>
+    <Page imageFilename="0237_Semana-0237.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="64,232 2418,232 2418,3254 64,3254"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1783352592120" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1"/>
+                <RegionRefIndexed index="1" regionRef="r_1_1"/>
+                <RegionRefIndexed index="2" regionRef="r_2_1"/>
+                <RegionRefIndexed index="3" regionRef="r_2"/>
+                <RegionRefIndexed index="4" regionRef="r_3_1"/>
+                <RegionRefIndexed index="5" regionRef="r_4_1"/>
+                <RegionRefIndexed index="7" regionRef="r_5_1"/>
+                <RegionRefIndexed index="9" regionRef="r_6_1"/>
+                <RegionRefIndexed index="11" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_3_1"/>
+                <RegionRef regionRef="r_4_1"/>
+                <RegionRef regionRef="r_5_1"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r_1" custom="readingOrder {index:0;} structure {type:header;}">
+            <Coords points="63,194 480,194 480,307 63,307"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;} date {offset:0; length:16;}">
+                <Coords points="76,283 176,275 300,290 318,275 413,283 442,270 442,254 392,231 331,231 309,254 272,234 185,234 173,246 141,228 120,245 76,234"/>
+                <Baseline points="84,275 109,273 134,273 159,273 184,272 209,273 234,273 259,273 284,273 309,273 334,273 359,273 384,273 409,273 434,273"/>
+                <TextEquiv>
+                    <Unicode>2 de Junio, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:1;} structure {type:page-number;}">
+            <Coords points="2109,232 2414,232 2414,280 2109,280"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;}">
+                <Coords points="2103,283 2236,274 2259,282 2345,267 2406,282 2419,276 2419,224 2369,228 2351,246 2331,246 2311,227 2242,235 2103,228"/>
+                <Baseline points="2111,269 2136,269 2161,270 2186,269 2211,269 2236,269 2261,267 2286,267 2311,267 2336,267 2361,267 2386,268 2411,269"/>
+                <TextEquiv>
+                    <Unicode>SEMANA—17</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>SEMANA—17</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:2;} structure {type:heading;}">
+            <Coords points="72,329 1606,335 1603,629 75,629"/>
+            <TextLine id="r_2_1l2" custom="readingOrder {index:0;}">
+                <Coords points="88,461 1215,468 1254,397 1115,438 995,391 947,438 894,390 657,390 595,437 548,392 455,389 402,438 359,395 256,389 88,440"/>
+                <Baseline points="95,456 152,456 210,455 267,455 325,454 383,453 440,453 498,453 555,453 613,453 671,453 728,453 786,453 843,453 901,453 959,453 1016,453 1074,455 1131,455 1189,455 1247,456"/>
+                <TextEquiv>
+                    <Unicode>Dicen ser dueños de los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l3" custom="readingOrder {index:1;}">
+                <Coords points="375,619 1591,628 1600,549 1342,555 1298,599 1065,534 1016,578 431,540 375,578"/>
+                <Baseline points="383,617 443,615 503,615 564,615 624,614 685,614 745,614 806,614 866,614 927,614 987,614 1047,615 1108,615 1168,615 1229,615 1289,615 1350,615 1410,615 1471,615 1531,614 1592,614"/>
+                <TextEquiv>
+                    <Unicode>terrenos de la Casa Blanca</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>2 de Junio, 1949SSicen ser quenos ac tosterrenos de la Lasa Osanca</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:3;} structure {type:credit;}">
+            <Coords points="910,680 1584,680 1584,844 910,844"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;} person {offset:4; length:12; continued:true;}">
+                <Coords points="1000,761 1074,764 1097,750 1110,764 1476,764 1500,750 1500,712 1000,715"/>
+                <Baseline points="1008,749 1033,749 1059,749 1084,749 1110,749 1135,749 1161,749 1186,750 1212,750 1237,750 1263,750 1288,750 1314,750 1339,749 1365,749 1390,749 1416,749 1441,749 1467,749 1493,749"/>
+                <TextEquiv>
+                    <Unicode>Por HECTOR LICUD</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l2" custom="readingOrder {index:1;}">
+                <Coords points="939,807 1527,818 1542,763 939,774"/>
+                <Baseline points="947,803 976,803 1005,803 1035,803 1064,804 1094,804 1123,804 1152,804 1182,804 1211,804 1241,804 1270,804 1299,805 1329,806 1358,806 1388,806 1417,804 1446,804 1476,804 1505,804 1535,803"/>
+                <TextEquiv>
+                    <Unicode>Corresponsal de REUTERS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_3_1" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="64,713 797,713 797,1781 64,1781"/>
+            <TextLine id="r_3_1l1" custom="readingOrder {index:0;} place {offset:0; length:6;} person {offset:13; length:5; continued:true;}">
+                <Coords points="122,764 798,754 798,722 741,713 653,733 618,712 564,733 449,731 421,710 122,714"/>
+                <Baseline points="129,749 162,749 195,749 228,749 261,749 294,749 327,749 360,749 393,749 426,749 460,749 493,749 526,749 559,749 592,749 625,749 658,749 691,749 724,749 757,747 791,747"/>
+                <TextEquiv>
+                    <Unicode>MADRID, — El Señor</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l2" custom="readingOrder {index:1;} person {offset:0; length:8; continued:true;} person {offset:11; length:14; continued:true;}">
+                <Coords points="75,818 229,823 273,800 304,822 337,791 412,819 447,800 494,819 800,811 800,773 688,764 555,765 532,787 485,763 458,786 406,763 75,765"/>
+                <Baseline points="83,803 118,804 153,804 189,804 224,804 260,804 295,804 331,804 366,804 402,804 437,803 472,803 508,803 543,803 579,803 614,803 650,803 685,803 721,803 756,804 792,804"/>
+                <TextEquiv>
+                    <Unicode>Sanjurjo y Nin de Cardona</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l3" custom="readingOrder {index:2;} person {offset:0; length:8; continued:true;}">
+                <Coords points="76,867 802,866 802,828 766,819 545,819 525,839 391,820 289,847 76,820"/>
+                <Baseline points="84,857 119,857 155,858 190,858 226,858 261,858 297,858 332,858 368,858 403,857 439,857 475,857 510,857 546,857 581,857 617,857 652,857 688,857 723,858 759,858 795,858"/>
+                <TextEquiv>
+                    <Unicode>Jándenes, español y descendiente</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l4" custom="readingOrder {index:3;} person {offset:3; length:23;}">
+                <Coords points="77,923 786,920 786,885 715,896 685,867 561,890 77,876"/>
+                <Baseline points="84,911 118,911 153,911 188,911 223,912 257,911 292,911 327,911 362,911 396,911 431,911 466,909 501,909 535,909 570,909 605,909 640,909 674,911 709,911 744,912 779,912"/>
+                <TextEquiv>
+                    <Unicode>de Don José Jáudenes Nebot, re¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l5" custom="readingOrder {index:4;}">
+                <Coords points="64,972 796,971 796,945 723,926 695,943 406,923 64,939"/>
+                <Baseline points="72,966 107,965 143,965 179,965 215,965 251,965 286,963 322,963 358,963 394,963 430,963 465,963 501,963 537,963 573,963 609,963 644,963 680,963 716,963 752,963 788,962"/>
+                <TextEquiv>
+                    <Unicode>clama la propiedad del terreno don¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l6" custom="readingOrder {index:5;}">
+                <Coords points="76,1030 802,1025 802,994 766,978 723,1007 615,979 545,1000 448,978 423,1002 391,979 76,979"/>
+                <Baseline points="83,1017 118,1017 154,1016 189,1016 225,1016 261,1016 296,1017 332,1017 367,1017 403,1017 439,1019 474,1019 510,1019 545,1019 581,1020 617,1020 652,1020 688,1019 723,1019 759,1019 795,1017"/>
+                <TextEquiv>
+                    <Unicode>de se edificó la Casa Blanca, de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l7" custom="readingOrder {index:6;} place {offset:0; length:10;}">
+                <Coords points="82,1083 796,1076 796,1046 737,1036 82,1035"/>
+                <Baseline points="89,1068 124,1069 159,1070 194,1070 229,1070 264,1070 299,1070 334,1071 369,1071 404,1071 439,1071 474,1071 509,1071 544,1071 579,1071 614,1071 649,1071 684,1071 719,1071 754,1071 789,1070"/>
+                <TextEquiv>
+                    <Unicode>Washington, residencia de los Pre¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l8" custom="readingOrder {index:7;} person {offset:26; length:6; continued:true;}">
+                <Coords points="65,1131 785,1132 785,1101 744,1082 637,1114 480,1085 65,1100"/>
+                <Baseline points="72,1124 107,1124 142,1124 177,1124 213,1124 248,1124 283,1124 318,1125 354,1125 389,1125 424,1125 459,1125 495,1125 530,1125 565,1125 600,1125 636,1125 671,1125 706,1125 741,1124 777,1124"/>
+                <TextEquiv>
+                    <Unicode>sidentes norteamericanos. Jáude¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l9" custom="readingOrder {index:8;} person {offset:0; length:9; continued:true;} place {offset:21; length:10;}">
+                <Coords points="73,1186 793,1187 793,1148 733,1138 465,1162 442,1139 73,1147"/>
+                <Baseline points="80,1176 115,1176 150,1176 185,1175 221,1175 256,1176 291,1176 326,1176 362,1176 397,1176 432,1176 467,1176 503,1176 538,1176 573,1176 608,1178 644,1178 679,1178 714,1178 749,1178 785,1176"/>
+                <TextEquiv>
+                    <Unicode>nes Nebot ejerció en Washington</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l10" custom="readingOrder {index:9;}">
+                <Coords points="64,1236 766,1244 799,1233 799,1202 64,1204"/>
+                <Baseline points="71,1232 107,1230 143,1230 179,1230 215,1230 251,1230 287,1230 323,1230 359,1230 395,1230 431,1232 467,1232 503,1232 539,1232 575,1232 611,1232 647,1232 683,1232 719,1230 755,1229 792,1227"/>
+                <TextEquiv>
+                    <Unicode>una misión diplomática por encar¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l11" custom="readingOrder {index:10;} person {offset:11; length:9;} date {offset:28; length:5; continued:true;}">
+                <Coords points="73,1298 793,1292 793,1258 755,1242 648,1244 619,1270 525,1244 73,1251"/>
+                <Baseline points="80,1284 115,1284 150,1283 185,1283 221,1283 256,1283 291,1283 326,1283 362,1283 397,1283 432,1283 467,1284 503,1284 538,1284 573,1284 608,1284 644,1284 679,1284 714,1284 749,1283 785,1283"/>
+                <TextEquiv>
+                    <Unicode>go del Rey Carlos IV, en el Siglo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l12" custom="readingOrder {index:11;} date {offset:0; length:5; continued:true;}">
+                <Coords points="75,1348 790,1342 790,1311 742,1301 75,1301"/>
+                <Baseline points="83,1335 119,1335 156,1335 193,1337 230,1337 266,1337 303,1337 340,1337 377,1338 414,1338 450,1338 487,1338 524,1338 561,1338 598,1338 634,1338 671,1338 708,1338 745,1338 782,1338"/>
+                <TextEquiv>
+                    <Unicode>XVIII, y dejó al morir una fortu¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l13" custom="readingOrder {index:12;}">
+                <Coords points="65,1404 791,1396 767,1362 667,1374 632,1356 422,1353 365,1377 316,1354 65,1365"/>
+                <Baseline points="72,1388 107,1388 143,1389 178,1389 214,1389 249,1389 285,1391 320,1391 356,1391 391,1391 427,1391 463,1391 498,1392 534,1392 569,1392 605,1392 640,1392 676,1392 711,1392 747,1391 783,1391"/>
+                <TextEquiv>
+                    <Unicode>na que en la actualidad de supo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l14" custom="readingOrder {index:13;}">
+                <Coords points="70,1451 802,1448 802,1421 769,1410 515,1421 495,1404 465,1433 403,1411 338,1433 303,1411 271,1432 184,1404 137,1429 70,1411"/>
+                <Baseline points="78,1442 113,1442 149,1443 185,1443 221,1443 257,1443 293,1443 328,1443 364,1443 400,1443 436,1443 472,1443 508,1443 544,1443 579,1443 615,1443 651,1443 687,1443 723,1443 759,1443 795,1443"/>
+                <TextEquiv>
+                    <Unicode>ne llega a unos 1.200.000.000</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l15" custom="readingOrder {index:14;}">
+                <Coords points="69,1507 789,1507 767,1459 69,1462"/>
+                <Baseline points="77,1496 112,1496 147,1494 182,1494 218,1494 253,1494 288,1494 323,1495 359,1496 394,1496 429,1496 464,1497 500,1497 535,1497 570,1499 605,1499 641,1499 676,1499 711,1499 746,1499 782,1499"/>
+                <TextEquiv>
+                    <Unicode>de pesetas, constituida principal¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l16" custom="readingOrder {index:15;}">
+                <Coords points="60,1555 774,1564 788,1522 60,1520"/>
+                <Baseline points="68,1545 103,1547 139,1547 174,1548 210,1548 246,1548 281,1550 317,1550 352,1550 388,1550 424,1550 459,1550 495,1551 530,1551 566,1551 602,1551 637,1551 673,1551 708,1551 744,1550 780,1550"/>
+                <TextEquiv>
+                    <Unicode>mente por terrenos en la ciudad de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l17" custom="readingOrder {index:16;} place {offset:0; length:10;}">
+                <Coords points="63,1602 787,1611 787,1588 742,1570 674,1591 615,1569 582,1585 550,1564 360,1564 331,1589 260,1563 63,1566"/>
+                <Baseline points="71,1598 106,1599 141,1600 177,1601 212,1601 248,1602 283,1602 318,1602 354,1602 389,1602 425,1604 460,1604 495,1604 531,1604 566,1604 602,1604 637,1604 672,1604 708,1604 743,1605 779,1605"/>
+                <TextEquiv>
+                    <Unicode>Washington, incluyendo los sola¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l18" custom="readingOrder {index:17;}">
+                <Coords points="63,1660 798,1661 779,1627 678,1619 581,1637 543,1620 517,1637 470,1620 63,1627"/>
+                <Baseline points="71,1652 107,1652 143,1653 179,1653 215,1654 251,1655 287,1655 323,1655 359,1655 395,1656 431,1656 467,1656 503,1656 539,1656 575,1657 611,1658 647,1658 683,1658 719,1658 755,1659 791,1659"/>
+                <TextEquiv>
+                    <Unicode>res donde luego hubo de edificarse</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l19" custom="readingOrder {index:18;} person {offset:19; length:13; continued:true;}">
+                <Coords points="57,1714 620,1713 703,1732 791,1715 774,1683 721,1676 432,1669 394,1698 278,1667 57,1674"/>
+                <Baseline points="65,1709 100,1709 136,1709 172,1709 208,1709 244,1709 280,1709 316,1709 352,1709 388,1709 424,1709 459,1709 495,1709 531,1710 567,1710 603,1710 639,1710 675,1710 711,1710 747,1710 783,1710"/>
+                <TextEquiv>
+                    <Unicode>la Casa Blanca. El Señor Sanjur¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l20" custom="readingOrder {index:19;} person {offset:0; length:2; continued:true;}">
+                <Coords points="68,1779 800,1771 800,1747 734,1724 502,1740 417,1723 395,1744 68,1723"/>
+                <Baseline points="75,1763 110,1762 146,1761 182,1761 218,1761 254,1761 290,1761 325,1761 361,1761 397,1763 433,1763 469,1763 505,1763 541,1764 576,1764 612,1764 648,1764 684,1766 720,1766 756,1766 792,1767"/>
+                <TextEquiv>
+                    <Unicode>jo anunció que dispone de títulos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>MA.DRID, — El SeñorSanjurjo y Nin de CardonaJándenes, español y descendientede Don José Jáudenes Nebot, re¬clama la propiedad del terreno don¬de se edificó la Casa Blanca, deWashington, residencia de los Pre¬sidentes norteamericanos. Jáude¬nes Nebot ejerció en Washingtonuna misión diplomática por encar¬go del Rey Carlos IV, en el SigloXVIII, y dejó al morir una fortu¬na que en la actualidad de supo¬ne llega a unos 1.200.000.000de pesetas, constituida principal¬mente por terrenos en la ciudad deWashington, incluyendo los sola¬res donde luego hubo de edificarsela Casa Blanca. El Señor Sanjur¬jo anunció que dispone de títulos</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="868,856 1611,853 1608,1784 874,1784"/>
+            <TextLine id="r_4_1l3" custom="readingOrder {index:0;}">
+                <Coords points="873,910 1600,923 1600,883 1528,867 873,877"/>
+                <Baseline points="881,909 916,909 952,909 987,909 1023,909 1059,909 1094,909 1130,909 1165,909 1201,909 1237,909 1272,909 1308,909 1343,909 1379,909 1415,909 1450,910 1486,911 1521,911 1557,912 1593,912"/>
+                <TextEquiv>
+                    <Unicode>de propiedad, árboles genealógicos,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l4" custom="readingOrder {index:1;}">
+                <Coords points="873,972 1584,973 1597,930 873,934"/>
+                <Baseline points="881,962 916,962 951,962 987,962 1022,962 1058,962 1093,962 1128,962 1164,962 1199,962 1235,962 1270,962 1305,963 1341,963 1376,963 1412,963 1447,963 1482,963 1518,963 1553,962 1589,962"/>
+                <TextEquiv>
+                    <Unicode>y de toda la documentación histó¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l5" custom="readingOrder {index:2;}">
+                <Coords points="882,1028 1597,1023 1597,988 1566,979 1476,998 1396,978 1262,998 882,987"/>
+                <Baseline points="890,1013 925,1013 960,1013 995,1013 1030,1014 1065,1014 1100,1014 1135,1014 1170,1015 1205,1016 1240,1016 1275,1016 1310,1016 1345,1016 1380,1017 1415,1017 1450,1017 1485,1016 1520,1016 1555,1016 1590,1016"/>
+                <TextEquiv>
+                    <Unicode>rica precisa para acreditar el de¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l6" custom="readingOrder {index:3;}">
+                <Coords points="876,1075 988,1084 1003,1072 1023,1087 1088,1075 1277,1082 1277,1057 1255,1041 1197,1043 1176,1029 1137,1042 973,1043 945,1027 931,1041 876,1042"/>
+                <Baseline points="884,1067 909,1067 935,1067 961,1067 986,1067 1012,1067 1038,1067 1063,1067 1089,1067 1115,1068 1140,1068 1166,1068 1192,1068 1217,1068 1243,1070 1269,1070"/>
+                <TextEquiv>
+                    <Unicode>recho que reclama.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l7" custom="readingOrder {index:4;}">
+                <Coords points="921,1130 1606,1130 1606,1105 1567,1082 1519,1108 1479,1083 1319,1099 1290,1082 1272,1101 921,1083"/>
+                <Baseline points="929,1119 962,1121 995,1121 1029,1121 1062,1121 1096,1122 1129,1122 1163,1122 1196,1124 1230,1124 1263,1124 1296,1124 1330,1124 1363,1125 1397,1125 1430,1125 1464,1124 1497,1124 1531,1124 1564,1122 1598,1122"/>
+                <TextEquiv>
+                    <Unicode>Inmediatamente después de cii¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l8" custom="readingOrder {index:5;} place {offset:23; length:6;}">
+                <Coords points="879,1183 1536,1195 1596,1184 1597,1142 1544,1164 1502,1139 1294,1161 1256,1139 1126,1156 1079,1140 1025,1162 934,1131 880,1149"/>
+                <Baseline points="887,1172 922,1172 957,1172 992,1172 1027,1173 1062,1173 1097,1174 1132,1175 1167,1175 1202,1176 1238,1176 1273,1176 1308,1178 1343,1178 1378,1178 1413,1178 1448,1178 1483,1178 1518,1178 1553,1178 1589,1178"/>
+                <TextEquiv>
+                    <Unicode>culada esta noticia en España, el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l9" custom="readingOrder {index:6;}">
+                <Coords points="880,1243 1053,1220 1239,1244 1606,1239 1606,1201 1479,1190 1443,1207 1390,1188 1360,1218 1296,1188 1233,1188 1195,1216 1147,1195 880,1196"/>
+                <Baseline points="888,1229 923,1227 959,1227 994,1227 1030,1227 1065,1227 1101,1227 1136,1227 1172,1227 1207,1227 1243,1227 1279,1229 1314,1229 1350,1229 1385,1229 1421,1229 1456,1230 1492,1230 1527,1230 1563,1230 1599,1229"/>
+                <TextEquiv>
+                    <Unicode>popular actor cómico del Teatro</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l10" custom="readingOrder {index:7;} person {offset:8; length:21;}">
+                <Coords points="868,1287 1609,1284 1582,1251 1429,1242 1328,1259 1063,1244 1039,1268 997,1243 868,1244"/>
+                <Baseline points="876,1280 912,1280 948,1280 984,1280 1021,1280 1057,1280 1093,1280 1130,1280 1166,1280 1202,1281 1239,1281 1275,1281 1311,1281 1347,1283 1384,1283 1420,1283 1456,1283 1493,1283 1529,1283 1565,1281 1602,1281"/>
+                <TextEquiv>
+                    <Unicode>Martín, José Alvarez Jáudenes co¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l11" custom="readingOrder {index:8;} person {offset:12; length:4;}">
+                <Coords points="874,1347 1024,1333 1051,1356 1131,1321 1217,1353 1517,1337 1539,1355 1597,1348 1597,1305 874,1308"/>
+                <Baseline points="882,1334 917,1334 952,1334 988,1334 1023,1334 1059,1334 1094,1334 1129,1334 1165,1334 1200,1334 1236,1334 1271,1334 1306,1335 1342,1335 1377,1335 1413,1335 1448,1336 1483,1337 1519,1337 1554,1337 1590,1337"/>
+                <TextEquiv>
+                    <Unicode>nocido por "Lepe" manifestó que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l12" custom="readingOrder {index:9;}">
+                <Coords points="880,1396 1606,1395 1606,1371 1560,1352 1404,1368 880,1346"/>
+                <Baseline points="888,1385 923,1386 959,1386 994,1386 1030,1386 1065,1388 1101,1388 1136,1388 1172,1388 1207,1389 1243,1389 1279,1389 1314,1389 1350,1389 1385,1391 1421,1391 1456,1391 1492,1391 1527,1391 1563,1391 1599,1391"/>
+                <TextEquiv>
+                    <Unicode>él es uno de los herederos de los te¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l13" custom="readingOrder {index:10;}">
+                <Coords points="870,1450 1567,1460 1600,1443 1569,1404 1417,1403 1396,1425 1296,1403 870,1411"/>
+                <Baseline points="878,1439 913,1439 949,1440 985,1440 1020,1442 1056,1442 1092,1442 1127,1442 1163,1443 1199,1443 1235,1443 1270,1443 1306,1443 1342,1443 1377,1442 1413,1442 1449,1442 1484,1442 1520,1442 1556,1442 1592,1442"/>
+                <TextEquiv>
+                    <Unicode>rrenos de la Casa Blanca de Wash-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l14" custom="readingOrder {index:11;}">
+                <Coords points="876,1508 1590,1505 1573,1466 1343,1459 1159,1483 1121,1459 1047,1459 1026,1481 876,1468"/>
+                <Baseline points="884,1499 920,1500 957,1500 994,1500 1031,1500 1067,1500 1104,1500 1141,1499 1178,1499 1215,1499 1251,1499 1288,1499 1325,1497 1362,1497 1399,1497 1435,1496 1472,1496 1509,1496 1546,1496 1583,1496"/>
+                <TextEquiv>
+                    <Unicode>nigton, junto con una hermana su¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l15" custom="readingOrder {index:12;}">
+                <Coords points="868,1571 1581,1564 1597,1520 1550,1540 1503,1514 1175,1515 1121,1538 968,1523 950,1542 868,1523"/>
+                <Baseline points="876,1557 911,1556 947,1554 983,1554 1018,1553 1054,1553 1090,1551 1125,1551 1161,1551 1197,1551 1233,1551 1268,1551 1304,1551 1340,1551 1375,1551 1411,1551 1447,1551 1482,1551 1518,1551 1554,1551 1590,1551"/>
+                <TextEquiv>
+                    <Unicode>ya, que es religiosa trinitaria, y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l16" custom="readingOrder {index:13;} person {offset:17; length:14;}">
+                <Coords points="877,1620 1394,1601 1573,1620 1594,1617 1594,1573 877,1579"/>
+                <Baseline points="884,1607 919,1607 954,1606 989,1605 1024,1605 1059,1605 1094,1605 1129,1605 1164,1604 1199,1604 1235,1604 1270,1604 1305,1604 1340,1604 1375,1604 1410,1604 1445,1604 1480,1604 1515,1604 1550,1604 1586,1604"/>
+                <TextEquiv>
+                    <Unicode>con el ingeniero D. José Trueba y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l17" custom="readingOrder {index:14;} person {offset:0; length:7;} organization {offset:18; length:14; continued:true;}">
+                <Coords points="877,1669 1542,1669 1595,1659 1595,1633 876,1628"/>
+                <Baseline points="885,1659 920,1659 955,1659 990,1659 1025,1659 1060,1659 1095,1659 1130,1658 1165,1658 1200,1658 1236,1658 1271,1657 1306,1656 1341,1656 1376,1656 1411,1655 1446,1655 1481,1655 1516,1653 1551,1653 1587,1653"/>
+                <TextEquiv>
+                    <Unicode>Aguirre, Jefe del Servicio Nacio</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l18" custom="readingOrder {index:15;} organization {offset:0; length:25; continued:true;}">
+                <Coords points="876,1722 1268,1724 1315,1704 1430,1732 1506,1711 1596,1723 1596,1677 1564,1667 1531,1698 1366,1674 876,1684"/>
+                <Baseline points="884,1715 919,1715 954,1713 989,1713 1025,1713 1060,1712 1095,1712 1130,1712 1166,1710 1201,1710 1236,1710 1271,1710 1307,1710 1342,1710 1377,1709 1412,1709 1448,1710 1483,1710 1518,1710 1553,1710 1589,1712"/>
+                <TextEquiv>
+                    <Unicode>nal Agronómico de Vizcaya. Se</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l19" custom="readingOrder {index:16;}">
+                <Coords points="877,1780 1599,1772 1609,1735 877,1737"/>
+                <Baseline points="885,1766 920,1767 956,1767 992,1767 1028,1767 1064,1767 1100,1766 1135,1766 1171,1766 1207,1766 1243,1764 1279,1764 1315,1763 1351,1763 1386,1763 1422,1761 1458,1761 1494,1761 1530,1761 1566,1761 1602,1761"/>
+                <TextEquiv>
+                    <Unicode>dice que los primitivos dueños de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Por HECTOR LICUDCorresponsal de REUTERSde propiedad, árboles genealógicos,y de toda la documentación histó¬rica precisa para acreditar el de¬recho que reclama.Inmediatamente después de cii¬culada esta noticia en España, elpopular actor cómico del TeatroMartín, José Alvarez Jáudenes co¬nocido por "Lepe" manifestó queél es uno de los herederos de los te¬rrenos de la Casa Blanca de Wask-nigton, junto con una hermana su¬ya, que es religiosa trinitaria, ycon el ingeniero D. José Trueba yAguirre, Jefe del Servicio Nacional Agronómico de Vizcaya. Sedice que los primitivos dueños de</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:6;}">
+            <Coords points="317,291 2408,291 2408,300 317,300"/>
+        </SeparatorRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_5_1" custom="readingOrder {index:7;} structure {type:paragraph;}">
+            <Coords points="1682,345 2418,345 2418,3249 1682,3249"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1682,386 2414,387 2414,358 2293,339 2060,360 1682,351"/>
+                <Baseline points="1689,381 1724,381 1760,383 1796,383 1832,383 1868,383 1904,383 1939,383 1975,383 2011,381 2047,381 2083,381 2119,381 2155,381 2190,381 2226,381 2262,380 2298,380 2334,380 2370,380 2406,380"/>
+                <TextEquiv>
+                    <Unicode>esta gran fortuna murieron sin tes¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1683,434 2413,447 2413,404 2380,395 1683,408"/>
+                <Baseline points="1691,435 1726,434 1762,434 1798,434 1833,434 1869,434 1905,432 1940,432 1976,432 2012,433 2048,434 2083,434 2119,434 2155,434 2190,434 2226,434 2262,434 2297,434 2333,435 2369,435 2405,435"/>
+                <TextEquiv>
+                    <Unicode>tar y que el asunto de la herencia</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1697,501 2411,495 2411,467 2363,451 2146,451 2111,476 2057,451 1697,458"/>
+                <Baseline points="1704,488 1740,488 1777,488 1814,488 1851,488 1887,488 1924,488 1961,488 1998,488 2035,488 2071,488 2108,488 2145,488 2182,488 2219,488 2255,488 2292,488 2329,488 2366,488 2403,488"/>
+                <TextEquiv>
+                    <Unicode>estaba ya olvidado. Los propieta¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l4" custom="readingOrder {index:3;} date {offset:11; length:11;} person {offset:30; length:2; continued:true;}">
+                <Coords points="1689,551 2387,554 2409,551 2409,510 1689,516"/>
+                <Baseline points="1697,540 1732,540 1767,540 1802,540 1838,540 1873,540 1908,540 1943,540 1979,540 2014,540 2049,540 2084,540 2120,540 2155,540 2190,540 2225,540 2261,540 2296,540 2331,540 2366,540 2402,540"/>
+                <TextEquiv>
+                    <Unicode>rios en el siglo XVIII fueron D.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l5" custom="readingOrder {index:4;} person {offset:0; length:19; continued:true;}">
+                <Coords points="1696,607 2416,596 2416,566 2389,555 2230,572 2195,555 2164,582 2088,555 2005,574 1696,556"/>
+                <Baseline points="1704,594 1739,594 1774,593 1809,593 1844,593 1880,593 1915,593 1950,593 1985,593 2020,594 2056,594 2091,594 2126,594 2161,594 2196,594 2232,594 2267,594 2302,594 2337,594 2372,594 2408,593"/>
+                <TextEquiv>
+                    <Unicode>José Jáudenes Nebot, el diplomá¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l6" custom="readingOrder {index:5;} place {offset:15; length:10;}">
+                <Coords points="1688,653 2414,651 2393,613 2089,604 1983,635 1942,611 1688,609"/>
+                <Baseline points="1695,645 1730,645 1766,645 1801,645 1837,645 1872,647 1908,647 1943,647 1979,647 2014,647 2050,647 2086,648 2121,648 2157,648 2192,648 2228,648 2263,648 2299,648 2334,648 2370,647 2406,647"/>
+                <TextEquiv>
+                    <Unicode>tico enviado a Washington por</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l7" custom="readingOrder {index:6;} person {offset:0; length:9;} person {offset:23; length:8; continued:true;}">
+                <Coords points="1696,712 2422,700 2373,659 1978,679 1696,659"/>
+                <Baseline points="1703,699 1738,699 1774,699 1809,699 1845,699 1880,699 1916,699 1951,699 1987,699 2022,699 2058,699 2094,699 2129,699 2165,699 2200,699 2236,699 2271,699 2307,699 2342,699 2378,699 2414,699"/>
+                <TextEquiv>
+                    <Unicode>Carlos IV, y su esposa Doña Ma¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l8" custom="readingOrder {index:7;} person {offset:0; length:24; continued:true;}">
+                <Coords points="1685,755 2223,772 2417,754 2400,725 2331,714 1685,725"/>
+                <Baseline points="1692,753 1727,752 1763,752 1799,752 1835,752 1871,752 1907,752 1942,752 1978,752 2014,753 2050,753 2086,753 2122,753 2158,753 2193,753 2229,753 2265,753 2301,752 2337,752 2373,752 2409,750"/>
+                <TextEquiv>
+                    <Unicode>tilde Stoughton Fletcher, bisabue¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l9" custom="readingOrder {index:8;} person {offset:15; length:19; continued:true;}">
+                <Coords points="1696,820 2419,811 2419,788 2368,765 2268,782 1696,769"/>
+                <Baseline points="1703,806 1738,806 1773,806 1809,806 1844,806 1880,806 1915,806 1950,807 1986,807 2021,807 2057,807 2092,807 2127,807 2163,807 2198,807 2234,806 2269,806 2304,806 2340,806 2375,805 2411,804"/>
+                <TextEquiv>
+                    <Unicode>los del doctor José Alvarez Jáude¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l10" custom="readingOrder {index:9;} person {offset:0; length:3; continued:true;}">
+                <Coords points="1684,865 2389,868 2413,866 2413,827 1684,832"/>
+                <Baseline points="1691,858 1726,858 1762,860 1798,860 1834,860 1869,860 1905,860 1941,861 1977,861 2012,861 2048,861 2084,861 2120,861 2155,860 2191,860 2227,860 2263,860 2298,860 2334,860 2370,860 2406,860"/>
+                <TextEquiv>
+                    <Unicode>nes, su hermana y el señor Trueba</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l11" custom="readingOrder {index:10;} person {offset:2; length:7;}">
+                <Coords points="1684,931 1711,932 1729,913 1775,932 1806,924 1820,931 1829,923 1924,923 1924,895 1898,882 1851,883 1843,876 1777,885 1751,875 1739,887 1683,885"/>
+                <Baseline points="1691,917 1716,915 1741,915 1766,914 1791,914 1816,912 1841,912 1866,912 1891,912 1917,912"/>
+                <TextEquiv>
+                    <Unicode>y Aguirre.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l12" custom="readingOrder {index:11;}">
+                <Coords points="1737,994 2344,1003 2423,986 2423,964 2374,951 2104,946 2072,965 1992,939 1910,963 1871,940 1738,939"/>
+                <Baseline points="1745,980 1778,980 1812,980 1845,980 1879,980 1912,981 1946,981 1979,981 2013,982 2046,983 2080,983 2113,983 2147,983 2180,984 2214,984 2247,984 2281,983 2314,983 2348,983 2381,981 2415,981"/>
+                <TextEquiv>
+                    <Unicode>Pero la noticia de que los pro¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l13" custom="readingOrder {index:12;}">
+                <Coords points="1698,1051 1966,1030 2065,1051 2421,1042 2421,995 2128,995 2101,1021 2055,995 1699,1004"/>
+                <Baseline points="1706,1035 1741,1035 1776,1035 1812,1035 1847,1035 1883,1034 1918,1034 1953,1034 1989,1034 2024,1034 2060,1034 2095,1035 2130,1035 2166,1035 2201,1035 2237,1035 2272,1035 2307,1035 2343,1035 2378,1034 2414,1034"/>
+                <TextEquiv>
+                    <Unicode>pietarios de dicha fortuna en el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l14" custom="readingOrder {index:13;} date {offset:0; length:11;}">
+                <Coords points="1693,1100 2422,1092 2422,1062 2359,1051 1693,1059"/>
+                <Baseline points="1700,1088 1735,1088 1771,1088 1807,1087 1842,1086 1878,1086 1914,1086 1949,1086 1985,1086 2021,1088 2057,1088 2092,1088 2128,1088 2164,1088 2199,1088 2235,1089 2271,1089 2306,1089 2342,1089 2378,1089 2414,1089"/>
+                <TextEquiv>
+                    <Unicode>siglo XVIII murieron sin testar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l15" custom="readingOrder {index:14;}">
+                <Coords points="1689,1151 2410,1146 2410,1117 2382,1109 2100,1121 1795,1100 1755,1124 1689,1099"/>
+                <Baseline points="1697,1140 1732,1140 1767,1140 1802,1140 1838,1139 1873,1139 1908,1140 1944,1140 1979,1140 2014,1140 2050,1142 2085,1142 2120,1142 2155,1142 2191,1143 2226,1143 2261,1143 2297,1143 2332,1143 2367,1142 2403,1142"/>
+                <TextEquiv>
+                    <Unicode>ha sido desmentida luego en Bar¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l16" custom="readingOrder {index:15;} person {offset:11; length:17; continued:true;}">
+                <Coords points="1686,1203 2414,1196 2368,1155 2293,1156 2258,1185 2203,1156 2089,1155 2064,1179 1999,1155 1833,1181 1751,1155 1686,1166"/>
+                <Baseline points="1694,1194 1729,1194 1765,1194 1800,1194 1836,1194 1872,1194 1907,1194 1943,1194 1978,1194 2014,1195 2050,1196 2085,1196 2121,1196 2156,1196 2192,1196 2228,1196 2263,1196 2299,1196 2334,1196 2370,1196 2406,1196"/>
+                <TextEquiv>
+                    <Unicode>celona por Don Ramón Altola¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l17" custom="readingOrder {index:16;} person {offset:0; length:20; continued:true;}">
+                <Coords points="1687,1267 1838,1243 2151,1267 2175,1249 2198,1267 2419,1256 2419,1222 2381,1211 2174,1235 2062,1211 1687,1219"/>
+                <Baseline points="1694,1251 1729,1250 1765,1248 1801,1247 1837,1247 1873,1247 1909,1247 1944,1247 1980,1247 2016,1247 2052,1247 2088,1247 2124,1248 2160,1248 2195,1248 2231,1248 2267,1248 2303,1248 2339,1248 2375,1248 2411,1248"/>
+                <TextEquiv>
+                    <Unicode>guirre Olea Jáudenes, que reside</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l18" custom="readingOrder {index:17;}">
+                <Coords points="1690,1312 2407,1314 2416,1268 1690,1273"/>
+                <Baseline points="1697,1299 1732,1299 1768,1299 1803,1299 1839,1299 1875,1299 1910,1299 1946,1299 1981,1299 2017,1300 2053,1301 2088,1301 2124,1301 2159,1301 2195,1301 2231,1301 2266,1301 2302,1301 2337,1301 2373,1301 2409,1301"/>
+                <TextEquiv>
+                    <Unicode>en aquella ciudad, y según el cual</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l19" custom="readingOrder {index:18;}">
+                <Coords points="1690,1363 2414,1363 2414,1318 2272,1337 2162,1323 2144,1341 2110,1316 1994,1336 1942,1315 1690,1325"/>
+                <Baseline points="1697,1352 1732,1352 1767,1352 1803,1352 1838,1353 1874,1353 1909,1353 1945,1353 1980,1353 2016,1353 2051,1352 2086,1352 2122,1352 2157,1352 2193,1352 2228,1353 2264,1353 2299,1353 2335,1353 2370,1355 2406,1355"/>
+                <TextEquiv>
+                    <Unicode>el testamenta puede verse en el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l20" custom="readingOrder {index:19;}">
+                <Coords points="1678,1419 2416,1417 2416,1377 2336,1365 2247,1368 2216,1395 2185,1372 2136,1395 2074,1364 1871,1365 1843,1394 1678,1374"/>
+                <Baseline points="1685,1404 1721,1404 1757,1405 1793,1406 1829,1406 1866,1406 1902,1406 1938,1406 1974,1406 2010,1406 2047,1406 2083,1407 2119,1407 2155,1407 2191,1407 2228,1407 2264,1407 2300,1407 2336,1407 2372,1406 2409,1406"/>
+                <TextEquiv>
+                    <Unicode>Museo Arqueológico de Córdoba</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l21" custom="readingOrder {index:20;}">
+                <Coords points="1686,1469 2418,1466 2418,1437 2286,1444 2197,1420 2168,1445 2072,1419 1955,1419 1928,1446 1901,1418 1826,1445 1784,1418 1686,1428"/>
+                <Baseline points="1694,1458 1729,1458 1765,1458 1801,1458 1837,1458 1873,1458 1909,1459 1944,1460 1980,1460 2016,1460 2052,1460 2088,1460 2124,1461 2160,1461 2195,1461 2231,1461 2267,1461 2303,1461 2339,1460 2375,1460 2411,1460"/>
+                <TextEquiv>
+                    <Unicode>donde fué depositado hace unos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l22" custom="readingOrder {index:21;}">
+                <Coords points="1678,1513 1939,1531 2005,1507 2023,1524 2420,1510 2420,1490 2365,1473 1679,1489"/>
+                <Baseline points="1686,1511 1722,1511 1758,1511 1794,1512 1831,1512 1867,1512 1903,1512 1940,1512 1976,1512 2012,1512 2049,1512 2085,1512 2121,1512 2157,1512 2194,1512 2230,1512 2266,1512 2303,1514 2339,1514 2375,1514 2412,1514"/>
+                <TextEquiv>
+                    <Unicode>diez años por los familiares del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l23" custom="readingOrder {index:22;}">
+                <Coords points="1679,1572 2411,1579 2411,1531 2355,1551 2310,1527 1793,1523 1755,1554 1679,1530"/>
+                <Baseline points="1686,1566 1721,1565 1757,1564 1793,1563 1829,1563 1865,1563 1901,1563 1936,1563 1972,1563 2008,1563 2044,1564 2080,1565 2116,1565 2152,1566 2187,1566 2223,1566 2259,1567 2295,1568 2331,1567 2367,1566 2403,1566"/>
+                <TextEquiv>
+                    <Unicode>Sr. Altolaguirre. Por su parte, el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l24" custom="readingOrder {index:23;} person {offset:0; length:10;} person {offset:13; length:7;}">
+                <Coords points="1690,1627 2419,1619 2327,1579 2152,1601 2073,1579 1690,1580"/>
+                <Baseline points="1698,1617 1733,1617 1769,1617 1805,1617 1840,1617 1876,1617 1912,1617 1947,1617 1983,1617 2019,1619 2055,1619 2090,1619 2126,1619 2162,1620 2197,1620 2233,1620 2269,1620 2304,1620 2340,1619 2376,1619 2412,1619"/>
+                <TextEquiv>
+                    <Unicode>Sr. Trueba y Aguirre, que está ca¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l25" custom="readingOrder {index:24;} person {offset:9; length:23; continued:true;}">
+                <Coords points="1682,1684 2405,1674 2405,1648 2359,1635 2291,1654 2178,1634 2151,1660 2113,1632 1682,1646"/>
+                <Baseline points="1689,1671 1724,1670 1759,1670 1795,1670 1830,1670 1866,1670 1901,1670 1936,1671 1972,1671 2007,1671 2043,1671 2078,1671 2113,1673 2149,1673 2184,1673 2220,1673 2255,1673 2290,1673 2326,1671 2361,1671 2397,1670"/>
+                <TextEquiv>
+                    <Unicode>sado con Doña Gloria Araos Alto¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l26" custom="readingOrder {index:25;} person {offset:0; length:8; continued:true;} person {offset:26; length:9; continued:true;}">
+                <Coords points="1686,1732 2410,1730 2410,1708 2351,1689 2200,1706 2129,1689 2111,1707 2072,1683 2046,1707 2010,1686 1686,1684"/>
+                <Baseline points="1694,1724 1729,1724 1764,1724 1800,1724 1835,1724 1871,1724 1906,1724 1942,1725 1977,1725 2013,1725 2048,1725 2083,1725 2119,1725 2154,1725 2190,1725 2225,1725 2261,1725 2296,1725 2332,1725 2367,1724 2403,1724"/>
+                <TextEquiv>
+                    <Unicode>laguirre, biznieta de don José Jáu¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l27" custom="readingOrder {index:26;} person {offset:0; length:11; continued:true;} person {offset:14; length:12; continued:true;}">
+                <Coords points="1684,1787 1797,1791 1827,1765 1856,1790 1959,1792 1995,1768 2024,1796 2063,1765 2134,1791 2417,1780 2383,1739 2249,1740 2222,1767 2174,1740 1684,1748"/>
+                <Baseline points="1691,1778 1726,1776 1762,1776 1798,1776 1834,1776 1870,1776 1906,1776 1942,1776 1978,1776 2014,1776 2050,1778 2085,1778 2121,1778 2157,1778 2193,1779 2229,1779 2265,1779 2301,1779 2337,1779 2373,1778 2409,1778"/>
+                <TextEquiv>
+                    <Unicode>denes Nebot y Doña Matilde</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l28" custom="readingOrder {index:27;} person {offset:0; length:9; continued:true;}">
+                <Coords points="1683,1842 2412,1838 2412,1807 2302,1794 1683,1792"/>
+                <Baseline points="1691,1832 1726,1830 1762,1829 1798,1829 1833,1827 1869,1827 1905,1827 1940,1827 1976,1827 2012,1827 2048,1829 2083,1829 2119,1829 2155,1830 2190,1830 2226,1831 2262,1832 2297,1832 2333,1833 2369,1833 2405,1833"/>
+                <TextEquiv>
+                    <Unicode>Stoughton, recibió la visita de un</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l29" custom="readingOrder {index:28;}">
+                <Coords points="1687,1893 2330,1908 2416,1889 2416,1860 2280,1849 1687,1856"/>
+                <Baseline points="1695,1884 1730,1884 1766,1883 1802,1881 1837,1881 1873,1881 1909,1881 1944,1881 1980,1881 2016,1882 2052,1883 2087,1883 2123,1884 2159,1884 2194,1884 2230,1885 2266,1886 2301,1886 2337,1886 2373,1885 2409,1884"/>
+                <TextEquiv>
+                    <Unicode>abogado estadounidense que le pro¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l30" custom="readingOrder {index:29;}">
+                <Coords points="1689,1955 1795,1936 1925,1956 1983,1932 2379,1953 2404,1923 2351,1900 2260,1917 2224,1899 2199,1923 2159,1903 1690,1907"/>
+                <Baseline points="1697,1937 1733,1937 1770,1935 1807,1935 1844,1935 1880,1935 1917,1935 1954,1935 1991,1935 2028,1936 2064,1937 2101,1937 2138,1937 2175,1938 2212,1938 2248,1939 2285,1940 2322,1940 2359,1940 2396,1940"/>
+                <TextEquiv>
+                    <Unicode>puso trabajar el asunto de la he¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l31" custom="readingOrder {index:30;}">
+                <Coords points="1678,1996 2420,1990 2419,1964 2375,1955 2142,1955 2116,1975 1908,1950 1678,1963"/>
+                <Baseline points="1685,1985 1721,1985 1757,1986 1794,1986 1830,1986 1866,1988 1903,1988 1939,1988 1975,1989 2012,1989 2048,1989 2084,1989 2121,1989 2157,1989 2193,1989 2230,1989 2266,1991 2302,1991 2339,1990 2375,1989 2412,1989"/>
+                <TextEquiv>
+                    <Unicode>rencia mediante un elevado tanto</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l32" custom="readingOrder {index:31;} person {offset:15; length:12;}">
+                <Coords points="1677,2056 1768,2035 1829,2058 2152,2057 2174,2039 2201,2059 2404,2055 2404,2017 2374,2002 2353,2019 1976,2003 1949,2030 1877,2002 1677,2013"/>
+                <Baseline points="1685,2042 1720,2040 1756,2040 1791,2040 1827,2040 1862,2040 1898,2040 1933,2040 1969,2040 2004,2041 2040,2042 2076,2042 2111,2042 2147,2043 2182,2043 2218,2043 2253,2043 2289,2043 2324,2043 2360,2043 2396,2042"/>
+                <TextEquiv>
+                    <Unicode>por ciento. El Señor Trueba le</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l33" custom="readingOrder {index:32;}">
+                <Coords points="1686,2107 2420,2100 2376,2059 2267,2079 1847,2055 1686,2068"/>
+                <Baseline points="1694,2091 1729,2091 1765,2091 1801,2091 1837,2091 1873,2093 1909,2093 1945,2093 1981,2093 2017,2093 2053,2093 2088,2094 2124,2094 2160,2094 2196,2094 2232,2094 2268,2096 2304,2096 2340,2096 2376,2097 2412,2099"/>
+                <TextEquiv>
+                    <Unicode>respondió que su esposa no era la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l34" custom="readingOrder {index:33;}">
+                <Coords points="1686,2156 2028,2169 2055,2151 2176,2171 2359,2147 2407,2164 2408,2121 2288,2112 2259,2137 1686,2112"/>
+                <Baseline points="1694,2148 1729,2147 1764,2145 1799,2144 1835,2144 1870,2144 1905,2144 1941,2145 1976,2145 2011,2147 2047,2147 2082,2147 2117,2148 2152,2148 2188,2150 2223,2150 2258,2150 2294,2150 2329,2148 2364,2147 2400,2145"/>
+                <TextEquiv>
+                    <Unicode>única heredera y que para dar la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l35" custom="readingOrder {index:34;}">
+                <Coords points="1687,2212 2410,2203 2368,2171 2249,2190 2213,2163 1687,2174"/>
+                <Baseline points="1694,2199 1729,2199 1764,2198 1800,2198 1835,2198 1871,2198 1906,2198 1941,2198 1977,2199 2012,2199 2048,2199 2083,2199 2118,2201 2154,2201 2189,2201 2225,2201 2260,2201 2295,2202 2331,2202 2366,2202 2402,2202"/>
+                <TextEquiv>
+                    <Unicode>conformidad necesitaba la anuen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l36" custom="readingOrder {index:35;}">
+                <Coords points="1690,2267 2254,2268 2280,2243 2304,2267 2410,2267 2410,2228 2336,2219 1690,2228"/>
+                <Baseline points="1698,2252 1733,2252 1768,2252 1803,2252 1838,2252 1874,2252 1909,2252 1944,2252 1979,2252 2014,2252 2050,2252 2085,2252 2120,2253 2155,2253 2190,2253 2226,2253 2261,2253 2296,2254 2331,2255 2366,2255 2402,2256"/>
+                <TextEquiv>
+                    <Unicode>cia de todos los herederos. Para</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l37" custom="readingOrder {index:36;} person {offset:9; length:12;}">
+                <Coords points="1678,2316 2410,2317 2410,2282 1678,2279"/>
+                <Baseline points="1685,2304 1720,2303 1756,2303 1792,2303 1828,2303 1864,2303 1900,2303 1936,2303 1972,2303 2008,2303 2044,2303 2079,2304 2115,2304 2151,2304 2187,2305 2223,2306 2259,2306 2295,2306 2331,2307 2367,2307 2403,2307"/>
+                <TextEquiv>
+                    <Unicode>ello, el Señor Trueba se puso en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l38" custom="readingOrder {index:37;} person {offset:23; length:4;}">
+                <Coords points="1688,2372 2169,2360 2246,2379 2301,2350 2345,2374 2414,2356 2414,2337 2304,2323 1688,2331"/>
+                <Baseline points="1695,2358 1730,2357 1766,2357 1801,2356 1837,2355 1872,2355 1908,2355 1943,2355 1979,2355 2014,2355 2050,2356 2086,2357 2121,2357 2157,2357 2192,2357 2228,2357 2263,2357 2299,2357 2334,2357 2370,2357 2406,2357"/>
+                <TextEquiv>
+                    <Unicode>contacto con el actor "Lepe" co¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l39" custom="readingOrder {index:38;}">
+                <Coords points="1677,2421 2382,2426 2404,2393 2151,2372 1678,2380"/>
+                <Baseline points="1685,2409 1720,2409 1756,2408 1791,2408 1827,2408 1862,2408 1898,2408 1933,2408 1969,2409 2004,2409 2040,2409 2076,2409 2111,2409 2147,2409 2182,2409 2218,2411 2253,2411 2289,2411 2324,2411 2360,2411 2396,2412"/>
+                <TextEquiv>
+                    <Unicode>municándole lo tratado en la en¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l40" custom="readingOrder {index:39;}">
+                <Coords points="1677,2473 2234,2484 2411,2464 2383,2435 2279,2428 1677,2433"/>
+                <Baseline points="1685,2462 1720,2462 1756,2462 1792,2462 1828,2462 1864,2462 1900,2462 1936,2462 1972,2462 2008,2462 2044,2463 2079,2463 2115,2463 2151,2463 2187,2463 2223,2463 2259,2463 2295,2463 2331,2462 2367,2462 2403,2460"/>
+                <TextEquiv>
+                    <Unicode>trevista con el citado abogado nor¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l41" custom="readingOrder {index:40;} person {offset:14; length:4;}">
+                <Coords points="1689,2530 1999,2516 2081,2538 2172,2502 2200,2531 2355,2531 2405,2523 2405,2480 2033,2475 1978,2504 1836,2476 1689,2483"/>
+                <Baseline points="1697,2514 1732,2514 1767,2513 1802,2513 1837,2513 1872,2514 1907,2514 1942,2514 1977,2514 2012,2516 2047,2516 2082,2516 2117,2516 2152,2516 2187,2517 2222,2517 2257,2517 2292,2516 2327,2516 2362,2515 2397,2514"/>
+                <TextEquiv>
+                    <Unicode>teamericano. "Lepe” manifestó</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l42" custom="readingOrder {index:41;}">
+                <Coords points="1687,2586 2411,2568 2378,2531 2207,2553 2112,2532 1687,2539"/>
+                <Baseline points="1694,2568 1729,2567 1764,2567 1800,2565 1835,2565 1871,2565 1906,2565 1942,2565 1977,2566 2013,2567 2048,2567 2083,2567 2119,2568 2154,2568 2190,2568 2225,2568 2261,2568 2296,2568 2332,2568 2367,2567 2403,2567"/>
+                <TextEquiv>
+                    <Unicode>que el Señor Sanjurjo no es el úni¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l43" custom="readingOrder {index:42;}">
+                <Coords points="1680,2635 1745,2617 1972,2636 1993,2618 2026,2640 2102,2610 2129,2635 2262,2618 2376,2635 2414,2623 2414,2594 1680,2596"/>
+                <Baseline points="1688,2619 1723,2619 1759,2618 1795,2618 1831,2618 1867,2618 1903,2618 1939,2618 1975,2618 2011,2618 2047,2619 2082,2619 2118,2619 2154,2619 2190,2619 2226,2619 2262,2619 2298,2619 2334,2619 2370,2619 2406,2618"/>
+                <TextEquiv>
+                    <Unicode>co heredero y que “somos varios</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l44" custom="readingOrder {index:43;}">
+                <Coords points="1683,2683 2409,2675 2409,2652 2356,2635 2329,2652 2255,2635 2229,2661 2187,2635 1683,2635"/>
+                <Baseline points="1691,2673 1726,2672 1762,2672 1797,2670 1833,2670 1868,2670 1904,2669 1939,2669 1975,2669 2010,2670 2046,2670 2082,2670 2117,2670 2153,2672 2188,2672 2224,2672 2259,2672 2295,2673 2330,2673 2366,2673 2402,2673"/>
+                <TextEquiv>
+                    <Unicode>los presuntos herederos". Los in¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l45" custom="readingOrder {index:44;}">
+                <Coords points="1690,2740 2414,2726 2414,2698 2280,2691 2083,2712 2021,2691 1690,2690"/>
+                <Baseline points="1697,2726 1732,2724 1767,2724 1803,2724 1838,2723 1874,2723 1909,2723 1945,2723 1980,2723 2016,2723 2051,2723 2086,2723 2122,2724 2157,2724 2193,2724 2228,2724 2264,2724 2299,2723 2335,2723 2370,2723 2406,2721"/>
+                <TextEquiv>
+                    <Unicode>teresados calculan que la heren¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l46" custom="readingOrder {index:45;} place {offset:14; length:10;}">
+                <Coords points="1683,2793 2404,2780 2357,2739 1683,2754"/>
+                <Baseline points="1691,2780 1726,2778 1761,2777 1796,2777 1832,2777 1867,2775 1902,2775 1938,2775 1973,2776 2008,2777 2044,2777 2079,2777 2114,2777 2149,2778 2185,2778 2220,2778 2255,2778 2291,2778 2326,2777 2361,2777 2397,2775"/>
+                <TextEquiv>
+                    <Unicode>cia dejada en Washington por Ját:¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l47" custom="readingOrder {index:46;}">
+                <Coords points="1681,2844 2383,2843 2419,2824 2393,2794 1681,2798"/>
+                <Baseline points="1689,2829 1725,2829 1761,2829 1797,2829 1833,2829 1869,2829 1905,2829 1941,2829 1977,2829 2013,2829 2050,2829 2086,2829 2122,2829 2158,2829 2194,2829 2230,2829 2266,2828 2302,2828 2338,2826 2374,2826 2411,2825"/>
+                <TextEquiv>
+                    <Unicode>denes se eleva a unos 1.200.000.000</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l48" custom="readingOrder {index:47;}">
+                <Coords points="1687,2900 2420,2883 2375,2845 2319,2865 2275,2843 2180,2861 2000,2843 1916,2870 1687,2850"/>
+                <Baseline points="1694,2885 1729,2883 1765,2883 1801,2883 1837,2883 1873,2883 1909,2883 1945,2882 1981,2882 2017,2882 2053,2882 2088,2882 2124,2882 2160,2882 2196,2882 2232,2882 2268,2882 2304,2882 2340,2880 2376,2880 2412,2879"/>
+                <TextEquiv>
+                    <Unicode>de pesetas, y dicen que estaba ad¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l49" custom="readingOrder {index:48;}">
+                <Coords points="1685,2950 1923,2936 1958,2957 2118,2930 2382,2953 2407,2907 1684,2907"/>
+                <Baseline points="1692,2939 1727,2939 1762,2937 1798,2937 1833,2936 1869,2936 1904,2936 1939,2936 1975,2936 2010,2936 2046,2936 2081,2934 2116,2934 2152,2934 2187,2934 2223,2934 2258,2934 2293,2934 2329,2933 2364,2933 2400,2933"/>
+                <TextEquiv>
+                    <Unicode>ministrada por un Patronato y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l50" custom="readingOrder {index:49;}">
+                <Coords points="1684,3009 2137,2988 2343,3006 2413,2980 2412,2961 2251,2948 1683,2962"/>
+                <Baseline points="1691,2993 1726,2991 1762,2990 1798,2988 1833,2988 1869,2987 1905,2987 1940,2987 1976,2987 2012,2987 2048,2987 2083,2987 2119,2987 2155,2987 2190,2988 2226,2988 2262,2988 2297,2987 2333,2987 2369,2987 2405,2985"/>
+                <TextEquiv>
+                    <Unicode>que entre los bienes dejados por</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l51" custom="readingOrder {index:50;} person {offset:0; length:23;}">
+                <Coords points="1688,3067 2402,3051 2380,3019 1688,3016"/>
+                <Baseline points="1695,3051 1731,3051 1768,3050 1805,3050 1842,3050 1878,3050 1915,3050 1952,3048 1989,3048 2026,3048 2062,3048 2099,3048 2136,3048 2173,3047 2210,3047 2246,3047 2283,3047 2320,3047 2357,3047 2394,3047"/>
+                <TextEquiv>
+                    <Unicode>Don José Jáudenes Nebot y su es¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l52" custom="readingOrder {index:51;}">
+                <Coords points="1677,3136 1858,3113 2320,3124 2404,3115 2404,3082 1676,3085"/>
+                <Baseline points="1685,3116 1720,3114 1756,3114 1791,3113 1827,3113 1862,3112 1898,3111 1933,3111 1969,3111 2004,3111 2040,3110 2076,3110 2111,3110 2147,3110 2182,3108 2218,3108 2253,3108 2289,3108 2324,3107 2360,3105 2396,3105"/>
+                <TextEquiv>
+                    <Unicode>posa se encontraban los terrenos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l53" custom="readingOrder {index:52;}">
+                <Coords points="1691,3189 2405,3172 2404,3148 2335,3130 2161,3152 2084,3132 1887,3155 1690,3142"/>
+                <Baseline points="1698,3177 1734,3176 1771,3174 1808,3173 1845,3173 1881,3171 1918,3171 1955,3171 1992,3171 2029,3170 2065,3170 2102,3170 2139,3170 2176,3170 2213,3170 2249,3170 2286,3168 2323,3168 2360,3167 2397,3165"/>
+                <TextEquiv>
+                    <Unicode>donde se construyó la Casa Blan¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l54" custom="readingOrder {index:53;} organization {offset:4; length:7;}">
+                <Coords points="1689,3252 1745,3251 1758,3239 1778,3252 1946,3243 1995,3251 2011,3241 2010,3198 1789,3196 1749,3227 1726,3211 1688,3212"/>
+                <Baseline points="1697,3236 1722,3237 1748,3237 1773,3236 1799,3236 1824,3234 1850,3233 1876,3233 1901,3232 1927,3231 1952,3231 1978,3233 2004,3234"/>
+                <TextEquiv>
+                    <Unicode>ca. REUTERS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>esta gran fortuna murieron sin tes¬tar y que el asunto de la herenciaestaba ya olvidado. Los propieta¬rios en el siglo XVIII fueron D.José Jáudenes Nebot, el diplomá¬tico enviado a Washington porCarlos IV, y su esposa Doña Ma¬tilde Stoughton Fletcher, bisabue¬los del doctor José Alvarez Jáude¬nes, su hermana y el señor Truebay Aguirre.Pero la noticia de que los pro¬pietarios de dicha fortuna en elsiglo XVIII murieron sin testarha sido desmentida luego en Bar¬celona por Don Ramón Altola¬guirre Olea Jáudenes, que resideen aquella ciudad, y según el cualel testamenta puede verse en elMuseo Arqueológico de Córdobadonde fué depositado hace unosdiez años por los familiares delSr. Altolaguirre. Por su parte, elSr. Trueba y Aguirre, que está ca¬sado con Doña Gloria Araos Alto¬laguirre, biznieta de don José Jáu¬denes Nebot y Doña MatildeStoughton, recibió la visita de unabogado estadounidense que le pro¬puso trabajar el asunto de la he¬rencia mediante un elevado tantopor ciento. El Señor Trueba lerespondió que su esposa no era laúnica heredera y que para dar laconformidad necesitaba la anuen¬cia de todos los herederos. Paraello, el Señor Trueba se puso encontacto con el actor "Lepe" co¬municándole lo tratado en la en¬trevista con el citado abogado nor¬teamericano. "Lepe” manifestóque el Señor Sanjurjo no es el úni¬co heredero y que “somos varioslos presuntos herederos". Los in¬teresados calculan que la heren¬cia dejada en Washington por Ját:¬denes se eleva a unos 1.200.000.000de pesetas, y dicen que estaba ad¬ministrada por un Patronato yque entre los bienes dejados porDon José Jáudenes Nebot y su es¬posa se encontraban los terrenosdonde se construyó la Casa Blan¬ca. REUTERS</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:8;}">
+            <Coords points="230,1826 1538,1826 1538,1834 230,1834"/>
+        </SeparatorRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_6_1" custom="readingOrder {index:9;} structure {type:paragraph;}">
+            <Coords points="262,1941 1290,1941 1305,3188 235,3212"/>
+            <TextLine id="r_6_1l1" custom="readingOrder {index:0;}">
+                <Coords points="640,2078 729,2043 742,2054 806,2043 824,2058 983,2051 1015,2037 1014,1974 972,1989 945,1979 863,1987 831,1978 792,1939 731,1939 639,1994"/>
+                <Baseline points="647,2046 672,2044 698,2043 724,2042 749,2040 775,2040 801,2040 827,2040 852,2042 878,2042 904,2042 929,2042 955,2042 981,2042 1007,2040"/>
+                <TextEquiv>
+                    <Unicode>Arcano</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l2" custom="readingOrder {index:1;}">
+                <Coords points="351,2197 1200,2187 1212,2149 351,2163"/>
+                <Baseline points="359,2184 401,2183 443,2181 485,2181 528,2180 570,2180 612,2180 655,2180 697,2180 739,2180 782,2180 824,2180 866,2180 908,2180 951,2178 993,2178 1035,2178 1078,2177 1120,2177 1162,2174 1205,2174"/>
+                <TextEquiv>
+                    <Unicode>¿Qué habrá en el fondo del cerebro mío</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l3" custom="readingOrder {index:2;}">
+                <Coords points="260,2240 1249,2243 1231,2201 1105,2187 901,2221 824,2193 260,2205"/>
+                <Baseline points="267,2234 315,2234 364,2234 413,2234 461,2232 510,2232 559,2232 607,2232 656,2231 705,2231 754,2231 802,2231 851,2231 900,2231 948,2229 997,2229 1046,2229 1094,2229 1143,2229 1192,2229 1241,2229"/>
+                <TextEquiv>
+                    <Unicode>Que, a veces, por las noches, cuando duermo,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l4" custom="readingOrder {index:3;}">
+                <Coords points="255,2295 1093,2293 1093,2271 1022,2251 255,2257"/>
+                <Baseline points="263,2286 304,2286 345,2286 386,2286 427,2285 468,2285 509,2285 551,2285 592,2285 633,2285 674,2285 715,2285 756,2285 797,2283 839,2283 880,2283 921,2283 962,2283 1003,2283 1044,2283 1086,2283"/>
+                <TextEquiv>
+                    <Unicode>Sueño en la dulce amiga de unos años.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l5" custom="readingOrder {index:4;}">
+                <Coords points="265,2353 826,2336 1072,2355 1072,2318 1040,2306 325,2322 265,2300"/>
+                <Baseline points="272,2340 311,2339 351,2339 390,2338 430,2337 470,2337 509,2337 549,2336 589,2336 628,2336 668,2336 708,2336 747,2336 787,2336 827,2336 866,2336 906,2336 946,2336 985,2336 1025,2337 1065,2337"/>
+                <TextEquiv>
+                    <Unicode>Y, en sueños, veo destacar su imagen,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l6" custom="readingOrder {index:5;}">
+                <Coords points="261,2402 997,2404 1012,2355 260,2358"/>
+                <Baseline points="269,2393 305,2393 342,2393 379,2393 416,2391 453,2391 489,2391 526,2391 563,2390 600,2390 637,2390 673,2388 710,2388 747,2388 784,2388 821,2388 857,2388 894,2388 931,2388 968,2390 1005,2390"/>
+                <TextEquiv>
+                    <Unicode>Despertando mi espíritu dormido?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l7" custom="readingOrder {index:6;}">
+                <Coords points="351,2462 1128,2452 1128,2409 351,2422"/>
+                <Baseline points="359,2447 397,2446 435,2445 473,2445 511,2444 549,2444 587,2444 625,2442 663,2442 701,2442 740,2442 778,2442 816,2442 854,2442 892,2442 930,2442 968,2441 1006,2441 1044,2441 1082,2441 1121,2441"/>
+                <TextEquiv>
+                    <Unicode>¿Será acaso que el fuego del cariño</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l8" custom="readingOrder {index:7;}">
+                <Coords points="256,2509 985,2506 985,2467 935,2458 851,2475 256,2465"/>
+                <Baseline points="264,2499 299,2499 335,2498 371,2498 406,2498 442,2497 478,2496 513,2496 549,2496 585,2495 621,2495 656,2495 692,2495 728,2495 763,2493 799,2493 835,2495 870,2495 906,2495 942,2495 978,2496"/>
+                <TextEquiv>
+                    <Unicode>De la romántica y moderna amiga</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l9" custom="readingOrder {index:8;}">
+                <Coords points="268,2564 1091,2545 1031,2507 268,2516"/>
+                <Baseline points="276,2549 316,2549 356,2550 397,2550 437,2550 477,2550 518,2550 558,2549 598,2549 639,2549 679,2549 719,2548 760,2547 800,2547 840,2547 881,2547 921,2547 961,2547 1002,2547 1042,2547 1083,2547"/>
+                <TextEquiv>
+                    <Unicode>Urdió en mi corazón honda raigambre</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l10" custom="readingOrder {index:9;}">
+                <Coords points="265,2620 1015,2611 1015,2576 989,2564 265,2571"/>
+                <Baseline points="273,2604 309,2603 346,2603 383,2603 419,2603 456,2603 493,2603 529,2601 566,2601 603,2601 640,2601 676,2600 713,2600 750,2600 786,2600 823,2600 860,2600 896,2600 933,2600 970,2600 1007,2600"/>
+                <TextEquiv>
+                    <Unicode>Y como una eclosión del afecto ido</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l11" custom="readingOrder {index:10;}">
+                <Coords points="262,2672 1032,2666 1053,2619 371,2638 262,2620"/>
+                <Baseline points="269,2658 307,2658 346,2658 385,2657 424,2657 463,2655 502,2655 540,2655 579,2654 618,2654 657,2654 696,2652 735,2652 774,2652 812,2652 851,2652 890,2652 929,2652 968,2652 1007,2652 1046,2652"/>
+                <TextEquiv>
+                    <Unicode>Late en la subconciencia de mi rida?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l12" custom="readingOrder {index:11;}">
+                <Coords points="352,2731 424,2712 747,2729 869,2709 966,2731 1011,2715 1011,2682 770,2666 352,2690"/>
+                <Baseline points="359,2714 391,2712 423,2711 455,2711 488,2709 520,2709 552,2709 584,2708 617,2708 649,2708 681,2708 713,2708 746,2706 778,2706 810,2706 842,2706 875,2706 907,2706 939,2706 971,2706 1004,2706"/>
+                <TextEquiv>
+                    <Unicode>¿O evocará la pizpireta amiga</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l13" custom="readingOrder {index:12;}">
+                <Coords points="255,2770 1093,2768 1093,2739 996,2723 255,2734"/>
+                <Baseline points="263,2763 304,2762 345,2762 386,2761 427,2760 468,2760 509,2760 551,2760 592,2760 633,2759 674,2759 715,2759 756,2759 797,2759 839,2759 880,2759 921,2760 962,2760 1003,2760 1044,2760 1086,2760"/>
+                <TextEquiv>
+                    <Unicode>Nuestro consorcio efímero y mundano,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l14" custom="readingOrder {index:13;}">
+                <Coords points="256,2823 1003,2822 1003,2788 918,2776 256,2785"/>
+                <Baseline points="263,2816 299,2816 336,2817 372,2817 409,2817 446,2817 482,2817 519,2817 555,2816 592,2816 629,2816 665,2814 702,2814 738,2814 775,2813 812,2813 848,2812 885,2811 921,2811 958,2811 995,2811"/>
+                <TextEquiv>
+                    <Unicode>Y al añorar pasadas dulcedumbres</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l15" custom="readingOrder {index:14;}">
+                <Coords points="257,2881 490,2868 596,2892 726,2856 825,2888 1082,2875 1081,2836 992,2826 815,2853 257,2843"/>
+                <Baseline points="264,2871 304,2870 345,2870 385,2870 426,2870 466,2870 507,2868 547,2868 588,2868 628,2868 669,2867 709,2867 750,2867 790,2865 831,2865 871,2865 912,2865 952,2865 993,2865 1033,2865 1074,2865"/>
+                <TextEquiv>
+                    <Unicode>De mutuo bienquerer su pensamiento</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l16" custom="readingOrder {index:15;}">
+                <Coords points="268,2932 1077,2931 1077,2879 817,2900 733,2882 652,2909 622,2883 558,2906 268,2891"/>
+                <Baseline points="275,2922 314,2922 354,2922 394,2922 434,2922 473,2922 513,2922 553,2922 593,2922 632,2922 672,2921 712,2921 752,2921 791,2921 831,2921 871,2920 911,2919 950,2919 990,2919 1030,2919 1070,2919"/>
+                <TextEquiv>
+                    <Unicode>Repercute en mis sueños nocturnales?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l17" custom="readingOrder {index:16;}">
+                <Coords points="345,2988 1023,2995 1098,2986 1098,2944 555,2958 383,2939 345,2962"/>
+                <Baseline points="353,2979 389,2979 426,2978 463,2978 500,2976 537,2976 574,2975 611,2975 648,2975 685,2975 722,2973 758,2973 795,2973 832,2973 869,2973 906,2973 943,2973 980,2975 1017,2975 1054,2975 1091,2975"/>
+                <TextEquiv>
+                    <Unicode>¡Misterio augusto del amor, enigma</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l18" custom="readingOrder {index:17;}">
+                <Coords points="268,3041 683,3052 745,3030 1003,3030 1003,3002 942,2988 655,3019 592,2992 268,2994"/>
+                <Baseline points="276,3030 313,3030 351,3030 389,3030 427,3030 465,3030 503,3030 540,3030 578,3030 616,3029 654,3029 692,3029 730,3028 767,3027 805,3027 843,3027 881,3026 919,3026 957,3026 995,3024"/>
+                <TextEquiv>
+                    <Unicode>De la imaginación, que no descifra</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l19" custom="readingOrder {index:18;}">
+                <Coords points="265,3094 1091,3083 1077,3043 502,3043 331,3071 265,3042"/>
+                <Baseline points="272,3084 312,3083 353,3083 393,3083 434,3082 474,3081 515,3081 555,3081 596,3081 636,3081 677,3081 718,3081 758,3081 799,3081 839,3081 880,3081 920,3081 961,3081 1001,3081 1042,3081 1083,3081"/>
+                <TextEquiv>
+                    <Unicode>La envanecida ciencia de los hombres!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l20" custom="readingOrder {index:19;}">
+                <Coords points="261,3149 1100,3149 1117,3111 261,3118"/>
+                <Baseline points="269,3140 311,3138 353,3138 395,3137 437,3137 479,3137 521,3135 563,3135 605,3135 647,3134 689,3134 731,3134 773,3134 815,3134 857,3134 899,3134 941,3134 983,3134 1025,3135 1067,3135 1109,3137"/>
+                <TextEquiv>
+                    <Unicode>Aún bajo el desquerer entre dos almas,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l21" custom="readingOrder {index:20;}">
+                <Coords points="262,3204 376,3187 463,3211 572,3192 846,3204 896,3177 802,3147 778,3164 262,3157"/>
+                <Baseline points="269,3189 301,3189 334,3189 366,3189 399,3189 431,3189 464,3189 497,3189 529,3188 562,3188 594,3188 627,3188 659,3188 692,3186 725,3186 757,3186 790,3186 822,3188 855,3188 888,3188"/>
+                <TextEquiv>
+                    <Unicode>Cabe telepatía de recuerdos.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>rcano¿Qué habrá en el fondo del cerebro míoQue, a veces, por las noches, cuando duermo,Sueño en la dulce amiga de unos años.Y, en sueños, veo destacar su imagen,Despertando mi espíritu dormido?¿Será acaso que el fuego del cariñoDe la romántica y moderna amigaUrdió en mi corazón honda raigambreY como una eclosión del afecto idoLate en la subconciencia de mi rida?¿O evocará la pizpireta amigaNuestro consorcio efímero y mundano,Y al añorar pasadas dulcedumbresDe mutuo bienquerer su pensamientoRepercute en mis sueños nocturnales?¡Misterio augusto del amor, enigmaDe la imaginación, que no descifraLa envanecida ciencia de los hombres!Aún bajo el desquerer entre dos almas,Cabe telepatía de recuerdos.PASCUAL B. AZANZA</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:10;}">
+            <Coords points="79,1836 1595,1836 1595,1843 79,1843"/>
+        </SeparatorRegion>
+        <TextRegion id="r" custom="readingOrder {index:11;} structure {type:credit;}">
+            <Coords points="725,3188 1309,3188 1309,3283 725,3283"/>
+            <TextLine id="r_6_1l22" custom="readingOrder {index:0;} person {offset:0; length:17;}">
+                <Coords points="757,3248 1279,3253 1297,3248 1297,3210 1103,3203 1081,3226 1055,3203 1011,3220 994,3204 757,3216"/>
+                <Baseline points="765,3240 791,3240 817,3240 843,3240 869,3242 896,3242 922,3242 948,3242 974,3242 1000,3242 1027,3242 1053,3242 1079,3241 1105,3240 1131,3240 1158,3240 1184,3240 1210,3240 1236,3240 1262,3239 1289,3239"/>
+                <TextEquiv>
+                    <Unicode>PASCUAL B. AZANZA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:12;}">
+            <Coords points="2274,437 2367,437 2367,439 2274,439"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

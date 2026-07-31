@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:36:11.403+02:00</Created>
+        <LastChange>2026-06-30T15:41:32.086+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572168" pageNr="155" tsid="294469865" status="DONE" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=UGTFHGTOSZHAIRIAMTOKUMQL" xmlUrl="https://files.transkribus.eu/Get?id=ZCPNRLKPTHGLIMVOOAFWGEHS" imageId="17057667"/>
+    </Metadata>
+    <Page imageFilename="0155_Semana-0155.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="486,748 1982,748 1982,2759 486,2759"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782831099021" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r"/>
+                <RegionRefIndexed index="3" regionRef="r_2"/>
+                <RegionRefIndexed index="5" regionRef="r_2_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r_2_1l6"/>
+            </Relation>
+        </Relations>
+        <GraphicRegion id="r_1" custom="readingOrder {index:0;} structure {type:cartoon;}">
+            <Coords points="486,748 1982,748 1982,1256 486,1256"/>
+        </GraphicRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:heading;}">
+            <Coords points="1033,1866 1520,1866 1520,1923 1033,1923"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1040,1908 1339,1913 1366,1896 1397,1915 1444,1911 1482,1883 1482,1865 1464,1859 1375,1859 1359,1874 1344,1860 1246,1858 1230,1841 1198,1860 1040,1860"/>
+                <Baseline points="1050,1898 1076,1898 1102,1896 1129,1896 1155,1896 1182,1896 1208,1896 1235,1896 1261,1896 1287,1896 1314,1896 1340,1896 1367,1896 1393,1896 1420,1896 1446,1896 1473,1896"/>
+                <TextEquiv>
+                    <Unicode>CAPITULO XV</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_4" custom="readingOrder {index:2;}">
+            <Coords points="503,762 1961,762 1961,768 503,768"/>
+        </SeparatorRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:3;} structure {type:heading;}">
+            <Coords points="515,1928 1941,1933 1943,1999 1932,2043 515,2050"/>
+            <TextLine id="r_2_1l2" custom="readingOrder {index:0;} person {offset:18; length:12;}">
+                <Coords points="523,1984 1946,1988 1909,1938 523,1940"/>
+                <Baseline points="533,1973 603,1973 673,1973 743,1973 813,1973 884,1973 954,1973 1024,1973 1094,1973 1164,1973 1235,1973 1305,1973 1375,1973 1445,1973 1515,1973 1586,1973 1656,1973 1726,1973 1796,1973 1866,1973 1937,1973"/>
+                <TextEquiv>
+                    <Unicode>EN EL QUE EL MAGO HYDORARGYROS DECLARA ESPECIFICAMENTE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l3" custom="readingOrder {index:1;}">
+                <Coords points="1097,2035 1160,2035 1173,2023 1184,2034 1206,2036 1368,2037 1368,2007 1326,1988 1098,1993"/>
+                <Baseline points="1106,2021 1131,2021 1156,2021 1181,2021 1207,2021 1232,2021 1257,2022 1283,2022 1308,2022 1333,2022 1359,2022"/>
+                <TextEquiv>
+                    <Unicode>SU CIENCIA.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_5" custom="readingOrder {index:4;}">
+            <Coords points="1022,771 1950,771 1950,779 1022,779"/>
+        </SeparatorRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:5;} structure {type:serial-fiction;}">
+            <Coords points="499,1847 1980,1847 1980,2759 499,2759"/>
+            <TextLine id="r_2_1l4" custom="readingOrder {index:0;}">
+                <Coords points="571,2106 1905,2126 1983,2115 1983,2076 571,2088"/>
+                <Baseline points="581,2106 650,2107 720,2108 789,2108 859,2109 929,2109 998,2110 1068,2111 1138,2111 1207,2111 1277,2111 1347,2111 1416,2111 1486,2111 1556,2111 1625,2109 1695,2109 1765,2109 1834,2109 1904,2108 1974,2108"/>
+                <TextEquiv>
+                    <Unicode>—Si ahora no caben estos, al parecer, misterios en vuestro entendi-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l5" custom="readingOrder {index:1;}">
+                <Coords points="501,2162 1980,2163 1951,2117 501,2122"/>
+                <Baseline points="509,2151 582,2151 655,2151 728,2151 801,2151 874,2151 947,2151 1020,2151 1093,2151 1166,2151 1240,2151 1313,2151 1386,2153 1459,2153 1532,2153 1605,2153 1678,2153 1751,2153 1824,2153 1897,2153 1971,2153"/>
+                <TextEquiv>
+                    <Unicode>miento, estadme atentos y entraréis a ver el secreto que se esconde debajo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l6" custom="readingOrder {index:2;}">
+                <Coords points="500,2206 1987,2201 1910,2158 500,2163"/>
+                <Baseline points="509,2192 582,2192 655,2192 729,2193 802,2193 876,2193 949,2193 1022,2193 1096,2195 1169,2195 1243,2195 1316,2195 1389,2195 1463,2193 1536,2193 1610,2193 1683,2193 1756,2193 1830,2193 1903,2193 1977,2193"/>
+                <TextEquiv>
+                    <Unicode>de este nudo, penetrando al punto la alteza de la verdad de que no hay</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l7" custom="readingOrder {index:3;}">
+                <Coords points="501,2249 1983,2251 1922,2205 501,2210"/>
+                <Baseline points="510,2234 583,2234 656,2235 729,2235 802,2235 876,2235 949,2235 1022,2235 1095,2235 1168,2235 1242,2235 1315,2237 1388,2237 1461,2237 1534,2237 1608,2237 1681,2237 1754,2237 1827,2237 1900,2237 1974,2238"/>
+                <TextEquiv>
+                    <Unicode>nada de misterioso en todo aquello a que vuestros ojos dieron alcance,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l8" custom="readingOrder {index:4;}">
+                <Coords points="494,2299 1974,2298 1954,2246 494,2249"/>
+                <Baseline points="503,2277 576,2277 649,2277 722,2277 795,2277 868,2277 941,2277 1014,2277 1087,2277 1160,2279 1233,2279 1306,2279 1379,2279 1452,2280 1525,2280 1598,2280 1671,2280 1744,2280 1817,2280 1890,2280 1964,2280"/>
+                <TextEquiv>
+                    <Unicode>pues todo cuanto aquí veis lo he hecho por mis pulgares, por mi mano y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l9" custom="readingOrder {index:5;}">
+                <Coords points="507,2333 1026,2331 1026,2307 977,2290 507,2294"/>
+                <Baseline points="515,2319 540,2319 565,2319 590,2319 615,2319 640,2319 665,2319 690,2319 715,2319 740,2319 766,2319 791,2319 816,2319 841,2319 866,2321 891,2321 916,2321 941,2321 966,2322 991,2322 1017,2324"/>
+                <TextEquiv>
+                    <Unicode>sin ayuda de otro alguno.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l10" custom="readingOrder {index:6;}">
+                <Coords points="595,2356 1990,2367 1966,2326 595,2334"/>
+                <Baseline points="605,2358 673,2360 742,2360 811,2361 880,2361 948,2363 1017,2363 1086,2363 1155,2364 1223,2364 1292,2364 1361,2364 1430,2364 1498,2364 1567,2364 1636,2364 1705,2363 1773,2363 1842,2363 1911,2363 1980,2361"/>
+                <TextEquiv>
+                    <Unicode>“Tomando como por base el que cada día es una parte más en el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l11" custom="readingOrder {index:7;}">
+                <Coords points="500,2413 1967,2419 1982,2377 500,2380"/>
+                <Baseline points="509,2402 582,2402 655,2403 728,2403 801,2403 875,2405 948,2405 1021,2405 1094,2405 1167,2406 1241,2406 1314,2406 1387,2406 1460,2406 1533,2406 1607,2406 1680,2406 1753,2406 1826,2406 1899,2406 1973,2406"/>
+                <TextEquiv>
+                    <Unicode>adelantamiento hacia lo desconocido, ¿qué mucho será el que en un núcleo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l12" custom="readingOrder {index:8;}">
+                <Coords points="497,2456 1986,2450 1986,2417 497,2416"/>
+                <Baseline points="507,2447 580,2447 653,2447 727,2447 800,2447 874,2447 947,2448 1021,2448 1094,2448 1168,2448 1241,2448 1314,2448 1388,2448 1461,2448 1535,2448 1608,2448 1682,2448 1755,2448 1829,2448 1902,2448 1976,2448"/>
+                <TextEquiv>
+                    <Unicode>de personas privilegiadas por su inteligencia haya quien se afane por</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l13" custom="readingOrder {index:9;}">
+                <Coords points="497,2501 1987,2500 1932,2459 497,2461"/>
+                <Baseline points="506,2489 579,2489 653,2489 726,2489 800,2489 874,2489 947,2489 1021,2489 1095,2489 1168,2489 1242,2490 1316,2490 1389,2490 1463,2490 1537,2490 1610,2492 1684,2492 1758,2492 1831,2490 1905,2490 1979,2490"/>
+                <TextEquiv>
+                    <Unicode>nallar nuevos conceptos y conocimientos nuevos para ampliar esta rama</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l14" custom="readingOrder {index:10;}">
+                <Coords points="491,2540 1454,2548 1486,2546 1486,2498 491,2506"/>
+                <Baseline points="500,2531 548,2531 597,2531 646,2531 695,2531 744,2531 792,2532 841,2532 890,2532 939,2532 988,2532 1036,2532 1085,2532 1134,2532 1183,2532 1232,2532 1280,2532 1329,2532 1378,2532 1427,2532 1476,2532"/>
+                <TextEquiv>
+                    <Unicode>del saber y las posibilidades del linaje humano?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l15" custom="readingOrder {index:11;}">
+                <Coords points="580,2572 1975,2586 1975,2545 1911,2538 580,2542"/>
+                <Baseline points="590,2567 658,2570 727,2571 796,2573 865,2573 933,2574 1002,2574 1071,2574 1140,2574 1208,2574 1277,2574 1346,2574 1415,2574 1483,2574 1552,2573 1621,2573 1690,2573 1758,2574 1827,2574 1896,2574 1965,2576"/>
+                <TextEquiv>
+                    <Unicode>“Solamente en la gama de los conocimientos físicos de la Naturaleza</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l16" custom="readingOrder {index:12;}">
+                <Coords points="495,2630 1984,2619 1960,2586 495,2586"/>
+                <Baseline points="504,2612 577,2613 651,2615 724,2615 798,2615 871,2615 945,2616 1018,2616 1092,2616 1165,2616 1239,2616 1312,2616 1386,2616 1459,2616 1533,2616 1606,2616 1680,2616 1753,2616 1827,2618 1900,2618 1974,2618"/>
+                <TextEquiv>
+                    <Unicode>y en su desenvolvimiento, estas postreras décadas trajeron una renova-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l17" custom="readingOrder {index:13;}">
+                <Coords points="502,2667 1966,2674 1989,2635 502,2630"/>
+                <Baseline points="510,2655 583,2657 656,2657 730,2658 803,2658 877,2658 950,2658 1024,2658 1097,2658 1171,2658 1244,2658 1317,2658 1391,2658 1464,2658 1538,2658 1611,2658 1685,2658 1758,2660 1832,2660 1905,2660 1979,2661"/>
+                <TextEquiv>
+                    <Unicode>ción tan revolucionaria, que precisaríase que la vida de los hombres se</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l18" custom="readingOrder {index:14;}">
+                <Coords points="503,2708 1977,2708 1957,2668 503,2667"/>
+                <Baseline points="512,2699 584,2699 657,2700 730,2700 803,2700 876,2702 948,2702 1021,2702 1094,2702 1167,2702 1240,2702 1312,2703 1385,2703 1458,2703 1531,2703 1604,2703 1676,2703 1749,2703 1822,2703 1895,2703 1968,2703"/>
+                <TextEquiv>
+                    <Unicode>dilatase indefinidamente a lo largo de años y años para seguir sus hué-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l19" custom="readingOrder {index:15;}">
+                <Coords points="507,2755 536,2756 543,2764 560,2764 571,2755 621,2757 622,2720 567,2711 560,2716 550,2716 543,2708 508,2707"/>
+                <Baseline points="516,2741 548,2744 580,2745 612,2744"/>
+                <TextEquiv>
+                    <Unicode>lligas.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>CAPITULO XVEN EL QUE EL MAGO HYDORARGYROS DECLARA ESPECIFICAMENTESU CIENCIA.—Si ahora no caben estos, al parecer, misterios en vuestro entendi¬miento, estadme atentos y entraréis a ver el secreto que se esconde debajode este nudo, penetrando al punto la alteza de la verdad de que no haynada de misterioso en todo aquello a que vuestros ojos dieron alcance,pues todo cuanto aquí veis lo he hecho por mis pulgares, por mi mano ysin ayuda de otro alguno.“Tomando como por base el que cada día es una parte más en eladelantamiento hacia lo desconocido, ¿qué mucho será el que en un núcleode personas privilegiadas por su inteligencia haya quien se afane pornallar nuevos conceptos y conocimientos nuevos para ampliar esta ramadel saber y las posibilidades del linaje humano?“Solamente en la gama de los conocimientos físicos de la Naturalezay en su desenvolvimiento, estas postreras décadas trajeron una renova¬ción tan revolucionaria, que precisaríase que la vida de los hombres sedilatase indefinidamente a lo largo de años y años para seguir sus hué¬lligas.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_6" custom="readingOrder {index:6;}">
+            <Coords points="514,773 984,773 984,785 514,785"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:7;}">
+            <Coords points="1166,899 1293,899 1293,906 1166,906"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:8;}">
+            <Coords points="1165,917 1299,917 1299,925 1165,925"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:9;}">
+            <Coords points="1029,1003 1497,1003 1497,1014 1029,1014"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:10;}">
+            <Coords points="1028,1029 1433,1029 1433,1040 1028,1040"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:11;}">
+            <Coords points="1065,1044 1206,1044 1206,1052 1065,1052"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:12;}">
+            <Coords points="1274,1047 1398,1047 1398,1054 1274,1054"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:13;}">
+            <Coords points="1113,1164 1351,1164 1351,1173 1113,1173"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:14;}">
+            <Coords points="1117,1180 1348,1180 1348,1188 1117,1188"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:15;}">
+            <Coords points="514,1200 1495,1200 1495,1213 514,1213"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:16;}">
+            <Coords points="502,764 508,764 508,1220 502,1220"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:17;}">
+            <Coords points="513,775 520,775 520,1209 513,1209"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:18;}">
+            <Coords points="1937,772 1950,772 1950,1216 1937,1216"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:19;}">
+            <Coords points="1951,763 1960,763 1960,1227 1951,1227"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

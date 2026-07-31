@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:35:45.696+02:00</Created>
+        <LastChange>2026-06-29T17:43:08.002+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572136" pageNr="119" tsid="294318687" status="DONE" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=BIRDYEIBFAFHBQMGGJHCIRHM" xmlUrl="https://files.transkribus.eu/Get?id=HYTJWAJLOZNWRCDUYOKGKEIF" imageId="17057631"/>
+    </Metadata>
+    <Page imageFilename="0119_Semana-0119.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="113,261 2378,261 2378,3219 113,3219"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782756339524" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_1"/>
+                <RegionRefIndexed index="2" regionRef="r_17"/>
+                <RegionRefIndexed index="3" regionRef="r_18"/>
+                <RegionRefIndexed index="4" regionRef="r_3"/>
+                <RegionRefIndexed index="5" regionRef="r_19"/>
+                <RegionRefIndexed index="6" regionRef="r_14"/>
+                <RegionRefIndexed index="8" regionRef="r_2"/>
+                <RegionRefIndexed index="10" regionRef="r_6"/>
+                <RegionRefIndexed index="12" regionRef="r_5"/>
+                <RegionRefIndexed index="14" regionRef="r_15"/>
+                <RegionRefIndexed index="16" regionRef="r_16"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_14"/>
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r_6"/>
+                <RegionRef regionRef="r_3"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_3"/>
+                <RegionRef regionRef="r_19"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_17"/>
+                <RegionRef regionRef="r_18"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_15"/>
+                <RegionRef regionRef="l_3"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:header;}">
+            <Coords points="104,253 457,253 457,305 104,305"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;} date {offset:0; length:16;}">
+                <Coords points="115,302 311,306 319,314 439,307 436,261 360,261 342,277 325,261 288,269 231,261 214,277 184,261 155,273 143,261 116,260"/>
+                <Baseline points="120,297 146,296 172,296 198,296 224,297 250,297 277,298 303,299 329,299 355,299 381,299 407,299 434,299"/>
+                <TextEquiv>
+                    <Unicode>7 de Abril, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:1;} structure {type:page-number;}">
+            <Coords points="2044,249 2387,249 2387,320 2044,320"/>
+            <TextLine id="r_6_1l1" custom="readingOrder {index:0;}">
+                <Coords points="2053,293 2080,312 2245,315 2303,305 2366,314 2366,267 2320,264 2281,286 2262,267 2234,264 2053,265"/>
+                <Baseline points="2058,299 2083,299 2108,300 2133,300 2159,300 2184,300 2209,299 2234,299 2260,300 2285,300 2310,302 2335,302 2361,305"/>
+                <TextEquiv>
+                    <Unicode>SEMANA—31</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_17" custom="readingOrder {index:2;} structure {type:paragraph;}">
+            <Coords points="103,369 814,369 814,3236 103,3236"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;}">
+                <Coords points="117,404 814,411 814,377 777,374 117,379"/>
+                <Baseline points="122,404 156,404 190,404 225,404 259,404 293,404 328,405 362,405 396,405 431,405 465,405 499,405 534,405 568,405 602,404 637,404 671,404 705,404 740,403 774,402 809,402"/>
+                <TextEquiv>
+                    <Unicode>vienen descendiendo del norte son</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l2" custom="readingOrder {index:1;}">
+                <Coords points="109,462 812,466 812,430 639,417 544,436 109,426"/>
+                <Baseline points="114,455 148,455 183,456 217,456 252,456 287,456 321,456 356,456 391,456 425,456 460,456 495,455 529,455 564,455 599,455 633,455 668,455 703,455 737,455 772,456 807,456"/>
+                <TextEquiv>
+                    <Unicode>los comunistas chinos ayudados por</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l3" custom="readingOrder {index:2;}">
+                <Coords points="114,514 383,518 418,493 488,518 821,507 808,477 703,469 487,469 396,494 319,469 243,486 114,469"/>
+                <Baseline points="119,507 153,507 188,507 223,507 258,507 293,507 328,507 362,507 397,506 432,506 467,506 502,506 537,506 572,506 606,506 641,506 676,506 711,506 746,506 781,506 816,506"/>
+                <TextEquiv>
+                    <Unicode>los soviéticos. Por segunda vez</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l4" custom="readingOrder {index:3;}">
+                <Coords points="118,569 817,559 782,520 300,543 118,526"/>
+                <Baseline points="123,558 157,558 191,557 226,557 260,557 295,557 329,557 364,557 398,555 433,555 467,555 501,555 536,555 570,555 605,555 639,555 674,555 708,557 743,557 777,557 812,557"/>
+                <TextEquiv>
+                    <Unicode>también—como durante la década</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l5" custom="readingOrder {index:4;} date {offset:26; length:4;}">
+                <Coords points="121,618 803,605 757,572 676,573 656,593 621,573 567,590 546,572 392,573 362,597 213,573 121,583"/>
+                <Baseline points="126,609 159,609 193,608 226,608 260,608 294,608 327,608 361,608 394,608 428,608 462,608 495,608 529,608 562,608 596,608 630,608 663,606 697,606 730,606 764,605 798,603"/>
+                <TextEquiv>
+                    <Unicode>caótica que siguió al año 1916—</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l6" custom="readingOrder {index:5;}">
+                <Coords points="126,673 808,658 792,629 713,643 686,621 598,644 519,621 418,644 384,622 126,635"/>
+                <Baseline points="131,659 164,659 198,658 231,657 265,657 299,657 332,657 366,659 399,659 433,659 467,659 500,659 534,660 567,660 601,660 635,660 668,659 702,659 735,659 769,657 803,656"/>
+                <TextEquiv>
+                    <Unicode>está volviendo al plano de la pro¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l7" custom="readingOrder {index:6;}">
+                <Coords points="114,722 382,712 424,732 713,705 737,725 818,710 818,685 114,686"/>
+                <Baseline points="119,713 153,713 188,711 223,711 257,710 292,710 327,710 361,710 396,710 431,710 466,710 500,710 535,710 570,710 604,710 639,710 674,710 708,708 743,708 778,707 813,707"/>
+                <TextEquiv>
+                    <Unicode>minencia un tipo de dictador pro¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l8" custom="readingOrder {index:7;}">
+                <Coords points="115,764 805,770 805,733 765,725 115,733"/>
+                <Baseline points="120,762 154,761 188,761 222,761 256,761 290,761 324,761 358,761 392,761 426,761 460,761 494,761 528,761 562,761 596,761 630,761 664,759 698,759 732,759 766,759 800,758"/>
+                <TextEquiv>
+                    <Unicode>vincial chino al que en la república</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l9" custom="readingOrder {index:8;}">
+                <Coords points="118,826 787,818 815,809 815,786 118,789"/>
+                <Baseline points="123,813 157,813 191,812 226,812 260,812 294,812 329,812 363,812 397,812 432,812 466,812 500,812 535,812 569,812 603,812 638,811 672,810 706,810 741,810 775,810 810,810"/>
+                <TextEquiv>
+                    <Unicode>amarilla se le conoce con el nom¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l10" custom="readingOrder {index:9;}">
+                <Coords points="108,868 391,874 421,855 472,878 696,875 723,850 796,849 735,827 108,834"/>
+                <Baseline points="113,860 146,861 180,861 214,861 248,861 282,861 316,863 350,861 384,861 418,861 452,861 485,861 519,861 553,861 587,861 621,861 655,861 689,862 723,863 757,863 791,864"/>
+                <TextEquiv>
+                    <Unicode>bre de "señor de la guerra”</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l11" custom="readingOrder {index:10;}">
+                <Coords points="126,924 264,925 296,905 365,930 590,924 614,902 648,924 690,904 711,922 817,918 817,889 759,877 251,877 184,904 126,876"/>
+                <Baseline points="131,914 165,914 199,914 233,914 267,914 301,914 335,914 369,914 403,914 437,912 471,912 505,912 539,912 573,911 607,911 641,911 675,911 709,911 743,911 777,912 812,912"/>
+                <TextEquiv>
+                    <Unicode>El más impresionante de estos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l12" custom="readingOrder {index:11;}">
+                <Coords points="120,959 145,978 462,978 594,952 616,970 808,970 808,933 317,933 301,949 120,933"/>
+                <Baseline points="125,956 158,958 192,961 226,962 260,963 294,964 328,965 362,965 396,965 430,965 464,965 497,963 531,963 565,963 599,963 633,962 667,962 701,962 735,962 769,962 803,963"/>
+                <TextEquiv>
+                    <Unicode>“señores de la guerra” chinos en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l13" custom="readingOrder {index:12;} person {offset:20; length:10;}">
+                <Coords points="123,1025 417,1010 497,1027 548,1011 571,1034 788,1027 811,1025 811,988 123,992"/>
+                <Baseline points="128,1016 161,1017 195,1017 229,1017 263,1016 297,1016 331,1016 365,1016 399,1016 433,1016 467,1014 500,1014 534,1014 568,1014 602,1014 636,1014 670,1013 704,1013 738,1013 772,1013 806,1013"/>
+                <TextEquiv>
+                    <Unicode>nuestros días es el general Ma</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l14" custom="readingOrder {index:13;} person {offset:0; length:9; continued:true;}">
+                <Coords points="114,1074 817,1069 817,1040 721,1028 590,1047 565,1029 534,1045 114,1030"/>
+                <Baseline points="119,1067 153,1067 188,1067 222,1067 257,1067 292,1067 326,1067 361,1065 396,1065 430,1065 465,1065 500,1065 534,1065 569,1065 604,1065 638,1064 673,1064 708,1064 742,1064 777,1065 812,1065"/>
+                <TextEquiv>
+                    <Unicode>Hung-Kwei, hombre de 250 libras</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l15" custom="readingOrder {index:14;}">
+                <Coords points="121,1129 821,1114 821,1094 759,1082 349,1082 286,1111 121,1085"/>
+                <Baseline points="126,1119 160,1119 195,1119 229,1118 264,1118 298,1118 333,1118 367,1118 402,1117 436,1116 471,1116 505,1116 540,1116 574,1116 609,1116 643,1116 678,1115 712,1115 747,1115 781,1115 816,1115"/>
+                <TextEquiv>
+                    <Unicode>de peso, gobernador de la provin¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l16" custom="readingOrder {index:15;} place {offset:7; length:8;}">
+                <Coords points="109,1174 792,1178 809,1143 109,1145"/>
+                <Baseline points="114,1170 148,1169 183,1169 217,1169 252,1167 286,1167 321,1167 355,1167 390,1167 424,1167 459,1167 493,1167 528,1167 562,1167 597,1167 631,1167 666,1167 700,1167 735,1166 769,1166 804,1166"/>
+                <TextEquiv>
+                    <Unicode>cia de Ninghsia, región del tama¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l17" custom="readingOrder {index:16;} person {offset:17; length:7;} place {offset:32; length:3; continued:true;}">
+                <Coords points="120,1227 805,1224 805,1199 773,1181 660,1198 120,1189"/>
+                <Baseline points="125,1217 158,1217 192,1217 226,1217 260,1218 293,1218 327,1218 361,1218 395,1218 428,1218 462,1218 496,1218 530,1218 563,1218 597,1218 631,1218 665,1218 698,1218 732,1218 766,1217 800,1217"/>
+                <TextEquiv>
+                    <Unicode>ño del estado de Arizona en los Es¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l18" custom="readingOrder {index:17;} place {offset:0; length:12; continued:true;}">
+                <Coords points="108,1270 404,1270 424,1290 512,1268 802,1276 775,1235 695,1253 640,1235 603,1256 335,1233 108,1243"/>
+                <Baseline points="113,1268 147,1268 181,1268 215,1268 249,1269 284,1269 318,1269 352,1269 386,1269 420,1269 455,1269 489,1269 523,1269 557,1269 591,1268 626,1268 660,1268 694,1268 728,1268 762,1269 797,1269"/>
+                <TextEquiv>
+                    <Unicode>tados Unidos, pero con sólo 750,-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l19" custom="readingOrder {index:18;}">
+                <Coords points="120,1330 809,1330 809,1293 703,1285 120,1285"/>
+                <Baseline points="125,1320 160,1320 196,1319 232,1319 267,1319 303,1319 339,1319 375,1319 410,1319 446,1319 482,1319 518,1319 553,1319 589,1319 625,1320 661,1320 696,1320 732,1320 768,1320 804,1319"/>
+                <TextEquiv>
+                    <Unicode>000 habitantes; un poquito más que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l20" custom="readingOrder {index:19;} place {offset:7; length:9;} place {offset:29; length:4;}">
+                <Coords points="111,1376 802,1378 802,1356 733,1333 461,1356 368,1333 111,1343"/>
+                <Baseline points="116,1370 150,1370 184,1370 218,1370 252,1370 286,1371 320,1371 354,1371 388,1371 422,1371 456,1371 490,1371 524,1370 558,1370 592,1370 626,1370 660,1370 694,1370 728,1370 762,1371 797,1371"/>
+                <TextEquiv>
+                    <Unicode>los de La Habana, capital de Cuba...</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l21" custom="readingOrder {index:20;} place {offset:0; length:8;}">
+                <Coords points="114,1434 802,1424 802,1398 767,1385 462,1403 376,1385 307,1409 273,1385 114,1387"/>
+                <Baseline points="119,1421 152,1421 186,1421 220,1421 254,1421 288,1421 322,1421 356,1421 390,1421 424,1421 458,1421 491,1421 525,1421 559,1421 593,1421 627,1421 661,1421 695,1421 729,1421 763,1421 797,1421"/>
+                <TextEquiv>
+                    <Unicode>Ninghsia está en las áridas regio¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l22" custom="readingOrder {index:21;} place {offset:20; length:5;}">
+                <Coords points="121,1482 803,1482 813,1449 122,1445"/>
+                <Baseline points="126,1472 160,1472 194,1470 228,1470 262,1470 296,1470 330,1470 364,1470 398,1470 432,1470 466,1470 500,1470 534,1472 568,1472 602,1472 636,1472 670,1472 704,1472 738,1472 772,1472 807,1472"/>
+                <TextEquiv>
+                    <Unicode>nes del noroeste de China, entre la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l23" custom="readingOrder {index:22;} place {offset:0; length:12;} place {offset:18; length:8;}">
+                <Coords points="114,1531 407,1527 429,1544 454,1519 616,1538 808,1522 762,1484 717,1504 680,1484 641,1500 537,1485 517,1504 263,1485 226,1509 114,1492"/>
+                <Baseline points="119,1524 153,1523 187,1523 221,1521 255,1521 290,1521 324,1521 358,1521 392,1521 426,1521 461,1521 495,1523 529,1523 563,1523 597,1523 632,1523 666,1523 700,1523 734,1522 768,1521 803,1521"/>
+                <TextEquiv>
+                    <Unicode>Gran Muralla y la Mongolia Ex¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l24" custom="readingOrder {index:23;}">
+                <Coords points="114,1584 207,1586 243,1561 282,1583 435,1574 495,1594 818,1581 818,1552 775,1547 325,1540 266,1565 114,1543"/>
+                <Baseline points="119,1571 153,1572 188,1572 223,1572 257,1572 292,1572 327,1572 361,1572 396,1572 431,1572 466,1572 500,1572 535,1572 570,1572 604,1572 639,1572 674,1572 708,1572 743,1572 778,1572 813,1574"/>
+                <TextEquiv>
+                    <Unicode>terior .. Quien ve por primera vez</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l25" custom="readingOrder {index:24;} person {offset:3; length:10;}">
+                <Coords points="118,1634 812,1626 812,1602 663,1589 118,1596"/>
+                <Baseline points="123,1623 157,1623 191,1623 225,1623 259,1623 294,1623 328,1623 362,1623 396,1623 430,1623 465,1623 499,1623 533,1623 567,1623 601,1623 636,1623 670,1623 704,1623 738,1623 772,1623 807,1623"/>
+                <TextEquiv>
+                    <Unicode>al general Ma, lo cree hombre sen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l26" custom="readingOrder {index:25;}">
+                <Coords points="121,1682 806,1690 813,1659 700,1636 622,1661 566,1637 534,1667 359,1637 122,1650"/>
+                <Baseline points="126,1673 160,1673 194,1673 228,1673 262,1673 296,1673 330,1673 364,1673 398,1673 432,1673 466,1674 500,1674 534,1674 568,1676 602,1676 636,1676 670,1676 704,1676 738,1676 772,1676 807,1676"/>
+                <TextEquiv>
+                    <Unicode>cillo y bondadoso... En realidad,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l27" custom="readingOrder {index:26;}">
+                <Coords points="120,1737 175,1721 333,1738 351,1721 407,1738 427,1719 590,1746 812,1736 812,1701 784,1693 735,1710 716,1693 120,1701"/>
+                <Baseline points="125,1722 159,1722 193,1722 227,1722 261,1722 295,1722 329,1722 363,1722 397,1724 431,1724 466,1724 500,1724 534,1724 568,1725 602,1725 636,1725 670,1725 704,1725 738,1725 772,1725 807,1724"/>
+                <TextEquiv>
+                    <Unicode>es hombre de una impiedad sin</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l28" custom="readingOrder {index:27;}">
+                <Coords points="109,1782 815,1783 800,1749 747,1769 702,1741 484,1760 351,1741 324,1768 216,1741 109,1747"/>
+                <Baseline points="114,1773 148,1775 183,1775 218,1775 253,1775 288,1775 322,1775 357,1775 392,1775 427,1775 462,1775 496,1775 531,1775 566,1775 601,1775 636,1775 670,1775 705,1775 740,1776 775,1776 810,1778"/>
+                <TextEquiv>
+                    <Unicode>límites... Inició su mandato en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l29" custom="readingOrder {index:28;} date {offset:0; length:4;}">
+                <Coords points="115,1835 777,1839 803,1834 803,1791 676,1816 587,1789 525,1815 412,1789 227,1809 205,1789 115,1793"/>
+                <Baseline points="120,1823 153,1823 187,1823 221,1823 255,1823 289,1823 323,1823 357,1824 391,1824 425,1824 459,1825 492,1826 526,1826 560,1826 594,1827 628,1827 662,1827 696,1827 730,1827 764,1826 798,1826"/>
+                <TextEquiv>
+                    <Unicode>1932 cortándoles la cabeza a 300</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l30" custom="readingOrder {index:29;}">
+                <Coords points="114,1892 233,1872 265,1890 410,1890 430,1870 454,1890 808,1882 791,1841 705,1860 639,1841 114,1846"/>
+                <Baseline points="119,1875 153,1875 187,1875 221,1874 255,1874 290,1874 324,1875 358,1875 392,1875 426,1875 461,1877 495,1877 529,1877 563,1877 597,1877 632,1877 666,1877 700,1877 734,1875 768,1874 803,1872"/>
+                <TextEquiv>
+                    <Unicode>jefes "rebeldes" de las tribus veci¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l31" custom="readingOrder {index:30;}">
+                <Coords points="120,1938 820,1931 782,1893 746,1921 711,1893 241,1893 213,1921 120,1901"/>
+                <Baseline points="125,1928 159,1928 194,1928 228,1928 263,1926 297,1926 332,1926 366,1926 401,1926 435,1926 470,1926 504,1926 539,1926 573,1926 608,1926 642,1926 677,1928 711,1928 746,1928 780,1928 815,1929"/>
+                <TextEquiv>
+                    <Unicode>nas, inmediatamente después de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l32" custom="readingOrder {index:31;}">
+                <Coords points="114,1987 815,1990 815,1958 767,1949 713,1963 511,1941 475,1971 378,1940 114,1957"/>
+                <Baseline points="119,1977 153,1977 188,1977 222,1977 257,1977 291,1977 326,1977 360,1977 395,1977 429,1977 464,1977 499,1979 533,1979 568,1979 602,1979 637,1980 671,1980 706,1980 740,1980 775,1980 810,1980"/>
+                <TextEquiv>
+                    <Unicode>asumir el poder... En cuanto a los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l33" custom="readingOrder {index:32;}">
+                <Coords points="108,2036 318,2042 352,2018 376,2043 598,2042 619,2021 641,2042 762,2042 806,2003 108,2005"/>
+                <Baseline points="113,2027 147,2027 181,2027 216,2027 250,2027 285,2027 319,2027 353,2028 388,2028 422,2028 457,2028 491,2028 525,2028 560,2030 594,2030 629,2030 663,2030 697,2030 732,2031 766,2031 801,2031"/>
+                <TextEquiv>
+                    <Unicode>comunistas acostumbra decir</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l34" custom="readingOrder {index:33;}">
+                <Coords points="123,2075 383,2091 444,2070 535,2098 811,2082 783,2053 728,2074 638,2045 449,2062 123,2045"/>
+                <Baseline points="128,2069 161,2071 195,2073 229,2075 263,2076 297,2078 331,2078 365,2079 399,2079 433,2081 467,2081 500,2081 534,2081 568,2081 602,2081 636,2081 670,2081 704,2081 738,2081 772,2081 806,2081"/>
+                <TextEquiv>
+                    <Unicode>Para resolver el problema co¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l35" custom="readingOrder {index:34;}">
+                <Coords points="108,2131 669,2146 701,2128 781,2146 805,2138 806,2099 108,2104"/>
+                <Baseline points="113,2127 147,2129 181,2129 216,2129 250,2129 284,2129 319,2130 353,2130 387,2130 422,2130 456,2130 490,2130 525,2132 559,2132 593,2132 628,2132 662,2132 696,2132 731,2132 765,2132 800,2132"/>
+                <TextEquiv>
+                    <Unicode>munista tengo una fórmula infa¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l36" custom="readingOrder {index:35;}">
+                <Coords points="108,2182 753,2202 814,2185 814,2161 711,2147 628,2175 583,2147 108,2153"/>
+                <Baseline points="113,2180 147,2180 182,2180 217,2180 252,2180 287,2180 321,2180 356,2180 391,2181 426,2181 461,2181 495,2181 530,2183 565,2183 600,2183 635,2183 669,2183 704,2184 739,2184 774,2184 809,2184"/>
+                <TextEquiv>
+                    <Unicode>lible; matarlos a todos"... Ma go¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l37" custom="readingOrder {index:36;} place {offset:9; length:8;}">
+                <Coords points="123,2241 265,2226 297,2243 322,2222 427,2250 537,2230 778,2247 811,2242 812,2205 774,2190 708,2214 528,2221 496,2197 124,2195"/>
+                <Baseline points="129,2228 162,2229 196,2229 230,2229 264,2230 298,2231 332,2231 365,2231 399,2231 433,2231 467,2231 501,2231 535,2231 569,2232 602,2232 636,2232 670,2232 704,2234 738,2234 772,2235 806,2235"/>
+                <TextEquiv>
+                    <Unicode>bierna a Ninghsia como estado</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l38" custom="readingOrder {index:37;}">
+                <Coords points="115,2290 800,2292 793,2261 115,2251"/>
+                <Baseline points="120,2279 153,2279 187,2279 221,2280 255,2280 288,2280 322,2280 356,2280 390,2280 423,2280 457,2280 491,2282 525,2282 558,2282 592,2282 626,2282 660,2283 693,2283 727,2283 761,2283 795,2285"/>
+                <TextEquiv>
+                    <Unicode>feudal; cobra los impuestos y se¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l39" custom="readingOrder {index:38;}">
+                <Coords points="120,2340 790,2346 813,2314 536,2300 281,2320 121,2299"/>
+                <Baseline points="125,2330 159,2330 193,2330 227,2330 261,2330 295,2330 329,2330 363,2331 397,2331 431,2331 466,2331 500,2332 534,2333 568,2333 602,2333 636,2333 670,2333 704,2333 738,2333 772,2333 807,2333"/>
+                <TextEquiv>
+                    <Unicode>lecciona su propio ejército y con¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l40" custom="readingOrder {index:39;}">
+                <Coords points="108,2387 228,2402 279,2379 734,2382 763,2403 809,2386 809,2362 708,2349 425,2348 351,2372 327,2349 284,2370 108,2357"/>
+                <Baseline points="113,2381 147,2381 182,2379 216,2379 251,2379 285,2379 320,2379 354,2381 389,2381 423,2381 458,2382 493,2382 527,2383 562,2384 596,2384 631,2384 665,2385 700,2385 734,2385 769,2384 804,2384"/>
+                <TextEquiv>
+                    <Unicode>tribuye al sostenimiento del go¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l41" custom="readingOrder {index:40;} place {offset:18; length:7;}">
+                <Coords points="119,2442 425,2431 469,2450 494,2431 742,2450 812,2446 813,2413 120,2397"/>
+                <Baseline points="125,2430 159,2431 193,2432 227,2432 261,2432 295,2432 329,2432 363,2432 397,2433 431,2433 466,2433 500,2433 534,2433 568,2433 602,2435 636,2435 670,2435 704,2436 738,2436 772,2438 807,2438"/>
+                <TextEquiv>
+                    <Unicode>bierno central de Nanking en la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l42" custom="readingOrder {index:41;}">
+                <Coords points="109,2484 815,2497 775,2453 109,2460"/>
+                <Baseline points="114,2483 148,2483 183,2484 218,2484 253,2484 288,2484 322,2484 357,2484 392,2484 427,2484 462,2484 496,2484 531,2484 566,2484 601,2484 636,2484 670,2486 705,2486 740,2487 775,2487 810,2489"/>
+                <TextEquiv>
+                    <Unicode>forma que le parece conveniente,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l43" custom="readingOrder {index:42;}">
+                <Coords points="115,2546 818,2542 775,2501 717,2527 630,2501 115,2509"/>
+                <Baseline points="120,2534 154,2534 189,2534 223,2534 258,2534 293,2534 327,2534 362,2534 397,2534 431,2534 466,2534 501,2534 535,2535 570,2535 605,2535 639,2535 674,2537 709,2537 743,2537 778,2538 813,2540"/>
+                <TextEquiv>
+                    <Unicode>sin rendirle cuentas fiscales... La</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l44" custom="readingOrder {index:43;} person {offset:29; length:3; continued:true;}">
+                <Coords points="108,2587 736,2587 758,2606 809,2587 719,2553 679,2575 543,2549 108,2563"/>
+                <Baseline points="113,2583 147,2583 182,2583 216,2583 251,2585 285,2585 320,2585 354,2585 389,2585 423,2586 458,2586 493,2586 527,2586 562,2587 596,2588 631,2588 665,2588 700,2588 734,2588 769,2588 804,2588"/>
+                <TextEquiv>
+                    <Unicode>autonomía de que disfruta el ge¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l45" custom="readingOrder {index:44;} person {offset:0; length:8; continued:true;}">
+                <Coords points="121,2645 802,2645 776,2605 397,2620 376,2601 315,2626 277,2597 121,2613"/>
+                <Baseline points="126,2633 159,2633 193,2634 226,2634 260,2635 293,2636 327,2636 360,2636 394,2636 427,2636 461,2636 495,2636 528,2637 562,2637 595,2637 629,2637 662,2637 696,2637 729,2639 763,2639 797,2639"/>
+                <TextEquiv>
+                    <Unicode>neral Ma, tal vez se haga comple¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l46" custom="readingOrder {index:45;}">
+                <Coords points="121,2697 818,2695 818,2668 791,2660 541,2652 466,2680 344,2653 171,2672 122,2653"/>
+                <Baseline points="126,2684 160,2684 194,2685 229,2685 263,2685 297,2685 332,2686 366,2687 400,2687 435,2687 469,2687 503,2687 538,2687 572,2687 606,2688 641,2688 675,2688 709,2688 744,2690 778,2690 813,2690"/>
+                <TextEquiv>
+                    <Unicode>ta con el tiempo... Por lo menos.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l47" custom="readingOrder {index:46;}">
+                <Coords points="120,2746 818,2742 818,2717 656,2701 621,2718 120,2709"/>
+                <Baseline points="125,2736 159,2735 193,2735 228,2735 262,2735 297,2735 331,2735 365,2736 400,2736 434,2736 469,2736 503,2737 537,2738 572,2738 606,2738 641,2738 675,2739 709,2739 744,2739 778,2739 813,2738"/>
+                <TextEquiv>
+                    <Unicode>es pilar firme en la tambaleante</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l48" custom="readingOrder {index:47;}">
+                <Coords points="121,2794 326,2795 341,2783 423,2802 614,2799 614,2781 559,2757 121,2763"/>
+                <Baseline points="126,2783 151,2783 176,2784 202,2784 227,2784 253,2784 278,2784 303,2784 329,2784 354,2785 380,2786 405,2786 431,2786 456,2786 481,2787 507,2787 532,2788 558,2789 583,2789 811,2793"/>
+                <TextEquiv>
+                    <Unicode>estructura nacionalista... Una</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l50" custom="readingOrder {index:48;}">
+                <Coords points="121,2847 794,2851 808,2804 451,2824 415,2805 389,2823 351,2805 121,2813"/>
+                <Baseline points="126,2837 159,2837 193,2837 227,2837 261,2837 295,2837 329,2837 362,2838 396,2838 430,2838 464,2838 498,2838 532,2838 566,2838 599,2838 633,2840 667,2840 701,2840 735,2840 769,2840 803,2841"/>
+                <TextEquiv>
+                    <Unicode>quinta parte de sus súbditos está</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l51" custom="readingOrder {index:49;} person {offset:27; length:5; continued:true;}">
+                <Coords points="119,2898 399,2906 421,2887 554,2905 682,2886 776,2911 814,2897 815,2872 442,2853 396,2873 318,2852 240,2880 201,2852 180,2872 120,2862"/>
+                <Baseline points="125,2888 159,2888 193,2888 227,2888 261,2888 296,2888 330,2888 364,2888 398,2888 432,2888 467,2888 501,2889 535,2889 569,2889 603,2889 638,2891 672,2891 706,2891 740,2892 774,2892 809,2894"/>
+                <TextEquiv>
+                    <Unicode>en la milicia, defendiendo Ning¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l52" custom="readingOrder {index:50;} person {offset:0; length:4; continued:true;}">
+                <Coords points="114,2946 809,2954 809,2917 784,2909 699,2928 656,2908 114,2902"/>
+                <Baseline points="119,2937 153,2937 187,2936 221,2936 256,2936 290,2937 324,2937 358,2937 393,2939 427,2939 461,2940 495,2940 530,2940 564,2942 598,2942 632,2942 667,2943 701,2943 735,2943 769,2943 804,2942"/>
+                <TextEquiv>
+                    <Unicode>hsia y una linea nacionalista en la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l53" custom="readingOrder {index:51;} place {offset:20; length:6;}">
+                <Coords points="118,3004 800,3003 819,2978 759,2957 718,2983 674,2983 646,2956 119,2965"/>
+                <Baseline points="123,2990 157,2988 192,2988 226,2988 261,2988 295,2988 330,2988 364,2988 399,2988 433,2990 468,2990 502,2990 537,2991 571,2991 606,2992 640,2993 675,2993 709,2993 744,2993 778,2993 813,2993"/>
+                <TextEquiv>
+                    <Unicode>provincia vecina de Shensi... Los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l54" custom="readingOrder {index:52;}">
+                <Coords points="120,3050 818,3048 818,3021 728,3008 120,3013"/>
+                <Baseline points="125,3039 159,3038 193,3038 228,3038 262,3038 297,3038 331,3038 365,3038 400,3039 434,3039 469,3039 503,3041 537,3041 572,3042 606,3042 641,3042 675,3044 709,3044 744,3044 778,3044 813,3044"/>
+                <TextEquiv>
+                    <Unicode>agitadores e invasores comunistas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l55" custom="readingOrder {index:53;}">
+                <Coords points="115,3106 479,3092 743,3114 805,3100 806,3068 368,3069 346,3052 306,3075 116,3069"/>
+                <Baseline points="120,3092 154,3090 188,3090 222,3090 256,3089 290,3089 324,3089 358,3089 392,3090 426,3090 460,3090 494,3091 528,3092 562,3092 596,3093 630,3093 664,3093 698,3093 732,3093 766,3093 800,3093"/>
+                <TextEquiv>
+                    <Unicode>procuran alejarse de Nnghsia por¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l56" custom="readingOrder {index:54;}">
+                <Coords points="114,3146 806,3148 789,3117 616,3109 114,3117"/>
+                <Baseline points="119,3143 153,3141 187,3141 221,3140 255,3140 289,3140 323,3140 357,3140 391,3140 425,3141 460,3141 494,3141 528,3142 562,3143 596,3143 630,3144 664,3144 698,3144 732,3144 766,3144 801,3144"/>
+                <TextEquiv>
+                    <Unicode>que saben que los soldados-campe¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l57" custom="readingOrder {index:55;} person {offset:10; length:10;}">
+                <Coords points="108,3197 775,3210 814,3202 815,3174 109,3168"/>
+                <Baseline points="113,3189 147,3189 182,3189 217,3189 252,3189 287,3189 321,3191 356,3191 391,3191 426,3192 461,3192 495,3192 530,3194 565,3194 600,3194 635,3195 669,3195 704,3195 739,3195 774,3195 809,3195"/>
+                <TextEquiv>
+                    <Unicode>sinos del general Ma son gente de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_18" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="885,358 1593,358 1593,831 885,831"/>
+            <TextLine id="r_3_1l1" custom="readingOrder {index:0;}">
+                <Coords points="900,418 1585,412 1585,380 1532,372 1136,373 1102,397 1027,373 900,380"/>
+                <Baseline points="905,404 938,405 972,405 1006,407 1040,407 1073,407 1107,407 1141,407 1175,407 1208,407 1242,407 1276,407 1310,407 1343,405 1377,405 1411,405 1445,405 1478,405 1512,404 1546,404 1580,404"/>
+                <TextEquiv>
+                    <Unicode>cuidado... Están bien entrenados</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l2" custom="readingOrder {index:1;}">
+                <Coords points="888,470 1381,453 1546,474 1592,457 1592,434 1495,420 888,431"/>
+                <Baseline points="893,459 927,458 962,458 997,456 1031,456 1066,456 1101,456 1135,456 1170,456 1205,456 1240,456 1274,456 1309,456 1344,456 1378,456 1413,456 1448,458 1482,458 1517,458 1552,458 1587,458"/>
+                <TextEquiv>
+                    <Unicode>y dispuestos a defender sus hoga¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l3" custom="readingOrder {index:2;} person {offset:10; length:10;}">
+                <Coords points="900,514 1580,518 1580,484 1476,473 1102,485 1053,469 1023,498 900,477"/>
+                <Baseline points="905,506 938,507 972,507 1005,507 1039,507 1072,507 1106,507 1139,507 1173,507 1206,507 1240,507 1273,506 1307,506 1340,506 1374,506 1407,506 1441,506 1474,507 1508,507 1541,507 1575,507"/>
+                <TextEquiv>
+                    <Unicode>res... El general Ma abrazó haco</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l4" custom="readingOrder {index:3;}">
+                <Coords points="894,564 1422,570 1461,545 1486,570 1568,570 1582,532 1480,525 1433,551 1283,525 894,532"/>
+                <Baseline points="899,557 932,557 966,557 1000,557 1034,557 1068,557 1102,557 1136,557 1170,558 1204,558 1238,558 1271,558 1305,560 1339,560 1373,560 1407,560 1441,560 1475,560 1509,558 1543,558 1577,558"/>
+                <TextEquiv>
+                    <Unicode>mucho la fe musulmana.. Tiene</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l5" custom="readingOrder {index:4;}">
+                <Coords points="891,618 1511,626 1591,618 1591,581 1519,573 1474,603 1398,581 891,582"/>
+                <Baseline points="896,609 930,609 965,609 999,608 1034,608 1068,608 1103,608 1137,609 1172,609 1206,609 1241,609 1275,609 1310,609 1344,611 1379,611 1413,611 1448,611 1482,611 1517,611 1551,611 1586,611"/>
+                <TextEquiv>
+                    <Unicode>su palacio y sus esposas... ¿Sus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l6" custom="readingOrder {index:5;}">
+                <Coords points="897,666 1274,674 1318,650 1344,673 1594,672 1574,636 1494,627 897,633"/>
+                <Baseline points="902,660 936,660 970,660 1005,660 1039,659 1073,659 1108,659 1142,659 1176,659 1211,659 1245,659 1279,659 1314,659 1348,659 1382,659 1417,660 1451,660 1485,660 1520,660 1554,660 1589,662"/>
+                <TextEquiv>
+                    <Unicode>más caras aficiones? Sus mujeres.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l7" custom="readingOrder {index:6;}">
+                <Coords points="901,723 1064,727 1092,707 1591,721 1591,686 1519,673 901,685"/>
+                <Baseline points="906,710 940,710 974,711 1008,711 1042,711 1076,711 1110,711 1144,710 1178,710 1212,710 1246,710 1280,710 1314,710 1348,710 1382,710 1416,710 1450,711 1484,711 1518,711 1552,713 1586,714"/>
+                <TextEquiv>
+                    <Unicode>el canto y los helados que introdujo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l8" custom="readingOrder {index:7;} place {offset:3; length:8;}">
+                <Coords points="888,768 1583,767 1583,740 1518,724 888,739"/>
+                <Baseline points="893,761 927,761 961,761 995,761 1030,761 1064,762 1098,762 1132,762 1167,762 1201,762 1235,762 1269,762 1304,762 1338,762 1372,762 1406,762 1441,762 1475,762 1509,762 1543,761 1578,761"/>
+                <TextEquiv>
+                    <Unicode>en Ninghsia un misionero occiden¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l9" custom="readingOrder {index:8;}">
+                <Coords points="895,819 922,820 931,826 951,825 958,818 971,816 1019,819 1020,799 999,798 993,803 976,798 971,802 947,780 929,781 922,788 913,780 896,781"/>
+                <Baseline points="900,812 928,813 957,815 985,815 1014,815"/>
+                <TextEquiv>
+                    <Unicode>tal...</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="901,1828 1584,1828 1584,1894 901,1894"/>
+            <TextLine id="r_5_1l3" custom="readingOrder {index:0;}">
+                <Coords points="946,1884 1592,1887 1575,1845 1173,1837 1148,1856 1059,1836 1002,1860 946,1837"/>
+                <Baseline points="951,1871 982,1871 1014,1872 1046,1872 1078,1872 1110,1872 1141,1872 1173,1872 1205,1872 1237,1872 1269,1872 1300,1871 1332,1871 1364,1871 1396,1871 1428,1871 1459,1872 1491,1872 1523,1874 1555,1875 1587,1877"/>
+                <TextEquiv>
+                    <Unicode>La señora de George M. Dewey,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_19" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="1654,354 2394,354 2394,1879 1654,1879"/>
+            <TextLine id="r_6_1l2" custom="readingOrder {index:0;}">
+                <Coords points="1675,411 2091,418 2114,396 2139,419 2204,397 2228,418 2378,412 2378,384 2277,373 1975,372 1896,397 1840,372 1675,380"/>
+                <Baseline points="1680,405 1714,407 1749,407 1783,407 1818,407 1853,407 1887,407 1922,408 1957,408 1991,408 2026,408 2061,408 2095,408 2130,410 2165,410 2199,410 2234,410 2269,410 2303,411 2338,411 2373,411"/>
+                <TextEquiv>
+                    <Unicode>venerable ancianita de setenta</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l3" custom="readingOrder {index:1;}">
+                <Coords points="1675,477 2381,467 2280,429 2171,449 2038,429 1955,448 1932,429 1835,449 1805,428 1774,447 1675,438"/>
+                <Baseline points="1680,464 1714,464 1749,465 1784,465 1819,465 1854,465 1888,465 1923,467 1958,467 1993,467 2028,467 2062,467 2097,467 2132,468 2167,468 2202,468 2236,468 2271,468 2306,468 2341,467 2376,467"/>
+                <TextEquiv>
+                    <Unicode>años de edad, madre del candidato</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l4" custom="readingOrder {index:2;}">
+                <Coords points="1678,530 2374,530 2374,503 2319,491 2241,507 2202,490 1914,507 1678,492"/>
+                <Baseline points="1683,519 1717,521 1751,522 1785,523 1820,524 1854,524 1888,524 1923,525 1957,525 1991,525 2026,524 2060,524 2094,524 2128,524 2163,524 2197,525 2231,525 2266,525 2300,525 2334,527 2369,528"/>
+                <TextEquiv>
+                    <Unicode>republicano a la presidencia de los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l5" custom="readingOrder {index:3;} place {offset:0; length:14;} person {offset:16; length:15;}">
+                <Coords points="1680,588 2381,595 2352,557 2231,545 1680,546"/>
+                <Baseline points="1685,579 1719,579 1754,581 1788,581 1823,581 1857,581 1892,581 1926,581 1961,581 1995,581 2030,581 2065,582 2099,582 2134,582 2168,582 2203,582 2237,584 2272,584 2306,585 2341,587 2376,587"/>
+                <TextEquiv>
+                    <Unicode>Estados Unidos, Thomas E. Dewey,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l6" custom="readingOrder {index:4;}">
+                <Coords points="1680,650 2352,652 2372,650 2372,603 2189,624 2125,605 2007,632 1975,605 1880,629 1848,605 1680,607"/>
+                <Baseline points="1685,639 1719,638 1753,638 1787,638 1821,638 1855,639 1889,639 1923,639 1957,639 1991,639 2026,639 2060,639 2094,639 2128,641 2162,641 2196,641 2230,641 2264,641 2298,641 2332,641 2367,641"/>
+                <TextEquiv>
+                    <Unicode>derrotado en la consulta nacional</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l7" custom="readingOrder {index:5;}">
+                <Coords points="1674,698 2248,714 2375,696 2375,669 2328,660 2290,681 2256,661 1674,668"/>
+                <Baseline points="1679,692 1713,692 1748,692 1782,692 1817,692 1851,692 1886,693 1920,693 1955,693 1989,693 2024,693 2059,693 2093,693 2128,695 2162,695 2197,695 2231,695 2266,695 2300,695 2335,695 2370,695"/>
+                <TextEquiv>
+                    <Unicode>de noviembre pasado, predijo dos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l8" custom="readingOrder {index:6;}">
+                <Coords points="1668,750 2378,749 2352,718 2121,708 2093,727 2037,711 1668,723"/>
+                <Baseline points="1673,744 1708,744 1743,744 1778,744 1813,744 1848,744 1883,744 1918,746 1953,746 1988,746 2023,746 2058,746 2093,746 2128,746 2163,747 2198,747 2233,747 2268,747 2303,747 2338,749 2373,749"/>
+                <TextEquiv>
+                    <Unicode>semanas antes de las elecciones que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l9" custom="readingOrder {index:7;}">
+                <Coords points="1674,811 2375,807 2360,773 2295,764 2075,765 2035,794 1966,765 1674,773"/>
+                <Baseline points="1679,798 1713,800 1748,800 1782,800 1817,800 1851,801 1886,801 1920,801 1955,801 1989,801 2024,801 2059,800 2093,800 2128,800 2162,800 2197,800 2231,800 2266,801 2300,801 2335,801 2370,801"/>
+                <TextEquiv>
+                    <Unicode>su hijo perdería. .. “Creo que Tom</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l10" custom="readingOrder {index:8;}">
+                <Coords points="1668,847 1691,865 1946,856 1962,872 1994,850 2288,870 2381,855 2350,829 2266,821 2216,844 2094,821 1668,829"/>
+                <Baseline points="1673,852 1708,854 1743,854 1778,854 1813,854 1848,854 1883,854 1919,854 1954,854 1989,854 2024,854 2059,854 2094,854 2129,854 2165,854 2200,854 2235,854 2270,854 2305,854 2340,854 2376,854"/>
+                <TextEquiv>
+                    <Unicode>va a perder y hasta me alegra¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l11" custom="readingOrder {index:9;}">
+                <Coords points="1674,917 2378,911 2378,882 2323,873 2299,896 2174,874 2012,898 1891,868 1814,901 1674,877"/>
+                <Baseline points="1679,908 1713,908 1748,908 1783,908 1817,908 1852,908 1887,908 1921,908 1956,908 1991,908 2026,908 2060,908 2095,908 2130,908 2164,908 2199,908 2234,908 2268,909 2303,909 2338,909 2373,909"/>
+                <TextEquiv>
+                    <Unicode>ria..., dijo en su residencia del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l12" custom="readingOrder {index:10;} place {offset:10; length:6;}">
+                <Coords points="1669,974 2372,963 2342,924 2200,941 2151,924 2051,952 1911,924 1669,933"/>
+                <Baseline points="1674,960 1708,960 1743,959 1777,959 1812,959 1847,959 1881,959 1916,959 1951,960 1985,960 2020,960 2055,962 2089,962 2124,962 2159,962 2193,962 2228,962 2263,962 2297,962 2332,962 2367,960"/>
+                <TextEquiv>
+                    <Unicode>pueblo de Owosso, en el estado de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l13" custom="readingOrder {index:11;} place {offset:0; length:8;}">
+                <Coords points="1680,1026 2083,1031 2111,1006 2189,1033 2221,1004 2256,1034 2369,1026 2369,1001 2327,987 2090,999 1969,979 1941,1007 1882,1007 1680,980"/>
+                <Baseline points="1685,1014 1720,1014 1756,1013 1792,1013 1827,1013 1863,1013 1899,1014 1935,1014 1970,1014 2006,1014 2042,1016 2078,1016 2113,1016 2149,1016 2185,1017 2221,1017 2256,1017 2292,1017 2328,1017 2364,1016"/>
+                <TextEquiv>
+                    <Unicode>Michigan... Pocos, muy pocos,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l14" custom="readingOrder {index:12;}">
+                <Coords points="1677,1083 2377,1070 2377,1047 2336,1033 1677,1045"/>
+                <Baseline points="1682,1070 1716,1068 1751,1067 1785,1067 1820,1065 1854,1065 1889,1065 1923,1065 1958,1067 1992,1067 2027,1067 2061,1068 2096,1068 2130,1068 2165,1068 2199,1070 2234,1070 2268,1070 2303,1068 2337,1068 2372,1067"/>
+                <TextEquiv>
+                    <Unicode>pusieron atención a las palabras de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l15" custom="readingOrder {index:13;}">
+                <Coords points="1674,1129 2375,1128 2357,1092 2164,1085 2020,1113 1999,1093 1807,1085 1723,1112 1674,1084"/>
+                <Baseline points="1679,1119 1713,1119 1748,1119 1782,1119 1817,1119 1851,1119 1886,1119 1920,1119 1955,1119 1989,1121 2024,1121 2059,1121 2093,1121 2128,1122 2162,1122 2197,1122 2231,1122 2266,1122 2300,1122 2335,1121 2370,1121"/>
+                <TextEquiv>
+                    <Unicode>la madre buena, que atribuyeron</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l16" custom="readingOrder {index:14;}">
+                <Coords points="1674,1186 2378,1181 2378,1153 2318,1140 2132,1161 2048,1140 1674,1147"/>
+                <Baseline points="1679,1173 1713,1173 1748,1172 1783,1172 1817,1172 1852,1172 1887,1173 1921,1173 1956,1173 1991,1174 2026,1175 2060,1175 2095,1175 2130,1175 2164,1176 2199,1176 2234,1176 2268,1176 2303,1176 2338,1176 2373,1175"/>
+                <TextEquiv>
+                    <Unicode>al deseo de evitarle a su hijo las</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l17" custom="readingOrder {index:15;}">
+                <Coords points="1669,1230 2374,1233 2374,1203 2270,1189 1669,1203"/>
+                <Baseline points="1674,1223 1708,1224 1743,1224 1778,1226 1813,1226 1847,1226 1882,1226 1917,1227 1952,1227 1986,1227 2021,1227 2056,1227 2091,1227 2125,1226 2160,1226 2195,1226 2230,1226 2264,1226 2299,1226 2334,1227 2369,1227"/>
+                <TextEquiv>
+                    <Unicode>responsabilidades y los sinsabores</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l18" custom="readingOrder {index:16;}">
+                <Coords points="1677,1285 2094,1299 2375,1279 2350,1253 2285,1267 2207,1245 2011,1269 1961,1245 1911,1268 1858,1244 1801,1270 1762,1244 1677,1253"/>
+                <Baseline points="1682,1278 1716,1278 1750,1280 1785,1280 1819,1280 1854,1280 1888,1281 1922,1281 1957,1281 1991,1281 2026,1281 2060,1281 2094,1280 2129,1280 2163,1280 2198,1280 2232,1280 2266,1280 2301,1280 2335,1280 2370,1280"/>
+                <TextEquiv>
+                    <Unicode>de la más alta magistratura na¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l19" custom="readingOrder {index:17;}">
+                <Coords points="1677,1340 2369,1341 2224,1293 2187,1310 1677,1309"/>
+                <Baseline points="1682,1332 1716,1332 1750,1332 1784,1332 1818,1332 1852,1332 1886,1332 1920,1332 1954,1332 1988,1332 2023,1332 2057,1332 2091,1334 2125,1334 2159,1334 2193,1334 2227,1334 2261,1334 2295,1335 2329,1335 2364,1335"/>
+                <TextEquiv>
+                    <Unicode>cional en tiempos tan críticos...</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l20" custom="readingOrder {index:18;}">
+                <Coords points="1668,1392 2255,1406 2372,1390 2294,1349 2226,1374 2170,1353 2043,1377 1988,1352 1669,1354"/>
+                <Baseline points="1673,1383 1707,1383 1742,1383 1777,1383 1811,1385 1846,1385 1881,1385 1915,1386 1950,1386 1985,1387 2020,1388 2054,1388 2089,1388 2124,1389 2158,1389 2193,1389 2228,1389 2262,1389 2297,1388 2332,1388 2367,1386"/>
+                <TextEquiv>
+                    <Unicode>Pero vinieron los comicios prime¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l21" custom="readingOrder {index:19;}">
+                <Coords points="1669,1445 2311,1458 2363,1444 2364,1420 1670,1415"/>
+                <Baseline points="1674,1439 1708,1439 1742,1439 1776,1439 1810,1439 1845,1439 1879,1440 1913,1440 1947,1440 1981,1440 2016,1440 2050,1440 2084,1440 2118,1440 2152,1440 2187,1442 2221,1442 2255,1442 2289,1442 2323,1442 2358,1442"/>
+                <TextEquiv>
+                    <Unicode>ro y los resultados después, y aque¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l22" custom="readingOrder {index:20;}">
+                <Coords points="1668,1499 2371,1506 2371,1467 2343,1461 2266,1478 2111,1460 2083,1482 1668,1468"/>
+                <Baseline points="1673,1494 1707,1494 1742,1493 1776,1493 1811,1493 1846,1493 1880,1493 1915,1493 1950,1493 1984,1493 2019,1493 2054,1494 2088,1494 2123,1494 2158,1494 2192,1495 2227,1496 2262,1496 2296,1496 2331,1497 2366,1497"/>
+                <TextEquiv>
+                    <Unicode>llas palabras suyas elevaron a la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l23" custom="readingOrder {index:21;}">
+                <Coords points="1677,1555 2330,1562 2375,1552 2375,1518 1677,1521"/>
+                <Baseline points="1682,1548 1716,1548 1750,1547 1785,1547 1819,1545 1854,1545 1888,1545 1922,1547 1957,1547 1991,1547 2026,1547 2060,1548 2094,1548 2129,1548 2163,1550 2198,1550 2232,1550 2266,1548 2301,1548 2335,1548 2370,1547"/>
+                <TextEquiv>
+                    <Unicode>señora Dewey al primer plano del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l24" custom="readingOrder {index:22;}">
+                <Coords points="1668,1604 2369,1613 2369,1577 2269,1564 2201,1565 2162,1595 2086,1565 1668,1578"/>
+                <Baseline points="1673,1601 1707,1601 1742,1601 1776,1601 1811,1601 1845,1601 1880,1601 1914,1601 1949,1601 1983,1602 2018,1602 2053,1602 2087,1602 2122,1602 2156,1602 2191,1602 2225,1602 2260,1602 2294,1602 2329,1602 2364,1601"/>
+                <TextEquiv>
+                    <Unicode>retablo internacional... ¡Fué una</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l" custom="readingOrder {index:23;}">
+                <Coords points="1679,1665 2372,1662 2372,1632 1679,1635"/>
+                <Baseline points="1679,1665 2372,1662"/>
+                <TextEquiv>
+                    <Unicode>de las pocas, poquísimas, personas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l26" custom="readingOrder {index:24;}">
+                <Coords points="1677,1718 2365,1720 2377,1679 1677,1685"/>
+                <Baseline points="1682,1707 1716,1707 1751,1707 1785,1707 1820,1707 1854,1707 1889,1707 1923,1707 1958,1707 1992,1707 2027,1707 2061,1707 2096,1707 2130,1707 2165,1707 2199,1707 2234,1707 2268,1707 2303,1707 2337,1706 2372,1706"/>
+                <TextEquiv>
+                    <Unicode>que creyeron en la re-elección del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l27" custom="readingOrder {index:25;}">
+                <Coords points="1677,1779 2357,1771 2368,1732 2157,1726 2125,1754 1932,1725 1677,1733"/>
+                <Baseline points="1682,1761 1716,1761 1750,1761 1784,1761 1818,1760 1852,1760 1886,1760 1920,1760 1954,1760 1988,1760 2022,1761 2056,1761 2090,1761 2124,1761 2158,1761 2192,1761 2226,1761 2260,1761 2294,1761 2328,1760 2363,1760"/>
+                <TextEquiv>
+                    <Unicode>presidente Truman... Tal vez no</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l28" custom="readingOrder {index:26;}">
+                <Coords points="1675,1822 2378,1813 2337,1778 2306,1801 2253,1779 2055,1807 2023,1787 1675,1788"/>
+                <Baseline points="1680,1815 1714,1815 1749,1815 1783,1815 1818,1815 1853,1815 1887,1815 1922,1815 1957,1815 1991,1815 2026,1815 2061,1815 2095,1815 2130,1815 2165,1815 2199,1814 2234,1814 2269,1814 2303,1814 2338,1814 2373,1812"/>
+                <TextEquiv>
+                    <Unicode>le engañó nunca, su corazón de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l29" custom="readingOrder {index:27;}">
+                <Coords points="1670,1881 1836,1882 1874,1874 1874,1862 1827,1863 1807,1845 1769,1841 1758,1833 1739,1845 1671,1848"/>
+                <Baseline points="1676,1869 1703,1868 1731,1868 1758,1869 1786,1869 1813,1871 1841,1872 1869,1874"/>
+                <TextEquiv>
+                    <Unicode>madre...</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_14" custom="readingOrder {index:6;} structure {type:cartoon;}">
+            <Coords points="954,915 1527,915 1527,1614 954,1614"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:7;}">
+            <Coords points="777,319 1571,319 1571,325 777,325"/>
+        </SeparatorRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:8;} structure {type:caption;}">
+            <Coords points="935,1616 1532,1612 1532,1699 937,1696"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="958,1687 1530,1690 1530,1660 958,1657"/>
+                <Baseline points="958,1687 1530,1690"/>
+                <TextEquiv>
+                    <Unicode>MRS. GEORGE M. DEWEY</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:9;}">
+            <Coords points="1585,322 1673,322 1673,325 1585,325"/>
+        </SeparatorRegion>
+        <TextRegion id="r_6" custom="readingOrder {index:10;} structure {type:caption;}">
+            <Coords points="910,1715 1584,1715 1584,1820 910,1820"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;}">
+                <Coords points="945,1754 1557,1760 1588,1753 1588,1716 1447,1709 1383,1729 1361,1709 1328,1725 1044,1709 945,1728"/>
+                <Baseline points="950,1748 981,1746 1013,1746 1044,1745 1076,1745 1108,1745 1139,1745 1171,1745 1203,1745 1234,1745 1266,1745 1298,1745 1329,1746 1361,1746 1393,1746 1424,1746 1456,1746 1488,1746 1519,1746 1551,1746 1583,1745"/>
+                <TextEquiv>
+                    <Unicode>predijo la derrota de su hijo en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l2" custom="readingOrder {index:1;}">
+                <Coords points="960,1809 1586,1804 1586,1788 1399,1758 1312,1781 1273,1765 1248,1781 960,1768"/>
+                <Baseline points="965,1796 995,1796 1026,1797 1057,1797 1088,1797 1119,1797 1149,1797 1180,1797 1211,1796 1242,1796 1273,1796 1303,1796 1334,1796 1365,1796 1396,1796 1427,1797 1457,1797 1488,1797 1519,1797 1550,1797 1581,1799"/>
+                <TextEquiv>
+                    <Unicode>las elecciones de noviembre...</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:11;}">
+            <Coords points="867,1989 2313,1989 2313,2002 867,2002"/>
+        </SeparatorRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:12;} structure {type:heading;}">
+            <Coords points="1116,2008 2139,2008 2136,2138 1119,2144"/>
+            <TextLine id="l_2" custom="readingOrder {index:0;}">
+                <Coords points="1161,2125 2108,2119 2108,2089 1161,2095"/>
+                <Baseline points="1161,2125 2108,2119"/>
+                <TextEquiv>
+                    <Unicode>LA NOVILLADA DE VISTA ALEGRE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:13;}">
+            <Coords points="1921,2651 1929,2651 1929,2873 1921,2873"/>
+        </SeparatorRegion>
+        <TextRegion id="r_15" custom="readingOrder {index:14;} structure {type:photograph;}">
+            <Coords points="847,2159 2337,2151 2340,3154 844,3170"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:15;}">
+            <Coords points="1792,2103 1913,2103 1913,2111 1792,2111"/>
+        </SeparatorRegion>
+        <TextRegion id="r_16" custom="readingOrder {index:16;} structure {type:caption;}">
+            <Coords points="862,3181 2325,3181 2325,3228 862,3228"/>
+            <TextLine id="l_3" custom="readingOrder {index:0;}">
+                <Coords points="871,3217 2302,3211 2302,3181 871,3187"/>
+                <Baseline points="871,3217 2302,3211"/>
+                <TextEquiv>
+                    <Unicode>MADRID:-Los caballos estrenaron peto. Una pica durante la lidia. (Foto CIFRA)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:17;}">
+            <Coords points="878,3142 909,3142 909,3144 878,3144"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

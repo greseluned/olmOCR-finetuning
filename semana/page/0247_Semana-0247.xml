@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:37:18.521+02:00</Created>
+        <LastChange>2026-07-03T19:30:53.211+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572344" pageNr="247" tsid="294893319" status="DONE" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=IUBLFHYOJZNNHMUHSSFXTUVO" xmlUrl="https://files.transkribus.eu/Get?id=XTAWYSHEBGVZYIVPLDFZGRAN" imageId="17057797"/>
+    </Metadata>
+    <Page imageFilename="0247_Semana-0247.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="69,228 2428,228 2428,3274 69,3274"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1783352595242" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="2" regionRef="r"/>
+                <RegionRefIndexed index="3" regionRef="r_1"/>
+                <RegionRefIndexed index="4" regionRef="r_4_1"/>
+                <RegionRefIndexed index="5" regionRef="r_5_1"/>
+                <RegionRefIndexed index="6" regionRef="r_6_1"/>
+                <RegionRefIndexed index="7" regionRef="r_7_1"/>
+                <RegionRefIndexed index="10" regionRef="r_9_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_1"/>
+                <RegionRef regionRef="r_4_1"/>
+                <RegionRef regionRef="r_5_1"/>
+                <RegionRef regionRef="r_6_1"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_7_1"/>
+                <RegionRef regionRef="r_8"/>
+                <RegionRef regionRef="r_9_1"/>
+            </Relation>
+        </Relations>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:header;}">
+            <Coords points="71,240 416,240 416,291 71,291"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;} date {offset:0; length:16;}">
+                <Coords points="68,288 278,283 291,294 312,279 415,283 414,229 320,236 302,255 198,235 169,249 125,240 111,256 95,241 67,239"/>
+                <Baseline points="78,279 103,278 128,278 153,278 178,279 203,279 228,279 254,278 279,278 304,278 329,276 354,276 379,274 405,272"/>
+                <TextEquiv>
+                    <Unicode>2 de Junio, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>2 de Junio, 1949</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:page-number;}">
+            <Coords points="2103,228 2411,228 2411,275 2103,275"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;}">
+                <Coords points="2093,275 2318,276 2330,264 2360,276 2401,275 2416,270 2416,227 2361,225 2343,240 2320,240 2303,225 2093,232"/>
+                <Baseline points="2103,266 2128,267 2153,267 2178,267 2204,266 2229,266 2254,266 2279,266 2305,266 2330,265 2355,266 2380,266 2406,266"/>
+                <TextEquiv>
+                    <Unicode>SEMANA—27</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>SEMANA—27</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:2;} structure {type:heading;}">
+            <Coords points="57,334 1618,334 1618,520 57,520"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="77,483 1602,472 1602,442 77,453"/>
+                <Baseline points="77,483 1602,472"/>
+                <TextEquiv>
+                    <Unicode>La propiedad del trabajo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:3;} structure {type:credit;}">
+            <Coords points="478,540 1215,540 1215,618 478,618"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;} person {offset:4; length:20;}">
+                <Coords points="494,599 1206,602 1206,572 494,569"/>
+                <Baseline points="494,599 1206,602"/>
+                <TextEquiv>
+                    <Unicode>Por BARTOLOMÉ E. BRIONES</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="69,685 812,685 812,3268 69,3268"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;}">
+                <Coords points="111,727 643,723 688,740 795,732 795,685 110,697"/>
+                <Baseline points="120,726 153,725 186,725 219,725 253,725 286,723 319,723 353,723 386,723 419,723 453,723 486,723 519,722 552,722 586,722 619,722 652,722 686,722 719,722 752,723 786,723"/>
+                <TextEquiv>
+                    <Unicode>Generalmente se admite que la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l2" custom="readingOrder {index:1;}">
+                <Coords points="63,782 773,789 795,751 63,752"/>
+                <Baseline points="72,780 107,779 143,777 179,777 214,777 250,777 286,776 321,776 357,776 393,776 429,776 464,776 500,776 536,776 571,776 607,776 643,774 678,774 714,774 750,773 786,773"/>
+                <TextEquiv>
+                    <Unicode>agricultura siempre tiende natu¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l3" custom="readingOrder {index:2;}">
+                <Coords points="63,842 703,845 725,828 753,844 798,827 772,793 638,785 63,802"/>
+                <Baseline points="72,834 107,833 143,833 179,833 215,831 251,831 287,831 322,830 358,830 394,830 430,830 466,828 502,828 538,828 573,828 609,828 645,827 681,827 717,827 753,827 789,827"/>
+                <TextEquiv>
+                    <Unicode>ralmente hacia su perfección, y es¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l4" custom="readingOrder {index:3;}">
+                <Coords points="67,900 523,881 773,900 795,849 67,851"/>
+                <Baseline points="77,884 112,885 147,885 183,885 218,885 254,884 289,884 325,884 360,884 396,882 431,882 466,882 502,882 537,881 573,881 608,881 644,881 679,882 715,882 750,882 786,884"/>
+                <TextEquiv>
+                    <Unicode>ta tendencia debe ser favorecida y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l5" custom="readingOrder {index:4;}">
+                <Coords points="69,951 761,948 789,940 789,905 68,908"/>
+                <Baseline points="77,938 112,938 147,938 182,938 217,938 252,938 287,938 323,936 358,936 393,936 428,936 463,935 498,935 533,935 569,934 604,933 639,933 674,933 709,933 744,933 780,935"/>
+                <TextEquiv>
+                    <Unicode>estimulada por las leyes del Es¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l6" custom="readingOrder {index:5;}">
+                <Coords points="70,1005 770,1005 802,995 802,948 745,967 580,948 520,978 424,954 248,952 220,978 70,955"/>
+                <Baseline points="80,992 115,992 151,993 186,993 222,993 258,993 293,992 329,992 364,992 400,992 436,992 471,992 507,991 542,990 578,990 614,990 649,990 685,989 720,989 756,989 792,989"/>
+                <TextEquiv>
+                    <Unicode>tado. Ahora bien. ¿Cuál es el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l7" custom="readingOrder {index:6;}">
+                <Coords points="74,1058 804,1048 804,1012 762,1003 74,1009"/>
+                <Baseline points="83,1046 118,1044 154,1044 189,1044 225,1044 261,1044 296,1043 332,1043 367,1043 403,1043 439,1043 474,1043 510,1041 545,1041 581,1041 617,1041 652,1041 688,1041 723,1041 759,1041 795,1041"/>
+                <TextEquiv>
+                    <Unicode>único fin de estas leyes respecto</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l8" custom="readingOrder {index:7;}">
+                <Coords points="74,1108 401,1110 460,1087 489,1109 609,1117 795,1101 794,1065 753,1054 74,1060"/>
+                <Baseline points="83,1097 118,1098 153,1098 188,1098 223,1098 258,1098 293,1098 329,1097 364,1097 399,1097 434,1097 469,1095 504,1095 539,1095 575,1095 610,1094 645,1094 680,1094 715,1094 750,1094 786,1094"/>
+                <TextEquiv>
+                    <Unicode>de la agricultura? Proteger el in¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l9" custom="readingOrder {index:8;}">
+                <Coords points="63,1163 795,1156 795,1126 751,1108 63,1120"/>
+                <Baseline points="72,1149 107,1149 143,1149 179,1151 214,1151 250,1151 286,1151 321,1151 357,1151 393,1149 429,1149 464,1149 500,1149 536,1149 571,1148 607,1148 643,1148 678,1148 714,1148 750,1148 786,1148"/>
+                <TextEquiv>
+                    <Unicode>terés de sus agentes, estimulándo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l10" custom="readingOrder {index:9;}">
+                <Coords points="75,1215 801,1203 801,1171 749,1162 131,1178 75,1161"/>
+                <Baseline points="84,1203 119,1203 154,1203 190,1203 225,1203 260,1203 296,1203 331,1203 366,1203 402,1203 437,1203 472,1203 508,1203 543,1202 578,1202 614,1202 649,1202 684,1201 720,1200 755,1199 791,1199"/>
+                <TextEquiv>
+                    <Unicode>les para que puedan remover to¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l11" custom="readingOrder {index:10;}">
+                <Coords points="74,1268 804,1265 804,1224 477,1240 427,1218 247,1237 74,1219"/>
+                <Baseline points="83,1257 118,1257 154,1256 189,1256 225,1256 261,1256 296,1256 332,1256 367,1256 403,1256 439,1256 474,1256 510,1256 545,1256 581,1256 617,1256 652,1254 688,1254 723,1254 759,1254 795,1253"/>
+                <TextEquiv>
+                    <Unicode>dos los obstáculos que obstruyen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l12" custom="readingOrder {index:11;}">
+                <Coords points="75,1322 798,1308 771,1267 657,1292 75,1279"/>
+                <Baseline points="84,1308 119,1308 154,1310 189,1310 225,1310 260,1310 295,1310 330,1310 366,1310 401,1310 436,1310 471,1310 507,1310 542,1308 577,1308 612,1308 648,1308 683,1307 718,1307 753,1307 789,1305"/>
+                <TextEquiv>
+                    <Unicode>su acción o entorpecen su movi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l13" custom="readingOrder {index:12;}">
+                <Coords points="74,1376 147,1372 224,1379 249,1369 249,1351 230,1350 213,1333 189,1324 161,1333 136,1333 127,1324 114,1323 104,1333 74,1333"/>
+                <Baseline points="83,1365 109,1364 135,1364 161,1365 187,1365 213,1365 239,1365"/>
+                <TextEquiv>
+                    <Unicode>miento.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l14" custom="readingOrder {index:13;}">
+                <Coords points="118,1452 671,1460 799,1443 798,1407 776,1402 117,1403"/>
+                <Baseline points="126,1440 159,1440 192,1442 225,1442 258,1442 291,1442 324,1442 358,1442 391,1442 424,1442 457,1442 490,1442 523,1442 556,1440 590,1440 623,1440 656,1440 689,1439 722,1439 755,1439 789,1437"/>
+                <TextEquiv>
+                    <Unicode>Paréceme que esto es un princi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l15" custom="readingOrder {index:14;}">
+                <Coords points="61,1512 797,1501 796,1465 682,1459 61,1472"/>
+                <Baseline points="71,1497 106,1497 142,1497 178,1497 214,1497 250,1497 286,1496 321,1496 357,1496 393,1494 429,1494 465,1494 501,1493 537,1493 572,1493 608,1493 644,1491 680,1491 716,1491 752,1493 788,1493"/>
+                <TextEquiv>
+                    <Unicode>pio consignado en las leyes eternas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l16" custom="readingOrder {index:15;}">
+                <Coords points="74,1561 801,1555 800,1513 768,1506 547,1507 508,1532 359,1507 202,1534 74,1516"/>
+                <Baseline points="83,1548 118,1548 153,1548 189,1550 224,1550 260,1550 295,1550 330,1550 366,1550 401,1550 437,1550 472,1550 507,1548 543,1548 578,1548 614,1548 649,1547 684,1547 720,1545 755,1545 791,1545"/>
+                <TextEquiv>
+                    <Unicode>de la naturaleza, y, de un modo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l17" custom="readingOrder {index:16;}">
+                <Coords points="63,1608 781,1612 802,1610 802,1563 349,1563 263,1586 239,1564 62,1572"/>
+                <Baseline points="71,1601 107,1601 143,1601 179,1602 215,1602 251,1602 287,1602 323,1602 359,1602 395,1602 431,1602 467,1601 503,1601 539,1601 575,1601 611,1599 647,1599 683,1599 719,1599 755,1598 792,1598"/>
+                <TextEquiv>
+                    <Unicode>especial, en la primera que dictó</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l18" custom="readingOrder {index:17;}">
+                <Coords points="61,1660 797,1659 796,1635 734,1616 106,1617 61,1636"/>
+                <Baseline points="71,1656 106,1656 142,1656 178,1655 214,1655 250,1655 286,1655 321,1655 357,1655 393,1655 429,1653 465,1653 501,1653 537,1653 572,1653 608,1653 644,1653 680,1652 716,1652 752,1652 788,1652"/>
+                <TextEquiv>
+                    <Unicode>al hombre su omnipotente y mise¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l19" custom="readingOrder {index:18;}">
+                <Coords points="68,1719 299,1705 488,1724 571,1703 713,1724 794,1717 794,1670 537,1666 500,1692 432,1668 68,1677"/>
+                <Baseline points="77,1706 112,1706 147,1706 183,1706 218,1706 254,1706 289,1706 324,1706 360,1706 395,1706 431,1707 466,1707 501,1707 537,1706 572,1706 608,1706 643,1706 678,1706 714,1706 749,1706 785,1704"/>
+                <TextEquiv>
+                    <Unicode>ricordioso Creador, al entregarle</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l20" custom="readingOrder {index:19;}">
+                <Coords points="74,1771 575,1772 605,1746 631,1772 781,1772 796,1727 74,1732"/>
+                <Baseline points="84,1761 119,1761 154,1760 189,1760 224,1760 259,1760 294,1760 329,1760 364,1760 399,1760 435,1760 470,1760 505,1760 540,1760 575,1760 610,1760 645,1760 680,1760 715,1760 750,1759 786,1758"/>
+                <TextEquiv>
+                    <Unicode>el deminio de la tierra. Colocóle</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l21" custom="readingOrder {index:20;}">
+                <Coords points="70,1825 580,1828 719,1805 794,1821 794,1771 70,1788"/>
+                <Baseline points="80,1814 115,1814 150,1814 185,1814 221,1814 256,1814 291,1814 326,1814 362,1814 397,1813 432,1812 467,1812 503,1812 538,1812 573,1811 608,1811 644,1811 679,1811 714,1811 749,1812 785,1812"/>
+                <TextEquiv>
+                    <Unicode>en ella, condenándole a vivir del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l22" custom="readingOrder {index:21;}">
+                <Coords points="79,1884 811,1867 811,1837 709,1827 597,1846 539,1826 79,1835"/>
+                <Baseline points="89,1868 124,1866 160,1866 195,1866 231,1865 267,1865 302,1865 338,1865 373,1865 409,1865 445,1866 480,1866 516,1866 551,1866 587,1866 623,1866 658,1866 694,1866 729,1866 765,1865 801,1865"/>
+                <TextEquiv>
+                    <Unicode>producte de su trabajo; al mismo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l23" custom="readingOrder {index:22;}">
+                <Coords points="79,1932 771,1933 795,1931 795,1886 78,1883"/>
+                <Baseline points="87,1919 123,1919 160,1920 197,1920 234,1920 270,1920 307,1919 344,1919 381,1919 418,1919 454,1919 491,1917 528,1917 565,1917 602,1917 638,1917 675,1917 712,1918 749,1919 786,1919"/>
+                <TextEquiv>
+                    <Unicode>tiempo que le dió el derecho de ser</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l24" custom="readingOrder {index:23;}">
+                <Coords points="75,1989 798,1979 773,1932 696,1951 75,1945"/>
+                <Baseline points="84,1974 119,1973 154,1973 189,1973 225,1973 260,1973 295,1973 330,1973 366,1973 401,1973 436,1973 471,1973 507,1973 542,1973 577,1973 612,1973 648,1972 683,1971 718,1971 753,1971 789,1971"/>
+                <TextEquiv>
+                    <Unicode>el señor de ella le impuso la obli¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l25" custom="readingOrder {index:24;}">
+                <Coords points="75,2041 302,2024 726,2044 812,2033 812,2004 735,1986 517,2007 485,1986 74,1996"/>
+                <Baseline points="83,2028 119,2027 155,2025 191,2025 227,2025 263,2025 299,2024 335,2024 371,2024 407,2025 443,2025 479,2025 515,2025 551,2025 587,2025 623,2025 659,2025 695,2025 731,2025 767,2024 803,2024"/>
+                <TextEquiv>
+                    <Unicode>gación de cultivarle, inspirándole</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l26" custom="readingOrder {index:25;}">
+                <Coords points="79,2094 749,2100 803,2091 804,2051 79,2043"/>
+                <Baseline points="89,2079 124,2078 159,2078 194,2078 230,2078 265,2078 300,2078 336,2078 371,2078 406,2078 442,2078 477,2079 512,2079 547,2079 583,2079 618,2079 653,2079 689,2078 724,2078 759,2078 795,2078"/>
+                <TextEquiv>
+                    <Unicode>la actividad y el amor a la vid: que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l27" custom="readingOrder {index:26;}">
+                <Coords points="80,2146 808,2140 791,2103 80,2103"/>
+                <Baseline points="89,2132 124,2132 159,2132 195,2132 230,2132 266,2133 301,2133 337,2133 372,2133 408,2133 443,2133 478,2133 514,2132 549,2132 585,2132 620,2132 656,2132 691,2132 727,2132 762,2132 798,2132"/>
+                <TextEquiv>
+                    <Unicode>eran necesarios para afianzar con</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l28" custom="readingOrder {index:27;}">
+                <Coords points="75,2195 366,2194 422,2213 813,2185 812,2157 608,2146 75,2156"/>
+                <Baseline points="84,2184 120,2186 156,2186 192,2186 228,2186 264,2186 300,2186 336,2186 372,2186 408,2186 444,2186 480,2186 516,2186 552,2186 588,2186 624,2184 660,2184 696,2184 732,2184 768,2183 804,2183"/>
+                <TextEquiv>
+                    <Unicode>su trabajo la seguridad de su pro¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l29" custom="readingOrder {index:28;}">
+                <Coords points="79,2257 629,2240 700,2259 807,2251 807,2208 490,2203 468,2225 385,2203 79,2210"/>
+                <Baseline points="89,2240 124,2240 159,2240 195,2240 230,2239 266,2238 301,2238 337,2238 372,2238 408,2238 443,2238 478,2238 514,2238 549,2238 585,2238 620,2238 656,2238 691,2240 727,2240 762,2240 798,2240"/>
+                <TextEquiv>
+                    <Unicode>pia subsistencia. A este sagrado</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l30" custom="readingOrder {index:29;}">
+                <Coords points="80,2302 783,2312 814,2295 814,2267 710,2254 470,2272 374,2248 346,2272 296,2253 239,2272 202,2252 80,2257"/>
+                <Baseline points="90,2292 125,2292 161,2291 197,2291 232,2291 268,2291 304,2291 339,2291 375,2291 411,2291 447,2291 482,2291 518,2291 554,2291 589,2292 625,2292 661,2292 696,2292 732,2291 768,2291 804,2291"/>
+                <TextEquiv>
+                    <Unicode>interés debe él su conservación, y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l31" custom="readingOrder {index:30;}">
+                <Coords points="77,2357 800,2359 800,2318 708,2306 560,2306 535,2331 432,2306 77,2317"/>
+                <Baseline points="86,2345 121,2345 156,2345 191,2345 227,2345 262,2345 297,2345 332,2345 368,2345 403,2345 438,2345 473,2345 509,2345 544,2345 579,2345 614,2345 650,2345 685,2345 720,2345 755,2346 791,2346"/>
+                <TextEquiv>
+                    <Unicode>el ntundo su cultura. Dios mismo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l32" custom="readingOrder {index:31;}">
+                <Coords points="74,2408 800,2405 800,2376 742,2356 706,2386 464,2358 74,2368"/>
+                <Baseline points="83,2397 118,2397 153,2397 189,2397 224,2397 260,2398 295,2399 330,2399 366,2399 401,2399 437,2399 472,2399 507,2399 543,2399 578,2399 614,2399 649,2399 684,2399 720,2399 755,2400 791,2400"/>
+                <TextEquiv>
+                    <Unicode>rampió y limpió los campos, des¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l33" custom="readingOrder {index:32;}">
+                <Coords points="86,2466 450,2467 471,2446 499,2467 813,2464 813,2427 693,2417 87,2423"/>
+                <Baseline points="96,2450 131,2451 166,2451 202,2451 237,2451 273,2451 308,2451 343,2451 379,2451 414,2451 450,2450 485,2450 520,2450 556,2450 591,2450 627,2451 662,2451 697,2452 733,2453 768,2454 804,2456"/>
+                <TextEquiv>
+                    <Unicode>cuajó los montes secó los lagos,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l34" custom="readingOrder {index:33;}">
+                <Coords points="82,2517 515,2525 570,2503 810,2523 810,2480 694,2466 473,2465 414,2492 351,2466 82,2475"/>
+                <Baseline points="92,2502 127,2502 162,2503 198,2504 233,2504 269,2504 304,2504 339,2504 375,2505 410,2505 446,2505 481,2505 516,2505 552,2505 587,2505 623,2505 658,2505 693,2507 729,2507 764,2507 800,2508"/>
+                <TextEquiv>
+                    <Unicode>sujetó los ríos, mitigó los climas.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l35" custom="readingOrder {index:34;}">
+                <Coords points="87,2570 731,2580 814,2563 814,2529 87,2522"/>
+                <Baseline points="96,2559 131,2558 166,2558 202,2558 237,2556 273,2556 308,2556 343,2556 379,2556 414,2558 450,2558 485,2558 520,2558 556,2558 591,2558 627,2558 662,2558 697,2558 733,2558 768,2556 804,2556"/>
+                <TextEquiv>
+                    <Unicode>domesticó los brutos, escegió y per¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l36" custom="readingOrder {index:35;}">
+                <Coords points="87,2618 817,2617 817,2583 770,2576 449,2574 351,2594 293,2570 87,2571"/>
+                <Baseline points="96,2609 131,2609 167,2610 202,2610 238,2610 273,2610 309,2611 344,2612 380,2612 415,2612 451,2612 487,2612 522,2612 558,2612 593,2612 629,2612 664,2612 700,2612 735,2612 771,2612 807,2612"/>
+                <TextEquiv>
+                    <Unicode>feccionó las semillas, asegurando</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l37" custom="readingOrder {index:36;}">
+                <Coords points="87,2676 819,2672 801,2643 709,2648 673,2627 380,2646 320,2627 88,2633"/>
+                <Baseline points="96,2660 131,2661 167,2661 203,2663 238,2663 274,2663 310,2663 345,2663 381,2663 417,2663 453,2663 488,2663 524,2663 560,2663 595,2663 631,2664 667,2664 702,2664 738,2666 774,2667 810,2669"/>
+                <TextEquiv>
+                    <Unicode>en su cuitivo y reproducción una</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l38" custom="readingOrder {index:37;}">
+                <Coords points="83,2734 807,2728 807,2691 734,2703 700,2683 627,2705 590,2682 83,2689"/>
+                <Baseline points="92,2715 127,2715 162,2715 197,2715 233,2715 268,2715 303,2715 339,2715 374,2717 409,2717 445,2717 480,2717 515,2718 550,2718 586,2718 621,2718 656,2718 692,2718 727,2717 762,2717 798,2715"/>
+                <TextEquiv>
+                    <Unicode>portentosa multiplicación a la es¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l39" custom="readingOrder {index:38;}">
+                <Coords points="79,2785 816,2781 816,2749 706,2732 469,2733 422,2757 79,2738"/>
+                <Baseline points="89,2769 124,2769 160,2768 196,2768 232,2769 268,2769 304,2769 339,2769 375,2769 411,2771 447,2771 483,2771 519,2771 555,2771 590,2771 626,2771 662,2771 698,2771 734,2769 770,2769 806,2768"/>
+                <TextEquiv>
+                    <Unicode>recie humana. Este principic es¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l40" custom="readingOrder {index:39;}">
+                <Coords points="85,2834 574,2845 813,2827 790,2786 379,2805 351,2786 85,2789"/>
+                <Baseline points="95,2822 130,2822 165,2822 201,2822 236,2822 272,2822 307,2822 342,2822 378,2823 413,2823 449,2823 484,2823 519,2823 555,2823 590,2825 626,2825 661,2825 696,2825 732,2825 767,2823 803,2823"/>
+                <TextEquiv>
+                    <Unicode>tá consignado en las leyes primiti¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l41" custom="readingOrder {index:40;}">
+                <Coords points="90,2888 809,2891 809,2848 769,2861 736,2842 619,2860 379,2836 90,2845"/>
+                <Baseline points="99,2873 134,2874 169,2874 204,2874 239,2876 274,2876 309,2876 344,2876 379,2876 414,2876 449,2876 484,2876 519,2876 554,2876 589,2876 624,2877 659,2877 694,2877 729,2879 764,2879 800,2880"/>
+                <TextEquiv>
+                    <Unicode>vas del derecho social, y debido a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l42" custom="readingOrder {index:41;}">
+                <Coords points="86,2939 816,2935 816,2905 672,2892 86,2898"/>
+                <Baseline points="95,2925 130,2925 166,2927 201,2927 237,2927 272,2927 308,2927 343,2928 379,2928 414,2928 450,2929 486,2930 521,2930 557,2930 592,2930 628,2930 663,2930 699,2930 734,2930 770,2930 806,2930"/>
+                <TextEquiv>
+                    <Unicode>esta multiplicación, los hombres se</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l43" custom="readingOrder {index:42;}">
+                <Coords points="86,2997 666,2985 698,3003 812,2990 813,2964 87,2939"/>
+                <Baseline points="95,2979 130,2979 165,2979 201,2979 236,2979 272,2981 307,2981 342,2981 378,2981 413,2981 449,2982 484,2982 519,2982 555,2982 590,2984 626,2984 661,2984 696,2984 732,2984 767,2984 803,2984"/>
+                <TextEquiv>
+                    <Unicode>has visto obligados a vivir en so¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l44" custom="readingOrder {index:43;}">
+                <Coords points="83,3044 815,3044 791,2999 84,3004"/>
+                <Baseline points="92,3032 127,3032 163,3033 199,3033 234,3033 270,3033 306,3033 341,3033 377,3033 413,3033 449,3033 484,3033 520,3033 556,3033 591,3033 627,3035 663,3035 698,3035 734,3036 770,3036 806,3038"/>
+                <TextEquiv>
+                    <Unicode>ciedad y a dividir entre sí el domi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l45" custom="readingOrder {index:44;}">
+                <Coords points="93,3100 798,3101 810,3064 93,3057"/>
+                <Baseline points="102,3086 136,3086 171,3086 206,3086 241,3086 276,3086 311,3086 346,3086 381,3086 416,3087 451,3087 485,3087 520,3087 555,3087 590,3089 625,3089 660,3089 695,3089 730,3089 765,3090 800,3090"/>
+                <TextEquiv>
+                    <Unicode>nio de la tierra. Así su interes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l46" custom="readingOrder {index:45;}">
+                <Coords points="86,3151 205,3155 229,3133 255,3154 786,3156 812,3151 813,3110 87,3108"/>
+                <Baseline points="95,3138 130,3138 165,3138 201,3138 236,3138 272,3138 307,3140 343,3140 378,3140 414,3140 449,3140 484,3140 520,3140 555,3141 591,3141 626,3141 662,3141 697,3141 733,3141 768,3141 804,3141"/>
+                <TextEquiv>
+                    <Unicode>quedó necesariamente legitimado</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l47" custom="readingOrder {index:46;}">
+                <Coords points="82,3211 810,3201 810,3173 613,3155 82,3164"/>
+                <Baseline points="92,3192 127,3191 162,3191 198,3191 233,3191 269,3191 304,3191 340,3192 375,3192 411,3192 446,3194 481,3194 517,3194 552,3195 588,3195 623,3195 659,3195 694,3195 730,3195 765,3194 801,3194"/>
+                <TextEquiv>
+                    <Unicode>y perfeccionado, señalando una es¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l48" custom="readingOrder {index:47;}">
+                <Coords points="90,3258 806,3268 807,3221 90,3209"/>
+                <Baseline points="99,3243 135,3244 172,3245 209,3245 246,3245 282,3245 319,3246 356,3246 393,3246 430,3248 466,3248 503,3248 540,3248 577,3249 614,3249 650,3249 687,3249 724,3249 761,3249 798,3249"/>
+                <TextEquiv>
+                    <Unicode>fera determinada a cada individuo,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Generalmente se admite que laagricultura siempre tiende natu¬ralmente hacia su perfección, y es¬ta tendencia debe ser favorecida yestimulada por las leyes del Es¬tade. Ahora bien. ¿Cuál es elúnico fin de estas leyes respectode la agricultura? Proteger el in¬terés de sus agentes, estimulándo¬les para que puedan remover to¬dos los obstáculos que obstruyensu acción o entorpecen su movi¬miento.Paréceme que esto es un princi¬pio consignado en las leyes eternasde la naturaleza, y, de un modoespecial, en la primera que dictóal hombre su omnipotente y mise¬ricordioso Creador, al entregarleel deminio de la tierra. Colocóleen ella, condenándole a vivir delproducte de su trabajo; al mismotiempo que le dió el derecho de serel señor de ella le impuso la obli¬gación de cultivarle, inspirándolela actividad y el amor a la vid: queeran necesarios para afianzar consu trabajo la seguridad de su pro¬pia subsistencia. A este sagradointerés debe él su conservación, yel ntundo su cultura. Dios mismorampió y limpió los campos, des¬cuajó los montes secó los lagos,sujetó los ríos, mitigó los climas.domesticó los brutos, escegió y per¬feccionó las semillas, asegurandoen su cuitivo y reproducción unaportentosa multiplicación a la es¬recie humana. Este principic es¬tá consignado en las leyes primiti¬vas del derecho social, y debido aesta multiplicación, los hombres sehas visto obligados a vivir en so¬ciedad y a dividir entre sí el domi¬nio de la tierra. Así su interesquedó necesariamente legitimadoy perfeccionado, señalando una es¬fera determinada a cada individuo,</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_5_1" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="880,684 1614,684 1614,1959 880,1959"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;}">
+                <Coords points="879,740 1600,732 1616,687 879,697"/>
+                <Baseline points="888,728 925,728 963,728 1001,727 1039,726 1077,726 1115,726 1152,725 1190,725 1228,723 1266,723 1304,722 1342,722 1379,722 1417,721 1455,720 1493,720 1531,720 1569,719 1607,719"/>
+                <TextEquiv>
+                    <Unicode>a fin de que toda su actividad se</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l2" custom="readingOrder {index:1;}">
+                <Coords points="873,790 1613,780 1612,739 1287,738 1263,763 1210,738 873,754"/>
+                <Baseline points="882,782 918,782 954,780 990,780 1026,780 1062,780 1098,779 1134,779 1170,779 1206,777 1243,777 1279,777 1315,776 1351,776 1387,776 1423,774 1459,774 1495,773 1531,771 1567,771 1604,770"/>
+                <TextEquiv>
+                    <Unicode>concentre en ella. Desde entonces</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l3" custom="readingOrder {index:2;}">
+                <Coords points="884,846 1612,837 1611,798 1546,812 1508,786 1381,814 1349,792 884,808"/>
+                <Baseline points="894,836 929,834 964,834 1000,834 1035,834 1071,833 1106,833 1141,832 1177,831 1212,831 1248,831 1283,830 1318,830 1354,830 1389,828 1425,828 1460,828 1495,827 1531,827 1566,826 1602,825"/>
+                <TextEquiv>
+                    <Unicode>ese interés individual, cuando se</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l4" custom="readingOrder {index:3;}">
+                <Coords points="879,900 1605,893 1605,851 879,860"/>
+                <Baseline points="888,888 923,887 958,887 994,887 1029,887 1064,887 1100,886 1135,885 1170,885 1206,885 1241,885 1276,884 1312,884 1347,884 1382,884 1418,883 1453,882 1488,882 1524,882 1559,881 1595,881"/>
+                <TextEquiv>
+                    <Unicode>ejercitó en objetos más próximos,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l5" custom="readingOrder {index:4;}">
+                <Coords points="884,955 1581,948 1610,938 1610,904 884,914"/>
+                <Baseline points="894,942 929,941 964,941 1000,941 1035,939 1070,939 1106,939 1141,939 1176,939 1212,939 1247,939 1282,938 1318,938 1353,938 1388,938 1424,937 1459,936 1494,935 1530,935 1565,933 1601,932"/>
+                <TextEquiv>
+                    <Unicode>más conocidos, más proporciona¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l6" custom="readingOrder {index:5;}">
+                <Coords points="873,999 1385,1011 1453,986 1522,1004 1601,996 1601,954 1478,946 1287,978 1146,955 873,967"/>
+                <Baseline points="882,996 917,995 953,995 988,995 1024,994 1059,993 1095,993 1130,993 1166,993 1201,995 1237,993 1272,993 1308,993 1343,993 1379,993 1414,992 1450,992 1485,990 1521,989 1556,987 1592,984"/>
+                <TextEquiv>
+                    <Unicode>dos a sus fuerzas, y, per decirlo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l7" custom="readingOrder {index:6;}">
+                <Coords points="885,1058 1585,1053 1605,1011 884,1019"/>
+                <Baseline points="894,1052 929,1050 964,1050 999,1049 1034,1049 1069,1047 1104,1047 1139,1047 1174,1046 1209,1046 1245,1046 1280,1045 1315,1044 1350,1044 1385,1044 1420,1043 1455,1043 1490,1041 1525,1041 1560,1040 1596,1040"/>
+                <TextEquiv>
+                    <Unicode>así, más identificados con la feli¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l8" custom="readingOrder {index:7;}">
+                <Coords points="875,1117 1012,1097 1034,1117 1156,1114 1179,1094 1594,1108 1614,1067 874,1078"/>
+                <Baseline points="884,1103 920,1103 956,1103 992,1101 1028,1101 1064,1101 1100,1100 1136,1100 1172,1100 1208,1100 1244,1100 1280,1098 1316,1098 1352,1098 1388,1098 1424,1097 1460,1097 1496,1095 1532,1095 1568,1094 1604,1094"/>
+                <TextEquiv>
+                    <Unicode>cidad de los individuos, se hizo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l9" custom="readingOrder {index:8;}">
+                <Coords points="873,1167 1493,1163 1492,1123 1351,1108 873,1132"/>
+                <Baseline points="882,1158 912,1158 942,1157 972,1156 1002,1155 1032,1155 1062,1154 1092,1154 1122,1154 1152,1154 1183,1152 1213,1152 1243,1152 1273,1152 1303,1152 1333,1152 1363,1152 1393,1152 1423,1152 1453,1152 1484,1151"/>
+                <TextEquiv>
+                    <Unicode>más agresivo y multiforme.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l10" custom="readingOrder {index:9;}">
+                <Coords points="928,1228 1607,1212 1606,1182 1561,1167 1449,1192 1353,1169 1089,1187 1030,1170 999,1191 927,1171"/>
+                <Baseline points="936,1212 969,1212 1002,1211 1035,1211 1068,1211 1101,1211 1134,1211 1167,1210 1200,1209 1233,1209 1267,1209 1300,1209 1333,1209 1366,1208 1399,1208 1432,1208 1465,1208 1498,1206 1531,1206 1564,1206 1598,1205"/>
+                <TextEquiv>
+                    <Unicode>De ahí que los hombres, acucia¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l11" custom="readingOrder {index:10;}">
+                <Coords points="887,1284 1613,1263 1613,1239 1495,1223 1150,1244 887,1230"/>
+                <Baseline points="897,1269 932,1269 967,1269 1003,1268 1038,1268 1073,1268 1109,1268 1144,1268 1179,1266 1215,1266 1250,1266 1285,1265 1321,1265 1356,1265 1391,1264 1427,1263 1462,1263 1497,1263 1533,1262 1568,1262 1604,1262"/>
+                <TextEquiv>
+                    <Unicode>dos por este mismo interés de au¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l12" custom="readingOrder {index:11;}">
+                <Coords points="885,1340 1602,1332 1601,1291 1537,1280 884,1298"/>
+                <Baseline points="894,1326 928,1326 963,1325 998,1325 1033,1325 1068,1325 1103,1325 1138,1324 1173,1323 1208,1323 1243,1323 1277,1322 1312,1322 1347,1322 1382,1322 1417,1320 1452,1320 1487,1320 1522,1320 1557,1319 1592,1319"/>
+                <TextEquiv>
+                    <Unicode>mentar y aprovechar las produc¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l13" custom="readingOrder {index:12;}">
+                <Coords points="877,1396 1607,1380 1606,1344 1580,1337 1420,1344 1396,1365 1317,1338 1156,1364 1113,1344 1087,1361 876,1354"/>
+                <Baseline points="887,1383 922,1383 958,1383 993,1382 1029,1382 1064,1382 1100,1382 1135,1382 1171,1382 1206,1380 1242,1380 1278,1380 1313,1380 1349,1380 1384,1379 1420,1379 1455,1377 1491,1377 1526,1376 1562,1376 1598,1374"/>
+                <TextEquiv>
+                    <Unicode>ciones de la naturaleza, se multi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l14" custom="readingOrder {index:13;}">
+                <Coords points="871,1453 1599,1441 1598,1404 1555,1400 870,1411"/>
+                <Baseline points="881,1443 916,1442 951,1440 987,1439 1022,1437 1058,1437 1093,1437 1128,1437 1164,1437 1199,1437 1235,1437 1270,1437 1305,1437 1341,1437 1376,1437 1412,1437 1447,1436 1482,1436 1518,1433 1553,1432 1589,1428"/>
+                <TextEquiv>
+                    <Unicode>plicaran más y más, y, como secue¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l15" custom="readingOrder {index:14;}">
+                <Coords points="873,1504 1614,1500 1600,1457 1186,1451 1156,1475 872,1459"/>
+                <Baseline points="882,1496 918,1496 954,1494 990,1494 1026,1494 1062,1494 1098,1494 1134,1494 1170,1494 1206,1493 1243,1493 1279,1493 1315,1493 1351,1493 1387,1492 1423,1491 1459,1491 1495,1491 1531,1490 1567,1490 1604,1490"/>
+                <TextEquiv>
+                    <Unicode>la inmediata, dió vida a otra nueva</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l16" custom="readingOrder {index:15;}">
+                <Coords points="884,1572 1616,1555 1615,1502 884,1522"/>
+                <Baseline points="893,1554 928,1553 964,1553 1000,1551 1035,1551 1071,1551 1107,1551 1142,1550 1178,1550 1214,1550 1250,1550 1285,1550 1321,1550 1357,1550 1392,1550 1428,1548 1464,1548 1499,1548 1535,1547 1571,1547 1607,1545"/>
+                <TextEquiv>
+                    <Unicode>propiedad distinta de la propiedad</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l17" custom="readingOrder {index:16;}">
+                <Coords points="872,1621 1564,1617 1609,1607 1609,1575 952,1570 872,1591"/>
+                <Baseline points="881,1607 916,1607 952,1608 988,1608 1024,1608 1060,1608 1096,1608 1132,1607 1168,1607 1204,1607 1240,1607 1275,1607 1311,1605 1347,1605 1383,1605 1419,1605 1455,1605 1491,1604 1527,1604 1563,1604 1599,1604"/>
+                <TextEquiv>
+                    <Unicode>de la tierra: la propiedad del tra¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l18" custom="readingOrder {index:17;}">
+                <Coords points="883,1675 928,1677 933,1683 946,1684 964,1675 1001,1675 1002,1652 991,1652 973,1634 962,1635 953,1627 911,1635 902,1627 885,1626"/>
+                <Baseline points="894,1661 927,1665 960,1665 993,1667"/>
+                <TextEquiv>
+                    <Unicode>bajo..</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l19" custom="readingOrder {index:18;}">
+                <Coords points="918,1725 1582,1731 1623,1719 1623,1680 1330,1682 1302,1703 1266,1683 1163,1682 1143,1701 917,1685"/>
+                <Baseline points="927,1722 961,1722 995,1721 1029,1721 1064,1721 1098,1719 1132,1719 1167,1719 1201,1719 1235,1719 1270,1719 1304,1719 1338,1718 1372,1718 1407,1718 1441,1718 1475,1718 1510,1718 1544,1716 1578,1716 1613,1716"/>
+                <TextEquiv>
+                    <Unicode>La tierra dotada de fecundidad</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l20" custom="readingOrder {index:19;}">
+                <Coords points="884,1787 1597,1793 1608,1744 884,1750"/>
+                <Baseline points="894,1778 929,1778 964,1778 999,1778 1035,1778 1070,1778 1105,1778 1140,1778 1176,1778 1211,1776 1246,1776 1281,1776 1317,1776 1352,1776 1387,1775 1422,1775 1458,1775 1493,1775 1528,1775 1563,1776 1599,1776"/>
+                <TextEquiv>
+                    <Unicode>maravillosa por el Sumo Creador,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l21" custom="readingOrder {index:20;}">
+                <Coords points="875,1846 1562,1850 1620,1842 1620,1801 875,1807"/>
+                <Baseline points="884,1832 920,1832 956,1832 993,1832 1029,1832 1065,1833 1102,1833 1138,1833 1174,1833 1211,1833 1247,1833 1283,1833 1320,1833 1356,1832 1392,1832 1429,1832 1465,1832 1501,1832 1538,1830 1574,1830 1611,1830"/>
+                <TextEquiv>
+                    <Unicode>se concedía solamente a los que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l22" custom="readingOrder {index:21;}">
+                <Coords points="884,1908 1616,1900 1616,1850 884,1861"/>
+                <Baseline points="893,1892 928,1890 964,1890 1000,1890 1035,1889 1071,1889 1107,1889 1142,1889 1178,1889 1214,1889 1250,1889 1285,1889 1321,1889 1357,1890 1392,1890 1428,1890 1464,1890 1499,1890 1535,1890 1571,1889 1607,1889"/>
+                <TextEquiv>
+                    <Unicode>querían cultiverla, premiando así al</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l23" custom="readingOrder {index:22;}">
+                <Coords points="880,1959 1614,1948 1614,1922 1543,1907 1143,1906 1089,1928 880,1908"/>
+                <Baseline points="890,1949 925,1947 961,1947 997,1947 1033,1946 1068,1946 1104,1946 1140,1946 1176,1946 1211,1946 1247,1947 1283,1947 1319,1947 1354,1947 1390,1947 1426,1947 1462,1946 1497,1946 1533,1946 1569,1944 1605,1944"/>
+                <TextEquiv>
+                    <Unicode>laborioso cultivador con abundan¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>a fin de que toda su actividad seconcentre en ella. Desde entoncesese interés individual, cuando seejercitó en objetos más próximos,más conocidos, más proporciona¬dos a sus fuerzas, y, per decirloasí, más identificados con la feli¬cidad de los individuos, se hizomás agresivo y multiforme.De ahí que los hombres, acucia¬dos por este mismo interés de au¬mentar y aprovechar las produc¬ciones de la naturaleza, se multi¬plicaran más y más, y, como secue¬la inmediata, dió vida a otra nuevapropiedad distinta de la propiedadde la tierra: la propiedad del tra¬bajo..La tierra dotada de fecundidadmaravillosa por el Sumo Creador,se concedía solamente a los quequerían cultiverla, premiando así allaborioso cultivador con abundan¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_6_1" custom="readingOrder {index:6;} structure {type:paragraph;}">
+            <Coords points="1687,341 2428,341 2428,1965 1687,1965"/>
+            <TextLine id="r_6_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1694,387 2368,396 2409,379 2409,340 2160,360 2034,338 1694,344"/>
+                <Baseline points="1703,380 1737,380 1772,379 1807,378 1842,378 1877,378 1912,378 1946,378 1981,378 2016,378 2051,378 2086,378 2121,378 2156,378 2190,378 2225,377 2260,377 2295,377 2330,375 2365,375 2400,374"/>
+                <TextEquiv>
+                    <Unicode>tes y copiosos frutos, y con espi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1691,445 2335,452 2410,435 2393,399 1691,403"/>
+                <Baseline points="1701,434 1737,434 1774,434 1811,434 1848,434 1884,434 1921,432 1958,432 1995,432 2032,432 2068,432 2105,431 2142,431 2179,431 2216,431 2252,431 2289,431 2326,431 2363,431 2400,431"/>
+                <TextEquiv>
+                    <Unicode>nas y abrojos al descuidado, por¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1688,504 1964,487 2086,507 2129,486 2270,504 2409,492 2424,456 1688,457"/>
+                <Baseline points="1697,488 1732,486 1768,486 1804,486 1840,485 1876,485 1912,485 1948,485 1984,485 2020,485 2056,484 2091,483 2127,483 2163,483 2199,483 2235,483 2271,483 2307,482 2343,482 2379,482 2415,482"/>
+                <TextEquiv>
+                    <Unicode>que a mayor trabajo corresponden</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l4" custom="readingOrder {index:3;}">
+                <Coords points="1688,546 2303,556 2418,547 2418,500 2343,521 2217,498 1688,511"/>
+                <Baseline points="1697,540 1732,539 1768,539 1803,537 1839,537 1875,537 1910,537 1946,537 1981,537 2017,537 2053,537 2088,537 2124,537 2159,537 2195,537 2231,537 2266,537 2302,537 2337,537 2373,537 2409,537"/>
+                <TextEquiv>
+                    <Unicode>siempre mayores productos, y así</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l5" custom="readingOrder {index:4;}">
+                <Coords points="1688,611 2099,609 2142,590 2401,604 2412,561 1688,562"/>
+                <Baseline points="1697,594 1732,593 1767,591 1802,591 1838,591 1873,590 1908,590 1943,590 1979,590 2014,590 2049,590 2084,590 2120,590 2155,591 2190,591 2225,591 2261,591 2296,591 2331,591 2366,590 2402,590"/>
+                <TextEquiv>
+                    <Unicode>proporcienar trabajo al deseo de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l6" custom="readingOrder {index:5;}">
+                <Coords points="1691,660 1750,659 1759,649 1798,661 1857,653 1975,656 1975,631 1956,631 1939,618 1898,618 1877,603 1834,618 1804,612 1754,621 1692,608"/>
+                <Baseline points="1701,644 1727,645 1753,645 1780,645 1806,644 1833,644 1859,644 1885,644 1912,645 1938,646 1965,647"/>
+                <TextEquiv>
+                    <Unicode>las cosechas.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l7" custom="readingOrder {index:6;}">
+                <Coords points="1730,724 2415,706 2414,676 2394,674 1729,668"/>
+                <Baseline points="1740,708 1773,708 1806,708 1839,707 1873,707 1906,707 1939,707 1973,707 2006,707 2039,706 2073,705 2106,705 2139,705 2172,705 2206,705 2239,704 2272,704 2306,704 2339,704 2372,704 2406,702"/>
+                <TextEquiv>
+                    <Unicode>Este desec buscó auxiliares pa¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l8" custom="readingOrder {index:7;}">
+                <Coords points="1682,775 2418,757 2417,726 2359,715 1682,741"/>
+                <Baseline points="1692,765 1727,764 1763,764 1799,764 1835,762 1871,762 1907,762 1942,761 1978,761 2014,761 2050,761 2086,759 2122,759 2158,759 2193,758 2229,758 2265,758 2301,756 2337,756 2373,755 2409,755"/>
+                <TextEquiv>
+                    <Unicode>ra el trabajo, haciéndoles partici¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l9" custom="readingOrder {index:8;}">
+                <Coords points="1682,834 1775,810 1877,836 2421,819 2420,780 2368,771 2191,771 2154,797 2122,771 1681,789"/>
+                <Baseline points="1691,821 1727,819 1763,817 1799,816 1835,815 1871,814 1907,813 1943,813 1979,813 2015,813 2051,813 2087,813 2123,813 2159,813 2195,813 2231,813 2267,812 2303,812 2339,812 2375,810 2411,809"/>
+                <TextEquiv>
+                    <Unicode>par del produclo; de ahí que los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l10" custom="readingOrder {index:9;}">
+                <Coords points="1688,889 2414,876 2414,833 1688,842"/>
+                <Baseline points="1697,872 1732,870 1767,869 1803,868 1838,867 1874,867 1909,867 1944,866 1980,866 2015,866 2051,866 2086,866 2121,866 2157,866 2192,866 2228,866 2263,865 2298,864 2334,864 2369,864 2405,863"/>
+                <TextEquiv>
+                    <Unicode>productos de la tierra dejaron de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l11" custom="readingOrder {index:10;}">
+                <Coords points="1686,933 2328,933 2427,911 2342,878 2296,898 2232,880 1686,892"/>
+                <Baseline points="1695,920 1731,920 1767,921 1803,921 1839,921 1875,923 1911,921 1947,921 1983,921 2019,921 2056,920 2092,920 2128,918 2164,918 2200,918 2236,917 2272,917 2308,917 2344,915 2380,915 2417,915"/>
+                <TextEquiv>
+                    <Unicode>ser una propiedad exclusiva abso¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l12" custom="readingOrder {index:11;}">
+                <Coords points="1690,988 1722,990 1736,986 1773,990 1800,983 1801,959 1789,959 1777,945 1767,948 1752,946 1745,938 1734,937 1726,943 1693,938"/>
+                <Baseline points="1701,977 1731,975 1761,977 1791,980"/>
+                <TextEquiv>
+                    <Unicode>luta.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l13" custom="readingOrder {index:12;}">
+                <Coords points="1737,1058 2418,1051 2418,1008 2350,1002 2311,1019 2262,1001 2031,1017 1962,1002 1838,1027 1737,1007"/>
+                <Baseline points="1746,1046 1779,1046 1812,1046 1845,1046 1878,1046 1911,1046 1944,1046 1978,1046 2011,1044 2044,1044 2077,1044 2110,1044 2143,1043 2176,1043 2210,1041 2243,1041 2276,1041 2309,1040 2342,1040 2375,1040 2409,1038"/>
+                <TextEquiv>
+                    <Unicode>Esta propiedad del trabajo, si es</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l14" custom="readingOrder {index:13;}">
+                <Coords points="1695,1110 2329,1107 2415,1100 2415,1068 2366,1052 2201,1079 2112,1057 1694,1071"/>
+                <Baseline points="1704,1100 1739,1100 1774,1100 1809,1100 1844,1100 1879,1100 1914,1100 1949,1100 1984,1100 2019,1098 2055,1098 2090,1097 2125,1097 2160,1096 2195,1095 2230,1094 2265,1094 2300,1094 2335,1092 2370,1092 2406,1092"/>
+                <TextEquiv>
+                    <Unicode>más precaria e incierta en su ob¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l15" custom="readingOrder {index:14;}">
+                <Coords points="1690,1172 1964,1150 2413,1156 2420,1116 1690,1117"/>
+                <Baseline points="1700,1154 1735,1153 1771,1152 1806,1152 1842,1151 1877,1151 1913,1151 1948,1151 1984,1150 2019,1149 2055,1149 2091,1149 2126,1149 2162,1149 2197,1149 2233,1148 2268,1148 2304,1148 2339,1147 2375,1146 2411,1145"/>
+                <TextEquiv>
+                    <Unicode>jeto, es más vigilante e ingeniosa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l16" custom="readingOrder {index:15;}">
+                <Coords points="1695,1219 2417,1204 2385,1163 2282,1184 2239,1160 2051,1163 2023,1188 1976,1164 1695,1176"/>
+                <Baseline points="1704,1208 1739,1206 1774,1205 1809,1203 1844,1203 1880,1203 1915,1203 1950,1203 1985,1203 2020,1203 2056,1203 2091,1203 2126,1203 2161,1203 2196,1203 2232,1203 2267,1202 2302,1201 2337,1200 2372,1198 2408,1196"/>
+                <TextEquiv>
+                    <Unicode>en su ejercicio. El trabajo, al ob¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l17" custom="readingOrder {index:16;}">
+                <Coords points="1694,1268 2182,1272 2208,1251 2343,1267 2418,1260 2418,1221 1694,1231"/>
+                <Baseline points="1703,1259 1738,1257 1773,1257 1808,1257 1844,1257 1879,1257 1914,1257 1950,1257 1985,1256 2020,1256 2056,1256 2091,1256 2126,1256 2161,1254 2197,1254 2232,1254 2267,1254 2303,1253 2338,1253 2373,1251 2409,1251"/>
+                <TextEquiv>
+                    <Unicode>servar les necesidades y caprichos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l18" custom="readingOrder {index:17;}">
+                <Coords points="1682,1313 2341,1322 2427,1306 2427,1276 1682,1283"/>
+                <Baseline points="1691,1311 1727,1311 1763,1311 1799,1311 1836,1311 1872,1310 1908,1310 1945,1310 1981,1310 2017,1310 2054,1310 2090,1308 2126,1308 2162,1308 2199,1308 2235,1307 2271,1307 2308,1307 2344,1305 2380,1305 2417,1304"/>
+                <TextEquiv>
+                    <Unicode>de los hombres, inventó por medio</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l19" custom="readingOrder {index:18;}">
+                <Coords points="1688,1380 2418,1363 2418,1340 2373,1318 2251,1338 1688,1335"/>
+                <Baseline points="1697,1364 1732,1364 1768,1365 1803,1365 1839,1365 1874,1365 1910,1365 1945,1365 1981,1364 2016,1364 2052,1364 2088,1363 2123,1362 2159,1362 2194,1361 2230,1361 2265,1360 2301,1359 2336,1359 2372,1358 2408,1358"/>
+                <TextEquiv>
+                    <Unicode>de las artes, los medios de satisfa¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l20" custom="readingOrder {index:19;}">
+                <Coords points="1691,1426 2431,1415 2430,1385 2382,1370 1991,1379 1956,1398 1691,1386"/>
+                <Baseline points="1700,1413 1736,1415 1772,1415 1808,1416 1844,1416 1880,1416 1916,1416 1952,1416 1988,1416 2024,1416 2060,1415 2096,1415 2132,1415 2168,1414 2204,1413 2240,1413 2276,1413 2312,1413 2348,1413 2384,1413 2421,1413"/>
+                <TextEquiv>
+                    <Unicode>cer unos y otros; presentó cada</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l21" custom="readingOrder {index:20;}">
+                <Coords points="1688,1482 2406,1477 2417,1426 1687,1442"/>
+                <Baseline points="1697,1469 1732,1470 1768,1470 1803,1470 1839,1470 1874,1470 1910,1470 1945,1469 1981,1469 2016,1469 2052,1469 2088,1469 2123,1467 2159,1467 2194,1467 2230,1467 2265,1467 2301,1466 2336,1466 2372,1466 2408,1466"/>
+                <TextEquiv>
+                    <Unicode>día nuevos objetos a su comodidad</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l22" custom="readingOrder {index:21;}">
+                <Coords points="1687,1540 2417,1525 2398,1489 2222,1478 1687,1497"/>
+                <Baseline points="1697,1524 1732,1524 1768,1524 1803,1523 1839,1523 1874,1523 1910,1523 1945,1523 1981,1521 2016,1521 2052,1521 2088,1521 2123,1521 2159,1520 2194,1520 2230,1520 2265,1520 2301,1520 2336,1518 2372,1518 2408,1517"/>
+                <TextEquiv>
+                    <Unicode>y a su gusto; les acostumbró a em¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l23" custom="readingOrder {index:22;}">
+                <Coords points="1697,1597 2258,1576 2342,1594 2425,1573 2425,1552 2321,1530 2278,1548 1697,1546"/>
+                <Baseline points="1706,1577 1741,1577 1776,1576 1812,1575 1847,1575 1883,1575 1918,1575 1954,1575 1989,1574 2025,1574 2060,1574 2095,1574 2131,1574 2166,1574 2202,1574 2237,1574 2273,1573 2308,1572 2344,1571 2379,1571 2415,1569"/>
+                <TextEquiv>
+                    <Unicode>plearlos; les formó nuevas exigen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l24" custom="readingOrder {index:23;}">
+                <Coords points="1690,1640 2414,1636 2429,1598 1689,1601"/>
+                <Baseline points="1698,1629 1734,1629 1770,1629 1806,1629 1842,1629 1878,1629 1914,1629 1950,1629 1986,1629 2022,1629 2059,1629 2095,1629 2131,1628 2167,1628 2203,1628 2239,1626 2275,1626 2311,1625 2347,1623 2383,1623 2420,1622"/>
+                <TextEquiv>
+                    <Unicode>cias de la vida y nuevas demandas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l25" custom="readingOrder {index:24;}">
+                <Coords points="1700,1700 1784,1675 2002,1694 2064,1676 2089,1700 2254,1694 2274,1673 2421,1690 2420,1647 2388,1640 2355,1661 2309,1641 2287,1660 1883,1636 1855,1655 1700,1651"/>
+                <Baseline points="1709,1683 1744,1683 1779,1683 1814,1683 1849,1683 1884,1683 1919,1683 1954,1682 1989,1682 2024,1682 2060,1682 2095,1680 2130,1680 2165,1680 2200,1680 2235,1679 2270,1679 2305,1679 2340,1679 2375,1679 2411,1679"/>
+                <TextEquiv>
+                    <Unicode>por el continuo progreso de la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l26" custom="readingOrder {index:25;}">
+                <Coords points="1701,1748 1851,1749 1877,1726 1928,1750 2422,1739 2421,1691 1701,1707"/>
+                <Baseline points="1710,1734 1745,1736 1780,1736 1815,1736 1850,1736 1885,1737 1920,1736 1955,1736 1990,1736 2025,1736 2061,1735 2096,1734 2131,1734 2166,1733 2201,1733 2236,1732 2271,1731 2306,1731 2341,1731 2376,1731 2412,1731"/>
+                <TextEquiv>
+                    <Unicode>ciencia. Y a todo esto esclavizé</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l27" custom="readingOrder {index:26;}">
+                <Coords points="1692,1804 2176,1800 2206,1780 2225,1799 2366,1801 2424,1795 2424,1752 2031,1752 1970,1772 1939,1755 1902,1776 1793,1745 1763,1776 1692,1763"/>
+                <Baseline points="1701,1788 1736,1790 1772,1790 1808,1790 1843,1790 1879,1790 1915,1790 1950,1790 1986,1790 2022,1788 2058,1788 2093,1788 2129,1787 2165,1787 2200,1787 2236,1785 2272,1785 2307,1784 2343,1784 2379,1784 2415,1784"/>
+                <TextEquiv>
+                    <Unicode>su deseo, y así quedó extendida</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l28" custom="readingOrder {index:27;}">
+                <Coords points="1701,1851 2418,1845 2418,1818 2307,1802 2275,1819 1701,1812"/>
+                <Baseline points="1710,1842 1746,1842 1783,1842 1820,1842 1857,1842 1893,1842 1930,1842 1967,1842 2004,1842 2041,1842 2077,1841 2114,1841 2151,1841 2188,1841 2225,1840 2261,1839 2298,1839 2335,1838 2372,1838 2409,1836"/>
+                <TextEquiv>
+                    <Unicode>aunque más varia y menos depen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l29" custom="readingOrder {index:28;}">
+                <Coords points="1704,1907 2421,1903 2421,1852 1918,1876 1704,1858"/>
+                <Baseline points="1713,1896 1747,1896 1782,1896 1817,1896 1852,1896 1887,1896 1922,1896 1957,1896 1992,1896 2027,1896 2062,1896 2096,1896 2131,1896 2166,1896 2201,1896 2236,1895 2271,1895 2306,1893 2341,1893 2376,1892 2411,1890"/>
+                <TextEquiv>
+                    <Unicode>diente, la esfera de la propiedad</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l30" custom="readingOrder {index:29;}">
+                <Coords points="1695,1958 1745,1964 1777,1953 1785,1961 1824,1955 1905,1964 1948,1957 1948,1928 1922,1923 1905,1907 1883,1920 1856,1907 1817,1920 1785,1914 1774,1921 1761,1908 1695,1911"/>
+                <Baseline points="1704,1946 1730,1947 1756,1947 1782,1947 1808,1947 1834,1947 1860,1947 1886,1947 1912,1949 1938,1949"/>
+                <TextEquiv>
+                    <Unicode>del trabajo.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>tes y copiosos frutos, y con espi¬nas y abrojos al descuidado, por¬que a mayor trabajo correspondensiempre mayores productos, y asíproporcienar trabajo al deseo delas cosechas.Este desec buscó auxiliares pa¬ra el trabajo, haciéndoles partici¬par del produclo; de ahí que losproductos de la tierra dejaron deser una propiedad exclusiva abso¬luta.Esta propiedad del trabajo, si esmás precaria e incierta en su ob¬jeto, es más vigilante e ingeniosaen su ejercicio. El trabajo, al ob¬servar les necesidades y caprichosde los hombres, inventó por mediode las artes, los medios de satisfa¬cer unos y otros; presentó cadadía nuevos objetos a su comodidady a su gusto; les acostumbró a em¬plearlos; les formó nuevas exigen¬cias de la vida y nuevas demandaspor el continuo progreso de laciencia. Y a todo esto esclavizésu deseo, y así quedó extendidaaunque más varia y menos depen¬diente, la esfera de la propiedaddel trabajo.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_7_1" custom="readingOrder {index:7;} structure {type:heading;}">
+            <Coords points="1221,2044 2097,2044 2097,2101 1221,2101"/>
+            <TextLine id="r_7_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1216,2099 2077,2099 2094,2041 1216,2044"/>
+                <Baseline points="1226,2090 1268,2090 1311,2090 1354,2090 1397,2088 1440,2088 1483,2088 1526,2088 1569,2088 1612,2088 1655,2087 1697,2087 1740,2087 1783,2087 1826,2087 1869,2087 1912,2087 1955,2087 1998,2087 2041,2087 2084,2087"/>
+                <TextEquiv>
+                    <Unicode>ACTUALIDAD INTERNACIONAL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ACTUALIDAD INTERNACIONAL</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_8" custom="readingOrder {index:8;} structure {type:photograph;}">
+            <Coords points="941,2123 2379,2123 2379,3071 941,3071"/>
+        </GraphicRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:9;}">
+            <Coords points="2123,289 2402,289 2402,294 2123,294"/>
+        </SeparatorRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_9_1" custom="readingOrder {index:10;} structure {type:caption;}">
+            <Coords points="937,3089 2384,3089 2384,3274 937,3274"/>
+            <TextLine id="r_9_1l1" custom="readingOrder {index:0;} organization {offset:14; length:14;}">
+                <Coords points="1010,3138 2356,3130 2380,3090 1010,3097"/>
+                <Baseline points="1020,3126 1087,3125 1155,3124 1222,3123 1290,3122 1357,3122 1425,3122 1492,3121 1560,3120 1627,3120 1695,3120 1762,3120 1830,3120 1897,3120 1965,3120 2032,3119 2100,3119 2167,3117 2235,3117 2302,3116 2370,3114"/>
+                <TextEquiv>
+                    <Unicode>La tapa de la Copa del Mundo, del concurso de tiro de pichón, sirve de som¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l2" custom="readingOrder {index:1;} person {offset:8; length:11;}">
+                <Coords points="933,3180 2329,3182 2379,3142 932,3139"/>
+                <Baseline points="942,3173 1013,3171 1084,3170 1156,3168 1227,3168 1299,3167 1370,3167 1441,3166 1513,3165 1584,3165 1656,3165 1727,3165 1798,3165 1870,3165 1941,3165 2013,3164 2084,3164 2155,3164 2227,3162 2298,3162 2370,3161"/>
+                <TextEquiv>
+                    <Unicode>brero a Homer Clark, norteamerireno, ganador del campeonato. A su lado apa¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l3" custom="readingOrder {index:2;} person {offset:19; length:19;}">
+                <Coords points="938,3228 2319,3227 2392,3183 938,3190"/>
+                <Baseline points="948,3213 1019,3213 1091,3213 1163,3212 1234,3212 1306,3212 1378,3212 1449,3212 1521,3212 1593,3212 1665,3212 1736,3212 1808,3212 1880,3212 1951,3210 2023,3210 2095,3210 2166,3209 2238,3209 2310,3207 2382,3207"/>
+                <TextEquiv>
+                    <Unicode>rece ta esposa del Generalisimo Franco (sombrero de paja blanco y collar de per¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_9_1l4" custom="readingOrder {index:3;}">
+                <Coords points="941,3273 1129,3268 1138,3259 1283,3277 1317,3266 1317,3236 1272,3228 942,3228"/>
+                <Baseline points="951,3257 976,3257 1002,3258 1027,3260 1053,3260 1078,3260 1104,3260 1129,3260 1155,3260 1180,3260 1206,3260 1231,3260 1257,3260 1282,3260 1308,3260"/>
+                <TextEquiv>
+                    <Unicode>tas de tres vueltas).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>La tapa de la Copa del Mundo, del concurso de tiro de pichón, sirve de som¬brero a Homer Clark, norteamerireno, ganador del campeonato. A su lado apa¬rece ta esposa del Generalisimo Franco (sombrero de paja blanco y collar de per¬tas de tres vueltas).</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:11;}">
+            <Coords points="1221,2014 2185,2014 2185,2021 1221,2021"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:12;}">
+            <Coords points="2365,2194 2372,2194 2372,2290 2365,2290"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:13;}">
+            <Coords points="1898,289 1957,289 1957,294 1898,294"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:14;}">
+            <Coords points="1552,2630 1606,2630 1606,2638 1552,2638"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

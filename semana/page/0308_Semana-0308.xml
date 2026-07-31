@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:38:01.391+02:00</Created>
+        <LastChange>2026-06-02T21:32:37.915+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115572416" pageNr="308" tsid="290473539" status="DONE" userId="513448" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=EAYERQFBRIWSJMAZVQWVTBKT" xmlUrl="https://files.transkribus.eu/Get?id=ZBPJZVNXGRMBTDNCYFFJQFWM" imageId="17058019"/>
+    </Metadata>
+    <Page imageFilename="0308_Semana-0308.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="103,400 2395,400 2395,3240 103,3240"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1782319783466" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r"/>
+                <RegionRefIndexed index="3" regionRef="r_4_1"/>
+                <RegionRefIndexed index="4" regionRef="r_1"/>
+                <RegionRefIndexed index="5" regionRef="r_5_1"/>
+                <RegionRefIndexed index="7" regionRef="r_6_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:advertisement;} id {value:rel;}">
+                <RegionRef regionRef="r_1_1"/>
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r_4_1l6"/>
+                <RegionRef regionRef="r_1"/>
+                <RegionRef regionRef="r_5_1"/>
+            </Relation>
+        </Relations>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:paragraph;}">
+            <Coords points="474,400 1139,400 1139,610 474,610"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;} person {offset:0; length:13; continued:true;}">
+                <Coords points="464,569 1003,568 1088,607 1142,572 1141,487 1000,503 928,432 891,432 826,442 750,502 619,429 534,438 463,493"/>
+                <Baseline points="479,563 511,563 544,561 576,561 609,561 641,561 674,560 706,560 739,560 771,559 804,558 837,558 869,558 902,557 934,557 967,557 999,557 1032,558 1064,558 1097,558 1130,560"/>
+                <TextEquiv>
+                    <Unicode>Pedro Domenncq</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Gelne Domecl</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:brand;}">
+            <Coords points="483,652 2136,652 2136,1276 483,1276"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_2" custom="readingOrder {index:2;} structure {type:cartoon;}">
+            <Coords points="412,593 2117,593 2117,2603 412,2603"/>
+        </GraphicRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="276,2191 1427,2191 1427,3079 276,3079"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;}">
+                <Coords points="382,2257 518,2263 583,2226 691,2263 952,2240 1094,2274 1306,2262 1306,2203 1267,2183 1034,2209 972,2183 382,2192"/>
+                <Baseline points="395,2246 439,2246 484,2244 529,2244 574,2244 619,2244 664,2244 708,2244 753,2244 798,2244 843,2244 888,2244 933,2243 978,2243 1022,2244 1067,2244 1112,2244 1157,2244 1202,2244 1247,2244 1292,2246"/>
+                <TextEquiv>
+                    <Unicode>Otro “Fundador" español,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l2" custom="readingOrder {index:1;} person {offset:0; length:15;}">
+                <Coords points="292,2344 890,2326 1063,2354 1276,2335 1307,2293 1068,2263 859,2301 807,2264 634,2262 581,2286 510,2263 467,2298 291,2267"/>
+                <Baseline points="305,2327 354,2325 403,2324 453,2324 502,2323 551,2322 601,2322 650,2322 699,2321 749,2321 798,2321 847,2321 897,2321 946,2321 995,2321 1045,2321 1094,2321 1143,2319 1193,2319 1242,2319 1292,2319"/>
+                <TextEquiv>
+                    <Unicode>Juan de Salcedo, escogió uno</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l3" custom="readingOrder {index:2;}">
+                <Coords points="280,2412 536,2401 632,2438 797,2391 1299,2408 1298,2359 1015,2341 961,2365 280,2361"/>
+                <Baseline points="294,2400 343,2400 392,2400 442,2400 491,2400 541,2400 590,2400 640,2400 689,2400 739,2399 788,2399 837,2399 887,2398 936,2397 986,2397 1035,2397 1085,2396 1134,2396 1184,2394 1233,2394 1283,2393"/>
+                <TextEquiv>
+                    <Unicode>de los lugares más hermosos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l4" custom="readingOrder {index:3;}">
+                <Coords points="286,2492 1006,2492 1171,2462 1284,2488 1304,2414 966,2418 932,2452 836,2416 694,2456 603,2417 286,2432"/>
+                <Baseline points="299,2477 348,2477 398,2477 447,2477 497,2477 546,2477 596,2477 645,2477 695,2477 744,2477 794,2477 844,2475 893,2475 943,2475 992,2474 1042,2474 1091,2474 1141,2474 1190,2474 1240,2474 1290,2474"/>
+                <TextEquiv>
+                    <Unicode>del mundo, en las faldas del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l5" custom="readingOrder {index:4;} place {offset:7; length:5;}">
+                <Coords points="293,2565 502,2569 533,2543 661,2591 806,2559 871,2589 1027,2537 1055,2565 1254,2567 1313,2521 1237,2493 474,2515 431,2487 292,2514"/>
+                <Baseline points="306,2553 355,2553 405,2553 454,2555 504,2555 554,2555 603,2555 653,2555 703,2555 752,2555 802,2554 852,2553 901,2553 951,2553 1001,2552 1050,2552 1100,2550 1150,2550 1199,2549 1249,2547 1299,2546"/>
+                <TextEquiv>
+                    <Unicode>volcán Mayón, para estable¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l6" custom="readingOrder {index:5;}">
+                <Coords points="291,2648 413,2619 444,2647 580,2629 864,2662 921,2627 1216,2646 1309,2628 1309,2586 291,2591"/>
+                <Baseline points="305,2630 354,2630 404,2631 453,2631 503,2631 552,2631 602,2631 651,2631 701,2631 750,2630 800,2630 849,2630 899,2630 948,2629 998,2628 1047,2628 1097,2628 1146,2627 1196,2627 1245,2627 1295,2625"/>
+                <TextEquiv>
+                    <Unicode>cer una ciudad; y la nombró</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l7" custom="readingOrder {index:6;} place {offset:0; length:7;}">
+                <Coords points="280,2713 674,2732 964,2699 1298,2726 1298,2678 1227,2647 1168,2679 1014,2645 280,2659"/>
+                <Baseline points="293,2705 342,2705 392,2706 441,2706 491,2706 540,2706 590,2706 639,2706 689,2706 738,2705 788,2705 838,2705 887,2705 937,2703 986,2703 1036,2703 1085,2703 1135,2703 1184,2703 1234,2703 1284,2703"/>
+                <TextEquiv>
+                    <Unicode>LEGAZPI en honor de su tío,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l8" custom="readingOrder {index:7;}">
+                <Coords points="285,2796 1284,2797 1312,2729 285,2739"/>
+                <Baseline points="299,2781 351,2781 404,2783 456,2783 509,2783 561,2783 614,2783 667,2783 719,2783 772,2783 824,2783 877,2783 929,2783 982,2783 1035,2781 1087,2781 1140,2781 1192,2781 1245,2781 1298,2781"/>
+                <TextEquiv>
+                    <Unicode>el fundador de la vieja ciudad</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l9" custom="readingOrder {index:8;} place {offset:3; length:6;}">
+                <Coords points="293,2877 364,2880 387,2860 500,2878 676,2864 676,2836 645,2836 597,2799 557,2799 531,2824 466,2798 418,2798 390,2824 361,2823 330,2798 293,2809"/>
+                <Baseline points="306,2858 331,2859 356,2859 382,2859 407,2859 433,2859 458,2858 484,2858 509,2858 534,2858 560,2858 585,2859 611,2859 636,2861 662,2862"/>
+                <TextEquiv>
+                    <Unicode>de Manila.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Otro “Fundador" español,Juan de Salcedo, escogió unode los lugares más hermososdel mundo, en las faldas delvolcán Mayón, para estable¬cer una ciudad; y la nombróLEGAZPI en honor de su tío,el fundador de la vieja ciudadde Manila.TABACALERA</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:4;} structure {type:brand;}">
+            <Coords points="291,2898 1415,2898 1415,3114 291,3114"/>
+            <TextLine id="r_4_1l10" custom="readingOrder {index:0;} organization {offset:0; length:10;}">
+                <Coords points="303,3067 1412,3076 1412,2976 1373,2951 1305,2976 1274,2944 1041,2972 774,2942 732,2973 687,2944 304,2943"/>
+                <Baseline points="317,3056 371,3056 425,3056 479,3056 533,3056 587,3056 641,3056 695,3056 749,3056 803,3057 857,3057 911,3057 965,3057 1019,3059 1073,3059 1127,3059 1181,3059 1235,3060 1289,3060 1343,3060 1397,3060"/>
+                <TextEquiv>
+                    <Unicode>TABACALERA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_5_1" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="1558,2925 2203,2925 2191,3145 1568,3152"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1551,2995 2022,3006 2212,2985 2211,2911 1550,2919"/>
+                <Baseline points="1565,2985 1596,2987 1628,2988 1659,2988 1691,2988 1723,2988 1754,2988 1786,2988 1818,2988 1849,2988 1881,2987 1913,2987 1944,2987 1976,2985 2008,2985 2039,2985 2071,2984 2103,2984 2134,2984 2166,2984 2198,2984"/>
+                <TextEquiv>
+                    <Unicode>IMPORTADORES</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1634,3075 2130,3070 2130,3010 1633,3004"/>
+                <Baseline points="1649,3062 1675,3062 1701,3063 1727,3063 1753,3063 1779,3063 1805,3063 1831,3062 1857,3062 1883,3062 1909,3062 1935,3060 1961,3060 1987,3060 2013,3060 2039,3059 2065,3059 2091,3059 2117,3059"/>
+                <TextEquiv>
+                    <Unicode>EXCLUSIDOS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ImPORTADORESEXCLUSIDOS</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:6;}">
+            <Coords points="1737,1936 2011,1936 2011,1952 1737,1952"/>
+        </SeparatorRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_6_1" custom="readingOrder {index:7;} structure {type:paragraph;}">
+            <Coords points="282,3076 1513,3067 1520,3163 276,3145"/>
+            <TextLine id="r_6_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1713,3140 2059,3143 2090,3126 2090,3083 1857,3088 1829,3102 1815,3088 1713,3089"/>
+                <Baseline points="1727,3128 1753,3129 1780,3129 1807,3129 1834,3129 1860,3129 1887,3128 1914,3128 1941,3127 1967,3126 1994,3126 2021,3126 2048,3128 2075,3128"/>
+                <TextEquiv>
+                    <Unicode>Tel. 3-22-91</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l2" custom="readingOrder {index:1;} place {offset:0; length:23; continued:true;}">
+                <Coords points="460,3137 772,3151 1217,3131 1217,3111 1138,3088 460,3100"/>
+                <Baseline points="474,3129 510,3129 546,3129 583,3129 619,3129 656,3129 692,3129 729,3128 765,3128 802,3128 838,3128 874,3128 911,3128 947,3128 984,3128 1020,3129 1057,3129 1093,3129 1130,3129 1166,3129 1203,3129"/>
+                <TextEquiv>
+                    <Unicode>212 Marques de Comillas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Tel. 3-22-91212 Marques de ComillasSRPBRRBRRRRBERRERRRIBBRRRRRRRRRRRERBRRRRRRERRRRE!</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:8;}">
+            <Coords points="1519,2031 1685,2031 1685,2041 1519,2041"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:9;}">
+            <Coords points="1773,2582 2071,2582 2071,2602 1773,2602"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:10;}">
+            <Coords points="539,1274 554,1274 554,1484 539,1484"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:11;}">
+            <Coords points="732,1108 744,1108 744,1486 732,1486"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:12;}">
+            <Coords points="789,619 804,619 804,919 789,919"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:13;}">
+            <Coords points="871,671 886,671 886,947 871,947"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:14;}">
+            <Coords points="987,615 1002,615 1002,865 987,865"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:15;}">
+            <Coords points="1074,1118 1085,1118 1085,1305 1074,1305"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:16;}">
+            <Coords points="1134,1068 1145,1068 1145,1236 1134,1236"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:17;}">
+            <Coords points="1485,1947 1512,1947 1512,2299 1485,2299"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:18;}">
+            <Coords points="1821,1962 1830,1962 1830,2244 1821,2244"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:19;}">
+            <Coords points="1825,1782 1833,1782 1833,1928 1825,1928"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:20;}">
+            <Coords points="1846,1964 1862,1964 1862,2264 1846,2264"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_21" custom="readingOrder {index:21;}">
+            <Coords points="1856,1718 1867,1718 1867,1930 1856,1930"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_22" custom="readingOrder {index:22;}">
+            <Coords points="1889,1478 1905,1478 1905,1846 1889,1846"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

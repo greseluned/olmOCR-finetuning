@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-01T19:37:23.517+02:00</Created>
+        <LastChange>2026-07-06T16:59:07.097+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="14871720" pageId="115571191" pageNr="254" tsid="295142060" status="DONE" userId="528307" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=WUTVCURZDCPAVQHOJHGPSHVJ" xmlUrl="https://files.transkribus.eu/Get?id=YEZFBRBTWGIFSOUUTZHTTSRE" imageId="17057813"/>
+    </Metadata>
+    <Page imageFilename="0254_Semana-0254.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="64,227 2414,227 2414,3262 64,3262"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1783352598713" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+                <RegionRefIndexed index="2" regionRef="r"/>
+                <RegionRefIndexed index="3" regionRef="r_4_1"/>
+                <RegionRefIndexed index="4" regionRef="r_5_1"/>
+                <RegionRefIndexed index="5" regionRef="r_6_1"/>
+                <RegionRefIndexed index="6" regionRef="r_3"/>
+                <RegionRefIndexed index="10" regionRef="r_5"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_4_1l11"/>
+                <RegionRef regionRef="r_5_1l11"/>
+                <RegionRef regionRef="r_6_1l11"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:pic-caption;} id {value:rel;}">
+                <RegionRef regionRef="r_4"/>
+                <RegionRef regionRef="r_5"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r_1" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="65,220 378,220 378,280 65,280"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="75,265 369,265 369,235 75,235"/>
+                <Baseline points="75,265 369,265"/>
+                <TextEquiv>
+                    <Unicode>SEMANA-34</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;} structure {type:header;}">
+            <Coords points="2053,206 2424,206 2424,288 2053,288"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;} date {offset:0; length:16;}">
+                <Coords points="2063,273 2416,270 2416,240 2063,243"/>
+                <Baseline points="2063,273 2416,270"/>
+                <TextEquiv>
+                    <Unicode>2 de Junio, 1949</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:2;} structure {type:heading;}">
+            <Coords points="188,357 2322,357 2322,576 188,576"/>
+            <TextLine id="l_2" custom="readingOrder {index:0;}">
+                <Coords points="214,524 2287,521 2287,491 214,494"/>
+                <Baseline points="214,524 2287,521"/>
+                <TextEquiv>
+                    <Unicode>La Politica Exterior Sueca</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="64,649 801,649 801,3248 64,3248"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;} place {offset:0; length:9;} organization {offset:12; length:7;}">
+                <Coords points="101,698 799,694 799,654 100,653"/>
+                <Baseline points="114,687 147,686 181,686 214,685 248,684 282,684 315,684 349,684 382,683 416,683 450,683 483,683 517,683 550,683 584,683 618,683 651,683 685,683 718,683 752,681 786,681"/>
+                <TextEquiv>
+                    <Unicode>ESTOCOLMO. (Reuters).—Los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l2" custom="readingOrder {index:1;}">
+                <Coords points="64,757 791,747 790,709 739,696 63,711"/>
+                <Baseline points="77,741 112,741 147,741 182,741 217,741 252,741 287,740 322,740 357,740 392,740 427,738 462,738 497,738 532,738 567,738 602,737 637,737 672,737 707,737 742,738 777,738"/>
+                <TextEquiv>
+                    <Unicode>generales y políticos suecos se ha¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l3" custom="readingOrder {index:2;}">
+                <Coords points="65,805 792,804 791,761 725,751 65,757"/>
+                <Baseline points="77,794 112,794 147,794 182,794 217,793 252,792 287,792 323,792 358,792 393,792 428,792 463,791 498,791 533,791 569,791 604,791 639,791 674,791 709,791 744,791 780,791"/>
+                <TextEquiv>
+                    <Unicode>llan divididos por lo que se refiere</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l4" custom="readingOrder {index:3;}">
+                <Coords points="58,861 706,861 705,822 662,802 512,821 454,806 57,815"/>
+                <Baseline points="71,848 102,848 133,848 164,848 195,848 226,848 257,846 288,846 319,846 350,845 382,845 413,845 444,845 475,845 506,845 537,845 568,845 599,845 630,845 661,846 693,848"/>
+                <TextEquiv>
+                    <Unicode>a la política exterior del país.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l5" custom="readingOrder {index:4;}">
+                <Coords points="108,917 739,919 795,903 795,870 749,863 108,866"/>
+                <Baseline points="120,903 153,903 186,902 219,902 252,902 285,902 318,902 352,903 385,903 418,903 451,903 484,903 517,903 550,903 584,902 617,902 650,902 683,902 716,902 749,900 783,900"/>
+                <TextEquiv>
+                    <Unicode>En tanto que el gobierno socia¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l6" custom="readingOrder {index:5;}">
+                <Coords points="54,973 799,968 799,922 54,920"/>
+                <Baseline points="68,959 103,959 139,959 175,959 211,960 247,960 283,960 319,960 355,960 391,960 427,960 462,959 498,959 534,959 570,959 606,959 642,958 678,957 714,957 750,957 786,956"/>
+                <TextEquiv>
+                    <Unicode>lista sueco se niega a adherirse a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l7" custom="readingOrder {index:6;}">
+                <Coords points="51,1029 628,1030 651,1007 684,1030 768,1029 801,1022 801,976 51,978"/>
+                <Baseline points="65,1016 101,1016 137,1016 173,1016 209,1016 246,1016 282,1016 318,1016 354,1016 390,1016 427,1016 463,1016 499,1016 535,1016 571,1016 608,1015 644,1014 680,1014 716,1014 752,1014 789,1014"/>
+                <TextEquiv>
+                    <Unicode>lo que los ministros llaman "agru¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l8" custom="readingOrder {index:7;}">
+                <Coords points="65,1093 336,1071 362,1094 542,1071 784,1088 799,1042 64,1039"/>
+                <Baseline points="78,1071 113,1073 148,1074 184,1074 219,1074 255,1074 290,1074 325,1073 361,1073 396,1073 432,1071 467,1071 502,1071 538,1071 573,1071 609,1071 644,1071 679,1071 715,1072 750,1073 786,1074"/>
+                <TextEquiv>
+                    <Unicode>paciones de grandes potencias",</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l9" custom="readingOrder {index:8;}">
+                <Coords points="72,1143 371,1132 463,1150 653,1124 793,1142 793,1093 71,1093"/>
+                <Baseline points="83,1130 117,1130 152,1128 187,1128 222,1128 257,1128 292,1128 326,1128 361,1128 396,1128 431,1128 466,1128 501,1128 536,1128 570,1128 605,1128 640,1128 675,1128 710,1127 745,1127 780,1125"/>
+                <TextEquiv>
+                    <Unicode>los militares, responsables de la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l10" custom="readingOrder {index:9;} place {offset:11; length:6;}">
+                <Coords points="53,1194 704,1204 798,1188 798,1150 53,1151"/>
+                <Baseline points="65,1190 101,1188 137,1188 173,1187 209,1187 245,1187 281,1185 317,1185 353,1185 389,1185 425,1185 461,1185 497,1185 533,1185 569,1184 605,1184 641,1184 677,1184 713,1182 749,1182 785,1181"/>
+                <TextEquiv>
+                    <Unicode>defensa de Suecia contra cualquier</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l11" custom="readingOrder {index:10;}">
+                <Coords points="54,1255 742,1260 801,1247 801,1204 53,1212"/>
+                <Baseline points="66,1245 102,1244 138,1242 174,1242 210,1241 246,1241 282,1241 318,1241 354,1241 390,1241 427,1241 463,1241 499,1242 535,1242 571,1242 607,1241 643,1241 679,1241 715,1239 751,1239 788,1238"/>
+                <TextEquiv>
+                    <Unicode>agresión, encarecen la idea de que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l12" custom="readingOrder {index:11;} place {offset:0; length:6;}">
+                <Coords points="61,1311 724,1316 795,1301 795,1265 60,1255"/>
+                <Baseline points="74,1299 109,1299 144,1298 180,1298 215,1298 251,1298 286,1298 322,1298 357,1298 393,1298 428,1298 463,1298 499,1298 534,1298 570,1298 605,1298 641,1296 676,1296 712,1296 747,1296 783,1296"/>
+                <TextEquiv>
+                    <Unicode>Suecia busque su seguridad coope¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l13" custom="readingOrder {index:12;}">
+                <Coords points="61,1367 793,1364 793,1321 61,1326"/>
+                <Baseline points="75,1356 110,1356 145,1355 180,1355 216,1355 251,1355 286,1355 321,1355 357,1355 392,1355 427,1355 462,1355 498,1355 533,1355 568,1355 603,1355 639,1355 674,1353 709,1353 744,1352 780,1350"/>
+                <TextEquiv>
+                    <Unicode>rando con los países signatarios</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l14" custom="readingOrder {index:13;} organization {offset:4; length:19;}">
+                <Coords points="59,1428 575,1419 575,1383 503,1368 376,1367 354,1382 300,1367 275,1385 155,1366 138,1379 125,1366 59,1372"/>
+                <Baseline points="72,1412 97,1412 123,1413 149,1413 174,1413 200,1413 226,1412 252,1412 277,1412 303,1412 329,1412 355,1411 380,1410 406,1410 432,1410 458,1410 483,1410 509,1410 535,1410 561,1410"/>
+                <TextEquiv>
+                    <Unicode>del Pacto del Atlántico.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l15" custom="readingOrder {index:14;} person {offset:3; length:26;}">
+                <Coords points="95,1481 764,1478 789,1473 789,1425 95,1428"/>
+                <Baseline points="107,1469 140,1467 174,1467 207,1466 241,1466 274,1466 308,1466 341,1466 375,1466 408,1466 442,1466 475,1466 509,1466 542,1466 576,1466 609,1466 643,1466 676,1464 710,1464 743,1464 777,1463"/>
+                <TextEquiv>
+                    <Unicode>El General Benget Nordenkiold</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l16" custom="readingOrder {index:15;}">
+                <Coords points="59,1540 766,1533 788,1531 788,1493 59,1497"/>
+                <Baseline points="71,1526 106,1524 141,1524 176,1524 212,1524 247,1524 282,1523 318,1523 353,1523 388,1523 424,1523 459,1523 494,1523 529,1523 565,1523 600,1523 635,1523 671,1523 706,1523 741,1523 777,1523"/>
+                <TextEquiv>
+                    <Unicode>comandante en jefe de la Fuerza</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l17" custom="readingOrder {index:16;}">
+                <Coords points="64,1595 799,1579 798,1538 64,1542"/>
+                <Baseline points="78,1581 113,1581 148,1581 184,1580 219,1580 255,1580 290,1580 325,1580 361,1580 396,1579 432,1578 467,1578 502,1578 538,1578 573,1577 609,1577 644,1575 679,1575 715,1574 750,1573 786,1572"/>
+                <TextEquiv>
+                    <Unicode>Aérea, hablando en Lund reciente¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l18" custom="readingOrder {index:17;}">
+                <Coords points="54,1652 202,1664 329,1628 608,1657 799,1641 799,1603 682,1593 54,1603"/>
+                <Baseline points="68,1638 103,1637 139,1635 175,1635 211,1634 247,1632 283,1632 318,1632 354,1632 390,1632 426,1632 462,1632 498,1632 534,1632 569,1634 605,1634 641,1634 677,1634 713,1632 749,1632 785,1632"/>
+                <TextEquiv>
+                    <Unicode>mente dijo: “Solzmente podemos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l19" custom="readingOrder {index:18;}">
+                <Coords points="58,1710 770,1700 795,1692 795,1661 58,1664"/>
+                <Baseline points="71,1694 106,1694 142,1694 177,1692 213,1692 249,1692 284,1692 320,1692 355,1692 391,1692 427,1692 462,1692 498,1691 533,1691 569,1691 605,1691 640,1689 676,1689 711,1689 747,1688 783,1688"/>
+                <TextEquiv>
+                    <Unicode>mantenernos a la cabeza en cali¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l20" custom="readingOrder {index:19;}">
+                <Coords points="66,1768 785,1757 800,1709 65,1710"/>
+                <Baseline points="78,1751 113,1749 148,1749 184,1749 219,1749 255,1749 290,1749 325,1748 361,1748 396,1748 432,1748 467,1748 502,1748 538,1748 573,1746 609,1746 644,1746 679,1745 715,1745 750,1743 786,1743"/>
+                <TextEquiv>
+                    <Unicode>dad si sostenemos una cooperación</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l21" custom="readingOrder {index:20;}">
+                <Coords points="64,1822 333,1805 354,1823 392,1797 450,1823 778,1814 793,1765 64,1774"/>
+                <Baseline points="78,1806 113,1805 148,1805 183,1803 218,1803 253,1803 288,1803 323,1803 358,1802 393,1802 429,1802 464,1802 499,1802 534,1802 569,1802 604,1802 639,1802 674,1802 709,1802 744,1802 780,1800"/>
+                <TextEquiv>
+                    <Unicode>confidencial y técnica con una</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l22" custom="readingOrder {index:21;}">
+                <Coords points="65,1882 800,1859 799,1834 756,1824 65,1829"/>
+                <Baseline points="77,1865 112,1864 147,1863 183,1862 218,1862 254,1860 289,1860 325,1860 360,1859 396,1859 431,1859 466,1859 502,1857 537,1857 573,1857 608,1856 644,1856 679,1856 715,1854 750,1854 786,1853"/>
+                <TextEquiv>
+                    <Unicode>gran potencia. Y debemos arre¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l23" custom="readingOrder {index:22;}">
+                <Coords points="65,1941 797,1925 797,1884 761,1877 65,1883"/>
+                <Baseline points="77,1920 112,1919 147,1919 183,1917 218,1917 254,1917 289,1916 324,1916 360,1916 395,1916 431,1916 466,1916 501,1916 537,1916 572,1916 608,1916 643,1916 678,1916 714,1916 749,1914 785,1914"/>
+                <TextEquiv>
+                    <Unicode>glar las cosas de tal forma que la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l24" custom="readingOrder {index:23;}">
+                <Coords points="63,1994 790,1983 790,1935 63,1941"/>
+                <Baseline points="77,1976 113,1975 150,1974 187,1973 224,1973 260,1971 297,1971 334,1971 371,1971 408,1971 444,1971 481,1971 518,1970 555,1970 592,1970 628,1970 665,1970 702,1969 739,1968 776,1967"/>
+                <TextEquiv>
+                    <Unicode>puerta de semejante cooperación</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l25" custom="readingOrder {index:24;}">
+                <Coords points="53,2043 620,2039 660,2026 660,1981 315,2008 226,1991 53,2000"/>
+                <Baseline points="66,2025 95,2027 124,2028 153,2028 182,2030 211,2030 240,2030 269,2030 298,2030 327,2030 357,2028 386,2028 415,2028 444,2027 473,2027 502,2027 531,2026 560,2025 589,2025 618,2025 648,2027"/>
+                <TextEquiv>
+                    <Unicode>esté abierta para Occidente”</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l26" custom="readingOrder {index:25;} person {offset:17; length:12; continued:true;}">
+                <Coords points="92,2099 779,2094 796,2046 92,2055"/>
+                <Baseline points="105,2084 138,2084 172,2084 206,2085 240,2085 274,2085 308,2085 342,2085 376,2084 410,2084 444,2084 477,2084 511,2082 545,2082 579,2082 613,2082 647,2082 681,2081 715,2081 749,2081 783,2082"/>
+                <TextEquiv>
+                    <Unicode>Por su parte, el general Nils</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l27" custom="readingOrder {index:26;} person {offset:0; length:8; continued:true;}">
+                <Coords points="62,2157 791,2150 791,2102 597,2116 369,2094 272,2120 61,2101"/>
+                <Baseline points="74,2141 109,2141 144,2141 179,2139 215,2139 250,2139 285,2139 320,2139 356,2139 391,2139 426,2139 461,2138 497,2138 532,2138 567,2138 602,2138 638,2138 673,2137 708,2136 743,2136 779,2136"/>
+                <TextEquiv>
+                    <Unicode>Svedlund, hablando hace poco en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l28" custom="readingOrder {index:27;}">
+                <Coords points="72,2208 349,2215 458,2183 486,2206 704,2216 793,2198 793,2162 71,2159"/>
+                <Baseline points="84,2196 118,2196 153,2196 188,2196 223,2196 258,2196 292,2195 327,2195 362,2195 397,2195 432,2193 466,2193 501,2193 536,2192 571,2192 606,2192 640,2192 675,2190 710,2190 745,2190 780,2190"/>
+                <TextEquiv>
+                    <Unicode>Estocolmo, dijo: “Nuestras posi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l29" custom="readingOrder {index:28;}">
+                <Coords points="66,2269 801,2262 800,2222 661,2207 356,2211 333,2232 297,2207 264,2235 201,2207 66,2211"/>
+                <Baseline points="78,2253 113,2253 149,2252 184,2252 220,2252 255,2252 291,2252 326,2250 362,2250 397,2250 433,2250 469,2250 504,2250 540,2249 575,2249 611,2249 646,2249 682,2249 717,2249 753,2250 789,2250"/>
+                <TextEquiv>
+                    <Unicode>bilidades de defensa dependen en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l30" custom="readingOrder {index:29;}">
+                <Coords points="65,2325 802,2308 801,2282 768,2272 672,2286 641,2266 64,2274"/>
+                <Baseline points="78,2310 113,2309 149,2309 184,2307 220,2307 255,2307 291,2307 326,2306 362,2306 397,2306 433,2306 468,2306 504,2306 539,2306 575,2306 610,2306 646,2306 681,2306 717,2304 752,2304 788,2303"/>
+                <TextEquiv>
+                    <Unicode>gran parte de que podamós com¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l31" custom="readingOrder {index:30;}">
+                <Coords points="70,2381 795,2366 794,2338 764,2328 642,2344 583,2319 70,2338"/>
+                <Baseline points="83,2366 119,2364 156,2363 193,2362 230,2361 266,2361 303,2361 340,2361 377,2361 414,2361 450,2361 487,2361 524,2361 561,2361 598,2361 634,2361 671,2360 708,2360 745,2358 782,2357"/>
+                <TextEquiv>
+                    <Unicode>partir los descubrimientos y ma¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l32" custom="readingOrder {index:31;}">
+                <Coords points="65,2432 235,2416 395,2439 565,2421 733,2436 799,2426 799,2382 65,2384"/>
+                <Baseline points="78,2417 113,2418 148,2418 184,2418 219,2420 255,2420 290,2420 325,2420 361,2420 396,2420 432,2418 467,2418 502,2418 538,2418 573,2418 609,2418 644,2418 679,2418 715,2418 750,2418 786,2418"/>
+                <TextEquiv>
+                    <Unicode>teriales de las grandes potencias.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l33" custom="readingOrder {index:32;}">
+                <Coords points="66,2488 798,2480 798,2450 684,2432 455,2452 66,2432"/>
+                <Baseline points="78,2474 113,2474 148,2474 184,2474 219,2474 255,2474 290,2474 325,2474 361,2474 396,2474 432,2474 467,2474 502,2474 538,2474 573,2474 609,2474 644,2474 679,2474 715,2474 750,2474 786,2474"/>
+                <TextEquiv>
+                    <Unicode>Sin éstos, nuestra facultad de re¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l34" custom="readingOrder {index:33;}">
+                <Coords points="58,2544 714,2544 767,2513 767,2488 58,2496"/>
+                <Baseline points="71,2529 105,2529 139,2529 173,2529 208,2529 242,2529 276,2529 310,2529 345,2529 379,2529 413,2529 447,2529 482,2529 516,2529 550,2529 584,2529 619,2529 653,2529 687,2529 721,2529 756,2529"/>
+                <TextEquiv>
+                    <Unicode>sistencia decrecerá rápidamente”</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l35" custom="readingOrder {index:34;}">
+                <Coords points="105,2595 806,2591 806,2553 743,2545 527,2564 466,2543 443,2566 105,2547"/>
+                <Baseline points="117,2583 150,2582 184,2582 218,2582 252,2582 286,2583 320,2583 353,2583 387,2583 421,2585 455,2585 489,2586 523,2586 557,2586 590,2586 624,2586 658,2586 692,2585 726,2584 760,2583 794,2582"/>
+                <TextEquiv>
+                    <Unicode>Refiriéndose a las malogradas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l36" custom="readingOrder {index:35;}">
+                <Coords points="65,2653 802,2652 802,2604 700,2594 65,2600"/>
+                <Baseline points="77,2637 112,2637 148,2637 183,2637 219,2639 255,2639 290,2639 326,2639 361,2639 397,2639 433,2639 468,2639 504,2639 539,2639 575,2639 611,2639 646,2639 682,2639 717,2639 753,2639 789,2639"/>
+                <TextEquiv>
+                    <Unicode>discusiones para la creación de un</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l37" custom="readingOrder {index:36;}">
+                <Coords points="59,2699 801,2707 801,2656 783,2654 59,2663"/>
+                <Baseline points="71,2690 106,2690 142,2690 178,2691 214,2691 250,2691 286,2691 322,2691 358,2691 394,2691 430,2690 465,2690 501,2690 537,2690 573,2690 609,2690 645,2690 681,2691 717,2691 753,2692 789,2693"/>
+                <TextEquiv>
+                    <Unicode>sistema defensivo escandinavo, el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l38" custom="readingOrder {index:37;} person {offset:8; length:9;}">
+                <Coords points="57,2765 802,2746 802,2723 766,2710 57,2712"/>
+                <Baseline points="71,2744 106,2744 142,2742 178,2742 214,2742 250,2742 286,2742 321,2744 357,2744 393,2744 429,2744 465,2745 501,2745 537,2745 572,2745 608,2745 644,2744 680,2744 716,2743 752,2742 788,2741"/>
+                <TextEquiv>
+                    <Unicode>general Svendlund dijo: Un acuer¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l39" custom="readingOrder {index:38;}">
+                <Coords points="70,2813 800,2811 800,2755 668,2778 630,2760 71,2760"/>
+                <Baseline points="83,2795 118,2795 153,2795 188,2795 224,2795 259,2795 294,2796 329,2796 365,2796 400,2796 435,2798 470,2798 506,2798 541,2798 576,2798 611,2798 647,2798 682,2798 717,2796 752,2796 788,2795"/>
+                <TextEquiv>
+                    <Unicode>do defensivo mancomunado, libre'</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l40" custom="readingOrder {index:39;}">
+                <Coords points="68,2862 803,2853 803,2830 678,2809 620,2832 470,2811 320,2830 68,2814"/>
+                <Baseline points="81,2850 116,2850 151,2849 187,2849 222,2849 258,2849 293,2850 328,2850 364,2850 399,2851 435,2852 470,2852 505,2852 541,2852 576,2853 612,2853 647,2853 682,2852 718,2852 753,2852 789,2850"/>
+                <TextEquiv>
+                    <Unicode>de alianzas extranjeras y militar¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l41" custom="readingOrder {index:40;}">
+                <Coords points="66,2915 775,2918 800,2908 801,2870 66,2874"/>
+                <Baseline points="80,2904 115,2903 150,2903 186,2903 221,2903 257,2903 292,2903 328,2903 363,2903 399,2904 434,2904 469,2904 505,2904 540,2904 576,2906 611,2906 647,2906 682,2906 718,2906 753,2904 789,2904"/>
+                <TextEquiv>
+                    <Unicode>mente débil, no podría haber da¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l42" custom="readingOrder {index:41;}">
+                <Coords points="64,2971 801,2961 801,2926 64,2917"/>
+                <Baseline points="77,2955 112,2955 148,2955 183,2955 219,2954 254,2954 290,2954 325,2954 361,2954 396,2955 432,2955 468,2955 503,2955 539,2955 574,2955 610,2955 645,2955 681,2955 716,2955 752,2955 788,2955"/>
+                <TextEquiv>
+                    <Unicode>do a los países escandinavos la se¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l43" custom="readingOrder {index:42;}">
+                <Coords points="65,3029 535,3023 553,3005 774,3023 794,3021 795,2977 65,2976"/>
+                <Baseline points="78,3008 113,3008 148,3008 183,3008 219,3008 254,3008 289,3008 324,3008 360,3009 395,3009 430,3009 465,3009 501,3009 536,3009 571,3009 606,3009 642,3009 677,3009 712,3009 747,3009 783,3009"/>
+                <TextEquiv>
+                    <Unicode>guridad, tan deseada. Por otra</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l44" custom="readingOrder {index:43;}">
+                <Coords points="56,3080 801,3070 801,3042 750,3024 691,3044 628,3024 493,3023 468,3046 369,3023 310,3043 56,3032"/>
+                <Baseline points="68,3065 104,3063 140,3063 176,3063 212,3063 248,3063 284,3063 320,3063 356,3063 392,3063 428,3065 464,3065 500,3065 536,3065 572,3066 608,3066 644,3065 680,3065 716,3065 752,3064 789,3063"/>
+                <TextEquiv>
+                    <Unicode>parte, una alianza defensiva nór¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l45" custom="readingOrder {index:44;}">
+                <Coords points="52,3133 497,3142 555,3114 576,3135 659,3117 766,3132 804,3122 804,3092 52,3093"/>
+                <Baseline points="65,3119 101,3119 137,3119 174,3119 210,3119 246,3119 283,3119 319,3119 355,3119 392,3119 428,3120 464,3120 501,3120 537,3120 573,3120 610,3120 646,3120 682,3120 719,3120 755,3120 792,3120"/>
+                <TextEquiv>
+                    <Unicode>dica en colaboración con otros</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l46" custom="readingOrder {index:45;}">
+                <Coords points="64,3195 801,3178 801,3156 656,3137 64,3144"/>
+                <Baseline points="77,3174 112,3174 148,3174 183,3174 219,3174 254,3174 290,3174 325,3176 361,3176 396,3176 432,3176 468,3176 503,3176 539,3177 574,3177 610,3177 645,3177 681,3177 716,3177 752,3177 788,3176"/>
+                <TextEquiv>
+                    <Unicode>países pudiera haber influído no¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l47" custom="readingOrder {index:46;}">
+                <Coords points="65,3245 802,3237 802,3204 715,3191 65,3195"/>
+                <Baseline points="78,3231 113,3231 149,3231 184,3231 220,3230 255,3230 291,3230 326,3230 362,3230 397,3230 433,3230 468,3231 504,3231 539,3231 575,3231 610,3231 646,3231 681,3231 717,3233 752,3233 788,3233"/>
+                <TextEquiv>
+                    <Unicode>tablemente en la seguridad de Es¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ESTOCOLMO. (Reuters).—Losgenerales y políticos suecos se ha¬llan divididos por lo que se refierea la política exterior del país.En tanto que el gobierno socia¬lista sueco se niega a adherirse alo que los ministros llaman "agru¬paciones de grandes potencias",los militares, responsables de ladefensa de Suecia contra cualquieragresión, encarecen la idea de queSuecia busque su seguridad coope¬rando con los países signatariosdel Pacto del Atlántico.El General Benget Nordenkioldcomandante en jefe de la FuerzaAérea, hablando en Lund reciente¬mente dijo: “Solzmente podemosmantenernos a la cabeza en cali¬dad si sostenemos una cooperaciónconfidencial y técnica con unagran potencia. Y debemos arre¬glar las cosas de tal forma que lapuerta de semejante cooperaciónesté abierta para Occidente”Por su parte, el general NilsSvedlund, hablando hace poco enEstocolmo, dijo: “Nuestras posi¬bilidades de defensa dependen engran parte de que podamós com¬partir los descubrimientos y ma¬teriales de las grandes potencias.Sin éstos, nuestra facultad de re¬sistencia decrecerá rápidamente”Refiriéndose a las malogradasdiscusiones para la creación de unsistema defensivo escandinavo, elgeneral Svendlund dijo: Un acuer¬do defensivo mancomunado, libre'de alianzas extranjeras y militar¬mente débil, no podría haber da¬do a los países escandinavos la se¬guridad, tan deseada. Por otraparte, una alianza defensiva nór¬dica en colaboración con otrospaíses pudiera haber influído no¬tablemente en la seguridad de Es¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_5_1" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="878,648 1604,648 1604,1924 878,1924"/>
+            <TextLine id="r_5_1l1" custom="readingOrder {index:0;}">
+                <Coords points="878,697 1104,691 1130,666 1155,666 1155,638 1061,641 1033,654 992,641 954,643 944,654 878,654"/>
+                <Baseline points="891,683 916,684 941,686 966,684 991,684 1017,684 1042,683 1067,683 1092,683 1117,684 1143,686"/>
+                <TextEquiv>
+                    <Unicode>candinavia”</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l2" custom="readingOrder {index:1;} person {offset:17; length:8;}">
+                <Coords points="923,748 1599,749 1598,705 1576,703 1050,712 922,695"/>
+                <Baseline points="935,740 967,741 1000,741 1032,741 1065,741 1098,741 1130,741 1163,741 1195,741 1228,740 1261,740 1293,740 1326,740 1358,740 1391,738 1424,738 1456,738 1489,738 1521,737 1554,737 1587,737"/>
+                <TextEquiv>
+                    <Unicode>Tanto el general Svedlund como</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l3" custom="readingOrder {index:2;} person {offset:0; length:11;}">
+                <Coords points="870,805 1612,807 1612,756 1551,751 1332,771 870,752"/>
+                <Baseline points="882,791 917,791 953,791 989,792 1025,792 1061,792 1097,792 1132,794 1168,794 1204,794 1240,794 1276,794 1312,794 1348,794 1383,794 1419,794 1455,794 1491,794 1527,792 1563,792 1599,791"/>
+                <TextEquiv>
+                    <Unicode>Nordenkiald subrayan que la Unión</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l4" custom="readingOrder {index:3;}">
+                <Coords points="875,863 1043,863 1091,842 1122,862 1284,851 1305,869 1383,843 1404,861 1614,848 1614,812 1264,826 1236,808 875,807"/>
+                <Baseline points="887,848 922,848 958,848 994,849 1030,849 1065,849 1101,849 1137,849 1173,849 1208,849 1244,849 1280,849 1316,849 1351,849 1387,849 1423,848 1459,848 1494,847 1530,846 1566,845 1602,843"/>
+                <TextEquiv>
+                    <Unicode>Soviética tendría que mantener</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l5" custom="readingOrder {index:4;} place {offset:19; length:6;}">
+                <Coords points="881,918 1237,925 1305,900 1328,920 1603,917 1603,864 881,870"/>
+                <Baseline points="894,906 928,905 963,905 998,905 1033,905 1067,905 1102,905 1137,905 1172,905 1206,905 1241,905 1276,906 1311,906 1345,906 1380,906 1415,905 1450,905 1484,905 1519,903 1554,903 1589,902"/>
+                <TextEquiv>
+                    <Unicode>comunicaciones por Suecia en el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l6" custom="readingOrder {index:5;}">
+                <Coords points="881,974 1491,980 1605,972 1605,927 881,931"/>
+                <Baseline points="894,962 930,962 967,962 1004,962 1041,962 1077,962 1114,962 1151,963 1188,963 1225,963 1261,963 1298,963 1335,963 1372,963 1409,963 1445,963 1482,963 1519,962 1556,962 1593,962"/>
+                <TextEquiv>
+                    <Unicode>caso de una guerra con los países</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l7" custom="readingOrder {index:6;} organization {offset:4; length:19;}">
+                <Coords points="875,1027 1379,1028 1379,997 1287,976 1092,975 1079,988 876,976"/>
+                <Baseline points="887,1017 912,1016 937,1016 962,1016 987,1016 1012,1016 1037,1016 1063,1017 1088,1017 1113,1017 1138,1017 1163,1017 1188,1017 1214,1017 1239,1017 1264,1017 1289,1019 1314,1019 1339,1019 1365,1019"/>
+                <TextEquiv>
+                    <Unicode>del Pacto del Atlántico.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l8" custom="readingOrder {index:7;} person {offset:11; length:10;}">
+                <Coords points="913,1085 1421,1095 1611,1077 1611,1047 1571,1039 913,1031"/>
+                <Baseline points="926,1073 959,1073 993,1073 1026,1073 1060,1073 1094,1073 1127,1073 1161,1074 1194,1074 1228,1074 1262,1074 1295,1074 1329,1074 1362,1074 1396,1074 1430,1074 1463,1074 1497,1074 1530,1073 1564,1071 1598,1071"/>
+                <TextEquiv>
+                    <Unicode>El General Helge Jung, coman¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l9" custom="readingOrder {index:8;}">
+                <Coords points="867,1138 1615,1140 1615,1094 867,1092"/>
+                <Baseline points="881,1130 917,1130 953,1130 989,1130 1025,1130 1061,1130 1097,1130 1133,1130 1169,1130 1205,1130 1241,1130 1277,1130 1313,1130 1349,1130 1385,1130 1421,1130 1457,1130 1493,1130 1529,1130 1565,1129 1601,1128"/>
+                <TextEquiv>
+                    <Unicode>dante en jefe de todas las fuerzas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l10" custom="readingOrder {index:9;} place {offset:11; length:6;}">
+                <Coords points="868,1199 1603,1191 1603,1158 1516,1143 1313,1144 1292,1164 1254,1144 868,1153"/>
+                <Baseline points="882,1188 917,1188 952,1187 988,1187 1023,1186 1058,1185 1094,1185 1129,1185 1164,1185 1200,1185 1235,1185 1270,1185 1306,1185 1341,1185 1376,1185 1412,1185 1447,1185 1482,1185 1518,1185 1553,1185 1589,1184"/>
+                <TextEquiv>
+                    <Unicode>armadas de Suecia, ha dado tam¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l11" custom="readingOrder {index:10;}">
+                <Coords points="881,1254 1601,1247 1601,1204 1357,1217 1318,1200 1293,1220 1263,1200 881,1203"/>
+                <Baseline points="894,1242 928,1242 963,1241 998,1241 1033,1241 1067,1241 1102,1241 1137,1241 1172,1241 1206,1242 1241,1242 1276,1242 1311,1242 1345,1242 1380,1242 1415,1242 1450,1241 1484,1241 1519,1240 1554,1239 1589,1238"/>
+                <TextEquiv>
+                    <Unicode>bién la advertencia de que "nues¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l12" custom="readingOrder {index:11;}">
+                <Coords points="878,1307 1613,1305 1613,1275 1554,1254 878,1261"/>
+                <Baseline points="890,1299 925,1298 960,1298 996,1298 1031,1298 1067,1298 1102,1298 1138,1298 1173,1298 1209,1298 1244,1298 1279,1298 1315,1298 1350,1298 1386,1298 1421,1299 1457,1299 1492,1299 1528,1299 1563,1298 1599,1298"/>
+                <TextEquiv>
+                    <Unicode>tra necesidad de abastecimientos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l13" custom="readingOrder {index:12;}">
+                <Coords points="873,1366 1605,1364 1605,1324 1435,1310 1247,1312 1229,1330 873,1315"/>
+                <Baseline points="887,1355 922,1355 957,1353 992,1353 1028,1353 1063,1353 1098,1353 1133,1353 1169,1353 1204,1353 1239,1354 1274,1355 1310,1355 1345,1355 1380,1355 1415,1355 1451,1356 1486,1356 1521,1356 1556,1356 1592,1356"/>
+                <TextEquiv>
+                    <Unicode>de materiales en tiempos de paz y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l14" custom="readingOrder {index:13;}">
+                <Coords points="881,1424 1099,1406 1257,1422 1277,1401 1297,1422 1605,1427 1605,1391 1564,1376 1417,1391 1381,1368 1348,1391 1209,1368 881,1370"/>
+                <Baseline points="893,1410 928,1410 963,1410 998,1410 1033,1410 1068,1410 1103,1410 1138,1410 1173,1410 1208,1410 1243,1409 1278,1409 1313,1409 1348,1409 1383,1409 1418,1410 1453,1410 1488,1410 1523,1410 1558,1412 1593,1412"/>
+                <TextEquiv>
+                    <Unicode>de ayuda militar en la guerra,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l15" custom="readingOrder {index:14;}">
+                <Coords points="874,1474 1599,1474 1599,1431 1568,1423 875,1431"/>
+                <Baseline points="887,1466 923,1464 960,1464 997,1464 1034,1464 1070,1464 1107,1464 1144,1464 1181,1464 1218,1466 1254,1466 1291,1466 1328,1466 1365,1466 1402,1466 1438,1466 1475,1466 1512,1466 1549,1466 1586,1464"/>
+                <TextEquiv>
+                    <Unicode>muestra que nuestra libertad de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l16" custom="readingOrder {index:15;}">
+                <Coords points="867,1527 1210,1541 1421,1521 1520,1542 1599,1532 1599,1486 1109,1480 1035,1502 913,1479 867,1497"/>
+                <Baseline points="881,1523 916,1523 951,1521 986,1521 1022,1521 1057,1521 1092,1521 1128,1521 1163,1521 1198,1521 1234,1521 1269,1522 1304,1523 1339,1523 1375,1523 1410,1523 1445,1523 1481,1523 1516,1523 1551,1523 1587,1523"/>
+                <TextEquiv>
+                    <Unicode>alianza extranjera, bajo ninguna</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l17" custom="readingOrder {index:16;}">
+                <Coords points="873,1599 1603,1594 1603,1543 873,1546"/>
+                <Baseline points="887,1577 922,1577 957,1578 992,1578 1027,1578 1062,1578 1097,1578 1133,1578 1168,1578 1203,1578 1238,1578 1273,1578 1308,1578 1343,1578 1379,1578 1414,1578 1449,1578 1484,1578 1519,1578 1554,1578 1590,1578"/>
+                <TextEquiv>
+                    <Unicode>circunstancia, no debe aislarnos de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l18" custom="readingOrder {index:17;}">
+                <Coords points="873,1645 1422,1645 1422,1609 1318,1593 1214,1593 1155,1616 1089,1592 873,1597"/>
+                <Baseline points="885,1631 911,1632 937,1632 963,1632 990,1634 1016,1634 1042,1634 1068,1634 1095,1634 1121,1634 1147,1634 1173,1634 1200,1634 1226,1634 1252,1634 1278,1634 1305,1634 1331,1634 1357,1634 1383,1634 1410,1635"/>
+                <TextEquiv>
+                    <Unicode>las potencias extranjeras.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l19" custom="readingOrder {index:18;}">
+                <Coords points="917,1702 1598,1698 1582,1658 1074,1648 990,1671 917,1648"/>
+                <Baseline points="930,1692 962,1692 995,1691 1028,1691 1061,1689 1094,1689 1126,1689 1159,1689 1192,1689 1225,1691 1258,1691 1290,1691 1323,1691 1356,1691 1389,1691 1421,1691 1454,1691 1487,1691 1520,1689 1553,1689 1586,1688"/>
+                <TextEquiv>
+                    <Unicode>La actitud de los generales sue¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l20" custom="readingOrder {index:19;}">
+                <Coords points="872,1757 1576,1759 1609,1753 1609,1713 872,1714"/>
+                <Baseline points="884,1745 919,1746 955,1746 990,1746 1026,1746 1062,1746 1097,1746 1133,1746 1168,1746 1204,1746 1240,1746 1275,1746 1311,1746 1346,1746 1382,1745 1418,1745 1453,1745 1489,1745 1524,1745 1560,1745 1596,1745"/>
+                <TextEquiv>
+                    <Unicode>cos ha preocupado al Gobiernc</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l21" custom="readingOrder {index:20;}">
+                <Coords points="869,1813 1593,1815 1611,1769 869,1773"/>
+                <Baseline points="881,1800 916,1800 952,1802 988,1802 1024,1802 1060,1802 1096,1802 1131,1802 1167,1802 1203,1802 1239,1802 1275,1802 1311,1802 1347,1802 1382,1802 1418,1802 1454,1802 1490,1802 1526,1802 1562,1803 1598,1803"/>
+                <TextEquiv>
+                    <Unicode>sucro, pese a que los componentes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l22" custom="readingOrder {index:21;}">
+                <Coords points="868,1867 1605,1871 1605,1825 1493,1817 868,1826"/>
+                <Baseline points="881,1856 916,1856 952,1856 987,1856 1023,1856 1058,1856 1094,1856 1129,1856 1165,1857 1200,1857 1236,1857 1272,1857 1307,1858 1343,1859 1378,1859 1414,1859 1449,1859 1485,1859 1520,1859 1556,1857 1592,1857"/>
+                <TextEquiv>
+                    <Unicode>de éste admiten que los militares</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_5_1l23" custom="readingOrder {index:22;}">
+                <Coords points="878,1928 1605,1919 1605,1878 878,1872"/>
+                <Baseline points="891,1913 926,1911 961,1911 996,1911 1031,1911 1066,1911 1101,1911 1136,1911 1171,1913 1206,1913 1242,1913 1277,1914 1312,1914 1347,1914 1382,1914 1417,1914 1452,1914 1487,1914 1522,1914 1557,1913 1593,1911"/>
+                <TextEquiv>
+                    <Unicode>tienen tanto derecho como los par¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>candinavia”Tanto el general Svedlund comoNordenkiald subrayan que la UniónSoviética tendría que mantenercomunicaciones por Suecia en elcaso de una guerra con los paísesdel Pacto del Atlántico.El General Helge Jung, coman¬dante en jefe de todas las fuerzasarmadas de Suecia, ha dado tam¬bién la advertencia de que "nues¬tra necesidad de abastecimientosde materiales en tiempos de paz yde ayuda militar en la guerra,muestra que nuestra libertad dealianza extranjera, bajo ningunacircunstancia, no debe aislarnos delas potencias extranjeras.La actitud de los generales sue¬cos ha preocupado al Gobierncsucro, pese a que los componentesde éste admiten que los militarestienen tanto derecho como los par¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_6_1" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="1687,647 2414,647 2414,1931 1687,1931"/>
+            <TextLine id="r_6_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1687,695 2307,701 2424,683 2424,640 1971,655 1687,639"/>
+                <Baseline points="1700,683 1735,683 1771,683 1806,683 1842,683 1877,683 1913,683 1948,683 1984,683 2019,683 2055,683 2091,684 2126,684 2162,684 2197,684 2233,684 2268,684 2304,683 2339,683 2375,683 2411,683"/>
+                <TextEquiv>
+                    <Unicode>ticulares para expresar sus opinic¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1692,749 2418,748 2418,707 1692,709"/>
+                <Baseline points="1704,741 1739,740 1774,740 1809,740 1844,740 1879,740 1914,740 1949,740 1984,740 2019,740 2054,740 2089,740 2124,740 2159,740 2194,740 2229,741 2264,741 2299,741 2334,741 2369,741 2405,740"/>
+                <TextEquiv>
+                    <Unicode>nes y puntos de vista La reacción</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1682,811 2424,814 2424,775 2369,757 2272,780 2112,758 1682,766"/>
+                <Baseline points="1694,795 1729,795 1765,795 1801,797 1837,797 1873,797 1909,797 1945,797 1981,798 2017,798 2053,798 2088,798 2124,798 2160,798 2196,798 2232,798 2268,799 2304,800 2340,800 2376,800 2412,800"/>
+                <TextEquiv>
+                    <Unicode>del Partido Comunista no se ha</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l4" custom="readingOrder {index:3;}">
+                <Coords points="1685,862 2422,870 2422,821 2373,814 1685,814"/>
+                <Baseline points="1697,854 1732,854 1768,854 1803,854 1839,854 1874,854 1910,854 1945,854 1981,854 2016,854 2052,854 2088,854 2123,854 2159,854 2194,854 2230,854 2265,854 2301,854 2336,854 2372,854 2408,855"/>
+                <TextEquiv>
+                    <Unicode>hecho esperar y se ha expresado</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l5" custom="readingOrder {index:4;}">
+                <Coords points="1678,924 1945,926 1978,905 2004,926 2298,932 2415,922 2416,879 1679,879"/>
+                <Baseline points="1691,909 1726,909 1762,909 1797,909 1833,909 1869,909 1904,909 1940,909 1975,909 2011,909 2047,910 2082,911 2118,911 2153,911 2189,911 2225,911 2260,911 2296,911 2331,911 2367,911 2403,911"/>
+                <TextEquiv>
+                    <Unicode>en una serie de artículos que se</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l6" custom="readingOrder {index:5;} organization {offset:31; length:2; continued:true;}">
+                <Coords points="1693,980 2417,977 2416,929 1692,930"/>
+                <Baseline points="1704,966 1739,966 1774,966 1809,966 1844,966 1879,966 1914,966 1949,966 1984,966 2019,966 2054,966 2089,966 2124,965 2159,965 2194,965 2229,965 2264,963 2299,963 2334,961 2369,960 2405,959"/>
+                <TextEquiv>
+                    <Unicode>kan publicado en el periódico "Ny</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l7" custom="readingOrder {index:6;} organization {offset:0; length:3; continued:true;}">
+                <Coords points="1674,1034 2419,1031 2419,993 2363,985 1827,1003 1799,983 1674,986"/>
+                <Baseline points="1688,1022 1723,1022 1759,1022 1795,1023 1831,1023 1867,1023 1903,1022 1938,1022 1974,1022 2010,1022 2046,1022 2082,1022 2118,1022 2154,1021 2189,1020 2225,1020 2261,1020 2297,1020 2333,1020 2369,1020 2405,1020"/>
+                <TextEquiv>
+                    <Unicode>Dag", en el que describe a estos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l8" custom="readingOrder {index:7;}">
+                <Coords points="1691,1094 2026,1093 2054,1065 2174,1101 2423,1088 2423,1050 2324,1034 1917,1058 1691,1045"/>
+                <Baseline points="1704,1077 1739,1077 1774,1077 1809,1077 1845,1077 1880,1079 1915,1079 1950,1079 1986,1079 2021,1079 2056,1079 2091,1079 2127,1079 2162,1077 2197,1077 2232,1077 2268,1077 2303,1077 2338,1077 2373,1077 2409,1077"/>
+                <TextEquiv>
+                    <Unicode>generales como "propagandistas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l9" custom="readingOrder {index:8;}">
+                <Coords points="1684,1150 2055,1148 2078,1130 2312,1150 2411,1142 2411,1094 1684,1107"/>
+                <Baseline points="1698,1134 1733,1134 1768,1134 1803,1134 1838,1134 1873,1133 1908,1133 1943,1133 1978,1133 2013,1133 2048,1133 2083,1133 2118,1133 2153,1133 2188,1133 2223,1133 2258,1133 2293,1132 2328,1131 2363,1131 2399,1130"/>
+                <TextEquiv>
+                    <Unicode>militares de una tercera guerra</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l10" custom="readingOrder {index:9;}">
+                <Coords points="1692,1204 2411,1196 2411,1160 2357,1150 1941,1152 1920,1172 1857,1150 1692,1158"/>
+                <Baseline points="1704,1191 1738,1191 1773,1190 1807,1190 1842,1190 1877,1190 1911,1190 1946,1190 1981,1190 2015,1190 2050,1191 2085,1191 2119,1191 2154,1191 2189,1190 2223,1190 2258,1190 2293,1189 2327,1188 2362,1187 2397,1185"/>
+                <TextEquiv>
+                    <Unicode>mundial”. Aunque los demás par¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l11" custom="readingOrder {index:10;}">
+                <Coords points="1685,1262 2412,1253 2412,1220 2389,1215 1685,1206"/>
+                <Baseline points="1697,1245 1732,1245 1767,1245 1802,1245 1837,1245 1872,1245 1907,1245 1943,1245 1978,1245 2013,1245 2048,1245 2083,1245 2118,1245 2153,1244 2189,1244 2224,1244 2259,1244 2294,1244 2329,1244 2364,1244 2400,1244"/>
+                <TextEquiv>
+                    <Unicode>tidos en el Parlamento—conserva¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l12" custom="readingOrder {index:11;}">
+                <Coords points="1687,1313 2417,1307 2417,1269 1687,1262"/>
+                <Baseline points="1700,1301 1735,1301 1770,1301 1805,1301 1840,1301 1875,1301 1910,1301 1946,1301 1981,1301 2016,1301 2051,1301 2086,1301 2121,1301 2156,1301 2192,1301 2227,1301 2262,1301 2297,1301 2332,1299 2367,1299 2403,1299"/>
+                <TextEquiv>
+                    <Unicode>dores y agrarios—apoyan en con¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l13" custom="readingOrder {index:12;}">
+                <Coords points="1686,1373 2426,1366 2425,1325 2372,1317 2065,1336 1686,1317"/>
+                <Baseline points="1700,1359 1735,1359 1771,1359 1806,1358 1842,1358 1878,1358 1913,1358 1949,1358 1984,1358 2020,1358 2056,1358 2091,1358 2127,1358 2162,1358 2198,1358 2234,1358 2269,1358 2305,1358 2340,1356 2376,1356 2412,1356"/>
+                <TextEquiv>
+                    <Unicode>junto la política aislacionista del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l14" custom="readingOrder {index:13;}">
+                <Coords points="1689,1432 2395,1429 2423,1419 2423,1375 2090,1393 1960,1368 1877,1391 1688,1379"/>
+                <Baseline points="1700,1415 1735,1415 1771,1413 1806,1413 1842,1413 1877,1413 1913,1412 1948,1412 1984,1412 2019,1413 2055,1413 2091,1413 2126,1413 2162,1413 2197,1413 2233,1413 2268,1413 2304,1413 2339,1413 2375,1413 2411,1413"/>
+                <TextEquiv>
+                    <Unicode>gobierno secialista sus portavoces</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l15" custom="readingOrder {index:14;}">
+                <Coords points="1678,1478 2423,1473 2423,1440 2342,1429 2161,1449 1678,1430"/>
+                <Baseline points="1692,1467 1727,1467 1763,1467 1799,1467 1835,1467 1871,1468 1907,1469 1942,1469 1978,1469 2014,1469 2050,1469 2086,1469 2122,1469 2158,1469 2193,1469 2229,1469 2265,1469 2301,1469 2337,1469 2373,1469 2409,1467"/>
+                <TextEquiv>
+                    <Unicode>han subrayado, en los debates ha¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l16" custom="readingOrder {index:15;}">
+                <Coords points="1686,1534 2425,1533 2425,1490 2245,1482 2123,1504 1866,1484 1820,1502 1686,1481"/>
+                <Baseline points="1697,1524 1732,1524 1768,1524 1804,1524 1840,1524 1875,1524 1911,1524 1947,1524 1983,1524 2018,1524 2054,1524 2090,1524 2126,1526 2161,1526 2197,1526 2233,1526 2269,1525 2304,1524 2340,1524 2376,1524 2412,1523"/>
+                <TextEquiv>
+                    <Unicode>bidos sobre política exterior, que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l17" custom="readingOrder {index:16;} place {offset:0; length:6;}">
+                <Coords points="1676,1592 2421,1592 2421,1552 2312,1539 1676,1541"/>
+                <Baseline points="1688,1580 1724,1580 1760,1580 1796,1580 1832,1581 1868,1581 1904,1581 1940,1581 1976,1581 2012,1581 2048,1581 2084,1580 2120,1580 2156,1580 2192,1580 2228,1580 2264,1581 2300,1581 2336,1581 2372,1581 2409,1581"/>
+                <TextEquiv>
+                    <Unicode>Suecia no debe quedar aislada de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l18" custom="readingOrder {index:17;}">
+                <Coords points="1680,1644 1706,1655 1723,1645 1759,1653 1772,1645 1825,1645 1906,1654 1907,1613 1851,1600 1820,1610 1803,1597 1762,1599 1754,1607 1716,1596 1681,1598"/>
+                <Baseline points="1692,1634 1717,1635 1742,1635 1768,1635 1793,1634 1818,1634 1844,1635 1869,1636 1895,1638"/>
+                <TextEquiv>
+                    <Unicode>Occidente.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l19" custom="readingOrder {index:18;}">
+                <Coords points="1727,1704 2420,1696 2420,1658 1727,1653"/>
+                <Baseline points="1739,1691 1772,1692 1805,1692 1839,1694 1872,1694 1906,1694 1939,1694 1973,1694 2006,1694 2040,1692 2073,1692 2106,1692 2140,1692 2173,1692 2207,1692 2240,1692 2274,1692 2307,1692 2341,1692 2374,1694 2408,1695"/>
+                <TextEquiv>
+                    <Unicode>Y la opinión concreta es ésta:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l20" custom="readingOrder {index:19;} place {offset:1; length:6;}">
+                <Coords points="1686,1744 1976,1765 2418,1750 2418,1715 2383,1704 2095,1720 1686,1704"/>
+                <Baseline points="1700,1736 1735,1740 1770,1742 1805,1745 1841,1746 1876,1748 1911,1749 1946,1749 1982,1749 2017,1749 2052,1749 2087,1749 2123,1749 2158,1749 2193,1748 2228,1748 2264,1748 2299,1748 2334,1746 2369,1748 2405,1748"/>
+                <TextEquiv>
+                    <Unicode>“Suecia, no quiere aliarse forma!¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l21" custom="readingOrder {index:20;}">
+                <Coords points="1686,1815 2312,1823 2426,1801 2426,1775 2207,1760 1686,1767"/>
+                <Baseline points="1698,1803 1733,1803 1769,1802 1805,1802 1840,1802 1876,1802 1912,1802 1947,1802 1983,1802 2019,1803 2055,1803 2090,1803 2126,1803 2162,1803 2197,1803 2233,1803 2269,1803 2304,1803 2340,1802 2376,1802 2412,1802"/>
+                <TextEquiv>
+                    <Unicode>mente con Occidente, quiere y ne¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l22" custom="readingOrder {index:21;}">
+                <Coords points="1677,1865 2412,1863 2412,1830 2280,1817 1822,1840 1769,1817 1677,1824"/>
+                <Baseline points="1691,1857 1726,1859 1761,1859 1797,1859 1832,1859 1868,1860 1903,1860 1938,1860 1974,1860 2009,1860 2045,1860 2080,1860 2115,1860 2151,1860 2186,1860 2222,1860 2257,1860 2292,1859 2328,1859 2363,1860 2399,1860"/>
+                <TextEquiv>
+                    <Unicode>cesita armamento angloncrteame¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l23" custom="readingOrder {index:22;} organization {offset:24; length:7;}">
+                <Coords points="1690,1929 2366,1931 2417,1926 2417,1873 1690,1878"/>
+                <Baseline points="1704,1913 1740,1914 1777,1914 1814,1916 1851,1916 1887,1916 1924,1916 1961,1916 1998,1916 2035,1916 2071,1916 2108,1916 2145,1916 2182,1916 2219,1914 2255,1914 2292,1914 2329,1914 2366,1916 2403,1916"/>
+                <TextEquiv>
+                    <Unicode>ricano para su defensa. REUTERS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ticulares para expresar sus opinic¬nes y puntos de vista La reaccióndel Partido Comunista no se hahecho esperar y se ha expresadoen una serie de artículos que sekan publicado en el periódico "NyDag", en el que describe a estosgenerales como "propagandistasmilitares de una tercera guerramundial”. Aunque los demás par¬tidos en el Parlamento—conserva¬dores y agrarios—apoyan en con¬junto la política aislacionista delgobierno secialista sus portavoceshan subrayado, en los debates ha¬bidos sobre política exterior, queSuecia no debe quedar aislada deOccidente.Y la opinión concreta es ésta:“Suecia, no quiere aliarse forma!¬mente con Occidente, quiere y ne¬cesita armamento angloncrteame¬ricano para su defensa. REUTERS</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:6;} structure {type:heading;}">
+            <Coords points="1194,2049 2095,2049 2095,2141 1194,2141"/>
+            <TextLine id="l_3" custom="readingOrder {index:0;}">
+                <Coords points="1200,2116 2084,2111 2084,2081 1200,2086"/>
+                <Baseline points="1200,2116 2084,2111"/>
+                <TextEquiv>
+                    <Unicode>ACTUALIDAD INTERNACIONAL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:7;}">
+            <Coords points="412,287 785,287 785,291 412,291"/>
+        </SeparatorRegion>
+        <ImageRegion id="r_4" custom="readingOrder {index:8;} structure {type:photograph;}">
+            <Coords points="874,2223 2357,2223 2357,3156 874,3156"/>
+        </ImageRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:9;}">
+            <Coords points="2252,288 2375,288 2375,293 2252,293"/>
+        </SeparatorRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:10;} structure {type:caption;}">
+            <Coords points="830,3185 2370,3185 2370,3289 830,3289"/>
+            <TextLine id="l_4" custom="readingOrder {index:0;}">
+                <Coords points="882,3214 2354,3220 2354,3190 882,3184"/>
+                <Baseline points="882,3214 2354,3220"/>
+                <TextEquiv>
+                    <Unicode>Obra hidroeléctrica paralizada.-Vista del puente de La Sonata, en el embalse</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:1;}">
+                <Coords points="834,3252 2218,3255 2218,3225 834,3222"/>
+                <Baseline points="834,3252 2231,3257"/>
+                <TextEquiv>
+                    <Unicode>del Alberehe, casivacío, por lo que hubo restricciones eléctricas en Madrid.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:11;}">
+            <Coords points="2287,1991 2395,1991 2395,1994 2287,1994"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:12;}">
+            <Coords points="2123,2220 2283,2220 2283,2224 2123,2224"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:13;}">
+            <Coords points="1167,3151 1340,3151 1340,3155 1167,3155"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:14;}">
+            <Coords points="1298,3039 1302,3039 1302,3121 1298,3121"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:15;}">
+            <Coords points="2206,1990 2340,1990 2340,1994 2206,1994"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:16;}">
+            <Coords points="1047,2769 1136,2769 1136,2772 1047,2772"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>
