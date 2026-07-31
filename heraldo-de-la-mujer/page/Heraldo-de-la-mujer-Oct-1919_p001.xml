@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-10-25T14:29:47.819425</Created>
+        <LastChange>2025-10-28T16:26:00.527+01:00</LastChange>
+        <TranskribusMetadata docId="11369101" pageId="104387551" pageNr="1" tsid="259151943" status="FINAL" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=GNKWSILIGWZCLSDDWZCICATZ" xmlUrl="https://files.transkribus.eu/Get?id=MNYYIJYCJAZWJLQXELJHLDYF" imageId="87597418"/>
+    </Metadata>
+    <Page imageFilename="0001_p001.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1764152754995" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="tr_1761395399"/>
+                <RegionRefIndexed index="2" regionRef="r_2"/>
+                <RegionRefIndexed index="4" regionRef="tr_1761395397"/>
+                <RegionRefIndexed index="5" regionRef="tr_1761395396"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="619,746 1293,746 1293,1147 619,1147"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="691,1069 896,880 876,858 671,1047"/>
+                <Baseline points="691,1069 896,880"/>
+                <TextEquiv>
+                    <Unicode>Heraldo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:1;}">
+                <Coords points="883,1098 1228,772 1207,750 862,1076"/>
+                <Baseline points="883,1098 1228,772"/>
+                <TextEquiv>
+                    <Unicode>de la Mujer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="tr_1761395399" custom="readingOrder {index:1;}">
+            <Coords points="1522,791 1789,791 1789,913 1522,913"/>
+            <TextLine id="l_2" custom="readingOrder {index:0;}">
+                <Coords points="1587,876 1753,870 1752,840 1586,846"/>
+                <Baseline points="1587,876 1753,870"/>
+                <TextEquiv>
+                    <Unicode>1919</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:2;}">
+            <Coords points="1420,1000 1818,1000 1818,1085 1420,1085"/>
+            <TextLine id="l_3" custom="readingOrder {index:0;}">
+                <Coords points="1469,1049 1792,1049 1792,1019 1469,1019"/>
+                <Baseline points="1469,1049 1792,1049"/>
+                <TextEquiv>
+                    <Unicode>Año II. No. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r_1" custom="readingOrder {index:3;}">
+            <Coords points="736,1277 1603,1277 1603,2473 736,2473"/>
+        </ImageRegion>
+        <TextRegion id="tr_1761395397" custom="readingOrder {index:4;}">
+            <Coords points="724,2480 1645,2480 1712,2806 730,2799"/>
+            <TextLine id="l_4" custom="readingOrder {index:0;}">
+                <Coords points="925,2525 1437,2538 1438,2508 926,2495"/>
+                <Baseline points="925,2525 1437,2538"/>
+                <TextEquiv>
+                    <Unicode>Trina Padilla de Sanz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:1;}">
+                <Coords points="1049,2593 1303,2593 1303,2563 1049,2563"/>
+                <Baseline points="1049,2593 1303,2593"/>
+                <TextEquiv>
+                    <Unicode>(La Hija del Caribe)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_6" custom="readingOrder {index:2;}">
+                <Coords points="893,2649 1447,2645 1447,2615 893,2619"/>
+                <Baseline points="893,2649 1447,2645"/>
+                <TextEquiv>
+                    <Unicode>Notable Poetisa Puertorriqueña</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_7" custom="readingOrder {index:3;}">
+                <Coords points="720,2701 1613,2707 1613,2677 720,2671"/>
+                <Baseline points="720,2701 1613,2707"/>
+                <TextEquiv>
+                    <Unicode>Representante en Arecibo de "Heraldo de la Mujer"</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_9" custom="readingOrder {index:4;}">
+                <Coords points="1398,2793 1698,2797 1698,2767 1398,2763"/>
+                <Baseline points="1398,2793 1698,2797"/>
+                <TextEquiv>
+                    <Unicode>Tip. EL COMPAS.--Cristo No. 6.</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1761395396" custom="readingOrder {index:5;}">
+            <Coords points="992,2994 1480,2994 1480,3077 992,3077"/>
+            <TextLine id="l_8" custom="readingOrder {index:0;}">
+                <Coords points="1046,3036 1430,3053 1431,3023 1047,3006"/>
+                <Baseline points="1046,3036 1430,3053"/>
+                <TextEquiv>
+                    <Unicode>Ayuntamiento de Madrid</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>
