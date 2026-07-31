@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-10-15T18:37:29.398+02:00</Created>
+        <LastChange>2025-10-28T18:20:19.031+01:00</LastChange>
+        <TranskribusMetadata docId="11368965" pageId="104387156" pageNr="11" tsid="259177292" status="FINAL" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=PDQAXGCNLAQSWUPFFQGSAGZI" xmlUrl="https://files.transkribus.eu/Get?id=JLWBVIKIMSPBSJOYHICUVAMZ" imageId="87597157"/>
+    </Metadata>
+    <Page imageFilename="0011_p011.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1764152599512" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="2" regionRef="r_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation type="link" custom="relationName {value:Article;}">
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r_1"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="825,81 1746,81 1746,267 825,267"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="897,181 1755,191 1755,161 897,151"/>
+                <Baseline points="897,181 1755,191"/>
+                <TextEquiv>
+                    <Unicode>-FEMINA-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r_2" custom="readingOrder {index:1;}">
+            <Coords points="343,334 2294,334 2294,3191 343,3191"/>
+        </ImageRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:2;}">
+            <Coords points="906,3186 1655,3186 1655,3310 906,3310"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;} place {offset:0; length:13;wikiData:Q1902349;}">
+                <Coords points="987,3248 1622,3239 1622,3209 987,3218"/>
+                <Baseline points="987,3248 1622,3239"/>
+                <TextEquiv>
+                    <Unicode>Salto de Baní, R. D. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

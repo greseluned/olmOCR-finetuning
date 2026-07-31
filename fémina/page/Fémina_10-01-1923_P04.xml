@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-10-15T18:37:28.739+02:00</Created>
+        <LastChange>2025-10-28T18:18:41.989+01:00</LastChange>
+        <TranskribusMetadata docId="11368965" pageId="104387398" pageNr="4" tsid="259177184" status="FINAL" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=FSVWOLGHYERMVNJKMGPTHNHY" xmlUrl="https://files.transkribus.eu/Get?id=KOOXOSQXDCQSRAADRCZBUPLG" imageId="87597151"/>
+    </Metadata>
+    <Page imageFilename="0004_p004.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1764152599287" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+                <RegionRefIndexed index="3" regionRef="r_3"/>
+                <RegionRefIndexed index="4" regionRef="r_4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation type="link" custom="relationName {value:Article;}">
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_3"/>
+                <RegionRef regionRef="l_3"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r_1" custom="readingOrder {index:0;}">
+            <Coords points="87,178 421,178 421,295 87,295"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="134,225 386,243 388,213 136,195"/>
+                <Baseline points="134,225 386,243"/>
+                <TextEquiv>
+                    <Unicode>Fémina</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;}">
+            <Coords points="1943,160 2186,160 2186,269 1943,269"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="1995,221 2168,212 2166,182 1993,191"/>
+                <Baseline points="1995,221 2168,212"/>
+                <TextEquiv>
+                    <Unicode>Página 4</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r" custom="readingOrder {index:2;}">
+            <Coords points="247,356 2094,356 2094,2862 247,2862"/>
+        </ImageRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:3;}">
+            <Coords points="737,2875 1656,2875 1656,2983 737,2983"/>
+            <TextLine id="l_2" custom="readingOrder {index:0;}">
+                <Coords points="759,2918 1609,2927 1609,2897 759,2888"/>
+                <Baseline points="759,2918 1609,2927"/>
+                <TextEquiv>
+                    <Unicode>El Incendio de Persépolis.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:4;}">
+            <Coords points="165,2905 676,2905 676,3009 165,3009"/>
+            <TextLine id="l_3" custom="readingOrder {index:0;}">
+                <Coords points="195,2970 590,2979 591,2949 196,2940"/>
+                <Baseline points="195,2970 590,2979"/>
+                <TextEquiv>
+                    <Unicode>Cuadro de G. Rochegrose</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r_5" custom="readingOrder {index:5;}">
+            <Coords points="113,3035 2268,3035 2268,3343 113,3343"/>
+        </ImageRegion>
+    </Page>
+</PcGts>

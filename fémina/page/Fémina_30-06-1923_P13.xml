@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.43.0:model_id=567049:lm=provided:date=13_05_2026_10:39</Creator>
+        <Created>2025-10-15T18:37:53.031+02:00</Created>
+        <LastChange>2026-05-25T20:48:29.087+02:00</LastChange>
+        <TranskribusMetadata docId="11368972" pageId="104387492" pageNr="13" tsid="288911389" status="IN_PROGRESS" userId="500001" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=OAGPKSEJKOOIIKSVXKXFQKAR" xmlUrl="https://files.transkribus.eu/Get?id=CNLBKEMEJCAVKUVWHCIXJWPJ" imageId="87597141"/>
+    </Metadata>
+    <Page imageFilename="0013_p013.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1780147461475" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+                <RegionRefIndexed index="3" regionRef="tr_6"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r_1" custom="readingOrder {index:0;}">
+            <Coords points="129,27 1034,27 1034,209 129,209"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="160,160 999,147 999,117 160,130"/>
+                <Baseline points="160,160 999,147"/>
+                <TextEquiv>
+                    <Unicode>FEMINA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;}">
+            <Coords points="1381,53 2318,53 2318,191 1381,191"/>
+            <TextLine id="tr_6_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1409,123 1618,93 2245,90 2245,60 2119,55 1618,63 1409,93"/>
+                <Baseline points="1409,113 1450,105 1492,96 1534,89 1576,86 1618,83 1659,83 1701,80 1743,82 1785,83 1827,85 1868,86 1910,86 1952,85 1994,82 2036,80 2077,78 2119,75 2161,80 2203,80 2245,80"/>
+                <TextEquiv>
+                    <Unicode>Archivo General de la Nación</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_6_tl_3" custom="readingOrder {index:1;}">
+                <Coords points="1737,174 1914,171 2042,153 2042,113 1914,131 1737,134"/>
+                <Baseline points="1737,161 1762,161 1787,161 1813,161 1838,161 1864,161 1889,159 1914,158 1940,156 1965,153 1991,150 2016,145 2042,140"/>
+                <TextEquiv>
+                    <Unicode>HEMEROTECA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r" custom="readingOrder {index:2;}">
+            <Coords points="577,1039 1985,1039 1985,3099 577,3099"/>
+        </ImageRegion>
+        <TextRegion orientation="0.0" id="tr_6" custom="readingOrder {index:3;}">
+            <Coords points="728,3157 728,3363 1833,3363 1833,3157"/>
+            <TextLine id="tr_6_tl_21" custom="readingOrder {index:0;}">
+                <Coords points="821,3249 1713,3267 1713,3227 821,3209"/>
+                <Baseline points="821,3236 865,3239 910,3245 954,3245 999,3248 1044,3248 1088,3248 1133,3248 1177,3248 1222,3251 1267,3248 1311,3251 1356,3251 1400,3251 1445,3251 1490,3251 1534,3254 1579,3254 1623,3254 1668,3254 1713,3254"/>
+                <TextEquiv>
+                    <Unicode>Sra. Enriqueta M. de Cruzado</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_6_tl_22" custom="readingOrder {index:1;}">
+                <Coords points="728,3353 1776,3362 1776,3322 1723,3319 728,3313"/>
+                <Baseline points="728,3340 780,3340 832,3341 885,3343 937,3341 990,3343 1042,3343 1094,3340 1147,3340 1199,3340 1252,3342 1304,3343 1356,3343 1409,3344 1461,3346 1514,3346 1566,3346 1618,3346 1671,3346 1723,3346 1776,3349"/>
+                <TextEquiv>
+                    <Unicode>Entusiasta i distinguida colaboradora de nuestra revista.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

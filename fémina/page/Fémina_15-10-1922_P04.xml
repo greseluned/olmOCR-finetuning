@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-10-15T18:37:06.408+02:00</Created>
+        <LastChange>2025-10-28T15:54:11.772+01:00</LastChange>
+        <TranskribusMetadata docId="11368964" pageId="104387259" pageNr="4" tsid="259143349" status="FINAL" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=JVBTIZNSPEQOSNSWLLAYEDBU" xmlUrl="https://files.transkribus.eu/Get?id=TQHFUSKHOQRKRIUIVKAZFGET" imageId="87597019"/>
+    </Metadata>
+    <Page imageFilename="0004_p004.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1764152511074" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_1"/>
+                <RegionRefIndexed index="3" regionRef="r_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="179,118 498,118 498,183 179,183"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="204,140 452,151 453,121 205,110"/>
+                <Baseline points="204,140 452,151"/>
+                <TextEquiv>
+                    <Unicode>Fémina</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:1;}">
+            <Coords points="2007,115 2265,115 2265,190 2007,190"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="2046,136 2233,147 2235,117 2048,106"/>
+                <Baseline points="2046,136 2233,147"/>
+                <TextEquiv>
+                    <Unicode>Página 4</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r_3" custom="readingOrder {index:2;}">
+            <Coords points="229,419 2419,419 2419,2799 229,2799"/>
+        </ImageRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:3;}">
+            <Coords points="294,2856 2157,2856 2157,3139 294,3139"/>
+            <TextLine id="l_2" custom="readingOrder {index:0;}">
+                <Coords points="602,2910 1803,2942 1804,2912 603,2880"/>
+                <Baseline points="602,2910 1803,2942"/>
+                <TextEquiv>
+                    <Unicode>SRTA. MERCEDES A. HEUREAUX</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:1;}">
+                <Coords points="839,2985 1552,2989 1552,2959 839,2955"/>
+                <Baseline points="839,2985 1552,2989"/>
+                <TextEquiv>
+                    <Unicode>DOCTORA EN MEDICINA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_4" custom="readingOrder {index:2;}">
+                <Coords points="409,3068 2003,3075 2003,3045 409,3038"/>
+                <Baseline points="409,3068 2003,3075"/>
+                <TextEquiv>
+                    <Unicode>GRADUADA EN LA UNIVERSIDAD CENTRAL DE STO. DOMINGO.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

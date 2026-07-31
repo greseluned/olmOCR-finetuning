@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-10-15T18:36:37.198+02:00</Created>
+        <LastChange>2025-10-23T15:51:55.823+02:00</LastChange>
+        <TranskribusMetadata docId="11368999" pageId="104387029" pageNr="8" tsid="258719619" status="GT" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=IVABQWSMJDDMSDNQZXTVLOPF" xmlUrl="https://files.transkribus.eu/Get?id=PTTNBGVOSURHPLVJBYDHTLDS" imageId="87596833"/>
+    </Metadata>
+    <Page imageFilename="0008_p008.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1764149874458" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_5"/>
+                <RegionRefIndexed index="1" regionRef="r_4"/>
+                <RegionRefIndexed index="3" regionRef="r_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation type="link" custom="relationName {value:Article;}">
+                <RegionRef/>
+                <RegionRef/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r_5" custom="readingOrder {index:0;} structure {type:header;}">
+            <Coords points="1273,139 199,139 199,26 1273,26"/>
+            <TextLine id="l_3" custom="readingOrder {index:0;}">
+                <Coords points="292,95 333,91 389,91 446,91 490,91 510,103 525,77 498,62 446,61 389,61 332,61 289,65"/>
+                <Baseline points="292,95 333,91 389,91 446,91 490,91 510,103"/>
+                <TextEquiv>
+                    <Unicode>Fémina</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:1;} structure {type:page-number;}">
+            <Coords points="1273,26 2307,26 2307,139 1273,139"/>
+            <TextLine id="l_4" custom="readingOrder {index:0;}">
+                <Coords points="2093,103 2138,103 2182,103 2226,99 2259,99 2259,69 2225,69 2181,73 2138,73 2093,73"/>
+                <Baseline points="2093,103 2138,103 2182,103 2226,99 2259,99"/>
+                <TextEquiv>
+                    <Unicode>Página 8</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r" custom="readingOrder {index:2;}">
+            <Coords points="349,337 2178,337 2178,2941 349,2941"/>
+        </ImageRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:3;}">
+            <Coords points="849,2976 1661,2976 1661,3018 849,3018"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="866,3010 910,3010 971,3014 1055,3014 1108,3014 1156,3014 1237,3014 1326,3014 1386,3014 1479,3018 1520,3018 1580,3018 1625,3018 1673,3022 1673,3022 1673,2992 1674,2992 1626,2988 1580,2988 1520,2988 1480,2988 1387,2984 1326,2984 1237,2984 1156,2984 1108,2984 1055,2984 972,2984 911,2980 866,2980"/>
+                <Baseline points="866,3010 910,3010 971,3014 1055,3014 1108,3014 1156,3014 1237,3014 1326,3014 1386,3014 1479,3018 1520,3018 1580,3018 1625,3018 1673,3022 1673,3022"/>
+                <TextEquiv>
+                    <Unicode>PAISAJE PUERTOPLATEÑO.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

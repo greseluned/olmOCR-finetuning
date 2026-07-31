@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-10-15T18:37:27.416+02:00</Created>
+        <LastChange>2025-10-28T18:15:57.977+01:00</LastChange>
+        <TranskribusMetadata docId="11368969" pageId="104387344" pageNr="11" tsid="259177067" status="FINAL" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=PVYFLGJVOTBCOSBJPJMTJUKT" xmlUrl="https://files.transkribus.eu/Get?id=VICZHJCTVQBLUVWVBURTIQGH" imageId="87597131"/>
+    </Metadata>
+    <Page imageFilename="0011_p011.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1764152576973" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_2"/>
+                <RegionRefIndexed index="2" regionRef="r_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation type="link" custom="relationName {value:Article;}">
+                <RegionRef regionRef="r_1"/>
+                <RegionRef regionRef="r_3"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r_2" custom="readingOrder {index:0;}">
+            <Coords points="139,252 880,252 880,442 139,442"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="212,386 837,412 838,382 213,356"/>
+                <Baseline points="212,386 837,412"/>
+                <TextEquiv>
+                    <Unicode>Fémina</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r" custom="readingOrder {index:1;}">
+            <Coords points="147,442 915,442 915,2359 147,2359"/>
+        </ImageRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:2;}">
+            <Coords points="182,2381 867,2381 867,2706 182,2706"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="243,2446 685,2446 685,2416 243,2416"/>
+                <Baseline points="243,2446 685,2446"/>
+                <TextEquiv>
+                    <Unicode>Aspecto Interior del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:1;}">
+                <Coords points="377,2545 763,2554 764,2524 378,2515"/>
+                <Baseline points="377,2545 763,2554"/>
+                <TextEquiv>
+                    <Unicode>Alcázar de Don</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:2;} person {offset:0; length:11;wikiData:Q452379;}">
+                <Coords points="577,2654 850,2662 851,2632 578,2624"/>
+                <Baseline points="577,2654 850,2662"/>
+                <TextEquiv>
+                    <Unicode>Diego Colón</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r_1" custom="readingOrder {index:3;}">
+            <Coords points="911,221 2337,221 2337,3109 911,3109"/>
+        </ImageRegion>
+    </Page>
+</PcGts>

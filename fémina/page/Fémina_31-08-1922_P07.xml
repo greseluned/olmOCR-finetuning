@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-10-28T13:28:41.293321</Created>
+        <LastChange>2025-10-28T13:57:46.560+01:00</LastChange>
+        <TranskribusMetadata docId="11369019" pageId="104387166" pageNr="7" tsid="259105257" status="FINAL" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=EJGGEUCSQWVBVRNWVAKHLMSL" xmlUrl="https://files.transkribus.eu/Get?id=NSVHFQJIGVANZMPUENJOUZNR" imageId="87596977"/>
+    </Metadata>
+    <Page imageFilename="0007_p007.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1764152423959" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_1"/>
+                <RegionRefIndexed index="4" regionRef="r_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="156,91 356,91 356,147 156,147"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="147,117 334,130 336,100 149,87"/>
+                <Baseline points="147,117 334,130"/>
+                <TextEquiv>
+                    <Unicode>Página 7</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:1;}">
+            <Coords points="1917,87 2190,87 2190,139 1917,139"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="1921,113 2164,121 2165,91 1922,83"/>
+                <Baseline points="1921,113 2164,121"/>
+                <TextEquiv>
+                    <Unicode>Fémina</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r_3" custom="readingOrder {index:2;}">
+            <Coords points="252,221 2090,221 2090,1561 252,1561"/>
+        </ImageRegion>
+        <ImageRegion id="r_4" custom="readingOrder {index:3;}">
+            <Coords points="252,1565 2107,1565 2107,2992 252,2992"/>
+        </ImageRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:4;}">
+            <Coords points="282,3035 2090,3035 2090,3139 282,3139"/>
+            <TextLine id="l_2" custom="readingOrder {index:0;}">
+                <Coords points="291,3057 2073,3048 2073,3018 291,3027"/>
+                <Baseline points="291,3057 2073,3048"/>
+                <TextEquiv>
+                    <Unicode>OTRAS DOS VISTAS DE LA LLEGADA A STO. DOMINGO DEL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:1;}">
+                <Coords points="650,3096 1726,3092 1726,3062 650,3066"/>
+                <Baseline points="650,3096 1726,3092"/>
+                <TextEquiv>
+                    <Unicode>DELEGADO DE SU SANTIDAD PIO XI.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

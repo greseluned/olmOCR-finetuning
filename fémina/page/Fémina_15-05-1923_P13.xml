@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-10-15T18:37:38.624+02:00</Created>
+        <LastChange>2025-10-28T18:31:21.852+01:00</LastChange>
+        <TranskribusMetadata docId="11369023" pageId="104387313" pageNr="13" tsid="259178189" status="FINAL" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=YFDYLPFNMQYWBYGMMUCOFRPX" xmlUrl="https://files.transkribus.eu/Get?id=NSGYYHOTIHZKGMNZXQLCDFJX" imageId="87597083"/>
+    </Metadata>
+    <Page imageFilename="0013_p013.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1764152640092" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="2" regionRef="r_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation type="link" custom="relationName {value:Article;}">
+                <RegionRef regionRef="r_1"/>
+                <RegionRef regionRef="l_1"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="986,300 1533,300 1533,449 986,449"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="1037,394 1510,394 1510,364 1037,364"/>
+                <Baseline points="1037,394 1510,394"/>
+                <TextEquiv>
+                    <Unicode>FEMINA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r_1" custom="readingOrder {index:1;}">
+            <Coords points="430,453 2089,453 2089,2842 430,2842"/>
+        </ImageRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:2;}">
+            <Coords points="552,2862 2003,2862 2003,3028 552,3028"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;} person {offset:5; length:36;firstname:Luisa; lastname:Ozema\u0020Pellerano;}">
+                <Coords points="611,2890 1975,2901 1975,2871 611,2860"/>
+                <Baseline points="611,2890 1975,2901"/>
+                <TextEquiv>
+                    <Unicode>Sra. Doña Luisa O. Pellerano de Henríquez</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:1;} organization {offset:30; length:37;}">
+                <Coords points="757,2980 1829,2976 1829,2946 757,2950"/>
+                <Baseline points="757,2980 1829,2976"/>
+                <TextEquiv>
+                    <Unicode>Maestra Normal. Directora del Instituto de Señoritas "Salomé Ureña"</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

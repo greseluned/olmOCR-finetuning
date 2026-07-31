@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-10-15T18:37:27.030+02:00</Created>
+        <LastChange>2025-10-28T18:14:04.509+01:00</LastChange>
+        <TranskribusMetadata docId="11368969" pageId="104387377" pageNr="8" tsid="259176972" status="FINAL" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=HFCQEGTSDGCXILQCCULHTQGM" xmlUrl="https://files.transkribus.eu/Get?id=KNYXNWWVEIXSTRUHRMFZSIXT" imageId="87597049"/>
+    </Metadata>
+    <Page imageFilename="0008_p008.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1764152576690" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation type="link" custom="relationName {value:Article;}">
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_1"/>
+            </Relation>
+        </Relations>
+        <ImageRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="0,343 2424,343 2424,2940 0,2940"/>
+        </ImageRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:1;}">
+            <Coords points="1856,2979 2155,2979 2155,3170 1856,3170"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="1925,3001 2129,3009 2130,2979 1926,2971"/>
+                <Baseline points="1925,3001 2129,3009"/>
+                <TextEquiv>
+                    <Unicode>CAMINITO </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:1;}">
+                <Coords points="1912,3057 2008,3057 2008,3027 1912,3027"/>
+                <Baseline points="1912,3057 2008,3057"/>
+                <TextEquiv>
+                    <Unicode>DEL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:2;}">
+                <Coords points="1908,3113 2107,3118 2108,3088 1909,3083"/>
+                <Baseline points="1908,3113 2107,3118"/>
+                <TextEquiv>
+                    <Unicode>PUEBLO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-10-28T13:28:41.293321</Created>
+        <LastChange>2025-10-28T14:00:17.887+01:00</LastChange>
+        <TranskribusMetadata docId="11369019" pageId="104387171" pageNr="11" tsid="259105519" status="FINAL" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=CDURACTDHDGHOKWFAUCXURKC" xmlUrl="https://files.transkribus.eu/Get?id=YIFATLHNDJOFENCTTIATVCVS" imageId="87596981"/>
+    </Metadata>
+    <Page imageFilename="0011_p011.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1764152424221" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1761654535"/>
+                <RegionRefIndexed index="2" regionRef="tr_1761654538"/>
+                <RegionRefIndexed index="3" regionRef="r_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="tr_1761654535" custom="readingOrder {index:0;}">
+            <Coords points="607,358 2139,358 2139,609 607,609"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="882,530 1792,530 1792,500 882,500"/>
+                <Baseline points="882,530 1792,530"/>
+                <TextEquiv>
+                    <Unicode>FÉMINA</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <ImageRegion id="r" custom="readingOrder {index:1;}">
+            <Coords points="629,673 2034,673 2034,2499 629,2499"/>
+        </ImageRegion>
+        <TextRegion id="tr_1761654538" custom="readingOrder {index:2;}">
+            <Coords points="626,2543 1944,2543 1944,2637 626,2637"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="1075,2573 1595,2587 1596,2557 1076,2543"/>
+                <Baseline points="1075,2573 1595,2587"/>
+                <TextEquiv>
+                    <Unicode>EVANGELINA ADAMS</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:3;}">
+            <Coords points="2080,2633 2080,2957 612,2957 612,2633"/>
+            <TextLine id="l_2" custom="readingOrder {index:0;}">
+                <Coords points="738,2684 2000,2695 2000,2665 738,2654"/>
+                <Baseline points="738,2684 2000,2695"/>
+                <TextEquiv>
+                    <Unicode>inteligente y aplaudida primera actriz de la Compañía. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:1;}">
+                <Coords points="695,2749 1975,2756 1975,2726 695,2719"/>
+                <Baseline points="695,2749 1975,2756"/>
+                <TextEquiv>
+                    <Unicode>Adams-Nieva, que fué ruidosamente ovacionada la noche</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_4" custom="readingOrder {index:2;}">
+                <Coords points="745,2810 1935,2820 1935,2790 745,2780"/>
+                <Baseline points="745,2810 1935,2820"/>
+                <TextEquiv>
+                    <Unicode>que subió a escena "Evangelina", parte segunda del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:3;}">
+                <Coords points="950,2871 1709,2867 1709,2837 950,2841"/>
+                <Baseline points="950,2871 1709,2867"/>
+                <TextEquiv>
+                    <Unicode>monumental drama "La Mujer X".</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
