@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-04T10:40:08.312+02:00</Created>
+        <LastChange>2026-04-21T13:19:12.845+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="520120" pageId="22151602" pageNr="11" tsid="284548792" status="DONE" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=XUCQUKYJHQXYMZZVYRNFELPY" xmlUrl="https://files.transkribus.eu/Get?id=QKYPUYFKAMDGZPGBBFOENTBR" imageId="17245944"/>
+    </Metadata>
+    <Page imageFilename="0011_p011.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="222,316 2259,316 2259,3193 222,3193"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1776807543406" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+                <RegionRefIndexed index="2" regionRef="r_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_3"/>
+                <RegionRef regionRef="r_1"/>
+            </Relation>
+        </Relations>
+        <ImageRegion id="r" custom="readingOrder {index:0;} structure {type:photograph;}">
+            <Coords points="206,285 2269,285 2269,1374 206,1374"/>
+        </ImageRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;} structure {type:caption;}">
+            <Coords points="530,1563 530,1394 1996,1394 1996,1563"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="611,1425 1994,1437 1931,1395 611,1398"/>
+                <Baseline points="620,1422 688,1423 756,1424 824,1424 893,1425 961,1425 1029,1425 1097,1425 1166,1425 1234,1425 1302,1425 1370,1425 1439,1425 1507,1425 1575,1425 1643,1425 1712,1425 1780,1427 1848,1427 1916,1427 1985,1428"/>
+                <TextEquiv>
+                    <Unicode>Foto superior: Grupo general de la Asociación de Enfermeras que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:1;}">
+                <Coords points="531,1475 1896,1484 1992,1443 531,1446"/>
+                <Baseline points="539,1467 611,1467 683,1466 755,1466 827,1466 900,1466 972,1466 1044,1466 1116,1466 1188,1466 1261,1466 1333,1466 1405,1466 1477,1466 1549,1467 1622,1467 1694,1467 1766,1467 1838,1469 1910,1469 1983,1469"/>
+                <TextEquiv>
+                    <Unicode>en su residencia dieron una despedida en honor de la Srta. C. Tan, que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:2;}">
+                <Coords points="540,1515 1987,1515 1936,1474 540,1474"/>
+                <Baseline points="549,1508 620,1508 691,1508 763,1508 834,1508 906,1508 977,1508 1048,1508 1120,1508 1191,1508 1263,1508 1334,1508 1405,1508 1477,1508 1548,1508 1620,1508 1691,1508 1762,1508 1834,1508 1905,1508 1977,1508"/>
+                <TextEquiv>
+                    <Unicode>ha marchado a los Estados Unidos pensionada por la Fundación Rocke¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:3;}">
+                <Coords points="541,1564 558,1564 566,1557 574,1557 583,1565 619,1565 641,1557 646,1563 671,1564 671,1526 625,1523 611,1514 584,1517 577,1522 555,1515 540,1517"/>
+                <Baseline points="551,1553 578,1550 606,1550 634,1550 662,1550"/>
+                <TextEquiv>
+                    <Unicode>feller.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:2;} structure {type:caption;}">
+            <Coords points="1996,1563 1996,1736 530,1736 530,1563"/>
+            <TextLine id="l_4" custom="readingOrder {index:0;}">
+                <Coords points="623,1605 1987,1603 1987,1565 1909,1561 623,1563"/>
+                <Baseline points="632,1596 699,1595 766,1595 833,1595 901,1593 968,1593 1035,1593 1102,1593 1170,1595 1237,1595 1304,1595 1371,1595 1439,1595 1506,1595 1573,1596 1640,1596 1708,1596 1775,1596 1842,1596 1909,1595 1977,1595"/>
+                <TextEquiv>
+                    <Unicode>Foto inferior: De la demostración dada en el edificio del Buró de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:1;}">
+                <Coords points="539,1648 1986,1652 1930,1601 539,1602"/>
+                <Baseline points="548,1638 619,1638 690,1638 762,1637 833,1637 905,1637 976,1637 1048,1637 1119,1637 1191,1637 1262,1637 1333,1637 1405,1638 1476,1638 1548,1638 1619,1638 1691,1638 1762,1638 1834,1638 1905,1638 1977,1638"/>
+                <TextEquiv>
+                    <Unicode>Ciencias sobre frutas en conserva. En la fotografía se ven al Senador</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_6" custom="readingOrder {index:2;}">
+                <Coords points="539,1693 1982,1683 1878,1643 539,1648"/>
+                <Baseline points="548,1680 619,1680 690,1680 761,1679 833,1679 904,1679 975,1679 1047,1679 1118,1679 1189,1679 1261,1680 1332,1680 1403,1680 1474,1680 1546,1680 1617,1680 1688,1680 1760,1680 1831,1680 1902,1680 1974,1679"/>
+                <TextEquiv>
+                    <Unicode>Briones y Sra., los Representantes Sr. Vamenta y Sra., Sres. Villanue¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_7" custom="readingOrder {index:3;}">
+                <Coords points="1661,1724 1759,1716 1976,1723 1990,1721 1990,1686 1661,1689"/>
+                <Baseline points="1670,1715 1696,1716 1722,1716 1748,1716 1774,1716 1800,1716 1826,1715 1852,1715 1878,1715 1904,1715 1930,1715 1956,1715 1982,1715"/>
+                <TextEquiv>
+                    <Unicode>Fotos—SUN STUDIO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_8" custom="readingOrder {index:4;}">
+                <Coords points="543,1733 1284,1733 1284,1702 1249,1690 543,1697"/>
+                <Baseline points="552,1724 588,1724 624,1725 660,1725 696,1725 732,1725 768,1725 805,1724 841,1724 877,1724 913,1724 949,1724 985,1724 1021,1724 1058,1722 1094,1722 1130,1722 1166,1722 1202,1722 1238,1722 1275,1722"/>
+                <TextEquiv>
+                    <Unicode>va, Baltazar, Uran, Ibañez y otros.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r_1" custom="readingOrder {index:3;} structure {type:photograph;}">
+            <Coords points="265,1760 2256,1760 2256,3138 265,3138"/>
+        </ImageRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:4;}">
+            <Coords points="224,316 2229,316 2229,345 224,345"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:5;}">
+            <Coords points="224,356 2242,356 2242,376 224,376"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:6;}">
+            <Coords points="1567,421 1759,421 1759,430 1567,430"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:7;}">
+            <Coords points="1489,539 1674,539 1674,544 1489,544"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:8;}">
+            <Coords points="822,676 1041,676 1041,694 822,694"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:9;}">
+            <Coords points="495,1375 2018,1375 2018,1384 495,1384"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:10;}">
+            <Coords points="2025,1476 2248,1476 2248,1482 2025,1482"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:11;}">
+            <Coords points="2023,1700 2252,1700 2252,1707 2023,1707"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:12;}">
+            <Coords points="1313,1774 1431,1774 1431,1778 1313,1778"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:13;}">
+            <Coords points="461,2000 694,2000 694,2020 461,2020"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:14;}">
+            <Coords points="452,2075 890,2075 890,2092 452,2092"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:15;}">
+            <Coords points="1577,2866 1694,2866 1694,2874 1577,2874"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:16;}">
+            <Coords points="1182,3122 2256,3122 2256,3137 1182,3137"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:17;}">
+            <Coords points="251,3131 1182,3131 1182,3143 251,3143"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_21" custom="readingOrder {index:18;}">
+            <Coords points="231,545 258,545 258,879 231,879"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_22" custom="readingOrder {index:19;}">
+            <Coords points="331,687 337,687 337,779 331,779"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_23" custom="readingOrder {index:20;}">
+            <Coords points="394,694 399,694 399,782 394,782"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_24" custom="readingOrder {index:21;}">
+            <Coords points="2176,1712 2190,1712 2190,2067 2176,2067"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_25" custom="readingOrder {index:22;}">
+            <Coords points="1464,2580 1491,2580 1491,2584 1464,2584"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_26" custom="readingOrder {index:23;}">
+            <Coords points="1112,2577 1115,2577 1115,2598 1112,2598"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_27" custom="readingOrder {index:24;}">
+            <Coords points="2165,3062 2169,3062 2169,3107 2165,3107"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-04T10:40:12.842+02:00</Created>
+        <LastChange>2026-04-21T13:38:23.423+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="520120" pageId="22151657" pageNr="17" tsid="284550505" status="DONE" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=VYUYKSPRYYURJVRWVFBQQSMP" xmlUrl="https://files.transkribus.eu/Get?id=GYHLFBNJDMHREJFWMAMDYWYE" imageId="17245999">
+            <Property key="mdSetName" value="myMdSet"/>
+            <Property key="property2"/>
+            <Property key="property1"/>
+        </TranskribusMetadata>
+    </Metadata>
+    <Page imageFilename="0017_p017.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="218,289 2282,289 2282,3223 218,3223"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1776807545595" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r"/>
+                <RegionRefIndexed index="2" regionRef="r_2"/>
+                <RegionRefIndexed index="3" regionRef="r_4_1"/>
+                <RegionRefIndexed index="5" regionRef="r_6_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_4_1"/>
+                <RegionRef regionRef="r_6_1"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r_4_1"/>
+                <RegionRef regionRef="r_6_1"/>
+            </Relation>
+        </Relations>
+        <GraphicRegion id="r_1" custom="readingOrder {index:0;} structure {type:drop-capital;}">
+            <Coords points="218,290 488,290 488,594 218,594"/>
+        </GraphicRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:title;}">
+            <Coords points="500,465 500,322 2282,322 2282,465"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="516,453 2288,438 2225,336 1435,377 1323,305 1013,370 516,355"/>
+                <Baseline points="528,441 615,443 702,443 790,444 877,444 965,444 1052,444 1140,444 1227,444 1315,444 1402,444 1489,444 1577,444 1664,443 1752,443 1839,443 1927,443 2014,444 2102,444 2189,444 2277,446"/>
+                <TextEquiv>
+                    <Unicode>A QUE LAVÓ SU PECADO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:2;} structure {type:credit;}">
+            <Coords points="2282,465 2282,564 500,564 500,465"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="730,570 872,533 949,566 1743,564 1756,479 1518,481 1441,531 1312,531 1273,492 1135,496 1093,465 988,522 730,515"/>
+                <Baseline points="740,552 790,551 840,551 890,549 941,549 991,549 1041,548 1092,548 1142,548 1192,548 1243,549 1293,549 1343,549 1393,549 1444,549 1494,551 1544,551 1595,551 1645,551 1695,551 1746,551"/>
+                <TextEquiv>
+                    <Unicode>por Manuel Bernabé</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:3;} structure {type:story;}">
+            <Coords points="226,721 1219,721 1219,3220 226,3220"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;}">
+                <Coords points="264,768 1223,760 1223,725 1100,716 264,713"/>
+                <Baseline points="276,752 322,753 369,753 416,753 463,755 510,755 556,755 603,755 650,755 697,755 744,755 790,755 837,755 884,753 931,753 978,753 1024,753 1071,753 1118,755 1165,755 1212,755"/>
+                <TextEquiv>
+                    <Unicode>Doña Eulalia penetró en la habitación del en¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l2" custom="readingOrder {index:1;}">
+                <Coords points="221,820 1223,812 1223,781 1148,777 221,770"/>
+                <Baseline points="231,810 280,810 329,810 378,810 427,810 476,810 525,810 574,810 623,810 672,810 721,810 770,810 819,810 868,810 917,810 966,810 1015,810 1064,810 1113,810 1162,810 1212,810"/>
+                <TextEquiv>
+                    <Unicode>fermo, iluminada por mortecina luz de diminu¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l3" custom="readingOrder {index:2;}">
+                <Coords points="225,877 1220,878 1220,838 1159,825 820,849 783,825 225,831"/>
+                <Baseline points="236,866 284,866 333,866 381,864 430,864 479,864 527,864 576,864 625,864 673,864 722,864 771,864 819,864 868,864 917,864 965,864 1014,864 1063,866 1111,866 1160,866 1209,866"/>
+                <TextEquiv>
+                    <Unicode>to quinqué. Preguntó por la salud, cogió ambas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l4" custom="readingOrder {index:3;}">
+                <Coords points="218,932 1216,930 1216,891 1166,882 218,890"/>
+                <Baseline points="230,920 278,920 327,920 376,920 425,920 473,920 522,920 571,920 620,920 668,920 717,920 766,920 815,920 863,920 912,920 961,920 1010,920 1058,920 1107,920 1156,921 1205,921"/>
+                <TextEquiv>
+                    <Unicode>manos del pobre, cuyas entrañas eran devoradas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l5" custom="readingOrder {index:4;}">
+                <Coords points="216,994 1225,990 1225,946 1069,937 216,943"/>
+                <Baseline points="227,978 276,977 325,976 375,975 424,975 473,975 523,975 572,975 621,975 671,975 720,975 769,975 819,977 868,977 917,977 967,977 1016,978 1065,978 1115,978 1164,978 1214,977"/>
+                <TextEquiv>
+                    <Unicode>paulatinamente por una tisis sin piedad, y en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l6" custom="readingOrder {index:5;}">
+                <Coords points="219,1045 1059,1045 1059,1003 219,1006"/>
+                <Baseline points="230,1031 273,1031 316,1031 359,1031 402,1031 445,1031 488,1031 531,1031 574,1031 617,1031 661,1031 704,1031 747,1029 790,1029 833,1029 876,1031 919,1031 962,1031 1005,1031 1049,1032"/>
+                <TextEquiv>
+                    <Unicode>un gesto de, altiva generosidad, ordenó:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l7" custom="readingOrder {index:6;}">
+                <Coords points="301,1099 1222,1099 1222,1053 301,1053"/>
+                <Baseline points="311,1086 356,1086 401,1086 446,1086 491,1086 536,1086 581,1086 626,1086 671,1086 716,1086 761,1086 806,1086 851,1086 896,1086 941,1086 986,1086 1031,1088 1076,1088 1121,1088 1166,1089 1211,1089"/>
+                <TextEquiv>
+                    <Unicode>-Bien; que se vuelva a llamar al médico, que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l8" custom="readingOrder {index:7;}">
+                <Coords points="219,1158 1230,1155 1201,1104 219,1105"/>
+                <Baseline points="230,1140 279,1140 328,1142 378,1142 427,1142 477,1142 526,1142 575,1142 625,1142 674,1142 724,1142 773,1142 822,1142 872,1142 921,1142 971,1142 1020,1142 1069,1142 1119,1143 1168,1143 1218,1143"/>
+                <TextEquiv>
+                    <Unicode>la ciencia agote sus iniciativas y que la caridad</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l9" custom="readingOrder {index:8;}">
+                <Coords points="225,1212 1225,1212 1225,1172 1120,1161 225,1171"/>
+                <Baseline points="237,1196 285,1196 334,1197 383,1197 432,1197 481,1197 530,1197 579,1197 628,1197 677,1197 726,1197 774,1197 823,1197 872,1197 921,1197 970,1197 1019,1197 1068,1197 1117,1199 1166,1199 1215,1199"/>
+                <TextEquiv>
+                    <Unicode>no le abandone, aún a trueque de mis doblones.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l10" custom="readingOrder {index:9;}">
+                <Coords points="218,1265 1064,1270 1064,1241 988,1217 690,1237 664,1217 218,1216"/>
+                <Baseline points="228,1253 269,1253 310,1254 351,1254 393,1254 434,1254 475,1254 516,1254 558,1254 599,1254 640,1254 681,1254 723,1254 764,1254 805,1254 846,1254 888,1254 929,1254 970,1254 1011,1254 1053,1256"/>
+                <TextEquiv>
+                    <Unicode>Corre a mi cuenta la curación total.:.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l11" custom="readingOrder {index:10;}">
+                <Coords points="262,1322 1218,1318 1200,1274 262,1274"/>
+                <Baseline points="272,1310 318,1310 365,1308 412,1308 458,1308 505,1308 552,1308 598,1308 645,1308 692,1308 739,1308 785,1310 832,1310 879,1310 925,1310 972,1310 1019,1310 1065,1310 1112,1310 1159,1310 1206,1310"/>
+                <TextEquiv>
+                    <Unicode>La gente congregada en la casa, que se al¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l12" custom="readingOrder {index:11;}">
+                <Coords points="222,1372 1094,1381 1226,1373 1226,1327 222,1335"/>
+                <Baseline points="233,1364 282,1364 331,1364 380,1364 429,1364 478,1364 527,1364 576,1364 625,1364 674,1364 723,1364 772,1364 821,1365 870,1365 919,1365 968,1365 1017,1365 1066,1365 1115,1365 1164,1364 1214,1364"/>
+                <TextEquiv>
+                    <Unicode>zaba en desamparo entre unos platanares, abrió</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l13" custom="readingOrder {index:12;}">
+                <Coords points="226,1429 1217,1438 1217,1388 1165,1379 397,1405 226,1383"/>
+                <Baseline points="237,1418 285,1418 333,1419 382,1419 430,1419 479,1419 527,1419 576,1419 624,1419 673,1419 721,1418 769,1418 818,1418 866,1418 915,1418 963,1418 1012,1419 1060,1419 1109,1419 1157,1421 1206,1421"/>
+                <TextEquiv>
+                    <Unicode>los ojos, luego de oída la singular advertencia;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l14" custom="readingOrder {index:13;}">
+                <Coords points="223,1488 1225,1479 1225,1448 348,1433 295,1455 223,1433"/>
+                <Baseline points="234,1473 283,1473 332,1473 381,1473 430,1473 479,1473 528,1473 577,1473 626,1473 675,1473 724,1473 773,1473 822,1473 871,1473 920,1473 969,1473 1018,1473 1067,1473 1116,1473 1165,1473 1215,1473"/>
+                <TextEquiv>
+                    <Unicode>las miradas de todos se cruzaron como en un re¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l15" custom="readingOrder {index:14;}">
+                <Coords points="224,1542 1228,1530 1097,1491 841,1512 224,1490"/>
+                <Baseline points="234,1529 283,1529 332,1529 381,1529 430,1529 480,1529 529,1530 578,1530 627,1530 676,1530 726,1530 775,1530 824,1530 873,1530 922,1530 972,1530 1021,1530 1070,1530 1119,1530 1168,1529 1218,1529"/>
+                <TextEquiv>
+                    <Unicode>lámpago de interrogación, y alguien, más au¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l16" custom="readingOrder {index:15;}">
+                <Coords points="218,1596 848,1598 848,1559 815,1548 662,1568 570,1545 309,1572 218,1559"/>
+                <Baseline points="228,1586 258,1586 288,1586 319,1586 349,1586 380,1586 410,1586 441,1586 471,1586 502,1586 532,1586 562,1586 593,1584 623,1584 654,1584 684,1584 715,1584 745,1584 776,1584 806,1586 837,1586"/>
+                <TextEquiv>
+                    <Unicode>daz y comentarista, exclamó:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l17" custom="readingOrder {index:16;}">
+                <Coords points="276,1646 1033,1661 1216,1651 1217,1599 276,1618"/>
+                <Baseline points="287,1638 335,1638 383,1640 432,1640 480,1640 528,1640 577,1641 625,1641 673,1641 722,1641 770,1641 819,1641 867,1641 915,1643 964,1643 1012,1643 1060,1643 1109,1643 1157,1643 1206,1643"/>
+                <TextEquiv>
+                    <Unicode>—Pero, ¿quién es esa dama donosa y peculiar?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l18" custom="readingOrder {index:17;}">
+                <Coords points="263,1706 1217,1717 1217,1678 1161,1664 391,1657 342,1680 264,1658"/>
+                <Baseline points="275,1695 321,1695 368,1695 414,1695 461,1695 507,1695 554,1697 600,1697 647,1697 693,1697 740,1697 787,1697 833,1698 880,1698 926,1698 973,1700 1019,1700 1066,1700 1112,1700 1159,1701 1206,1701"/>
+                <TextEquiv>
+                    <Unicode>Un silencio de enigma acogió la pregunta,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l19" custom="readingOrder {index:18;}">
+                <Coords points="223,1762 1203,1763 1203,1726 1148,1713 223,1725"/>
+                <Baseline points="233,1752 280,1752 328,1752 376,1752 424,1752 472,1752 520,1752 568,1752 616,1752 664,1754 712,1754 759,1754 807,1754 855,1754 903,1754 951,1755 999,1755 1047,1755 1095,1755 1143,1754 1191,1754"/>
+                <TextEquiv>
+                    <Unicode>aunque en el ambiente parecia flotar la omino¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l20" custom="readingOrder {index:19;}">
+                <Coords points="230,1819 287,1810 313,1821 545,1824 569,1815 569,1793 547,1793 512,1769 304,1777 289,1790 262,1777 230,1784"/>
+                <Baseline points="240,1808 266,1809 293,1809 319,1809 346,1808 372,1808 399,1806 425,1806 452,1806 478,1806 505,1807 531,1808 558,1811"/>
+                <TextEquiv>
+                    <Unicode>sa contestación.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l21" custom="readingOrder {index:20;}">
+                <Coords points="272,1865 1215,1876 1189,1826 273,1843"/>
+                <Baseline points="284,1860 330,1862 376,1862 422,1863 468,1863 514,1863 560,1863 606,1863 652,1863 698,1863 744,1863 790,1863 836,1863 882,1863 928,1863 974,1863 1020,1863 1066,1864 1112,1865 1158,1865 1205,1866"/>
+                <TextEquiv>
+                    <Unicode>—Esa dama...—fué la frase inicial percibida</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l22" custom="readingOrder {index:21;}">
+                <Coords points="226,1932 1217,1927 1217,1896 1149,1883 226,1882"/>
+                <Baseline points="236,1919 284,1919 332,1918 381,1917 429,1917 478,1917 526,1917 575,1917 623,1917 672,1917 720,1919 768,1919 817,1919 865,1919 914,1919 962,1920 1011,1920 1059,1920 1108,1920 1156,1920 1205,1919"/>
+                <TextEquiv>
+                    <Unicode>desde un rincón de la estancia, pero que se aho¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l23" custom="readingOrder {index:22;}">
+                <Coords points="229,1998 284,1978 922,1988 922,1948 865,1939 658,1939 640,1957 607,1937 522,1954 229,1945"/>
+                <Baseline points="240,1976 273,1974 307,1974 340,1974 374,1974 408,1974 441,1973 475,1973 508,1973 542,1973 576,1973 609,1973 643,1973 676,1973 710,1973 744,1974 777,1974 811,1974 844,1976 878,1976 912,1976"/>
+                <TextEquiv>
+                    <Unicode>gó en el aire tibio de la noche.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l24" custom="readingOrder {index:23;}">
+                <Coords points="255,2038 1228,2035 1206,2006 953,1994 255,2009"/>
+                <Baseline points="266,2034 313,2034 361,2033 408,2033 456,2033 503,2033 551,2033 598,2033 646,2033 693,2033 741,2034 789,2034 836,2034 884,2034 931,2034 979,2036 1026,2036 1074,2036 1121,2036 1169,2036 1217,2037"/>
+                <TextEquiv>
+                    <Unicode>El enfermo era un sujeto cualquiera, cuya</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l25" custom="readingOrder {index:24;}">
+                <Coords points="215,2102 1219,2099 1193,2050 215,2063"/>
+                <Baseline points="227,2090 276,2090 325,2090 374,2090 423,2090 472,2090 521,2090 570,2090 619,2090 668,2090 718,2090 767,2090 816,2090 865,2090 914,2090 963,2090 1012,2090 1061,2090 1110,2091 1159,2091 1209,2091"/>
+                <TextEquiv>
+                    <Unicode>muerte, igual que su vida, no hubiera roto la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l26" custom="readingOrder {index:25;}">
+                <Coords points="222,2165 1211,2157 1211,2105 222,2122"/>
+                <Baseline points="233,2148 281,2147 329,2146 377,2145 426,2145 474,2144 522,2144 571,2144 619,2144 667,2144 716,2144 764,2144 812,2145 860,2145 909,2145 957,2145 1005,2145 1054,2145 1102,2144 1150,2144 1199,2144"/>
+                <TextEquiv>
+                    <Unicode>paz de la urbe, ni provocado mecánicamente el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l27" custom="readingOrder {index:26;}">
+                <Coords points="216,2212 1172,2213 1207,2208 1207,2163 216,2177"/>
+                <Baseline points="227,2202 275,2201 324,2201 372,2199 421,2199 469,2199 518,2199 566,2199 615,2199 663,2199 712,2199 760,2199 809,2199 857,2201 906,2201 954,2201 1003,2201 1051,2201 1100,2201 1148,2201 1197,2199"/>
+                <TextEquiv>
+                    <Unicode>más desapasionado comentario. Era un cual¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l28" custom="readingOrder {index:27;}">
+                <Coords points="227,2276 1218,2262 1192,2225 1049,2219 227,2228"/>
+                <Baseline points="239,2258 287,2258 335,2258 384,2258 432,2258 481,2256 529,2256 578,2256 626,2256 675,2256 723,2256 771,2256 820,2255 868,2255 917,2255 965,2255 1014,2255 1062,2255 1111,2255 1159,2255 1208,2255"/>
+                <TextEquiv>
+                    <Unicode>quiera que, por acosos de hambre, sentíase mo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l29" custom="readingOrder {index:28;}">
+                <Coords points="229,2326 1229,2321 1192,2273 1153,2295 229,2284"/>
+                <Baseline points="240,2312 288,2312 337,2310 386,2310 435,2310 484,2310 533,2310 582,2310 631,2310 680,2310 729,2310 777,2310 826,2310 875,2310 924,2312 973,2312 1022,2312 1071,2312 1120,2312 1169,2312 1218,2313"/>
+                <TextEquiv>
+                    <Unicode>rir lentamente, como mueren los tísicos en la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l30" custom="readingOrder {index:29;}">
+                <Coords points="225,2389 1225,2380 1200,2336 225,2338"/>
+                <Baseline points="236,2367 284,2367 333,2367 382,2367 431,2366 480,2366 529,2366 578,2366 627,2366 676,2366 725,2366 773,2366 822,2366 871,2366 920,2366 969,2366 1018,2367 1067,2367 1116,2367 1165,2367 1214,2367"/>
+                <TextEquiv>
+                    <Unicode>plenitud otoñal, cuando las hojas comienzan a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l31" custom="readingOrder {index:30;}">
+                <Coords points="216,2431 1118,2434 1118,2394 1052,2383 216,2393"/>
+                <Baseline points="227,2420 271,2420 315,2420 359,2420 403,2421 447,2421 491,2421 535,2421 579,2421 623,2421 667,2421 711,2421 755,2421 799,2421 843,2421 887,2421 931,2421 975,2421 1019,2421 1063,2421 1107,2421"/>
+                <TextEquiv>
+                    <Unicode>caer amarillentas y resecas de los árboles.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l32" custom="readingOrder {index:31;}">
+                <Coords points="276,2490 1219,2485 1219,2456 1105,2441 276,2442"/>
+                <Baseline points="288,2481 334,2480 380,2480 426,2480 472,2480 518,2478 564,2478 610,2478 656,2480 702,2480 748,2480 794,2480 840,2480 886,2480 932,2480 978,2480 1024,2481 1070,2481 1116,2481 1162,2481 1209,2480"/>
+                <TextEquiv>
+                    <Unicode>Ninguno podía explicarse la rareza del ges¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l33" custom="readingOrder {index:32;}">
+                <Coords points="226,2548 1217,2546 1203,2498 751,2520 226,2498"/>
+                <Baseline points="236,2534 284,2534 333,2534 381,2534 430,2534 478,2534 527,2535 575,2535 624,2535 672,2535 721,2535 769,2535 818,2535 866,2535 915,2534 963,2534 1012,2534 1060,2534 1109,2534 1157,2534 1206,2534"/>
+                <TextEquiv>
+                    <Unicode>to de aquella dama que, al pasar por entre el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l34" custom="readingOrder {index:33;}">
+                <Coords points="225,2606 1126,2606 1216,2598 1216,2552 225,2562"/>
+                <Baseline points="236,2588 284,2588 333,2588 381,2588 430,2589 478,2589 527,2589 575,2589 624,2589 672,2589 721,2589 769,2589 818,2589 866,2589 915,2589 963,2589 1012,2589 1060,2589 1109,2589 1157,2589 1206,2589"/>
+                <TextEquiv>
+                    <Unicode>corrillo de curiosos, había dejado detrás de sí</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l35" custom="readingOrder {index:34;}">
+                <Coords points="225,2661 1222,2650 1222,2624 1159,2606 225,2608"/>
+                <Baseline points="236,2645 284,2643 333,2643 382,2643 431,2643 480,2643 528,2643 577,2643 626,2643 675,2643 724,2643 772,2645 821,2645 870,2645 919,2645 968,2645 1016,2645 1065,2645 1114,2645 1163,2645 1212,2645"/>
+                <TextEquiv>
+                    <Unicode>la estela de un perfume exótico y de unas ha¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l36" custom="readingOrder {index:35;}">
+                <Coords points="225,2713 584,2709 584,2679 560,2672 437,2664 380,2671 363,2684 310,2665 225,2663"/>
+                <Baseline points="236,2697 261,2699 287,2700 313,2700 339,2700 365,2700 391,2699 416,2699 442,2697 468,2697 494,2697 520,2697 546,2699 572,2700"/>
+                <TextEquiv>
+                    <Unicode>blillas equívocas.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l37" custom="readingOrder {index:36;}">
+                <Coords points="276,2773 1221,2764 1221,2729 1153,2718 914,2739 276,2721"/>
+                <Baseline points="287,2760 333,2759 379,2759 425,2759 471,2759 517,2757 563,2757 609,2757 655,2757 701,2757 748,2757 794,2757 840,2757 886,2757 932,2757 978,2757 1024,2757 1070,2757 1116,2757 1162,2757 1209,2757"/>
+                <TextEquiv>
+                    <Unicode>Uno, a lo último, sacando una cara de valen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l38" custom="readingOrder {index:37;}">
+                <Coords points="229,2829 1222,2816 1222,2781 229,2778"/>
+                <Baseline points="240,2816 288,2814 337,2813 385,2813 434,2811 483,2811 531,2811 580,2811 628,2811 677,2813 726,2813 774,2813 823,2813 871,2814 920,2814 969,2814 1017,2814 1066,2814 1114,2813 1163,2813 1212,2811"/>
+                <TextEquiv>
+                    <Unicode>tón dicharachero, se adelantó por entre el gru¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l39" custom="readingOrder {index:38;}">
+                <Coords points="228,2889 1226,2877 1226,2839 228,2841"/>
+                <Baseline points="239,2873 287,2871 336,2870 385,2868 434,2868 482,2867 531,2867 580,2867 629,2867 677,2867 726,2867 775,2867 824,2867 872,2867 921,2868 970,2868 1019,2868 1067,2868 1116,2868 1165,2868 1214,2868"/>
+                <TextEquiv>
+                    <Unicode>po, y arrastrando el silabeo de las palabras con</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l40" custom="readingOrder {index:39;}">
+                <Coords points="230,2941 321,2925 383,2939 776,2934 796,2925 796,2897 229,2895"/>
+                <Baseline points="240,2924 267,2925 294,2925 321,2925 349,2925 376,2924 403,2924 431,2924 458,2923 485,2922 513,2922 540,2922 567,2921 594,2921 622,2921 649,2921 676,2921 704,2922 731,2922 758,2922 786,2924"/>
+                <TextEquiv>
+                    <Unicode>aire dogmático, sentenció:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l41" custom="readingOrder {index:40;}">
+                <Coords points="298,2986 1221,2996 1221,2959 1184,2944 1122,2966 1057,2944 1033,2968 923,2944 298,2956"/>
+                <Baseline points="308,2984 353,2984 398,2984 443,2984 488,2984 533,2984 578,2984 623,2984 668,2984 713,2984 758,2984 803,2984 848,2984 893,2984 938,2985 983,2985 1028,2985 1073,2985 1118,2985 1163,2985 1209,2985"/>
+                <TextEquiv>
+                    <Unicode>—Esa dama es un caso excepcional. Su vida</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l42" custom="readingOrder {index:41;}">
+                <Coords points="229,3056 1209,3051 1209,3016 1069,3001 229,3013"/>
+                <Baseline points="239,3042 287,3041 335,3039 383,3039 431,3039 479,3038 527,3038 575,3038 623,3038 671,3038 719,3038 767,3039 815,3039 863,3039 911,3039 959,3039 1007,3041 1055,3041 1103,3041 1151,3041 1199,3041"/>
+                <TextEquiv>
+                    <Unicode>parecerá un cuento, pero nada más real y va¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l43" custom="readingOrder {index:42;}">
+                <Coords points="229,3109 1217,3109 1218,3063 229,3061"/>
+                <Baseline points="239,3096 287,3095 335,3093 384,3093 432,3092 480,3092 529,3092 577,3092 625,3093 674,3093 722,3093 770,3095 819,3095 867,3095 915,3096 964,3096 1012,3096 1060,3096 1109,3096 1157,3096 1206,3095"/>
+                <TextEquiv>
+                    <Unicode>ledero que lo que os voy a referir. Conozco las</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l44" custom="readingOrder {index:43;}">
+                <Coords points="217,3162 1216,3166 1216,3114 217,3122"/>
+                <Baseline points="227,3150 278,3149 330,3149 381,3147 433,3147 484,3147 536,3147 587,3147 639,3147 690,3147 742,3147 793,3149 845,3149 896,3149 948,3150 999,3150 1051,3150 1102,3150 1154,3150 1206,3150"/>
+                <TextEquiv>
+                    <Unicode>minucias de la vida da esa señora, que está</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l45" custom="readingOrder {index:44;}">
+                <Coords points="228,3216 1219,3208 1219,3175 1169,3169 228,3170"/>
+                <Baseline points="239,3204 287,3204 336,3203 384,3203 433,3203 481,3203 530,3203 578,3203 627,3203 675,3203 724,3204 772,3204 821,3204 869,3204 918,3204 966,3204 1015,3204 1063,3204 1112,3204 1160,3204 1209,3204"/>
+                <TextEquiv>
+                    <Unicode>importunando vuestra curiosidad... Hasta aho¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Doña Eulalia penetró en la habitación del en¬fermo, iluminada por mortecina luz de diminu¬to quinqué. Preguntó por la salud, cogió ambasmanos del pobre, cuyas entrañas eran devoradaspaulatinamente por una tisis sin piedad, y enun gesto de, altiva generosidad, ordenó:-Bien; que se vuelva a llamar al médico, quela ciencia agote sus iniciativas y que la caridadno le abandone, aún a trueque de mis doblones.Corre a mi cuenta la curación total.:.La gente congregada en la casa, que se al¬zaba en desamparo entre unos platanares, abriólos ojos, luego de oída la singular advertencia;las miradas de todos se cruzaron como en un re¬lámpago de interrogación, y alguien, más au¬daz y comentarista, exclamó:—Pero, ¿quién es esa dama donosa y peculiar?Un silencio de enigma acogió la pregunta,aunque en el ambiente parecia flotar la omino¬sa contestación.—Esa dama...—fué la frase inicial percibidadesde un rincón de la estancia, pero que se aho¬gó en el aire tibio de la noche.El enfermo era un sujeto cualquiera, cuyamuerte, igual que su vida, no hubiera roto lapaz de la urbe, ni provocado mecánicamente elmás desapasionado comentario. Era un cual¬quiera que, por acosos de hambre, sentíase mo¬rir lentamente, como mueren los tísicos en laplenitud otoñal, cuando las hojas comienzan acaer amarillentas y resecas de los árboles.Ninguno podía explicarse la rareza del ges¬to de aquella dama que, al pasar por entre elcorrillo de curiosos, había dejado detrás de síla estela de un perfume exótico y de unas ha¬blillas equívocas.Uno, a lo último, sacando una cara de valen¬tón dicharachero, se adelantó por entre el gru¬po, y arrastrando el silabeo de las palabras conaire dogmático, sentenció:—Esa dama es un caso excepcional. Su vidaparecerá un cuento, pero nada más real y va¬ledero que lo que os voy a referir. Conozco lasminucias de la vida da esa señora, que estáimportunando vuestra curiosidad... Hasta aho¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_5" custom="readingOrder {index:4;}">
+            <Coords points="1297,723 2216,723 2216,2002 1297,2002"/>
+        </GraphicRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_6_1" custom="readingOrder {index:5;} structure {type:story;}">
+            <Coords points="1266,2025 2256,2025 2256,3223 1266,3223"/>
+            <TextLine id="r_6_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1255,2066 2263,2061 2263,2033 2202,2015 1255,2033"/>
+                <Baseline points="1266,2061 1315,2061 1364,2060 1414,2060 1463,2060 1512,2060 1562,2060 1611,2060 1660,2060 1710,2060 1759,2060 1808,2060 1858,2060 1907,2060 1956,2060 2006,2060 2055,2060 2104,2059 2154,2058 2203,2057 2253,2055"/>
+                <TextEquiv>
+                    <Unicode>ra, hemos tenido de las mujeres un conceptó úni¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1267,2128 2260,2117 2260,2086 2216,2073 2085,2096 1267,2084"/>
+                <Baseline points="1277,2114 1325,2114 1374,2114 1422,2114 1471,2114 1520,2114 1568,2114 1617,2114 1665,2114 1714,2114 1763,2114 1811,2114 1860,2114 1908,2114 1957,2114 2006,2114 2054,2112 2103,2112 2151,2112 2200,2112 2249,2112"/>
+                <TextEquiv>
+                    <Unicode>co, medioeval, supeditándolo todo a eso que lla¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1261,2180 2247,2182 2261,2128 1261,2137"/>
+                <Baseline points="1271,2168 1322,2168 1374,2168 1425,2169 1477,2169 1528,2169 1580,2169 1631,2169 1683,2169 1734,2169 1786,2169 1837,2169 1889,2169 1940,2169 1992,2169 2043,2168 2095,2168 2146,2168 2198,2168 2250,2168"/>
+                <TextEquiv>
+                    <Unicode>man honradez de casta y recato de virgen. El</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l4" custom="readingOrder {index:3;}">
+                <Coords points="1254,2234 2247,2237 2260,2189 1254,2195"/>
+                <Baseline points="1265,2222 1314,2223 1363,2223 1412,2223 1461,2223 1511,2223 1560,2223 1609,2223 1658,2223 1707,2223 1757,2223 1806,2223 1855,2223 1904,2222 1953,2222 2003,2222 2052,2222 2101,2222 2150,2222 2199,2222 2249,2222"/>
+                <TextEquiv>
+                    <Unicode>caso de doña Eulalia es la inversión de nuestro</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l5" custom="readingOrder {index:4;}">
+                <Coords points="1265,2293 2267,2285 2249,2248 2129,2241 1265,2250"/>
+                <Baseline points="1277,2276 1325,2276 1374,2276 1423,2277 1472,2277 1521,2277 1570,2277 1619,2277 1668,2277 1717,2277 1766,2277 1814,2277 1863,2277 1912,2277 1961,2277 2010,2277 2059,2277 2108,2277 2157,2277 2206,2277 2255,2277"/>
+                <TextEquiv>
+                    <Unicode>valores femeninos. El desquiciamiento de una</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l6" custom="readingOrder {index:5;}">
+                <Coords points="1255,2342 2250,2342 2250,2307 2114,2296 1255,2305"/>
+                <Baseline points="1265,2330 1313,2331 1362,2331 1411,2331 1460,2331 1508,2331 1557,2331 1606,2331 1655,2331 1703,2331 1752,2331 1801,2331 1850,2331 1898,2331 1947,2331 1996,2331 2045,2331 2093,2331 2142,2330 2191,2330 2240,2330"/>
+                <TextEquiv>
+                    <Unicode>estructura de siglos. La relajación de las cos¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l7" custom="readingOrder {index:6;}">
+                <Coords points="1265,2400 2258,2399 2258,2360 2173,2347 1265,2354"/>
+                <Baseline points="1277,2387 1325,2387 1374,2387 1422,2387 1471,2387 1519,2387 1568,2387 1616,2387 1665,2385 1713,2385 1762,2385 1810,2385 1859,2385 1907,2385 1956,2384 2004,2384 2053,2384 2101,2385 2150,2385 2198,2385 2247,2387"/>
+                <TextEquiv>
+                    <Unicode>tumbres de raza. Una metamórfosis realizada a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l8" custom="readingOrder {index:7;}">
+                <Coords points="1267,2452 2140,2460 2245,2454 2267,2410 1267,2415"/>
+                <Baseline points="1278,2442 1326,2442 1375,2442 1424,2441 1473,2441 1522,2441 1571,2441 1620,2441 1669,2442 1718,2442 1767,2442 1815,2442 1864,2442 1913,2442 1962,2442 2011,2442 2060,2442 2109,2442 2158,2441 2207,2441 2256,2439"/>
+                <TextEquiv>
+                    <Unicode>extramuros de los altares. Pero, ¿qué quereís</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l9" custom="readingOrder {index:8;}">
+                <Coords points="1263,2513 2256,2500 2230,2465 2070,2456 1263,2469"/>
+                <Baseline points="1274,2498 1322,2498 1371,2498 1419,2498 1468,2496 1517,2496 1565,2496 1614,2496 1662,2496 1711,2496 1760,2496 1808,2496 1857,2496 1905,2496 1954,2496 2003,2496 2051,2496 2100,2496 2148,2496 2197,2495 2246,2495"/>
+                <TextEquiv>
+                    <Unicode>que os diga? ¡El tiempo, la modalidad, un ma¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l10" custom="readingOrder {index:9;}">
+                <Coords points="1265,2565 2260,2564 2231,2514 1265,2514"/>
+                <Baseline points="1275,2549 1323,2550 1372,2550 1421,2550 1470,2550 1518,2550 1567,2550 1616,2550 1665,2550 1713,2550 1762,2550 1811,2550 1860,2550 1908,2550 1957,2550 2006,2550 2055,2549 2103,2549 2152,2549 2201,2549 2250,2549"/>
+                <TextEquiv>
+                    <Unicode>tiz de los gobiernos! Digo que cae dentro de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l11" custom="readingOrder {index:10;}">
+                <Coords points="1254,2615 2256,2616 2256,2577 2201,2564 1941,2588 1254,2569"/>
+                <Baseline points="1266,2604 1314,2604 1363,2604 1412,2604 1461,2604 1510,2604 1559,2604 1608,2604 1657,2604 1706,2604 1755,2604 1803,2604 1852,2604 1901,2604 1950,2604 1999,2604 2048,2603 2097,2603 2146,2603 2195,2603 2244,2603"/>
+                <TextEquiv>
+                    <Unicode>los nuevos cánones utilitaristas. Es lo práctico</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l12" custom="readingOrder {index:11;}">
+                <Coords points="1254,2676 2256,2663 2234,2633 2022,2623 1254,2633"/>
+                <Baseline points="1265,2661 1314,2661 1363,2661 1412,2661 1461,2661 1510,2661 1559,2661 1608,2661 1657,2661 1706,2660 1755,2660 1804,2660 1853,2660 1902,2660 1951,2658 2000,2658 2049,2658 2098,2658 2147,2658 2196,2658 2246,2657"/>
+                <TextEquiv>
+                    <Unicode>y tangible, y por ende, en el materialismo am¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l13" custom="readingOrder {index:12;}">
+                <Coords points="1263,2725 2261,2723 2237,2673 1263,2679"/>
+                <Baseline points="1274,2714 1322,2714 1371,2714 1420,2715 1469,2715 1518,2715 1566,2715 1615,2715 1664,2715 1713,2715 1762,2714 1810,2714 1859,2714 1908,2714 1957,2714 2006,2714 2054,2714 2103,2714 2152,2713 2201,2712 2250,2712"/>
+                <TextEquiv>
+                    <Unicode>biente, lo más humano. El romanticismo está</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l14" custom="readingOrder {index:13;}">
+                <Coords points="1255,2788 2178,2791 2267,2771 2267,2740 1255,2746"/>
+                <Baseline points="1265,2771 1314,2771 1364,2769 1413,2769 1463,2769 1512,2769 1562,2768 1611,2768 1661,2768 1710,2768 1760,2768 1810,2769 1859,2769 1909,2769 1958,2769 2008,2769 2057,2769 2107,2769 2156,2768 2206,2768 2256,2768"/>
+                <TextEquiv>
+                    <Unicode>pasando a la historia rápidamente con su legión</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l15" custom="readingOrder {index:14;}">
+                <Coords points="1261,2838 2261,2837 2261,2800 2112,2785 1943,2808 1854,2784 1663,2808 1261,2789"/>
+                <Baseline points="1272,2822 1320,2822 1369,2822 1418,2823 1467,2823 1516,2823 1565,2823 1614,2823 1663,2823 1712,2823 1761,2823 1809,2823 1858,2823 1907,2823 1956,2823 2005,2823 2054,2823 2103,2823 2152,2825 2201,2825 2250,2825"/>
+                <TextEquiv>
+                    <Unicode>de vestales pálidas y raquíticas, axfixiadas por</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l16" custom="readingOrder {index:15;}">
+                <Coords points="1257,2893 1767,2888 1767,2862 1607,2841 1257,2851"/>
+                <Baseline points="1268,2877 1293,2877 1319,2877 1344,2877 1370,2877 1396,2877 1421,2877 1447,2877 1473,2876 1498,2876 1524,2876 1549,2876 1575,2876 1601,2876 1626,2877 1652,2877 1678,2877 1703,2879 1729,2880 1755,2882"/>
+                <TextEquiv>
+                    <Unicode>el humo del incienso...</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l17" custom="readingOrder {index:16;}">
+                <Coords points="1324,2940 2263,2949 2239,2905 2130,2898 1325,2912"/>
+                <Baseline points="1335,2931 1380,2931 1426,2931 1472,2931 1518,2931 1564,2931 1610,2931 1656,2931 1702,2931 1748,2931 1794,2931 1839,2931 1885,2931 1931,2931 1977,2933 2023,2933 2069,2933 2115,2934 2161,2934 2207,2936 2253,2937"/>
+                <TextEquiv>
+                    <Unicode>—Cuéntanos, cuéntanos,—sugirieron a la vez,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l18" custom="readingOrder {index:17;}">
+                <Coords points="1256,2997 1916,3007 2098,2996 2113,2970 1741,2946 1255,2958"/>
+                <Baseline points="1266,2988 1307,2988 1349,2988 1391,2988 1433,2988 1475,2988 1517,2987 1558,2987 1600,2987 1642,2987 1684,2987 1726,2987 1768,2987 1810,2987 1851,2987 1893,2987 1935,2987 1977,2987 2019,2987 2061,2987 2103,2987"/>
+                <TextEquiv>
+                    <Unicode>mordidos por la ansiedad, los presentes.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l19" custom="readingOrder {index:18;}">
+                <Coords points="1329,3043 2040,3061 2254,3050 2255,3011 1329,3017"/>
+                <Baseline points="1341,3042 1386,3042 1431,3041 1476,3041 1521,3041 1566,3041 1611,3041 1657,3041 1702,3041 1747,3041 1792,3041 1837,3041 1882,3041 1927,3041 1973,3041 2018,3041 2063,3041 2108,3041 2153,3042 2198,3042 2244,3042"/>
+                <TextEquiv>
+                    <Unicode>—Pues doña Eulalia—reanudó aspirando el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l20" custom="readingOrder {index:19;}">
+                <Coords points="1263,3118 2217,3109 2252,3105 2252,3068 1263,3070"/>
+                <Baseline points="1274,3098 1322,3098 1370,3096 1418,3096 1467,3096 1515,3095 1563,3095 1612,3095 1660,3095 1708,3095 1757,3095 1805,3095 1853,3095 1901,3096 1950,3096 1998,3096 2046,3096 2095,3096 2143,3096 2191,3098 2240,3098"/>
+                <TextEquiv>
+                    <Unicode>pitillo encendido entre los dedos—, fué una vez</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l21" custom="readingOrder {index:20;}">
+                <Coords points="1260,3164 2196,3172 2260,3155 2260,3126 1687,3105 1260,3127"/>
+                <Baseline points="1271,3152 1322,3152 1374,3152 1425,3152 1477,3152 1528,3152 1580,3150 1631,3150 1683,3150 1734,3150 1786,3149 1837,3149 1889,3149 1940,3149 1992,3149 2043,3150 2095,3150 2146,3152 2198,3153 2250,3155"/>
+                <TextEquiv>
+                    <Unicode>una mujer vulgar. En esta acepción de vulgar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_6_1l22" custom="readingOrder {index:21;}">
+                <Coords points="1267,3220 2258,3211 2258,3181 2080,3170 1267,3176"/>
+                <Baseline points="1278,3206 1326,3206 1374,3206 1423,3206 1471,3206 1520,3206 1568,3206 1616,3206 1665,3206 1713,3206 1762,3206 1810,3206 1858,3206 1907,3206 1955,3206 2004,3206 2052,3206 2100,3206 2149,3206 2197,3206 2246,3206"/>
+                <TextEquiv>
+                    <Unicode>coloco a las hijas de Eva que fácilmente creye¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ra, hemos tenido de las mujeres un conceptó úni¬co, medioeval, supeditándolo todo a eso que lla¬man honradez de casta y recato de virgen. Elcaso de doña Eulalia es la inversión de nuestrovalores femeninos. El desquiciamiento de unaestructura de siglos. La relajación de las cos¬tumbres de raza. Una metamórfosis realizada aextramuros de los altares. Pero, ¿qué quereísque os diga? ¡El tiempo, la modalidad, un ma¬tiz de los gobiernos! Digo que cae dentro delos nuevos cánones utilitaristas. Es lo prácticoy tangible, y por ende, en el materialismo am¬biente, lo más humano. El romanticismo estápasando a la historia rápidamente con su legiónde vestales pálidas y raquíticas, axfixiadas porel humo del incienso...—Cuéntanos, cuéntanos,—sugirieron a la vez,mordidos por la ansiedad, los presentes.—Pues doña Eulalia—reanudó aspirando elpitillo encendido entre los dedos—, fué una vezuna mujer vulgar. En esta acepción de vulgarcoloco a las hijas de Eva que fácilmente creye¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:6;}">
+            <Coords points="236,304 468,304 468,312 236,312"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:7;}">
+            <Coords points="235,334 368,334 368,341 235,341"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:8;}">
+            <Coords points="237,564 467,564 467,579 237,579"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:9;}">
+            <Coords points="241,579 465,579 465,589 241,589"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:10;}">
+            <Coords points="1895,729 2050,729 2050,739 1895,739"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:11;}">
+            <Coords points="1728,974 1868,974 1868,981 1728,981"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:12;}">
+            <Coords points="1963,982 2046,982 2046,986 1963,986"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:13;}">
+            <Coords points="1569,1832 1806,1832 1806,1849 1569,1849"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:14;}">
+            <Coords points="1386,748 1399,748 1399,908 1386,908"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:15;}">
+            <Coords points="2075,1375 2088,1375 2088,1616 2075,1616"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:16;}">
+            <Coords points="2089,1373 2102,1373 2102,1678 2089,1678"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:17;}">
+            <Coords points="2101,1360 2115,1360 2115,1579 2101,1579"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:18;}">
+            <Coords points="2134,1433 2140,1433 2140,1524 2134,1524"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_21" custom="readingOrder {index:19;}">
+            <Coords points="2192,1322 2210,1322 2210,1539 2192,1539"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

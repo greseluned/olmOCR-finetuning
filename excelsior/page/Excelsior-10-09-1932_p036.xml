@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-04T10:40:27.483+02:00</Created>
+        <LastChange>2026-04-21T20:18:04.682+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="520120" pageId="22151826" pageNr="36" tsid="284587959" status="DONE" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=WJAAGLELANNWNXPVEHWZSVAD" xmlUrl="https://files.transkribus.eu/Get?id=YWTJKKBKLRCFFKZFQDJTWAON" imageId="17246168"/>
+    </Metadata>
+    <Page imageFilename="0036_p036.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="218,293 2265,293 2265,3212 218,3212"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1776807552102" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+                <RegionRefIndexed index="2" regionRef="r_26"/>
+                <RegionRefIndexed index="4" regionRef="r_27"/>
+                <RegionRefIndexed index="16" regionRef="r"/>
+                <RegionRefIndexed index="18" regionRef="r_3"/>
+                <RegionRefIndexed index="20" regionRef="r_24"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_26"/>
+                <RegionRef regionRef="r_1"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_27"/>
+                <RegionRef regionRef="r_25"/>
+                <RegionRef regionRef="r_28"/>
+                <RegionRef regionRef="r_29"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_31"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_3"/>
+                <RegionRef regionRef="r_30"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_24"/>
+                <RegionRef regionRef="r_30"/>
+                <RegionRef regionRef="r_31"/>
+                <RegionRef regionRef="r_25"/>
+                <RegionRef regionRef="r_28"/>
+                <RegionRef regionRef="r_29"/>
+                <RegionRef regionRef="r_1"/>
+            </Relation>
+        </Relations>
+        <ImageRegion id="r_1" custom="readingOrder {index:0;} structure {type:photograph;}">
+            <Coords points="205,297 903,297 903,1231 205,1231"/>
+        </ImageRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;} structure {type:title;}">
+            <Coords points="986,433 986,300 2265,300 2265,433"/>
+            <TextLine id="l_5" custom="readingOrder {index:0;}">
+                <Coords points="980,352 2269,347 2230,299 980,300"/>
+                <Baseline points="989,341 1052,339 1116,339 1179,339 1243,339 1307,339 1370,339 1434,339 1497,339 1561,339 1625,339 1688,340 1752,341 1815,341 1879,341 1943,341 2006,341 2070,341 2133,341 2197,341 2261,341"/>
+                <TextEquiv>
+                    <Unicode>PROMINENTES PASAJEROS QUE HAN LLEGA¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_6" custom="readingOrder {index:1;}">
+                <Coords points="1072,405 2112,419 2156,389 1072,370"/>
+                <Baseline points="1080,410 1133,411 1186,411 1240,411 1293,411 1347,411 1400,411 1453,411 1507,411 1560,410 1614,410 1667,410 1720,410 1774,410 1827,410 1881,410 1934,410 1987,410 2041,410 2094,411 2148,413"/>
+                <TextEquiv>
+                    <Unicode>DO POR EL "PRESIDENT JEFFERSON"</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_26" custom="readingOrder {index:2;} structure {type:caption;}">
+            <Coords points="986,585 986,433 2265,433 2265,585"/>
+            <TextLine id="l_18" custom="readingOrder {index:0;}">
+                <Coords points="1060,523 2245,525 2245,472 1060,481"/>
+                <Baseline points="1068,509 1126,509 1185,510 1243,510 1302,510 1360,510 1419,510 1477,510 1536,510 1594,510 1653,510 1711,510 1770,510 1828,510 1887,510 1945,510 2004,510 2062,510 2121,510 2179,510 2238,510"/>
+                <TextEquiv>
+                    <Unicode>El Sr. W. L. Gaddum anditor de la "Standard Oil Co."</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_19" custom="readingOrder {index:1;}">
+                <Coords points="978,575 999,578 1010,569 1031,578 1047,564 1064,579 1103,566 1252,581 1279,569 1279,549 1228,530 1201,539 1126,525 1099,539 1077,531 1042,548 978,540"/>
+                <Baseline points="987,563 1012,564 1038,564 1064,564 1090,563 1116,563 1142,563 1168,563 1194,563 1220,564 1246,564 1272,566"/>
+                <TextEquiv>
+                    <Unicode>en el Oriente.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_4" custom="readingOrder {index:3;}">
+            <Coords points="219,296 908,296 908,314 219,314"/>
+        </SeparatorRegion>
+        <TextRegion id="r_27" custom="readingOrder {index:4;} structure {type:caption;}">
+            <Coords points="2265,585 2265,806 986,806 986,585"/>
+            <TextLine id="l_20" custom="readingOrder {index:0;}">
+                <Coords points="1052,639 2261,652 2261,606 2150,595 1052,606"/>
+                <Baseline points="1061,632 1120,632 1180,632 1239,633 1299,633 1359,633 1418,633 1478,633 1537,633 1597,633 1657,635 1716,635 1776,635 1835,633 1895,633 1955,633 2014,633 2074,633 2133,633 2193,632 2253,632"/>
+                <TextEquiv>
+                    <Unicode>Foto inferior, de izquierda a derecha: El Sr. G. C. Elgnor,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_21" custom="readingOrder {index:1;}">
+                <Coords points="981,700 2191,699 2271,661 981,658"/>
+                <Baseline points="989,687 1052,687 1116,686 1179,686 1243,686 1307,686 1370,686 1434,687 1498,687 1561,687 1625,687 1689,687 1752,687 1816,687 1880,687 1943,687 2007,687 2071,687 2134,687 2198,687 2262,686"/>
+                <TextEquiv>
+                    <Unicode>maderero de Zamboanga. El Sr. D. M. Hastings de la casa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_22" custom="readingOrder {index:2;}">
+                <Coords points="995,743 2258,739 2223,699 995,703"/>
+                <Baseline points="1002,737 1064,737 1126,737 1189,738 1251,738 1314,738 1376,740 1438,740 1501,740 1563,740 1626,740 1688,740 1750,740 1813,740 1875,740 1938,740 2000,740 2062,738 2125,738 2187,737 2250,737"/>
+                <TextEquiv>
+                    <Unicode>“Goodyear Rubber Tire Co.". El Sr. E. C. Gardiner de Phila¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_23" custom="readingOrder {index:3;}">
+                <Coords points="981,804 1034,802 1056,812 1064,804 1080,802 1142,803 1150,795 1161,795 1162,782 1152,781 1135,763 1117,763 1109,755 1073,754 1055,762 1009,754 982,765"/>
+                <Baseline points="990,791 1017,792 1044,792 1072,791 1099,792 1126,792 1154,795"/>
+                <TextEquiv>
+                    <Unicode>delphia.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_5" custom="readingOrder {index:5;}">
+            <Coords points="1272,876 2259,876 2259,895 1272,895"/>
+        </SeparatorRegion>
+        <ImageRegion id="r_25" custom="readingOrder {index:6;} structure {type:photograph;}">
+            <Coords points="217,1246 1043,1246 1043,2208 217,2208"/>
+        </ImageRegion>
+        <SeparatorRegion id="r_6" custom="readingOrder {index:7;}">
+            <Coords points="932,919 1618,919 1618,935 932,935"/>
+        </SeparatorRegion>
+        <ImageRegion id="r_28" custom="readingOrder {index:8;} structure {type:photograph;}">
+            <Coords points="903,882 1633,882 1633,1954 903,1954"/>
+        </ImageRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:9;}">
+            <Coords points="235,1225 905,1225 905,1248 235,1248"/>
+        </SeparatorRegion>
+        <ImageRegion id="r_29" custom="readingOrder {index:10;} structure {type:photograph;}">
+            <Coords points="1658,894 2258,894 2258,1889 1658,1889"/>
+        </ImageRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:11;}">
+            <Coords points="225,2225 1288,2225 1288,2236 225,2236"/>
+        </SeparatorRegion>
+        <ImageRegion id="r_31" custom="readingOrder {index:12;} structure {type:photograph;}">
+            <Coords points="1324,1819 2233,1819 2233,2619 1324,2619"/>
+        </ImageRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:13;}">
+            <Coords points="1403,2628 2242,2628 2242,2640 1403,2640"/>
+        </SeparatorRegion>
+        <ImageRegion id="r_30" custom="readingOrder {index:14;} structure {type:photograph;}">
+            <Coords points="211,2261 1392,2261 1392,3207 211,3207"/>
+        </ImageRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:15;}">
+            <Coords points="218,300 238,300 238,2235 218,2235"/>
+        </SeparatorRegion>
+        <TextRegion id="r" custom="readingOrder {index:16;} structure {type:caption;}">
+            <Coords points="1488,2949 1488,2689 2248,2689 2248,2949"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="1515,2722 1692,2743 2253,2734 2253,2701 2143,2691 1516,2691"/>
+                <Baseline points="1524,2720 1560,2720 1596,2720 1632,2720 1668,2720 1704,2721 1740,2721 1776,2721 1812,2723 1848,2723 1884,2724 1920,2724 1956,2726 1992,2726 2028,2726 2064,2727 2100,2727 2136,2727 2172,2727 2208,2726 2244,2726"/>
+                <TextEquiv>
+                    <Unicode>Foto superior: El Coronel George</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:1;}">
+                <Coords points="1479,2780 1788,2788 1820,2768 1877,2795 1992,2777 2238,2794 2255,2757 2038,2739 2008,2761 1710,2763 1686,2739 1479,2755"/>
+                <Baseline points="1487,2772 1525,2772 1563,2772 1601,2772 1639,2774 1677,2774 1715,2774 1753,2774 1791,2775 1829,2775 1867,2775 1905,2777 1943,2777 1981,2777 2019,2777 2057,2777 2095,2778 2133,2778 2171,2778 2209,2778 2247,2778"/>
+                <TextEquiv>
+                    <Unicode>A. Lynch, que regresa después de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:2;}">
+                <Coords points="1486,2842 1620,2818 1637,2836 1911,2821 2008,2845 2233,2844 2246,2801 1486,2799"/>
+                <Baseline points="1494,2823 1531,2823 1568,2823 1605,2823 1642,2823 1680,2823 1717,2823 1754,2825 1791,2825 1828,2825 1866,2826 1903,2826 1940,2828 1977,2828 2014,2829 2052,2829 2089,2829 2126,2829 2163,2829 2200,2829 2238,2829"/>
+                <TextEquiv>
+                    <Unicode>pasar varios meses en Shanghai a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:3;}">
+                <Coords points="1490,2886 2255,2883 2241,2843 2019,2862 1491,2845"/>
+                <Baseline points="1499,2873 1536,2874 1573,2874 1611,2875 1648,2876 1686,2876 1723,2877 1760,2877 1798,2877 1835,2877 1873,2879 1910,2879 1947,2879 1985,2879 2022,2879 2060,2879 2097,2879 2134,2879 2172,2879 2209,2879 2247,2879"/>
+                <TextEquiv>
+                    <Unicode>donde fué destinado con motivo del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_4" custom="readingOrder {index:4;}">
+                <Coords points="1480,2933 1551,2948 1665,2931 1781,2948 1951,2939 1951,2911 1909,2898 1816,2907 1791,2891 1775,2907 1722,2893 1676,2906 1568,2890 1480,2904"/>
+                <Baseline points="1488,2924 1513,2925 1538,2925 1564,2927 1589,2927 1614,2928 1640,2928 1665,2928 1690,2928 1716,2928 1741,2928 1766,2928 1792,2928 1817,2928 1842,2928 1868,2928 1893,2930 1918,2930 1944,2930"/>
+                <TextEquiv>
+                    <Unicode>conflicto Sino-japones.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:17;}">
+            <Coords points="311,1252 318,1252 318,1462 311,1462"/>
+        </SeparatorRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:18;} structure {type:caption;}">
+            <Coords points="1488,3156 1488,2949 2248,2949 2248,3156"/>
+            <TextLine id="l_10" custom="readingOrder {index:0;}">
+                <Coords points="1528,3011 2245,3011 2245,2978 2197,2971 1528,2963"/>
+                <Baseline points="1536,2996 1571,2997 1606,2997 1641,2998 1676,2999 1711,2999 1746,2999 1781,2999 1816,2999 1851,3000 1886,3000 1921,3000 1956,3000 1991,3000 2026,2999 2061,2999 2096,2999 2131,2999 2166,2999 2201,2999 2237,3000"/>
+                <TextEquiv>
+                    <Unicode>Foto de la ixquierda: Los esposos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_11" custom="readingOrder {index:1;}">
+                <Coords points="1482,3060 2249,3059 2249,3026 2224,3018 1482,3025"/>
+                <Baseline points="1490,3050 1527,3050 1565,3050 1602,3050 1640,3050 1677,3050 1715,3050 1752,3050 1790,3050 1827,3050 1865,3050 1903,3050 1940,3050 1978,3050 2015,3050 2053,3050 2090,3051 2128,3051 2165,3051 2203,3051 2241,3051"/>
+                <TextEquiv>
+                    <Unicode>de Castro que regresan después de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_12" custom="readingOrder {index:2;}">
+                <Coords points="1491,3119 1610,3097 1637,3116 2249,3115 2249,3067 1491,3074"/>
+                <Baseline points="1499,3102 1536,3102 1573,3102 1610,3102 1647,3102 1684,3102 1721,3102 1758,3102 1795,3102 1832,3101 1869,3101 1906,3101 1943,3101 1980,3101 2017,3101 2054,3101 2091,3102 2128,3102 2165,3102 2202,3102 2240,3102"/>
+                <TextEquiv>
+                    <Unicode>pasar unas cortas vacaciones en el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_13" custom="readingOrder {index:3;}">
+                <Coords points="1489,3164 1608,3164 1631,3172 1639,3166 1715,3163 1715,3140 1696,3131 1653,3129 1637,3115 1616,3131 1569,3131 1553,3123 1489,3131"/>
+                <Baseline points="1497,3153 1523,3153 1549,3153 1575,3153 1602,3153 1628,3153 1654,3153 1680,3153 1707,3153"/>
+                <TextEquiv>
+                    <Unicode>eatranjero.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:19;}">
+            <Coords points="325,1255 333,1255 333,1420 325,1420"/>
+        </SeparatorRegion>
+        <TextRegion id="r_24" custom="readingOrder {index:20;} structure {type:credit;}">
+            <Coords points="2248,3156 2248,3198 1488,3198 1488,3156"/>
+            <TextLine id="l_14" custom="readingOrder {index:0;}">
+                <Coords points="1917,3196 2018,3189 2038,3199 2102,3188 2150,3199 2221,3197 2242,3192 2242,3156 1917,3162"/>
+                <Baseline points="1925,3188 1950,3186 1976,3186 2002,3185 2028,3185 2053,3185 2079,3185 2105,3185 2131,3186 2156,3186 2182,3186 2208,3186 2234,3185"/>
+                <TextEquiv>
+                    <Unicode>Fotos—SUN STUDIO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:21;}">
+            <Coords points="923,923 944,923 944,1921 923,1921"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:22;}">
+            <Coords points="1044,1948 1057,1948 1057,2225 1044,2225"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:23;}">
+            <Coords points="1064,1948 1077,1948 1077,2225 1064,2225"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:24;}">
+            <Coords points="1246,1948 1258,1948 1258,2226 1246,2226"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:25;}">
+            <Coords points="1265,1949 1275,1949 1275,2226 1265,2226"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:26;}">
+            <Coords points="1406,1857 1417,1857 1417,2391 1406,2391"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:27;}">
+            <Coords points="1417,1832 1432,1832 1432,2364 1417,2364"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:28;}">
+            <Coords points="2228,1801 2243,1801 2243,2638 2228,2638"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_21" custom="readingOrder {index:29;}">
+            <Coords points="1958,1114 2004,1114 2004,1118 1958,1118"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_22" custom="readingOrder {index:30;}">
+            <Coords points="318,1398 320,1398 320,1440 318,1440"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_23" custom="readingOrder {index:31;}">
+            <Coords points="874,2187 878,2187 878,2216 874,2216"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

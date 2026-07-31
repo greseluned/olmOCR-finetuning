@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-04T10:40:15.072+02:00</Created>
+        <LastChange>2026-04-21T19:04:16.209+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="520120" pageId="22151683" pageNr="20" tsid="284584882" status="DONE" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=SMQEXJOFSIIPVMFJDYNFRYGK" xmlUrl="https://files.transkribus.eu/Get?id=MJLKBVHBKJGHBBPKLDEFWFCL" imageId="17246025"/>
+    </Metadata>
+    <Page imageFilename="0020_p020.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="222,287 2262,287 2262,3216 222,3216"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1776807546752" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="3" regionRef="r_2_1"/>
+                <RegionRefIndexed index="5" regionRef="r_3_1"/>
+                <RegionRefIndexed index="7" regionRef="r_4_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_4_1"/>
+                <RegionRef regionRef="r_3"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_1"/>
+                <RegionRef regionRef="r_2_1"/>
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r_3_1"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:title;}">
+            <Coords points="431,294 2038,294 2038,403 431,403"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="489,351 2032,383 2033,353 490,321"/>
+                <Baseline points="489,351 2032,383"/>
+                <TextEquiv>
+                    <Unicode>VIÑETAS MUNDIALES</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <ImageRegion id="r_1" custom="readingOrder {index:1;} structure {type:photograph;}">
+            <Coords points="272,418 2183,418 2183,1375 272,1375"/>
+        </ImageRegion>
+        <ImageRegion id="r_2" custom="readingOrder {index:2;} structure {type:photograph;}">
+            <Coords points="247,1378 1557,1378 1557,2255 247,2255"/>
+        </ImageRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_2_1" custom="readingOrder {index:3;} structure {type:caption;}">
+            <Coords points="1585,1446 2236,1446 2236,1961 1585,1961"/>
+            <TextLine id="r_2_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1624,1486 1741,1498 1770,1478 1919,1481 2006,1498 2167,1476 2191,1491 2234,1482 2234,1458 1841,1445 1623,1464"/>
+                <Baseline points="1629,1484 1659,1484 1689,1484 1719,1484 1749,1484 1779,1483 1809,1482 1839,1482 1869,1482 1899,1481 1929,1481 1959,1481 1989,1481 2019,1479 2049,1479 2079,1478 2109,1478 2139,1478 2169,1478 2199,1478 2229,1476"/>
+                <TextEquiv>
+                    <Unicode>De la última conferencia ce¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1585,1537 2229,1521 2228,1500 2191,1492 2135,1509 1841,1492 1822,1512 1800,1498 1752,1514 1713,1493 1584,1494"/>
+                <Baseline points="1590,1527 1621,1526 1653,1526 1684,1526 1716,1526 1748,1524 1779,1524 1811,1524 1843,1524 1874,1524 1906,1523 1938,1523 1969,1523 2001,1523 2033,1521 2064,1521 2096,1521 2128,1520 2159,1520 2191,1518 2223,1518"/>
+                <TextEquiv>
+                    <Unicode>lebrada en Lausana para can¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1585,1577 1678,1579 1699,1557 1728,1579 2164,1556 2229,1571 2228,1539 2201,1528 2179,1548 2129,1529 1795,1555 1740,1532 1718,1551 1584,1547"/>
+                <Baseline points="1590,1569 1621,1569 1653,1569 1684,1568 1716,1568 1748,1568 1779,1567 1811,1566 1843,1566 1874,1565 1906,1565 1938,1563 1969,1563 2001,1563 2033,1562 2064,1562 2096,1562 2128,1560 2159,1560 2191,1560 2223,1560"/>
+                <TextEquiv>
+                    <Unicode>calar las reparaciones de la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l4" custom="readingOrder {index:3;}">
+                <Coords points="1593,1627 1744,1610 2173,1618 2222,1602 2222,1580 2155,1593 2062,1572 2037,1593 2000,1572 1926,1600 1894,1573 1845,1593 1794,1572 1750,1602 1718,1584 1592,1589"/>
+                <Baseline points="1598,1613 1630,1611 1663,1611 1695,1610 1728,1610 1760,1608 1793,1608 1826,1608 1858,1608 1891,1607 1923,1607 1956,1607 1988,1605 2021,1605 2054,1605 2086,1604 2119,1604 2151,1604 2184,1604 2217,1602"/>
+                <TextEquiv>
+                    <Unicode>guerra. El día 9 de julio pa¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l5" custom="readingOrder {index:4;}">
+                <Coords points="1585,1667 1940,1659 1958,1642 2179,1659 2234,1629 2179,1612 2089,1639 2042,1612 1967,1630 1927,1612 1831,1629 1804,1615 1768,1642 1735,1625 1693,1644 1651,1617 1584,1630"/>
+                <Baseline points="1590,1653 1623,1653 1657,1652 1690,1652 1724,1650 1758,1650 1791,1650 1825,1649 1859,1649 1892,1648 1926,1647 1959,1647 1993,1647 2027,1646 2060,1646 2094,1646 2128,1644 2161,1644 2195,1644 2229,1644"/>
+                <TextEquiv>
+                    <Unicode>sado se clausuró dicha confe¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l6" custom="readingOrder {index:5;}">
+                <Coords points="1597,1701 1903,1688 2072,1706 2224,1698 2236,1668 2079,1653 2047,1671 1981,1656 1728,1685 1683,1660 1596,1676"/>
+                <Baseline points="1602,1695 1633,1695 1664,1694 1696,1694 1727,1692 1759,1692 1790,1692 1822,1691 1853,1691 1885,1689 1916,1689 1947,1689 1979,1688 2010,1688 2042,1688 2073,1688 2105,1688 2136,1688 2168,1688 2199,1688 2231,1688"/>
+                <TextEquiv>
+                    <Unicode>vencia, en una sesión plenaria,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l7" custom="readingOrder {index:6;}">
+                <Coords points="1593,1754 1781,1746 1817,1727 1857,1746 1885,1725 1912,1746 2082,1726 2107,1746 2208,1738 2230,1707 1592,1712"/>
+                <Baseline points="1598,1739 1629,1737 1660,1736 1692,1736 1723,1734 1754,1734 1786,1734 1817,1733 1848,1733 1880,1733 1911,1732 1942,1731 1974,1731 2005,1731 2036,1730 2068,1730 2099,1730 2130,1728 2162,1728 2193,1727 2225,1727"/>
+                <TextEquiv>
+                    <Unicode>firmándose el Convenio prime¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l8" custom="readingOrder {index:7;}">
+                <Coords points="1591,1787 1653,1775 1682,1794 1748,1768 1782,1788 2087,1787 2119,1761 2139,1779 2233,1775 2232,1748 2104,1757 2082,1736 1890,1741 1862,1768 1824,1741 1758,1760 1591,1757"/>
+                <Baseline points="1596,1779 1627,1779 1659,1778 1690,1778 1722,1778 1754,1778 1785,1776 1817,1776 1848,1776 1880,1775 1912,1775 1943,1774 1975,1773 2006,1773 2038,1772 2070,1772 2101,1772 2133,1771 2164,1770 2196,1770 2228,1769"/>
+                <TextEquiv>
+                    <Unicode>ro, por Mr. MeDonald, come</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l9" custom="readingOrder {index:8;}">
+                <Coords points="1584,1827 1790,1828 1807,1811 1840,1828 2227,1826 2227,1789 2063,1781 1971,1808 1930,1781 1894,1809 1859,1784 1830,1802 1584,1798"/>
+                <Baseline points="1589,1820 1620,1820 1652,1819 1683,1818 1715,1818 1747,1818 1778,1817 1810,1817 1842,1817 1873,1817 1905,1816 1937,1815 1968,1815 2000,1815 2032,1814 2063,1814 2095,1814 2127,1812 2158,1812 2190,1811 2222,1811"/>
+                <TextEquiv>
+                    <Unicode>Presidente de la conferencia,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l10" custom="readingOrder {index:9;}">
+                <Coords points="1585,1867 1755,1855 1791,1875 1850,1848 1888,1871 1942,1850 1998,1867 2222,1856 2221,1832 2129,1819 2074,1844 1885,1821 1855,1839 1608,1828 1585,1843"/>
+                <Baseline points="1590,1862 1621,1862 1652,1862 1684,1862 1715,1861 1746,1860 1778,1860 1809,1859 1840,1858 1872,1857 1903,1857 1934,1856 1966,1856 1997,1854 2028,1854 2060,1853 2091,1853 2122,1853 2154,1853 2185,1853 2217,1854"/>
+                <TextEquiv>
+                    <Unicode>después por los otros delega¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l11" custom="readingOrder {index:10;}">
+                <Coords points="1592,1914 1665,1905 1685,1921 1708,1903 1734,1918 1795,1894 1952,1914 2025,1892 2227,1899 2226,1867 2060,1860 2035,1878 1591,1876"/>
+                <Baseline points="1596,1905 1627,1905 1658,1904 1689,1904 1721,1902 1752,1902 1783,1902 1815,1901 1846,1900 1877,1899 1909,1898 1940,1898 1971,1896 2002,1896 2034,1895 2065,1895 2096,1895 2128,1893 2159,1893 2190,1893 2222,1893"/>
+                <TextEquiv>
+                    <Unicode>dos y por último por Herr von</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_2_1l12" custom="readingOrder {index:11;}">
+                <Coords points="1591,1953 2189,1937 2216,1955 2239,1910 2190,1924 2165,1900 2123,1918 2018,1901 1998,1922 1907,1930 1783,1909 1757,1936 1590,1919"/>
+                <Baseline points="1596,1947 1627,1947 1659,1946 1691,1946 1723,1945 1755,1944 1787,1943 1819,1943 1851,1942 1883,1941 1915,1940 1946,1940 1978,1939 2010,1938 2042,1938 2074,1938 2106,1938 2138,1938 2170,1938 2202,1940 2234,1940"/>
+                <TextEquiv>
+                    <Unicode>Pappen, Baron von Neurath y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>De la última conferencia ce¬lebrada en Lausana para can¬calar las reparaciones de laguerra. El día 9 de julio pa¬sado se clausuró dicha confe¬vencia, en una sesión plenaria,firmándose el Convenio prime¬ro, por Mr. MeDonald, comePresidente de la conferencia,después por los otros delega¬dos y por último por Herr vonPappen, Baron von Neurath y</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_5" custom="readingOrder {index:4;}">
+            <Coords points="234,290 2213,290 2213,315 234,315"/>
+        </SeparatorRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_3_1" custom="readingOrder {index:5;} structure {type:caption;}">
+            <Coords points="224,2354 1041,2354 1041,2571 224,2571"/>
+            <TextLine id="r_3_1l1" custom="readingOrder {index:0;}">
+                <Coords points="223,2395 304,2377 324,2397 487,2398 514,2377 544,2402 734,2379 875,2399 951,2379 978,2403 1021,2394 1022,2360 223,2352"/>
+                <Baseline points="228,2384 267,2384 306,2385 346,2385 385,2385 425,2385 464,2385 503,2385 543,2384 582,2384 622,2384 661,2384 700,2384 740,2384 779,2385 819,2385 858,2385 897,2385 937,2387 976,2387 1016,2388"/>
+                <TextEquiv>
+                    <Unicode>los restantes Ministros alemanes que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l2" custom="readingOrder {index:1;}">
+                <Coords points="228,2442 493,2421 528,2441 574,2421 632,2444 916,2438 966,2418 1023,2438 1037,2404 228,2405"/>
+                <Baseline points="233,2427 275,2427 317,2427 359,2427 401,2427 443,2427 485,2427 527,2427 569,2427 611,2427 653,2427 695,2427 737,2427 779,2427 821,2427 863,2427 905,2427 947,2427 989,2427 1032,2427"/>
+                <TextEquiv>
+                    <Unicode>concurrieron en representación de su</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l3" custom="readingOrder {index:2;}">
+                <Coords points="222,2484 657,2465 685,2483 742,2459 989,2479 1024,2471 1024,2443 222,2448"/>
+                <Baseline points="227,2472 266,2472 306,2472 345,2472 385,2471 425,2471 464,2470 504,2469 543,2469 583,2468 623,2468 662,2468 702,2466 741,2466 781,2466 821,2465 860,2465 900,2465 939,2465 979,2463 1019,2463"/>
+                <TextEquiv>
+                    <Unicode>pais. (En el óvalo) El "Premier" Mr¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l4" custom="readingOrder {index:3;}">
+                <Coords points="235,2521 1028,2523 1006,2476 843,2498 664,2476 638,2503 595,2478 235,2483"/>
+                <Baseline points="240,2510 279,2511 318,2511 357,2511 396,2511 435,2511 474,2511 514,2511 553,2511 592,2510 631,2510 670,2510 709,2510 748,2510 788,2508 827,2508 866,2508 905,2508 944,2509 983,2510 1023,2510"/>
+                <TextEquiv>
+                    <Unicode>Gerriot, de Francia, hablando con Mile</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l5" custom="readingOrder {index:4;}">
+                <Coords points="225,2562 946,2562 922,2528 779,2518 514,2541 422,2522 377,2548 343,2525 225,2526"/>
+                <Baseline points="230,2555 265,2556 301,2556 336,2555 372,2555 407,2555 443,2555 478,2554 514,2553 549,2553 585,2552 621,2552 656,2552 692,2552 727,2550 763,2550 798,2550 834,2550 869,2550 905,2551 941,2552"/>
+                <TextEquiv>
+                    <Unicode>Claude Allain, periodista francesa.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>los restantes Ministros alemanes queconcurrieron en representación de supais. (En el óvalo) El "Premier" Mr¬Gerriot, de Francia, hablando con MileClaude Allain, periodista francesa.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_6" custom="readingOrder {index:6;}">
+            <Coords points="272,402 1391,402 1391,416 272,416"/>
+        </SeparatorRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:7;} structure {type:caption;}">
+            <Coords points="223,2623 1041,2623 1041,3211 223,3211"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;}">
+                <Coords points="264,2671 623,2649 720,2675 827,2647 1024,2667 1024,2634 629,2620 480,2644 447,2621 304,2620 264,2641"/>
+                <Baseline points="269,2658 306,2657 344,2657 381,2655 419,2655 456,2655 494,2654 531,2654 569,2654 606,2654 644,2654 681,2654 719,2654 756,2654 794,2654 831,2654 869,2654 906,2654 944,2654 981,2654 1019,2654"/>
+                <TextEquiv>
+                    <Unicode>¿Volverán a ser "mojados" los Esta</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l2" custom="readingOrder {index:1;}">
+                <Coords points="228,2707 1024,2698 1024,2676 912,2668 228,2674"/>
+                <Baseline points="233,2699 272,2699 311,2699 350,2699 390,2698 429,2697 468,2697 508,2697 547,2697 586,2697 626,2697 665,2696 704,2696 743,2696 783,2696 822,2696 861,2694 901,2694 940,2694 979,2693 1019,2693"/>
+                <TextEquiv>
+                    <Unicode>dos Unidos? Vista general de la con</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l3" custom="readingOrder {index:2;}">
+                <Coords points="231,2747 1042,2740 1042,2718 959,2708 231,2717"/>
+                <Baseline points="236,2738 276,2738 316,2739 356,2739 396,2739 436,2739 476,2739 516,2739 556,2738 596,2738 636,2738 676,2738 716,2736 756,2736 796,2736 836,2736 876,2736 916,2735 956,2735 996,2735 1037,2735"/>
+                <TextEquiv>
+                    <Unicode>vención nacional del Partido Demócra¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l4" custom="readingOrder {index:3;}">
+                <Coords points="222,2792 1021,2786 1039,2757 222,2760"/>
+                <Baseline points="227,2781 267,2781 307,2781 348,2780 388,2780 428,2780 469,2780 509,2780 549,2780 590,2780 630,2778 670,2778 711,2778 751,2778 791,2778 832,2778 872,2778 912,2777 953,2777 993,2777 1034,2777"/>
+                <TextEquiv>
+                    <Unicode>ta, celebrada en el "Stadium de Chica¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l5" custom="readingOrder {index:4;}">
+                <Coords points="222,2842 976,2834 1031,2821 1031,2789 222,2810"/>
+                <Baseline points="227,2826 269,2825 311,2825 353,2823 395,2823 437,2822 479,2822 521,2822 563,2822 605,2822 647,2820 689,2820 731,2820 773,2820 815,2820 857,2820 899,2820 941,2820 983,2819 1026,2819"/>
+                <TextEquiv>
+                    <Unicode>go y que ha sorprendido at mundo, pri¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l6" custom="readingOrder {index:5;}">
+                <Coords points="228,2874 617,2856 636,2875 1031,2874 1031,2828 856,2829 831,2853 741,2828 228,2843"/>
+                <Baseline points="233,2862 272,2862 312,2862 351,2863 391,2864 431,2864 470,2864 510,2864 550,2862 589,2862 629,2862 669,2862 708,2861 748,2861 788,2861 827,2861 867,2861 907,2860 946,2859 986,2859 1026,2859"/>
+                <TextEquiv>
+                    <Unicode>mero, al elegir a Franklyn Roosevelt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l7" custom="readingOrder {index:6;}">
+                <Coords points="229,2915 1032,2915 1043,2883 229,2884"/>
+                <Baseline points="234,2906 274,2906 314,2906 354,2906 394,2905 435,2904 475,2904 515,2904 555,2904 595,2904 636,2904 676,2904 716,2904 756,2904 796,2904 837,2904 877,2903 917,2903 957,2903 997,2903 1038,2903"/>
+                <TextEquiv>
+                    <Unicode>como candidato a la Presidencia de la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l8" custom="readingOrder {index:7;}">
+                <Coords points="226,2956 1031,2946 1016,2918 226,2924"/>
+                <Baseline points="231,2946 270,2946 310,2946 350,2947 390,2948 429,2948 469,2948 509,2948 549,2948 588,2948 628,2946 668,2946 708,2946 747,2946 787,2945 827,2945 867,2945 906,2943 946,2943 986,2943 1026,2942"/>
+                <TextEquiv>
+                    <Unicode>nación, y segundo, al proponer una en¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l9" custom="readingOrder {index:8;}">
+                <Coords points="223,2998 1043,2988 1013,2954 954,2980 829,2954 223,2966"/>
+                <Baseline points="228,2988 268,2988 309,2988 349,2988 390,2988 430,2988 471,2988 511,2988 552,2988 592,2988 633,2988 673,2988 714,2988 754,2987 795,2987 835,2987 876,2988 916,2988 957,2988 997,2988 1038,2988"/>
+                <TextEquiv>
+                    <Unicode>mienda de la llamada Ley Seca. ¿Se</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l10" custom="readingOrder {index:9;}">
+                <Coords points="229,3042 991,3038 1040,3010 228,3006"/>
+                <Baseline points="234,3029 274,3029 314,3029 354,3029 394,3029 434,3029 474,3027 514,3027 554,3027 594,3027 634,3027 674,3027 714,3027 754,3027 794,3027 834,3026 874,3026 914,3026 954,3026 994,3024 1035,3024"/>
+                <TextEquiv>
+                    <Unicode>verán libres los Estados Unidos del con¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l11" custom="readingOrder {index:10;}">
+                <Coords points="225,3081 1035,3069 1034,3048 881,3036 224,3045"/>
+                <Baseline points="230,3071 272,3069 314,3069 356,3069 398,3069 440,3069 482,3069 524,3069 566,3069 608,3069 650,3069 692,3069 734,3069 776,3069 818,3069 860,3068 902,3068 944,3068 986,3068 1029,3066"/>
+                <TextEquiv>
+                    <Unicode>trabando de licores y bebidas más o me¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l12" custom="readingOrder {index:11;}">
+                <Coords points="228,3124 987,3122 1039,3112 1039,3085 228,3092"/>
+                <Baseline points="233,3111 273,3111 313,3111 353,3111 393,3111 433,3111 473,3111 513,3111 553,3111 593,3110 633,3110 673,3110 713,3110 753,3110 793,3110 833,3110 873,3110 913,3110 953,3110 993,3110 1034,3108"/>
+                <TextEquiv>
+                    <Unicode>nos alcohólicas? ¿Podrán sus ciudadanos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l13" custom="readingOrder {index:12;}">
+                <Coords points="231,3164 1033,3162 1033,3119 231,3133"/>
+                <Baseline points="236,3152 275,3152 315,3153 354,3153 394,3153 434,3153 473,3152 513,3152 552,3152 592,3152 632,3152 671,3152 711,3152 750,3152 790,3152 830,3152 869,3150 909,3150 948,3150 988,3150 1028,3149"/>
+                <TextEquiv>
+                    <Unicode>volver a vendir libre culto a Baco? El</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l14" custom="readingOrder {index:13;}">
+                <Coords points="235,3205 320,3210 370,3197 400,3209 417,3194 432,3204 521,3204 521,3168 512,3165 484,3173 439,3165 426,3178 391,3164 366,3176 235,3165"/>
+                <Baseline points="240,3194 265,3195 290,3195 315,3195 340,3195 365,3194 390,3194 415,3194 440,3194 465,3195 490,3195 516,3197"/>
+                <TextEquiv>
+                    <Unicode>tiempo lo dirá.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>¿Volverán a ser "mojados" los Estados Unidos? Vista general de la convención nacional del Partido Demócra¬ta, celebrada en el "Stadium de Chica¬go y que ha sorprendido at mundo, pri¬mero, al elegir a Franklyn Rooseveltcomo candidato a la Presidencia de lanación, y segundo, al proponer una en¬mienda de la llamada Ley Seca. ¿Severán libres los Estados Unidos del con¬trabando de licores y bebidas más o me¬nos alcohólicas? ¿Podrán sus ciudadanosvolver a vendir libre culto a Baco? Eltiempo lo dirá.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:8;}">
+            <Coords points="1391,410 2256,410 2256,429 1391,429"/>
+        </SeparatorRegion>
+        <ImageRegion id="r_3" custom="readingOrder {index:9;} structure {type:photograph;}">
+            <Coords points="1087,2017 2217,2017 2217,3209 1087,3209"/>
+        </ImageRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:10;}">
+            <Coords points="228,1378 457,1378 457,1390 228,1390"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:11;}">
+            <Coords points="1327,1387 2234,1387 2234,1397 1327,1397"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:12;}">
+            <Coords points="1486,2008 2245,2008 2245,2023 1486,2023"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:13;}">
+            <Coords points="225,2231 548,2231 548,2240 225,2240"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:14;}">
+            <Coords points="224,2244 570,2244 570,2252 224,2252"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:15;}">
+            <Coords points="224,2256 588,2256 588,2262 224,2262"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:16;}">
+            <Coords points="546,2597 721,2597 721,2601 546,2601"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:17;}">
+            <Coords points="1176,3204 2226,3204 2226,3213 1176,3213"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:18;}">
+            <Coords points="229,290 265,290 265,1389 229,1389"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:19;}">
+            <Coords points="1082,2265 1095,2265 1095,3210 1082,3210"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:20;}">
+            <Coords points="1447,1388 1454,1388 1454,1496 1447,1496"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:21;}">
+            <Coords points="1457,1387 1464,1387 1464,1512 1457,1512"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_20" custom="readingOrder {index:22;}">
+            <Coords points="1469,1388 1475,1388 1475,1532 1469,1532"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_21" custom="readingOrder {index:23;}">
+            <Coords points="2206,850 2218,850 2218,1396 2206,1396"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_22" custom="readingOrder {index:24;}">
+            <Coords points="2215,303 2257,303 2257,1397 2215,1397"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_23" custom="readingOrder {index:25;}">
+            <Coords points="2215,2013 2240,2013 2240,3213 2215,3213"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_24" custom="readingOrder {index:26;}">
+            <Coords points="452,398 484,398 484,400 452,400"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_25" custom="readingOrder {index:27;}">
+            <Coords points="637,2166 640,2166 640,2198 637,2198"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

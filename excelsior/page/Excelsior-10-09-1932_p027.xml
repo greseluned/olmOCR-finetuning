@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-04T10:40:20.498+02:00</Created>
+        <LastChange>2026-04-21T19:34:27.696+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="520120" pageId="22151750" pageNr="27" tsid="284585693" status="DONE" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=PPROOCQYOIAHBDKWYKOWEWIE" xmlUrl="https://files.transkribus.eu/Get?id=JCJKVFCVETPJJXZABDGFEHKY" imageId="17246092"/>
+    </Metadata>
+    <Page imageFilename="0027_p027.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="204,333 2248,333 2248,3169 204,3169"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1776807549424" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r_1_1"/>
+                <RegionRefIndexed index="2" regionRef="r_3_1"/>
+                <RegionRefIndexed index="3" regionRef="r"/>
+                <RegionRefIndexed index="4" regionRef="r_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_5"/>
+                <RegionRef regionRef="r_1"/>
+            </Relation>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r_1_1"/>
+                <RegionRef regionRef="r_3_1"/>
+            </Relation>
+        </Relations>
+        <GraphicRegion id="r_2" custom="readingOrder {index:0;} structure {type:photograph;}">
+            <Coords points="215,435 1376,435 1376,1994 215,1994"/>
+        </GraphicRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_1_1" custom="readingOrder {index:1;} structure {type:title;}">
+            <Coords points="1556,386 2110,386 2110,447 1556,447"/>
+            <TextLine id="r_1_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1561,442 2101,448 2095,389 1904,389 1876,411 1854,388 1767,389 1741,410 1718,389 1562,386"/>
+                <Baseline points="1566,431 1592,431 1619,432 1645,432 1672,432 1698,433 1725,434 1751,434 1778,434 1804,434 1831,434 1857,434 1884,435 1910,435 1937,435 1963,435 1990,435 2016,436 2043,437 2069,437 2096,438"/>
+                <TextEquiv>
+                    <Unicode>NOTA DE ALBAY</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>NOTA DE ALBAY</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_3_1" custom="readingOrder {index:2;} structure {type:paragraph;}">
+            <Coords points="1426,539 2203,539 2203,1954 1426,1954"/>
+            <TextLine id="r_3_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1473,577 2131,594 2179,586 2180,548 1863,541 1837,563 1808,540 1620,558 1474,541"/>
+                <Baseline points="1478,570 1512,570 1547,572 1582,572 1617,572 1652,572 1686,573 1721,573 1756,573 1791,573 1826,575 1860,575 1895,575 1930,575 1965,576 2000,576 2034,576 2069,578 2104,578 2139,578 2174,579"/>
+                <TextEquiv>
+                    <Unicode>En la residencia de los distingui¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1434,649 1893,637 2189,658 2189,612 2164,604 2017,605 1993,629 1961,605 1899,624 1659,604 1633,627 1434,605"/>
+                <Baseline points="1439,635 1476,635 1513,635 1550,635 1588,635 1625,636 1662,636 1699,636 1737,636 1774,636 1811,636 1848,636 1886,637 1923,638 1960,638 1997,638 2035,639 2072,639 2109,639 2146,641 2184,642"/>
+                <TextEquiv>
+                    <Unicode>dos Sres. de Almagro (D. Antonio),</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1428,705 1984,699 2015,718 2140,694 2186,713 2194,668 1848,679 1825,661 1788,689 1647,660 1428,675"/>
+                <Baseline points="1433,695 1470,695 1508,695 1546,695 1584,696 1622,696 1659,696 1697,696 1735,696 1773,697 1811,698 1848,698 1886,698 1924,698 1962,699 2000,699 2037,699 2075,699 2113,701 2151,701 2189,702"/>
+                <TextEquiv>
+                    <Unicode>se entronizó con el mayor fervor el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l4" custom="readingOrder {index:3;}">
+                <Coords points="1422,760 2203,763 2187,733 2151,750 2118,725 2074,744 2041,724 2013,751 1962,725 1870,744 1824,725 1797,751 1760,725 1422,737"/>
+                <Baseline points="1427,758 1465,758 1504,758 1542,758 1581,758 1619,758 1658,758 1696,759 1735,759 1773,759 1812,759 1851,759 1889,761 1928,761 1966,761 2005,761 2043,762 2082,762 2120,762 2159,764 2198,764"/>
+                <TextEquiv>
+                    <Unicode>Sagrado Corazón de Jesús, el día 4</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l5" custom="readingOrder {index:4;}">
+                <Coords points="1434,827 2201,822 2175,796 2088,789 1434,796"/>
+                <Baseline points="1439,821 1476,821 1514,821 1552,821 1590,821 1628,821 1666,821 1703,821 1741,821 1779,822 1817,822 1855,822 1893,822 1931,822 1968,823 2006,824 2044,824 2082,824 2120,824 2158,824 2196,824"/>
+                <TextEquiv>
+                    <Unicode>del presente mes, asistiendo a la so¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l6" custom="readingOrder {index:5;}">
+                <Coords points="1428,885 2194,889 2194,858 1940,875 1887,851 1559,869 1428,848"/>
+                <Baseline points="1433,881 1470,881 1508,882 1546,882 1584,884 1622,884 1659,884 1697,884 1735,884 1773,884 1811,884 1848,884 1886,884 1924,884 1962,884 2000,884 2037,884 2075,884 2113,884 2151,885 2189,885"/>
+                <TextEquiv>
+                    <Unicode>lemne ceremonia las numerosas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l7" custom="readingOrder {index:6;}">
+                <Coords points="1440,955 2194,948 2175,924 2059,917 1853,936 1791,909 1710,933 1680,908 1640,932 1591,909 1441,916"/>
+                <Baseline points="1445,944 1482,944 1519,944 1556,944 1593,944 1631,944 1668,944 1705,945 1742,945 1779,945 1817,945 1854,945 1891,945 1928,945 1965,945 2003,945 2040,945 2077,946 2114,947 2151,947 2189,947"/>
+                <TextEquiv>
+                    <Unicode>amistades de dichos señores, tan co¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l8" custom="readingOrder {index:7;}">
+                <Coords points="1426,1012 2189,1019 2189,986 2156,973 2044,997 2002,974 1869,995 1824,973 1426,984"/>
+                <Baseline points="1431,1005 1468,1005 1506,1005 1543,1007 1581,1007 1619,1007 1656,1007 1694,1007 1732,1007 1769,1007 1807,1007 1845,1007 1882,1007 1920,1007 1958,1007 1995,1007 2033,1007 2071,1008 2108,1008 2146,1010 2184,1010"/>
+                <TextEquiv>
+                    <Unicode>nocidos y apreciados en esta región.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l9" custom="readingOrder {index:8;}">
+                <Coords points="1473,1075 2192,1074 2192,1052 2119,1035 2061,1054 2024,1036 1680,1036 1656,1059 1473,1039"/>
+                <Baseline points="1478,1067 1513,1067 1548,1068 1584,1068 1619,1068 1655,1070 1690,1070 1726,1070 1761,1070 1797,1070 1832,1070 1867,1070 1903,1070 1938,1070 1974,1070 2009,1070 2045,1070 2080,1070 2116,1070 2151,1070 2187,1068"/>
+                <TextEquiv>
+                    <Unicode>El Sr. Almagro leyó el solem¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l10" custom="readingOrder {index:9;}">
+                <Coords points="1431,1138 1502,1121 2037,1150 2099,1127 2130,1150 2182,1142 2198,1104 1431,1108"/>
+                <Baseline points="1436,1130 1473,1130 1511,1130 1549,1130 1587,1130 1625,1130 1663,1130 1700,1131 1738,1131 1776,1131 1814,1131 1852,1131 1890,1131 1928,1131 1965,1131 2003,1131 2041,1131 2079,1131 2117,1131 2155,1131 2193,1130"/>
+                <TextEquiv>
+                    <Unicode>ne acto de, consagración, que fue</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l11" custom="readingOrder {index:10;}">
+                <Coords points="1438,1202 1632,1202 1652,1182 1672,1202 1841,1210 1960,1186 2192,1207 2192,1170 2138,1186 2104,1157 1438,1167"/>
+                <Baseline points="1443,1190 1480,1190 1517,1190 1554,1191 1591,1191 1629,1191 1666,1191 1703,1191 1740,1191 1777,1191 1815,1192 1852,1193 1889,1193 1926,1193 1963,1193 2001,1194 2038,1194 2075,1195 2112,1196 2149,1197 2187,1197"/>
+                <TextEquiv>
+                    <Unicode>escuchado con religioso silencio y</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l12" custom="readingOrder {index:11;}">
+                <Coords points="1428,1259 2201,1271 2201,1236 2176,1229 1428,1237"/>
+                <Baseline points="1433,1254 1471,1254 1509,1256 1547,1256 1585,1256 1623,1256 1661,1256 1700,1256 1738,1256 1776,1256 1814,1256 1852,1256 1890,1256 1928,1256 1967,1256 2005,1256 2043,1256 2081,1257 2119,1257 2157,1257 2196,1259"/>
+                <TextEquiv>
+                    <Unicode>emoción por todos los circunstantes,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l13" custom="readingOrder {index:12;}">
+                <Coords points="1441,1326 2192,1322 2192,1292 2147,1285 1733,1306 1664,1285 1584,1309 1531,1285 1441,1291"/>
+                <Baseline points="1446,1316 1483,1316 1520,1316 1557,1316 1594,1316 1631,1316 1668,1316 1705,1316 1742,1317 1779,1316 1816,1316 1853,1316 1890,1316 1927,1316 1964,1316 2001,1316 2038,1316 2075,1317 2112,1316 2149,1317 2187,1317"/>
+                <TextEquiv>
+                    <Unicode>de los cuales por sernos imposibles</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l14" custom="readingOrder {index:13;}">
+                <Coords points="1434,1388 2078,1394 2195,1375 2154,1350 2031,1345 1956,1368 1814,1345 1434,1356"/>
+                <Baseline points="1439,1379 1476,1379 1514,1379 1551,1379 1589,1379 1626,1379 1664,1379 1701,1379 1739,1379 1776,1379 1814,1379 1852,1379 1889,1379 1927,1379 1964,1379 2002,1379 2039,1380 2077,1380 2114,1380 2152,1380 2190,1380"/>
+                <TextEquiv>
+                    <Unicode>consignar los nombres de todos, men¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l15" custom="readingOrder {index:14;}">
+                <Coords points="1434,1450 2198,1457 2187,1405 1434,1418"/>
+                <Baseline points="1439,1440 1476,1440 1514,1440 1552,1440 1589,1440 1627,1440 1665,1440 1702,1440 1740,1440 1778,1440 1816,1440 1853,1442 1891,1442 1929,1442 1966,1442 2004,1442 2042,1443 2079,1443 2117,1443 2155,1443 2193,1443"/>
+                <TextEquiv>
+                    <Unicode>cionaremos solo a los Sres. de Achaval,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l16" custom="readingOrder {index:15;}">
+                <Coords points="1435,1514 2204,1507 2174,1469 2135,1493 2095,1469 1953,1469 1930,1492 1850,1468 1719,1493 1629,1469 1435,1475"/>
+                <Baseline points="1440,1502 1479,1502 1519,1503 1559,1503 1599,1503 1639,1503 1679,1503 1719,1503 1759,1502 1799,1502 1839,1502 1879,1502 1919,1502 1959,1502 1999,1502 2039,1503 2079,1503 2119,1503 2159,1503 2199,1503"/>
+                <TextEquiv>
+                    <Unicode>de Aramburu, de Alzua, de Pigón, de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l17" custom="readingOrder {index:16;}">
+                <Coords points="1429,1565 2204,1572 2159,1533 1919,1532 1891,1554 1783,1533 1429,1540"/>
+                <Baseline points="1434,1563 1472,1563 1510,1563 1548,1563 1587,1563 1625,1563 1663,1563 1701,1563 1740,1563 1778,1563 1816,1563 1854,1563 1893,1563 1931,1563 1969,1563 2007,1565 2046,1565 2084,1565 2122,1565 2160,1565 2199,1566"/>
+                <TextEquiv>
+                    <Unicode>Cervantes, de Blanco, de Albaladejo,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l18" custom="readingOrder {index:17;}">
+                <Coords points="1428,1632 2195,1626 2175,1600 2063,1589 2028,1616 2000,1589 1957,1616 1814,1589 1682,1618 1640,1589 1427,1609"/>
+                <Baseline points="1433,1625 1470,1626 1508,1626 1546,1626 1584,1626 1622,1626 1660,1626 1697,1626 1735,1626 1773,1626 1811,1626 1849,1626 1887,1626 1925,1626 1962,1625 2000,1625 2038,1625 2076,1625 2114,1625 2152,1625 2190,1625"/>
+                <TextEquiv>
+                    <Unicode>de Alegría, de Gimenez, de Cerque¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l19" custom="readingOrder {index:18;}">
+                <Coords points="1437,1698 1573,1698 1603,1676 1626,1698 2203,1693 2203,1664 2170,1652 1896,1672 1850,1653 1824,1676 1768,1653 1593,1671 1552,1653 1527,1678 1437,1653"/>
+                <Baseline points="1442,1688 1479,1688 1517,1688 1555,1688 1593,1688 1631,1688 1668,1688 1706,1687 1744,1686 1782,1686 1820,1686 1857,1686 1895,1686 1933,1686 1971,1686 2009,1686 2046,1686 2084,1686 2122,1687 2160,1688 2198,1688"/>
+                <TextEquiv>
+                    <Unicode>lla, de Valencia, de Gutierrez, de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l20" custom="readingOrder {index:19;}">
+                <Coords points="1435,1754 2204,1748 2184,1717 2040,1717 2011,1738 1841,1716 1817,1740 1743,1715 1435,1717"/>
+                <Baseline points="1440,1748 1479,1748 1519,1749 1559,1749 1599,1749 1639,1749 1679,1749 1719,1749 1759,1748 1799,1748 1839,1748 1879,1748 1919,1748 1959,1748 1999,1748 2039,1749 2079,1749 2119,1749 2159,1749 2199,1749"/>
+                <TextEquiv>
+                    <Unicode>Yesiar Sra. Vda. de Gaya, los RR.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l21" custom="readingOrder {index:20;}">
+                <Coords points="1428,1814 2078,1828 2177,1818 2204,1788 1428,1790"/>
+                <Baseline points="1433,1811 1471,1811 1509,1811 1547,1809 1586,1809 1624,1809 1662,1809 1701,1809 1739,1809 1777,1809 1816,1809 1854,1809 1892,1809 1930,1809 1969,1809 2007,1809 2045,1809 2084,1809 2122,1809 2160,1809 2199,1809"/>
+                <TextEquiv>
+                    <Unicode>PP Fernández, Maté, Ubierna y Ma¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l22" custom="readingOrder {index:21;}">
+                <Coords points="1438,1886 2207,1873 2133,1836 2083,1862 2022,1837 1936,1837 1910,1863 1806,1836 1747,1856 1657,1837 1636,1858 1577,1837 1505,1864 1438,1842"/>
+                <Baseline points="1443,1875 1482,1875 1522,1875 1562,1874 1602,1874 1642,1874 1682,1872 1722,1872 1762,1872 1802,1872 1842,1872 1882,1872 1922,1872 1962,1871 2002,1871 2042,1871 2082,1871 2122,1871 2162,1871 2202,1871"/>
+                <TextEquiv>
+                    <Unicode>ta, y los Sres. Feran, Muñoz, Hon.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l23" custom="readingOrder {index:22;}">
+                <Coords points="1431,1946 2134,1940 2134,1912 2075,1900 1815,1900 1788,1923 1751,1901 1652,1901 1624,1929 1579,1900 1539,1922 1431,1910"/>
+                <Baseline points="1436,1935 1470,1935 1505,1936 1539,1937 1574,1937 1609,1937 1643,1937 1678,1935 1713,1935 1747,1935 1782,1935 1817,1934 1851,1934 1886,1934 1921,1934 1955,1934 1990,1934 2025,1934 2059,1934 2094,1934 2129,1935"/>
+                <TextEquiv>
+                    <Unicode>Juez Sr. Arcilla, Balibrea, Guiro.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>En la residencia de los distingui¬dos Sres. de Almagro (D. Antonio),se entronizó con el mayor fervor elSagrado Corazón de Jesús, el día ldel presente mes, asistiendo a la so¬lemne ceremonia las numerosasamistades de dichos señores, tan co¬nocidos y apreciados en esta región.El Sr. Almagro leyó el solem¬ne acto de, consagración, que fueescuchado con religioso silencio yemoción por todos los circunstantes,de los cuales por sernos imposiblesconsignar los nombres de todos, mencionaremos solo a los Sres. de Achaval,de Aramburu, de Alzua, de Pigón, deCervantes, de Blanco, de Albaladejo,de Alegría, de Gimenez, de Cerque¬lla, de Valencia, de Gutierrez, deYesiar Sra. Vda. de Gaya, los RR.PP Fernández, Maté, Ubierna y Ma¬ta, y los Sres. Feran, Muñoz, Hon.Juez Sr. Arcilla, Balibrea, Guiro.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:3;} structure {type:caption;}">
+            <Coords points="204,2513 204,2085 629,2085 629,2513"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="241,2118 257,2130 339,2130 357,2118 414,2138 529,2128 625,2138 627,2086 571,2103 242,2088"/>
+                <Baseline points="246,2117 271,2117 296,2117 321,2117 346,2117 371,2118 396,2118 421,2120 446,2120 471,2121 496,2123 521,2124 546,2125 571,2126 596,2126 621,2126"/>
+                <TextEquiv>
+                    <Unicode>Foto superior: El</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:1;}">
+                <Coords points="207,2186 458,2188 471,2202 546,2184 567,2198 622,2190 622,2170 552,2170 534,2152 508,2163 488,2149 457,2165 432,2149 374,2158 359,2145 322,2166 263,2147 207,2156"/>
+                <Baseline points="212,2177 237,2177 262,2177 287,2178 313,2180 338,2180 363,2181 389,2181 414,2182 439,2183 465,2184 490,2184 515,2184 541,2186 566,2186 591,2186 617,2186"/>
+                <TextEquiv>
+                    <Unicode>altar donde fué en¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:2;}">
+                <Coords points="211,2250 400,2246 442,2259 469,2246 551,2266 632,2263 633,2227 490,2213 471,2232 425,2212 403,2233 365,2212 212,2213"/>
+                <Baseline points="216,2237 241,2238 267,2240 293,2241 318,2242 344,2243 370,2243 395,2244 421,2244 447,2246 472,2246 498,2246 524,2247 549,2248 575,2249 601,2249 627,2250"/>
+                <TextEquiv>
+                    <Unicode>tronizada la imagen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:3;}">
+                <Coords points="204,2310 268,2314 290,2300 353,2322 474,2310 591,2318 616,2311 617,2287 528,2273 484,2298 455,2269 372,2286 320,2269 294,2294 269,2269 205,2281"/>
+                <Baseline points="210,2300 235,2301 260,2301 285,2303 310,2303 335,2304 360,2304 385,2305 411,2306 436,2306 461,2306 486,2307 511,2307 536,2307 561,2307 586,2307 612,2306"/>
+                <TextEquiv>
+                    <Unicode>del Sagrado Cora¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_4" custom="readingOrder {index:4;}">
+                <Coords points="208,2370 616,2378 617,2347 598,2332 564,2353 520,2341 502,2355 465,2333 436,2345 384,2333 366,2350 328,2332 298,2351 255,2331 209,2341"/>
+                <Baseline points="213,2360 239,2362 266,2364 292,2364 319,2366 345,2366 372,2366 398,2366 425,2366 451,2367 478,2367 504,2367 531,2367 557,2368 584,2369 611,2370"/>
+                <TextEquiv>
+                    <Unicode>zón de Jesús en la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:5;}">
+                <Coords points="208,2434 403,2439 424,2420 463,2442 501,2443 542,2420 563,2442 615,2442 626,2407 472,2397 411,2408 384,2392 366,2405 324,2405 309,2391 264,2406 209,2398"/>
+                <Baseline points="213,2420 238,2422 263,2423 289,2424 314,2426 340,2426 365,2427 391,2427 416,2429 441,2429 467,2429 492,2430 518,2430 543,2432 569,2432 594,2433 620,2433"/>
+                <TextEquiv>
+                    <Unicode>residencia de los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_6" custom="readingOrder {index:6;}">
+                <Coords points="211,2498 400,2490 410,2500 531,2507 595,2498 595,2473 575,2469 464,2467 432,2453 407,2471 359,2459 315,2480 293,2461 211,2452"/>
+                <Baseline points="216,2486 242,2487 269,2487 296,2489 322,2489 349,2489 376,2489 403,2490 429,2490 456,2490 483,2490 509,2490 536,2491 563,2492 590,2493"/>
+                <TextEquiv>
+                    <Unicode>Sres. de Almagro.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:4;} structure {type:caption;}">
+            <Coords points="629,2513 629,3063 204,3063 204,2513"/>
+            <TextLine id="l_7" custom="readingOrder {index:0;}">
+                <Coords points="237,2580 610,2587 620,2562 566,2541 463,2541 449,2555 417,2541 395,2550 377,2541 290,2548 273,2533 238,2542"/>
+                <Baseline points="243,2568 269,2570 296,2570 322,2570 349,2571 375,2571 402,2573 429,2573 455,2573 482,2573 508,2574 535,2574 561,2574 588,2576 615,2576"/>
+                <TextEquiv>
+                    <Unicode>Foto de la derecha.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_8" custom="readingOrder {index:1;}">
+                <Coords points="198,2631 289,2650 340,2633 367,2633 386,2651 528,2642 545,2625 576,2646 626,2640 626,2606 599,2601 574,2613 432,2605 369,2620 242,2596 198,2605"/>
+                <Baseline points="203,2628 229,2630 255,2631 281,2632 307,2633 333,2634 359,2634 385,2634 412,2634 438,2634 464,2634 490,2634 516,2634 542,2636 568,2636 594,2637 621,2639"/>
+                <TextEquiv>
+                    <Unicode>Grupo general de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_9" custom="readingOrder {index:2;}">
+                <Coords points="205,2700 617,2702 617,2679 589,2661 535,2675 205,2662"/>
+                <Baseline points="210,2690 235,2691 260,2691 285,2691 310,2692 335,2693 360,2693 385,2693 411,2694 436,2694 461,2694 486,2695 511,2696 536,2696 561,2697 586,2697 612,2699"/>
+                <TextEquiv>
+                    <Unicode>las numerosas amis¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_10" custom="readingOrder {index:3;}">
+                <Coords points="198,2759 626,2765 626,2738 599,2725 555,2736 474,2719 453,2734 392,2723 379,2735 343,2721 315,2736 265,2716 250,2731 198,2731"/>
+                <Baseline points="203,2751 229,2753 255,2754 281,2754 307,2755 333,2756 359,2756 385,2756 412,2756 438,2756 464,2756 490,2756 516,2756 542,2757 568,2757 594,2758 621,2759"/>
+                <TextEquiv>
+                    <Unicode>tades de los Sres de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_11" custom="readingOrder {index:4;}">
+                <Coords points="202,2827 391,2834 407,2818 471,2828 562,2816 617,2827 632,2825 632,2793 557,2801 535,2789 422,2788 394,2807 351,2790 231,2781 202,2801"/>
+                <Baseline points="207,2816 233,2817 259,2817 285,2817 312,2817 338,2816 364,2816 390,2816 417,2816 443,2816 469,2817 495,2817 522,2817 548,2818 574,2819 600,2820 627,2822"/>
+                <TextEquiv>
+                    <Unicode>Almagro, tomado en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_12" custom="readingOrder {index:5;}">
+                <Coords points="210,2887 258,2876 272,2890 391,2891 406,2880 462,2890 480,2873 499,2891 548,2874 574,2890 616,2882 606,2852 543,2860 512,2845 478,2859 441,2843 411,2866 359,2843 335,2853 289,2843 272,2859 246,2841 210,2853"/>
+                <Baseline points="215,2876 241,2876 267,2876 294,2877 320,2877 347,2877 373,2877 399,2877 426,2877 452,2877 479,2876 505,2876 531,2876 558,2876 584,2876 611,2877"/>
+                <TextEquiv>
+                    <Unicode>el jardín de la re¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_13" custom="readingOrder {index:6;}">
+                <Coords points="211,2939 629,2930 629,2915 587,2896 526,2919 470,2892 442,2913 413,2893 379,2913 343,2893 322,2907 272,2893 211,2903"/>
+                <Baseline points="216,2928 241,2927 267,2928 292,2928 318,2928 343,2928 369,2930 394,2930 420,2930 445,2931 471,2931 496,2931 522,2930 547,2930 573,2928 598,2928 624,2925"/>
+                <TextEquiv>
+                    <Unicode>sidencia de los mis¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_14" custom="readingOrder {index:7;}">
+                <Coords points="204,2992 279,2998 302,2986 318,3002 383,3006 476,2990 543,3002 562,2983 592,3002 625,2993 625,2968 597,2957 571,2969 511,2957 492,2976 453,2957 204,2965"/>
+                <Baseline points="209,2987 234,2988 260,2988 286,2988 311,2990 337,2990 363,2990 388,2990 414,2990 440,2990 465,2990 491,2990 517,2989 542,2988 568,2988 594,2988 620,2987"/>
+                <TextEquiv>
+                    <Unicode>mos después de lo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_15" custom="readingOrder {index:8;}">
+                <Coords points="210,3058 419,3057 419,3034 376,3018 350,3027 330,3022 323,3027 210,3026"/>
+                <Baseline points="215,3051 243,3049 271,3048 300,3048 328,3050 357,3051 385,3051 414,3053"/>
+                <TextEquiv>
+                    <Unicode>ceremonia.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_6" custom="readingOrder {index:5;}">
+            <Coords points="1748,485 1921,485 1921,490 1748,490"/>
+        </SeparatorRegion>
+        <GraphicRegion id="r_5" custom="readingOrder {index:6;} structure {type:photograph;}">
+            <Coords points="630,2016 2248,2016 2248,3169 630,3169"/>
+        </GraphicRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:7;}">
+            <Coords points="862,1070 866,1070 866,1189 862,1189"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

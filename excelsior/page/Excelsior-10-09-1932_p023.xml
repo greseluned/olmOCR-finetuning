@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=Philippine newspapers(htr_id=33524)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2021-06-04T10:40:17.477+02:00</Created>
+        <LastChange>2026-04-21T19:23:12.123+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="520120" pageId="22151709" pageNr="23" tsid="284585440" status="DONE" userId="30120" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=ESYATCRZGMBXYDBMRRZUOVTS" xmlUrl="https://files.transkribus.eu/Get?id=ZEXKOWRWUATSBYEMNVVPGDLM" imageId="17246051"/>
+    </Metadata>
+    <Page imageFilename="0023_p023.jpg" imageWidth="2478" imageHeight="3506">
+        <PrintSpace>
+            <Coords points="217,305 2258,305 2258,3211 217,3211"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1776807547791" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="r"/>
+                <RegionRefIndexed index="2" regionRef="r_1"/>
+                <RegionRefIndexed index="3" regionRef="r_3_1"/>
+                <RegionRefIndexed index="5" regionRef="r_4_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation custom="relationType {value:undefined;} relationName {value:Article;} id {value:rel;}">
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_1"/>
+                <RegionRef regionRef="r_3_1"/>
+                <RegionRef regionRef="r_4_1"/>
+            </Relation>
+        </Relations>
+        <GraphicRegion id="r_2" custom="readingOrder {index:0;}">
+            <Coords points="281,513 744,513 744,771 281,771"/>
+        </GraphicRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:title;}">
+            <Coords points="201,335 2194,335 2194,508 201,508"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="215,430 2144,480 2145,450 216,400"/>
+                <Baseline points="215,430 2144,480"/>
+                <TextEquiv>
+                    <Unicode>Bajo Otro Cielo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:2;} structure {type:credit;}">
+            <Coords points="815,508 2135,508 2135,708 815,708"/>
+            <TextLine id="l_1" custom="readingOrder {index:0;}">
+                <Coords points="1266,553 1448,549 1447,519 1265,523"/>
+                <Baseline points="1266,553 1448,549"/>
+                <TextEquiv>
+                    <Unicode>por</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:1;}">
+                <Coords points="829,662 2117,662 2117,632 829,632"/>
+                <Baseline points="829,662 2117,662"/>
+                <TextEquiv>
+                    <Unicode>MANUEL B. MONTES</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_3_1" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="218,805 1212,805 1212,3211 218,3211"/>
+            <TextLine id="r_3_1l1" custom="readingOrder {index:0;}">
+                <Coords points="613,834 640,850 774,860 814,850 870,859 888,841 1024,851 1025,812 982,802 954,823 932,803 903,803 874,824 815,802 613,804"/>
+                <Baseline points="620,834 646,837 672,838 699,839 725,839 752,840 778,840 805,840 831,840 858,840 884,840 911,840 937,840 964,840 990,840 1017,842"/>
+                <TextEquiv>
+                    <Unicode>Washington, D. C.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l2" custom="readingOrder {index:1;}">
+                <Coords points="628,898 678,913 772,892 990,907 1022,896 1022,880 976,854 917,854 886,875 854,851 827,870 790,857 776,871 732,854 715,868 628,854"/>
+                <Baseline points="636,890 661,891 686,891 711,891 736,891 762,891 787,890 812,890 837,890 862,890 888,890 913,890 938,891 963,891 988,892 1014,893"/>
+                <TextEquiv>
+                    <Unicode>Agosto 3 de 1932.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l3" custom="readingOrder {index:2;}">
+                <Coords points="255,951 1191,955 1211,921 255,909"/>
+                <Baseline points="263,941 312,941 361,941 411,941 460,941 510,941 559,941 608,941 658,941 707,941 757,941 806,941 856,942 905,942 954,942 1004,942 1053,942 1103,942 1152,941 1202,941"/>
+                <TextEquiv>
+                    <Unicode>Durante la última semana se han desarrolla¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l4" custom="readingOrder {index:3;}">
+                <Coords points="220,1003 1217,1003 1217,968 1016,955 220,967"/>
+                <Baseline points="228,992 277,993 326,993 375,993 424,992 473,992 522,992 571,992 620,992 669,992 718,992 767,992 816,992 865,992 914,992 963,992 1012,993 1061,993 1110,993 1159,995 1209,995"/>
+                <TextEquiv>
+                    <Unicode>do en esta capital sucesos y acontecimientos que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l5" custom="readingOrder {index:4;}">
+                <Coords points="219,1057 1211,1054 1211,1009 219,1007"/>
+                <Baseline points="227,1044 275,1044 324,1043 373,1043 422,1043 471,1043 519,1043 568,1043 617,1044 666,1044 715,1044 763,1044 812,1044 861,1044 910,1046 959,1046 1007,1046 1056,1046 1105,1046 1154,1046 1203,1046"/>
+                <TextEquiv>
+                    <Unicode>bien vale la pena de relatarlos, aun cuando ya el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l6" custom="readingOrder {index:5;}">
+                <Coords points="222,1108 1213,1108 1213,1068 1178,1058 998,1083 944,1059 222,1066"/>
+                <Baseline points="231,1095 279,1095 328,1094 377,1094 425,1094 474,1094 523,1094 571,1094 620,1094 669,1094 718,1095 766,1095 815,1095 864,1095 912,1095 961,1095 1010,1097 1058,1097 1107,1097 1156,1097 1205,1097"/>
+                <TextEquiv>
+                    <Unicode>telégrafo habrá llevado estas noticias a los más</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l7" custom="readingOrder {index:6;}">
+                <Coords points="221,1164 845,1156 845,1121 221,1123"/>
+                <Baseline points="230,1148 260,1148 290,1148 321,1147 351,1146 381,1146 412,1146 442,1146 472,1146 503,1146 533,1146 563,1145 594,1145 624,1145 654,1145 685,1146 715,1146 745,1146 776,1146 806,1146 837,1146"/>
+                <TextEquiv>
+                    <Unicode>recónditos confines del mundo.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l8" custom="readingOrder {index:7;}">
+                <Coords points="254,1207 1206,1202 1206,1177 1086,1162 1059,1183 254,1173"/>
+                <Baseline points="263,1200 309,1199 356,1199 403,1197 450,1197 497,1197 543,1197 590,1197 637,1197 684,1197 731,1199 777,1199 824,1199 871,1199 918,1199 965,1200 1011,1200 1058,1199 1105,1199 1152,1199 1199,1197"/>
+                <TextEquiv>
+                    <Unicode>Hace poco más de dos meses, y cuando el Con¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l9" custom="readingOrder {index:8;}">
+                <Coords points="211,1265 1042,1273 1203,1259 1203,1227 211,1230"/>
+                <Baseline points="218,1251 266,1251 315,1250 364,1248 413,1248 462,1248 510,1248 559,1248 608,1248 657,1250 706,1250 754,1250 803,1250 852,1251 901,1251 950,1251 998,1251 1047,1251 1096,1251 1145,1250 1194,1248"/>
+                <TextEquiv>
+                    <Unicode>greso americano se hallaba en sesiones, tratan¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l10" custom="readingOrder {index:9;}">
+                <Coords points="223,1315 1211,1313 1211,1279 1139,1264 805,1265 775,1290 735,1264 650,1288 224,1267"/>
+                <Baseline points="231,1299 279,1299 328,1299 376,1299 425,1299 474,1299 522,1299 571,1299 619,1299 668,1299 717,1299 765,1301 814,1301 862,1301 911,1301 960,1302 1008,1302 1057,1302 1105,1302 1154,1302 1203,1302"/>
+                <TextEquiv>
+                    <Unicode>do de hacer frente a la situación angustiosa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l11" custom="readingOrder {index:10;}">
+                <Coords points="222,1372 1158,1371 1195,1363 1195,1323 222,1330"/>
+                <Baseline points="230,1353 277,1352 325,1352 373,1352 421,1350 469,1350 517,1350 564,1350 612,1350 660,1350 708,1350 756,1350 804,1352 852,1352 899,1352 947,1352 995,1352 1043,1353 1091,1353 1139,1353 1187,1352"/>
+                <TextEquiv>
+                    <Unicode>porque está atravesando este país en la actua¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l12" custom="readingOrder {index:11;}">
+                <Coords points="223,1419 1210,1419 1185,1371 223,1372"/>
+                <Baseline points="231,1403 279,1403 328,1403 376,1403 425,1403 474,1403 522,1403 571,1403 619,1403 668,1403 717,1403 765,1403 814,1403 862,1403 911,1403 960,1403 1008,1404 1057,1404 1105,1404 1154,1406 1203,1406"/>
+                <TextEquiv>
+                    <Unicode>lidad, se inició un movimiento entre muchos de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l13" custom="readingOrder {index:12;}">
+                <Coords points="212,1465 1214,1461 1214,1432 1126,1420 212,1420"/>
+                <Baseline points="221,1454 270,1454 319,1454 368,1454 418,1454 467,1454 516,1454 565,1454 615,1454 664,1454 713,1454 762,1454 812,1455 861,1455 910,1455 959,1455 1009,1455 1058,1454 1107,1454 1156,1454 1206,1454"/>
+                <TextEquiv>
+                    <Unicode>los ex soldados americanos que lucharon en Fran¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l14" custom="readingOrder {index:13;}">
+                <Coords points="219,1520 1159,1524 1204,1520 1204,1478 219,1484"/>
+                <Baseline points="227,1508 275,1508 323,1508 372,1506 420,1506 469,1506 517,1506 566,1506 614,1506 663,1507 711,1508 759,1508 808,1508 856,1508 905,1508 953,1508 1002,1508 1050,1508 1099,1508 1147,1508 1196,1508"/>
+                <TextEquiv>
+                    <Unicode>cia para obtener el pago total del seguro que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l15" custom="readingOrder {index:14;}">
+                <Coords points="213,1569 1209,1562 1209,1537 1106,1522 213,1530"/>
+                <Baseline points="221,1556 272,1556 324,1557 375,1557 427,1557 478,1557 530,1557 581,1557 633,1557 684,1557 736,1557 787,1557 839,1557 890,1556 942,1556 993,1556 1045,1556 1096,1557 1148,1557 1200,1557"/>
+                <TextEquiv>
+                    <Unicode>se les adeuda y, al efecto, en todos los Esta¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l16" custom="readingOrder {index:15;}">
+                <Coords points="221,1621 1211,1619 1179,1568 221,1574"/>
+                <Baseline points="228,1607 276,1607 325,1607 374,1608 423,1608 471,1608 520,1608 569,1608 618,1608 666,1608 715,1608 764,1608 813,1608 861,1608 910,1608 959,1608 1008,1610 1056,1610 1105,1610 1154,1611 1203,1611"/>
+                <TextEquiv>
+                    <Unicode>dos se organizaron grupos con la consigna de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l17" custom="readingOrder {index:16;}">
+                <Coords points="213,1673 1213,1670 1213,1635 992,1620 213,1630"/>
+                <Baseline points="221,1659 270,1659 319,1659 368,1659 417,1659 467,1659 516,1659 565,1659 614,1659 663,1659 713,1659 762,1659 811,1659 860,1659 909,1659 959,1659 1008,1659 1057,1659 1106,1659 1155,1659 1205,1659"/>
+                <TextEquiv>
+                    <Unicode>dirigirse a Washington y de pedir al Congreso</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l18" custom="readingOrder {index:17;}">
+                <Coords points="220,1723 1215,1717 1215,1681 1160,1674 272,1699 220,1675"/>
+                <Baseline points="227,1712 278,1712 330,1712 381,1710 433,1710 484,1710 536,1710 587,1712 639,1712 690,1712 742,1712 793,1712 845,1712 896,1712 948,1713 999,1712 1051,1712 1102,1712 1154,1711 1206,1710"/>
+                <TextEquiv>
+                    <Unicode>la aprobación de una ley para el pago de los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l19" custom="readingOrder {index:18;}">
+                <Coords points="229,1775 317,1773 336,1762 366,1775 628,1769 628,1752 567,1728 503,1739 482,1726 451,1739 229,1738"/>
+                <Baseline points="236,1761 261,1761 287,1761 312,1761 338,1761 364,1761 389,1760 415,1760 440,1760 466,1760 492,1760 517,1761 543,1761 568,1761 594,1763 620,1764"/>
+                <TextEquiv>
+                    <Unicode>bonos no redimidos.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l20" custom="readingOrder {index:19;}">
+                <Coords points="261,1826 1197,1828 1197,1776 332,1799 262,1778"/>
+                <Baseline points="269,1814 315,1812 361,1812 407,1812 453,1811 499,1811 545,1811 591,1811 637,1812 683,1812 729,1812 775,1812 821,1814 867,1814 913,1814 959,1814 1005,1814 1051,1814 1097,1814 1143,1814 1190,1814"/>
+                <TextEquiv>
+                    <Unicode>En esta forma fueron llegando a esta capital</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l21" custom="readingOrder {index:20;}">
+                <Coords points="222,1883 1211,1881 1211,1841 1179,1835 222,1840"/>
+                <Baseline points="230,1865 278,1865 327,1865 375,1863 424,1863 473,1863 521,1863 570,1863 618,1863 667,1863 716,1863 764,1863 813,1863 861,1863 910,1863 959,1865 1007,1865 1056,1865 1104,1865 1153,1865 1202,1866"/>
+                <TextEquiv>
+                    <Unicode>grupos más o menos organizados de veteranos,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l22" custom="readingOrder {index:21;}">
+                <Coords points="224,1930 1152,1935 1196,1925 1197,1890 224,1882"/>
+                <Baseline points="231,1914 278,1914 326,1913 374,1913 422,1913 470,1913 518,1914 565,1914 613,1914 661,1914 709,1915 757,1916 805,1916 853,1916 900,1916 948,1917 996,1917 1044,1917 1092,1916 1140,1916 1188,1916"/>
+                <TextEquiv>
+                    <Unicode>todos ellos desempleados, hambrientos, harapo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l23" custom="readingOrder {index:22;}">
+                <Coords points="213,1979 1144,1986 1200,1978 1200,1937 213,1939"/>
+                <Baseline points="221,1965 269,1965 318,1967 366,1967 415,1967 464,1967 512,1967 561,1968 609,1968 658,1968 707,1967 755,1967 804,1967 852,1967 901,1967 950,1967 998,1967 1047,1967 1095,1967 1144,1967 1193,1968"/>
+                <TextEquiv>
+                    <Unicode>sos, que al llegar aquí se tiraban en los parques</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l24" custom="readingOrder {index:23;}">
+                <Coords points="225,2034 1208,2022 1208,1993 1160,1979 226,1996"/>
+                <Baseline points="234,2016 282,2016 330,2016 378,2016 427,2016 475,2018 523,2018 572,2018 620,2018 668,2018 717,2018 765,2018 813,2018 861,2018 910,2018 958,2018 1006,2018 1055,2018 1103,2018 1151,2019 1200,2019"/>
+                <TextEquiv>
+                    <Unicode>públicos. La situación llegó a ser crítica: ¿Dón¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l25" custom="readingOrder {index:24;}">
+                <Coords points="217,2083 1212,2079 1212,2047 1141,2034 217,2038"/>
+                <Baseline points="224,2067 275,2067 327,2067 378,2067 430,2067 481,2067 533,2067 584,2067 636,2067 687,2067 739,2067 790,2067 842,2067 893,2067 945,2069 996,2069 1048,2070 1099,2070 1151,2072 1203,2073"/>
+                <TextEquiv>
+                    <Unicode>de alojar a estos caballeros? El Jefe de policía</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l26" custom="readingOrder {index:25;}">
+                <Coords points="223,2129 1199,2132 1199,2098 1160,2090 223,2084"/>
+                <Baseline points="231,2118 279,2118 327,2118 375,2118 423,2118 471,2118 519,2119 567,2120 615,2120 663,2120 711,2120 759,2120 807,2120 855,2120 903,2120 951,2120 999,2120 1047,2121 1095,2121 1143,2120 1191,2120"/>
+                <TextEquiv>
+                    <Unicode>indicó la conveniencia de que ocuparan unos te¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l27" custom="readingOrder {index:26;}">
+                <Coords points="220,2180 1205,2188 1205,2151 1149,2138 220,2145"/>
+                <Baseline points="228,2169 276,2169 324,2171 373,2171 421,2171 470,2171 518,2171 567,2171 615,2171 664,2171 712,2171 760,2171 809,2171 857,2171 906,2171 954,2171 1003,2171 1051,2172 1100,2172 1148,2172 1197,2174"/>
+                <TextEquiv>
+                    <Unicode>rrenos que hay al otro lado del río Anacostia,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l28" custom="readingOrder {index:27;}">
+                <Coords points="218,2236 1196,2232 1196,2196 1159,2187 219,2195"/>
+                <Baseline points="227,2220 275,2220 323,2220 371,2220 419,2220 467,2220 515,2220 563,2222 611,2222 659,2222 707,2222 755,2222 803,2223 851,2223 899,2223 947,2223 995,2223 1043,2223 1091,2223 1139,2223 1188,2222"/>
+                <TextEquiv>
+                    <Unicode>en los suburbios de la capital, un lugar panta¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l29" custom="readingOrder {index:28;}">
+                <Coords points="224,2284 1155,2293 1201,2283 1201,2250 224,2251"/>
+                <Baseline points="231,2271 279,2271 327,2271 375,2271 423,2271 471,2272 519,2273 568,2273 616,2273 664,2273 712,2273 760,2273 808,2273 856,2274 905,2274 953,2274 1001,2274 1049,2274 1097,2274 1145,2274 1194,2274"/>
+                <TextEquiv>
+                    <Unicode>noso e insalubre. Allá fueron los veteranos que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l30" custom="readingOrder {index:29;}">
+                <Coords points="213,2346 1199,2332 1199,2301 1154,2292 213,2300"/>
+                <Baseline points="221,2324 269,2324 317,2324 366,2324 414,2324 463,2324 511,2324 560,2324 608,2324 657,2324 705,2324 753,2324 802,2324 850,2324 899,2325 947,2325 996,2325 1044,2325 1093,2325 1141,2325 1190,2325"/>
+                <TextEquiv>
+                    <Unicode>ya sumaban algunos miles. Levantaron sus cho¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l31" custom="readingOrder {index:30;}">
+                <Coords points="219,2390 1201,2382 1158,2340 1115,2364 1006,2339 741,2364 695,2340 219,2347"/>
+                <Baseline points="227,2376 275,2375 323,2375 371,2375 420,2375 468,2375 516,2375 565,2375 613,2375 661,2375 710,2376 758,2376 806,2376 854,2376 903,2378 951,2378 999,2378 1048,2378 1096,2377 1144,2376 1193,2376"/>
+                <TextEquiv>
+                    <Unicode>zas, tiendas de campaña, y allí surgió una ciu¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l32" custom="readingOrder {index:31;}">
+                <Coords points="222,2442 1214,2431 1214,2402 1010,2387 762,2416 699,2390 507,2416 222,2396"/>
+                <Baseline points="230,2426 278,2426 327,2426 376,2426 425,2426 473,2426 522,2426 571,2426 620,2426 668,2426 717,2426 766,2427 815,2427 863,2427 912,2427 961,2427 1010,2427 1058,2427 1107,2427 1156,2426 1205,2426"/>
+                <TextEquiv>
+                    <Unicode>dad extraña, fea, sucia. algo parecida a un</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l33" custom="readingOrder {index:32;}">
+                <Coords points="223,2492 1211,2487 1195,2442 942,2468 854,2442 223,2443"/>
+                <Baseline points="231,2477 279,2477 328,2477 376,2477 425,2477 474,2477 522,2477 571,2478 619,2478 668,2478 717,2478 765,2478 814,2478 862,2478 911,2478 960,2478 1008,2478 1057,2478 1105,2478 1154,2478 1203,2478"/>
+                <TextEquiv>
+                    <Unicode>barrio gitano. De su comida se encargó</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l34" custom="readingOrder {index:33;}">
+                <Coords points="224,2544 1201,2543 1201,2503 224,2505"/>
+                <Baseline points="231,2529 279,2528 327,2528 375,2528 423,2528 471,2528 519,2528 568,2528 616,2528 664,2528 712,2529 760,2529 808,2529 856,2529 905,2529 953,2529 1001,2529 1049,2529 1097,2531 1145,2531 1194,2531"/>
+                <TextEquiv>
+                    <Unicode>el Jefe de policía. Este fué uno de los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l35" custom="readingOrder {index:34;}">
+                <Coords points="217,2595 1172,2596 1201,2550 217,2556"/>
+                <Baseline points="225,2579 273,2579 321,2579 370,2579 418,2579 467,2579 515,2579 563,2579 612,2579 660,2579 709,2580 757,2580 805,2580 854,2580 902,2580 951,2580 999,2580 1047,2580 1096,2580 1144,2580 1193,2580"/>
+                <TextEquiv>
+                    <Unicode>más serios problemas: dar de comer a estos mi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l36" custom="readingOrder {index:35;}">
+                <Coords points="225,2642 1211,2632 1211,2603 1108,2595 225,2596"/>
+                <Baseline points="233,2627 281,2627 329,2627 378,2628 426,2628 475,2628 523,2628 572,2628 620,2630 669,2630 717,2630 765,2630 814,2630 862,2631 911,2631 959,2631 1008,2631 1056,2631 1105,2631 1153,2630 1202,2630"/>
+                <TextEquiv>
+                    <Unicode>les de individuos. Se pidió auxilio a todo el que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l37" custom="readingOrder {index:36;}">
+                <Coords points="218,2697 1196,2694 1196,2659 1135,2645 218,2659"/>
+                <Baseline points="227,2681 275,2681 323,2682 371,2682 419,2682 467,2682 515,2682 563,2682 611,2682 659,2682 707,2682 755,2682 803,2682 851,2682 899,2682 947,2682 995,2682 1043,2682 1091,2682 1139,2682 1188,2682"/>
+                <TextEquiv>
+                    <Unicode>quisiera dar algo, pues alimentar a unas seis o</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l38" custom="readingOrder {index:37;}">
+                <Coords points="214,2747 1182,2753 1200,2705 214,2709"/>
+                <Baseline points="222,2732 270,2732 318,2732 367,2732 415,2732 464,2732 512,2732 561,2732 609,2733 658,2733 706,2733 754,2733 803,2733 851,2733 900,2733 948,2733 997,2733 1045,2733 1094,2733 1142,2733 1191,2733"/>
+                <TextEquiv>
+                    <Unicode>siete mil personas diariamente, no es moco de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l39" custom="readingOrder {index:38;}">
+                <Coords points="222,2803 1210,2795 1193,2755 222,2756"/>
+                <Baseline points="230,2784 278,2784 327,2784 375,2784 424,2784 473,2784 521,2784 570,2784 618,2784 667,2784 716,2784 764,2784 813,2784 861,2784 910,2784 959,2784 1007,2784 1056,2784 1104,2784 1153,2784 1202,2783"/>
+                <TextEquiv>
+                    <Unicode>pavo, y mas aun, encontrar el dinero para esa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l40" custom="readingOrder {index:39;}">
+                <Coords points="219,2848 1192,2848 1203,2809 219,2811"/>
+                <Baseline points="227,2834 275,2834 323,2834 372,2834 420,2834 468,2834 517,2834 565,2834 613,2834 662,2834 710,2835 758,2835 807,2835 855,2835 903,2835 952,2835 1000,2835 1048,2835 1097,2835 1145,2835 1194,2834"/>
+                <TextEquiv>
+                    <Unicode>comida diaria, es todavía peor. Todos los</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l41" custom="readingOrder {index:40;}">
+                <Coords points="226,2899 517,2900 543,2874 750,2907 1205,2891 1158,2851 961,2877 928,2851 761,2876 226,2850"/>
+                <Baseline points="234,2888 282,2886 330,2886 378,2885 426,2885 474,2885 522,2885 571,2886 619,2886 667,2888 715,2888 763,2888 811,2889 859,2889 908,2889 956,2889 1004,2888 1052,2888 1100,2886 1148,2885 1197,2883"/>
+                <TextEquiv>
+                    <Unicode>días llegaban veteranos, a pie, en auto¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l42" custom="readingOrder {index:41;}">
+                <Coords points="219,2947 1202,2947 1202,2907 219,2909"/>
+                <Baseline points="227,2936 275,2936 323,2936 371,2936 420,2936 468,2936 516,2936 565,2937 613,2937 661,2937 710,2937 758,2937 806,2937 854,2937 903,2937 951,2937 999,2937 1048,2937 1096,2937 1144,2937 1193,2936"/>
+                <TextEquiv>
+                    <Unicode>móviles maltrechos, en vagones, en trenes de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l43" custom="readingOrder {index:42;}">
+                <Coords points="219,3003 1196,2996 1166,2954 219,2963"/>
+                <Baseline points="227,2991 275,2990 323,2990 371,2988 419,2988 467,2988 515,2988 563,2988 611,2988 659,2988 707,2988 755,2988 803,2988 851,2988 899,2990 947,2990 995,2990 1043,2988 1091,2988 1139,2988 1188,2987"/>
+                <TextEquiv>
+                    <Unicode>carga. Esto se iba convirtiendo en la Meca Ve¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l44" custom="readingOrder {index:43;}">
+                <Coords points="221,3051 384,3029 551,3058 1211,3049 1184,3003 221,3010"/>
+                <Baseline points="228,3038 276,3038 325,3039 374,3039 423,3039 471,3039 520,3039 569,3039 618,3039 666,3038 715,3038 764,3038 813,3038 861,3039 910,3039 959,3039 1008,3039 1056,3039 1105,3039 1154,3041 1203,3041"/>
+                <TextEquiv>
+                    <Unicode>terana. El Congreso, mientras tanto, trató de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l45" custom="readingOrder {index:44;}">
+                <Coords points="220,3103 1039,3106 1208,3100 1209,3068 220,3066"/>
+                <Baseline points="227,3090 275,3090 324,3090 372,3090 421,3090 470,3090 518,3090 567,3090 616,3090 664,3090 713,3090 762,3091 810,3092 859,3092 908,3092 956,3092 1005,3092 1054,3092 1102,3092 1151,3092 1200,3092"/>
+                <TextEquiv>
+                    <Unicode>complacer a los veteranos. En la Cámara de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l46" custom="readingOrder {index:45;}">
+                <Coords points="219,3156 1205,3152 1205,3114 1159,3107 220,3108"/>
+                <Baseline points="227,3140 275,3140 324,3140 372,3141 421,3141 469,3141 518,3141 566,3141 615,3141 663,3141 712,3141 760,3141 809,3141 857,3141 906,3141 954,3141 1003,3141 1051,3141 1100,3141 1148,3143 1197,3143"/>
+                <TextEquiv>
+                    <Unicode>Representantes se presentó un proyecto de ley</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_3_1l47" custom="readingOrder {index:46;}">
+                <Coords points="219,3205 1184,3204 1208,3168 219,3170"/>
+                <Baseline points="227,3192 275,3192 324,3194 372,3194 421,3194 470,3194 518,3194 567,3194 616,3195 664,3195 713,3195 762,3195 810,3195 859,3195 908,3195 956,3194 1005,3194 1054,3194 1102,3194 1151,3192 1200,3192"/>
+                <TextEquiv>
+                    <Unicode>autorizando el pago del bono a los ex solda¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Washington, D. C.Agosto 3 de 1932.Durante la última semana se han desarrolla¬do en esta capital sucesos y acontecimientos quebien vale la pena de relatarlos, aun cuando ya eltelégrafo habrá llevado estas noticias a los másrecónditos confines del mundo.Hace poco más de dos meses, y cuando el Con¬greso americano se hallaba en sesiones, tratan¬do de hacer frente a la situación angustiosaporque está atravesando este país en la actua¬lidad, se inició un movimiento entre muchos delos ex soldados americanos que lucharon en Fran¬cia para obtener el pago total del seguro quese les adeuda y, al efecto, en todos los Esta¬dos se organizaron grupos con la consigna dedirigirse a Washington y de pedir al Congresola aprobación de una ley para el pago de losbonos no redimidos.En esta forma fueron llegando a esta capitalgrupos más o menos organizados de veteranos,todos ellos desempleados, hambrientos, harapo¬sos, que al llegar aquí se tiraban en los parquespúblicos. La situación llegó a ser crítica: ¿Dón¬de alojar a estos caballeros? El Jefe de policíaindicó la conveniencia de que ocuparan unos te¬rrenos que hay al otro lado del río Anacostia,en los suburbios de la capital, un lugar panta¬noso e insalubre. Allá fueron los veteranos queya sumaban algunos miles. Levantaron sus cho¬zas, tiendas de campaña, y allí surgió una ciu¬dad extraña, fea, sucia. algo parecida a unbarrio gitano. De su comida se encargóel Jefe de policía. Este fué uno de losmás serios problemas: dar de comer a estos mi¬les de individuos. Se pidió auxilio a todo el quequisiera dar algo, pues alimentar a unas seis osiete mil personas diariamente, no es moco depavo, y mas aun, encontrar el dinero para esacomida diaria, es todavía peor. Todos losdías llegaban veteranos, a pie, en auto¬móviles maltrechos, en vagones, en trenes decarga. Esto se iba convirtiendo en la Meca Ve¬terana. El Congreso, mientras tanto, trató decomplacer a los veteranos. En la Cámara deRepresentantes se presentó un proyecto de leyautorizando el pago del bono a los ex solda¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_5" custom="readingOrder {index:4;}">
+            <Coords points="286,307 746,307 746,326 286,326"/>
+        </SeparatorRegion>
+        <TextRegion orientation="0.0" type="paragraph" id="r_4_1" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="1250,807 2250,807 2250,3210 1250,3210"/>
+            <TextLine id="r_4_1l1" custom="readingOrder {index:0;}">
+                <Coords points="1246,844 2254,851 2254,816 2218,811 1246,821"/>
+                <Baseline points="1254,839 1303,839 1353,840 1402,840 1452,840 1502,840 1551,840 1601,842 1651,842 1700,842 1750,842 1800,842 1849,842 1899,842 1949,843 1998,843 2048,843 2098,843 2147,843 2197,843 2247,843"/>
+                <TextEquiv>
+                    <Unicode>dos, siendo aprobado el proyecto, en un gesto</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l2" custom="readingOrder {index:1;}">
+                <Coords points="1257,899 2257,904 2222,859 1257,862"/>
+                <Baseline points="1265,891 1314,891 1363,891 1412,890 1461,890 1511,890 1560,890 1609,891 1658,891 1707,891 1757,891 1806,891 1855,891 1904,893 1953,893 2003,894 2052,894 2101,894 2150,896 2199,897 2249,897"/>
+                <TextEquiv>
+                    <Unicode>de simpatía hacia los veteranos y como medida de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l3" custom="readingOrder {index:2;}">
+                <Coords points="1254,956 2249,955 2249,923 2158,906 2047,932 1910,907 1254,914"/>
+                <Baseline points="1262,941 1313,942 1365,942 1416,942 1468,944 1519,944 1571,944 1622,944 1674,944 1725,944 1777,944 1828,944 1880,944 1931,944 1983,945 2034,945 2086,945 2137,945 2189,947 2241,947"/>
+                <TextEquiv>
+                    <Unicode>alta política. Los Representantes no olvidaron</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l4" custom="readingOrder {index:3;}">
+                <Coords points="1257,1006 2259,1002 2259,973 2198,961 1257,963"/>
+                <Baseline points="1265,993 1314,993 1363,992 1412,992 1462,992 1511,992 1560,992 1609,993 1659,993 1708,993 1757,993 1806,995 1856,995 1905,995 1954,996 2003,996 2053,997 2102,998 2151,998 2200,998 2250,998"/>
+                <TextEquiv>
+                    <Unicode>que este es un año de elecciones y que estos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l5" custom="readingOrder {index:4;}">
+                <Coords points="1258,1056 2255,1060 2238,1012 1258,1019"/>
+                <Baseline points="1266,1043 1315,1044 1364,1044 1413,1044 1462,1044 1511,1044 1560,1044 1609,1044 1658,1044 1707,1044 1756,1046 1805,1046 1854,1046 1903,1046 1952,1046 2001,1047 2050,1047 2099,1047 2148,1049 2197,1049 2247,1050"/>
+                <TextEquiv>
+                    <Unicode>antiguos soldados pueden ejercer el derecho del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l6" custom="readingOrder {index:5;}">
+                <Coords points="1254,1107 2251,1097 2194,1063 2032,1089 1710,1059 1255,1069"/>
+                <Baseline points="1262,1094 1311,1094 1360,1094 1409,1094 1458,1094 1507,1095 1556,1095 1605,1095 1654,1095 1703,1097 1752,1097 1801,1097 1850,1097 1899,1098 1948,1098 1997,1098 2046,1100 2095,1100 2144,1100 2193,1100 2243,1100"/>
+                <TextEquiv>
+                    <Unicode>voto en sus respectivas comunas y conda¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l7" custom="readingOrder {index:6;}">
+                <Coords points="1254,1156 2258,1154 2239,1114 1255,1119"/>
+                <Baseline points="1262,1146 1311,1148 1360,1148 1410,1148 1459,1148 1508,1148 1558,1148 1607,1148 1656,1148 1706,1148 1755,1148 1804,1148 1854,1148 1903,1148 1952,1148 2002,1149 2051,1149 2100,1149 2150,1151 2199,1151 2249,1152"/>
+                <TextEquiv>
+                    <Unicode>dos, y el proyecto aprobado por la Cámara pasó</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l8" custom="readingOrder {index:7;}">
+                <Coords points="1260,1211 2259,1203 2240,1164 2171,1189 2102,1163 1261,1171"/>
+                <Baseline points="1269,1196 1318,1197 1367,1197 1416,1199 1465,1199 1514,1199 1563,1199 1612,1199 1661,1199 1710,1199 1759,1199 1808,1199 1857,1199 1906,1199 1955,1200 2004,1200 2053,1200 2102,1200 2151,1202 2200,1203 2250,1203"/>
+                <TextEquiv>
+                    <Unicode>al Senado para su discusión y aprobación. El</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l9" custom="readingOrder {index:8;}">
+                <Coords points="1263,1260 2242,1259 2242,1230 2040,1211 1870,1240 1263,1212"/>
+                <Baseline points="1271,1248 1319,1248 1367,1250 1415,1250 1463,1250 1511,1250 1559,1251 1608,1251 1656,1251 1704,1251 1752,1251 1800,1251 1848,1251 1896,1251 1945,1251 1993,1250 2041,1250 2089,1250 2137,1250 2185,1251 2234,1251"/>
+                <TextEquiv>
+                    <Unicode>Senado, ni corto ni perezoso, desaprobó el pro¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l10" custom="readingOrder {index:9;}">
+                <Coords points="1250,1313 2258,1305 2156,1266 1250,1277"/>
+                <Baseline points="1259,1299 1308,1299 1358,1299 1407,1301 1457,1301 1506,1301 1556,1301 1605,1301 1655,1301 1704,1301 1754,1301 1804,1301 1853,1301 1903,1302 1952,1302 2002,1302 2051,1302 2101,1304 2150,1304 2200,1304 2250,1305"/>
+                <TextEquiv>
+                    <Unicode>yecto, porque sabía muy bien que Hoover iba a</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l11" custom="readingOrder {index:10;}">
+                <Coords points="1251,1361 1898,1367 1970,1343 2021,1372 2223,1370 2248,1330 1251,1324"/>
+                <Baseline points="1259,1350 1308,1350 1357,1352 1406,1352 1455,1352 1504,1352 1553,1352 1602,1352 1651,1353 1700,1353 1749,1353 1798,1353 1847,1353 1896,1353 1945,1353 1994,1353 2043,1353 2092,1355 2141,1355 2190,1355 2240,1356"/>
+                <TextEquiv>
+                    <Unicode>vetarlo. Su aprobación hubiera representado</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l12" custom="readingOrder {index:11;}">
+                <Coords points="1257,1412 2254,1414 2242,1379 2056,1371 1258,1378"/>
+                <Baseline points="1265,1404 1314,1404 1363,1403 1412,1403 1461,1403 1510,1403 1559,1403 1608,1403 1657,1403 1706,1403 1756,1404 1805,1404 1854,1404 1903,1404 1952,1406 2001,1406 2050,1406 2099,1406 2148,1406 2197,1406 2247,1406"/>
+                <TextEquiv>
+                    <Unicode>un gasto de más de dos billones de dólares que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l13" custom="readingOrder {index:12;}">
+                <Coords points="1256,1468 2248,1467 2248,1428 1257,1427"/>
+                <Baseline points="1265,1455 1313,1455 1362,1454 1411,1454 1460,1454 1508,1454 1557,1454 1606,1454 1655,1454 1703,1455 1752,1455 1801,1455 1850,1457 1898,1457 1947,1457 1996,1458 2045,1458 2093,1458 2142,1460 2191,1460 2240,1460"/>
+                <TextEquiv>
+                    <Unicode>ninguno sabe de dónde se iban a sacar, ya que</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l14" custom="readingOrder {index:13;}">
+                <Coords points="1254,1516 2256,1509 2222,1470 1254,1477"/>
+                <Baseline points="1262,1505 1311,1505 1360,1505 1409,1506 1459,1506 1508,1506 1557,1506 1606,1506 1656,1508 1705,1508 1754,1508 1803,1508 1853,1508 1902,1508 1951,1508 2000,1509 2050,1509 2099,1509 2148,1509 2197,1509 2247,1509"/>
+                <TextEquiv>
+                    <Unicode>en el presupuesto gubernamental hay un déficit</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l15" custom="readingOrder {index:14;}">
+                <Coords points="1253,1570 1746,1571 1746,1534 1727,1530 1431,1522 1411,1540 1365,1522 1312,1540 1253,1528"/>
+                <Baseline points="1260,1556 1285,1557 1310,1557 1335,1557 1360,1557 1386,1557 1411,1557 1436,1556 1461,1556 1486,1556 1512,1556 1537,1556 1562,1556 1587,1556 1612,1557 1638,1557 1663,1557 1688,1557 1713,1559 1739,1560"/>
+                <TextEquiv>
+                    <Unicode>de más de tres billones.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l16" custom="readingOrder {index:15;}">
+                <Coords points="1297,1621 2239,1628 2214,1572 2180,1599 2124,1571 1382,1594 1297,1570"/>
+                <Baseline points="1305,1607 1351,1607 1397,1607 1444,1607 1490,1608 1536,1608 1583,1608 1629,1608 1675,1608 1722,1608 1768,1610 1814,1610 1861,1610 1907,1610 1953,1610 2000,1610 2046,1611 2092,1611 2139,1611 2185,1611 2232,1613"/>
+                <TextEquiv>
+                    <Unicode>Los veteranos se pusieron furiosos; miles de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l17" custom="readingOrder {index:16;}">
+                <Coords points="1257,1668 2243,1666 2224,1627 2160,1624 1257,1632"/>
+                <Baseline points="1266,1658 1314,1658 1362,1658 1411,1658 1459,1659 1508,1659 1556,1659 1604,1659 1653,1659 1701,1661 1750,1661 1798,1661 1846,1661 1895,1661 1943,1662 1992,1662 2040,1662 2088,1662 2137,1662 2185,1662 2234,1662"/>
+                <TextEquiv>
+                    <Unicode>ellos se congregaron en la plaza frente al Capi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l18" custom="readingOrder {index:17;}">
+                <Coords points="1254,1723 2254,1718 2198,1676 2004,1699 1254,1675"/>
+                <Baseline points="1262,1709 1311,1709 1360,1710 1409,1710 1458,1710 1508,1710 1557,1712 1606,1712 1655,1712 1704,1712 1754,1712 1803,1713 1852,1713 1901,1713 1950,1713 2000,1713 2049,1713 2098,1713 2147,1713 2196,1713 2246,1713"/>
+                <TextEquiv>
+                    <Unicode>tolio, demandando, casi a la fuerza, que se les</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l19" custom="readingOrder {index:18;}">
+                <Coords points="1249,1779 2252,1776 2252,1747 2198,1731 1249,1738"/>
+                <Baseline points="1257,1763 1306,1763 1355,1763 1405,1761 1454,1761 1503,1761 1553,1761 1602,1761 1651,1761 1701,1763 1750,1763 1799,1763 1849,1763 1898,1763 1947,1764 1997,1764 2046,1764 2095,1764 2145,1766 2194,1766 2244,1766"/>
+                <TextEquiv>
+                    <Unicode>pagara el bono. La policía, siempre tolerante,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l20" custom="readingOrder {index:19;}">
+                <Coords points="1256,1825 2246,1817 2209,1779 2031,1801 1256,1780"/>
+                <Baseline points="1263,1812 1311,1812 1360,1812 1409,1814 1458,1814 1506,1814 1555,1814 1604,1814 1653,1814 1701,1814 1750,1814 1799,1814 1848,1814 1896,1814 1945,1814 1994,1814 2043,1814 2091,1814 2140,1814 2189,1814 2238,1814"/>
+                <TextEquiv>
+                    <Unicode>dejó que gritaran y patalearan. Los congresis¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l21" custom="readingOrder {index:20;}">
+                <Coords points="1255,1874 2249,1883 2249,1853 2159,1836 1256,1834"/>
+                <Baseline points="1263,1862 1311,1863 1360,1863 1409,1863 1458,1863 1507,1863 1556,1863 1605,1863 1654,1863 1703,1863 1752,1863 1800,1863 1849,1865 1898,1865 1947,1865 1996,1865 2045,1866 2094,1866 2143,1868 2192,1868 2241,1869"/>
+                <TextEquiv>
+                    <Unicode>tas, ante la actitud belicosa de los veteranos,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l22" custom="readingOrder {index:21;}">
+                <Coords points="1251,1928 2247,1922 2164,1877 1251,1890"/>
+                <Baseline points="1259,1916 1308,1916 1357,1916 1406,1916 1455,1916 1504,1917 1553,1917 1602,1917 1651,1917 1700,1917 1749,1917 1798,1916 1847,1916 1896,1916 1945,1916 1994,1916 2043,1916 2092,1917 2141,1917 2190,1917 2240,1917"/>
+                <TextEquiv>
+                    <Unicode>entraban y salían por el sótano y no deja¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l23" custom="readingOrder {index:22;}">
+                <Coords points="1252,1980 2242,1971 2225,1940 2100,1955 2064,1931 1758,1956 1252,1932"/>
+                <Baseline points="1260,1967 1308,1967 1357,1967 1406,1967 1455,1967 1503,1967 1552,1967 1601,1967 1650,1967 1698,1968 1747,1968 1796,1968 1845,1968 1893,1968 1942,1968 1991,1968 2040,1968 2088,1967 2137,1967 2186,1967 2235,1967"/>
+                <TextEquiv>
+                    <Unicode>ban ver sus caras; pero, a pesar de todo, no ce¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l24" custom="readingOrder {index:23;}">
+                <Coords points="1256,2028 2243,2026 2243,1997 2085,1986 1521,2004 1457,1979 1388,2006 1256,1983"/>
+                <Baseline points="1265,2016 1313,2018 1362,2018 1410,2018 1459,2019 1507,2019 1556,2019 1604,2019 1653,2019 1701,2019 1750,2018 1798,2018 1847,2018 1895,2018 1944,2018 1992,2018 2041,2018 2089,2019 2138,2019 2186,2019 2235,2021"/>
+                <TextEquiv>
+                    <Unicode>dieron y las sesiones del Congreso se clausura¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l25" custom="readingOrder {index:24;}">
+                <Coords points="1258,2083 2255,2075 2216,2035 1258,2043"/>
+                <Baseline points="1266,2069 1315,2069 1364,2070 1413,2070 1462,2070 1511,2070 1560,2070 1609,2070 1658,2070 1707,2070 1756,2070 1805,2070 1854,2070 1903,2070 1952,2070 2001,2070 2050,2070 2099,2070 2148,2070 2197,2070 2247,2072"/>
+                <TextEquiv>
+                    <Unicode>ron sin que se aprobara medida alguna tendente</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l26" custom="readingOrder {index:25;}">
+                <Coords points="1254,2132 2093,2132 2093,2095 1254,2091"/>
+                <Baseline points="1263,2121 1304,2121 1345,2121 1386,2121 1427,2121 1468,2121 1509,2120 1550,2120 1591,2120 1632,2120 1674,2120 1715,2120 1756,2120 1797,2120 1838,2121 1879,2121 1920,2121 1961,2121 2002,2121 2043,2121 2085,2121"/>
+                <TextEquiv>
+                    <Unicode>a favorecer la solicitud de los veteranos.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l27" custom="readingOrder {index:26;}">
+                <Coords points="1294,2172 2252,2174 2111,2138 1294,2140"/>
+                <Baseline points="1302,2169 1349,2169 1396,2171 1443,2171 1490,2172 1537,2172 1584,2172 1631,2172 1678,2172 1725,2172 1773,2172 1820,2172 1867,2172 1914,2172 1961,2172 2008,2172 2055,2172 2102,2172 2149,2172 2196,2172 2244,2172"/>
+                <TextEquiv>
+                    <Unicode>Voces amigas aconsejaron entonces a los ve¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l28" custom="readingOrder {index:27;}">
+                <Coords points="1257,2235 2240,2239 2240,2186 1892,2187 1860,2213 1823,2187 1414,2211 1257,2187"/>
+                <Baseline points="1266,2222 1314,2222 1362,2222 1410,2222 1459,2222 1507,2222 1555,2222 1604,2223 1652,2223 1700,2223 1749,2223 1797,2223 1845,2223 1893,2223 1942,2223 1990,2223 2038,2223 2087,2225 2135,2225 2183,2225 2232,2225"/>
+                <TextEquiv>
+                    <Unicode>teranos que se fueran de la ciudad, ya que el</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l29" custom="readingOrder {index:28;}">
+                <Coords points="1254,2286 2233,2286 2208,2242 1254,2238"/>
+                <Baseline points="1262,2274 1310,2274 1358,2274 1406,2274 1454,2274 1503,2274 1551,2273 1599,2273 1647,2273 1695,2273 1744,2274 1792,2274 1840,2274 1888,2274 1936,2274 1985,2274 2033,2274 2081,2274 2129,2276 2177,2276 2226,2276"/>
+                <TextEquiv>
+                    <Unicode>Congreso estaba clausurado y no sacarían nada</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l30" custom="readingOrder {index:29;}">
+                <Coords points="1251,2339 2226,2340 2235,2296 1251,2299"/>
+                <Baseline points="1259,2325 1307,2325 1355,2325 1404,2325 1452,2325 1501,2325 1549,2325 1598,2324 1646,2324 1695,2324 1743,2324 1791,2324 1840,2324 1888,2324 1937,2324 1985,2325 2034,2325 2082,2325 2131,2325 2179,2327 2228,2327"/>
+                <TextEquiv>
+                    <Unicode>en limpio de Hoover. Justo es hacer constar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l31" custom="readingOrder {index:30;}">
+                <Coords points="1251,2391 2224,2388 2234,2354 1251,2356"/>
+                <Baseline points="1259,2378 1307,2378 1355,2376 1403,2376 1452,2376 1500,2376 1548,2376 1597,2376 1645,2376 1693,2376 1742,2376 1790,2376 1838,2376 1886,2376 1935,2376 1983,2376 2031,2376 2080,2376 2128,2376 2176,2375 2225,2375"/>
+                <TextEquiv>
+                    <Unicode>que el Congreso, a solicitud del Presidente Hoo¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l32" custom="readingOrder {index:31;}">
+                <Coords points="1247,2433 2243,2440 2243,2405 2129,2390 1247,2403"/>
+                <Baseline points="1256,2426 1307,2426 1359,2427 1410,2427 1462,2427 1513,2427 1565,2427 1616,2427 1668,2427 1719,2426 1771,2426 1822,2426 1874,2426 1925,2426 1977,2426 2028,2427 2080,2427 2131,2427 2183,2427 2235,2429"/>
+                <TextEquiv>
+                    <Unicode>ver, aprobó una ley erogando 100,000 dólares</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l33" custom="readingOrder {index:32;}">
+                <Coords points="1245,2500 2245,2486 2245,2455 2096,2444 1245,2452"/>
+                <Baseline points="1253,2481 1302,2480 1351,2480 1400,2478 1449,2478 1499,2478 1548,2477 1597,2477 1646,2477 1695,2477 1745,2477 1794,2477 1843,2477 1892,2478 1941,2478 1991,2478 2040,2478 2089,2478 2138,2478 2187,2478 2237,2478"/>
+                <TextEquiv>
+                    <Unicode>para que los veteranos—los que realmente eran</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l34" custom="readingOrder {index:33;}">
+                <Coords points="1258,2540 2238,2535 2221,2495 1258,2505"/>
+                <Baseline points="1265,2528 1313,2528 1361,2528 1409,2528 1458,2528 1506,2528 1554,2528 1603,2529 1651,2529 1699,2529 1748,2529 1796,2529 1844,2529 1892,2529 1941,2529 1989,2529 2037,2529 2086,2529 2134,2529 2182,2529 2231,2529"/>
+                <TextEquiv>
+                    <Unicode>veteranos—pudiesen trasladarse a sus respecti¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l35" custom="readingOrder {index:34;}">
+                <Coords points="1257,2596 2234,2597 2207,2547 1257,2554"/>
+                <Baseline points="1265,2579 1313,2579 1361,2580 1409,2580 1457,2582 1505,2582 1553,2582 1601,2582 1649,2582 1697,2582 1745,2582 1793,2582 1841,2582 1889,2582 1937,2582 1985,2582 2033,2582 2081,2582 2129,2582 2177,2582 2226,2583"/>
+                <TextEquiv>
+                    <Unicode>vas ciudades, con el pasaje en tren y la comida</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l36" custom="readingOrder {index:35;}">
+                <Coords points="1245,2651 2240,2636 2211,2602 1245,2604"/>
+                <Baseline points="1253,2631 1304,2631 1356,2631 1407,2631 1459,2631 1510,2631 1562,2631 1613,2631 1665,2631 1716,2631 1768,2631 1819,2631 1871,2631 1922,2631 1974,2631 2025,2631 2077,2631 2128,2631 2180,2631 2232,2631"/>
+                <TextEquiv>
+                    <Unicode>pagados. Cerca de seis mil veteranos se apro¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l37" custom="readingOrder {index:36;}">
+                <Coords points="1250,2692 2240,2694 2226,2654 1250,2658"/>
+                <Baseline points="1257,2681 1305,2681 1354,2681 1403,2682 1452,2682 1500,2682 1549,2682 1598,2682 1647,2682 1695,2683 1744,2684 1793,2684 1842,2684 1890,2684 1939,2684 1988,2684 2037,2684 2085,2684 2134,2684 2183,2684 2232,2684"/>
+                <TextEquiv>
+                    <Unicode>vecharon de esta coyuntura para regresar a sus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l38" custom="readingOrder {index:37;}">
+                <Coords points="1251,2747 2234,2748 2234,2706 2101,2698 1929,2721 1252,2698"/>
+                <Baseline points="1259,2733 1307,2733 1355,2733 1404,2733 1452,2733 1500,2733 1549,2733 1597,2733 1645,2733 1694,2733 1742,2733 1790,2733 1839,2733 1887,2733 1935,2733 1984,2733 2032,2733 2080,2735 2129,2735 2177,2735 2226,2735"/>
+                <TextEquiv>
+                    <Unicode>lares; pero diariamente llegaban más veteranos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l39" custom="readingOrder {index:38;}">
+                <Coords points="1252,2794 2228,2795 2228,2761 2188,2747 1926,2773 1252,2759"/>
+                <Baseline points="1260,2784 1308,2784 1356,2784 1404,2785 1452,2786 1500,2786 1548,2786 1596,2786 1644,2786 1692,2786 1740,2786 1788,2784 1836,2784 1884,2784 1932,2784 1980,2784 2028,2784 2076,2784 2124,2784 2172,2786 2220,2786"/>
+                <TextEquiv>
+                    <Unicode>a Washington de todas partes. Y muchos in¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l40" custom="readingOrder {index:39;}">
+                <Coords points="1254,2849 2233,2843 2200,2800 2049,2822 1254,2803"/>
+                <Baseline points="1263,2835 1311,2835 1359,2835 1407,2835 1455,2835 1503,2835 1551,2835 1600,2834 1648,2834 1696,2835 1744,2835 1792,2835 1840,2835 1888,2835 1937,2835 1985,2835 2033,2835 2081,2835 2129,2835 2177,2835 2226,2835"/>
+                <TextEquiv>
+                    <Unicode>dudablemente no eran veteranos, sino comunis¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l41" custom="readingOrder {index:40;}">
+                <Coords points="1251,2899 2245,2894 2207,2851 1251,2855"/>
+                <Baseline points="1259,2886 1307,2886 1356,2886 1405,2886 1454,2886 1503,2886 1552,2886 1601,2886 1650,2886 1699,2886 1748,2886 1796,2886 1845,2886 1894,2886 1943,2886 1992,2886 2041,2888 2090,2888 2139,2888 2188,2888 2237,2889"/>
+                <TextEquiv>
+                    <Unicode>tas y rojos dispuestos a armar camorra en la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l42" custom="readingOrder {index:41;}">
+                <Coords points="1245,2953 1684,2946 1684,2919 1663,2906 1623,2913 1591,2898 1578,2910 1245,2914"/>
+                <Baseline points="1253,2940 1279,2939 1305,2937 1332,2937 1358,2937 1385,2936 1411,2936 1438,2936 1464,2936 1490,2936 1517,2936 1543,2936 1570,2937 1596,2937 1623,2937 1649,2939 1676,2939"/>
+                <TextEquiv>
+                    <Unicode>primera oportunidad.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l43" custom="readingOrder {index:42;}">
+                <Coords points="1292,3001 2243,2994 2243,2961 1292,2955"/>
+                <Baseline points="1301,2987 1347,2987 1394,2988 1441,2988 1487,2988 1534,2990 1581,2990 1627,2990 1674,2990 1721,2990 1768,2990 1814,2990 1861,2990 1908,2990 1954,2990 2001,2990 2048,2988 2094,2988 2141,2987 2188,2987 2235,2987"/>
+                <TextEquiv>
+                    <Unicode>Como ya no cabía más gente en el campamen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l44" custom="readingOrder {index:43;}">
+                <Coords points="1255,3051 2244,3049 2244,3016 2088,3003 1255,3009"/>
+                <Baseline points="1263,3038 1311,3038 1360,3039 1408,3039 1457,3039 1506,3039 1554,3039 1603,3039 1651,3039 1700,3039 1749,3039 1797,3039 1846,3039 1894,3039 1943,3038 1992,3038 2040,3038 2089,3039 2137,3039 2186,3039 2235,3039"/>
+                <TextEquiv>
+                    <Unicode>to de Anacosta, se diseminaron por diferentes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l45" custom="readingOrder {index:44;}">
+                <Coords points="1250,3106 2234,3091 2234,3064 2165,3058 1250,3060"/>
+                <Baseline points="1259,3090 1307,3090 1355,3090 1404,3090 1452,3090 1500,3090 1549,3090 1597,3090 1645,3090 1694,3090 1742,3090 1790,3090 1839,3090 1887,3090 1935,3090 1984,3090 2032,3090 2080,3090 2129,3089 2177,3089 2226,3089"/>
+                <TextEquiv>
+                    <Unicode>lugares de la ciudad. En la Avenida Pennsylva¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l46" custom="readingOrder {index:45;}">
+                <Coords points="1254,3157 2230,3149 2208,3116 1935,3106 1254,3115"/>
+                <Baseline points="1262,3143 1310,3143 1358,3141 1406,3141 1454,3141 1502,3141 1550,3141 1598,3141 1646,3141 1694,3141 1742,3141 1790,3141 1838,3141 1886,3141 1934,3141 1982,3141 2030,3141 2078,3141 2126,3141 2174,3140 2222,3140"/>
+                <TextEquiv>
+                    <Unicode>nia, a tres manzanas. del Capitolio, en unas ca¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_4_1l47" custom="readingOrder {index:46;}">
+                <Coords points="1254,3204 2190,3206 2233,3203 2233,3156 1254,3169"/>
+                <Baseline points="1262,3192 1310,3192 1358,3193 1406,3194 1454,3194 1503,3194 1551,3194 1599,3194 1647,3194 1695,3194 1744,3194 1792,3194 1840,3194 1888,3194 1936,3194 1985,3192 2033,3192 2081,3192 2129,3192 2177,3191 2226,3191"/>
+                <TextEquiv>
+                    <Unicode>sas que está derrumbando el Departamento del</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>dos, siendo aprobado el proyecto, en un gestode simpatía hacia los veteranos y como medida dealta política. Los Representantes no olvidaronque este es un año de elecciones y que estosantiguos soldados pueden ejercer el derecho delvoto en sus respectivas comunas y conda¬dos, y el proyecto aprobado por la Cámara pasóal Senado para su discusión y aprobación. ElSenado, ni corto ni perezoso, desaprobó el pro¬yecto, porque sabía muy bien que Hoover iba avetarlo. Su aprobación hubiera representadoun gasto de más de dos billones de dólares queninguno sabe de dónde se iban a sacar, ya queen el presupuesto gubernamental hay un déficitde más de tres billones.Los veteranos se pusieron furiosos; miles deellos se congregaron en la plaza frente al Capi¬tolio, demandando, casi a la fuerza, que se lespagara el bono. La policía, siempre tolerante,dejó que gritaran y patalearan. Los congresis¬tas, ante la actitud belicosa de los veteranos,entraban y salían por el sótano y no deja¬ban ver sus caras; pero, a pesar de todo, no ce¬dieron y las sesiones del Congreso se clausura¬ron sin que se aprobara medida alguna tendentea favorecer la solicitud de los veteranos.Voces amigas aconsejaron entonces a los ve¬teranos que se fueran de la ciudad, ya que elCongreso estaba clausurado y no sacarían nadaen limpio de Hoover. Justo es hacer constarque el Congreso, a solicitud del Presidente Hoo¬ver, aprobó una ley erogando 100,000 dólarespara que los veteranos—los que realmente eranveteranos—pudiesen trasladarse a sus respecti¬vas ciudades, con el pasaje en tren y la comidapagados. Cerca de seis mil veteranos se apro¬vecharon de esta coyuntura para regresar a suslares; pero diariamente llegaban más veteranosa Washington de todas partes. Y muchos in¬dudablemente no eran veteranos, sino comunis¬tas y rojos dispuestos a armar camorra en laprimera oportunidad.Como ya no cabía más gente en el campamen¬to de Anacosta, se diseminaron por diferenteslugares de la ciudad. En la Avenida Pennsylva¬nia, a tres manzanas. del Capitolio, en unas ca¬sas que está derrumbando el Departamento del</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_6" custom="readingOrder {index:6;}">
+            <Coords points="312,333 717,333 717,345 312,345"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:7;}">
+            <Coords points="378,381 526,381 526,391 378,391"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:8;}">
+            <Coords points="468,691 670,691 670,704 468,704"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:9;}">
+            <Coords points="729,726 2258,726 2258,758 729,758"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:10;}">
+            <Coords points="281,752 738,752 738,766 281,766"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:11;}">
+            <Coords points="279,490 292,490 292,759 279,759"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:12;}">
+            <Coords points="728,402 745,402 745,764 728,764"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:13;}">
+            <Coords points="395,365 571,365 571,376 395,376"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>
