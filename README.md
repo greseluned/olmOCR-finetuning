@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este repositorio recoge el pipeline de fine-tuning de [olmOCR-7B](https://huggingface.co/allenai/olmOCR-7B-0225-preview) (Qwen2-VL-7B) para la transcripción automática de prensa histórica en español mediante QLoRA. El objetuvo es adaptar un modelo OCR de propósito general a las características específicas de periódicos publicados entre los años 1850 y 1950 procedentes de Cuba, España, Filipinas, Puerto Rico o República Dominicana.
+Este repositorio recoge el pipeline de fine-tuning de [olmOCR-7B-0225-preview](https://huggingface.co/allenai/olmOCR-7B-0225-preview) (Qwen2-VL-7B) para la transcripción automática de prensa histórica en español mediante QLoRA. El objetivo es adaptar un modelo OCR de propósito general a las características específicas de periódicos publicados entre los años 1850 y 1950 procedentes de Cuba, España, Filipinas, Puerto Rico o República Dominicana.
 
 olmOCR es un VLM (Vision Language Model) desarrollado por el Allen Institute for AI a partir de Qwen2-VL-7B y entrenado para transcribir documentos de todo tipo. Su rendimiento sobre prensa histórica en español se ve limitado por factores que el fine-tuning pretende corregir:
 
