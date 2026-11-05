@@ -1,0 +1,151 @@
+{
+  "etiqueta": "docLayout_fine-tuned",
+  "layout_boxes": {
+    "n_paginas": 90,
+    "avg_iou": 0.6648,
+    "mean_f1": 0.6596,
+    "mean_emr": 0.7169,
+    "composite_score": 0.6622,
+    "iou_threshold": 0.5,
+    "alpha": 0.5
+  },
+  "layout_boxes_por_clase": {
+    "graphic": {
+      "precision": 0.6667,
+      "recall": 0.5862,
+      "f1": 0.6239,
+      "tp": 34,
+      "fp": 17,
+      "fn": 24
+    },
+    "text": {
+      "precision": 0.7234,
+      "recall": 0.6693,
+      "f1": 0.6953,
+      "tp": 510,
+      "fp": 195,
+      "fn": 252
+    }
+  },
+  "layout_boxes_multi_match": {
+    "tp_total": 544,
+    "tp_extra": 1,
+    "tp_sin_duplicar": 543,
+    "pct_tp_extra": 0.0018,
+    "preds_multi": 3,
+    "paginas_afectadas": 3,
+    "n_paginas": 90,
+    "por_clase": {
+      "graphic": {
+        "tp": 34,
+        "tp_extra": 0,
+        "preds_multi": 2,
+        "pct_tp_extra": 0.0
+      },
+      "text": {
+        "tp": 510,
+        "tp_extra": 1,
+        "preds_multi": 1,
+        "pct_tp_extra": 0.002
+      }
+    },
+    "peores_paginas": [
+      {
+        "page_id": "Filipinas-Ante-Europa_Pag38",
+        "preds_multi": 1,
+        "tp_extra": 1
+      },
+      {
+        "page_id": "0267_Semana-0267",
+        "preds_multi": 1,
+        "tp_extra": 0
+      },
+      {
+        "page_id": "Filipinas-22-Abril-1909-P11",
+        "preds_multi": 1,
+        "tp_extra": 0
+      }
+    ]
+  },
+  "layout_boxes_duplicadas": {
+    "dup_iou": 0.7,
+    "preds_total": 753,
+    "duplicadas": 51,
+    "pct_duplicadas": 0.0677,
+    "fp_total": 212,
+    "fp_duplicados_de_tp": 43,
+    "pct_fp_duplicados_de_tp": 0.2028,
+    "paginas_afectadas": 36,
+    "n_paginas": 90,
+    "por_clase": {
+      "graphic": {
+        "preds": 49,
+        "duplicadas": 3,
+        "fp": 17,
+        "fp_duplicados_de_tp": 3,
+        "precision": 0.6667,
+        "precision_sin_duplicados_aprox": 0.7083
+      },
+      "text": {
+        "preds": 704,
+        "duplicadas": 48,
+        "fp": 195,
+        "fp_duplicados_de_tp": 40,
+        "precision": 0.7234,
+        "precision_sin_duplicados_aprox": 0.7669
+      }
+    },
+    "peores_paginas": [
+      {
+        "page_id": "LA-VANGUARDIA-XXV-Num-74-P03-26-04-1944",
+        "duplicadas": 5,
+        "fp_duplicados_de_tp": 4
+      },
+      {
+        "page_id": "0028_p004",
+        "duplicadas": 3,
+        "fp_duplicados_de_tp": 3
+      },
+      {
+        "page_id": "0209_Semana-0209",
+        "duplicadas": 3,
+        "fp_duplicados_de_tp": 3
+      },
+      {
+        "page_id": "0278_Semana-0278",
+        "duplicadas": 3,
+        "fp_duplicados_de_tp": 3
+      },
+      {
+        "page_id": "0010_p002",
+        "duplicadas": 2,
+        "fp_duplicados_de_tp": 2
+      },
+      {
+        "page_id": "0083_Semana-0083",
+        "duplicadas": 2,
+        "fp_duplicados_de_tp": 2
+      },
+      {
+        "page_id": "Fémina_15-07-1922_P09",
+        "duplicadas": 2,
+        "fp_duplicados_de_tp": 2
+      },
+      {
+        "page_id": "0324_Semana-0324",
+        "duplicadas": 2,
+        "fp_duplicados_de_tp": 1
+      },
+      {
+        "page_id": "0002_La_malasia0002",
+        "duplicadas": 1,
+        "fp_duplicados_de_tp": 1
+      },
+      {
+        "page_id": "0006_p002",
+        "duplicadas": 1,
+        "fp_duplicados_de_tp": 1
+      }
+    ]
+  }
+}

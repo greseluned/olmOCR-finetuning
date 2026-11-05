@@ -1,0 +1,40 @@
+{
+  "clases_detectadas": {
+    "text": 915,
+    "graphic": 379
+  },
+  "clase_a_id": {
+    "graphic": 0,
+    "text": 1
+  },
+  "clases_excluidas": [],
+  "stats_por_split": {
+    "train": {
+      "paginas": 738,
+      "regiones": 6547,
+      "sin_region": 2,
+      "por_clase": {
+        "text": 6069,
+        "graphic": 478
+      }
+    },
+    "val": {
+      "paginas": 90,
+      "regiones": 832,
+      "sin_region": 0,
+      "por_clase": {
+        "text": 768,
+        "graphic": 64
+      }
+    },
+    "test": {
+      "paginas": 90,
+      "regiones": 820,
+      "sin_region": 0,
+      "por_clase": {
+        "text": 762,
+        "graphic": 58
+      }
+    }
+  }
+}

@@ -1,0 +1,2548 @@
+{
+  "global_metrics": {
+    "n_paginas": 90,
+    "avg_iou": 0.6648,
+    "mean_f1": 0.6596,
+    "mean_emr": 0.7169,
+    "composite_score": 0.6622,
+    "iou_threshold": 0.5,
+    "alpha": 0.5
+  },
+  "global_by_type": {
+    "graphic": {
+      "precision": 0.6667,
+      "recall": 0.5862,
+      "f1": 0.6239,
+      "tp": 34,
+      "fp": 17,
+      "fn": 24
+    },
+    "text": {
+      "precision": 0.7234,
+      "recall": 0.6693,
+      "f1": 0.6953,
+      "tp": 510,
+      "fp": 195,
+      "fn": 252
+    }
+  },
+  "multi_match": {
+    "tp_total": 544,
+    "tp_extra": 1,
+    "tp_sin_duplicar": 543,
+    "pct_tp_extra": 0.0018,
+    "preds_multi": 3,
+    "paginas_afectadas": 3,
+    "n_paginas": 90,
+    "por_clase": {
+      "graphic": {
+        "tp": 34,
+        "tp_extra": 0,
+        "preds_multi": 2,
+        "pct_tp_extra": 0.0
+      },
+      "text": {
+        "tp": 510,
+        "tp_extra": 1,
+        "preds_multi": 1,
+        "pct_tp_extra": 0.002
+      }
+    },
+    "peores_paginas": [
+      {
+        "page_id": "Filipinas-Ante-Europa_Pag38",
+        "preds_multi": 1,
+        "tp_extra": 1
+      },
+      {
+        "page_id": "0267_Semana-0267",
+        "preds_multi": 1,
+        "tp_extra": 0
+      },
+      {
+        "page_id": "Filipinas-22-Abril-1909-P11",
+        "preds_multi": 1,
+        "tp_extra": 0
+      }
+    ]
+  },
+  "duplicadas": {
+    "dup_iou": 0.7,
+    "preds_total": 753,
+    "duplicadas": 51,
+    "pct_duplicadas": 0.0677,
+    "fp_total": 212,
+    "fp_duplicados_de_tp": 43,
+    "pct_fp_duplicados_de_tp": 0.2028,
+    "paginas_afectadas": 36,
+    "n_paginas": 90,
+    "por_clase": {
+      "graphic": {
+        "preds": 49,
+        "duplicadas": 3,
+        "fp": 17,
+        "fp_duplicados_de_tp": 3,
+        "precision": 0.6667,
+        "precision_sin_duplicados_aprox": 0.7083
+      },
+      "text": {
+        "preds": 704,
+        "duplicadas": 48,
+        "fp": 195,
+        "fp_duplicados_de_tp": 40,
+        "precision": 0.7234,
+        "precision_sin_duplicados_aprox": 0.7669
+      }
+    },
+    "peores_paginas": [
+      {
+        "page_id": "LA-VANGUARDIA-XXV-Num-74-P03-26-04-1944",
+        "duplicadas": 5,
+        "fp_duplicados_de_tp": 4
+      },
+      {
+        "page_id": "0028_p004",
+        "duplicadas": 3,
+        "fp_duplicados_de_tp": 3
+      },
+      {
+        "page_id": "0209_Semana-0209",
+        "duplicadas": 3,
+        "fp_duplicados_de_tp": 3
+      },
+      {
+        "page_id": "0278_Semana-0278",
+        "duplicadas": 3,
+        "fp_duplicados_de_tp": 3
+      },
+      {
+        "page_id": "0010_p002",
+        "duplicadas": 2,
+        "fp_duplicados_de_tp": 2
+      },
+      {
+        "page_id": "0083_Semana-0083",
+        "duplicadas": 2,
+        "fp_duplicados_de_tp": 2
+      },
+      {
+        "page_id": "Fémina_15-07-1922_P09",
+        "duplicadas": 2,
+        "fp_duplicados_de_tp": 2
+      },
+      {
+        "page_id": "0324_Semana-0324",
+        "duplicadas": 2,
+        "fp_duplicados_de_tp": 1
+      },
+      {
+        "page_id": "0002_La_malasia0002",
+        "duplicadas": 1,
+        "fp_duplicados_de_tp": 1
+      },
+      {
+        "page_id": "0006_p002",
+        "duplicadas": 1,
+        "fp_duplicados_de_tp": 1
+      }
+    ]
+  },
+  "per_page_metrics": [
+    {
+      "avg_iou": 0.6611,
+      "emr": 0.7273,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8889,
+          "recall": 0.7273,
+          "f1": 0.8,
+          "tp": 8,
+          "fp": 1,
+          "fn": 3
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 9
+      },
+      "page_id": "0002_La_malasia0002"
+    },
+    {
+      "avg_iou": 0.5506,
+      "emr": 0.7273,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8,
+          "recall": 0.7273,
+          "f1": 0.7619,
+          "tp": 8,
+          "fp": 2,
+          "fn": 3
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 10
+      },
+      "page_id": "0006_p002"
+    },
+    {
+      "avg_iou": 0.3618,
+      "emr": 0.3889,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.7,
+          "recall": 0.3889,
+          "f1": 0.5,
+          "tp": 7,
+          "fp": 3,
+          "fn": 11
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 10
+      },
+      "page_id": "0010_Semana-0010"
+    },
+    {
+      "avg_iou": 0.6537,
+      "emr": 0.75,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75,
+          "tp": 9,
+          "fp": 3,
+          "fn": 3
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 2,
+          "dup_de_tp": 2
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 12
+      },
+      "page_id": "0010_p002"
+    },
+    {
+      "avg_iou": 0.7559,
+      "emr": 0.8571,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 0.8571,
+          "f1": 0.9231,
+          "tp": 6,
+          "fp": 0,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 6
+      },
+      "page_id": "0012_La_malasia0012"
+    },
+    {
+      "avg_iou": 0.7487,
+      "emr": 0.875,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 0.875,
+          "f1": 0.9333,
+          "tp": 14,
+          "fp": 0,
+          "fn": 2
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 14
+      },
+      "page_id": "0013_p001"
+    },
+    {
+      "avg_iou": 0.5554,
+      "emr": 0.6,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75,
+          "tp": 9,
+          "fp": 0,
+          "fn": 6
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 9,
+        "graphic": 1
+      },
+      "page_id": "0017_Semana-0017"
+    },
+    {
+      "avg_iou": 0.7666,
+      "emr": 0.8235,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.7778,
+          "recall": 0.8235,
+          "f1": 0.8,
+          "tp": 14,
+          "fp": 4,
+          "fn": 3
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 3,
+          "dup_de_tp": 3
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 18
+      },
+      "page_id": "0028_p004"
+    },
+    {
+      "avg_iou": 0.7816,
+      "emr": 0.9167,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.9167,
+          "recall": 0.9167,
+          "f1": 0.9167,
+          "tp": 11,
+          "fp": 1,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 12
+      },
+      "page_id": "0038_Semana-0038"
+    },
+    {
+      "avg_iou": 0.9097,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 8,
+          "fp": 0,
+          "fn": 0
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 8,
+        "graphic": 1
+      },
+      "page_id": "0052_Semana-0052"
+    },
+    {
+      "avg_iou": 0.9011,
+      "emr": 0.8889,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8,
+          "recall": 0.8889,
+          "f1": 0.8421,
+          "tp": 8,
+          "fp": 2,
+          "fn": 1
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 10,
+        "graphic": 1
+      },
+      "page_id": "0056_Semana-0056"
+    },
+    {
+      "avg_iou": 0.9011,
+      "emr": 0.9,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.9,
+          "recall": 0.9,
+          "f1": 0.9,
+          "tp": 9,
+          "fp": 1,
+          "fn": 1
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 10,
+        "graphic": 1
+      },
+      "page_id": "0076_Semana-0076"
+    },
+    {
+      "avg_iou": 0.7719,
+      "emr": 0.8125,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8125,
+          "recall": 0.8125,
+          "f1": 0.8125,
+          "tp": 13,
+          "fp": 3,
+          "fn": 3
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 2,
+          "dup_de_tp": 2
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 16,
+        "graphic": 1
+      },
+      "page_id": "0083_Semana-0083"
+    },
+    {
+      "avg_iou": 0.2946,
+      "emr": 0.2727,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.4286,
+          "recall": 0.2727,
+          "f1": 0.3333,
+          "tp": 3,
+          "fp": 4,
+          "fn": 8
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 7
+      },
+      "page_id": "0087_Semana-0087"
+    },
+    {
+      "avg_iou": 0.9134,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8889,
+          "recall": 1.0,
+          "f1": 0.9412,
+          "tp": 8,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 9
+      },
+      "page_id": "0107_Semana-0107"
+    },
+    {
+      "avg_iou": 0.6279,
+      "emr": 0.5,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "tp": 2,
+          "fp": 0,
+          "fn": 2
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "graphic": 1,
+        "text": 2
+      },
+      "page_id": "0109_Semana-0109"
+    },
+    {
+      "avg_iou": 0.9069,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8333,
+          "recall": 1.0,
+          "f1": 0.9091,
+          "tp": 5,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 6
+      },
+      "page_id": "0140_Semana-0140"
+    },
+    {
+      "avg_iou": 0.9474,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 7,
+          "fp": 0,
+          "fn": 0
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 7,
+        "graphic": 2
+      },
+      "page_id": "0148_Semana-0148"
+    },
+    {
+      "avg_iou": 0.6599,
+      "emr": 0.75,
+      "metrics_by_type": {
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        },
+        "text": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667,
+          "tp": 2,
+          "fp": 1,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "graphic": 1,
+        "text": 3
+      },
+      "page_id": "0155_Semana-0155"
+    },
+    {
+      "avg_iou": 0.5803,
+      "emr": 0.625,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8333,
+          "recall": 0.625,
+          "f1": 0.7143,
+          "tp": 5,
+          "fp": 1,
+          "fn": 3
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 6
+      },
+      "page_id": "0176_Semana-0176"
+    },
+    {
+      "avg_iou": 0.6387,
+      "emr": 0.7692,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.9091,
+          "recall": 0.7692,
+          "f1": 0.8333,
+          "tp": 10,
+          "fp": 1,
+          "fn": 3
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 11
+      },
+      "page_id": "0194_Semana-0194"
+    },
+    {
+      "avg_iou": 0.6558,
+      "emr": 0.75,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.6667,
+          "recall": 0.7273,
+          "f1": 0.6957,
+          "tp": 8,
+          "fp": 4,
+          "fn": 3
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 3,
+          "dup_de_tp": 3
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 12,
+        "graphic": 1
+      },
+      "page_id": "0209_Semana-0209"
+    },
+    {
+      "avg_iou": 0.8575,
+      "emr": 0.8125,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.7647,
+          "recall": 0.8667,
+          "f1": 0.8125,
+          "tp": 13,
+          "fp": 4,
+          "fn": 2
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 17,
+        "graphic": 2
+      },
+      "page_id": "0218_Semana-0218"
+    },
+    {
+      "avg_iou": 0.6925,
+      "emr": 0.8571,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8571,
+          "recall": 0.8571,
+          "f1": 0.8571,
+          "tp": 6,
+          "fp": 1,
+          "fn": 1
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 7,
+        "graphic": 1
+      },
+      "page_id": "0221_Semana-0221"
+    },
+    {
+      "avg_iou": 0.6014,
+      "emr": 0.625,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 0.7143,
+          "f1": 0.8333,
+          "tp": 10,
+          "fp": 0,
+          "fn": 4
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 10
+      },
+      "page_id": "0224_Semana-0224"
+    },
+    {
+      "avg_iou": 0.8688,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 2
+      },
+      "page_id": "0242_Semana-0242"
+    },
+    {
+      "avg_iou": 0.7599,
+      "emr": 0.5556,
+      "metrics_by_type": {
+        "graphic": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667,
+          "tp": 2,
+          "fp": 1,
+          "fn": 1
+        },
+        "text": {
+          "precision": 0.375,
+          "recall": 0.5,
+          "f1": 0.4286,
+          "tp": 3,
+          "fp": 5,
+          "fn": 3
+        }
+      },
+      "multi_match": {
+        "graphic": {
+          "preds_multi": 1,
+          "tp_extra": 0
+        }
+      },
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 8,
+        "graphic": 2
+      },
+      "page_id": "0267_Semana-0267"
+    },
+    {
+      "avg_iou": 0.9065,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1": 0.9333,
+          "tp": 7,
+          "fp": 1,
+          "fn": 0
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 8,
+        "graphic": 1
+      },
+      "page_id": "0272_Semana-0272"
+    },
+    {
+      "avg_iou": 0.5514,
+      "emr": 0.5833,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.5556,
+          "recall": 0.5556,
+          "f1": 0.5556,
+          "tp": 5,
+          "fp": 4,
+          "fn": 4
+        },
+        "graphic": {
+          "precision": 0.5,
+          "recall": 0.6667,
+          "f1": 0.5714,
+          "tp": 2,
+          "fp": 2,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        },
+        "graphic": {
+          "dup": 2,
+          "dup_de_tp": 2
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 9,
+        "graphic": 4
+      },
+      "page_id": "0278_Semana-0278"
+    },
+    {
+      "avg_iou": 0.5242,
+      "emr": 0.5,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.1667,
+          "recall": 0.5,
+          "f1": 0.25,
+          "tp": 1,
+          "fp": 5,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 6
+      },
+      "page_id": "0285_Semana-0285"
+    },
+    {
+      "avg_iou": 0.7703,
+      "emr": 0.9091,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.8889,
+          "tp": 8,
+          "fp": 2,
+          "fn": 0
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "tp": 2,
+          "fp": 0,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 10,
+        "graphic": 2
+      },
+      "page_id": "0291_Semana-0291"
+    },
+    {
+      "avg_iou": 0.8873,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.7143,
+          "recall": 1.0,
+          "f1": 0.8333,
+          "tp": 5,
+          "fp": 2,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 7
+      },
+      "page_id": "0302_Semana-0302"
+    },
+    {
+      "avg_iou": 0.7666,
+      "emr": 0.875,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 0.8571,
+          "f1": 0.9231,
+          "tp": 6,
+          "fp": 0,
+          "fn": 1
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 6,
+        "graphic": 1
+      },
+      "page_id": "0313_Semana-0313"
+    },
+    {
+      "avg_iou": 0.5441,
+      "emr": 0.5,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.7143,
+          "recall": 0.5,
+          "f1": 0.5882,
+          "tp": 5,
+          "fp": 2,
+          "fn": 5
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 7,
+        "graphic": 1
+      },
+      "page_id": "0315_Semana-0315"
+    },
+    {
+      "avg_iou": 0.8299,
+      "emr": 0.8889,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.5333,
+          "recall": 1.0,
+          "f1": 0.6957,
+          "tp": 8,
+          "fp": 7,
+          "fn": 0
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 2,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 15
+      },
+      "page_id": "0324_Semana-0324"
+    },
+    {
+      "avg_iou": 0.8888,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "tp": 2,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 3
+      },
+      "page_id": "0332_Semana-0332"
+    },
+    {
+      "avg_iou": 0.6802,
+      "emr": 0.7778,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.5385,
+          "recall": 0.7778,
+          "f1": 0.6364,
+          "tp": 7,
+          "fp": 6,
+          "fn": 2
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 2,
+          "dup_de_tp": 0
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 13
+      },
+      "page_id": "0335_Semana-0335"
+    },
+    {
+      "avg_iou": 0.9166,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 6,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 6
+      },
+      "page_id": "0338_Semana-0338"
+    },
+    {
+      "avg_iou": 0.6864,
+      "emr": 0.6364,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.2857,
+          "recall": 0.8571,
+          "f1": 0.4286,
+          "tp": 6,
+          "fp": 15,
+          "fn": 1
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4,
+          "tp": 1,
+          "fp": 0,
+          "fn": 3
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 0
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 21,
+        "graphic": 1
+      },
+      "page_id": "0340_Semana-0340"
+    },
+    {
+      "avg_iou": 0.6406,
+      "emr": 0.75,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 0.7143,
+          "f1": 0.8333,
+          "tp": 5,
+          "fp": 0,
+          "fn": 2
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 5,
+        "graphic": 1
+      },
+      "page_id": "Excelsior-10-09-1932_p001"
+    },
+    {
+      "avg_iou": 0.4828,
+      "emr": 0.5,
+      "metrics_by_type": {
+        "graphic": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "tp": 1,
+          "fp": 0,
+          "fn": 1
+        },
+        "text": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "tp": 2,
+          "fp": 0,
+          "fn": 2
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 2,
+        "graphic": 1
+      },
+      "page_id": "Excelsior-10-09-1932_p017"
+    },
+    {
+      "avg_iou": 0.7948,
+      "emr": 0.8571,
+      "metrics_by_type": {
+        "graphic": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571,
+          "tp": 3,
+          "fp": 0,
+          "fn": 1
+        },
+        "text": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 3,
+        "graphic": 3
+      },
+      "page_id": "Excelsior-10-09-1932_p021"
+    },
+    {
+      "avg_iou": 0.4472,
+      "emr": 0.4286,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.75,
+          "recall": 0.4286,
+          "f1": 0.5455,
+          "tp": 3,
+          "fp": 1,
+          "fn": 4
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 4
+      },
+      "page_id": "Excelsior-10-09-1932_p037"
+    },
+    {
+      "avg_iou": 0.7295,
+      "emr": 0.8,
+      "metrics_by_type": {
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        },
+        "text": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 4,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 4
+      },
+      "page_id": "Excelsior-10-09-1932_p065"
+    },
+    {
+      "avg_iou": 0.7949,
+      "emr": 0.8889,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.6667,
+          "recall": 0.8889,
+          "f1": 0.7619,
+          "tp": 8,
+          "fp": 4,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 12
+      },
+      "page_id": "Filipinas-22-Abril-1909-P09"
+    },
+    {
+      "avg_iou": 0.3915,
+      "emr": 0.3077,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.6,
+          "recall": 0.25,
+          "f1": 0.3529,
+          "tp": 3,
+          "fp": 2,
+          "fn": 9
+        },
+        "graphic": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "tp": 1,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {
+        "graphic": {
+          "preds_multi": 1,
+          "tp_extra": 0
+        }
+      },
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "graphic": 1,
+        "text": 5
+      },
+      "page_id": "Filipinas-22-Abril-1909-P11"
+    },
+    {
+      "avg_iou": 0.525,
+      "emr": 0.6667,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.4,
+          "recall": 0.6667,
+          "f1": 0.5,
+          "tp": 2,
+          "fp": 3,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 5
+      },
+      "page_id": "Filipinas-30-Abril-1909-P24"
+    },
+    {
+      "avg_iou": 0.5858,
+      "emr": 0.5,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.3333,
+          "recall": 0.5,
+          "f1": 0.4,
+          "tp": 2,
+          "fp": 4,
+          "fn": 2
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 0
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 6
+      },
+      "page_id": "Filipinas-30-Abril-1909-P30"
+    },
+    {
+      "avg_iou": 0.5533,
+      "emr": 0.5714,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8,
+          "recall": 0.5714,
+          "f1": 0.6667,
+          "tp": 4,
+          "fp": 1,
+          "fn": 3
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 5
+      },
+      "page_id": "Filipinas-Ante-Europa_Pag14"
+    },
+    {
+      "avg_iou": 0.7048,
+      "emr": 0.8,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8,
+          "tp": 4,
+          "fp": 1,
+          "fn": 1
+        }
+      },
+      "multi_match": {
+        "text": {
+          "preds_multi": 1,
+          "tp_extra": 1
+        }
+      },
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 4
+      },
+      "page_id": "Filipinas-Ante-Europa_Pag38"
+    },
+    {
+      "avg_iou": 0.836,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 6,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 6
+      },
+      "page_id": "Fémina_04-07-1922_P01"
+    },
+    {
+      "avg_iou": 0.3815,
+      "emr": 0.4286,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "tp": 3,
+          "fp": 3,
+          "fn": 3
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 6
+      },
+      "page_id": "Fémina_04-07-1922_P11"
+    },
+    {
+      "avg_iou": 0.2955,
+      "emr": 0.2727,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.5,
+          "recall": 0.2727,
+          "f1": 0.3529,
+          "tp": 3,
+          "fp": 3,
+          "fn": 8
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 6
+      },
+      "page_id": "Fémina_10-10-1922_P02"
+    },
+    {
+      "avg_iou": 0.3429,
+      "emr": 0.4,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.6667,
+          "recall": 0.4,
+          "f1": 0.5,
+          "tp": 6,
+          "fp": 3,
+          "fn": 9
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 9
+      },
+      "page_id": "Fémina_10-10-1922_P03"
+    },
+    {
+      "avg_iou": 0.1679,
+      "emr": 0.125,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.25,
+          "recall": 0.125,
+          "f1": 0.1667,
+          "tp": 1,
+          "fp": 3,
+          "fn": 7
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 4
+      },
+      "page_id": "Fémina_10-10-1922_P04"
+    },
+    {
+      "avg_iou": 0.3162,
+      "emr": 0.2,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.4,
+          "recall": 0.2,
+          "f1": 0.2667,
+          "tp": 2,
+          "fp": 3,
+          "fn": 8
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 5
+      },
+      "page_id": "Fémina_10-10-1922_P08"
+    },
+    {
+      "avg_iou": 0.7143,
+      "emr": 0.9,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8889,
+          "recall": 0.8889,
+          "f1": 0.8889,
+          "tp": 8,
+          "fp": 1,
+          "fn": 1
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 9,
+        "graphic": 1
+      },
+      "page_id": "Fémina_15-06-1923_P08"
+    },
+    {
+      "avg_iou": 0.6809,
+      "emr": 0.7826,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8182,
+          "recall": 0.8182,
+          "f1": 0.8182,
+          "tp": 18,
+          "fp": 4,
+          "fn": 4
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 2,
+          "dup_de_tp": 2
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 22
+      },
+      "page_id": "Fémina_15-07-1922_P09"
+    },
+    {
+      "avg_iou": 0.3815,
+      "emr": 0.4286,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "tp": 3,
+          "fp": 3,
+          "fn": 3
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 6
+      },
+      "page_id": "Fémina_15-07-1922_P11"
+    },
+    {
+      "avg_iou": 0.6413,
+      "emr": 0.7143,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8333,
+          "recall": 0.7143,
+          "f1": 0.7692,
+          "tp": 5,
+          "fp": 1,
+          "fn": 2
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 6
+      },
+      "page_id": "Fémina_15-10-1923_P02"
+    },
+    {
+      "avg_iou": 0.7162,
+      "emr": 0.75,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.7143,
+          "recall": 0.7143,
+          "f1": 0.7143,
+          "tp": 5,
+          "fp": 2,
+          "fn": 2
+        },
+        "graphic": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "tp": 1,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "graphic": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 7,
+        "graphic": 2
+      },
+      "page_id": "Fémina_15-10-1923_P09"
+    },
+    {
+      "avg_iou": 0.749,
+      "emr": 0.8571,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8571,
+          "recall": 0.8571,
+          "f1": 0.8571,
+          "tp": 6,
+          "fp": 1,
+          "fn": 1
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 7,
+        "graphic": 1
+      },
+      "page_id": "Fémina_15-11-1923_P02"
+    },
+    {
+      "avg_iou": 0.9073,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.8889,
+          "tp": 4,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 5
+      },
+      "page_id": "Fémina_15-11-1923_P07"
+    },
+    {
+      "avg_iou": 0.6887,
+      "emr": 0.8,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8,
+          "tp": 4,
+          "fp": 1,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 5
+      },
+      "page_id": "Fémina_15-12-1923_P04"
+    },
+    {
+      "avg_iou": 0.7227,
+      "emr": 0.75,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.5455,
+          "recall": 0.75,
+          "f1": 0.6316,
+          "tp": 6,
+          "fp": 5,
+          "fn": 2
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 11
+      },
+      "page_id": "Fémina_30-06-1923_P03"
+    },
+    {
+      "avg_iou": 0.4217,
+      "emr": 0.5,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5,
+          "tp": 1,
+          "fp": 0,
+          "fn": 2
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "graphic": 1,
+        "text": 1
+      },
+      "page_id": "Fémina_30-06-1923_P13"
+    },
+    {
+      "avg_iou": 0.8577,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 8,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 8
+      },
+      "page_id": "Fémina_30-06-1923_P14"
+    },
+    {
+      "avg_iou": 0.6408,
+      "emr": 0.7143,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 0.7143,
+          "f1": 0.8333,
+          "tp": 5,
+          "fp": 0,
+          "fn": 2
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 5,
+        "graphic": 1
+      },
+      "page_id": "Fémina_30-11-1923_P02"
+    },
+    {
+      "avg_iou": 0.6446,
+      "emr": 0.6667,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.5,
+          "recall": 0.6667,
+          "f1": 0.5714,
+          "tp": 4,
+          "fp": 4,
+          "fn": 2
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 8,
+        "graphic": 1
+      },
+      "page_id": "Fémina_31-10-1923_P09"
+    },
+    {
+      "avg_iou": 0.8235,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.6923,
+          "recall": 1.0,
+          "f1": 0.8182,
+          "tp": 9,
+          "fp": 4,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 13
+      },
+      "page_id": "Fémina_31-10-1923_P12"
+    },
+    {
+      "avg_iou": 0.0749,
+      "emr": 0.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 12
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 4
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 2
+      },
+      "page_id": "Heraldo-de-la-mujer-Aug-1919_p002"
+    },
+    {
+      "avg_iou": 0.1181,
+      "emr": 0.0625,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.1667,
+          "recall": 0.0769,
+          "f1": 0.1053,
+          "tp": 1,
+          "fp": 5,
+          "fn": 12
+        },
+        "graphic": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 3
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 0
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 6
+      },
+      "page_id": "Heraldo-de-la-mujer-Aug-1919_p010"
+    },
+    {
+      "avg_iou": 0.7275,
+      "emr": 0.8,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8,
+          "tp": 4,
+          "fp": 1,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 5
+      },
+      "page_id": "Hispanidad-4-Abril-1940-P24"
+    },
+    {
+      "avg_iou": 0.6248,
+      "emr": 0.75,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571,
+          "tp": 3,
+          "fp": 0,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 3
+      },
+      "page_id": "Hispanidad-4-Abril-1940-P26"
+    },
+    {
+      "avg_iou": 0.9172,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        },
+        "text": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 2,
+        "graphic": 1
+      },
+      "page_id": "Hispanidad-4-Abril-1940-P29"
+    },
+    {
+      "avg_iou": 0.7938,
+      "emr": 0.8571,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8333,
+          "recall": 0.8333,
+          "f1": 0.8333,
+          "tp": 5,
+          "fp": 1,
+          "fn": 1
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 6,
+        "graphic": 1
+      },
+      "page_id": "Hispanidad-5-Mayo-1940-P23"
+    },
+    {
+      "avg_iou": 0.7354,
+      "emr": 0.6667,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667,
+          "tp": 2,
+          "fp": 1,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 3
+      },
+      "page_id": "Hispanidad-6-Junio-1940-P17"
+    },
+    {
+      "avg_iou": 0.689,
+      "emr": 0.8571,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.7143,
+          "recall": 0.8333,
+          "f1": 0.7692,
+          "tp": 5,
+          "fp": 2,
+          "fn": 1
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "graphic": 1,
+        "text": 7
+      },
+      "page_id": "Hispanidad-6-Junio-1940-P25"
+    },
+    {
+      "avg_iou": 0.9446,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 3
+      },
+      "page_id": "Hispanidad-6-Junio-1940-P32"
+    },
+    {
+      "avg_iou": 0.7617,
+      "emr": 0.875,
+      "metrics_by_type": {
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0
+        },
+        "text": {
+          "precision": 0.8333,
+          "recall": 0.8333,
+          "f1": 0.8333,
+          "tp": 5,
+          "fp": 1,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "graphic": 2,
+        "text": 6
+      },
+      "page_id": "Hispanidad-6-Junio-1940-P36"
+    },
+    {
+      "avg_iou": 0.8947,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1": 0.75,
+          "tp": 3,
+          "fp": 2,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 5
+      },
+      "page_id": "Hispanidad-6-Junio-1940-P38"
+    },
+    {
+      "avg_iou": 0.7718,
+      "emr": 0.8,
+      "metrics_by_type": {
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        },
+        "text": {
+          "precision": 0.6,
+          "recall": 0.75,
+          "f1": 0.6667,
+          "tp": 3,
+          "fp": 2,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 5,
+        "graphic": 1
+      },
+      "page_id": "Hispanidad-7-Julio-1940-P22"
+    },
+    {
+      "avg_iou": 0.9275,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571,
+          "tp": 3,
+          "fp": 1,
+          "fn": 0
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "graphic": 1,
+        "text": 4
+      },
+      "page_id": "Hispanidad-7-Julio-1940-P24"
+    },
+    {
+      "avg_iou": 0.6697,
+      "emr": 0.6667,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.4444,
+          "recall": 0.6667,
+          "f1": 0.5333,
+          "tp": 4,
+          "fp": 5,
+          "fn": 2
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 9
+      },
+      "page_id": "Hispanidad-7-Julio-1940-P35"
+    },
+    {
+      "avg_iou": 0.7712,
+      "emr": 0.8333,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.5,
+          "recall": 0.8,
+          "f1": 0.6154,
+          "tp": 4,
+          "fp": 4,
+          "fn": 1
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "graphic": 1,
+        "text": 8
+      },
+      "page_id": "Hispanidad-8-Agosto-1940_P09"
+    },
+    {
+      "avg_iou": 0.5552,
+      "emr": 0.5,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.6667,
+          "recall": 0.5,
+          "f1": 0.5714,
+          "tp": 2,
+          "fp": 1,
+          "fn": 2
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 3
+      },
+      "page_id": "Hispanidad-8-Agosto-1940_P18"
+    },
+    {
+      "avg_iou": 0.9208,
+      "emr": 1.0,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.8889,
+          "tp": 4,
+          "fp": 1,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 1
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 5
+      },
+      "page_id": "Hispanidad-8-Agosto-1940_P39"
+    },
+    {
+      "avg_iou": 0.5006,
+      "emr": 0.4915,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.6744,
+          "recall": 0.4915,
+          "f1": 0.5686,
+          "tp": 29,
+          "fp": 14,
+          "fn": 30
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 5,
+          "dup_de_tp": 4
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 43
+      },
+      "page_id": "LA-VANGUARDIA-XXV-Num-74-P03-26-04-1944"
+    },
+    {
+      "avg_iou": 0.3746,
+      "emr": 0.381,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.6667,
+          "recall": 0.3158,
+          "f1": 0.4286,
+          "tp": 6,
+          "fp": 3,
+          "fn": 13
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {
+        "text": {
+          "dup": 1,
+          "dup_de_tp": 0
+        }
+      },
+      "n_pred_por_clase": {
+        "text": 9,
+        "graphic": 2
+      },
+      "page_id": "Sorpresas-Chicago_Pag27"
+    },
+    {
+      "avg_iou": 0.2005,
+      "emr": 0.1667,
+      "metrics_by_type": {
+        "text": {
+          "precision": 0.25,
+          "recall": 0.1,
+          "f1": 0.1429,
+          "tp": 1,
+          "fp": 3,
+          "fn": 9
+        },
+        "graphic": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "tp": 1,
+          "fp": 0,
+          "fn": 1
+        }
+      },
+      "multi_match": {},
+      "duplicadas": {},
+      "n_pred_por_clase": {
+        "text": 4,
+        "graphic": 1
+      },
+      "page_id": "Sorpresas-Chicago_Pag40"
+    }
+  ]
+}
