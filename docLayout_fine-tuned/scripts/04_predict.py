@@ -2,30 +2,30 @@
 # -*- coding: utf-8 -*-
 """
 04_predict.py
-==========
-Ejecuta un modelo docLayout-YOLO (baseline o fine-tuned) sobre las imágenes
-del corpus y genera los pred_boxes.json que consume 06_evaluate_fpp.py para
-la evaluación de layout real (no circular).
 
-Los pesos del modelo baseline y los fine-tuned se esperan en:
-    models/doclayout_yolo_docstructbench_imgsz1024.pt   ← baseline
-    models/<nombre>/train/weights/best.pt               ← fine-tuned
+Ejecuta un modelo docLayout-YOLO (baseline o fine-tuned) sobre las imágenes de un
+split y guarda las regiones detectadas en pred_boxes_doclayout.json, que usa la
+evaluación de layout. Las clases se normalizan al esquema del corpus. El
+modelo baseline se espera en models/doclayout_yolo_docstructbench_imgsz1024.pt y
+los fine-tuned en models/<nombre>/train/weights/best.pt.
 
-La salida se escribe en:
-    outputs/evaluacion_fpp/pred_boxes_doclayout.json
+Requisitos:
+    pip install doclayout-yolo
 
 Uso:
-    # Con el modelo baseline (sin fine-tuning):
-    python scripts/predict.py --split test
+    python scripts/04_predict.py --split test
+    python scripts/04_predict.py --split test --modelo layout-model
+    python scripts/04_predict.py --split test --modelo layout-model --parchear
 
-    # Con un modelo fine-tuned:
-    python scripts/predict.py --split test --modelo prensa_hispanica
+Opciones:
+    --split train|val|test   split a procesar (test)
+    --modelo NOMBRE          'baseline' o modelo fine-tuned en models/ (baseline)
+    --conf X                 umbral de confianza (config.PRED_CONF)
+    --device D               dispositivo (config.DEVICE)
+    --parchear               copia pred_boxes_doclayout.json a pred_boxes.json
 
-    # Copiar resultado para uso inmediato con 06_evaluate_fpp.py:
-    python scripts/predict.py --split test --modelo prensa_hispanica --parchear
-
-Prerrequisitos:
-    pip install doclayout-yolo
+Salida:
+    outputs/predicciones/pred_boxes_doclayout.json
 """
 
 import argparse
@@ -63,7 +63,6 @@ MAPEO_DOCLAYOUT: dict[str, str] = {
  
  
 def _normalizar_clase(nombre: str) -> str:
-    """Traduce un nombre de clase del modelo al esquema del corpus."""
     return MAPEO_DOCLAYOUT.get(nombre, nombre.lower())
  
  
@@ -72,13 +71,6 @@ def _normalizar_clase(nombre: str) -> str:
 # ══════════════════════════════════════════════════════════════════════════════
  
 def _parche_pytorch26() -> None:
-    """
-    Permite cargar checkpoints de doclayout_yolo con PyTorch 2.6.
- 
-    En PyTorch 2.6 el valor por defecto de weights_only es True, lo que
-    impide cargar checkpoints con clases personalizadas. Se registra el
-    global necesario o, como alternativa, se parchea torch.load.
-    """
     import torch
     try:
         from doclayout_yolo.nn.tasks import YOLOv10DetectionModel
@@ -95,15 +87,6 @@ def _parche_pytorch26() -> None:
  
  
 def cargar_modelo(nombre_modelo: str):
-    """
-    Carga el modelo baseline o un modelo fine-tuned.
- 
-    Parámetros:
-        nombre_modelo — 'baseline' o nombre del modelo fine-tuned en models/
- 
-    Devuelve:
-        Instancia de YOLOv10 con los pesos cargados
-    """
     try:
         from doclayout_yolo import YOLOv10
     except ImportError:
@@ -133,17 +116,6 @@ def cargar_modelo(nombre_modelo: str):
 # ══════════════════════════════════════════════════════════════════════════════
  
 def _obtener_imagenes_del_split(split: str) -> list[tuple[str, Path]]:
-    """
-    Busca las imágenes del split en <corpus preparado>/images/<split>/.
- 
-    Si esa carpeta no existe, recorre todas las imágenes del corpus.
- 
-    Parámetros:
-        split — nombre del split (train, val o test)
- 
-    Devuelve:
-        Lista de (stem, ruta_imagen)
-    """
     dir_split = config.CORPUS_OUT_DIR / "images" / split
     if dir_split.exists():
         imagenes = []
@@ -174,18 +146,6 @@ def predecir_imagen(
     conf: float,
     device: str,
 ) -> list[dict]:
-    """
-    Detecta las regiones de una imagen.
- 
-    Parámetros:
-        ruta_imagen — ruta a la imagen
-        modelo      — modelo YOLOv10 cargado
-        conf        — umbral de confianza
-        device      — dispositivo de ejecución
- 
-    Devuelve:
-        Lista de {"class_name", "xyxy", "confidence"}
-    """
     resultados = modelo.predict(
         str(ruta_imagen),
         imgsz=config.IMG_SIZE,
@@ -217,18 +177,6 @@ def predecir_split(
     conf: float,
     device: str,
 ) -> dict[str, list[dict]]:
-    """
-    Predice las regiones de todas las imágenes de un split.
- 
-    Parámetros:
-        imagenes — lista de (stem, ruta_imagen)
-        modelo   — modelo YOLOv10 cargado
-        conf     — umbral de confianza
-        device   — dispositivo de ejecución
- 
-    Devuelve:
-        {stem: lista de detecciones}; vacía si la predicción de una imagen falla
-    """
     pred_boxes: dict[str, list] = {}
     total = len(imagenes)
  
@@ -250,7 +198,6 @@ def predecir_split(
 # ══════════════════════════════════════════════════════════════════════════════
  
 def guardar_pred_boxes(pred_boxes: dict[str, list], dir_eval: Path) -> Path:
-    """Guarda las predicciones en pred_boxes_doclayout.json y devuelve su ruta."""
     dir_eval.mkdir(parents=True, exist_ok=True)
     ruta = dir_eval / "pred_boxes_doclayout.json"
     ruta.write_text(
@@ -262,7 +209,6 @@ def guardar_pred_boxes(pred_boxes: dict[str, list], dir_eval: Path) -> Path:
  
  
 def _estadisticas(pred_boxes: dict[str, list]) -> None:
-    """Imprime el número de regiones detectadas por clase."""
     conteo: dict[str, int] = {}
     for dets in pred_boxes.values():
         for d in dets:
@@ -275,7 +221,6 @@ def _estadisticas(pred_boxes: dict[str, list]) -> None:
  
  
 def parchear_evaluate_fpp(dir_eval: Path) -> None:
-    """Copia pred_boxes_doclayout.json a pred_boxes.json para la evaluación."""
     src = dir_eval / "pred_boxes_doclayout.json"
     dst = dir_eval / "pred_boxes.json"
     if src.exists():

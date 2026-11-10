@@ -1,0 +1,249 @@
+{
+  "etiqueta": "fine-tuned_prompt-type",
+  "ocr": {
+    "global": {
+      "n_paginas": 90,
+      "total": {
+        "errores_caracteres": 48612,
+        "caracteres_gt": 302028,
+        "errores_palabras": 16171,
+        "palabras_gt": 49229
+      },
+      "promedio": {
+        "cer": 0.1947,
+        "wer": 0.3601
+      },
+      "normalizado": {
+        "cer": 0.161,
+        "wer": 0.3285
+      }
+    },
+    "por_publicacion": {
+      "accion-libertaria": {
+        "n_paginas": 4,
+        "total": {
+          "errores_caracteres": 4935,
+          "caracteres_gt": 46437,
+          "errores_palabras": 3261,
+          "palabras_gt": 7981
+        },
+        "promedio": {
+          "cer": 0.1143,
+          "wer": 0.4137
+        },
+        "normalizado": {
+          "cer": 0.1063,
+          "wer": 0.4086
+        }
+      },
+      "excelsior": {
+        "n_paginas": 5,
+        "total": {
+          "errores_caracteres": 2723,
+          "caracteres_gt": 12886,
+          "errores_palabras": 667,
+          "palabras_gt": 2157
+        },
+        "promedio": {
+          "cer": 0.2362,
+          "wer": 0.3413
+        },
+        "normalizado": {
+          "cer": 0.2113,
+          "wer": 0.3092
+        }
+      },
+      "filipinas": {
+        "n_paginas": 4,
+        "total": {
+          "errores_caracteres": 591,
+          "caracteres_gt": 9971,
+          "errores_palabras": 392,
+          "palabras_gt": 1517
+        },
+        "promedio": {
+          "cer": 0.1331,
+          "wer": 0.4849
+        },
+        "normalizado": {
+          "cer": 0.0593,
+          "wer": 0.2584
+        }
+      },
+      "filipinas-ante-europa": {
+        "n_paginas": 2,
+        "total": {
+          "errores_caracteres": 3569,
+          "caracteres_gt": 17829,
+          "errores_palabras": 772,
+          "palabras_gt": 2675
+        },
+        "promedio": {
+          "cer": 0.1678,
+          "wer": 0.2434
+        },
+        "normalizado": {
+          "cer": 0.2002,
+          "wer": 0.2886
+        }
+      },
+      "fémina": {
+        "n_paginas": 20,
+        "total": {
+          "errores_caracteres": 8942,
+          "caracteres_gt": 43692,
+          "errores_palabras": 2171,
+          "palabras_gt": 7441
+        },
+        "promedio": {
+          "cer": 0.2066,
+          "wer": 0.2836
+        },
+        "normalizado": {
+          "cer": 0.2047,
+          "wer": 0.2918
+        }
+      },
+      "heraldo-de-la-mujer": {
+        "n_paginas": 2,
+        "total": {
+          "errores_caracteres": 4786,
+          "caracteres_gt": 6162,
+          "errores_palabras": 981,
+          "palabras_gt": 1036
+        },
+        "promedio": {
+          "cer": 0.7772,
+          "wer": 0.9469
+        },
+        "normalizado": {
+          "cer": 0.7767,
+          "wer": 0.9469
+        }
+      },
+      "hispanidad": {
+        "n_paginas": 15,
+        "total": {
+          "errores_caracteres": 1612,
+          "caracteres_gt": 45421,
+          "errores_palabras": 1697,
+          "palabras_gt": 7108
+        },
+        "promedio": {
+          "cer": 0.037,
+          "wer": 0.2565
+        },
+        "normalizado": {
+          "cer": 0.0355,
+          "wer": 0.2387
+        }
+      },
+      "la-malasia": {
+        "n_paginas": 2,
+        "total": {
+          "errores_caracteres": 551,
+          "caracteres_gt": 8227,
+          "errores_palabras": 323,
+          "palabras_gt": 1193
+        },
+        "promedio": {
+          "cer": 0.0637,
+          "wer": 0.2514
+        },
+        "normalizado": {
+          "cer": 0.067,
+          "wer": 0.2707
+        }
+      },
+      "la-vanguardia": {
+        "n_paginas": 1,
+        "total": {
+          "errores_caracteres": 5516,
+          "caracteres_gt": 15856,
+          "errores_palabras": 1174,
+          "palabras_gt": 2670
+        },
+        "promedio": {
+          "cer": 0.3479,
+          "wer": 0.4397
+        },
+        "normalizado": {
+          "cer": 0.3479,
+          "wer": 0.4397
+        }
+      },
+      "semana": {
+        "n_paginas": 33,
+        "total": {
+          "errores_caracteres": 9700,
+          "caracteres_gt": 89704,
+          "errores_palabras": 3542,
+          "palabras_gt": 14483
+        },
+        "promedio": {
+          "cer": 0.1127,
+          "wer": 0.2622
+        },
+        "normalizado": {
+          "cer": 0.1081,
+          "wer": 0.2446
+        }
+      },
+      "sorpresas-chicago": {
+        "n_paginas": 2,
+        "total": {
+          "errores_caracteres": 5687,
+          "caracteres_gt": 5843,
+          "errores_palabras": 1191,
+          "palabras_gt": 968
+        },
+        "promedio": {
+          "cer": 2.2923,
+          "wer": 2.8082
+        },
+        "normalizado": {
+          "cer": 0.9733,
+          "wer": 1.2304
+        }
+      }
+    },
+    "peores_paginas": [
+      {
+        "stem": "Sorpresas-Chicago_Pag27",
+        "publicacion": "sorpresas-chicago",
+        "cer": 4.3723,
+        "wer": 5.2558
+      },
+      {
+        "stem": "Heraldo-de-la-mujer-Aug-1919_p002",
+        "publicacion": "heraldo-de-la-mujer",
+        "cer": 0.8352,
+        "wer": 0.9513
+      },
+      {
+        "stem": "Excelsior-10-09-1932_p065",
+        "publicacion": "excelsior",
+        "cer": 0.7597,
+        "wer": 1.0484
+      },
+      {
+        "stem": "Heraldo-de-la-mujer-Aug-1919_p010",
+        "publicacion": "heraldo-de-la-mujer",
+        "cer": 0.7193,
+        "wer": 0.9426
+      },
+      {
+        "stem": "Fémina_10-10-1922_P02",
+        "publicacion": "fémina",
+        "cer": 0.5801,
+        "wer": 0.7806
+      },
+      {
+        "stem": "Fémina_04-07-1922_P01",
+        "publicacion": "fémina",
+        "cer": 0.4939,
+        "wer": 0.5232
+      }
+    ]
+  }
+}

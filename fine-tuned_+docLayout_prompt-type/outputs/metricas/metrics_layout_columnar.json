@@ -1,0 +1,1515 @@
+{
+  "global_metrics": {
+    "n_paginas": 90,
+    "acc_n_columnas": 0.4556,
+    "acc_tipo_pagina": 0.9222,
+    "acc_orden_pred": 0.3111,
+    "tasa_repeticion_pred": 2.1889,
+    "cer_columna_media": 19.7606,
+    "dist_n_columnas_gt": {
+      "1": 6,
+      "2": 31,
+      "3": 30,
+      "4": 19,
+      "5": 4
+    }
+  },
+  "por_pagina": [
+    {
+      "stem": "0002_La_malasia0002",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0293,
+        "2": 0.0515
+      },
+      "cer_columna_media": 0.0404
+    },
+    {
+      "stem": "0006_p002",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.1973,
+        "2": 0.0591,
+        "3": 0.9204,
+        "4": 1.0
+      },
+      "cer_columna_media": 0.5442
+    },
+    {
+      "stem": "0010_p002",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 1.0537,
+        "2": 1.5519,
+        "3": 1.0,
+        "4": 1.0
+      },
+      "cer_columna_media": 1.1514
+    },
+    {
+      "stem": "0010_Semana-0010",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 4,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0405,
+        "2": 0.9741
+      },
+      "cer_columna_media": 0.5073
+    },
+    {
+      "stem": "0012_La_malasia0012",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0873,
+        "2": 0.9486
+      },
+      "cer_columna_media": 0.518
+    },
+    {
+      "stem": "0013_p001",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 6,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 5,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.9828,
+        "2": 0.8059,
+        "3": 0.7653
+      },
+      "cer_columna_media": 0.8513
+    },
+    {
+      "stem": "0017_Semana-0017",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 6,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.9894,
+        "2": 2.4145,
+        "3": 0.839
+      },
+      "cer_columna_media": 1.4143
+    },
+    {
+      "stem": "0028_p004",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 7,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.6779,
+        "2": 2.0528
+      },
+      "cer_columna_media": 1.3653
+    },
+    {
+      "stem": "0038_Semana-0038",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0527,
+        "2": 0.0768,
+        "3": 0.0669
+      },
+      "cer_columna_media": 0.0655
+    },
+    {
+      "stem": "0052_Semana-0052",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 4,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.7626,
+        "2": 0.7855,
+        "3": 0.7358
+      },
+      "cer_columna_media": 0.7613
+    },
+    {
+      "stem": "0056_Semana-0056",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 1,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0443,
+        "2": 0.6086,
+        "3": 0.8239
+      },
+      "cer_columna_media": 0.4923
+    },
+    {
+      "stem": "0076_Semana-0076",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 4,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.2171,
+        "2": 3.694,
+        "3": 1.7119,
+        "4": 1.0
+      },
+      "cer_columna_media": 1.6557
+    },
+    {
+      "stem": "0083_Semana-0083",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0166,
+        "2": 0.0233,
+        "3": 9.6311,
+        "4": 1.0
+      },
+      "cer_columna_media": 2.6677
+    },
+    {
+      "stem": "0087_Semana-0087",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.7019,
+        "2": 2.1556
+      },
+      "cer_columna_media": 1.4287
+    },
+    {
+      "stem": "0107_Semana-0107",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 4,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0312,
+        "2": 68.4516,
+        "3": 0.757,
+        "4": 1.0
+      },
+      "cer_columna_media": 17.56
+    },
+    {
+      "stem": "0109_Semana-0109",
+      "n_columnas_gt": 1,
+      "n_columnas_pred": 1,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.1567
+      },
+      "cer_columna_media": 0.1567
+    },
+    {
+      "stem": "0140_Semana-0140",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 243.125,
+        "2": 0.8093,
+        "3": 1.0
+      },
+      "cer_columna_media": 81.6448
+    },
+    {
+      "stem": "0148_Semana-0148",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.8966,
+        "2": 0.7566,
+        "3": 1.4543,
+        "4": 1.0
+      },
+      "cer_columna_media": 1.0269
+    },
+    {
+      "stem": "0155_Semana-0155",
+      "n_columnas_gt": 1,
+      "n_columnas_pred": 1,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0808
+      },
+      "cer_columna_media": 0.0808
+    },
+    {
+      "stem": "0176_Semana-0176",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.08,
+        "2": 0.8056
+      },
+      "cer_columna_media": 0.4428
+    },
+    {
+      "stem": "0194_Semana-0194",
+      "n_columnas_gt": 5,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 4,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.1015,
+        "2": 14.1364,
+        "3": 1.1574,
+        "4": 1.0,
+        "5": 1.0
+      },
+      "cer_columna_media": 3.4791
+    },
+    {
+      "stem": "0209_Semana-0209",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0365,
+        "2": 0.8562,
+        "3": 0.6
+      },
+      "cer_columna_media": 0.4976
+    },
+    {
+      "stem": "0218_Semana-0218",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 5,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 4,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0114,
+        "2": 0.9758,
+        "3": 92.9091,
+        "4": 0.0386
+      },
+      "cer_columna_media": 23.4837
+    },
+    {
+      "stem": "0221_Semana-0221",
+      "n_columnas_gt": 5,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.3333,
+        "2": 0.881,
+        "3": 0.8765,
+        "4": 1.0,
+        "5": 1.0
+      },
+      "cer_columna_media": 0.8182
+    },
+    {
+      "stem": "0224_Semana-0224",
+      "n_columnas_gt": 5,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 4,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 146.625,
+        "2": 1.3414,
+        "3": 1.0,
+        "4": 1.0,
+        "5": 1.0
+      },
+      "cer_columna_media": 30.1933
+    },
+    {
+      "stem": "0242_Semana-0242",
+      "n_columnas_gt": 1,
+      "n_columnas_pred": 1,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0191
+      },
+      "cer_columna_media": 0.0191
+    },
+    {
+      "stem": "0267_Semana-0267",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 2.0,
+        "2": 0.9902,
+        "3": 8.2727
+      },
+      "cer_columna_media": 3.7543
+    },
+    {
+      "stem": "0272_Semana-0272",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 4,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0102,
+        "2": 0.9309,
+        "3": 0.747
+      },
+      "cer_columna_media": 0.5627
+    },
+    {
+      "stem": "0278_Semana-0278",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0913,
+        "2": 0.8312
+      },
+      "cer_columna_media": 0.4613
+    },
+    {
+      "stem": "0285_Semana-0285",
+      "n_columnas_gt": 1,
+      "n_columnas_pred": 1,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 0,
+      "cer_columnas": {
+        "1": 0.0229
+      },
+      "cer_columna_media": 0.0229
+    },
+    {
+      "stem": "0291_Semana-0291",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.9171,
+        "2": 8.7429,
+        "3": 0.1176,
+        "4": 1.0
+      },
+      "cer_columna_media": 2.6944
+    },
+    {
+      "stem": "0302_Semana-0302",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.1,
+        "2": 0.9923,
+        "3": 0.9959,
+        "4": 1.0
+      },
+      "cer_columna_media": 0.7721
+    },
+    {
+      "stem": "0313_Semana-0313",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 4,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.2009,
+        "2": 1.3674,
+        "3": 0.6283,
+        "4": 1.0
+      },
+      "cer_columna_media": 0.7992
+    },
+    {
+      "stem": "0315_Semana-0315",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0339,
+        "2": 0.4435
+      },
+      "cer_columna_media": 0.2387
+    },
+    {
+      "stem": "0324_Semana-0324",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 4,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.535,
+        "2": 0.8699,
+        "3": 0.344
+      },
+      "cer_columna_media": 0.583
+    },
+    {
+      "stem": "0332_Semana-0332",
+      "n_columnas_gt": 1,
+      "n_columnas_pred": 1,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0052
+      },
+      "cer_columna_media": 0.0052
+    },
+    {
+      "stem": "0335_Semana-0335",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 5,
+      "columnas_repetidas_pred": 5,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.5016,
+        "2": 1.9031,
+        "3": 0.0388
+      },
+      "cer_columna_media": 0.8145
+    },
+    {
+      "stem": "0338_Semana-0338",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 4,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0069,
+        "2": 0.9914,
+        "3": 0.8118
+      },
+      "cer_columna_media": 0.6034
+    },
+    {
+      "stem": "0340_Semana-0340",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 10,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.8421,
+        "2": 0.3343,
+        "3": 0.6184,
+        "4": 1.0
+      },
+      "cer_columna_media": 0.6987
+    },
+    {
+      "stem": "Excelsior-10-09-1932_p001",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 1,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 0,
+      "cer_columnas": {},
+      "cer_columna_media": 1.0
+    },
+    {
+      "stem": "Excelsior-10-09-1932_p017",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0315,
+        "2": 0.0062
+      },
+      "cer_columna_media": 0.0188
+    },
+    {
+      "stem": "Excelsior-10-09-1932_p021",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 1,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 0,
+      "cer_columnas": {},
+      "cer_columna_media": 1.0
+    },
+    {
+      "stem": "Excelsior-10-09-1932_p037",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0144,
+        "2": 0.008,
+        "3": 1.0
+      },
+      "cer_columna_media": 0.3408
+    },
+    {
+      "stem": "Excelsior-10-09-1932_p065",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 1,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0288,
+        "2": 56.2667,
+        "3": 1.0
+      },
+      "cer_columna_media": 19.0985
+    },
+    {
+      "stem": "Filipinas-22-Abril-1909-P09",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.018,
+        "2": 0.0135
+      },
+      "cer_columna_media": 0.0158
+    },
+    {
+      "stem": "Filipinas-22-Abril-1909-P11",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 1.7814,
+        "2": 20.3947,
+        "3": 1.0
+      },
+      "cer_columna_media": 7.7254
+    },
+    {
+      "stem": "Filipinas-30-Abril-1909-P24",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 6,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.4771,
+        "2": 0.2195
+      },
+      "cer_columna_media": 0.3483
+    },
+    {
+      "stem": "Filipinas-30-Abril-1909-P30",
+      "n_columnas_gt": 1,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 4,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 0,
+      "cer_columnas": {
+        "1": 0.6067
+      },
+      "cer_columna_media": 0.6067
+    },
+    {
+      "stem": "Filipinas-Ante-Europa_Pag14",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 4,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.7792,
+        "2": 1.0227
+      },
+      "cer_columna_media": 0.9009
+    },
+    {
+      "stem": "Filipinas-Ante-Europa_Pag38",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0302,
+        "2": 0.4702
+      },
+      "cer_columna_media": 0.2502
+    },
+    {
+      "stem": "Fémina_04-07-1922_P01",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 4,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0424,
+        "2": 0.1674
+      },
+      "cer_columna_media": 0.1049
+    },
+    {
+      "stem": "Fémina_04-07-1922_P11",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 34.6667,
+        "2": 0.492
+      },
+      "cer_columna_media": 17.5793
+    },
+    {
+      "stem": "Fémina_10-10-1922_P02",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0582,
+        "2": 0.0437,
+        "3": 0.0627
+      },
+      "cer_columna_media": 0.0549
+    },
+    {
+      "stem": "Fémina_10-10-1922_P03",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0097,
+        "2": 0.0205
+      },
+      "cer_columna_media": 0.0151
+    },
+    {
+      "stem": "Fémina_10-10-1922_P04",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.993,
+        "2": 53.125
+      },
+      "cer_columna_media": 27.059
+    },
+    {
+      "stem": "Fémina_10-10-1922_P08",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0099,
+        "2": 0.0111,
+        "3": 0.0038
+      },
+      "cer_columna_media": 0.0083
+    },
+    {
+      "stem": "Fémina_15-06-1923_P08",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0476,
+        "2": 0.932,
+        "3": 0.8929,
+        "4": 1.0
+      },
+      "cer_columna_media": 0.7181
+    },
+    {
+      "stem": "Fémina_15-07-1922_P09",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 4,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0069,
+        "2": 114.4545,
+        "3": 1.0
+      },
+      "cer_columna_media": 38.4871
+    },
+    {
+      "stem": "Fémina_15-07-1922_P11",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 34.6667,
+        "2": 0.492
+      },
+      "cer_columna_media": 17.5793
+    },
+    {
+      "stem": "Fémina_15-10-1923_P02",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 10,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.1705,
+        "2": 0.1833
+      },
+      "cer_columna_media": 0.1769
+    },
+    {
+      "stem": "Fémina_15-10-1923_P09",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.9751,
+        "2": 0.2807
+      },
+      "cer_columna_media": 0.6279
+    },
+    {
+      "stem": "Fémina_15-11-1923_P02",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 4,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.2574,
+        "2": 0.2194
+      },
+      "cer_columna_media": 0.2384
+    },
+    {
+      "stem": "Fémina_15-11-1923_P07",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0121,
+        "2": 0.0157
+      },
+      "cer_columna_media": 0.0139
+    },
+    {
+      "stem": "Fémina_15-12-1923_P04",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.098,
+        "2": 0.0902
+      },
+      "cer_columna_media": 0.0941
+    },
+    {
+      "stem": "Fémina_30-06-1923_P03",
+      "n_columnas_gt": 5,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 153.125,
+        "2": 0.7141,
+        "3": 40.8696,
+        "4": 1.0,
+        "5": 1.0
+      },
+      "cer_columna_media": 39.3417
+    },
+    {
+      "stem": "Fémina_30-06-1923_P13",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 1,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 0,
+      "cer_columnas": {},
+      "cer_columna_media": 1.0
+    },
+    {
+      "stem": "Fémina_30-06-1923_P14",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 4,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 4,
+      "columnas_repetidas_pred": 4,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.7095,
+        "2": 0.8985,
+        "3": 0.3454
+      },
+      "cer_columna_media": 0.6511
+    },
+    {
+      "stem": "Fémina_30-11-1923_P02",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 6,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.8998,
+        "2": 0.139
+      },
+      "cer_columna_media": 0.5194
+    },
+    {
+      "stem": "Fémina_31-10-1923_P09",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.3288,
+        "2": 0.3119,
+        "3": 0.0703
+      },
+      "cer_columna_media": 0.237
+    },
+    {
+      "stem": "Fémina_31-10-1923_P12",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.4097,
+        "2": 0.5094
+      },
+      "cer_columna_media": 0.4596
+    },
+    {
+      "stem": "Heraldo-de-la-mujer-Aug-1919_p002",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 1,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 0,
+      "cer_columnas": {},
+      "cer_columna_media": 1.0
+    },
+    {
+      "stem": "Heraldo-de-la-mujer-Aug-1919_p010",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 4,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.7432,
+        "2": 0.7672
+      },
+      "cer_columna_media": 0.7552
+    },
+    {
+      "stem": "Hispanidad-4-Abril-1940-P24",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 1223.5,
+        "2": 0.7517,
+        "3": 1.0,
+        "4": 1.0
+      },
+      "cer_columna_media": 306.5629
+    },
+    {
+      "stem": "Hispanidad-4-Abril-1940-P26",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 1,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 0,
+      "cer_columnas": {},
+      "cer_columna_media": 1.0
+    },
+    {
+      "stem": "Hispanidad-4-Abril-1940-P29",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0,
+        "2": 0.0309
+      },
+      "cer_columna_media": 0.0155
+    },
+    {
+      "stem": "Hispanidad-5-Mayo-1940-P23",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 5,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.9455,
+        "2": 0.7929,
+        "3": 0.8167,
+        "4": 532.0
+      },
+      "cer_columna_media": 133.6388
+    },
+    {
+      "stem": "Hispanidad-6-Junio-1940-P17",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0321,
+        "2": 0.0309,
+        "3": 1.0
+      },
+      "cer_columna_media": 0.3543
+    },
+    {
+      "stem": "Hispanidad-6-Junio-1940-P25",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0539,
+        "3": 0.0486,
+        "2": 1.0,
+        "4": 1.0
+      },
+      "cer_columna_media": 0.5256
+    },
+    {
+      "stem": "Hispanidad-6-Junio-1940-P32",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 1,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 1006.0,
+        "2": 0.7337,
+        "3": 1.0
+      },
+      "cer_columna_media": 335.9112
+    },
+    {
+      "stem": "Hispanidad-6-Junio-1940-P36",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 3,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0232,
+        "2": 0.0419
+      },
+      "cer_columna_media": 0.0325
+    },
+    {
+      "stem": "Hispanidad-6-Junio-1940-P38",
+      "n_columnas_gt": 2,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 2,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0344,
+        "2": 0.0209
+      },
+      "cer_columna_media": 0.0277
+    },
+    {
+      "stem": "Hispanidad-7-Julio-1940-P22",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 274.5,
+        "2": 0.808,
+        "3": 1.0,
+        "4": 1.0
+      },
+      "cer_columna_media": 69.327
+    },
+    {
+      "stem": "Hispanidad-7-Julio-1940-P24",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 499.5,
+        "2": 0.7647,
+        "3": 0.9836
+      },
+      "cer_columna_media": 167.0828
+    },
+    {
+      "stem": "Hispanidad-7-Julio-1940-P35",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 2,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 2,
+      "columnas_repetidas_pred": 3,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 1341.0,
+        "2": 0.8436,
+        "3": 1.0,
+        "4": 1.0
+      },
+      "cer_columna_media": 335.9609
+    },
+    {
+      "stem": "Hispanidad-8-Agosto-1940_P09",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 1,
+      "columnas_repetidas_pred": 9,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 40.5833,
+        "2": 0.6352,
+        "3": 48.75
+      },
+      "cer_columna_media": 29.9895
+    },
+    {
+      "stem": "Hispanidad-8-Agosto-1940_P18",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 9.5,
+        "2": 0.0086,
+        "3": 0.0
+      },
+      "cer_columna_media": 3.1695
+    },
+    {
+      "stem": "Hispanidad-8-Agosto-1940_P39",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 0,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 0,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.0383,
+        "2": 89.0526,
+        "3": 1.0,
+        "4": 1.0
+      },
+      "cer_columna_media": 22.7727
+    },
+    {
+      "stem": "LA-VANGUARDIA-XXV-Num-74-P03-26-04-1944",
+      "n_columnas_gt": 4,
+      "n_columnas_pred": 4,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 9,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 0,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.4921,
+        "2": 0.2332,
+        "3": 0.1886,
+        "4": 0.6002
+      },
+      "cer_columna_media": 0.3785
+    },
+    {
+      "stem": "Sorpresas-Chicago_Pag27",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 4.8692,
+        "2": 1.6389,
+        "3": 19.1373
+      },
+      "cer_columna_media": 8.5485
+    },
+    {
+      "stem": "Sorpresas-Chicago_Pag40",
+      "n_columnas_gt": 3,
+      "n_columnas_pred": 3,
+      "n_columnas_correcto": 1,
+      "columnas_repetidas_gt": 0,
+      "columnas_repetidas_pred": 0,
+      "orden_correcto_gt": 1,
+      "orden_correcto_pred": 1,
+      "tipo_pagina_correcto": 1,
+      "cer_columnas": {
+        "1": 0.586,
+        "2": 0.0205,
+        "3": 0.1445
+      },
+      "cer_columna_media": 0.2503
+    }
+  ]
+}

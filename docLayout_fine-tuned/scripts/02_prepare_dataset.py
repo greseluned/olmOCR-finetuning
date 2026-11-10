@@ -2,106 +2,26 @@
 # -*- coding: utf-8 -*-
 """
 02_prepare_dataset.py
-=====================
 
-Prepara el dataset para entrenar y evaluar el modelo docLayout a partir
-de las imágenes y las anotaciones YOLO generadas en el paso anterior.
+Prepara el dataset de docLayout a partir de las imágenes y etiquetas YOLO
+generadas por 01_pagexml_to_yolo.py. Copia imágenes y etiquetas a una estructura
+estándar (images/<split>, labels/<split>), convierte las cajas YOLO a
+coordenadas absolutas XYXY y escribe un gt_boxes.json por split y el data.yaml
+con rutas y clases para el entrenamiento.
 
-El script reorganiza los archivos en una estructura estandarizada,
-convierte las etiquetas YOLO a coordenadas absolutas XYXY y genera
-los archivos de configuración y ground truth necesarios para el
-entrenamiento y la evaluación del modelo.
+Requisitos:
+    Pillow y un dataset generado previamente por 01_pagexml_to_yolo.py en
+    data/<corpus>/ (con classes.json y train|val|test/{images, yolo_labels}).
 
-FUNCIONAMIENTO:
-    1. Carga el mapeo de clases desde classes.json, que relaciona
-       los nombres de las clases con sus identificadores numéricos.
+Uso:
+    python docLayout_fine-tuned/02_prepare_dataset.py --corpus data-regiones
 
-    2. Recorre los conjuntos train, val y test del corpus y copia
-       las imágenes y sus correspondientes etiquetas YOLO a una
-       estructura de directorios estandarizada.
+Opciones:
+    --corpus NOMBRE   carpeta del corpus dentro de data/ (obligatorio)
 
-    3. Lee las dimensiones de cada imagen y convierte las
-       bounding boxes del formato YOLO normalizado
-       (class_id, x_center, y_center, width, height) al formato
-       XYXY con coordenadas absolutas en píxeles
-       (x1, y1, x2, y2).
-
-    4. Genera un archivo gt_boxes.json para cada split con las
-       anotaciones de ground truth de las imágenes, incluyendo
-       las coordenadas de cada región y el nombre de su clase.
-
-    5. Genera un archivo data.yaml con las rutas de los conjuntos
-       de entrenamiento y validación, el número de clases y sus
-       nombres. Este archivo sirve como configuración del dataset
-       para el modelo YOLO.
-
-ESTRUCTURA DE ENTRADA:
-
-    data/<NOMBRE_CORPUS>/
-        classes.json
-        train/
-            images/
-            yolo_labels/
-        val/
-            images/
-            yolo_labels/
-        test/
-            images/
-            yolo_labels/
-
-ESTRUCTURA DE SALIDA:
-
-    <NOMBRE_CORPUS>/
-        data.yaml
-        images/
-            train/
-            val/
-            test/
-        labels/
-            train/
-                gt_boxes.json
-                *.txt
-            val/
-                gt_boxes.json
-                *.txt
-            test/
-                gt_boxes.json
-                *.txt
-
-REQUISITOS:
-    - Python 3.10 o superior.
-    - Pillow (PIL).
-    - Un dataset generado previamente por 01_pagexml_to_yolo.py,
-      con la estructura de carpetas y los archivos esperados.
-
-USO:
-
-    Ejecutar el script indicando el nombre del corpus:
-
-        python docLayout_fine-tuned/02_prepare_dataset.py --corpus data_regiones
-
-    El nombre indicado debe corresponder a una carpeta existente
-    dentro del directorio data/ del proyecto.
-
-SALIDA:
-
-    El script genera un directorio con el dataset preparado para
-    docLayout, que contiene:
-
-    - Imágenes y etiquetas organizadas por split.
-    - Archivos gt_boxes.json con las anotaciones de referencia
-      en coordenadas absolutas XYXY.
-    - Un archivo data.yaml con la configuración de clases y las
-      rutas de entrenamiento y validación.
-
-IMPORTANTE:
-    Este script no realiza el entrenamiento del modelo ni modifica
-    las anotaciones originales. Su función es adaptar y reorganizar
-    los datos generados en el paso anterior para que puedan ser
-    utilizados por el pipeline de docLayout.
-
-    Debe ejecutarse después de 01_pagexml_to_yolo.py y antes de
-    iniciar el entrenamiento o la evaluación del modelo.
+Salida:
+    <corpus>/data.yaml, <corpus>/images/<split>/ y
+    <corpus>/labels/<split>/{*.txt, gt_boxes.json}.
 """
 
 import argparse
@@ -120,17 +40,6 @@ random.seed(42)
 # ══════════════════════════════════════════════════════════════════════════════
  
 def copy_files(img_list, images_folder, labels_folder, split, output_dir, id_to_class):
-    """
-    Copia las imágenes y sus etiquetas YOLO a la estructura de salida.
- 
-    Parámetros:
-        img_list      — nombres de archivo de las imágenes del split
-        images_folder — carpeta de origen de las imágenes
-        labels_folder — carpeta de origen de las etiquetas YOLO
-        split         — nombre del split (train, val o test)
-        output_dir    — directorio raíz de salida
-        id_to_class   — mapeo de identificador numérico a nombre de clase
-    """
     for img_name in img_list:
         # Copiar imagen
         shutil.copy(
@@ -149,17 +58,6 @@ def copy_files(img_list, images_folder, labels_folder, split, output_dir, id_to_
  
  
 def yolo_to_xyxy(line, img_w, img_h):
-    """
-    Convierte una línea de etiqueta YOLO a coordenadas absolutas XYXY.
- 
-    Parámetros:
-        line  — 'class_id x_center y_center width height' (valores normalizados)
-        img_w — ancho de la imagen en píxeles
-        img_h — alto de la imagen en píxeles
- 
-    Devuelve:
-        (cls_id, [x1, y1, x2, y2]) con coordenadas en píxeles
-    """
     cls_id, x_c, y_c, bw, bh = map(float, line.strip().split())
     cls_id = int(cls_id)
     x_c, y_c, bw, bh = x_c * img_w, y_c * img_h, bw * img_w, bh * img_h
@@ -175,12 +73,6 @@ def yolo_to_xyxy(line, img_w, img_h):
 # ══════════════════════════════════════════════════════════════════════════════
  
 def prepare_dataset(corpus_name):
-    """
-    Reorganiza el corpus, genera los gt_boxes.json y el data.yaml.
- 
-    Parámetros:
-        corpus_name — nombre de la carpeta del corpus dentro de data/
-    """
     BASE_DIR = 'olmOCR-finetuning/docLayout_fine-tuned'
     OUTPUT_DIR = os.path.join(BASE_DIR, corpus_name)
     CORPUS_PATH = os.path.join(BASE_DIR, 'data', corpus_name)

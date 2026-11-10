@@ -2,119 +2,37 @@
 # -*- coding: utf-8 -*-
 """
 03_finetune.py
-========================
 
-Realiza el fine-tuning de un modelo docLayout-YOLO preentrenado sobre
-el corpus de prensa histórica hispanófona de GRESEL-UNED.
+Hace el fine-tuning de docLayout-YOLO (YOLOv10) preentrenado sobre el corpus
+preparado por 01_pagexml_to_yolo.py y 02_prepare_dataset.py. Comprueba
+dependencias, modelo base y dataset, entrena con train y val (el test queda
+reservado), registra el consumo energético con CodeCarbon si está disponible
+(es opcional) y guarda los checkpoints, las métricas y el informe de emisiones.
 
-El objetivo es adaptar un modelo de detección de layout a las
-características específicas de las publicaciones del corpus, utilizando
-las imágenes y anotaciones preparadas en las fases anteriores.
+Requisitos:
+    doclayout-yolo, codecarbon, pandas, PyTorch y el modelo base
+    doclayout_yolo_docstructbench_imgsz1024.pt en models/ (disponible en
+    https://huggingface.co/juliozhao/DocLayout-YOLO-DocStructBench).
 
-FUNCIONAMIENTO:
-    1. Comprueba que están instaladas las dependencias necesarias y
-       que existe el modelo base preentrenado.
+Uso:
+    python scripts/03_finetune.py
+    python scripts/03_finetune.py --epochs 50 --batch 4
+    python scripts/03_finetune.py --device cpu
+    python scripts/03_finetune.py --dry-run
 
-    2. Verifica que el dataset está correctamente preparado, localizando
-       el archivo data.yaml y las imágenes de entrenamiento.
+Opciones:
+    --epochs N        épocas (30)
+    --batch N         tamaño de batch (2)
+    --device D        dispositivo (cuda:0)
+    --img-size N      tamaño de imagen en píxeles (1024)
+    --modelo-base F   modelo base en models/ (doclayout_yolo_docstructbench_imgsz1024.pt)
+    --corpus NOMBRE   corpus preparado (data-regiones)
+    --dry-run         verifica dependencias, modelo y dataset sin entrenar
 
-    3. Carga el modelo base docLayout-YOLO (YOLOv10) y configura los
-       parámetros del entrenamiento: número de épocas, batch size,
-       tamaño de imagen y dispositivo de ejecución.
-
-    4. Ejecuta el fine-tuning utilizando los conjuntos de entrenamiento
-       y validación. El conjunto de test se reserva para la evaluación
-       posterior del modelo.
-
-    5. Registra el consumo energético y las emisiones de CO2 asociadas
-       al entrenamiento mediante CodeCarbon, siempre que esté disponible.
-
-    6. Guarda los checkpoints del modelo, las métricas obtenidas durante
-       el entrenamiento y un informe de emisiones.
-
-    7. Muestra un resumen del entrenamiento, incluyendo la ruta al
-       mejor checkpoint y el valor máximo de mAP50, cuando está
-       disponible.
-
-REQUISITOS:
-    - Python 3.10 o superior.
-    - doclayout-yolo.
-    - CodeCarbon.
-    - pandas.
-    - PyTorch.
-    - Dataset preparado previamente mediante los scripts anteriores.
-    - Modelo base docLayout-YOLO descargado en docLayout/models/.
-
-MODELO BASE:
-
-    doclayout_yolo_docstructbench_imgsz1024.pt
-
-    Disponible en:
-    https://huggingface.co/juliozhao/DocLayout-YOLO-DocStructBench
-
-CONFIGURACIÓN PREDETERMINADA:
-    - Épocas: 30.
-    - Batch size: 2.
-    - Dispositivo: cuda:0.
-    - Tamaño de imagen: 1024 píxeles.
-    - Modelo base: doclayout_yolo_docstructbench_imgsz1024.pt.
-
-USO:
-
-    Ejecutar el fine-tuning con los parámetros predeterminados:
-
-        python scripts/03_finetune_doclayout.py
-
-    Modificar el número de épocas y el batch size:
-
-        python scripts/03_finetunet.py --epochs 50 --batch 4
-
-    Utilizar otro dispositivo de ejecución (por ejemplo, CPU):
-
-        python scripts/03_finetune.py --device cpu
-
-    Modificar el tamaño de las imágenes:
-
-        python scripts/03_finetune.py --img-size 1280
-
-    Utilizar otro modelo base:
-
-        python scripts/03_finetune.py --modelo-base otro_modelo.pt
-
-    Seleccionar otro corpus:
-
-        python scripts/03_finetune.py --corpus otro_corpus
-
-    Comprobar que las dependencias, el modelo y el dataset están
-    correctamente configurados sin iniciar el entrenamiento:
-
-        python scripts/03_finetune.py --dry-run
-
-SALIDA:
-
-    docLayout/models/layout-model/
-        train/
-            weights/
-                best.pt          <- Mejor checkpoint del entrenamiento.
-                last.pt          <- Último checkpoint.
-            results.csv          <- Métricas registradas por época.
-        emissions.json           <- Consumo energético y emisiones de CO2.
-
-    El archivo best.pt contiene el modelo con mejores resultados durante
-    el entrenamiento y será el que se utilice posteriormente para
-    realizar predicciones sobre nuevas páginas.
-
-IMPORTANTE:
-    Este script realiza el fine-tuning del modelo, pero no ejecuta
-    la evaluación final sobre el conjunto de test ni realiza
-    predicciones sobre el corpus completo.
-
-    Una vez terminado el entrenamiento, se puede utilizar best.pt
-    para detectar las regiones de las páginas y evaluar el rendimiento
-    del modelo mediante los scripts correspondientes del pipeline.
-
-    CodeCarbon es opcional: si no está disponible o se produce un error
-    al inicializarlo, el entrenamiento continúa sin registrar emisiones.
+Salida:
+    models/layout-model/train/weights/{best.pt, last.pt},
+    models/layout-model/train/results.csv y models/layout-model/emissions.json.
+    best.pt es el modelo que usan los pasos posteriores.
 """
 
 import os
@@ -158,7 +76,6 @@ DEFAULT_BASE_MODEL = "doclayout_yolo_docstructbench_imgsz1024.pt"
 # ══════════════════════════════════════════════════════════════════════════════
  
 def verificar_dependencias() -> None:
-    """Comprueba que están instaladas las dependencias; si no, termina con error."""
     faltantes = []
     for pkg in ["doclayout_yolo", "codecarbon", "pandas"]:
         try:
@@ -177,21 +94,6 @@ def verificar_estructura(
     modelo_base: str,
     corpus_name: str,
 ) -> tuple[Path, Path, Path]:
-    """
-    Verifica que existen el modelo base, el data.yaml y las imágenes de train.
- 
-    Comprueba:
-        - El modelo base en models/<modelo_base>
-        - El data.yaml en <corpus_name>/data.yaml
-        - Al menos una imagen en <corpus_name>/images/train/
- 
-    Parámetros:
-        modelo_base — nombre del archivo del modelo base
-        corpus_name — nombre de la carpeta del corpus preparado
- 
-    Devuelve:
-        (ruta_modelo_base, ruta_data_yaml, ruta_output)
-    """
     ruta_modelo = MODELS_DIR / modelo_base
     if not ruta_modelo.exists():
         print(
@@ -227,7 +129,6 @@ def verificar_estructura(
  
  
 def _contar_imagenes(corpus_name: str) -> dict[str, int]:
-    """Cuenta las imágenes de cada split para el resumen."""
     corpus_dir = DOCLAYOUT_DIR / corpus_name
     conteo = {}
     for split in ["train", "val", "test"]:
@@ -245,12 +146,6 @@ def _contar_imagenes(corpus_name: str) -> dict[str, int]:
 # ══════════════════════════════════════════════════════════════════════════════
  
 def iniciar_tracker(ruta_emisiones: Path):
-    """
-    Inicia el seguimiento de emisiones con CodeCarbon.
- 
-    Devuelve:
-        El tracker, o None si CodeCarbon no está disponible
-    """
     try:
         import logging
         logging.getLogger("codecarbon").disabled = True
@@ -264,7 +159,6 @@ def iniciar_tracker(ruta_emisiones: Path):
  
  
 def detener_tracker(tracker, ruta_emisiones: Path) -> None:
-    """Detiene el tracker y convierte el CSV de emisiones a JSON."""
     if tracker is None:
         return
     try:
@@ -309,21 +203,6 @@ def entrenar(
     device: str,
     img_size: int,
 ) -> Path:
-    """
-    Lanza el fine-tuning de YOLOv10.
- 
-    Parámetros:
-        ruta_modelo_base — checkpoint del modelo base
-        ruta_yaml        — data.yaml del dataset
-        ruta_output      — directorio de salida del entrenamiento
-        epochs           — número de épocas
-        batch            — tamaño de batch
-        device           — dispositivo de ejecución (p. ej. 'cuda:0' o 'cpu')
-        img_size         — tamaño de imagen en píxeles
- 
-    Devuelve:
-        Ruta al mejor checkpoint (best.pt)
-    """
     import os
     # YOLO usa ULTRALYTICS_DATASETS_DIR para resolver rutas relativas en data.yaml
     os.environ["ULTRALYTICS_DATASETS_DIR"] = str(Path(".").resolve())
@@ -398,7 +277,6 @@ def entrenar(
 # ══════════════════════════════════════════════════════════════════════════════
  
 def imprimir_resultado(ruta_best: Path, ruta_output: Path) -> None:
-    """Imprime la ruta al mejor checkpoint, el mejor mAP50 y los siguientes pasos."""
     print(f"\n{'═'*60}")
     print("  ENTRENAMIENTO COMPLETADO")
     print(f"{'═'*60}")

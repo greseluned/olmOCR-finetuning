@@ -2,106 +2,37 @@
 # -*- coding: utf-8 -*-
 """
 01_pagexml_to_yolo.py
-=====================
 
-Convierte las anotaciones de regiones de los archivos PAGE-XML del
-corpus de prensa histórica de GRESEL-UNED a formato YOLO, para preparar
-un dataset con el que entrenar un modelo de detección de layout
-(docLayout-YOLO).
+Convierte las regiones anotadas en los PAGE-XML del corpus a etiquetas YOLO
+para entrenar docLayout-YOLO. Detecta las clases presentes (text, graphic,
+unknown), permite elegirlas o excluir las que aparecen en pocas páginas, aplica
+el split de split.json (el mismo que usa olmOCR) y escribe imágenes y etiquetas
+por split, junto con classes.json e informe_clases.json.
 
-El script utiliza las coordenadas de las regiones anotadas en los
-PAGE-XML para generar bounding boxes normalizadas y asociarlas a las
-clases correspondientes (texto, imágenes, gráficos, etc.).
+Requisitos:
+    Pillow, config.py y split.json.
 
-FUNCIONAMIENTO:
-    1. Recorre las publicaciones del corpus y localiza los pares de
-       imágenes JPG y archivos PAGE-XML correspondientes.
+Uso:
+    python scripts/01_pagexml_to_yolo.py
+    python scripts/01_pagexml_to_yolo.py --dry-run
+    python scripts/01_pagexml_to_yolo.py --clases text graphic unknown
+    python scripts/01_pagexml_to_yolo.py --min-paginas-clase 5
+    python scripts/01_pagexml_to_yolo.py --publicaciones semana fémina
 
-    2. Extrae las regiones anotadas en los XML, identifica sus tipos
-       y obtiene sus coordenadas.
+Opciones:
+    --corpus RUTA             directorio del corpus (config.CORPUS_DIR)
+    --output RUTA             directorio de salida (config.DATA_DIR)
+    --clases C [C ...]        clases a incluir (el resto se ignora)
+    --min-paginas-clase N     excluye clases en menos de N páginas (3)
+    --split RUTA              split.json (config.SPLIT_PATH)
+    --symlinks                enlaces simbólicos en lugar de copiar (Linux/macOS)
+    --dry-run                 muestra clases y estadísticas sin escribir ficheros
+    --publicaciones P [P ...] procesa solo esas publicaciones
 
-    3. Detecta automáticamente las clases presentes en el corpus.
-       También permite seleccionar manualmente las clases que se
-       desean incluir o excluir aquellas con pocas anotaciones.
-
-    4. Aplica el mismo split train/val/test utilizado por el pipeline
-       de olmOCR, garantizando que ambos modelos trabajen con las
-       mismas páginas en los conjuntos de entrenamiento, validación
-       y prueba.
-
-    5. Convierte las coordenadas de las regiones al formato YOLO y
-       genera la estructura de carpetas necesaria para preparar
-       posteriormente el dataset de entrenamiento.
-
-    6. Guarda un informe con las clases detectadas, las clases
-       excluidas y las estadísticas de distribución del dataset.
-
-REQUISITOS:
-    - Python 3.10 o superior.
-    - Pillow.
-    - Archivo config.py con las rutas del corpus, las publicaciones
-      y la configuración del proyecto.
-    - Archivo split.json generado por el pipeline de olmOCR.
-
-USO:
-
-    Ejecutar con la configuración predeterminada:
-
-        python scripts/01_pagexml_to_yolo.py
-
-    Comprobar las clases detectadas y las estadísticas sin generar
-    archivos:
-
-        python scripts/01_pagexml_to_yolo.py --dry-run
-
-    Seleccionar manualmente las clases que se incluirán:
-
-        python scripts/01_pagexml_to_yolo.py --clases text graphic unknown
-
-    Excluir las clases que aparezcan en menos de 5 páginas:
-
-        python scripts/01_pagexml_to_yolo.py --min-paginas-clase 5
-
-    Procesar únicamente determinadas publicaciones:
-
-        python scripts/01_pagexml_to_yolo.py --publicaciones Semana Fémina
-
-    Especificar otras rutas para el corpus y el directorio de salida:
-
-        python scripts/01_pagexml_to_yolo.py --corpus RUTA_CORPUS --output RUTA_SALIDA
-
-    Crear enlaces simbólicos a las imágenes en lugar de copiarlas
-    (opción pensada principalmente para Linux/macOS):
-
-        python scripts/01_pagexml_to_yolo.py --symlinks
-
-SALIDA:
-
-    data/data_regiones/
-        classes.json
-        informe_clases.json
-        train/
-            images/
-            yolo_labels/
-        val/
-            images/
-            yolo_labels/
-        test/
-            images/
-            yolo_labels/
-
-    El directorio generado se utiliza como entrada del siguiente
-    paso del pipeline:
-
-        python docLayout/02_prepare_dataset.py --corpus data_regiones
-
-IMPORTANTE:
-    Este script no entrena el modelo ni realiza la detección automática
-    de regiones sobre las imágenes. Utiliza las anotaciones existentes
-    en los PAGE-XML para generar las etiquetas YOLO que servirán como
-    datos de entrenamiento.
-
-    Debe ejecutarse antes de preparar y entrenar el modelo docLayout.
+Salida:
+    data/data-regiones/{classes.json, informe_clases.json,
+    train|val|test/{images, yolo_labels}}. El siguiente paso es
+    02_prepare_dataset.py --corpus data-regiones.
 """
 
 import argparse
@@ -135,15 +66,6 @@ _TAG_A_CLASE: dict[str, str] = {
  
  
 def _coords_a_xyxy(points_str: str) -> tuple[int, int, int, int] | None:
-    """
-    Convierte el polígono PAGE-XML 'x1,y1 x2,y2 …' a una caja delimitadora.
- 
-    Parámetros:
-        points_str — valor del atributo 'points' de un elemento Coords
- 
-    Devuelve:
-        (xmin, ymin, xmax, ymax), o None si la cadena está vacía o mal formada
-    """
     try:
         puntos = [
             tuple(int(v) for v in p.split(","))
@@ -160,16 +82,6 @@ def _coords_a_xyxy(points_str: str) -> tuple[int, int, int, int] | None:
  
  
 def parsear_regiones(ruta_xml: Path) -> list[dict] | None:
-    """
-    Extrae todas las regiones de un PAGE-XML.
- 
-    Parámetros:
-        ruta_xml — ruta al archivo PAGE-XML
- 
-    Devuelve:
-        Lista de {"clase", "xmin", "ymin", "xmax", "ymax", "img_w", "img_h"},
-        o None si el XML no se puede parsear o no tiene página válida
-    """
     try:
         tree = ET.parse(ruta_xml)
     except ET.ParseError:
@@ -244,17 +156,6 @@ def parsear_regiones(ruta_xml: Path) -> list[dict] | None:
 # ══════════════════════════════════════════════════════════════════════════════
  
 def region_a_yolo(r: dict, clase_a_id: dict[str, int]) -> str | None:
-    """
-    Convierte una región a una línea de etiqueta YOLO normalizada.
- 
-    Parámetros:
-        r          — región con clase, coordenadas absolutas y tamaño de imagen
-        clase_a_id — mapeo de nombre de clase a identificador numérico
- 
-    Devuelve:
-        'clase_id x_center y_center width height' con valores en [0, 1],
-        o None si la clase no está en clase_a_id
-    """
     cls_id = clase_a_id.get(r["clase"])
     if cls_id is None:
         return None
@@ -282,18 +183,6 @@ def escanear_corpus(
     publicaciones: dict[str, str],
     corpus_dir: Path,
 ) -> tuple[list[dict], dict[str, int]]:
-    """
-    Recorre los pares JPG+XML del corpus, parsea sus regiones y contabiliza
-    las clases presentes.
- 
-    Parámetros:
-        publicaciones — mapeo de nombre de publicación a modo de split
-        corpus_dir    — directorio raíz del corpus
- 
-    Devuelve:
-        pares         — lista de {pub, modo, stem, jpg, xml, regiones}
-        conteo_clases — {clase: n.º de páginas en que aparece}
-    """
     pares: list[dict] = []
     conteo_clases: dict[str, int] = defaultdict(int)
  
@@ -348,23 +237,11 @@ def escanear_corpus(
 # ══════════════════════════════════════════════════════════════════════════════
  
 def cargar_split(ruta: Path) -> dict[str, str]:
-    """Carga el split.json que asigna cada página a train, val o test."""
     with open(ruta, encoding="utf-8") as f:
         return json.load(f)
  
  
 def asignar_splits(pares: list[dict], split_map: dict[str, str]) -> dict[str, list[dict]]:
-    """
-    Asigna cada página al split definido en split.json (compartido con olmOCR).
- 
-    Parámetros:
-        pares     — páginas devueltas por escanear_corpus
-        split_map — mapeo de stem a nombre de split
- 
-    Devuelve:
-        {"train": [...], "val": [...], "test": [...]}; las páginas ausentes
-        de split.json se asignan a train
-    """
     resultado: dict[str, list[dict]] = {"train": [], "val": [], "test": []}
     sin_asignar = []
     for par in sorted(pares, key=lambda p: (p["pub"], p["stem"])):
@@ -384,7 +261,6 @@ def asignar_splits(pares: list[dict], split_map: dict[str, str]) -> dict[str, li
 # ══════════════════════════════════════════════════════════════════════════════
  
 def _copiar_o_enlazar(src: Path, dst: Path, usar_symlinks: bool) -> None:
-    """Copia el archivo o crea un symlink al original, según la opción."""
     dst.parent.mkdir(parents=True, exist_ok=True)
     if dst.exists() or dst.is_symlink():
         dst.unlink()
@@ -400,18 +276,6 @@ def escribir_dataset(
     output_dir: Path,
     usar_symlinks: bool,
 ) -> dict:
-    """
-    Escribe la estructura de carpetas que espera 02_prepare_dataset.py.
- 
-    Parámetros:
-        splits        — páginas asignadas a cada split
-        clase_a_id    — mapeo de nombre de clase a identificador numérico
-        output_dir    — directorio de salida
-        usar_symlinks — enlazar las imágenes en lugar de copiarlas
- 
-    Devuelve:
-        Estadísticas por split (páginas, regiones, páginas sin región, clases)
-    """
     stats: dict[str, dict] = {}
  
     for split_name, pares in splits.items():
@@ -470,7 +334,6 @@ def imprimir_resumen(
     stats: dict[str, dict],
     output_dir: Path,
 ) -> None:
-    """Imprime por pantalla las clases detectadas y la distribución del dataset."""
     total_pags = sum(s["paginas"] for s in stats.values())
  
     print(f"\n{'═'*65}")
@@ -508,7 +371,6 @@ def guardar_informe(
     stats: dict[str, dict],
     output_dir: Path,
 ) -> None:
-    """Guarda en informe_clases.json las clases detectadas y las estadísticas."""
     informe = {
         "clases_detectadas": conteo_clases,
         "clase_a_id":        clase_a_id,

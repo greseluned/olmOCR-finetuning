@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Metadata>
+    <Creator>olmOCR-finetune / 05_inference.py</Creator>
+  </Metadata>
+  <Page imageFilename="0109_Semana-0109.jpg" imageWidth="2478" imageHeight="3506">
+    <ReadingOrder>
+      <OrderedGroup id="ro_main" caption="">
+        <RegionRefIndexed index="0" regionRef="r_000" />
+        <RegionRefIndexed index="1" regionRef="r_001" />
+        <RegionRefIndexed index="2" regionRef="r_002" />
+      </OrderedGroup>
+    </ReadingOrder>
+    <ImageRegion id="r_000" custom="readingOrder {index:0}">
+      <Coords points="534,788 1952,788 1952,1262 534,1262" />
+      <TextEquiv>
+        <Unicode>[Fotografía: descripción]</Unicode>
+      </TextEquiv>
+    </ImageRegion>
+    <TextRegion id="r_001" custom="readingOrder {index:1}">
+      <Coords points="1041,1818 1538,1818 1538,1874 1041,1874" />
+      <TextEquiv>
+        <Unicode>CAPITULO XIII</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_002" custom="readingOrder {index:2}">
+      <Coords points="525,1881 1967,1881 1967,2714 525,2714" />
+      <TextEquiv>
+        <Unicode>DE LOS DISCRETOS COLOQUIOS QUE PASARON ENTRE EL ESCRUPULOSO
+DONCEL Y SU PROSAICO Y LADINO ESCUDERO.
+Tan luego como se hallaron amo y escudero fuera del antro del inter-
+sado nigromante, miró Rutenio, por aquello de que las paredes oyen, de
+apartar a su amo tanto como creyó conveniente para poder platicar a sus
+anchas sin intérprete ni tercero y sin temor a ser oídos, no sólo por aquél
+sino que ni aún por el mismo Litio, y en cuanto estuvo bien asegurado de
+ello, así le dijo:
+—Como quiera que es mi obligación mirar por sus intereses, le he
+llamado aparte, mío señor, para que examine y mire agudamente vuesaré
+en la magnitud de los servicios con que nos puede favorecer este avaro y
+la conveniencia de que no se entorpezcan de puro frío, no vaya a ser que
+se vuelva atrás de su palabra y demos al traste con tan magnífico negocio.
+A cuyas razones contestó, el doncel:
+—No creas, Rutenio amigo, que me daría dos maravedíes gastar sin
+duelo obrando con justificación en el dispendio de mi hacienda, ya que
+asiento por necesario valerme de cualquier medio para poner en salvo a
+mi prometida. Por esta causa, entregaría de mil amores a ese hechicero</Unicode>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

@@ -2,27 +2,20 @@
 # -*- coding: utf-8 -*-
 """
 config.py
-=========
 
-Configuración centralizada del pipeline DocLayout-YOLO. 
-Es independiente del pipeline de olmOCR.
+Configuración común del pipeline docLayout-YOLO, independiente del de olmOCR:
+rutas del corpus y de salida, publicaciones, ruta de split.json, modelo base y
+parámetros de entrenamiento y de predicción. Los demás scripts lo importan; no
+se ejecuta directamente.
 
-Los scripts del pipeline importan todos sus parámetros desde este
-archivo, por lo que es el único que debe editarse para adaptarlo a
-otra máquina o corpus.
+Uso:
+    Editar aquí las rutas principales según la máquina y volver a lanzar el
+    script del pipeline correspondiente.
 
-CONTENIDO:
-    1. Rutas principales (a editar según la máquina).
-    2. Rutas derivadas (no requieren modificación).
-    3. Publicaciones del corpus y modo de split de cada una.
-    4. Parámetros del split train/val/test.
-    5. Modelo base y nombre del modelo de salida.
-    6. Parámetros de entrenamiento y de predicción.
-
-IMPORTANTE:
-    Los parámetros del split y la lista de publicaciones deben coincidir
-    exactamente con los del pipeline de olmOCR, para que ambos modelos
-    trabajen con los mismos conjuntos de páginas.
+Nota:
+    Las publicaciones y los parámetros del split deben coincidir con los del
+    pipeline de olmOCR para que ambos modelos usen las mismas páginas en train,
+    val y test. El corpus se espera en ../corpus/<publicacion>/{jpg,page}/.
 """
 
 from pathlib import Path

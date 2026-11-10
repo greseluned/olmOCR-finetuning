@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Metadata>
+    <Creator>olmOCR-finetune / 05_inference.py</Creator>
+  </Metadata>
+  <Page imageFilename="Excelsior-10-09-1932_p001.jpg" imageWidth="2478" imageHeight="3506">
+    <ReadingOrder>
+      <OrderedGroup id="ro_main" caption="">
+        <RegionRefIndexed index="0" regionRef="r_000" />
+        <RegionRefIndexed index="1" regionRef="r_001" />
+        <RegionRefIndexed index="2" regionRef="r_002" />
+        <RegionRefIndexed index="3" regionRef="r_003" />
+        <RegionRefIndexed index="4" regionRef="r_004" />
+        <RegionRefIndexed index="5" regionRef="r_005" />
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="r_000" custom="readingOrder {index:0}">
+      <Coords points="253,20 2457,20 2457,406 253,406" />
+      <TextEquiv>
+        <Unicode>Excelsior</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_001" custom="readingOrder {index:1}">
+      <Coords points="93,96 275,96 275,381 93,381" />
+      <TextEquiv>
+        <Unicode>Aº61
+E9
+v. 29
+no. 947</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_002" custom="readingOrder {index:2}">
+      <Coords points="80,521 442,521 442,578 80,578" />
+      <TextEquiv>
+        <Unicode>35 CENTIMOS</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_003" custom="readingOrder {index:3}">
+      <Coords points="1452,520 2384,520 2384,574 1452,574" />
+      <TextEquiv>
+        <Unicode>MANILA—SEPTIEMBRE 10, 1932</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <ImageRegion id="r_004" custom="readingOrder {index:4}">
+      <Coords points="0,597 2430,597 2430,3493 0,3493" />
+      <TextEquiv>
+        <Unicode>[Fotografía: descripción]</Unicode>
+      </TextEquiv>
+    </ImageRegion>
+    <TextRegion id="r_005" custom="readingOrder {index:5}">
+      <Coords points="756,3360 1615,3360 1615,3459 756,3459" />
+      <TextEquiv>
+        <Unicode>Srla. TRINIDAD TORRES,
+REINA DEL CARNIVAL DE ORMOC, DE ESTE AÑO</Unicode>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

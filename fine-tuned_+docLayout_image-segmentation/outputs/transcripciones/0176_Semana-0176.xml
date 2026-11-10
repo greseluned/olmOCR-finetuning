@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Metadata>
+    <Creator>olmOCR-finetune / 05_inference.py</Creator>
+  </Metadata>
+  <Page imageFilename="0176_Semana-0176.jpg" imageWidth="2478" imageHeight="3506">
+    <ReadingOrder>
+      <OrderedGroup id="ro_main" caption="">
+        <RegionRefIndexed index="0" regionRef="r_000" />
+        <RegionRefIndexed index="1" regionRef="r_001" />
+        <RegionRefIndexed index="2" regionRef="r_002" />
+        <RegionRefIndexed index="3" regionRef="r_003" />
+        <RegionRefIndexed index="4" regionRef="r_004" />
+        <RegionRefIndexed index="5" regionRef="r_005" />
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="r_000" custom="readingOrder {index:0}">
+      <Coords points="415,373 1090,373 1090,541 415,541" />
+      <TextEquiv>
+        <Unicode>Pedro Domecq</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_001" custom="readingOrder {index:1}">
+      <Coords points="443,521 2130,521 2130,2404 443,2404" />
+      <TextEquiv>
+        <Unicode>FUNDADOR
+(THE FOUNDER)
+BRANDY
+Otro "Fundador" español, Juan
+Salcedo, escogió uno de los lu¬
+ces más hermosos del mundo, en</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_002" custom="readingOrder {index:2}">
+      <Coords points="325,2114 1343,2114 1343,2839 325,2839" />
+      <TextEquiv>
+        <Unicode>Otro "Fundador" español, Juan
+de Salcedo, escogió uno de los lu-
+gares más hermosos del mundo, en
+las faldas del volcán Mayón, para
+establecer una ciudad; y la nombré
+LEGAZPI en honor de su tío, el fun-
+dador de la vieja ciudad de Manila.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_003" custom="readingOrder {index:3}">
+      <Coords points="291,2888 1408,2888 1408,3039 291,3039" />
+      <TextEquiv>
+        <Unicode>TABACALERA</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_004" custom="readingOrder {index:4}">
+      <Coords points="1667,2876 2213,2876 2213,3095 1667,3095" />
+      <TextEquiv>
+        <Unicode>IMPORTADORES
+EXCLUSIVOS
+Tel. 3-22-91</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_005" custom="readingOrder {index:5}">
+      <Coords points="532,3074 1128,3074 1128,3141 532,3141" />
+      <TextEquiv>
+        <Unicode>212 Marqués de Comillas</Unicode>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

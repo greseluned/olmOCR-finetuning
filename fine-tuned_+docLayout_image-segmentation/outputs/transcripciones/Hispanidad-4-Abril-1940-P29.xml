@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Metadata>
+    <Creator>olmOCR-finetune / 05_inference.py</Creator>
+  </Metadata>
+  <Page imageFilename="Hispanidad-4-Abril-1940-P29.jpg" imageWidth="6904" imageHeight="9325">
+    <ReadingOrder>
+      <OrderedGroup id="ro_main" caption="">
+        <RegionRefIndexed index="0" regionRef="r_000" />
+        <RegionRefIndexed index="1" regionRef="r_001" />
+        <RegionRefIndexed index="2" regionRef="r_002" />
+      </OrderedGroup>
+    </ReadingOrder>
+    <ImageRegion id="r_000" custom="readingOrder {index:0}">
+      <Coords points="0,154 6904,154 6904,5649 0,5649" />
+      <TextEquiv>
+        <Unicode>[Fotografía: descripción]</Unicode>
+      </TextEquiv>
+    </ImageRegion>
+    <TextRegion id="r_001" custom="readingOrder {index:1}">
+      <Coords points="95,5588 3346,5588 3346,8261 95,8261" />
+      <TextEquiv>
+        <Unicode>La Obra de
+Hispanidad
+en
+Filipinas</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_002" custom="readingOrder {index:2}">
+      <Coords points="3618,5479 6707,5479 6707,8747 3618,8747" />
+      <TextEquiv>
+        <Unicode>La Universidad de Sto Tomás
+de Manila
+Con estas fotos a la vista, alguien se preguntará:
+¿ésto es Hispanidad o es propaganda? Es lo uno y
+lo otro. Propaganda... ¿por qué no? Se trata de
+dar a conocer a los españoles de la Península y a
+los de Filipinas y a los Filipinos y a quienquiera que
+tenga interés en saberlo lo que España ha hecho y
+hace en estas Islas.
+Claro que da la casualidad de que los directores
+de esta revista tienen bastante que ver con la Uni¬
+versidad de Sto. Tomás; pero ¿dejará por ésto de
+ser obra de España y muy gloriosa por cierto? Sea
+pues propaganda o información, a gusto del consu¬
+midor. Solo advertimos a los impacientes y suspica¬
+ces—y no dejará de haberlos,—que ni la Universidad
+se atribuye la exclusiva de la obra de España en Fi¬
+lipinas, ni los directores de esta revista se olvidarán
+de lo mucho que la Universidad de Sto. Tomás, no
+ha podido hacer, y que otros españoles han hecho.
+Es cuestión de tiempo y oportunidad.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

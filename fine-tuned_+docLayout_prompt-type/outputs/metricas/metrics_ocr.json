@@ -1,0 +1,1114 @@
+{
+  "global": {
+    "n_paginas": 90,
+    "total": {
+      "errores_caracteres": 60315,
+      "caracteres_gt": 302028,
+      "errores_palabras": 17976,
+      "palabras_gt": 49229
+    },
+    "promedio": {
+      "cer": 0.2343,
+      "wer": 0.3947
+    },
+    "normalizado": {
+      "cer": 0.1997,
+      "wer": 0.3652
+    }
+  },
+  "por_publicacion": {
+    "accion-libertaria": {
+      "n_paginas": 4,
+      "total": {
+        "errores_caracteres": 9377,
+        "caracteres_gt": 46437,
+        "errores_palabras": 3224,
+        "palabras_gt": 7981
+      },
+      "promedio": {
+        "cer": 0.2159,
+        "wer": 0.4092
+      },
+      "normalizado": {
+        "cer": 0.2019,
+        "wer": 0.404
+      }
+    },
+    "excelsior": {
+      "n_paginas": 5,
+      "total": {
+        "errores_caracteres": 2711,
+        "caracteres_gt": 12886,
+        "errores_palabras": 626,
+        "palabras_gt": 2157
+      },
+      "promedio": {
+        "cer": 0.2356,
+        "wer": 0.3269
+      },
+      "normalizado": {
+        "cer": 0.2104,
+        "wer": 0.2902
+      }
+    },
+    "filipinas": {
+      "n_paginas": 4,
+      "total": {
+        "errores_caracteres": 628,
+        "caracteres_gt": 9971,
+        "errores_palabras": 352,
+        "palabras_gt": 1517
+      },
+      "promedio": {
+        "cer": 0.1526,
+        "wer": 0.3357
+      },
+      "normalizado": {
+        "cer": 0.063,
+        "wer": 0.232
+      }
+    },
+    "filipinas-ante-europa": {
+      "n_paginas": 2,
+      "total": {
+        "errores_caracteres": 3569,
+        "caracteres_gt": 17829,
+        "errores_palabras": 772,
+        "palabras_gt": 2675
+      },
+      "promedio": {
+        "cer": 0.1678,
+        "wer": 0.2434
+      },
+      "normalizado": {
+        "cer": 0.2002,
+        "wer": 0.2886
+      }
+    },
+    "fémina": {
+      "n_paginas": 20,
+      "total": {
+        "errores_caracteres": 9596,
+        "caracteres_gt": 43692,
+        "errores_palabras": 2270,
+        "palabras_gt": 7441
+      },
+      "promedio": {
+        "cer": 0.2637,
+        "wer": 0.3458
+      },
+      "normalizado": {
+        "cer": 0.2196,
+        "wer": 0.3051
+      }
+    },
+    "heraldo-de-la-mujer": {
+      "n_paginas": 2,
+      "total": {
+        "errores_caracteres": 4801,
+        "caracteres_gt": 6162,
+        "errores_palabras": 983,
+        "palabras_gt": 1036
+      },
+      "promedio": {
+        "cer": 0.7796,
+        "wer": 0.9489
+      },
+      "normalizado": {
+        "cer": 0.7791,
+        "wer": 0.9488
+      }
+    },
+    "hispanidad": {
+      "n_paginas": 15,
+      "total": {
+        "errores_caracteres": 1915,
+        "caracteres_gt": 45421,
+        "errores_palabras": 1743,
+        "palabras_gt": 7108
+      },
+      "promedio": {
+        "cer": 0.0418,
+        "wer": 0.261
+      },
+      "normalizado": {
+        "cer": 0.0422,
+        "wer": 0.2452
+      }
+    },
+    "la-malasia": {
+      "n_paginas": 2,
+      "total": {
+        "errores_caracteres": 536,
+        "caracteres_gt": 8227,
+        "errores_palabras": 325,
+        "palabras_gt": 1193
+      },
+      "promedio": {
+        "cer": 0.062,
+        "wer": 0.2526
+      },
+      "normalizado": {
+        "cer": 0.0652,
+        "wer": 0.2724
+      }
+    },
+    "la-vanguardia": {
+      "n_paginas": 1,
+      "total": {
+        "errores_caracteres": 9044,
+        "caracteres_gt": 15856,
+        "errores_palabras": 1972,
+        "palabras_gt": 2670
+      },
+      "promedio": {
+        "cer": 0.5704,
+        "wer": 0.7386
+      },
+      "normalizado": {
+        "cer": 0.5704,
+        "wer": 0.7386
+      }
+    },
+    "semana": {
+      "n_paginas": 33,
+      "total": {
+        "errores_caracteres": 12417,
+        "caracteres_gt": 89704,
+        "errores_palabras": 4498,
+        "palabras_gt": 14483
+      },
+      "promedio": {
+        "cer": 0.1621,
+        "wer": 0.3275
+      },
+      "normalizado": {
+        "cer": 0.1384,
+        "wer": 0.3106
+      }
+    },
+    "sorpresas-chicago": {
+      "n_paginas": 2,
+      "total": {
+        "errores_caracteres": 5721,
+        "caracteres_gt": 5843,
+        "errores_palabras": 1211,
+        "palabras_gt": 968
+      },
+      "promedio": {
+        "cer": 2.2976,
+        "wer": 2.823
+      },
+      "normalizado": {
+        "cer": 0.9791,
+        "wer": 1.251
+      }
+    }
+  },
+  "paginas_omitidas": {
+    "sin_prediccion": [],
+    "gt_vacio": []
+  },
+  "por_pagina": [
+    {
+      "errores_caracteres": 4679,
+      "caracteres_gt": 1069,
+      "errores_palabras": 905,
+      "palabras_gt": 172,
+      "cer": 4.377,
+      "wer": 5.2616,
+      "stem": "Sorpresas-Chicago_Pag27",
+      "publicacion": "sorpresas-chicago"
+    },
+    {
+      "errores_caracteres": 2549,
+      "caracteres_gt": 3052,
+      "errores_palabras": 488,
+      "palabras_gt": 513,
+      "cer": 0.8352,
+      "wer": 0.9513,
+      "stem": "Heraldo-de-la-mujer-Aug-1919_p002",
+      "publicacion": "heraldo-de-la-mujer"
+    },
+    {
+      "errores_caracteres": 2564,
+      "caracteres_gt": 3396,
+      "errores_palabras": 540,
+      "palabras_gt": 558,
+      "cer": 0.755,
+      "wer": 0.9677,
+      "stem": "Excelsior-10-09-1932_p065",
+      "publicacion": "excelsior"
+    },
+    {
+      "errores_caracteres": 2113,
+      "caracteres_gt": 2843,
+      "errores_palabras": 397,
+      "palabras_gt": 498,
+      "cer": 0.7432,
+      "wer": 0.7972,
+      "stem": "Fémina_15-10-1923_P09",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 2252,
+      "caracteres_gt": 3110,
+      "errores_palabras": 495,
+      "palabras_gt": 523,
+      "cer": 0.7241,
+      "wer": 0.9465,
+      "stem": "Heraldo-de-la-mujer-Aug-1919_p010",
+      "publicacion": "heraldo-de-la-mujer"
+    },
+    {
+      "errores_caracteres": 109,
+      "caracteres_gt": 169,
+      "errores_palabras": 17,
+      "palabras_gt": 28,
+      "cer": 0.645,
+      "wer": 0.6071,
+      "stem": "0221_Semana-0221",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 750,
+      "caracteres_gt": 1207,
+      "errores_palabras": 136,
+      "palabras_gt": 196,
+      "cer": 0.6214,
+      "wer": 0.6939,
+      "stem": "Fémina_15-06-1923_P08",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 1065,
+      "caracteres_gt": 1836,
+      "errores_palabras": 249,
+      "palabras_gt": 319,
+      "cer": 0.5801,
+      "wer": 0.7806,
+      "stem": "Fémina_10-10-1922_P02",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 9044,
+      "caracteres_gt": 15856,
+      "errores_palabras": 1972,
+      "palabras_gt": 2670,
+      "cer": 0.5704,
+      "wer": 0.7386,
+      "stem": "LA-VANGUARDIA-XXV-Num-74-P03-26-04-1944",
+      "publicacion": "la-vanguardia"
+    },
+    {
+      "errores_caracteres": 249,
+      "caracteres_gt": 441,
+      "errores_palabras": 43,
+      "palabras_gt": 66,
+      "cer": 0.5646,
+      "wer": 0.6515,
+      "stem": "Fémina_04-07-1922_P11",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 249,
+      "caracteres_gt": 441,
+      "errores_palabras": 43,
+      "palabras_gt": 66,
+      "cer": 0.5646,
+      "wer": 0.6515,
+      "stem": "Fémina_15-07-1922_P11",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 1008,
+      "caracteres_gt": 2120,
+      "errores_palabras": 298,
+      "palabras_gt": 319,
+      "cer": 0.4755,
+      "wer": 0.9342,
+      "stem": "0194_Semana-0194",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 1462,
+      "caracteres_gt": 3082,
+      "errores_palabras": 270,
+      "palabras_gt": 540,
+      "cer": 0.4744,
+      "wer": 0.5,
+      "stem": "Fémina_30-11-1923_P02",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 237,
+      "caracteres_gt": 503,
+      "errores_palabras": 26,
+      "palabras_gt": 54,
+      "cer": 0.4712,
+      "wer": 0.4815,
+      "stem": "Filipinas-30-Abril-1909-P30",
+      "publicacion": "filipinas"
+    },
+    {
+      "errores_caracteres": 1910,
+      "caracteres_gt": 4119,
+      "errores_palabras": 338,
+      "palabras_gt": 681,
+      "cer": 0.4637,
+      "wer": 0.4963,
+      "stem": "0224_Semana-0224",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 4828,
+      "caracteres_gt": 11039,
+      "errores_palabras": 1097,
+      "palabras_gt": 1846,
+      "cer": 0.4374,
+      "wer": 0.5943,
+      "stem": "0028_p004",
+      "publicacion": "accion-libertaria"
+    },
+    {
+      "errores_caracteres": 988,
+      "caracteres_gt": 2338,
+      "errores_palabras": 247,
+      "palabras_gt": 352,
+      "cer": 0.4226,
+      "wer": 0.7017,
+      "stem": "0148_Semana-0148",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 1552,
+      "caracteres_gt": 3676,
+      "errores_palabras": 307,
+      "palabras_gt": 603,
+      "cer": 0.4222,
+      "wer": 0.5091,
+      "stem": "0076_Semana-0076",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 70,
+      "caracteres_gt": 180,
+      "errores_palabras": 15,
+      "palabras_gt": 31,
+      "cer": 0.3889,
+      "wer": 0.4839,
+      "stem": "Excelsior-10-09-1932_p001",
+      "publicacion": "excelsior"
+    },
+    {
+      "errores_caracteres": 929,
+      "caracteres_gt": 2398,
+      "errores_palabras": 214,
+      "palabras_gt": 442,
+      "cer": 0.3874,
+      "wer": 0.4842,
+      "stem": "Fémina_10-10-1922_P03",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 1246,
+      "caracteres_gt": 3903,
+      "errores_palabras": 276,
+      "palabras_gt": 640,
+      "cer": 0.3192,
+      "wer": 0.4313,
+      "stem": "Fémina_31-10-1923_P12",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 190,
+      "caracteres_gt": 602,
+      "errores_palabras": 33,
+      "palabras_gt": 91,
+      "cer": 0.3156,
+      "wer": 0.3626,
+      "stem": "0087_Semana-0087",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 3065,
+      "caracteres_gt": 9875,
+      "errores_palabras": 601,
+      "palabras_gt": 1685,
+      "cer": 0.3104,
+      "wer": 0.3567,
+      "stem": "0013_p001",
+      "publicacion": "accion-libertaria"
+    },
+    {
+      "errores_caracteres": 3383,
+      "caracteres_gt": 10969,
+      "errores_palabras": 708,
+      "palabras_gt": 1674,
+      "cer": 0.3084,
+      "wer": 0.4229,
+      "stem": "Filipinas-Ante-Europa_Pag38",
+      "publicacion": "filipinas-ante-europa"
+    },
+    {
+      "errores_caracteres": 41,
+      "caracteres_gt": 133,
+      "errores_palabras": 7,
+      "palabras_gt": 19,
+      "cer": 0.3083,
+      "wer": 0.3684,
+      "stem": "Fémina_30-06-1923_P13",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 1216,
+      "caracteres_gt": 4162,
+      "errores_palabras": 396,
+      "palabras_gt": 756,
+      "cer": 0.2922,
+      "wer": 0.5238,
+      "stem": "0056_Semana-0056",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 370,
+      "caracteres_gt": 1267,
+      "errores_palabras": 84,
+      "palabras_gt": 201,
+      "cer": 0.292,
+      "wer": 0.4179,
+      "stem": "Fémina_30-06-1923_P14",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 1208,
+      "caracteres_gt": 4178,
+      "errores_palabras": 292,
+      "palabras_gt": 651,
+      "cer": 0.2891,
+      "wer": 0.4485,
+      "stem": "0315_Semana-0315",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 37,
+      "caracteres_gt": 129,
+      "errores_palabras": 15,
+      "palabras_gt": 21,
+      "cer": 0.2868,
+      "wer": 0.7143,
+      "stem": "0267_Semana-0267",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 962,
+      "caracteres_gt": 3937,
+      "errores_palabras": 376,
+      "palabras_gt": 544,
+      "cer": 0.2443,
+      "wer": 0.6912,
+      "stem": "0335_Semana-0335",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 1042,
+      "caracteres_gt": 4774,
+      "errores_palabras": 306,
+      "palabras_gt": 796,
+      "cer": 0.2183,
+      "wer": 0.3844,
+      "stem": "Sorpresas-Chicago_Pag40",
+      "publicacion": "sorpresas-chicago"
+    },
+    {
+      "errores_caracteres": 73,
+      "caracteres_gt": 353,
+      "errores_palabras": 15,
+      "palabras_gt": 59,
+      "cer": 0.2068,
+      "wer": 0.2542,
+      "stem": "0176_Semana-0176",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 162,
+      "caracteres_gt": 814,
+      "errores_palabras": 53,
+      "palabras_gt": 144,
+      "cer": 0.199,
+      "wer": 0.3681,
+      "stem": "0340_Semana-0340",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 520,
+      "caracteres_gt": 2995,
+      "errores_palabras": 117,
+      "palabras_gt": 454,
+      "cer": 0.1736,
+      "wer": 0.2577,
+      "stem": "0218_Semana-0218",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 159,
+      "caracteres_gt": 1013,
+      "errores_palabras": 54,
+      "palabras_gt": 171,
+      "cer": 0.157,
+      "wer": 0.3158,
+      "stem": "0109_Semana-0109",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 416,
+      "caracteres_gt": 4256,
+      "errores_palabras": 217,
+      "palabras_gt": 680,
+      "cer": 0.0977,
+      "wer": 0.3191,
+      "stem": "Hispanidad-6-Junio-1940-P38",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 198,
+      "caracteres_gt": 2041,
+      "errores_palabras": 104,
+      "palabras_gt": 314,
+      "cer": 0.097,
+      "wer": 0.3312,
+      "stem": "Hispanidad-6-Junio-1940-P36",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 242,
+      "caracteres_gt": 2557,
+      "errores_palabras": 79,
+      "palabras_gt": 430,
+      "cer": 0.0946,
+      "wer": 0.1837,
+      "stem": "Fémina_15-10-1923_P02",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 409,
+      "caracteres_gt": 4601,
+      "errores_palabras": 271,
+      "palabras_gt": 676,
+      "cer": 0.0889,
+      "wer": 0.4009,
+      "stem": "0012_La_malasia0012",
+      "publicacion": "la-malasia"
+    },
+    {
+      "errores_caracteres": 275,
+      "caracteres_gt": 3097,
+      "errores_palabras": 224,
+      "palabras_gt": 400,
+      "cer": 0.0888,
+      "wer": 0.56,
+      "stem": "Filipinas-30-Abril-1909-P24",
+      "publicacion": "filipinas"
+    },
+    {
+      "errores_caracteres": 240,
+      "caracteres_gt": 2805,
+      "errores_palabras": 41,
+      "palabras_gt": 419,
+      "cer": 0.0856,
+      "wer": 0.0979,
+      "stem": "0313_Semana-0313",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 203,
+      "caracteres_gt": 2441,
+      "errores_palabras": 60,
+      "palabras_gt": 364,
+      "cer": 0.0832,
+      "wer": 0.1648,
+      "stem": "0209_Semana-0209",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 1044,
+      "caracteres_gt": 12853,
+      "errores_palabras": 815,
+      "palabras_gt": 2225,
+      "cer": 0.0812,
+      "wer": 0.3663,
+      "stem": "0006_p002",
+      "publicacion": "accion-libertaria"
+    },
+    {
+      "errores_caracteres": 92,
+      "caracteres_gt": 1136,
+      "errores_palabras": 41,
+      "palabras_gt": 179,
+      "cer": 0.081,
+      "wer": 0.2291,
+      "stem": "0155_Semana-0155",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 73,
+      "caracteres_gt": 1083,
+      "errores_palabras": 91,
+      "palabras_gt": 139,
+      "cer": 0.0674,
+      "wer": 0.6547,
+      "stem": "Hispanidad-7-Julio-1940-P22",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 131,
+      "caracteres_gt": 1966,
+      "errores_palabras": 90,
+      "palabras_gt": 335,
+      "cer": 0.0666,
+      "wer": 0.2687,
+      "stem": "Hispanidad-7-Julio-1940-P24",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 242,
+      "caracteres_gt": 3665,
+      "errores_palabras": 205,
+      "palabras_gt": 646,
+      "cer": 0.066,
+      "wer": 0.3173,
+      "stem": "Fémina_15-12-1923_P04",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 150,
+      "caracteres_gt": 2328,
+      "errores_palabras": 41,
+      "palabras_gt": 379,
+      "cer": 0.0644,
+      "wer": 0.1082,
+      "stem": "Fémina_15-11-1923_P02",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 231,
+      "caracteres_gt": 3642,
+      "errores_palabras": 60,
+      "palabras_gt": 628,
+      "cer": 0.0634,
+      "wer": 0.0955,
+      "stem": "0017_Semana-0017",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 368,
+      "caracteres_gt": 5852,
+      "errores_palabras": 237,
+      "palabras_gt": 980,
+      "cer": 0.0629,
+      "wer": 0.2418,
+      "stem": "Hispanidad-7-Julio-1940-P35",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 246,
+      "caracteres_gt": 4164,
+      "errores_palabras": 251,
+      "palabras_gt": 625,
+      "cer": 0.0591,
+      "wer": 0.4016,
+      "stem": "Hispanidad-6-Junio-1940-P25",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 240,
+      "caracteres_gt": 4500,
+      "errores_palabras": 88,
+      "palabras_gt": 743,
+      "cer": 0.0533,
+      "wer": 0.1184,
+      "stem": "0083_Semana-0083",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 198,
+      "caracteres_gt": 3829,
+      "errores_palabras": 242,
+      "palabras_gt": 645,
+      "cer": 0.0517,
+      "wer": 0.3752,
+      "stem": "0038_Semana-0038",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 146,
+      "caracteres_gt": 2958,
+      "errores_palabras": 187,
+      "palabras_gt": 442,
+      "cer": 0.0494,
+      "wer": 0.4231,
+      "stem": "0324_Semana-0324",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 170,
+      "caracteres_gt": 3652,
+      "errores_palabras": 65,
+      "palabras_gt": 633,
+      "cer": 0.0465,
+      "wer": 0.1027,
+      "stem": "Fémina_30-06-1923_P03",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 61,
+      "caracteres_gt": 1314,
+      "errores_palabras": 42,
+      "palabras_gt": 228,
+      "cer": 0.0464,
+      "wer": 0.1842,
+      "stem": "Fémina_31-10-1923_P09",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 123,
+      "caracteres_gt": 3017,
+      "errores_palabras": 35,
+      "palabras_gt": 495,
+      "cer": 0.0408,
+      "wer": 0.0707,
+      "stem": "Fémina_04-07-1922_P01",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 259,
+      "caracteres_gt": 6370,
+      "errores_palabras": 359,
+      "palabras_gt": 1140,
+      "cer": 0.0407,
+      "wer": 0.3149,
+      "stem": "0107_Semana-0107",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 119,
+      "caracteres_gt": 3136,
+      "errores_palabras": 199,
+      "palabras_gt": 476,
+      "cer": 0.0379,
+      "wer": 0.4181,
+      "stem": "Hispanidad-5-Mayo-1940-P23",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 47,
+      "caracteres_gt": 1278,
+      "errores_palabras": 42,
+      "palabras_gt": 180,
+      "cer": 0.0368,
+      "wer": 0.2333,
+      "stem": "Filipinas-22-Abril-1909-P11",
+      "publicacion": "filipinas"
+    },
+    {
+      "errores_caracteres": 139,
+      "caracteres_gt": 3817,
+      "errores_palabras": 220,
+      "palabras_gt": 575,
+      "cer": 0.0364,
+      "wer": 0.3826,
+      "stem": "0140_Semana-0140",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 127,
+      "caracteres_gt": 3626,
+      "errores_palabras": 54,
+      "palabras_gt": 517,
+      "cer": 0.035,
+      "wer": 0.1044,
+      "stem": "0002_La_malasia0002",
+      "publicacion": "la-malasia"
+    },
+    {
+      "errores_caracteres": 440,
+      "caracteres_gt": 12670,
+      "errores_palabras": 711,
+      "palabras_gt": 2225,
+      "cer": 0.0347,
+      "wer": 0.3196,
+      "stem": "0010_p002",
+      "publicacion": "accion-libertaria"
+    },
+    {
+      "errores_caracteres": 25,
+      "caracteres_gt": 739,
+      "errores_palabras": 31,
+      "palabras_gt": 109,
+      "cer": 0.0338,
+      "wer": 0.2844,
+      "stem": "0291_Semana-0291",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 187,
+      "caracteres_gt": 5541,
+      "errores_palabras": 251,
+      "palabras_gt": 932,
+      "cer": 0.0337,
+      "wer": 0.2693,
+      "stem": "0302_Semana-0302",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 96,
+      "caracteres_gt": 3207,
+      "errores_palabras": 137,
+      "palabras_gt": 500,
+      "cer": 0.0299,
+      "wer": 0.274,
+      "stem": "Hispanidad-6-Junio-1940-P17",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 36,
+      "caracteres_gt": 1209,
+      "errores_palabras": 9,
+      "palabras_gt": 220,
+      "cer": 0.0298,
+      "wer": 0.0409,
+      "stem": "Fémina_10-10-1922_P08",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 18,
+      "caracteres_gt": 622,
+      "errores_palabras": 10,
+      "palabras_gt": 94,
+      "cer": 0.0289,
+      "wer": 0.1064,
+      "stem": "0278_Semana-0278",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 28,
+      "caracteres_gt": 973,
+      "errores_palabras": 41,
+      "palabras_gt": 164,
+      "cer": 0.0288,
+      "wer": 0.25,
+      "stem": "Hispanidad-4-Abril-1940-P29",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 186,
+      "caracteres_gt": 6860,
+      "errores_palabras": 64,
+      "palabras_gt": 1001,
+      "cer": 0.0271,
+      "wer": 0.0639,
+      "stem": "Filipinas-Ante-Europa_Pag14",
+      "publicacion": "filipinas-ante-europa"
+    },
+    {
+      "errores_caracteres": 62,
+      "caracteres_gt": 2451,
+      "errores_palabras": 99,
+      "palabras_gt": 376,
+      "cer": 0.0253,
+      "wer": 0.2633,
+      "stem": "0052_Semana-0052",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 70,
+      "caracteres_gt": 2982,
+      "errores_palabras": 15,
+      "palabras_gt": 531,
+      "cer": 0.0235,
+      "wer": 0.0282,
+      "stem": "0010_Semana-0010",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 73,
+      "caracteres_gt": 3151,
+      "errores_palabras": 130,
+      "palabras_gt": 507,
+      "cer": 0.0232,
+      "wer": 0.2564,
+      "stem": "Hispanidad-8-Agosto-1940_P39",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 30,
+      "caracteres_gt": 1426,
+      "errores_palabras": 26,
+      "palabras_gt": 253,
+      "cer": 0.021,
+      "wer": 0.1028,
+      "stem": "Excelsior-10-09-1932_p021",
+      "publicacion": "excelsior"
+    },
+    {
+      "errores_caracteres": 96,
+      "caracteres_gt": 4765,
+      "errores_palabras": 87,
+      "palabras_gt": 718,
+      "cer": 0.0201,
+      "wer": 0.1212,
+      "stem": "0338_Semana-0338",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 54,
+      "caracteres_gt": 2880,
+      "errores_palabras": 92,
+      "palabras_gt": 465,
+      "cer": 0.0187,
+      "wer": 0.1978,
+      "stem": "0242_Semana-0242",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 83,
+      "caracteres_gt": 4501,
+      "errores_palabras": 152,
+      "palabras_gt": 681,
+      "cer": 0.0184,
+      "wer": 0.2232,
+      "stem": "Hispanidad-4-Abril-1940-P24",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 37,
+      "caracteres_gt": 2068,
+      "errores_palabras": 52,
+      "palabras_gt": 336,
+      "cer": 0.0179,
+      "wer": 0.1548,
+      "stem": "Hispanidad-4-Abril-1940-P26",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 59,
+      "caracteres_gt": 4247,
+      "errores_palabras": 55,
+      "palabras_gt": 715,
+      "cer": 0.0139,
+      "wer": 0.0769,
+      "stem": "Fémina_15-11-1923_P07",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 33,
+      "caracteres_gt": 2408,
+      "errores_palabras": 15,
+      "palabras_gt": 396,
+      "cer": 0.0137,
+      "wer": 0.0379,
+      "stem": "Fémina_15-07-1922_P09",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 69,
+      "caracteres_gt": 5093,
+      "errores_palabras": 60,
+      "palabras_gt": 883,
+      "cer": 0.0135,
+      "wer": 0.068,
+      "stem": "Filipinas-22-Abril-1909-P09",
+      "publicacion": "filipinas"
+    },
+    {
+      "errores_caracteres": 23,
+      "caracteres_gt": 1711,
+      "errores_palabras": 23,
+      "palabras_gt": 263,
+      "cer": 0.0134,
+      "wer": 0.0875,
+      "stem": "Hispanidad-8-Agosto-1940_P09",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 20,
+      "caracteres_gt": 1874,
+      "errores_palabras": 18,
+      "palabras_gt": 300,
+      "cer": 0.0107,
+      "wer": 0.06,
+      "stem": "0285_Semana-0285",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 28,
+      "caracteres_gt": 2682,
+      "errores_palabras": 27,
+      "palabras_gt": 399,
+      "cer": 0.0104,
+      "wer": 0.0677,
+      "stem": "0272_Semana-0272",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 25,
+      "caracteres_gt": 2917,
+      "errores_palabras": 26,
+      "palabras_gt": 446,
+      "cer": 0.0086,
+      "wer": 0.0583,
+      "stem": "Excelsior-10-09-1932_p017",
+      "publicacion": "excelsior"
+    },
+    {
+      "errores_caracteres": 15,
+      "caracteres_gt": 3065,
+      "errores_palabras": 12,
+      "palabras_gt": 550,
+      "cer": 0.0049,
+      "wer": 0.0218,
+      "stem": "0332_Semana-0332",
+      "publicacion": "semana"
+    },
+    {
+      "errores_caracteres": 22,
+      "caracteres_gt": 4967,
+      "errores_palabras": 19,
+      "palabras_gt": 869,
+      "cer": 0.0044,
+      "wer": 0.0219,
+      "stem": "Excelsior-10-09-1932_p037",
+      "publicacion": "excelsior"
+    },
+    {
+      "errores_caracteres": 13,
+      "caracteres_gt": 3599,
+      "errores_palabras": 10,
+      "palabras_gt": 561,
+      "cer": 0.0036,
+      "wer": 0.0178,
+      "stem": "Hispanidad-8-Agosto-1940_P18",
+      "publicacion": "hispanidad"
+    },
+    {
+      "errores_caracteres": 6,
+      "caracteres_gt": 1744,
+      "errores_palabras": 5,
+      "palabras_gt": 312,
+      "cer": 0.0034,
+      "wer": 0.016,
+      "stem": "Fémina_10-10-1922_P04",
+      "publicacion": "fémina"
+    },
+    {
+      "errores_caracteres": 11,
+      "caracteres_gt": 3713,
+      "errores_palabras": 9,
+      "palabras_gt": 547,
+      "cer": 0.003,
+      "wer": 0.0165,
+      "stem": "Hispanidad-6-Junio-1940-P32",
+      "publicacion": "hispanidad"
+    }
+  ]
+}

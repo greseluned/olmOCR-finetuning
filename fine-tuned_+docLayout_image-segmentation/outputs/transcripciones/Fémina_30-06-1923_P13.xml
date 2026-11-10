@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Metadata>
+    <Creator>olmOCR-finetune / 05_inference.py</Creator>
+  </Metadata>
+  <Page imageFilename="Fémina_30-06-1923_P13.jpg" imageWidth="2479" imageHeight="3508">
+    <ReadingOrder>
+      <OrderedGroup id="ro_main" caption="">
+        <RegionRefIndexed index="0" regionRef="r_000" />
+        <RegionRefIndexed index="1" regionRef="r_001" />
+      </OrderedGroup>
+    </ReadingOrder>
+    <ImageRegion id="r_000" custom="readingOrder {index:0}">
+      <Coords points="560,967 2006,967 2006,3023 560,3023" />
+      <TextEquiv>
+        <Unicode>[Fotografía: descripción]</Unicode>
+      </TextEquiv>
+    </ImageRegion>
+    <TextRegion id="r_001" custom="readingOrder {index:1}">
+      <Coords points="715,3175 1820,3175 1820,3392 715,3392" />
+      <TextEquiv>
+        <Unicode>Sra. Enriqueta M. de Cruzado
+Entusiasta i distinguida colaboradora de nuestra revista.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

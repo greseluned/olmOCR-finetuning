@@ -1,0 +1,245 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+config.py
+
+Configuración común del pipeline olmocr-finetune: rutas del proyecto,
+publicaciones del corpus y su modo de partición, proporciones del split,
+modelo base, parámetros de inferencia y prompts (adaptativos, único y de
+clasificación). Los demás scripts lo importan; no se ejecuta directamente.
+
+Uso:
+    Editar aquí las rutas, las publicaciones, los prompts o los parámetros
+    y volver a lanzar el script del pipeline correspondiente.
+
+Nota:
+    Las claves de PROMPTS y las etiquetas de TIPOS_PAGINA deben coincidir.
+    El corpus se espera en ../corpus/<publicacion>/{jpg,page}/.
+"""
+
+from pathlib import Path
+
+# ══════════════════════════════════════════════════════════════════════════════
+# RUTAS DEL PROYECTO
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Raíz del proyecto (donde está este fichero: olmocr-finetune/)
+ROOT = Path(__file__).resolve().parent
+
+# Corpus externo — al mismo nivel que olmocr-finetune/
+# Estructura:  ../corpus/<publicacion>/jpg/*.jpg
+#              ../corpus/<publicacion>/page/*.xml
+CORPUS_DIR = ROOT.parent / "corpus"
+
+DATASET_DIR = ROOT / "dataset"
+SCRIPTS_DIR = ROOT / "scripts"
+MODELS_DIR  = ROOT / "models"
+OUTPUTS_DIR = ROOT / "outputs/transcripciones"
+
+# Subdirectorios del dataset
+DATASET_TRAIN_DIR      = DATASET_DIR / "train"
+DATASET_VALIDATION_DIR = DATASET_DIR / "validation"
+DATASET_TEST_DIR       = DATASET_DIR / "test"
+
+# JSONL finales por split (el JSONL completo pre-split ya no es necesario)
+JSONL_TRAIN      = DATASET_TRAIN_DIR      / "train.jsonl"
+JSONL_VALIDATION = DATASET_VALIDATION_DIR / "validation.jsonl"
+JSONL_TEST       = DATASET_TEST_DIR       / "test.jsonl"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PUBLICACIONES DEL CORPUS
+# ══════════════════════════════════════════════════════════════════════════════
+# Cada entrada: nombre_carpeta -> comportamiento en el split
+#   'estratificar' : aplica 80-10-10 dentro de esta publicación
+#   'solo_train'   : todo va a train (material insuficiente para dividir)
+#
+# La estructura esperada dentro de cada carpeta es:
+#   corpus/<publicacion>/jpg/<stem>.jpg
+#   corpus/<publicacion>/page/<stem>.xml
+
+PUBLICACIONES = {
+    "accion-libertaria":    "estratificar",
+    "boletín-de-la-cámara": "estratificar",
+    "excelsior":            "estratificar",
+    "fémina":               "estratificar",
+    "filipinas":            "estratificar",
+    "filipinas-ante-europa":"estratificar",
+    "heraldo-de-la-mujer":  "estratificar",
+    "hispanidad":           "estratificar",
+    "la-malasia":           "estratificar",
+    "la-vanguardia":        "estratificar",
+    "semana":               "estratificar",
+    "sorpresas-chicago":    "estratificar",
+    "other":                "solo_train",
+}
+
+# ══════════════════════════════════════════════════════════════════════════════
+# SPLIT DEL DATASET
+# ══════════════════════════════════════════════════════════════════════════════
+
+SPLIT_TRAIN      = 0.80
+SPLIT_VALIDATION = 0.10
+SPLIT_TEST       = 0.10
+
+SPLIT_SEED = 42
+
+# Número mínimo de páginas para poder aplicar el split 80-10-10
+# (necesitamos al menos 1 página en val y 1 en test → mínimo 10 páginas;
+#  con menos se pone todo en train con un aviso)
+SPLIT_MIN_PAGINAS = 10
+
+# ══════════════════════════════════════════════════════════════════════════════
+# MODELO BASE Y FINE-TUNING
+# ══════════════════════════════════════════════════════════════════════════════
+
+MODELO_BASE = "allenai/olmOCR-7B-0225-preview"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# INFERENCIA
+# ══════════════════════════════════════════════════════════════════════════════
+
+INFERENCIA_MODELO_DIR     = MODELO_BASE
+INFERENCIA_MAX_NEW_TOKENS = 4096
+INFERENCIA_DO_SAMPLE      = False
+
+# ══════════════════════════════════════════════════════════════════════════════
+# INSTRUCCIONES DE USUARIO — sistema de prompts adaptativos
+# ══════════════════════════════════════════════════════════════════════════════
+# 02_build_dataset.py selecciona el prompt según los metadatos del PAGE XML:
+# tipo de región (heading, caption, image…), ReadingOrder, fracción de imagen.
+ 
+PROMPTS = {
+ 
+    # ── Página de texto corrido (una sola columna) ───────────────────────────
+    "texto_corrido": (
+        "<image>\n"
+        "Transcribe esta página de prensa histórica en castellano "
+        "(Filipinas, Puerto Rico, República Dominicana, Cuba o España, "
+        "siglos XIX-XX).\n\n"
+        "El texto ocupa toda la anchura de la página sin dividirse en columnas. "
+        "Transcríbelo de arriba a abajo en orden de lectura natural.\n\n"
+        "NORMAS:\n"
+        "- Conserva erratas tipográficas, ortografía de época y puntuación original.\n"
+        "- Texto completamente ilegible → [ilegible]\n"
+        "- Texto parcialmente ilegible → [¿palabra?]\n"
+        "- Fotografías, grabados e ilustraciones → [Fotografía: descripción breve]\n"
+        "- Pies de foto → *[Pie: texto exacto]*\n"
+        "- Ignora marcas de agua diagonales.\n"
+        "- No añadas comentarios ni texto fuera de la transcripción."
+    ),
+ 
+    # ── Página columnar (dos o más columnas en todo el cuerpo) ───────────────
+    "columnar": (
+        "<image>\n"
+        "Transcribe esta página de prensa histórica en castellano "
+        "(Filipinas, Puerto Rico, República Dominicana, Cuba o España, "
+        "siglos XIX-XX) respetando el orden de lectura columna a columna, "
+        "de izquierda a derecha y de arriba a abajo dentro de cada columna.\n\n"
+        "NORMAS:\n"
+        "- Usa '---COLUMNA N---' para separar columnas (N = número, empezando en 1).\n"
+        "- Conserva erratas tipográficas, ortografía de época y puntuación original.\n"
+        "- Texto completamente ilegible → [ilegible]\n"
+        "- Texto parcialmente ilegible → [¿palabra?]\n"
+        "- Fotografías, grabados e ilustraciones → [Fotografía: descripción breve]\n"
+        "- Pies de foto → *[Pie: texto exacto]*\n"
+        "- Ignora marcas de agua diagonales.\n"
+        "- No añadas comentarios ni texto fuera de la transcripción."
+    ),
+ 
+    # ── Página mixta (cabecera a ancho completo + cuerpo columnar) ───────────
+    "mixta": (
+        "<image>\n"
+        "Transcribe esta página de prensa histórica en castellano "
+        "(Filipinas, Puerto Rico, República Dominicana, Cuba o España, "
+        "siglos XIX-XX).\n\n"
+        "La página combina bloques que ocupan toda la anchura (cabecera, "
+        "título principal, sumario…) con un cuerpo dividido en columnas.\n\n"
+        "NORMAS DE ESTRUCTURA:\n"
+        "- Transcribe primero los bloques de cabecera en orden de arriba a abajo, "
+        "  sin marcador de columna.\n"
+        "- A continuación transcribe el cuerpo columnar usando '---COLUMNA N---' "
+        "  (N empezando en 1), de izquierda a derecha y de arriba a abajo "
+        "  dentro de cada columna.\n\n"
+        "NORMAS GENERALES:\n"
+        "- Conserva erratas tipográficas, ortografía de época y puntuación original.\n"
+        "- Texto completamente ilegible → [ilegible]\n"
+        "- Texto parcialmente ilegible → [¿palabra?]\n"
+        "- Fotografías, grabados e ilustraciones → [Fotografía: descripción breve]\n"
+        "- Pies de foto → *[Pie: texto exacto]*\n"
+        "- Ignora marcas de agua diagonales.\n"
+        "- No añadas comentarios ni texto fuera de la transcripción."
+    ),
+ 
+    # ── Página dominada por imágenes ─────────────────────────────────────────
+    "imagen_dominante": (
+        "<image>\n"
+        "Esta página de prensa histórica en castellano "
+        "(Filipinas, Puerto Rico, República Dominicana, Cuba o España, "
+        "siglos XIX-XX) está dominada por fotografías, grabados o ilustraciones.\n\n"
+        "Transcribe en este orden:\n"
+        "1. Títulos o encabezados visibles.\n"
+        "2. Para cada imagen, una descripción de su contenido:\n"
+        "   [Fotografía: descripción del contenido visual, personas, lugar, acción]\n"
+        "3. Pies de foto: *[Pie: texto exacto]*\n"
+        "4. Créditos de fotógrafo o grabador.\n\n"
+        "Si no hay ningún texto transcribible responde únicamente:\n"
+        "[PÁGINA DE IMAGEN - sin texto transcribible]\n\n"
+        "NORMAS:\n"
+        "- Conserva la puntuación y ortografía originales.\n"
+        "- Texto ilegible → [ilegible]\n"
+        "- No añadas comentarios ni texto fuera de la transcripción."
+    ),
+ 
+    # ── Portada ───────────────────────────────────────────────────────────────
+    "portada": (
+        "<image>\n"
+        "Esta es la portada de una publicación de prensa histórica en castellano "
+        "(Filipinas, Puerto Rico, República Dominicana, Cuba o España, "
+        "siglos XIX-XX). El texto visible puede ser escaso.\n\n"
+        "Transcribe en este orden:\n"
+        "1. Nombre de la publicación (masthead / cabecera).\n"
+        "2. Subtítulo o lema de la revista / periódico.\n"
+        "3. Fecha, número, año, tomo y precio si aparecen.\n"
+        "4. Descripción de la imagen central o ilustración principal:\n"
+        "   [Fotografía: descripción detallada del sujeto y composición]\n"
+        "5. Pie de imagen si existe: *[Pie: texto exacto]*\n"
+        "6. Cualquier otro texto en los márgenes, esquinas o filetes.\n\n"
+        "No transcribas los elementos puramente decorativos (cenefas, orlas).\n\n"
+        "NORMAS:\n"
+        "- Conserva erratas tipográficas, ortografía de época y puntuación original.\n"
+        "- Texto ilegible → [ilegible] | Parcialmente ilegible → [¿palabra?]\n"
+        "- No añadas comentarios ni texto fuera de la transcripción."
+    ),
+}
+ 
+# Alias de compatibilidad para scripts que aún usen INSTRUCCION_USUARIO
+INSTRUCCION_USUARIO = PROMPTS["mixta"]
+ 
+# ══════════════════════════════════════════════════════════════════════════════
+# INFERENCIA SIN CLASIFICACIÓN POR XML / docLayout
+# ══════════════════════════════════════════════════════════════════════════════
+ 
+# Prompt único para el modo --sin-clasificar (05_inference.py) y
+# --modo-prompt unico (04_inference_baseline.py): el mismo texto para todas
+# las páginas, sin clasificación previa. Puedes cambiarlo sin tocar
+# INSTRUCCION_USUARIO.
+PROMPT_UNICO = PROMPTS["mixta"]
+ 
+# Etiquetas de tipo de página que puede devolver el clasificador. Deben
+# coincidir con las claves de PROMPTS.
+TIPOS_PAGINA = ["portada", "texto_corrido", "columnar", "mixta", "imagen_dominante"]
+ 
+# Prompt de la primera pasada del baseline (--modo-prompt auto): olmOCR ve la
+# imagen y devuelve únicamente la etiqueta del tipo de página. Después se
+# transcribe con config.PROMPTS[tipo].
+PROMPT_CLASIFICADOR = (
+    "Observa esta página de prensa histórica en castellano y clasifícala "
+    "según su maquetación en UNA de estas categorías:\n\n"
+    "- portada: portada de una publicación (cabecera, fecha, ilustración central).\n"
+    "- texto_corrido: texto a toda la anchura de la página, sin columnas.\n"
+    "- columnar: cuerpo de texto dividido en dos o más columnas.\n"
+    "- mixta: bloques a ancho completo (cabecera, título, sumario) combinados "
+    "con un cuerpo en columnas.\n"
+    "- imagen_dominante: página dominada por fotografías, grabados o ilustraciones.\n\n"
+    "Responde únicamente con la etiqueta de la categoría, sin explicaciones."
+)

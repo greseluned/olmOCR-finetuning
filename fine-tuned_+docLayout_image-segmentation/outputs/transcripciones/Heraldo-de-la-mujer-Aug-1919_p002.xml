@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Metadata>
+    <Creator>olmOCR-finetune / 05_inference.py</Creator>
+  </Metadata>
+  <Page imageFilename="Heraldo-de-la-mujer-Aug-1919_p002.jpg" imageWidth="2479" imageHeight="3508">
+    <ReadingOrder>
+      <OrderedGroup id="ro_main" caption="">
+        <RegionRefIndexed index="0" regionRef="r_000" />
+        <RegionRefIndexed index="1" regionRef="r_001" />
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="r_000" custom="readingOrder {index:0}">
+      <Coords points="388,1506 2272,1506 2272,2463 388,2463" />
+      <TextEquiv>
+        <Unicode>ARTICULOS QUE SE RECOMIENDAN POR SI SOLOS
+Trajes, Faldas, Kimonas, Blusas, Batas, Abanicos,
+Sombrillas, Sombreros elegantísimos, Velos
+para la cara, Guantes, Cintas, Encajes, Bordados,
+Adornos de todas clases, Camisas de hilo
+españolas, Corsets, Pañuelos,
+TELAS FINAS DE SEDA Y ALGODON,
+OBJETOS PARA REGALO
+TODO NUEVO, PRIMOROSO,
+TODO CHIC, TODO PRECIOSO,
+VENGA USTED Y LO VERÁ</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_001" custom="readingOrder {index:1}">
+      <Coords points="379,2533 2253,2533 2253,3008 379,3008" />
+      <TextEquiv>
+        <Unicode>HERALDO DE LA MUJER", es el periódico femenino por excelencia. El visita los
+hogares de las mujeres más cultas, y de los hombres más ilustrados. Toda puertorriqueña
+debe ser suscriptora del periódico que coadyuva a la cultura de la mujer y defiende sus de¬
+rechos.
+Es deber de la mujer moderna ilustrarse y vivir con su época y con su siglo. Y es deber
+del hombre ayudarla en tan nobles empeños.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

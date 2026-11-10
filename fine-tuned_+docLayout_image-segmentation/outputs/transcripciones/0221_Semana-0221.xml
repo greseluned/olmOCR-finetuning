@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Metadata>
+    <Creator>olmOCR-finetune / 05_inference.py</Creator>
+  </Metadata>
+  <Page imageFilename="0221_Semana-0221.jpg" imageWidth="2478" imageHeight="3506">
+    <ReadingOrder>
+      <OrderedGroup id="ro_main" caption="">
+        <RegionRefIndexed index="0" regionRef="r_000" />
+        <RegionRefIndexed index="1" regionRef="r_001" />
+        <RegionRefIndexed index="2" regionRef="r_002" />
+        <RegionRefIndexed index="3" regionRef="r_003" />
+        <RegionRefIndexed index="4" regionRef="r_004" />
+        <RegionRefIndexed index="5" regionRef="r_005" />
+        <RegionRefIndexed index="6" regionRef="r_006" />
+        <RegionRefIndexed index="7" regionRef="r_007" />
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="r_000" custom="readingOrder {index:0}">
+      <Coords points="67,94 1517,94 1517,530 67,530" />
+      <TextEquiv>
+        <Unicode>SEMANA</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_001" custom="readingOrder {index:1}">
+      <Coords points="1583,303 2158,303 2158,439 1583,439" />
+      <TextEquiv>
+        <Unicode>Vol. I Num. 24</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_002" custom="readingOrder {index:2}">
+      <Coords points="1593,307 2152,307 2152,437 1593,437" />
+      <TextEquiv>
+        <Unicode>Vol. I Num. 24</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_003" custom="readingOrder {index:3}">
+      <Coords points="189,525 1565,525 1565,655 189,655" />
+      <TextEquiv>
+        <Unicode>REVISTA ILUSTRADA HISPANO-FILIPINA</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_004" custom="readingOrder {index:4}">
+      <Coords points="628,983 1883,983 1883,2528 628,2528" />
+      <TextEquiv>
+        <Unicode>P. M.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <ImageRegion id="r_005" custom="readingOrder {index:5}">
+      <Coords points="628,983 1883,983 1883,2528 628,2528" />
+      <TextEquiv>
+        <Unicode>[Fotografía: descripción]</Unicode>
+      </TextEquiv>
+    </ImageRegion>
+    <TextRegion id="r_006" custom="readingOrder {index:6}">
+      <Coords points="654,2539 1871,2539 1871,2675 654,2675" />
+      <TextEquiv>
+        <Unicode>DR. ANGEL DE BLAS, O. P.
+Rector Magnífico de la Universidad Católica de Filipinas</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_007" custom="readingOrder {index:7}">
+      <Coords points="103,3330 819,3330 819,3396 103,3396" />
+      <TextEquiv>
+        <Unicode>Manila, 2 Junio, 1949</Unicode>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

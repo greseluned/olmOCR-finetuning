@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Metadata>
+    <Creator>olmOCR-finetune / 05_inference.py</Creator>
+  </Metadata>
+  <Page imageFilename="Fémina_04-07-1922_P11.jpg" imageWidth="2479" imageHeight="3508">
+    <ReadingOrder>
+      <OrderedGroup id="ro_main" caption="">
+        <RegionRefIndexed index="0" regionRef="r_000" />
+        <RegionRefIndexed index="1" regionRef="r_001" />
+        <RegionRefIndexed index="2" regionRef="r_002" />
+        <RegionRefIndexed index="3" regionRef="r_003" />
+        <RegionRefIndexed index="4" regionRef="r_004" />
+        <RegionRefIndexed index="5" regionRef="r_005" />
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="r_000" custom="readingOrder {index:0}">
+      <Coords points="346,260 2136,260 2136,756 346,756" />
+      <TextEquiv>
+        <Unicode>Fémina
+Revista Galante y de Intereses Generales.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_001" custom="readingOrder {index:1}">
+      <Coords points="470,864 1909,864 1909,2079 470,2079" />
+      <TextEquiv>
+        <Unicode>SUMARIO:
+Perfeccionando el Hogar,
+La Canción del Bosque,
+La Viejecita,
+Voz de Aliento,
+Loreley,
+Canción Bohemia,
+Sublime Amor,
+Mi Raza,
+Romántica,
+Editorial
+Evangelina Rodríguez.
+Manuel E. Suncar.
+M. L. Angelis de Canino.
+Armando Oscar.
+Patín Maceo.
+Petronila A. Gómez.
+B. Portela Alvarez.
+José Martinez Conde.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_002" custom="readingOrder {index:2}">
+      <Coords points="527,1027 1203,1027 1203,2082 527,2082" />
+      <TextEquiv>
+        <Unicode>Perfeccionando el Hogar,
+La Canción del Bosque,
+La Viejecita,
+Voz de Aliento,
+Loreley,
+Canción Bohemia,
+Sublime Amor,
+Mi Raza,
+Romántica,</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_003" custom="readingOrder {index:3}">
+      <Coords points="1211,1119 2009,1119 2009,2142 1211,2142" />
+      <TextEquiv>
+        <Unicode>Editorial.
+Evangelina Rodriguez.
+Manuel E. Suncar.
+M. L. Angelis de Canino.
+Armando Oscar.
+Patín Maceo.
+Petronila A. Gómez.
+B. Portela Alvarez.
+José Martinez Conde.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_004" custom="readingOrder {index:4}">
+      <Coords points="496,2173 1898,2173 1898,2879 496,2879" />
+      <TextEquiv>
+        <Unicode>POR EL MUNDO SOCIAL, CRONICA GALANTE
+y
+FOTOGRABADOS.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_005" custom="readingOrder {index:5}">
+      <Coords points="690,2925 1883,2925 1883,3067 690,3067" />
+      <TextEquiv>
+        <Unicode>SAN PEDRO DE MACORIS, R. D.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

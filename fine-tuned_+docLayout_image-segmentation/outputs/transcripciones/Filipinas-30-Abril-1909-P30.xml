@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Metadata>
+    <Creator>olmOCR-finetune / 05_inference.py</Creator>
+  </Metadata>
+  <Page imageFilename="Filipinas-30-Abril-1909-P30.jpg" imageWidth="1778" imageHeight="2729">
+    <ReadingOrder>
+      <OrderedGroup id="ro_main" caption="">
+        <RegionRefIndexed index="0" regionRef="r_000" />
+        <RegionRefIndexed index="1" regionRef="r_001" />
+        <RegionRefIndexed index="2" regionRef="r_002" />
+        <RegionRefIndexed index="3" regionRef="r_003" />
+        <RegionRefIndexed index="4" regionRef="r_004" />
+        <RegionRefIndexed index="5" regionRef="r_005" />
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="r_000" custom="readingOrder {index:0}">
+      <Coords points="131,182 1576,182 1576,1274 131,1274" />
+      <TextEquiv>
+        <Unicode>MAQUINAS
+PARA COSER
+MAQUINAS
+PARA BORDAR
+PAGOS SEMANALES
+DESCUENTO POR
+PAGO AL CONTADO
+33 Escolta
+Manila</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_001" custom="readingOrder {index:1}">
+      <Coords points="72,271 204,271 204,1260 72,1260" />
+      <TextEquiv>
+        <Unicode>FLEUR DE LIS</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_002" custom="readingOrder {index:2}">
+      <Coords points="114,1315 1568,1315 1568,1879 114,1879" />
+      <TextEquiv>
+        <Unicode>CAMAS, CAMAS
+DE
+HIERRO Y METAL
+Si compra Vd. una cama que sea modelo QUIROGA son las más bonitas, fuertes y baratas.
+Fábrica y despacho Crespo, 22 y 24.
+Quiapo—Manila—P. O. Box 200.—Tel. 1495.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_003" custom="readingOrder {index:3}">
+      <Coords points="85,1922 732,1922 732,2417 85,2417" />
+      <TextEquiv>
+        <Unicode>LA PASIGUEÑA
+VILLALOBOS 38, QUIAPO
+MANILA, I. F.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_004" custom="readingOrder {index:4}">
+      <Coords points="91,1927 730,1927 730,2417 91,2417" />
+      <TextEquiv>
+        <Unicode>LA PASIGUEÑA
+VILLALOBOS 38, QUIAPO
+MANILA, I. F.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r_005" custom="readingOrder {index:5}">
+      <Coords points="703,1920 1589,1920 1589,2397 703,2397" />
+      <TextEquiv>
+        <Unicode>Chineleria y Zapateria
+ESMERO,
+PRONTITUD
+Y ECONOMIA</Unicode>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>
