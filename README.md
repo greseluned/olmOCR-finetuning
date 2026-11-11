@@ -231,8 +231,9 @@ Trabajo desarrollado en el marco del proyecto GRESEL-UNED «Narrativas poscoloni
 
 ## Referencias
 
+- Allen Institute for AI. (2025). olmOCR-7B-0225-preview [Modelo de lenguaje de visión]. Hugging Face. https://huggingface.co/allenai/olmOCR-7B-0225-preview
+- Garcia-Serrano, A. M., López Adrados, H., & Zabala Ortiz, B. (2026). Prensa histórica: Gold Standard con 9 números de "Acción Libertaria" (V1) (Version V1) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.21076010
+- Garcia-Serrano, A. M., Torrente Gómez de la Venta, C., Martín Piquero, A., López Adrados, H., Linda Gaia, Z., & Alonso Aparicio, S. (2026). Gold Standard de "Semana, 1949" prensa histórica (V1) (Version V1) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.21245557
 - Hiyouga. (2024). LLaMA-Factory: Unified Efficient Fine-Tuning of 100+ Language Models. https://github.com/hiyouga/LLaMA-Factory
-- Lu, L. et al. (2024). olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models. https://huggingface.co/allenai/olmOCR-7B-0225-preview
 - Macicior-Mitxelena, J. y García-Serrano, A. (2026). From Paper to Pixel: Experimental Framework for Access to Historical Spanish Documents. https://github.com/jaionemacicior/from-paper-to-pixel
-- READ-COOP SCE. (2026). Transkribus. https://transkribus.eu/
-- Wang, P. et al. (2024). Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution. https://arxiv.org/abs/2409.12191
+- Zhao, Z., Kang, H., Wang, B., & He, C. (2024). Doclayout-yolo: Enhancing document layout analysis through diverse synthetic data and global-to-local adaptive perception. arXiv preprint arXiv:2410.12628. https://arxiv.org/abs/2410.12628
