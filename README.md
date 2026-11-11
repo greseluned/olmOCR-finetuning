@@ -190,6 +190,8 @@ Workflows 2 y 3: `max_seq_len` 4096, `image_max_pixels` 1 003 520, evaluación y
 
 ## Evaluación
 
+En la inferencia de todos los modelos se usó --max-ancho 1500 para evitar errores de memoria, ya que las páginas de Hispanidad y Filipinas ante Europa del test set tienen resoluciones muy altas. En los workflows 1–3 limita el ancho de la página completa; en el workflow 4 limita el ancho de cada recorte de región antes de escalar.
+
 `evaluate.py` calcula CER y WER por página y los agrega (total, macro y micro) sobre todo el test y por publicación; con docLayout añade métricas de cajas (IoU, P/R/F1, EMR, composite).
 
 ```bash
