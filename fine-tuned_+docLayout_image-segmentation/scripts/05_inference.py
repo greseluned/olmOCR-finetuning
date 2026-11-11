@@ -446,19 +446,28 @@ def guardar_checkpoint(ruta: Path, procesadas: set[str]) -> None:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def _cer_aproximado(referencia: str, prediccion: str) -> float:
-    ref  = referencia.strip()[:5000]
-    pred = prediccion.strip()[:5000]
+    ref = referencia.strip()
+    pred = prediccion.strip()
+
     if not ref:
         return 0.0 if not pred else 1.0
+
     m, n = len(ref), len(pred)
-    dp   = list(range(n + 1))
+    dp = list(range(n + 1))
+
     for i in range(1, m + 1):
         prev = dp[:]
         dp[0] = i
+
         for j in range(1, n + 1):
-            dp[j] = prev[j-1] if ref[i-1] == pred[j-1] else \
-                    1 + min(prev[j], dp[j-1], prev[j-1])
-    return dp[n] / max(m, n)
+            coste = 0 if ref[i - 1] == pred[j - 1] else 1
+            dp[j] = min(
+                prev[j] + 1,
+                dp[j - 1] + 1,
+                prev[j - 1] + coste,
+            )
+
+    return dp[n] / m
 
 
 # ══════════════════════════════════════════════════════════════════════════════
