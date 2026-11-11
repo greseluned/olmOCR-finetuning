@@ -1,6 +1,6 @@
 # olmOCR-finetuning
 
-Fine-tuning mediante QLoRA de [olmOCR-7B-0225-preview](https://huggingface.co/allenai/olmOCR-7B-0225-preview) para la transcripción automática de prensa histórica en español de los siglos XIX y XX (Asia, España y el Caribe hispánico).
+Fine-tuning mediante QLoRA de [olmOCR-7B-0225-preview](https://huggingface.co/allenai/olmOCR-7B-0225-preview) para la transcripción automática de prensa histórica prensa en lengua española publicada entre 1850 y 1945 (Asia, España y el Caribe hispánico).
 
 El modelo base se ve limitado por la tipografía de época, el diseño columnar complejo, la mezcla de imágenes y texto y las convenciones ortográficas no estándar. El repositorio compara **cuatro workflows** que se diferencian en (a) quién decide el tipo de página o el layout y (b) si olmOCR transcribe páginas completas o regiones recortadas.
 
