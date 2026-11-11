@@ -49,8 +49,7 @@ Doce publicaciones más una miscelánea (solo train), con partición estratifica
 | *Sorpresas Chicago* | 80-10-10 |
 | Miscelánea (*other*) | solo train |
 
-Las publicaciones marcadas como `solo_train` tienen material insuficiente para dividir en splits (< 10 páginas válidas). El split se aplica **dentro de cada publicación** para garantizar que todos los títulos están representados en los conjuntos de validación y test, y se shufflea al final para que el orden de entrenamiento mezcle publicaciones.
-
+Las publicaciones marcadas como `solo_train` tienen material insuficiente para dividir en splits (< 10 páginas válidas).
 
 Todos los modelos entrenados (olmOCR y docLayout-YOLO) leen la misma partición de `split.json` (`{stem: "train"|"val"|"test"}`), de modo que ningún modelo ve en entrenamiento las páginas de test de otro y los cuatro workflows son comparables. Los stems deben ser únicos en todo el corpus.
 
