@@ -208,6 +208,10 @@ python evaluate.py --jsonl ruta/test.jsonl --root ruta/olmOCR-finetuning
 
 El fine-tuning mejora claramente sobre el modelo base. Añadir docLayout no aporta mejora en OCR y la segmentación en regiones empeora los resultados; las cajas de docLayout tienen margen de mejora, sobre todo en precisión de `text` y detección de `graphic`.
 
+## Hardware
+ 
+Todos los experimentos (entrenamiento, inferencia y evaluación) se ejecutaron en un portátil **MSI Vector 16 HX AI A2XW** con procesador **Intel Core Ultra 9** y GPU **NVIDIA GeForce RTX 5090 Laptop**, bajo Windows.
+
 ## Notas de entorno (Windows)
 
 - **PyTorch ≥ 2.6:** los scripts de docLayout fijan `TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD=1` para cargar sus checkpoints (solo seguro con pesos de confianza).
