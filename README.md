@@ -222,7 +222,9 @@ Todos los experimentos (entrenamiento, inferencia y evaluación) se ejecutaron e
 
 ## Licencia
 
-[Creative Commons Atribución-NoComercial 4.0 Internacional (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+El código, la documentación, las anotaciones y los resultados de este repositorio se distribuyen bajo la licencia [Creative Commons Atribución-NoComercial 4.0 Internacional (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+
+olmOCR y DocLayout-YOLO conservan sus propias licencias: [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). Esta licencia no las sustituye ni las modifica.
 
 ## Autoría
 
